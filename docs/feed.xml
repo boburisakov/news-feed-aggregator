@@ -1,0 +1,1290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Combined Security &amp; Geopolitics Feed</title>
+    <link>https://github.com/</link>
+    <description>50+ manbadan avtomatik yig'ilgan xavfsizlik, mudofaa, geosiyosat va kiberxavfsizlik yangiliklari</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Jul 2026 20:25:41 +0000</lastBuildDate>
+    <item>
+      <title>The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)</title>
+      <link>https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/</link>
+      <description>&lt;p&gt;Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/"&gt;The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/</guid>
+    </item>
+    <item>
+      <title>GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration</title>
+      <link>https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/</link>
+      <description>Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.</description>
+      <guid isPermaLink="false">https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/</guid>
+    </item>
+    <item>
+      <title>HelloNet campaign — new malicious modules launched through the ViPNet update system</title>
+      <link>https://securelist.com/tr/hellonet-vipnet/120700/</link>
+      <description>We identified targeted infection attempts against large Russian organizations using the ViPNet update system (a software suite for creating secure networks).</description>
+      <guid isPermaLink="false">https://securelist.com/tr/hellonet-vipnet/120700/</guid>
+    </item>
+    <item>
+      <title>How to Make an Invisible Drone</title>
+      <link>https://spectrum.ieee.org/invisible-spinning-drone</link>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/low-visibility-drone-flying-in-front-of-an-office-plant.jpg?id=67480624&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C62%2C0%2C63" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, but it’s also the way that they look in flight: With uncannily linear movements and an even less canny ability to hover perfectly still, they tend to draw the eye as affronts to nature.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;In a paper presented this week at &lt;a href="https://roboticsconference.org/" target="_blank"&gt;Robotics Science and Systems 2026&lt;/a&gt; in Sydney, roboticists from Northwestern University, Evanston, Ill., demonstrated a drone called Phantom Twist that is essentially invisible to humans, being an order of magnitude more difficult to see in flight than a typical quadrotor. They accomplished this with the aid of computational design, and while the resulting hardware is, I would argue, also an order of magnitude more of an affront to nature than a typical quadrotor represents, it’s pretty amazing how well it works.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-caption"&gt;Phantom Twist spins so fast, it’s practically invisible.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Michael Rubenstein/Northwestern University&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;The trick here is easy to see, even if the drone isn’t. By spinning in flight at between 15 and 25 hertz, Phantom Twist takes advantage of humans’ decidedly mediocre visual system to turn a solid spinning object into an opaque smear. Human eyes take some amount of time (typically about 100 milliseconds) to integrate what we see before sending the full scene off to our brains for processing. Moving objects can cause problems for this system, because if the movement is fast enough, our eyes are forced to average that motion across the scene, combining it with whatever is in the background and resulting in a transparent blur. This effect is called persistence of vision. For something that spins like Phantom Twist, that motion blur comes from the drone’s rapid rotation, and it works because most of the drone is cleverly designed to be empty space.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Drones that spin in flight are nothing new—we’ve covered a bunch of them in the past, including &lt;a href="https://www.modlabupenn.org/piccolissimo/" target="_blank"&gt;Picolissimo&lt;/a&gt; and any number of &lt;a href="https://spectrum.ieee.org/spinning-drone" target="_self"&gt;samara&lt;/a&gt; &lt;a href="https://spectrum.ieee.org/foldable-monocopter-drone" target="_self"&gt;drones&lt;/a&gt; inspired by the spinning flight of maple seeds. What makes Phantom Twist unique, and also very odd, is that the design was computationally optimized for low visibility. &lt;/p&gt;&lt;h2&gt;Controlling how drones like this fly&lt;/h2&gt;&lt;p&gt;Before we get into that, though, a quick note about how drones like this can even fly controllably, because it’s not at all obvious. With just a single motor and no control surfaces, the only possible control input is through the motor itself, and by pulsing the motor speed up or down at just the right time during each rotation, the drone can translate in any direction. Altitude control comes from changing overall motor thrust, and the drone‘s spinning nature makes it passively stable.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="A minimalist drone made of a few thin rods, wires and a miniature circuit board." class="rm-shortcode" id="b2caf" src="https://spectrum.ieee.org/media-library/a-minimalist-drone-made-of-a-few-thin-rods-wires-and-a-miniature-circuit-board.jpg?id=67480639&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Carbon fiber rods connect batteries, a controller, some counterweights, and a motor and propeller. The research robot also includes optical tracking tags.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Michael Rubenstein/Northwestern University&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The bits that you need for this kind of drone include the motor and propeller, a couple of batteries, a controller, some counterweights (which could be replaced with more batteries or payload), 0.8-mm carbon fiber rods to tie it all together, and a connector for the handheld launcher that gets the whole thing up to speed. The actual &lt;em&gt;&lt;em&gt;arrangement&lt;/em&gt;&lt;/em&gt; of these components is surprisingly flexible, and that’s where the invisibility comes in. &lt;/p&gt;&lt;p&gt;“The design space is high dimensional,” explains Northwestern’s &lt;a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/rubenstein-michael.html" target="_blank"&gt;Michael Rubenstein&lt;/a&gt;. “It’s very difficult for a human to reason through all the trade-offs between the physical constraints required for stable flight and the visual appearance of the spinning drone, and I don’t think we would have easily arrived at this low-visibility design ourselves.”&lt;/p&gt;&lt;p&gt;The visibility (or not) of Phantom Twist is primarily driven by the extent to which different components line up with each other from the perspective of someone looking at the drone. The more components that line up with each other as the drone flies, the less background you see through the spinning drone, and the more visible the drone becomes. Because you might be looking at the drone from a number of different angles, and also because the drone has to be stable enough for controlled flight, there are a bunch of different things that need to be optimized all at once, which is why computational design is effective here.&lt;/p&gt;&lt;p&gt;Phantom Twist’s final design was generated using an iterative optimizer which had a goal of minimizing a metric called &lt;a href="https://eureka.patsnap.com/article/what-is-lpips-and-how-it-measures-perceptual-similarity" target="_blank"&gt;learned perceptual image patch similarity&lt;/a&gt;, or LPIPS, while making sure that the design could still physically work. LPIPS is the difference between two images: a background image, and a background image with an overlay of the simulated spinning drone. The smaller that difference is, the more invisible that design is. It’s tricky for a human to consider all of the variables at once, but Rubenstein says that the final design does make intuitive sense, because “the automated pipeline prefers placements where components don’t visually overlap as it spins, or where the components are too close to the center of rotation.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Two variations of minimalist drones made from a few thin rods, wires and a miniature circuit board. Both are barely visible when in-flight." class="rm-shortcode" id="394e6" src="https://spectrum.ieee.org/media-library/two-variations-of-minimalist-drones-made-from-a-few-thin-rods-wires-and-a-miniature-circuit-board-both-are-barely-visible-when.jpg?id=67480677&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Two iterations of Phantom Twist drones are shown with their handheld launching mechanisms. The better-optimized version [bottom row] relocates the launcher interface to remove components that are too close to the central axis, making them more visible.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Michael Rubenstein/Northwestern University&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Out of a starting set of around 20,000 feasible Phantom Twist configurations, the optimized design (the one that you see or don’t see in the pictures and videos) has a LPIPS score of 0.0104. A human-designed Phantom Twist is about twice as visible, with a LPIPS score of around 0.2, and a conventional quadrotor (of the same size) would be over 10 times more visible. And there’s still a bit more optimization that could be done with the electrical wiring as well as increasing the baseline transparency of the components themselves.&lt;/p&gt;&lt;p&gt;Phantom Twist is currently controlled using an optical tracking system, which means that it’s not yet capable of flying outside of a controlled environment. But Rubenstein has built &lt;a href="https://www.roboticsproceedings.org/rss20/p102.pdf" target="_blank"&gt;other drones along similar principles&lt;/a&gt; in the past, which have successfully flown outside, and he’s optimistic about using those techniques to break Phantom Twist out of the lab. The spinning behavior might even enable some useful sensing capabilities, he says. “An interesting possibility is mounting a camera on the spinning body. As the vehicle rotates, it could capture imagery in every direction, effectively creating a 360-degree view of its surroundings that could be used for onboard navigation and control.”&lt;/p&gt;&lt;p&gt;As for what a drone like Phantom Twist could be used for—assuming that the sound can be mitigated somewhat (and there are &lt;a href="https://spectrum.ieee.org/pennysized-ionocraft-flies-with-no-moving-parts" target="_self"&gt;potential approaches to making that happen&lt;/a&gt;), a stealthy microdrone could do all sorts of things with covert surveillance being the most obvious application. For his part, Rubenstein says that he’s personally excited about the potential for watching wildlife, “where a less-intrusive drone could observe animals while minimizing its impact on their natural behavior.” The elephants in particular &lt;a href="https://spectrum.ieee.org/research-proves-drones-sound-like-bees-which-is-good-news-for-elephants" target="_self"&gt;would certainly appreciate that&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;For a deeper dive into all the particulars of this project, read the paper: &lt;a href="https://arxiv.org/html/2605.11296v1" target="_blank"&gt;&lt;em&gt;&lt;em&gt;Computational Design of a Low-Visibility UAV Using a Human-Aligned Perceptual Metric&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;, by Jingxian Wang, Chen Yu, David Matthews, Emma Alexander, Sam Kriegman, and Michael Rubenstein from Northwestern University, which is being presented this week at &lt;a href="https://roboticsconference.org/" target="_blank"&gt;RSS 2026 in Sydney&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://spectrum.ieee.org/invisible-spinning-drone</guid>
+    </item>
+    <item>
+      <title>Iraqi Prime Minister Zaidi meets President Trump, Secretary Hegseth in Washington</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/iraqi-prime-minister-zaidi-meets-president-trump-secretary-hegseth-in-washington.php</link>
+      <description>&lt;p&gt;Iraqi Prime Minister Ali al Zaidi met US President Donald Trump and other US officials during his first official visit to Washington since taking office. The talks focused on security cooperation, investment, and Iraq's plans to bring weapons held by Iranian-backed militias under state control. While Trump praised Zaidi's leadership, the visit also drew criticism from pro-Iranian factions in Iraq and skepticism from some US lawmakers. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/iraqi-prime-minister-zaidi-meets-president-trump-secretary-hegseth-in-washington.php"&gt;Iraqi Prime Minister Zaidi meets President Trump, Secretary Hegseth in Washington&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/iraqi-prime-minister-zaidi-meets-president-trump-secretary-hegseth-in-washington.php</guid>
+    </item>
+    <item>
+      <title>Iraq sanctions individuals and entities tied to Lebanese Hezbollah</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/iraq-sanctions-individuals-and-entities-tied-to-lebanese-hezbollah.php</link>
+      <description>&lt;p&gt;Iraq’s Ministry of Finance issued an order imposing sanctions on Hezbollah-linked individuals and entities that mirrors US designations from March and June. Iraqi Prime Minister Ali al Zaidi is currently visiting the United States, where he hopes to garner support for an expanded economic partnership and prove his government’s commitment to countering Iranian influence.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/iraq-sanctions-individuals-and-entities-tied-to-lebanese-hezbollah.php"&gt;Iraq sanctions individuals and entities tied to Lebanese Hezbollah&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/iraq-sanctions-individuals-and-entities-tied-to-lebanese-hezbollah.php</guid>
+    </item>
+    <item>
+      <title>AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report</title>
+      <link>https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/</link>
+      <description>&lt;p&gt;Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/"&gt;AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/</guid>
+    </item>
+    <item>
+      <title>ISC Stormcast For Friday, July 17th, 2026 https://isc.sans.edu/podcastdetail/10012, (Fri, Jul 17th)</title>
+      <link>https://isc.sans.edu/diary/rss/33162</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33162</guid>
+    </item>
+    <item>
+      <title>America’s Trillion-Dollar Failure</title>
+      <link>https://www.foreignaffairs.com/united-states/americas-trillion-dollar-failure-ro-khanna</link>
+      <description>The Pentagon is broken, but Congress can fix it.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-trillion-dollar-failure-ro-khanna</guid>
+    </item>
+    <item>
+      <title>A Dangerous Game in the Arctic</title>
+      <link>https://www.foreignaffairs.com/arctic-antarctic/dangerous-game-arctic</link>
+      <description>Trump’s demands could derail progress on allied defense.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/arctic-antarctic/dangerous-game-arctic</guid>
+    </item>
+    <item>
+      <title>Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy</title>
+      <link>https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/</link>
+      <description>&lt;p&gt;A technical analysis of three chained zero-day vulnerabilities in Siemens ROX II OT switches that allow privilege escalation and persistent root access.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/"&gt;Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/</guid>
+    </item>
+    <item>
+      <title>Russia’s ‘Banderol’ low-cost cruise missile officially breaks cover</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/russias-banderol-low-cost-cruise-missile-officially-breaks-cover.php</link>
+      <description>&lt;p&gt;Moscow has now officially acknowledged the existence of its new Banderol low-cost cruise missile, which has seen growing action in Ukraine in recent months.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/russias-banderol-low-cost-cruise-missile-officially-breaks-cover.php"&gt;Russia’s ‘Banderol’ low-cost cruise missile officially breaks cover&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/russias-banderol-low-cost-cruise-missile-officially-breaks-cover.php</guid>
+    </item>
+    <item>
+      <title>Deadly earthquakes overwhelm Venezuela’s emergency response, stall political transition</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/deadly-earthquakes-overwhelm-venezuelas-emergency-response-stall-political-transition.php</link>
+      <description>&lt;p&gt;Two earthquakes that hit north-central Venezuela on June 24 have killed at least 4,829 people, injured 16,740, and displaced approximately 18,000, according to government figures. The disaster has overwhelmed Venezuela’s emergency services and slowed political developments that had gained momentum following the American capture of former President Nicolás Maduro in January.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/deadly-earthquakes-overwhelm-venezuelas-emergency-response-stall-political-transition.php"&gt;Deadly earthquakes overwhelm Venezuela’s emergency response, stall political transition&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/deadly-earthquakes-overwhelm-venezuelas-emergency-response-stall-political-transition.php</guid>
+    </item>
+    <item>
+      <title>Video Friday: Your Robot Surgeon Will See You Now</title>
+      <link>https://spectrum.ieee.org/video-friday-robotic-surgery</link>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-humanoid-robots-perform-a-surgical-procedure-on-a-patient-in-a-dark-lab.png?id=67494478&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://mrs.fel.cvut.cz/summer-school-2026/"&gt;Summer School on Multi-Robot Systems&lt;/a&gt;: 29 July–4 August 2026, PRAGUE&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://actuate.foxglove.dev/"&gt;Actuate 2026&lt;/a&gt;: 18–19 August 2026, SAN FRANCISCO&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="qp0eiql6vb8"&gt;&lt;em&gt;In this work, we present a systematic evaluation of contemporary humanoid technology for laparoscopic surgical tasks. We develop a humanoid-based laparoscopic teleoperation framework using general-purpose instruments and assess its capabilities through benchtop characterization, dry-lab user studies spanning diverse surgical experience levels, and in vivo porcine studies. Across these evaluations, we quantify technical feasibility, task performance, and clinical readiness relative to established surgical platforms. Together, our study provides an evidence-based assessment of the current capabilities and limitations of humanoids for surgical applications, highlighting both their promise and the key technical challenges that must be addressed before clinical deployment.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://humanoid-surgeon.github.io/"&gt;UC San Diego&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Ioana!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="d7i1wj0gkik"&gt;&lt;em&gt;Today, we preview ACT-2, the first robotics model to achieve reliability by unifying broad generalization with high performance.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Sunday also has this 3-hour video (!) of Memo &lt;a href="https://spectrum.ieee.org/is-there-a-future-for-laundry-folding-robots" target="_blank"&gt;folding laundry&lt;/a&gt; in “never seen environments.” Let’s just not ask, because we almost certainly don’t want to know.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sunday.ai/"&gt;Sunday Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ei1zfxlvkrs"&gt;Spot is not the first quadruped to try its legs at last few meters &lt;a href="https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available" target="_blank"&gt;package delivery&lt;/a&gt;, but the challenge is not really those last few meters—it’s going to be not driving the human coworker nuts, is my guess.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://bostondynamics.com/blog/bridging-the-porch-gap/"&gt;Boston Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="vrmcnnekti0"&gt;&lt;em&gt;Quadrupedal locomotion in complex environments requires multiple motor skills, stable gait transitions, and perceptive control over a broad range of speeds. APT-RL (Action Pretrained Transformer-based Reinforcement Learning) is a unified framework for high-speed, multiskill locomotion. A single policy selects and transitions between gaits and motor skills using only onboard perception and computation. In real-world experiments, KAIST HOUND traversed stairs, hurdles, stepping-stones, gaps, and fallen branches. It reached an instantaneous peak speed of 4.25 meters per second while traversing a 60-centimeter step and 6 m/s during a drop-down transition on a three-step staircase.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://skillquadsr.github.io/"&gt;KAIST DRCD Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="fewvzrcka5c"&gt;We will have much more on this next week.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.waldenrobotics.com/"&gt;Walden Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="q0wmudf3jki"&gt;&lt;em&gt;Today, we introduce Lumo-2, our next-generation latent world-action model for generalist embodied robot learning.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.astribot.com/en/research/Lumo2"&gt;Astribot&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ccnkgd3qxvg"&gt;Following Atlas’s first-of-its-kind live performance at the FIFA World Cup 2026, we caught up with Seth Davis, senior program manager, to learn how this demonstration came together and what it takes to succeed in the field (and &lt;a href="https://spectrum.ieee.org/video-friday-humanoid-robot-running" target="_blank"&gt;on the pitch&lt;/a&gt;).&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://bostondynamics.com/"&gt;Boston Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="vxfnou7kf6y"&gt;&lt;em&gt;No teleoperation. No cuts. Long take. One of the world’s few complete demonstrations of long-horizon mobile manipulation, bringing fully autonomous humanoid robots another step closer to us.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en"&gt;LimX&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Jinyan!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ytq2o5gcu3w"&gt;Impressive. But get a job.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.magiclab.top/en/"&gt;MagicLab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="w3n009ayfhq"&gt;We saw some footage of this &lt;a href="https://spectrum.ieee.org/video-friday-robot-world-cup" target="_blank"&gt;last week&lt;/a&gt;, but here’s a much better video.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;Wing-propelled diving birds flap their wings to move through air and water, yet the wing morphology and kinematics that enable this behavior remain poorly understood because of the difficulty of collecting in situ data. The impact of flapping frequency, wing size, and stiffness on locomotion in—and transition between—the two media are still unknown. We compared data from diving birds against experiments using a flapping-wing robot capable of flying, swimming, plunge diving, and exiting the water. We show that frequency adaptation, flexible wings, and powerful actuation enable seamless transitions without folding wings or legs, that large wings enhance flight without substantially reducing underwater efficiency, and that tail-body distance and egress angle affect water exit. These results clarify how birds (and robots) balance multifluid locomotion constraints.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://dspace.mit.edu/entities/publication/a8ca74c5-9e2a-42f3-9ddf-636701e91ae2"&gt;EPFL LIS&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-robotic-surgery</guid>
+    </item>
+    <item>
+      <title>Iran reportedly tells Houthis to close Bab al Mandeb Strait if US strikes power grid</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/iran-reportedly-instructs-houthis-to-close-bab-al-mandeb-strait-if-us-strikes-power-grid.php</link>
+      <description>&lt;p&gt;Reuters reported that Iran’s leaders instructed the Houthis in Yemen to close Bab al Mandeb Strait, the maritime chokepoint at the southern end of the Red Sea, if the United States strikes Iran’s power infrastructure. The Houthis are also focused on an escalatory cycle with Saudi Arabia that began after Iran and the Houthis attempted to re-establish direct flights in early July.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/iran-reportedly-instructs-houthis-to-close-bab-al-mandeb-strait-if-us-strikes-power-grid.php"&gt;Iran reportedly tells Houthis to close Bab al Mandeb Strait if US strikes power grid&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/iran-reportedly-instructs-houthis-to-close-bab-al-mandeb-strait-if-us-strikes-power-grid.php</guid>
+    </item>
+    <item>
+      <title>This Graduate Student Equips NASA’s Robots With Assembly Skills</title>
+      <link>https://spectrum.ieee.org/graduate-student-nasas-robots-assembly</link>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C156%2C0%2C157" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Like many engineers, &lt;a href="https://www.linkedin.com/in/sarahdownsprofile" rel="noopener noreferrer" target="_blank"&gt;Sarah Downs&lt;/a&gt; says she knew she wanted to pursue a STEM career from a young age. As a teenager, she discovered &lt;a href="https://spectrum.ieee.org/topic/robotics/" target="_self"&gt;robotics&lt;/a&gt; through her Tulsa, Okla., middle school’s &lt;a href="https://www.firstlegoleague.org/" rel="noopener noreferrer" target="_blank"&gt;First Lego League&lt;/a&gt; team, and she fell in love with the field, she says. Downs participated in the international robotics program from 2014 to 2016.&lt;/p&gt;&lt;p&gt;Watching &lt;a href="https://www.pbs.org/" rel="noopener noreferrer" target="_blank"&gt;PBS&lt;/a&gt; specials on &lt;a href="https://www.nasa.gov/" rel="noopener noreferrer" target="_blank"&gt;NASA&lt;/a&gt; Mars rovers &lt;a href="https://spectrum.ieee.org/mars-for-the-rest-of-us" target="_self"&gt;&lt;em&gt;&lt;em&gt;Spirit&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;&lt;em&gt; &lt;/em&gt;and &lt;a href="https://spectrum.ieee.org/video-friday-opportunity-celebrates-10-years-on-mars" target="_self"&gt;&lt;em&gt;&lt;em&gt;Opportunity&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;, and seeing the live broadcast of the &lt;a href="https://spectrum.ieee.org/if-necessary-mars-rover-curiosity-could-rip-its-own-wheels-off-to-stay-mobile" target="_self"&gt;&lt;em&gt;&lt;em&gt;Curiosity&lt;/em&gt;&lt;/em&gt;&lt;/a&gt; rover launch in 2011, inspired the teen to dream of a career working with NASA.&lt;/p&gt;&lt;h3&gt;Sarah Downs&lt;/h3&gt;&lt;br /&gt;&lt;p&gt;&lt;strong&gt;MEMBER GRADE&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Graduate student member&lt;/p&gt;&lt;p&gt;&lt;strong&gt;UNIVERSITY &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Texas A&amp;amp;M University in College Station&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MAJOR &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Electric engineering&lt;/p&gt;&lt;h3&gt;&lt;/h3&gt;&lt;br /&gt;&lt;p&gt;This year the IEEE graduate student member achieved that dream. For her final project as a master’s degree candidate in electrical engineering at the &lt;a href="https://utulsa.edu/" target="_blank"&gt;University of Tulsa&lt;/a&gt;, she worked on an algorithm in collaboration with NASA and the U.S. &lt;a href="https://www.airforce.com/en" target="_blank"&gt;Air Force&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;The algorithm she developed enables a robot assembling satellites in space to insert an antenna into the correct spot, addressing robotics’s classic peg-in-hole problem of inserting an object into its corresponding hole.&lt;/p&gt;&lt;p&gt;Now a Ph.D. student in electrical engineering at &lt;a href="https://www.tamu.edu/index.html" target="_blank"&gt;Texas A&amp;amp;M University&lt;/a&gt; in College Station, Downs is continuing her research on satellite assembly and manipulation “but on a much larger scale,” she says.&lt;/p&gt;&lt;h2&gt;Following a childhood passion&lt;/h2&gt;&lt;p&gt;Downs grew up in the Tulsa area. Her father, who died from a heart attack in 2015 when she was 13, was a safety advisor in the oil and gas industry. Her mother stayed home to take care of her brother, who has autism. After her father died, her mother went back to college to earn a bachelor’s degree in business so she could support the family.&lt;/p&gt;&lt;p&gt;“We didn’t have much income, and my mom was always worried about money,” Downs says. “That made me more aware of having a successful career, in a monetary sense.”&lt;/p&gt;&lt;p&gt;From then on, whenever she considered her future career, having a decent salary to support the family was high on her list.&lt;/p&gt;&lt;p&gt;By pursuing a career in robotics, she says, she can follow her passion while obtaining financial security.&lt;/p&gt;&lt;p&gt;In high school, Downs joined the &lt;a href="https://www.firstinspires.org/" rel="noopener noreferrer" target="_blank"&gt;First&lt;/a&gt; robotics club, where she found herself drawn to the electrical components used in the machines she and her classmates built.&lt;/p&gt;&lt;p&gt;During her final two years of high school, she participated in an &lt;a href="https://tulsatech.edu/full-time-programs/science-technology-engineering-and-mathematics/pre-engineering/" rel="noopener noreferrer" target="_blank"&gt;extension program&lt;/a&gt; at &lt;a href="https://tulsatech.edu/" rel="noopener noreferrer" target="_blank"&gt;Tulsa Tech&lt;/a&gt;, a training school. She spent half her day in high school classes and the other half taking engineering courses at the vocational school.&lt;/p&gt;&lt;p&gt;After graduating in 2020, she accepted scholarships to attend the University of Tulsa. She began her freshman year at UTulsa not knowing whether she wanted to major in electrical or mechanical engineering, she says, adding that her love of working with small systems helped her choose EE.&lt;/p&gt;&lt;p&gt;For her &lt;a href="https://utulsa.edu/news/celebrating-student-innovation-tus-role-in-tasms-new-exhibits/" rel="noopener noreferrer" target="_blank"&gt;senior year capstone project&lt;/a&gt;, she and two of her classmates designed a lunar lander exhibit for the &lt;a href="https://www.tulsamuseum.org/" rel="noopener noreferrer" target="_blank"&gt;Tulsa Air and Space Museum&lt;/a&gt;. They created an interactive game that simulates missions on lunar and martian surfaces. Four celestial bodies—the moon, Venus, Mars, and Titan—are listed across three computer monitors. Using a game controller, museum visitors can explore the virtual surface of each one. The &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7207091982790266880/" rel="noopener noreferrer" target="_blank"&gt;exhibit&lt;/a&gt; is still on display.&lt;/p&gt;&lt;p&gt;Downs earned her bachelor’s degree in electrical engineering in 2024 and continued her education at the university’s EE master’s degree program.&lt;/p&gt;&lt;h2&gt;Both more and less complicated than people think&lt;/h2&gt;&lt;p&gt;When Downs began her graduate studies, she was supposed to be part of a NASA robotics project for two years. But when a delay in government funding postponed the project’s start, she instead spent her first year in the school’s &lt;a href="https://utulsa.edu/research/robotics-institute/" rel="noopener noreferrer" target="_blank"&gt;Institute for Robotics and Autonomy&lt;/a&gt;, then newly launched. Its main focus is developing robots to assist people who have mobility challenges.&lt;/p&gt;&lt;p&gt;Inspired by her grandmother, who was wheelchair-bound due to severe arthritis, Downs developed a robotic arm that helps older people and wheelchair users live independently. The arm was able to identify and place objects in the appropriate locations inside the home, such as unloading certain groceries from a shopping bag and placing them on a shelf or in separate containers.&lt;/p&gt;&lt;p&gt;Before the start of her sophomore year in 2025, the NASA project finally secured government funding. She developed a robot that achieves the peg-in-hole task without using any vision systems. Typically, cameras help guide robots’ satellite-assembly work. But in the harsh, remote environment of outer space, cameras might malfunction or encounter delays.&lt;/p&gt;&lt;h3&gt;&lt;/h3&gt;&lt;br /&gt;&lt;p&gt;“Don’t stop asking questions. Especially in engineering, don’t pretend like you know everything, because science is about constantly wanting to learn and listen.”&lt;/p&gt;&lt;h3&gt;&lt;/h3&gt;&lt;br /&gt;&lt;p&gt;Rather than using cameras, Downs’s robotic arm deploys a force-based insertion process to sense position and orientation of objects in the arm’s environment. The robot loosely grips an antenna and, with a torque sensor on its gripper, “feels” the force feedback of where the satellite and antenna are in relation to each other. The robot then guides the antenna assembly into a target opening on its satellite and maintains the position during adhesion.&lt;/p&gt;&lt;p&gt;Adding to the complexity, the robot performs its task in zero gravity.&lt;/p&gt;&lt;p&gt;“Without gravity, you now have to consider the arm’s reaction torques on the satellite to avoid flinging it into space,” Downs says. Any motion from the arm during the insertion process, especially from increased forces, could cause the satellite to continue movement in that direction.&lt;/p&gt;&lt;p&gt;To combat that, Downs is performing calculations for the project to direct targeted reverse thrusts and counter the force of the robot’s motions.&lt;/p&gt;&lt;p&gt;Her graduate project captures the simple yet complex nature of robotics that she finds fascinating, she says.&lt;/p&gt;&lt;p&gt;“I think robots are both more and also less complicated than people think,” she says. “Really, all you need to start programming a robot is its &lt;a href="https://www.universal-robots.com/developer/hardware-and-motion/robot-motion-dh-parameters/" target="_blank"&gt;Denavit-Hartenberg parameters&lt;/a&gt;, and you can do a lot with that,” she says, referencing the four values used to describe the position and orientation of a robotic arm and manipulators. Even with different grippers and degrees of freedom, “fundamentally, all robot manipulators start there,” she says.&lt;/p&gt;&lt;p&gt;“But,” she adds, “we’re still learning so much about how robots interact with their environment. Even something simple to us, like manipulating a pen, is still incredibly complex for robots.”&lt;/p&gt;&lt;p&gt;Downs is completing her doctoral thesis in the &lt;a href="https://rad.engr.tamu.edu/robotic-space-simulator/" rel="noopener noreferrer" target="_blank"&gt;Robotic Space Simulator&lt;/a&gt; project at Texas A&amp;amp;M’s &lt;a href="https://rad.engr.tamu.edu/" rel="noopener noreferrer" target="_blank"&gt;Robotics and Automation Design (RAD) Lab&lt;/a&gt;, which specializes in developing machines that can survive in extreme environments. It collaborates with NASA.&lt;/p&gt;&lt;p&gt;Her thesis advisor is &lt;a href="https://spectrum.ieee.org/video-friday-punch-out" target="_self"&gt;Robert Ambrose&lt;/a&gt;, a NASA veteran who launched the RAD Lab in 2022. The IEEE member is set to serve as associate director of the school’s Space Institute, due to open this year in Houston. The research facility is being built next to the &lt;a href="https://www.nasa.gov/johnson/" rel="noopener noreferrer" target="_blank"&gt;Johnson Space Center&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;After earning her Ph.D., Downs says, she hopes to one day work for NASA, developing rovers that collect samples from Mars or robotic arms that perform tasks on space stations.&lt;/p&gt;&lt;p&gt;To learn more about robots, check out &lt;em&gt;IEEE Spectrum&lt;/em&gt;’s &lt;a href="https://robotsguide.com/about" rel="noopener noreferrer" target="_blank"&gt;guide&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;Getting out of the engineering bubble&lt;/h2&gt;&lt;p&gt;Downs joined &lt;a href="https://www.ieee.org/" rel="noopener noreferrer" target="_blank"&gt;IEEE&lt;/a&gt; in 2020 as a freshman at UTulsa to get more involved in electrical engineering events on campus. At the time, the &lt;a href="https://spectrum.ieee.org/tag/covid-19" target="_self"&gt;COVID-19 pandemic&lt;/a&gt; kept clubs and organizations from meeting in person.&lt;/p&gt;&lt;p&gt;She was active in her school’s &lt;a href="https://utulsa.edu/academics/engineering-computer-science/academics/departments/electrical-computer-engineering/institute-of-electronics-and-electrical-engineers-ieee/" rel="noopener noreferrer" target="_blank"&gt;IEEE student branch&lt;/a&gt; and was elected as its 2022–2024 president. Under her leadership, the branch went from having a few events to hosting one every two weeks.&lt;/p&gt;&lt;p&gt;They included lunch-and-learn sessions and dinners that connected students with professional engineers and the university’s alumni. Downs also organized hands-on workshops on soldering, &lt;a href="https://spectrum.ieee.org/lunar-base-3d-printing" target="_self"&gt;3D printing&lt;/a&gt;, CAD modeling, and &lt;a href="https://spectrum.ieee.org/be-a-polarizing-job-seeker" target="_self"&gt;résumé-building&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Her efforts helped increase the branch’s executive board membership from roughly five students to 25 in 2023. The same year, her soldering workshop attracted about 80 students.&lt;/p&gt;&lt;p&gt;She says she enjoyed working with IEEE, especially “engaging with alumni and learning from engineers.”&lt;/p&gt;&lt;p&gt;IEEE is a great resource for networking opportunities, she says, noting that “during the COVID-19 pandemic, engineering students stayed in their bubbles.” IEEE events helped the students make connections that could serve them well, she says.&lt;/p&gt;&lt;p&gt;“Networking is very important, especially in today’s tough job market,” she says. “It’s a lot about who you know and how people observe your work ethic.”&lt;/p&gt;&lt;p&gt;Downs, who now serves as an IEEE graduate advisor for UTulsa’s student branch, says she has seen firsthand how the school’s student branch network has benefited its student members.&lt;/p&gt;&lt;p&gt;“A lot of them have found jobs” because of IEEE, she says.&lt;/p&gt;&lt;h3&gt;The working and networking of an engineer&lt;/h3&gt;&lt;br /&gt;&lt;p&gt;As the IEEE graduate advisor for UTulsa’s student branch, Downs noticed that many engineering undergraduates finish college without any &lt;a href="https://spectrum.ieee.org/hands-on-projects-career-advice" target="_self"&gt;hands-on experience&lt;/a&gt;, whether it be a project or an internship.&lt;/p&gt;&lt;p&gt;“Their résumés are very sparse, and they have no proof of their technical skills,” she says. She herself completed a facilities engineering internship at &lt;a href="https://flytulsa.com/" target="_blank"&gt;Tulsa International Airport&lt;/a&gt;’s &lt;a href="https://www.google.com/aclk?sa=L&amp;amp;ai=DChsSEwiakeLTiIqVAxWRzsIEHX4aO3UYACICCAEQABoCcHY&amp;amp;ae=2&amp;amp;co=1&amp;amp;ase=2&amp;amp;gclid=CjwKCAjwxb7RBhA5EiwAQ-AAdIuO_CE21RKvxNvZKxWXCYpo9d0-vpx3D3XClr2XRTWwP13SUuMbKhoCzuIQAvD_BwE&amp;amp;ei=RV4waqKnFs-G0PEPpMyjoAg&amp;amp;cid=CAASZuRoVbgIgx56926ScONp0UCppyfOxCgiUjlNwIYIyRNwiPfCRnB-35o-3qx5zfez3l5RTJDkwOw_SW-pvC4ORqwKrbj2g4yojyTEu490Veitl0o0gJG9sB38UMie-GYDrIURjI2CPw&amp;amp;cce=2&amp;amp;category=acrcp_v1_71&amp;amp;sig=AOD64_2LzW3O1QygURf8h7S57YqN5jIk3A&amp;amp;q&amp;amp;sqi=2&amp;amp;nis=4&amp;amp;adurl&amp;amp;ved=2ahUKEwji3dfTiIqVAxVPAzQIHSTmCIQQ0Qx6BAgNEAE" rel="noopener noreferrer" target="_blank"&gt;American Airlines&lt;/a&gt; maintenance facility after her sophomore year of college. And she was an electrical engineering intern at &lt;a href="https://www.flightsafety.com/" rel="noopener noreferrer" target="_blank"&gt;Flight Safety International&lt;/a&gt; outside Tulsa after her junior year and after she graduated. The company designs, builds, and maintains its own flight simulators.&lt;/p&gt;&lt;p&gt;Her advice to undergraduates is to hone and demonstrate both their hard and soft skills by working on research projects or even personal passion projects.&lt;/p&gt;&lt;p&gt;“A &lt;a href="https://www.raspberrypi.com/" rel="noopener noreferrer" target="_blank"&gt;Raspberry Pi&lt;/a&gt; doesn’t cost that much, and you can start working with that immediately,” she says. Students also can take part in engineering interest groups and professional organizations at their school, she adds.&lt;/p&gt;&lt;p&gt;“Put yourself out there and join a research team,” she says. “It’s a great way to show people that you’re a good person to work with and you’d do a good job in the field.”&lt;/p&gt;&lt;p&gt;She adds that it’s also a fine way to keep learning—which is what drew her to a field that has developed only within the past century.&lt;/p&gt;&lt;p&gt;“We’re still constantly learning about robots,” she says.&lt;/p&gt;&lt;p&gt;“Don’t stop asking questions,” she advises students. “Especially in engineering, don’t pretend like you know everything, because science is about constantly wanting to learn and listen.”&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://spectrum.ieee.org/graduate-student-nasas-robots-assembly</guid>
+    </item>
+    <item>
+      <title>Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)</title>
+      <link>https://isc.sans.edu/diary/rss/33164</link>
+      <description>We have been following issues with Hikvision cameras for a long, long time. Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33164</guid>
+    </item>
+    <item>
+      <title>ISC Stormcast For Monday, July 20th, 2026 https://isc.sans.edu/podcastdetail/10014, (Mon, Jul 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33166</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33166</guid>
+    </item>
+    <item>
+      <title>Pakistan Won the War in Iran</title>
+      <link>https://www.foreignaffairs.com/pakistan/pakistan-won-war-iran</link>
+      <description>Islamabad and the new path to global power.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/pakistan/pakistan-won-war-iran</guid>
+    </item>
+    <item>
+      <title>An Iranian Vision of the New Middle East</title>
+      <link>https://www.foreignaffairs.com/iran/iranian-vision-new-middle-east-zarif</link>
+      <description>Ending the war and sustaining the peace requires a new approach to regional security.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/iran/iranian-vision-new-middle-east-zarif</guid>
+    </item>
+    <item>
+      <title>Safety and alignment in an era of long-horizon models</title>
+      <link>https://openai.com/index/safety-alignment-long-horizon-models</link>
+      <description>OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.</description>
+      <guid isPermaLink="false">https://openai.com/index/safety-alignment-long-horizon-models</guid>
+    </item>
+    <item>
+      <title>The Download: AI hiring biases, and weather data sabotage</title>
+      <link>https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/</guid>
+    </item>
+    <item>
+      <title>Trust between operators, CCAs starts with simulations: Former Air Force secretary</title>
+      <link>https://www.c4isrnet.com/industry/techwatch/2026/07/20/trust-between-operators-ccas-starts-with-simulations-former-air-force-secretary/</link>
+      <description>Simulations and exercises will be key to boosting trust between operators and CCAs, according to former U.S. Air Force secretary Frank Kendall.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/industry/techwatch/2026/07/20/trust-between-operators-ccas-starts-with-simulations-former-air-force-secretary/</guid>
+    </item>
+    <item>
+      <title>Israel’s IAI unveils ‘Hypnosis’ system for confusing enemy drone swarms</title>
+      <link>https://www.c4isrnet.com/industry/2026/07/20/israels-iai-unveils-hypnosis-system-for-confusing-enemy-drone-swarms/</link>
+      <description>The system, called Hypnosis, consists of an array of mobile “stations” around a defended area that send out jamming signals against drone swarms.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/industry/2026/07/20/israels-iai-unveils-hypnosis-system-for-confusing-enemy-drone-swarms/</guid>
+    </item>
+    <item>
+      <title>Lockheed Martin’s Morfius X-Rotor built to fry 50 enemy drones in one flight</title>
+      <link>https://www.c4isrnet.com/industry/techwatch/2026/07/20/lockheed-martins-morfius-x-rotor-built-to-fry-50-enemy-drones-in-one-flight/</link>
+      <description>Lockheed Martin is rolling out the Morfius X-Rotor, a recoverable counter-drone system the company says can kill 50 enemy drones in one flight.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/industry/techwatch/2026/07/20/lockheed-martins-morfius-x-rotor-built-to-fry-50-enemy-drones-in-one-flight/</guid>
+    </item>
+    <item>
+      <title>Doodle Labs eyes US, European production sites as demand soars for jam-resistant drones</title>
+      <link>https://www.c4isrnet.com/industry/2026/07/20/doodle-labs-eyes-us-european-production-sites-as-demand-soars-for-jam-resistant-drones/</link>
+      <description>Doodle Labs hopes to turn its success in equipping jam-hardened drones in Ukraine into additional production sites in Europe and he United States.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/industry/2026/07/20/doodle-labs-eyes-us-european-production-sites-as-demand-soars-for-jam-resistant-drones/</guid>
+    </item>
+    <item>
+      <title>Corruption Takes Center Stage in Ukraine’s National Conversation</title>
+      <link>https://warontherocks.com/corruption-takes-center-stage-in-ukraines-national-conversation/</link>
+      <description>&lt;p&gt;Welcome to&amp;#160;The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum only for&amp;#160;War on the Rocks&amp;#160;members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.American coverage often narrows the view to the battlefield &amp;#8212; these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more complete picture of Ukraine as it really is.Frontline and Strategy&amp;#1059;&amp;#1082;&amp;#1088;&amp;#1072;&amp;#1111;&amp;#1085;&amp;#1089;&amp;#1100;&amp;#1082;&amp;#1072; &amp;#1087;&amp;#1088;&amp;#1072;&amp;#1074;&amp;#1076;&amp;#1072;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/corruption-takes-center-stage-in-ukraines-national-conversation/"&gt;Corruption Takes Center Stage in Ukraine&amp;#8217;s National Conversation&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/corruption-takes-center-stage-in-ukraines-national-conversation/</guid>
+    </item>
+    <item>
+      <title>China’s AI models have Trump’s AI world at war with itself</title>
+      <link>https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/</link>
+      <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&amp;#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, the president’s AI and crypto “czar” until&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/</guid>
+    </item>
+    <item>
+      <title>WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33168</link>
+      <description>Last week, Searchlight Cyber released details about a vulnerability they are calling "wp2shell". The vulnerability was initially announced without a CVE number. But now has been assigned CVE-2026-63030. Many WordPress plugin vulnerabilities are never assigned CVE numbers. But wp2shell is different. It is a SQL injection vulnerability in WordPress Core, not a plugin, and can lead to unauthenticated remote code execution. Shortly after being announced, the vulnerability started to be exploited.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33168</guid>
+    </item>
+    <item>
+      <title>David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC</title>
+      <link>https://openai.com/index/david-velez-robin-vince-join-openai-boards</link>
+      <description>David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.</description>
+      <guid isPermaLink="false">https://openai.com/index/david-velez-robin-vince-join-openai-boards</guid>
+    </item>
+    <item>
+      <title>ISC Stormcast For Tuesday, July 21st, 2026 https://isc.sans.edu/podcastdetail/10016, (Tue, Jul 21st)</title>
+      <link>https://isc.sans.edu/diary/rss/33170</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33170</guid>
+    </item>
+    <item>
+      <title>The Gulf’s China Problem</title>
+      <link>https://www.foreignaffairs.com/china/gulfs-china-problem</link>
+      <description>Beijing wants trade but not responsibility.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/gulfs-china-problem</guid>
+    </item>
+    <item>
+      <title>The Autocrat’s Worst Enemy</title>
+      <link>https://www.foreignaffairs.com/united-states/autocrats-worst-enemy</link>
+      <description>Despots hate cities and the mayors who run them.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/autocrats-worst-enemy</guid>
+    </item>
+    <item>
+      <title>FIA 2026: QinetiQ open to power foreign laser weapons</title>
+      <link>https://www.army-technology.com/news/fia-2026-qinetiq-open-to-power-foreign-laser-weapons/</link>
+      <description>QinetiQ will spend £20m to produce more laser source 'HELENA' units to meet the growing demand signal among European allies.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/fia-2026-qinetiq-open-to-power-foreign-laser-weapons/</guid>
+    </item>
+    <item>
+      <title>OpenAI and Hugging Face partner to address security incident during model evaluation</title>
+      <link>https://openai.com/index/hugging-face-model-evaluation-security-incident</link>
+      <description>OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.</description>
+      <guid isPermaLink="false">https://openai.com/index/hugging-face-model-evaluation-security-incident</guid>
+    </item>
+    <item>
+      <title>Learning from the ‘Voyage of the Damned’: The Making of a Russian Naval Disaster</title>
+      <link>https://warontherocks.com/learning-from-the-voyage-of-the-damned-the-making-of-a-russian-naval-disaster/</link>
+      <description>&lt;p&gt;Editorial Note: The dates cited in Eugene Politovsky&amp;#8217;s account are from the old Russian Orthodox calendar, which is 13 days behind that of the (Gregorian) calendar system used in this article.A recent War on the Rocks article on the failure of the Spanish Reserve Fleet to prepare for war with the United States in 1898 offers a useful point of entry into what may be the most significant issue of poor fleet readiness ahead of a major battle. Fought on May 27, 1905, the Battle of Tsushima ended in the destruction or capture of nearly the entire Russian Baltic Fleet,&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/learning-from-the-voyage-of-the-damned-the-making-of-a-russian-naval-disaster/"&gt;Learning from the ‘Voyage of the Damned’: The Making of a Russian Naval Disaster&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/learning-from-the-voyage-of-the-damned-the-making-of-a-russian-naval-disaster/</guid>
+    </item>
+    <item>
+      <title>Rebuilding America’s Critical Minerals Base</title>
+      <link>https://warontherocks.com/cogs-of-war/rebuilding-americas-critical-minerals-base/</link>
+      <description>&lt;p&gt;There&amp;#8217;s a clear consensus that America hollowed out its critical minerals base. How to rebuild it is less settled. Alex Grant of Magrathea Metals and Wes Spurlock of Principal Mineral join Jonathan to discuss the processing technology, labor force, and how government can catalyze private capital investment in the sector rather than replace it.Image: U.S. Nuclear Regulatory Commission via Wikimedia Commons.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/rebuilding-americas-critical-minerals-base/"&gt;Rebuilding America&amp;#8217;s Critical Minerals Base&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/rebuilding-americas-critical-minerals-base/</guid>
+    </item>
+    <item>
+      <title>New Project CAV3RN module abuses Outlook calendar events for C2 and DNS AAAA records for configuration recovery</title>
+      <link>https://securelist.com/project-cav3rn-cyberespionage-framework-using-outlook-and-dns/120757/</link>
+      <description>Kaspersky GReAT experts describe a new Project CAV3RN C2 module. It uses Outlook calendar for communication via Microsoft Graph and has a backup connection via DNS AAAA responses.</description>
+      <guid isPermaLink="false">https://securelist.com/project-cav3rn-cyberespionage-framework-using-outlook-and-dns/120757/</guid>
+    </item>
+    <item>
+      <title>UK Government makes history with new Defence Secretary</title>
+      <link>https://www.army-technology.com/news/uk-government-makes-history-with-new-defence-secretary/</link>
+      <description>The UK has again changed its Prime Minister and Defence Secretary, as the governmental chaos continues with seemingly no end in sight.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/uk-government-makes-history-with-new-defence-secretary/</guid>
+    </item>
+    <item>
+      <title>Advancing next-gen AI with materials science innovation</title>
+      <link>https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/</link>
+      <description>The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI technology demands more processing power, more memory, greater energy efficiency, and&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/</guid>
+    </item>
+    <item>
+      <title>X-Bow out to tackle cost quandary with sub-$100,000 drone interceptor</title>
+      <link>https://www.c4isrnet.com/industry/techwatch/2026/07/21/x-bow-out-to-tackle-cost-quandary-with-sub-100000-drone-interceptor/</link>
+      <description>X-Bow Systems is launching what it hopes will be a remedy to the ongoing conundrum of combating cheap drones with multimillion dollar interceptors.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/industry/techwatch/2026/07/21/x-bow-out-to-tackle-cost-quandary-with-sub-100000-drone-interceptor/</guid>
+    </item>
+    <item>
+      <title>US Marine Corps turns to AI-powered Bullfrog as drone threats expand</title>
+      <link>https://www.c4isrnet.com/news/your-military/2026/07/21/us-marine-corps-turns-to-ai-powered-bullfrog-as-drone-threats-expand/</link>
+      <description>Allen Control Systems announced Monday that the Marine Corps has chosen the Bullfrog autonomous weapon system to integrate into its airborne defenses.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/news/your-military/2026/07/21/us-marine-corps-turns-to-ai-powered-bullfrog-as-drone-threats-expand/</guid>
+    </item>
+    <item>
+      <title>The Download: Chinese AI divides the White House, and a record copyright payout</title>
+      <link>https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. China’s AI models have Trump’s AI world at war with itself Last weekend, several current and former advisers to President Donald Trump on AI publicly lobbed insults at the country’s leading&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/</guid>
+    </item>
+    <item>
+      <title>A new extortion cocktail: office printers, small ransoms, and BitLocker</title>
+      <link>https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/</link>
+      <description>We cover two recent cases of BitLocker extortion using RDP, MSSQL, RMM tools, web shells, and printers. The story includes TTPs and recommendations.</description>
+      <guid isPermaLink="false">https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/</guid>
+    </item>
+    <item>
+      <title>Lockheed Martin unveils cheaper PAC-3 ACE missile defence interceptor</title>
+      <link>https://www.army-technology.com/news/lockheed-martin-pac-3-missile/</link>
+      <description>Lockheed Martin has introduced the PAC-3 Adapted Capability Effector, a new air and missile defence interceptor.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/lockheed-martin-pac-3-missile/</guid>
+    </item>
+    <item>
+      <title>Why Do AI Systems Misbehave?</title>
+      <link>https://cset.georgetown.edu/article/why-do-ai-systems-misbehave/</link>
+      <description>&lt;p&gt;AI systems are increasingly impressive, which makes their failures all the more baffling. This blog dives into the causes of AI misbehavior.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/why-do-ai-systems-misbehave/"&gt;Why Do AI Systems Misbehave?&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cset.georgetown.edu/article/why-do-ai-systems-misbehave/</guid>
+    </item>
+    <item>
+      <title>Captive Portal Detection, (Tue, Jul 21st)</title>
+      <link>https://isc.sans.edu/diary/rss/33172</link>
+      <description>Not everything our honeypots detect is an attack. Sometimes it is just "odd traffic", and this is one example: Our "First Seen" list currently includes "http://detectportal.firefox.co&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33172</guid>
+    </item>
+    <item>
+      <title>AeroVironment to deliver 82 P550 eVTOL UAS in $117.3m US Army deal</title>
+      <link>https://www.army-technology.com/news/av-p550-evtol-us-army/</link>
+      <description>The US Army has awarded a $117.3m contract to AeroVironment for the delivery of its P550 electric vertical take-off and landing UAS.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/av-p550-evtol-us-army/</guid>
+    </item>
+    <item>
+      <title>Iran renews attacks on Kurdish Iranian opposition groups in Iraq</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/iran-renews-attacks-on-kurdish-iranian-opposition-groups-in-iraq.php</link>
+      <description>&lt;p&gt;Iran has intensified drone and missile attacks on Kurdish Iranian opposition groups and energy infrastructure in the Kurdistan Region of northern Iraq amid renewed tensions with the United States. Meanwhile, Iraqi Prime Minister Ali al Zaidi is seeking to balance relations with Washington and Tehran after his visit to Washington.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/iran-renews-attacks-on-kurdish-iranian-opposition-groups-in-iraq.php"&gt;Iran renews attacks on Kurdish Iranian opposition groups in Iraq&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/iran-renews-attacks-on-kurdish-iranian-opposition-groups-in-iraq.php</guid>
+    </item>
+    <item>
+      <title>House intel bill includes provisions on state and local threat intelligence, election security, AI</title>
+      <link>https://cyberscoop.com/house-intel-bill-includes-provisions-on-state-and-local-threat-intelligence-election-security-ai/</link>
+      <description>&lt;p&gt;The House Intelligence Committee advanced its fiscal 2027 authorization legislation Monday.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/house-intel-bill-includes-provisions-on-state-and-local-threat-intelligence-election-security-ai/"&gt;House intel bill includes provisions on state and local threat intelligence, election security, AI&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/house-intel-bill-includes-provisions-on-state-and-local-threat-intelligence-election-security-ai/</guid>
+    </item>
+    <item>
+      <title>Introducing the ChatGPT for small business program</title>
+      <link>https://openai.com/index/introducing-chatgpt-small-business-program</link>
+      <description>OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-chatgpt-small-business-program</guid>
+    </item>
+    <item>
+      <title>How the War with Iran is Shaping Key U.S. Relations Beyond the Middle East</title>
+      <link>https://warontherocks.com/how-the-war-with-iran-is-shaping-key-u-s-relations-beyond-the-middle-east/</link>
+      <description>&lt;p&gt;The&amp;#160;U.S. war with Iran has had political, economic, and military implications that spread far beyond the Middle East. We asked five experts to assess how the war with Iran has affected U.S. bilateral relations with key countries that illustrate some of the global ramifications: South Korea, India, Ukraine, France, and the United Kingdom.Read more below.&amp;#160;&amp;#160;Jenny Town Senior Fellow at the Stimson Center and the Director of 38 NorthSouth Korea has resisted aiding U.S. military operations to forcefully reopen the Strait of Hormuz, pledging other forms of political and logistical support instead. This has, at times, drawn&amp;#160;harsh criticism&amp;#160;from President&amp;#160;Donald&amp;#160;Trump. It has&amp;#160;also&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/how-the-war-with-iran-is-shaping-key-u-s-relations-beyond-the-middle-east/"&gt;How the War with Iran is Shaping Key U.S. Relations Beyond the Middle East&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/how-the-war-with-iran-is-shaping-key-u-s-relations-beyond-the-middle-east/</guid>
+    </item>
+    <item>
+      <title>Where’s the Trump administration line on AI regulation?</title>
+      <link>https://cyberscoop.com/trump-admin-ai-safety-cybersecurity-export-controls/</link>
+      <description>&lt;p&gt;The messy approach to U.S. AI regulation reflects both the rapid speed of model cyber capabilities and the White House’s “education” over the past two years, experts said.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/trump-admin-ai-safety-cybersecurity-export-controls/"&gt;Where’s the Trump administration line on AI regulation?&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/trump-admin-ai-safety-cybersecurity-export-controls/</guid>
+    </item>
+    <item>
+      <title>How Ukraine Put Russia on the Backfoot</title>
+      <link>https://warontherocks.com/how-ukraine-put-russia-on-the-backfoot/</link>
+      <description>&lt;p&gt;Ukraine&amp;#8217;s expanding use of drones at all ranges has changed the war&amp;#8217;s momentum. This episode examines how Kyiv is reaching deeper into Russian territory, disrupting operations and logistics as well as energy infrastructure. How is Russia adapting (or not)? Can these strikes produce lasting advantages on the battlefield? Will this force Russia to escalate? Mike Kofman and Dara Massicot join Ryan to discuss.This episode is brought to you by Booz Allen. Learn more at&amp;#160;warontherocks.com/boozallen.Image: ArmyInform&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/how-ukraine-put-russia-on-the-backfoot/"&gt;How Ukraine Put Russia on the Backfoot&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/how-ukraine-put-russia-on-the-backfoot/</guid>
+    </item>
+    <item>
+      <title>AI models keep getting caught cheating</title>
+      <link>https://cyberscoop.com/ai-models-cheat-deceive-users-aisi-report/</link>
+      <description>&lt;p&gt;New research from the UK shows how nearly every model tested tried to cheat, scam or cut corners on its way to solving problems.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/ai-models-cheat-deceive-users-aisi-report/"&gt;AI models keep getting caught cheating&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/ai-models-cheat-deceive-users-aisi-report/</guid>
+    </item>
+    <item>
+      <title>Munitions Expenditures In Iran War Take Center Stage At Senate Hearing (Updated)</title>
+      <link>https://www.twz.com/news-features/munitions-expenditures-in-iran-war-take-center-stage-at-senate-hearing</link>
+      <description>&lt;p&gt;The Pentagon wants $21B to replace the weapons it already has used as alarm bells ring about sustaining the conflict with available munitions going forward.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/munitions-expenditures-in-iran-war-take-center-stage-at-senate-hearing"&gt;Munitions Expenditures In Iran War Take Center Stage At Senate Hearing (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/munitions-expenditures-in-iran-war-take-center-stage-at-senate-hearing</guid>
+    </item>
+    <item>
+      <title>Boeing adjusts approach to court more European business</title>
+      <link>https://www.defenseone.com/business/2026/07/boeing-adjusts-approach-court-more-european-business/414916/</link>
+      <description>Growing international workforce, manufacturing and assembly come into focus as the aerospace giant pitches platforms abroad.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/07/boeing-adjusts-approach-court-more-european-business/414916/</guid>
+    </item>
+    <item>
+      <title>Typhoons Paired With CCA Fighter Drones Armed With Meteor Missiles Eyed By UK</title>
+      <link>https://www.twz.com/air/typhoons-paired-with-cca-fighter-drones-armed-with-meteor-missiles-eyed-by-uk</link>
+      <description>&lt;p&gt;The emerging concepts envision Typhoon commanding loyal wingman drones with help of new radar and next-gen cockpit.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/typhoons-paired-with-cca-fighter-drones-armed-with-meteor-missiles-eyed-by-uk"&gt;Typhoons Paired With CCA Fighter Drones Armed With Meteor Missiles Eyed By UK&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/typhoons-paired-with-cca-fighter-drones-armed-with-meteor-missiles-eyed-by-uk</guid>
+    </item>
+    <item>
+      <title>Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task</title>
+      <link>https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task</link>
+      <description>The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task</guid>
+    </item>
+    <item>
+      <title>Ransomware Is Accelerating, but It's Not Because of AI</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai</link>
+      <description>Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai</guid>
+    </item>
+    <item>
+      <title>OpenAI says model test was behind Hugging Face hack</title>
+      <link>https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/</link>
+      <description>&lt;p&gt;At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/"&gt;OpenAI says model test was behind Hugging Face hack&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/</guid>
+    </item>
+    <item>
+      <title>NTT DATA Group cuts incident analysis to 30 minutes with Codex</title>
+      <link>https://openai.com/index/ntt-data</link>
+      <description>NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.</description>
+      <guid isPermaLink="false">https://openai.com/index/ntt-data</guid>
+    </item>
+    <item>
+      <title>Spies are targeting US AI labs, experts warn Congress</title>
+      <link>https://www.defenseone.com/threats/2026/07/ai-labs-spies/414929/</link>
+      <description>Former officials told the House Intelligence Committee that U.S. agencies have not kept pace with China’s efforts to steal technology.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/07/ai-labs-spies/414929/</guid>
+    </item>
+    <item>
+      <title>LG to Ban Residential Proxies from Smart TV Apps</title>
+      <link>https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/</link>
+      <description>The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/</guid>
+    </item>
+    <item>
+      <title>ISC Stormcast For Wednesday, July 22nd, 2026 https://isc.sans.edu/podcastdetail/10018, (Wed, Jul 22nd)</title>
+      <link>https://isc.sans.edu/diary/rss/33174</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33174</guid>
+    </item>
+    <item>
+      <title>Canada’s GCAP decision is about relationships, not the F-35</title>
+      <link>https://www.defenseone.com/ideas/2026/07/canada-gcap-f-35-relationship/414928/</link>
+      <description>On Monday, the defense minister echoed a call for increased cooperation among middle powers.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/ideas/2026/07/canada-gcap-f-35-relationship/414928/</guid>
+    </item>
+    <item>
+      <title>The Iran Cease-Fire Was Doomed to Fail</title>
+      <link>https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail</link>
+      <description>Why transactionalism won’t deliver peace in the Middle East.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail</guid>
+    </item>
+    <item>
+      <title>When China Gets Its Own Mythos</title>
+      <link>https://www.foreignaffairs.com/china/when-china-gets-its-own-mythos</link>
+      <description>Preparing for an AI cyber crisis.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/when-china-gets-its-own-mythos</guid>
+    </item>
+    <item>
+      <title>Introducing OpenAI Presence</title>
+      <link>https://openai.com/index/introducing-openai-presence</link>
+      <description>Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-openai-presence</guid>
+    </item>
+    <item>
+      <title>Total War on Taipei: China Explores Elevating Cognitive Effects into Its Vision of Warfare</title>
+      <link>https://warontherocks.com/total-war-on-taipei-china-explores-elevating-cognitive-effects-into-its-vision-of-warfare/</link>
+      <description>&lt;p&gt;In March 2025, China&amp;#8217;s military researchers published a concept describing how to rapidly capture and subdue the city of Taipei. Distributed in restricted military channels, this approach argues Beijing can achieve victory &amp;#8220;by blocking the city&amp;#8217;s ability to receive external assistance, restricting its ability to enable operations, breaking its operational system, collapsing cognitive cohesion, and eliminating its ability to recover.&amp;#8221; Its objective is to break the Taiwan people&amp;#8217;s will to fight.While this concept is not yet doctrine, it is an important and rarely seen example of how China&amp;#8217;s military strategy and research inform the way it plans to fight a&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/total-war-on-taipei-china-explores-elevating-cognitive-effects-into-its-vision-of-warfare/"&gt;Total War on Taipei: China Explores Elevating Cognitive Effects into Its Vision of Warfare&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/total-war-on-taipei-china-explores-elevating-cognitive-effects-into-its-vision-of-warfare/</guid>
+    </item>
+    <item>
+      <title>Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own</title>
+      <link>https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/</link>
+      <description>When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first space-bound “active” coronagraph, an instrument that effectively erases most of the light from a star during photography. It will allow astronomers&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/</guid>
+    </item>
+    <item>
+      <title>Unfazed by Iran’s threats, Bulgaria moves to aid U.S. military operations</title>
+      <link>https://www.defensenews.com/global/europe/2026/07/22/unfazed-by-irans-threats-bulgaria-moves-to-aid-us-military-operations/</link>
+      <description>A Bulgarian parliamentary committee has approved a U.S. request to let American forces use a local air base to support the U.S. war against Iran.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/07/22/unfazed-by-irans-threats-bulgaria-moves-to-aid-us-military-operations/</guid>
+    </item>
+    <item>
+      <title>EU Financial Institutions Leak Data Through Cookie Trackers</title>
+      <link>https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers</link>
+      <description>European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers</guid>
+    </item>
+    <item>
+      <title>Advancing the next era of national science</title>
+      <link>https://openai.com/index/advancing-the-next-era-of-national-science</link>
+      <description>OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.</description>
+      <guid isPermaLink="false">https://openai.com/index/advancing-the-next-era-of-national-science</guid>
+    </item>
+    <item>
+      <title>The Download: NASA’s new space telescope and OpenAI’s autonomous hacker</title>
+      <link>https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/</guid>
+    </item>
+    <item>
+      <title>How news organizations are using AI to advance their vital missions</title>
+      <link>https://openai.com/index/how-news-organizations-are-using-ai</link>
+      <description>News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.</description>
+      <guid isPermaLink="false">https://openai.com/index/how-news-organizations-are-using-ai</guid>
+    </item>
+    <item>
+      <title>Building AI infrastructure with the Effingham County community</title>
+      <link>https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community</link>
+      <description>OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.</description>
+      <guid isPermaLink="false">https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community</guid>
+    </item>
+    <item>
+      <title>BAE Systems grants licence for L119 Light Gun manufacturing in Ukraine</title>
+      <link>https://www.army-technology.com/news/bae-systems-light-gun-ukraine/</link>
+      <description>BAE Systems is set to support the local manufacturing of the Light Gun artillery capability in Ukraine through a new licencing agreement with its strategic defence partner.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/bae-systems-light-gun-ukraine/</guid>
+    </item>
+    <item>
+      <title>UK’s BAE enters uncrewed fighter competition with ‘Brontanax’</title>
+      <link>https://www.defensenews.com/global/europe/2026/07/22/uks-bae-enters-uncrewed-fighter-competition-with-brontanax/</link>
+      <description>BAE Systems revealed a new unmanned fighter jet on Wednesday, boosting Britain’s entry into one of the defense industry’s hottest markets.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/07/22/uks-bae-enters-uncrewed-fighter-competition-with-brontanax/</guid>
+    </item>
+    <item>
+      <title>Remarks at the Global Nobel Laureates Assembly on Artificial Intelligence and Nuclear War in Borgo Laudato Si’, Vatican</title>
+      <link>https://cset.georgetown.edu/article/remarks-at-the-global-nobel-laureates-assembly-on-artificial-intelligence-and-nuclear-war/</link>
+      <description>&lt;p&gt;CSET Senior Fellow Emelia Probasco shares her experience and the remarks she gave at the Global Nobel Laureates Assembly on Artificial Intelligence and Nuclear War, which took place at Borgo Laudato Si’, Vatican.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/remarks-at-the-global-nobel-laureates-assembly-on-artificial-intelligence-and-nuclear-war/"&gt;Remarks at the Global Nobel Laureates Assembly on Artificial Intelligence and Nuclear War in Borgo Laudato Si’, Vatican&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cset.georgetown.edu/article/remarks-at-the-global-nobel-laureates-assembly-on-artificial-intelligence-and-nuclear-war/</guid>
+    </item>
+    <item>
+      <title>Somalia claims it killed senior Shabaab leader</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/somalia-claims-killing-of-senior-shabaab-leader.php</link>
+      <description>&lt;p&gt;Somalia said that it and “international partners” killed Maalin Jinow Ibrahim, a reported co-founder of Shabaab and a member of its central shura council, in a targeted operation earlier this month. However, Al Qaeda’s branch for East Africa has yet to confirm his death. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/somalia-claims-killing-of-senior-shabaab-leader.php"&gt;Somalia claims it killed senior Shabaab leader&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/somalia-claims-killing-of-senior-shabaab-leader.php</guid>
+    </item>
+    <item>
+      <title>Boeing’s MQ-28 Ghost Bat makes Farnborough Airshow debut</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/07/22/boeings-mq-28-ghost-bat-makes-farnborough-airshow-debut/</link>
+      <description>Boeing's MQ-28 Ghost Bat recently became the first collaborative combat aircraft to participate in a multinational, joint operational exercise.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/07/22/boeings-mq-28-ghost-bat-makes-farnborough-airshow-debut/</guid>
+    </item>
+    <item>
+      <title>When AI Attacks: OpenAI Models Autonomously Hack Hugging Face</title>
+      <link>https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face</link>
+      <description>Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face</guid>
+    </item>
+    <item>
+      <title>Iran Continues Executions Amid Protest By Death Row Inmates</title>
+      <link>https://www.rferl.org/a/iran-executions-protest-death-row-inmates/33810002.html</link>
+      <description>Iran executed a man it accused of carrying out "operational actions" during nationwide protests at the start of the year as the country's leadership ratchets up its crackdown on dissent, sparking a hunger strike among hundreds of death row inmates.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-executions-protest-death-row-inmates/33810002.html</guid>
+    </item>
+    <item>
+      <title>Whatever Happened to ‘Wolf Warrior’ Diplomacy?</title>
+      <link>https://thediplomat.com/2026/07/whatever-happened-to-wolf-warrior-diplomacy/</link>
+      <description>In recent years, Beijing has become a lot more selective in how, where, and when it deploys the assertive diplomatic tactic.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/whatever-happened-to-wolf-warrior-diplomacy/</guid>
+    </item>
+    <item>
+      <title>Lockheed Martin, Venus Aerospace partner to advance RDRE rocket tech</title>
+      <link>https://www.army-technology.com/news/lockheed-martin-venus-aerospace-rdre/</link>
+      <description>Lockheed Martin has forged a joint technology development agreement with Venus Aerospace to assess and advance Rotating Detonation Rocket Engine (RDRE) technology for future long-range precision fires systems.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/lockheed-martin-venus-aerospace-rdre/</guid>
+    </item>
+    <item>
+      <title>After Fleeing Mariupol, Ukrainian Woman's New Life Destroyed In Russian Attack</title>
+      <link>https://www.rferl.org/a/after-fleeing-mariupol-ukrainian-woman-s-new-life-destroyed-in-russian-attack/33810005.html</link>
+      <description>After fleeing from the Russian onslaught on Mariupol in 2022, Kateryna Kolmykova rebuilt her life and business in Kyiv from scratch. But a Russian missile strike in June destroyed the small shop that had become her family's only source of income. After the strike, Kolmykova says she received thousands of messages of support as her family tries to rebuild their lives yet again.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/after-fleeing-mariupol-ukrainian-woman-s-new-life-destroyed-in-russian-attack/33810005.html</guid>
+    </item>
+    <item>
+      <title>India and Japan’s Emerging Shipbuilding Partnership</title>
+      <link>https://thediplomat.com/2026/07/india-and-japans-emerging-shipbuilding-partnership/</link>
+      <description>The future of India-Japan security cooperation lies in shipyards – and maybe with the Mogami-class frigate.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/india-and-japans-emerging-shipbuilding-partnership/</guid>
+    </item>
+    <item>
+      <title>White House accuses Chinese company of distilling Anthropic’s Fable</title>
+      <link>https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/</link>
+      <description>&lt;p&gt;While distillation attacks by foreign governments and companies have real national security implications, questions around who ultimately owns the data in AI systems are fraught.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/"&gt;White House accuses Chinese company of distilling Anthropic’s Fable&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/white-house-accuses-moonshot-ai-anthropic-model-distillation/</guid>
+    </item>
+    <item>
+      <title>Mothership Sought By Navy For Southern Command Operations</title>
+      <link>https://www.twz.com/sea/mothership-sought-by-navy-for-southern-command-operations</link>
+      <description>&lt;p&gt;The ship will be capable of launching and recovering helicopters, drones and small boats, and acting as a sea base for operations. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/mothership-sought-by-navy-for-southern-command-operations"&gt;Mothership Sought By Navy For Southern Command Operations&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/sea/mothership-sought-by-navy-for-southern-command-operations</guid>
+    </item>
+    <item>
+      <title>Malware is targeting AI tools in software development environments</title>
+      <link>https://cyberscoop.com/sandworm-mode-malware-ai-supply-chain-crowdstrike/</link>
+      <description>&lt;p&gt;The worm blends in with thousands of other commands occurring daily in any given environment, yet its intent and origins remain unknown.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/sandworm-mode-malware-ai-supply-chain-crowdstrike/"&gt;Malware is targeting AI tools in software development environments&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/sandworm-mode-malware-ai-supply-chain-crowdstrike/</guid>
+    </item>
+    <item>
+      <title>Rondo Meets Geoserver, (Wed, Jul 22nd)</title>
+      <link>https://isc.sans.edu/diary/rss/33176</link>
+      <description>This isn&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;t a new attack, but something I saw "pop-up" in our logs this week:&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33176</guid>
+    </item>
+    <item>
+      <title>Who is Mykhailo Drapatyi? ‘The Flying BMP’ who now leads Ukraine’s military</title>
+      <link>https://www.defensenews.com/global/europe/2026/07/22/who-is-mykhailo-drapatyi-the-flying-bmp-who-now-leads-ukraines-military/</link>
+      <description>Zelenskyy names reform-minded Drapatyi as new commander-in-chief, replacing Syrsyki to bend to the largest protests of the war over the firing of Fedorov.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/07/22/who-is-mykhailo-drapatyi-the-flying-bmp-who-now-leads-ukraines-military/</guid>
+    </item>
+    <item>
+      <title>Navy Picks RAACM-ER Low-Cost Cruise Missile For Program To Help Arm Allies (Updated)</title>
+      <link>https://www.twz.com/sea/navy-picks-raacm-er-low-cost-cruise-missile-for-program-to-help-arm-allies</link>
+      <description>&lt;p&gt;The CHAOS program aims to give friendly ground forces new, cheaper ways to strike ships and targets on land at extended ranges.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/navy-picks-raacm-er-low-cost-cruise-missile-for-program-to-help-arm-allies"&gt;Navy Picks RAACM-ER Low-Cost Cruise Missile For Program To Help Arm Allies (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/sea/navy-picks-raacm-er-low-cost-cruise-missile-for-program-to-help-arm-allies</guid>
+    </item>
+    <item>
+      <title>What to know about the new US-Saudi nuclear deal</title>
+      <link>https://www.atlanticcouncil.org/content-series/fastthinking/what-to-know-about-the-new-us-saudi-nuclear-deal/</link>
+      <description>&lt;p&gt;The reported deal with Riyadh would send US nuclear technology, material, and equipment to the kingdom—raising the issue of nonproliferation.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/content-series/fastthinking/what-to-know-about-the-new-us-saudi-nuclear-deal/"&gt;What to know about the new US-Saudi nuclear deal&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/content-series/fastthinking/what-to-know-about-the-new-us-saudi-nuclear-deal/</guid>
+    </item>
+    <item>
+      <title>Brontanax Fighter Drone Is The UK’s Big Leap Into Collaborative Combat Aircraft</title>
+      <link>https://www.twz.com/air/brontanax-fighter-drone-is-the-uks-big-leap-into-collaborative-combat-aircraft</link>
+      <description>&lt;p&gt;BAE Systems just unveiled its stealthy CCA with some intriguing features.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/brontanax-fighter-drone-is-the-uks-big-leap-into-collaborative-combat-aircraft"&gt;Brontanax Fighter Drone Is The UK&amp;#8217;s Big Leap Into Collaborative Combat Aircraft&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/brontanax-fighter-drone-is-the-uks-big-leap-into-collaborative-combat-aircraft</guid>
+    </item>
+    <item>
+      <title>The US just threatened new tariffs on Canada. Here’s why they may not work.</title>
+      <link>https://www.atlanticcouncil.org/blogs/econographics/the-us-just-imposed-new-tariffs-on-canada-heres-why-they-may-not-work/</link>
+      <description>&lt;p&gt;The latest escalation in the US-Canadian tariff standoff highlights the limits of using trade restrictions as a negotiating tool—and the risks of getting trapped in a cycle of retaliation.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/the-us-just-imposed-new-tariffs-on-canada-heres-why-they-may-not-work/"&gt;The US just threatened new tariffs on Canada. Here’s why they may not work.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/the-us-just-imposed-new-tariffs-on-canada-heres-why-they-may-not-work/</guid>
+    </item>
+    <item>
+      <title>Ukrainian F-16 Scored First Air-To-Air Kill Against A Russian Fighter: Top U.S. General</title>
+      <link>https://www.twz.com/air/ukrainian-f-16-scored-first-air-to-air-kill-against-a-russian-fighter-top-u-s-general</link>
+      <description>&lt;p&gt;General Dan Caine’s disclosure bolsters reports that a Ukrainian F-16 downed a Russian Su-35S this month.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/ukrainian-f-16-scored-first-air-to-air-kill-against-a-russian-fighter-top-u-s-general"&gt;Ukrainian F-16 Scored First Air-To-Air Kill Against A Russian Fighter: Top U.S. General&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/ukrainian-f-16-scored-first-air-to-air-kill-against-a-russian-fighter-top-u-s-general</guid>
+    </item>
+    <item>
+      <title>Houthis announce blockade of Saudi Arabia, ships reroute to avoid Bab al Mandeb Strait</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/houthis-announce-blockade-of-saudi-arabia-ships-reroute-to-avoid-bab-al-mandeb-strait.php</link>
+      <description>&lt;p&gt;The Houthis declared a complete maritime blockade of Saudi Arabia, claiming it is in response to blockades imposed by the Saudi-led coalition that supports Yemen's internationally recognized government. Saudi Arabia denounced the blockade and said it will protect its ships, but multiple commercial vessels have rerouted to avoid the Bab al Mandeb Strait.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/houthis-announce-blockade-of-saudi-arabia-ships-reroute-to-avoid-bab-al-mandeb-strait.php"&gt;Houthis announce blockade of Saudi Arabia, ships reroute to avoid Bab al Mandeb Strait&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/houthis-announce-blockade-of-saudi-arabia-ships-reroute-to-avoid-bab-al-mandeb-strait.php</guid>
+    </item>
+    <item>
+      <title>Mapping US investment in Latin America and the Caribbean</title>
+      <link>https://www.atlanticcouncil.org/in-depth-research-reports/report/mapping-us-investment-in-latin-america-caribbean/</link>
+      <description>&lt;p&gt;China’s investments in Latin America and the Caribbean grab headlines, but though the US has long been the region’s largest investor less is known about where its investments go. New data shows which countries and sectors receive the most US investment, and how that investment affects local economies.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/mapping-us-investment-in-latin-america-caribbean/"&gt;Mapping US investment in Latin America and the Caribbean&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/report/mapping-us-investment-in-latin-america-caribbean/</guid>
+    </item>
+    <item>
+      <title>How Japan is managing the energy shock</title>
+      <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/how-japan-is-managing-the-energy-shock/</link>
+      <description>&lt;p&gt;Japan has so far managed the Hormuz oil market disruption comparatively well, but it will have to reassess its long-term energy strategy.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/how-japan-is-managing-the-energy-shock/"&gt;How Japan is managing the energy shock&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/how-japan-is-managing-the-energy-shock/</guid>
+    </item>
+    <item>
+      <title>US Navy moving forward on West Coast dock for aircraft carriers</title>
+      <link>https://www.defensenews.com/news/your-military/2026/07/22/us-navy-moving-forward-on-west-coast-dock-for-aircraft-carriers/</link>
+      <description>The U.S. Navy is moving forward with plans to build a new dock for aircraft carriers on the West Coast.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/07/22/us-navy-moving-forward-on-west-coast-dock-for-aircraft-carriers/</guid>
+    </item>
+    <item>
+      <title>Army partners with industry to alleviate Abrams engine supply chain woes</title>
+      <link>https://breakingdefense.com/2026/07/army-partners-with-industry-to-alleviate-abrams-engine-supply-chain-woes/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/army-partners-with-industry-to-alleviate-abrams-engine-supply-chain-woes/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/9804796-scaled-e1784748967302-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Army organized what it called a &amp;#8220;hackathon&amp;#8221; to find new vendors that could help with the supply of 166 critical components causing readiness issues for the tank&amp;#8217;s engine. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/army-partners-with-industry-to-alleviate-abrams-engine-supply-chain-woes/</guid>
+    </item>
+    <item>
+      <title>Fake Bahrain Alert App Deploys Android Surveillance Malware</title>
+      <link>https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware</link>
+      <description>A malicious application delivers four-stage Android spyware via phony Google Play sites, exploiting civilian fear during Iranian missile strikes.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware</guid>
+    </item>
+    <item>
+      <title>Iran Executes Man Charged Over January Protests As Death Row Inmates Stage Hunger Strike</title>
+      <link>https://www.rferl.org/a/iran-execution-prisoners-protest/33810073.html</link>
+      <description>Iran has executed another person in connection with anti-government protests that swept across the country in January. Mehdi Khaneki was hanged at Ghezel Hesar prison in Karaj after he was accused of belonging to an armed opposition group, according to an official news outlet. The execution came as some 1,500 death row inmates at the prison continued a hunger strike demanding an end to executions.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-execution-prisoners-protest/33810073.html</guid>
+    </item>
+    <item>
+      <title>Lawmakers get taste of AI-enabled cyberattacks in China-Taiwan war game</title>
+      <link>https://www.defenseone.com/threats/2026/07/lawmakers-get-taste-ai-enabled-cyberattacks-china-taiwan-war-game/414952/</link>
+      <description>Representatives weighed responses to simulated Chinese cyberattacks on U.S. infrastructure during a tabletop exercise hosted by CSIS.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/07/lawmakers-get-taste-ai-enabled-cyberattacks-china-taiwan-war-game/414952/</guid>
+    </item>
+    <item>
+      <title>Most federal cybersecurity reporting rules are duplicative, study finds</title>
+      <link>https://cyberscoop.com/gao-report-duplicate-cybersecurity-regulations-harmonization/</link>
+      <description>&lt;p&gt;The Government Accountability Office looked at 117 rules across 37 agencies and found 70% had reporting requirements that were overlapping.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/gao-report-duplicate-cybersecurity-regulations-harmonization/"&gt;Most federal cybersecurity reporting rules are duplicative, study finds&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/gao-report-duplicate-cybersecurity-regulations-harmonization/</guid>
+    </item>
+    <item>
+      <title>House passes 2027 NDAA while measure remains stalled in the Senate</title>
+      <link>https://breakingdefense.com/2026/07/house-passes-2027-ndaa-while-measure-remains-stalled-in-the-senate/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/house-passes-2027-ndaa-while-measure-remains-stalled-in-the-senate/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/12/GettyImages-2157908116-e1765405303249-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“[There are] provisions in this bill that some folks disagree with, but understand that this is just a single step in a long process,” House Armed Services Committee Chairman Mike Rogers, R-Ala., said on the chamber floor today.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/house-passes-2027-ndaa-while-measure-remains-stalled-in-the-senate/</guid>
+    </item>
+    <item>
+      <title>An Australian CCA flew in a Pacific exercise. Boeing exec says it’s an important ‘first step’</title>
+      <link>https://www.defenseone.com/business/2026/07/australian-cca-flew-pacific-exercise-boeing-exec-says-its-important-first-step/414951/</link>
+      <description>One Boeing CCA didn’t win the first U.S. competition, but another just joined a major exercise.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/07/australian-cca-flew-pacific-exercise-boeing-exec-says-its-important-first-step/414951/</guid>
+    </item>
+    <item>
+      <title>Attackers Are Learning to Live Off the AI Toolchain</title>
+      <link>https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain</link>
+      <description>Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain</guid>
+    </item>
+    <item>
+      <title>Country-based AI controls are failing. The spyware industry demonstrates why.</title>
+      <link>https://www.atlanticcouncil.org/dispatches/country-based-ai-controls-are-failing-the-spyware-industry-demonstrates-why/</link>
+      <description>&lt;p&gt;Verifying who is really on the other end of an account is not a new problem—it is a classic spyware industry challenge.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/country-based-ai-controls-are-failing-the-spyware-industry-demonstrates-why/"&gt;Country-based AI controls are failing. The spyware industry demonstrates why.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/country-based-ai-controls-are-failing-the-spyware-industry-demonstrates-why/</guid>
+    </item>
+    <item>
+      <title>A new, British CCA enters the fray at the Farnborough airshow</title>
+      <link>https://breakingdefense.com/2026/07/a-new-british-cca-enters-the-fray-at-the-farnborough-airshow/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/a-new-british-cca-enters-the-fray-at-the-farnborough-airshow/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/FB3-pb-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Breaking Defense brings you the latest from Day 3 at Farnborough.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/a-new-british-cca-enters-the-fray-at-the-farnborough-airshow/</guid>
+    </item>
+    <item>
+      <title>The sights of the Farnborough Airshow Day 3</title>
+      <link>https://breakingdefense.com/2026/07/the-sights-of-the-farnborough-airshow-day-3/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/the-sights-of-the-farnborough-airshow-day-3/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/Farnborough2026-day3-Unk-8-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Aerial demonstrations captivated attendees during day 3 of the Farnborough International Airshow.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/the-sights-of-the-farnborough-airshow-day-3/</guid>
+    </item>
+    <item>
+      <title>Houthis Now Attacking Saudi Oil Tankers In Red Sea, Major Energy Supply Implications (Updated)</title>
+      <link>https://www.twz.com/news-features/houthis-now-attacking-saudi-oil-tankers-in-red-sea-major-energy-supply-implications</link>
+      <description>&lt;p&gt;Just as the war with Iran looks about to fully erupt again, the Houthis are going to put an even tighter squeeze on the world's energy supply.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/houthis-now-attacking-saudi-oil-tankers-in-red-sea-major-energy-supply-implications"&gt;Houthis Now Attacking Saudi Oil Tankers In Red Sea, Major Energy Supply Implications (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/houthis-now-attacking-saudi-oil-tankers-in-red-sea-major-energy-supply-implications</guid>
+    </item>
+    <item>
+      <title>China Coast Guard Exercises ‘Jurisdiction’ in Japan’s Exclusive Economic Zone</title>
+      <link>https://thediplomat.com/2026/07/china-coast-guard-exercises-jurisdiction-in-japans-exclusive-economic-zone/</link>
+      <description>Japan now needs to formulate its response.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/china-coast-guard-exercises-jurisdiction-in-japans-exclusive-economic-zone/</guid>
+    </item>
+    <item>
+      <title>Air-To-Ground Capabilities Are Already Creeping Into The F-15EX’s Mission Set</title>
+      <link>https://www.twz.com/air/air-to-ground-capabilities-are-already-creeping-into-the-f-15exs-mission-set</link>
+      <description>&lt;p&gt;The F-15EX's current job is the same as its F-15C predecessor, strictly air-to-air combat, but that is going to change.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/air-to-ground-capabilities-are-already-creeping-into-the-f-15exs-mission-set"&gt;Air-To-Ground Capabilities Are Already Creeping Into The F-15EX&amp;#8217;s Mission Set&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/air-to-ground-capabilities-are-already-creeping-into-the-f-15exs-mission-set</guid>
+    </item>
+    <item>
+      <title>Flaws in Passkey Implementation Show Old Attacks Still Work</title>
+      <link>https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work</link>
+      <description>Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work</guid>
+    </item>
+    <item>
+      <title>Launching Health in ChatGPT</title>
+      <link>https://openai.com/index/health-in-chatgpt</link>
+      <description>Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.</description>
+      <guid isPermaLink="false">https://openai.com/index/health-in-chatgpt</guid>
+    </item>
+    <item>
+      <title>The First Japan-Brazil Foreign Ministers’ Strategic Dialogue</title>
+      <link>https://thediplomat.com/2026/07/the-first-japan-brazil-foreign-ministers-strategic-dialogue/</link>
+      <description>An important first step, with much work still ahead.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/the-first-japan-brazil-foreign-ministers-strategic-dialogue/</guid>
+    </item>
+    <item>
+      <title>The antifa terrorism threat the Trump administration describes does not exist</title>
+      <link>https://www.defenseone.com/ideas/2026/07/antifa-terrorism-threat-trump/414953/</link>
+      <description>Focusing on it will only make Americans more vulnerable to actual threats.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/ideas/2026/07/antifa-terrorism-threat-trump/414953/</guid>
+    </item>
+    <item>
+      <title>Defense Business Brief: Dispatch from Farnborough</title>
+      <link>https://www.defenseone.com/business/2026/07/defense-business-brief-dispatch-farnborough/414954/</link>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/07/defense-business-brief-dispatch-farnborough/414954/</guid>
+    </item>
+    <item>
+      <title>Hegseth’s conflicting statements, evasions drain lawmakers’ patience, support</title>
+      <link>https://www.defenseone.com/policy/2026/07/hegseths-conflicting-statements-evasions-drain-lawmakers-patience-support/414955/</link>
+      <description>As public opinion on Trump’s Iran war collapses, senators express growing frustration at shifting White House rationales, missing strategy.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/07/hegseths-conflicting-statements-evasions-drain-lawmakers-patience-support/414955/</guid>
+    </item>
+    <item>
+      <title>Philippine, Chinese Foreign Ministers Exchange Protests Over South China Sea Clash</title>
+      <link>https://thediplomat.com/2026/07/philippine-chinese-foreign-ministers-exchange-protests-over-south-china-sea-clash/</link>
+      <description>Both nations have accused the other for instigating the incident at Second Thomas Shoal, which has overshadowed this week's ASEAN meetings in Manila.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/philippine-chinese-foreign-ministers-exchange-protests-over-south-china-sea-clash/</guid>
+    </item>
+    <item>
+      <title>Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain</link>
+      <description>A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain</guid>
+    </item>
+    <item>
+      <title>Malaysia Must Reject Hate and Confront Myanmar Over the Rohingya Crisis</title>
+      <link>https://thediplomat.com/2026/07/malaysia-must-reject-hate-and-confront-myanmar-over-the-rohingya-crisis/</link>
+      <description>Prime Minister Anwar Ibrahim’s government has largely remained silent about the recent online "hate campaign" targeting Rohingya refugees.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/malaysia-must-reject-hate-and-confront-myanmar-over-the-rohingya-crisis/</guid>
+    </item>
+    <item>
+      <title>ISC Stormcast For Thursday, July 23rd, 2026 https://isc.sans.edu/podcastdetail/10020, (Thu, Jul 23rd)</title>
+      <link>https://isc.sans.edu/diary/rss/33178</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33178</guid>
+    </item>
+    <item>
+      <title>ASEAN Foreign Ministers Call for ‘Immediate Cessation’ of Middle East Hostilities</title>
+      <link>https://thediplomat.com/2026/07/asean-foreign-ministers-call-for-immediate-cessation-of-middle-east-hostilities/</link>
+      <description>The fighting between Iran and the United States is set to have “immediate and long-term effects” on Southeast Asia and its people, the ministers said.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/asean-foreign-ministers-call-for-immediate-cessation-of-middle-east-hostilities/</guid>
+    </item>
+    <item>
+      <title>China’s Moment of Weakness</title>
+      <link>https://www.foreignaffairs.com/china/chinas-moment-weakness</link>
+      <description>Economic decay and America’s strategic opening.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/chinas-moment-weakness</guid>
+    </item>
+    <item>
+      <title>The Small Suffer What They Must?</title>
+      <link>https://www.foreignaffairs.com/united-states/small-suffer-what-they-must</link>
+      <description>Band together or struggle alone in a disordered world.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/small-suffer-what-they-must</guid>
+    </item>
+    <item>
+      <title>New Delhi’s Jantar Mantar Is Not Tahrir Square, But It Can Become One</title>
+      <link>https://thediplomat.com/2026/07/new-delhis-jantar-mantar-is-not-tahrir-square-but-it-can-become-one/</link>
+      <description>At its heart, this movement is demanding accountability, not upheaval.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/new-delhis-jantar-mantar-is-not-tahrir-square-but-it-can-become-one/</guid>
+    </item>
+    <item>
+      <title>Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access</title>
+      <link>https://thehackernews.com/2026/07/check-point-patches-exploited.html</link>
+      <description>Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild.
+
+The security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass affecting the Check Point SmartConsole login process that allows an</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/check-point-patches-exploited.html</guid>
+    </item>
+    <item>
+      <title>Brazilian Banking Trojan Actively Spreading in Portugal</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal</link>
+      <description>Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal</guid>
+    </item>
+    <item>
+      <title>The Importance of the Invasion of Sicily</title>
+      <link>https://warontherocks.com/the-importance-of-the-invasion-of-sicily/</link>
+      <description>&lt;p&gt;On July 10, 1943, the Allied invasion of Sicily &amp;#8212; codenamed Operation Husky &amp;#8212; put more assault troops ashore on its first day than the Normandy landings would 11 months later. Despite the scale of these amphibious and vertical assaults on the Mediterranean&amp;#8217;s largest island, the images most carry of this campaign come from a movie: Patton. In the 1970 film, U.S. Lt. Gen. George S. Patton wins the race to Messina and waits, smirking, as British Lt. Gen. Bernard Montgomery&amp;#8217;s column rolls in late. The scene is an invention that reduces the campaign to a duel between two generals&amp;#8217;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/the-importance-of-the-invasion-of-sicily/"&gt;The Importance of the Invasion of Sicily&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/the-importance-of-the-invasion-of-sicily/</guid>
+    </item>
+    <item>
+      <title>The King of Cool: Mobile Refrigeration and the Remaking of Global Logistics</title>
+      <link>https://warontherocks.com/cogs-of-war/the-king-of-cool-mobile-refrigeration-and-the-remaking-of-global-logistics/</link>
+      <description>&lt;p&gt;Editor&amp;#8217;s note: This is the fifth article in a limited series celebrating American defense technologies born from wartime and their effects on broader national security, politics, and society. This series will run for several weeks to commemorate America&amp;#8217;s 250th anniversary, and winners will be selected by a reader vote undertaken through our newsletter later this summer. Prior installments can be found at the&amp;#160;Arsenal of Innovation&amp;#160;page.Have you ever wondered how the United States transitioned from only having local fresh produce to an abundance of perishable goods available year-round across the country, even during the off-season? Today, almost $3 trillion (roughly 2.7&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/the-king-of-cool-mobile-refrigeration-and-the-remaking-of-global-logistics/"&gt;The King of Cool: Mobile Refrigeration and the Remaking of Global Logistics&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/the-king-of-cool-mobile-refrigeration-and-the-remaking-of-global-logistics/</guid>
+    </item>
+    <item>
+      <title>America Needs an Off-Ramp Between Doing Nothing and Shutting AI Down</title>
+      <link>https://warontherocks.com/cogs-of-war/america-needs-an-off-ramp-between-doing-nothing-and-shutting-ai-down/</link>
+      <description>&lt;p&gt;For 18 days in June, two of America&amp;#8217;s most capable AI models went dark worldwide, not for technical or business reasons, but because the U.S. government ordered it. On June 12, 2026, the Commerce Department informed Anthropic that its Fable 5 and Mythos 5 models could no longer be provided to any foreign person without a license, and the company concluded that compliance meant shutting the models down for everyone. Public access to Fable 5 was restored on June 30.The United States doesn&amp;#8217;t have a trusted, standardized process for evaluating the security risks of frontier AI models or proportionate remedies&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/america-needs-an-off-ramp-between-doing-nothing-and-shutting-ai-down/"&gt;America Needs an Off-Ramp Between Doing Nothing and Shutting AI Down&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/america-needs-an-off-ramp-between-doing-nothing-and-shutting-ai-down/</guid>
+    </item>
+    <item>
+      <title>Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs</title>
+      <link>https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html</link>
+      <description>RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access.
+
+Qualys said default installations of Red Hat Enterprise Linux and its derivatives, Fedora Server, and Amazon Linux can meet the conditions for exploitation.
+
+The company demonstrated the race</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html</guid>
+    </item>
+    <item>
+      <title>The power line that could reshape New York’s grid is hitting snags</title>
+      <link>https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/</link>
+      <description>On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that power shuttled in on a 339-mile power line stretching from Quebec to Queens called the Champlain Hudson Power Express (CHPE).&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/</guid>
+    </item>
+    <item>
+      <title>Rubio Warns Tehran As Iran Hits Kuwait Bases, Houthis Claim Strikes On Tankers</title>
+      <link>https://www.rferl.org/a/iran-us-houthis-saudi-tanker-hormuz-blockade/33810481.html</link>
+      <description>Iran's army and the Islamic Revolutionary Guards Corps (IRGC) have said they struck multiple US bases in Kuwait, retaliating for fresh American strikes on Iranian targets following a 12th consecutive night of US bombing.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-us-houthis-saudi-tanker-hormuz-blockade/33810481.html</guid>
+    </item>
+    <item>
+      <title>Countless Ukrainians Need Prosthetics. Homegrown Start-Ups Are Supplying Them</title>
+      <link>https://www.rferl.org/a/ukraine-disabled-veterans-prosthetic-limbs/33809139.html</link>
+      <description>As battlefield injuries mount from a long-running war, Ukrainian companies are racing to meet a high demand for prosthetic limbs. One start-up, Allbionics, is making sophisticated prosthetics that it says are comparable to those produced abroad. With help from the Ukrainian government and private donors, the company is able to provide the devices to patients at no cost.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-disabled-veterans-prosthetic-limbs/33809139.html</guid>
+    </item>
+    <item>
+      <title>Microsoft working to fix Exchange Online mailbox quarantine issue</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/</link>
+      <description>Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/</guid>
+    </item>
+    <item>
+      <title>'Nice Hairstyle': Russian Foreign Minister Dodges RFE/RL Question On Ukraine</title>
+      <link>https://www.rferl.org/a/nice-hairstyle-russian-foreign-minister-dodges-rfe-rl-question-on-ukraine/33810525.html</link>
+      <description>Russian Foreign Minister Sergei Lavrov dodged RFE/RL's senior correspondent Alex Raufoglu's questions on ending the war in Ukraine amid a meeting with US Secretary of State Marco Rubio on the sidelines of Association of Southeast Asian Nations (ASEAN) foreign ministers' meetings in Manila on July 23.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/nice-hairstyle-russian-foreign-minister-dodges-rfe-rl-question-on-ukraine/33810525.html</guid>
+    </item>
+    <item>
+      <title>ANCHOR-CI could fix 20 years of broken government-industry collaboration</title>
+      <link>https://cyberscoop.com/cisa-anchor-ci-critical-infrastructure-framework-op-ed/</link>
+      <description>&lt;p&gt;The government spent the past two decades learning what private sector partners have always known: cyber resilience requires everyone in the room. ANCHOR-CI is proof that the lessons may finally stick.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/cisa-anchor-ci-critical-infrastructure-framework-op-ed/"&gt;ANCHOR-CI could fix 20 years of broken government-industry collaboration&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/cisa-anchor-ci-critical-infrastructure-framework-op-ed/</guid>
+    </item>
+    <item>
+      <title>Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts</title>
+      <link>https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html</link>
+      <description>Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video.
+
+The selfie for sign-in, per the tech giant, is another option on top of existing recovery methods to log in to an account, including an email address or a phone number. The idea is to use a video selfie as a way to regain access if a user ever gets locked out or doesn't have access</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html</guid>
+    </item>
+    <item>
+      <title>New msaRAT malware uses Chrome, Edge browsers to route C2 traffic</title>
+      <link>https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/</link>
+      <description>The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/</guid>
+    </item>
+    <item>
+      <title>Australia whips together a hybrid air defense weapon</title>
+      <link>https://www.defensenews.com/global/asia-pacific/2026/07/23/australia-whips-together-a-hybrid-air-defense-weapon/</link>
+      <description>Australia successfully tested a “Frankenstein” medium-range air defense system last month harnessing existing and new capabilities in a novel way.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/07/23/australia-whips-together-a-hybrid-air-defense-weapon/</guid>
+    </item>
+    <item>
+      <title>No Breakthroughs, Little Optimism As Rubio, Lavrov Meet On Ukraine War</title>
+      <link>https://www.rferl.org/a/rubio-ukraine-war-lavrov-meeting-russia/33810551.html</link>
+      <description>US Secretary of State Marco Rubio said following talks with Russian Foreign Minister Sergei Lavrov that the United States remains prepared to help broker an end to Russia's war in Ukraine but that fresh proposals would be needed after previous peace ideas failed.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/rubio-ukraine-war-lavrov-meeting-russia/33810551.html</guid>
+    </item>
+    <item>
+      <title>EU naval mission will now intercept Russian shadow tankers in the Indian Ocean</title>
+      <link>https://www.defensenews.com/global/europe/2026/07/23/eu-naval-mission-will-now-intercept-russian-shadow-tankers-in-the-indian-ocean/</link>
+      <description>The EU has authorized its naval mission in the Indian Ocean to stop and board Russian shadow fleet tankers suspected of operating under false flags.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/07/23/eu-naval-mission-will-now-intercept-russian-shadow-tankers-in-the-indian-ocean/</guid>
+    </item>
+    <item>
+      <title>Agentic AI Challenges Progress in Confidential Computing</title>
+      <link>https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing</link>
+      <description>Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing</guid>
+    </item>
+    <item>
+      <title>Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers</title>
+      <link>https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html</link>
+      <description>Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances.
+
+The activity involves malicious Packagist development versions spanning 10 packages associated with a legitimate PHP and DevOps developer, dinushchathurya, between July 12 and 13,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html</guid>
+    </item>
+    <item>
+      <title>New RefluXFS Linux flaw lets attackers gain root privileges</title>
+      <link>https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/</link>
+      <description>A nine-year-old race condition vulnerability in the Linux kernel's XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite protected files and gain root privileges. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/</guid>
+    </item>
+    <item>
+      <title>How Synthetic Identity Fraud is Coming for Machine Identities</title>
+      <link>https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html</link>
+      <description>Most people understand identity theft as an attacker stealing a real person's sensitive information and impersonating them. Synthetic identity fraud is much harder to catch. Instead of stealing a real identity, the attacker manufactures a new one, frankensteining together several real data points with fabricated ones to create a person who doesn't exist. Since no real victim monitors misuse, a</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html</guid>
+    </item>
+    <item>
+      <title>How AI helps scientists design the next generation of medicines</title>
+      <link>https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/</link>
+      <description>Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/</guid>
+    </item>
+    <item>
+      <title>Peace through secure supply chains</title>
+      <link>https://www.defensenews.com/opinion/2026/07/23/peace-through-secure-supply-chains/</link>
+      <description>America cannot dominate the modern battlefield if the Pentagon does not know where its critical materials and components come from, Peter Navarro writes.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/opinion/2026/07/23/peace-through-secure-supply-chains/</guid>
+    </item>
+    <item>
+      <title>The Download: energy transmission and US threats against Chinese AI</title>
+      <link>https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags  During a heat wave on July 3, New York State’s grid imported enough electricity from Canada to meet about&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/</guid>
+    </item>
+    <item>
+      <title>China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks</title>
+      <link>https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html</link>
+      <description>An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, healthcare, and education organizations across Asia and Latin America with a previously undocumented Windows loader called TriBack Loader.
+
+Group-IB found the server in mid-April 2026 in Alibaba Cloud's Singapore region; it was offline by the time the report</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html</guid>
+    </item>
+    <item>
+      <title>EU fines Google $1 billion for search, app store antitrust violations</title>
+      <link>https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/</link>
+      <description>The European Commission fined Google €890 million ($1 billion) on Thursday after finding the company had violated the European Union's Digital Markets Act (DMA), which ensures fair online competition. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/</guid>
+    </item>
+    <item>
+      <title>A NATO ally holds the key to Europe’s drone wall, and it isn’t Washington</title>
+      <link>https://www.atlanticcouncil.org/blogs/turkeysource/europe-drone-wall-turkey/</link>
+      <description>&lt;p&gt;Europe's drone wall aspirations are constrained by industrial capacity. Turkey may be the NATO ally that can close the gap.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/turkeysource/europe-drone-wall-turkey/"&gt;A NATO ally holds the key to Europe’s drone wall, and it isn’t Washington&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/turkeysource/europe-drone-wall-turkey/</guid>
+    </item>
+    <item>
+      <title>BETA teams with GE, Sikorsky for militarized unmanned aircraft</title>
+      <link>https://breakingdefense.com/2026/07/beta-teams-with-ge-sikorsky-for-militarized-unmanned-aircraft/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/beta-teams-with-ge-sikorsky-for-militarized-unmanned-aircraft/"&gt;&lt;img alt="BETA Technologies&amp;#039;s MV250" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/FB26-d1-07-scaled-e1784744816301-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;BETA’s MV250 will use a hybrid-electric propulsion system developed in partnership with GE Aerospace and an autonomy stack supplied by Sikorsky for a wide range of military missions, according to company executives.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/beta-teams-with-ge-sikorsky-for-militarized-unmanned-aircraft/</guid>
+    </item>
+    <item>
+      <title>Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge</title>
+      <link>https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html</link>
+      <description>The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine ahead of the encryptor.
+
+The implant never opens an outbound connection of its own. Its process talks to 127.0.0.1 and nothing else. It starts Chrome or Edge in headless mode and drives the browser</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html</guid>
+    </item>
+    <item>
+      <title>On The Front Line Of Ukraine's Drone War Over Kramatorsk</title>
+      <link>https://www.rferl.org/a/on-the-front-line-of-ukraine-s-drone-war-over-kramatorsk/33810699.html</link>
+      <description>Ukrainian drone-interceptor crews are working around the clock to stop Russian reconnaissance and attack drones approaching the frontline city of Kramatorsk. RFE/RL spent a night with one team defending the skies as aerial attacks intensify.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/on-the-front-line-of-ukraine-s-drone-war-over-kramatorsk/33810699.html</guid>
+    </item>
+    <item>
+      <title>Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files</title>
+      <link>https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html</link>
+      <description>Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or write files anywhere on the Mac.
+
+Accomplish AI, which shared details of the vulnerability with The Hacker News ahead of publication, said about 500,000 macOS users running</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html</guid>
+    </item>
+    <item>
+      <title>When the "Autonomous Attacker" Is Your Own AI Model, (Thu, Jul 23rd)</title>
+      <link>https://isc.sans.edu/diary/rss/33180</link>
+      <description>Two disclosures, five days apart, described the same intrusion from opposite ends &amp;#xe2;&amp;#x20ac;&amp;#x201d;&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33180</guid>
+    </item>
+    <item>
+      <title>Greece to buy $4 billion air defense system from Israel</title>
+      <link>https://www.defensenews.com/global/europe/2026/07/23/greece-to-buy-4-billion-air-defence-system-from-israel/</link>
+      <description>Greece has approved the purchase of a multi-layer air defense system worth up to €3.5 billion ($4 billion) from Israel.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/07/23/greece-to-buy-4-billion-air-defence-system-from-israel/</guid>
+    </item>
+    <item>
+      <title>Nepali PM Balendra Shah’s Image as a Change Agent is at Risk</title>
+      <link>https://thediplomat.com/2026/07/nepali-pm-balendra-shahs-image-as-a-change-agent-is-at-risk/</link>
+      <description>Shah has shown less concern for the health and wellbeing of the poor, and is preoccupied with appearing as a ruthless executor of public plans.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/nepali-pm-balendra-shahs-image-as-a-change-agent-is-at-risk/</guid>
+    </item>
+    <item>
+      <title>Why China Is Investing in Planetary Defense</title>
+      <link>https://thediplomat.com/2026/07/why-china-is-investing-in-planetary-defense/</link>
+      <description>For China, planetary defense is about building its international image and strengthening national security. However, the same factors also constrain China's global contribution.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/why-china-is-investing-in-planetary-defense/</guid>
+    </item>
+    <item>
+      <title>FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires</title>
+      <link>https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/</link>
+      <description>FedRAMP 20X replaces point-in-time assessments with continuous, machine-readable evidence that demonstrates security controls are working. Anecdotes explains what the transition from Rev5 to FedRAMP 20X means and how organizations can prepare for continuous, evidence-based assurance. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/</guid>
+    </item>
+    <item>
+      <title>Battlefield networks: Nokia Defense and NestAI at the edge</title>
+      <link>https://www.army-technology.com/features/battlefield-networks-nokia-defense-and-nestai-at-the-edge/</link>
+      <description>The need to develop secure 5G battlefield networks is increasingly critical, with electronic warfare effectors saturating the digital domain.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/features/battlefield-networks-nokia-defense-and-nestai-at-the-edge/</guid>
+    </item>
+    <item>
+      <title>Russian Global Webmail Espionage</title>
+      <link>https://unit42.paloaltonetworks.com/russian-webmail-espionage/</link>
+      <description>&lt;p&gt;Unit 42 details a Russian cyberespionage campaign targeting  Zimbra webmail servers using JavaScript injection to steal credentials.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/russian-webmail-espionage/"&gt;Russian Global Webmail Espionage&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/russian-webmail-espionage/</guid>
+    </item>
+    <item>
+      <title>Saudi Ally Pakistan Issues Warning After Houthi Attacks On Tankers In Read Sea</title>
+      <link>https://www.rferl.org/a/saudi-pakistan-ships-attacked-read-sea-houthi/33810504.html</link>
+      <description>Islamabad has condemned attacks by Iran-backed Houthi rebels on Saudi-flagged vessels in the Red Sea. It also warned that any aggressive actions toward Pakistan-flagged vessels or the country's maritime interests would be regarded as a “grave threat” that may result in “lawful use of force.”</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/saudi-pakistan-ships-attacked-read-sea-houthi/33810504.html</guid>
+    </item>
+    <item>
+      <title>The Rise Of Russia's "Disposable" Agents</title>
+      <link>https://www.rferl.org/a/serbia-agents-destabilize-europe-russia/33810693.html</link>
+      <description>Two people arrested on the Serbia-Hungary border are under criminal investigation, Serbian prosecutors say, after reports linked them to Russian intelligence. German media report that they were carrying explosives and may have been planning an attack in Germany as "disposable" agents.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/serbia-agents-destabilize-europe-russia/33810693.html</guid>
+    </item>
+    <item>
+      <title>UK awards $26m hypersonic target contract to Lockheed Martin</title>
+      <link>https://www.army-technology.com/news/lockheed-martin-uk-hypersonic-target/</link>
+      <description>The UK’s National Armaments Director Group has awarded a £20m contract to Lockheed Martin UK for the delivery of Project Bowline.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/lockheed-martin-uk-hypersonic-target/</guid>
+    </item>
+    <item>
+      <title>Generation Jihad | What is Iran’s breaking point?</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/generation-jihad-what-is-irans-breaking-point.php</link>
+      <description>&lt;p&gt;The US says it's degrading Iran's threat, but as the renewed air campaign approaches the two-week mark, the math still doesn’t check out. In Part 1 of this conversation, Generation Jihad’s Bill Roggio joins FDD CMPP Senior Director Bradley Bowman and Senior Analyst Cameron McMillan to discuss the real gap between degrading Iran's missile, drone, and naval capabilities and actually eliminating them, and why murky end goals could lead to a long-term, inconclusive standoff.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/generation-jihad-what-is-irans-breaking-point.php"&gt;Generation Jihad | What is Iran&amp;#8217;s breaking point?&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/generation-jihad-what-is-irans-breaking-point.php</guid>
+    </item>
+    <item>
+      <title>ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories</title>
+      <link>https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html</link>
+      <description>Most of this week's trouble came dressed as something useful.
+
+A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. Other threats hid in open systems, weak code, and normal network traffic.
+
+
+ The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.
+
+
+The danger was</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html</guid>
+    </item>
+    <item>
+      <title>Babcock and Supacat partner for British Army Light Mobility Vehicle bid</title>
+      <link>https://www.army-technology.com/news/babcock-supacat-lmv-programme/</link>
+      <description>Babcock and Supacat have entered into an MoU to collaborate on the British Army's Land Rover fleet replacement programme</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/babcock-supacat-lmv-programme/</guid>
+    </item>
+    <item>
+      <title>There has been no US naval ‘failure’ in the Strait of Hormuz</title>
+      <link>https://breakingdefense.com/2026/07/there-has-been-no-us-naval-failure-in-the-strait-of-hormuz/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/there-has-been-no-us-naval-failure-in-the-strait-of-hormuz/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/260721_DVIDS_hormuz_helo_9453377-scaled-e1784663652400-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In this op-ed, Steven Wills of the Center for Maritime Security rebuts the idea that the US Navy shoulders the blame for instability around the critical waterway off the coast of Iran.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/there-has-been-no-us-naval-failure-in-the-strait-of-hormuz/</guid>
+    </item>
+    <item>
+      <title>Microsoft 365 outage affects Teams, SharePoint and other services</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/</link>
+      <description>Microsoft is impacted by a massive outage affecting Teams and Microsoft 365 services, primarily affecting users in North America. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/</guid>
+    </item>
+    <item>
+      <title>With a Saudi deal, the US begins ‘Plan C’ for nonproliferation in the Middle East</title>
+      <link>https://www.atlanticcouncil.org/dispatches/with-a-saudi-deal-the-us-begins-plan-c-for-nonproliferation-in-the-middle-east/</link>
+      <description>&lt;p&gt;Washington is now attempting to achieve its nonproliferation objectives through deep political and commercial integration with partners’ nuclear programs.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/with-a-saudi-deal-the-us-begins-plan-c-for-nonproliferation-in-the-middle-east/"&gt;With a Saudi deal, the US begins ‘Plan C’ for nonproliferation in the Middle East&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/with-a-saudi-deal-the-us-begins-plan-c-for-nonproliferation-in-the-middle-east/</guid>
+    </item>
+    <item>
+      <title>Unions ask for injunction restoring collective bargaining at Defense</title>
+      <link>https://www.defenseone.com/policy/2026/07/unions-ask-injunction-restoring-collective-bargaining-defense/414965/</link>
+      <description>The latest filing says Pentagon strayed from the Trump administration’s own guidance for implementing an executive order banning collective bargaining at most agencies.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/07/unions-ask-injunction-restoring-collective-bargaining-defense/414965/</guid>
+    </item>
+    <item>
+      <title>FIA 2026: Elbit will pitch Watchkeeper X for CORVUS</title>
+      <link>https://www.army-technology.com/news/fia-2026-elbit-will-pitch-watchkeeper-x-for-corvus/</link>
+      <description>Elbit Systems’s U-TacS will pitch Watchkeeper X variant for the UK's Project Corvus requirement for a long-range reconnaissance drone.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/fia-2026-elbit-will-pitch-watchkeeper-x-for-corvus/</guid>
+    </item>
+    <item>
+      <title>Lockheed Martin Ventures to invest $100M in European defense firms</title>
+      <link>https://breakingdefense.com/2026/07/lockheed-martin-ventures-to-invest-100m-in-european-defense-firms/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/lockheed-martin-ventures-to-invest-100m-in-european-defense-firms/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/02/260204_lockheed_sign_GettyImages-2235669942-e1770219166513.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The fund is interested in emerging technologies, the general manager of Lockheed Martin&amp;#8217;s venture arm told Breaking Defense, including quantum computing and sensing, autonomy, and advanced manufacturing technologies. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/lockheed-martin-ventures-to-invest-100m-in-european-defense-firms/</guid>
+    </item>
+    <item>
+      <title>Hackers abuse Notepad++ plugins to stealthily install malware</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/</link>
+      <description>Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/</guid>
+    </item>
+    <item>
+      <title>Some final sights of the Farnborough Airshow</title>
+      <link>https://breakingdefense.com/2026/07/some-final-sights-of-the-farnborough-airshow/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/some-final-sights-of-the-farnborough-airshow/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/Leonardo-AW101-Merlin-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;As Breaking Defense wraps up our time in Farnborough, here are some of our favorite photos.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/some-final-sights-of-the-farnborough-airshow/</guid>
+    </item>
+    <item>
+      <title>Russian hackers exploit Zimbra zero-click flaw for email theft</title>
+      <link>https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/</link>
+      <description>CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing attacks with the exploitation of a now-patched Zimbra vulnerability. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/</guid>
+    </item>
+    <item>
+      <title>Supercooled kidneys have been transplanted into pigs in a “landmark achievement”</title>
+      <link>https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/</link>
+      <description>When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/</guid>
+    </item>
+    <item>
+      <title>Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries</title>
+      <link>https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/</link>
+      <description>&lt;p&gt;Laundry Bear exploited a zero-day vulnerability for five months before it was patched in July 2025, and the group is still actively exploiting vulnerable environments.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/"&gt;Russian espionage group using novel Zimbra exploit to steal sensitive data from Western countries&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/russian-laundry-bear-zimbra-exploit/</guid>
+    </item>
+    <item>
+      <title>How the US should respond to Ortega declaring no more elections in Nicaragua</title>
+      <link>https://www.atlanticcouncil.org/dispatches/how-the-us-should-respond-to-ortega-declaring-no-more-elections-in-nicaragua/</link>
+      <description>&lt;p&gt;The dictator is wagering that the Nicaraguan opposition will fragment and Washington will respond with words but no new actions.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/how-the-us-should-respond-to-ortega-declaring-no-more-elections-in-nicaragua/"&gt;How the US should respond to Ortega declaring no more elections in Nicaragua&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/how-the-us-should-respond-to-ortega-declaring-no-more-elections-in-nicaragua/</guid>
+    </item>
+    <item>
+      <title>Greece approves over $3.4B in air defenses for Achilles’ Shield</title>
+      <link>https://breakingdefense.com/2026/07/greece-approves-over-3-4b-in-air-defenses-for-achilles-shield/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/greece-approves-over-3-4b-in-air-defenses-for-achilles-shield/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/260723_fighter_jets_greece_GettyImages-2267766367-e1784820162893.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The system would reportedly rely heavily on Israeli tech as Athens, like other world capitals, rushes build a national &amp;#8220;shield&amp;#8221; against aerial threats.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/greece-approves-over-3-4b-in-air-defenses-for-achilles-shield/</guid>
+    </item>
+    <item>
+      <title>Selective Service System seeks software to aid the military draft</title>
+      <link>https://www.defenseone.com/defense-systems/2026/07/selective-service-system-seeks-software-aid-draft/414974/</link>
+      <description>The independent agency wants better tools to evaluate staffing and resource requirements.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/defense-systems/2026/07/selective-service-system-seeks-software-aid-draft/414974/</guid>
+    </item>
+    <item>
+      <title>U.S. Army Is Buying Older PAC-2 Patriot Missiles For The First Time In Decades</title>
+      <link>https://www.twz.com/land/u-s-army-is-buying-older-pac-2-patriot-missiles-for-the-first-time-in-decades</link>
+      <description>&lt;p&gt;PAC-2 GEM-T missiles are not generally as capable as their PAC-3 counterparts, but the Army needs all the Patriots it can get.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/land/u-s-army-is-buying-older-pac-2-patriot-missiles-for-the-first-time-in-decades"&gt;U.S. Army Is Buying Older PAC-2 Patriot Missiles For The First Time In Decades&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/land/u-s-army-is-buying-older-pac-2-patriot-missiles-for-the-first-time-in-decades</guid>
+    </item>
+    <item>
+      <title>Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes</title>
+      <link>https://thehackernews.com/2026/07/russian-espionage-group-exploited.html</link>
+      <description>A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.
+
+The payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it.
+
+The NSA, CISA and partner agencies published</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/russian-espionage-group-exploited.html</guid>
+    </item>
+    <item>
+      <title>Pentagon willing to work with industry over critical mineral EO concerns</title>
+      <link>https://breakingdefense.com/2026/07/pentagon-willing-to-work-with-industry-over-critical-mineral-eo-concerns/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/pentagon-willing-to-work-with-industry-over-critical-mineral-eo-concerns/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/GettyImages-2270759445-e1784823974895.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;A new executive order essentially gives companies until the start of 2027 to alter their supply of critical materials and minerals. Industry is worried that could be a difficult lift. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/pentagon-willing-to-work-with-industry-over-critical-mineral-eo-concerns/</guid>
+    </item>
+    <item>
+      <title>Mexico can turn USMCA pressure into an industrial opportunity</title>
+      <link>https://www.atlanticcouncil.org/blogs/econographics/mexico-can-turn-usmca-pressure-into-an-industrial-opportunity/</link>
+      <description>&lt;p&gt;Mexico’s record exports mask an uncomfortable reality: its fastest-growing industry—data processing machines—relies overwhelmingly on Asian inputs. A carefully redesigned USMCA could help the country move up the value chain.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/mexico-can-turn-usmca-pressure-into-an-industrial-opportunity/"&gt;Mexico can turn USMCA pressure into an industrial opportunity&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/mexico-can-turn-usmca-pressure-into-an-industrial-opportunity/</guid>
+    </item>
+    <item>
+      <title>Analysis: Ukraine’s defense leadership crisis becomes blessing in disguise</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/analysis-ukraines-defense-leadership-crisis-becomes-blessing-in-disguise.php</link>
+      <description>&lt;p&gt;President Volodymyr Zelenskyy’s short-sighted decision to fire his popular defense minister may ultimately redound to Ukraine’s benefit, as the firestorm it unleashed has forced Zelenskyy to install a widely respected, new-school officer as Ukraine’s top general.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/analysis-ukraines-defense-leadership-crisis-becomes-blessing-in-disguise.php"&gt;Analysis: Ukraine’s defense leadership crisis becomes blessing in disguise&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/analysis-ukraines-defense-leadership-crisis-becomes-blessing-in-disguise.php</guid>
+    </item>
+    <item>
+      <title>EA-37Bs Arrive At RAF Fairford As Iran Threatens To Attack The UK Air Base</title>
+      <link>https://www.twz.com/air/ea-37bs-arrive-at-raf-fairford-as-iran-threatens-to-attack-the-uk-air-base</link>
+      <description>&lt;p&gt;RAF Fairford is a major hub for USAF bombers flying missions against Iran and other aircraft transmitting to the Middle East.   &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/ea-37bs-arrive-at-raf-fairford-as-iran-threatens-to-attack-the-uk-air-base"&gt;EA-37Bs Arrive At RAF Fairford As Iran Threatens To Attack The UK Air Base&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/ea-37bs-arrive-at-raf-fairford-as-iran-threatens-to-attack-the-uk-air-base</guid>
+    </item>
+    <item>
+      <title>Beyond the chip: How the US can shape global standards for AI in energy</title>
+      <link>https://www.atlanticcouncil.org/blogs/energysource/beyond-the-chip-how-the-us-can-shape-global-standards-for-ai-in-energy/</link>
+      <description>&lt;p&gt;A shift in US policy can better position Washington to set the standards for industrial AI across the energy sector. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/energysource/beyond-the-chip-how-the-us-can-shape-global-standards-for-ai-in-energy/"&gt;Beyond the chip: How the US can shape global standards for AI in energy&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/energysource/beyond-the-chip-how-the-us-can-shape-global-standards-for-ai-in-energy/</guid>
+    </item>
+    <item>
+      <title>Fake Claude app promoted by Bing ads pushes SectopRAT malware</title>
+      <link>https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/</link>
+      <description>A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver the SectopRAT malware. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/</guid>
+    </item>
+    <item>
+      <title>Chaotic Progress: European NATO’s Quest for Stronger Defense</title>
+      <link>https://warontherocks.com/chaotic-progress-european-natos-quest-for-stronger-defense/</link>
+      <description>&lt;p&gt;In 2024, Max Bergmann wrote, &amp;#8220;NATO Missed a Chance to Transform Itself,&amp;#8221; where he argued NATO&amp;#8217;s leadership needs to facilitate a strong European pillar of the alliance through structural reforms in European institutions. Two years later, we asked Max to revisit his arguments.Image:&amp;#160;The White House&amp;#160;via Wikimedia CommonsIn 2024, you argued NATO&amp;#8217;s own leadership should facilitate a European pillar. Two years later, NATO Secretary General Mark Rutte told the European Parliament that anyone who thinks Europe can defend itself without the United States is dreaming, drawing public pushback from European leaders. Does that rift suggest NATO&amp;#8217;s leadership is blocking progress on&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/chaotic-progress-european-natos-quest-for-stronger-defense/"&gt;Chaotic Progress: European NATO’s Quest for Stronger Defense&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/chaotic-progress-european-natos-quest-for-stronger-defense/</guid>
+    </item>
+    <item>
+      <title>‘Incredible work’: Ukrainian F-16 downs Russian fighter jet for first time</title>
+      <link>https://www.defensenews.com/global/europe/2026/07/23/incredible-work-ukrainian-f-16-downs-russian-fighter-jet-for-first-time/</link>
+      <description>The kill, confirmed by the top U.S. general, is the latest sign of Kyiv's growing air power — pulled off by one of the oldest fighters in the sky.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/07/23/incredible-work-ukrainian-f-16-downs-russian-fighter-jet-for-first-time/</guid>
+    </item>
+    <item>
+      <title>Rubio restricts visas for sextortionists, cyber scammers</title>
+      <link>https://cyberscoop.com/us-visa-restrictions-cybercriminals-rubio/</link>
+      <description>&lt;p&gt;The move stems from a Trump executive order as the administration continues to pursue cyber-enabled fraud and other crimes.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/us-visa-restrictions-cybercriminals-rubio/"&gt;Rubio restricts visas for sextortionists, cyber scammers&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/us-visa-restrictions-cybercriminals-rubio/</guid>
+    </item>
+    <item>
+      <title>Australian energy provider Origin says data breach exposes client data</title>
+      <link>https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/</link>
+      <description>Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/</guid>
+    </item>
+  </channel>
+</rss>
