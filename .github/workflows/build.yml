@@ -1,0 +1,37 @@
+name: Combine RSS Feeds
+
+on:
+  schedule:
+    # Har 15 daqiqada ishga tushadi (GitHub'da minimal interval ~5 daqiqa,
+    # lekin real ishga tushish vaqti navbat sababli 15-20 daqiqagacha kechikishi mumkin)
+    - cron: "*/15 * * * *"
+  workflow_dispatch:  # Qo'lda "Run workflow" tugmasi orqali ham ishga tushirish mumkin
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repozitoriyni yuklab olish
+        uses: actions/checkout@v4
+
+      - name: Python o'rnatish
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Kutubxonalarni o'rnatish
+        run: pip install -r requirements.txt
+
+      - name: Feedlarni birlashtirish
+        run: python combine_feeds.py
+
+      - name: Natijani commit qilish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/feed.xml
+          git diff --staged --quiet || git commit -m "Auto-update feed.xml [skip ci]"
+          git push
