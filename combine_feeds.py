@@ -12,6 +12,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import hashlib
 import time
 import sys
+import os
 
 FEEDS_FILE = "feeds.txt"
 OUTPUT_FILE = "docs/feed.xml"          # GitHub Pages "docs/" papkasidan xizmat qiladi
@@ -32,11 +33,11 @@ def load_feed_urls(path: str) -> list[str]:
     return urls
 
 
-def fetch_single_feed(url: str) -> tuple[str, list]:
+def fetch_single_feed(url: str) -> tuple[str, list, str]:
     """Bitta RSS manbani o'qiydi. Xato bo'lsa, bo'sh ro'yxat va xato matnini qaytaradi."""
     try:
         parsed = feedparser.parse(url, request_headers={
-            "User-Agent": "Mozilla/5.0 (compatible; NewsAggregator/1.0)"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         })
         if parsed.bozo and not parsed.entries:
             return url, [], f"Parse xatosi: {parsed.bozo_exception}"
@@ -55,8 +56,11 @@ def get_entry_timestamp(entry) -> float:
     for key in ("published_parsed", "updated_parsed"):
         t = entry.get(key)
         if t:
-            return time.mktime(t)
-    return 0.0
+            try:
+                return time.mktime(t)
+            except Exception:
+                pass
+    return time.time()  # Sanasi bo'lmasa hozirgi vaqtни беради
 
 
 def get_entry_id(entry) -> str:
@@ -103,8 +107,7 @@ def main():
     fg = FeedGenerator()
     fg.title("Combined Security & Geopolitics Feed")
     fg.link(href="https://github.com/", rel="alternate")
-    fg.description("50+ manbadan avtomatik yig'ilgan xavfsizlik, mudofaa, "
-                    "geosiyosat va kiberxavfsizlik yangiliklari")
+    fg.description("50+ manbadan avtomatik yig'ilgan xavfsizlik, mudofaa, geosiyosat va kiberxavfsizlik yangiliklari")
     fg.language("en")
     fg.lastBuildDate(datetime.now(timezone.utc))
 
@@ -117,14 +120,20 @@ def main():
         fe.description(description)
         source_name = entry.get("_source_name", "Unknown")
         fe.author(name=source_name)
-        pub_date = entry.get("published", entry.get("updated"))
-        if pub_date:
-            try:
-                fe.pubDate(entry.get("published_parsed") or entry.get("updated_parsed"))
-            except Exception:
-                pass
 
-    import os
+        # =========================================================
+        # 🛠 ВАҚТ ТУЗАТИШИ (1970 ЙИЛ ХАТОСИНИ ПЎЛАТДЕК ТЎҒРИЛАШ)
+        # =========================================================
+        struct_time = entry.get("published_parsed") or entry.get("updated_parsed")
+        if struct_time:
+            try:
+                dt = datetime.fromtimestamp(time.mktime(struct_time), tz=timezone.utc)
+                fe.pubDate(dt)
+            except Exception:
+                fe.pubDate(datetime.now(timezone.utc))
+        else:
+            fe.pubDate(datetime.now(timezone.utc))
+
     os.makedirs("docs", exist_ok=True)
     fg.rss_file(OUTPUT_FILE, pretty=True)
     print(f"\n✅ Yakuniy feed saqlandi: {OUTPUT_FILE}")
