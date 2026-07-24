@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 04:31:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 07:17:16 +0000</lastBuildDate>
     <item>
       <title>Israel’s IAI unveils ‘Hypnosis’ system for confusing enemy drone swarms</title>
       <link>https://www.c4isrnet.com/industry/2026/07/20/israels-iai-unveils-hypnosis-system-for-confusing-enemy-drone-swarms/</link>
@@ -390,13 +390,6 @@
       <pubDate>Tue, 21 Jul 2026 20:53:25 +0000</pubDate>
     </item>
     <item>
-      <title>Ransomware Is Accelerating, but It's Not Because of AI</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai</link>
-      <description>Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai</guid>
-      <pubDate>Tue, 21 Jul 2026 21:48:05 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenAI says model test was behind Hugging Face hack</title>
       <link>https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/</link>
       <description>&lt;p&gt;At the time, Hugging Face said it wasn’t clear which LLM was used in the attack. OpenAI confirmed it was one of their models being tested for “maximal” cyber capabilities. &lt;/p&gt;
@@ -439,17 +432,17 @@
       <pubDate>Wed, 22 Jul 2026 02:25:32 +0000</pubDate>
     </item>
     <item>
-      <title>The Iran Cease-Fire Was Doomed to Fail</title>
-      <link>https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail</link>
-      <description>Why transactionalism won’t deliver peace in the Middle East.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail</guid>
-      <pubDate>Wed, 22 Jul 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>When China Gets Its Own Mythos</title>
       <link>https://www.foreignaffairs.com/china/when-china-gets-its-own-mythos</link>
       <description>Preparing for an AI cyber crisis.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/china/when-china-gets-its-own-mythos</guid>
+      <pubDate>Wed, 22 Jul 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Iran Cease-Fire Was Doomed to Fail</title>
+      <link>https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail</link>
+      <description>Why transactionalism won’t deliver peace in the Middle East.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail</guid>
       <pubDate>Wed, 22 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -596,13 +589,6 @@
       <description>Iran’s rulers may survive bombs, blockades, and sanctions, but they will not survive the moment the people beneath them discover they no longer have to kneel. #Iran #UnconventionalWarfare #GreenBerets #IRGC #MilitaryHistory</description>
       <guid isPermaLink="false">https://sofrep.com/news/to-defeat-iran-liberate-the-oppressed/</guid>
       <pubDate>Wed, 22 Jul 2026 16:00:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iran Continues Executions Amid Protest By Death Row Inmates</title>
-      <link>https://www.rferl.org/a/iran-executions-protest-death-row-inmates/33810002.html</link>
-      <description>Iran executed a man it accused of carrying out "operational actions" during nationwide protests at the start of the year as the country's leadership ratchets up its crackdown on dissent, sparking a hunger strike among hundreds of death row inmates.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-executions-protest-death-row-inmates/33810002.html</guid>
-      <pubDate>Wed, 22 Jul 2026 16:03:30 +0000</pubDate>
     </item>
     <item>
       <title>Whatever Happened to ‘Wolf Warrior’ Diplomacy?</title>
@@ -909,15 +895,6 @@
       <pubDate>Thu, 23 Jul 2026 06:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access</title>
-      <link>https://thehackernews.com/2026/07/check-point-patches-exploited.html</link>
-      <description>Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild.
-
-The security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass affecting the Check Point SmartConsole login process that allows an</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/check-point-patches-exploited.html</guid>
-      <pubDate>Thu, 23 Jul 2026 06:34:36 +0000</pubDate>
-    </item>
-    <item>
       <title>Brazilian Banking Trojan Actively Spreading in Portugal</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal</link>
       <description>Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.</description>
@@ -951,11 +928,11 @@ The security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentica
     <item>
       <title>Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs</title>
       <link>https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html</link>
-      <description>RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access.
+      <description>RefluXFS, a Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access.
 
 Qualys said default installations of Red Hat Enterprise Linux and its derivatives, Fedora Server, and Amazon Linux can meet the conditions for exploitation.
 
-The company demonstrated the race</description>
+The company demonstrated the race against</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html</guid>
       <pubDate>Thu, 23 Jul 2026 08:04:35 +0000</pubDate>
     </item>
@@ -6460,6 +6437,13 @@ The NSA, CISA and partner agencies published</description>
       <pubDate>Fri, 24 Jul 2026 02:00:02 +0000</pubDate>
     </item>
     <item>
+      <title>America Still Has the Upper Hand Over China</title>
+      <link>https://www.foreignaffairs.com/united-states/america-still-has-upper-hand-over-china</link>
+      <description>Washington can win if it works with allies.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/america-still-has-upper-hand-over-china</guid>
+      <pubDate>Fri, 24 Jul 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Iran and the New Rules of Global Power</title>
       <link>https://www.foreignaffairs.com/united-states/iran-and-new-rules-global-power</link>
       <description>The making and unmaking of American dominance.</description>
@@ -6467,11 +6451,27 @@ The NSA, CISA and partner agencies published</description>
       <pubDate>Fri, 24 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>America Still Has the Upper Hand Over China</title>
-      <link>https://www.foreignaffairs.com/united-states/america-still-has-upper-hand-over-china</link>
-      <description>Washington can win if it works with allies.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/america-still-has-upper-hand-over-china</guid>
-      <pubDate>Fri, 24 Jul 2026 04:00:00 +0000</pubDate>
+      <title>Trump Threatens To Use Iranian Assets To Pay For Shipping Damage</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the US-Israeli war with Iran continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Fri, 24 Jul 2026 04:46:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks</title>
+      <link>https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html</link>
+      <description>The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.
+
+The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html</guid>
+      <pubDate>Fri, 24 Jul 2026 06:50:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Europe's Multilingual Reality Exposes AI Security Gaps</title>
+      <link>https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps</link>
+      <description>The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps</guid>
+      <pubDate>Fri, 24 Jul 2026 07:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
