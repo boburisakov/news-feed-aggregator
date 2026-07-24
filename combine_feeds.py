@@ -6,17 +6,20 @@ Talab qilinadigan kutubxonalar: feedparser, feedgen (requirements.txt'da)
 """
 
 import feedparser
+import requests
 from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import hashlib
+import os
+import re
 import time
 import sys
-import os
 
 FEEDS_FILE = "feeds.txt"
 OUTPUT_FILE = "docs/feed.xml"          # GitHub Pages "docs/" papkasidan xizmat qiladi
 MAX_ITEMS_IN_OUTPUT = 200               # yakuniy feedda saqlanadigan maksimal element soni
+MIN_ITEMS_THRESHOLD = 5                 # shundan kam bo'lsa, eski feed.xml SAQLANADI, yangisi yozilmaydi
 MAX_ITEMS_PER_SOURCE = 10               # har bir manbadan olinadigan maksimal element
 REQUEST_TIMEOUT = 15                    # sekund, har bir manba uchun
 MAX_WORKERS = 10                        # parallel so'rovlar soni
@@ -33,20 +36,53 @@ def load_feed_urls(path: str) -> list[str]:
     return urls
 
 
-def fetch_single_feed(url: str) -> tuple[str, list, str]:
-    """Bitta RSS manbani o'qiydi. Xato bo'lsa, bo'sh ro'yxat va xato matnini qaytaradi."""
+def clean_xml_bytes(raw: bytes) -> bytes:
+    """
+    Ba'zi serverlar XML ichida ruxsat etilmagan control character'larni
+    (invalid token xatosiga sabab bo'ladigan) qaytaradi. Ularni olib tashlaymiz.
+    XML 1.0 standartida ruxsat etilgan: \\t \\n \\r va U+0020 dan yuqori belgilar.
+    """
     try:
-        parsed = feedparser.parse(url, request_headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        })
+        text = raw.decode("utf-8", errors="ignore")
+    except Exception:
+        text = raw.decode("latin-1", errors="ignore")
+    # Ruxsat etilmagan control character'larni olib tashlash
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", text)
+    return text.encode("utf-8")
+
+
+def fetch_single_feed(url: str) -> tuple[str, list]:
+    """
+    Bitta RSS manbani o'qiydi. Xato bo'lsa, bo'sh ro'yxat va xato matnini qaytaradi.
+
+    Content-Type header muammosini chetlab o'tish uchun avval 'requests' orqali
+    xom (raw) ma'lumotni o'zimiz yuklab olamiz, so'ng uni tozalab feedparser'ga
+    beramiz — bu "text/html is not an XML media type" va ba'zi
+    "not well-formed (invalid token)" xatolarini kamaytiradi.
+    """
+    try:
+        response = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; NewsAggregator/1.0)"},
+            timeout=REQUEST_TIMEOUT,
+        )
+        response.raise_for_status()
+        cleaned_content = clean_xml_bytes(response.content)
+
+        parsed = feedparser.parse(cleaned_content)
+
         if parsed.bozo and not parsed.entries:
             return url, [], f"Parse xatosi: {parsed.bozo_exception}"
+
         entries = parsed.entries[:MAX_ITEMS_PER_SOURCE]
         source_name = parsed.feed.get("title", url)
         for e in entries:
             e["_source_name"] = source_name
             e["_source_url"] = url
         return url, entries, None
+
+    except requests.exceptions.RequestException as exc:
+        return url, [], f"So'rov xatosi: {exc}"
     except Exception as exc:
         return url, [], str(exc)
 
@@ -56,11 +92,8 @@ def get_entry_timestamp(entry) -> float:
     for key in ("published_parsed", "updated_parsed"):
         t = entry.get(key)
         if t:
-            try:
-                return time.mktime(t)
-            except Exception:
-                pass
-    return time.time()  # Sanasi bo'lmasa hozirgi vaqtни беради
+            return time.mktime(t)
+    return 0.0
 
 
 def get_entry_id(entry) -> str:
@@ -103,11 +136,25 @@ def main():
     print(f"\nJami yig'ilgan: {len(all_entries)}, dublikatsiz: {len(unique_entries)}")
     print(f"Muvaffaqiyatsiz manbalar: {len(errors)} / {len(urls)}")
 
+    # HIMOYA QATLAMI: agar natija juda kam bo'lsa, eski feed.xml'ni buzmaymiz.
+    # Sabab: vaqtinchalik tarmoq muammosi yoki manbalarning ko'pchiligi bir vaqtda
+    # ishlamay qolishi mumkin — bunday holatda "deyarli bo'sh" fayl yozib,
+    # avvalgi ishlagan natijani yo'qotmaslik kerak.
+    if len(unique_entries) < MIN_ITEMS_THRESHOLD:
+        print(
+            f"\n❌ OGOHLANTIRISH: faqat {len(unique_entries)} ta element topildi "
+            f"(chegara: {MIN_ITEMS_THRESHOLD}). Eski docs/{os.path.basename(OUTPUT_FILE)} "
+            f"O'ZGARTIRILMAYDI — xavfsizlik uchun saqlanib qoladi."
+        )
+        print("Iltimos, tarmoq holati yoki manbalar ro'yxatini tekshiring.")
+        sys.exit(1)
+
     # Yakuniy feed.xml yaratish
     fg = FeedGenerator()
     fg.title("Combined Security & Geopolitics Feed")
     fg.link(href="https://github.com/", rel="alternate")
-    fg.description("50+ manbadan avtomatik yig'ilgan xavfsizlik, mudofaa, geosiyosat va kiberxavfsizlik yangiliklari")
+    fg.description("50+ manbadan avtomatik yig'ilgan xavfsizlik, mudofaa, "
+                    "geosiyosat va kiberxavfsizlik yangiliklari")
     fg.language("en")
     fg.lastBuildDate(datetime.now(timezone.utc))
 
@@ -120,18 +167,17 @@ def main():
         fe.description(description)
         source_name = entry.get("_source_name", "Unknown")
         fe.author(name=source_name)
-
-        # =========================================================
-        # 🛠 ВАҚТ ТУЗАТИШИ (1970 ЙИЛ ХАТОСИНИ ПЎЛАТДЕК ТЎҒРИЛАШ)
-        # =========================================================
-        struct_time = entry.get("published_parsed") or entry.get("updated_parsed")
-        if struct_time:
-            try:
-                dt = datetime.fromtimestamp(time.mktime(struct_time), tz=timezone.utc)
-                fe.pubDate(dt)
-            except Exception:
-                fe.pubDate(datetime.now(timezone.utc))
-        else:
+        struct_t = entry.get("published_parsed") or entry.get("updated_parsed")
+        try:
+            if struct_t:
+                dt = datetime.fromtimestamp(time.mktime(struct_t), tz=timezone.utc)
+            else:
+                # Sana umuman topilmasa, hozirgi vaqtni qo'yamiz —
+                # 1970-yil (epoch) chiqib, Make'da "juda eski" deb
+                # noto'g'ri talqin qilinishining oldini olish uchun.
+                dt = datetime.now(timezone.utc)
+            fe.pubDate(dt)
+        except Exception:
             fe.pubDate(datetime.now(timezone.utc))
 
     os.makedirs("docs", exist_ok=True)
