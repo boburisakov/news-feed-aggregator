@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jul 2026 19:56:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 20:52:31 +0000</lastBuildDate>
     <item>
       <title>Doodle Labs eyes US, European production sites as demand soars for jam-resistant drones</title>
       <link>https://www.c4isrnet.com/industry/2026/07/20/doodle-labs-eyes-us-european-production-sites-as-demand-soars-for-jam-resistant-drones/</link>
@@ -5901,13 +5901,6 @@
       <pubDate>Fri, 24 Jul 2026 11:13:42 +0000</pubDate>
     </item>
     <item>
-      <title>Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do</title>
-      <link>https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html</link>
-      <description>AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from prompt filtering to identity-layer access controls. Where we've collectively landed is that understanding the intent of</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html</guid>
-      <pubDate>Fri, 24 Jul 2026 11:30:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers</title>
       <link>https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html</link>
       <description>A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.
@@ -6331,7 +6324,7 @@ They codenamed the flaw Certighost. Because Domain Controller accounts carry dir
       <pubDate>Fri, 24 Jul 2026 23:07:46 +0000</pubDate>
     </item>
     <item>
-      <title>Iran-Backed Houthis Claim Missile Strike On Saudi Arabia</title>
+      <title>Conflicting Claims As Tehran Says Ukraine Struck Iranian Commercial Vessel In Caspian Sea</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the US-Israeli war with Iran continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -6465,6 +6458,15 @@ Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS sc
       <description>On July 25, 1969, Richard Nixon told reporters on Guam that Asian allies would have to fight their own wars — America would arm and back them, not bleed for them. It wasn't a formal speech. It became the blueprint for Vietnamization and a new American way of war. #NixonDoctrine #Vietnamization #ColdWarHistory #VietnamWar #GuamDoctrine #MilitaryHistory #USForeignPolicy #ThisDayInHistory #Nixon1969 #ColdWarStrategy</description>
       <guid isPermaLink="false">https://sofrep.com/news/the-nixon-doctrine-how-an-off-the-record-chat-on-guam-ended-american-ground-wars-in-asia/</guid>
       <pubDate>Sat, 25 Jul 2026 16:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable</title>
+      <link>https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html</link>
+      <description>A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.
+
+Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html</guid>
+      <pubDate>Sat, 25 Jul 2026 18:48:44 +0000</pubDate>
     </item>
   </channel>
 </rss>
