@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jul 2026 08:50:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 10:24:30 +0000</lastBuildDate>
     <item>
       <title>WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)</title>
       <link>https://isc.sans.edu/diary/rss/33168</link>
@@ -5814,13 +5814,6 @@
       <pubDate>Thu, 23 Jul 2026 21:06:36 +0000</pubDate>
     </item>
     <item>
-      <title>New Dolphin X malware uses AI to rank high-value targets</title>
-      <link>https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/</link>
-      <description>A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/</guid>
-      <pubDate>Thu, 23 Jul 2026 21:20:34 +0000</pubDate>
-    </item>
-    <item>
       <title>Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets</link>
       <description>A state-sponsored threat group, dubbed &amp;quot;Laundry Bear,&amp;quot; sends &amp;quot;half-click&amp;quot; phishing emails that require a victim only to open or preview the message.</description>
@@ -6466,6 +6459,13 @@ They codenamed the flaw Certighost. Because Domain Controller accounts carry dir
 An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no administrator rights, continuous integration (CI) runner access, victim interaction</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</guid>
       <pubDate>Sat, 25 Jul 2026 08:34:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI confirms ChatGPT is down worldwide</title>
+      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/</link>
+      <description>ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/</guid>
+      <pubDate>Sat, 25 Jul 2026 09:31:09 +0000</pubDate>
     </item>
   </channel>
 </rss>
