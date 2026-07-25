@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jul 2026 06:37:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 08:50:07 +0000</lastBuildDate>
     <item>
       <title>WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)</title>
       <link>https://isc.sans.edu/diary/rss/33168</link>
@@ -618,13 +618,6 @@
       <description>Australia successfully tested a “Frankenstein” medium-range air defense system last month harnessing existing and new capabilities in a novel way.</description>
       <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/07/23/australia-whips-together-a-hybrid-air-defense-weapon/</guid>
       <pubDate>Thu, 23 Jul 2026 10:35:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>No Breakthroughs, Little Optimism As Rubio, Lavrov Meet On Ukraine War</title>
-      <link>https://www.rferl.org/a/rubio-ukraine-war-lavrov-meeting-russia/33810551.html</link>
-      <description>US Secretary of State Marco Rubio said following talks with Russian Foreign Minister Sergei Lavrov that the United States remains prepared to help broker an end to Russia's war in Ukraine but that fresh proposals would be needed after previous peace ideas failed.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/rubio-ukraine-war-lavrov-meeting-russia/33810551.html</guid>
-      <pubDate>Thu, 23 Jul 2026 10:56:09 +0000</pubDate>
     </item>
     <item>
       <title>EU naval mission will now intercept Russian shadow tankers in the Indian Ocean</title>
@@ -5886,13 +5879,6 @@
       <pubDate>Fri, 24 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Saudi-Led Forces Strike Houthi Sites In Yemen After Ships Hit In Red Sea</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the US-Israeli war with Iran continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Fri, 24 Jul 2026 04:46:20 +0000</pubDate>
-    </item>
-    <item>
       <title>Myanmar’s Readmission to ASEAN Summits Still ‘Far Off,’ Special Envoy Says</title>
       <link>https://thediplomat.com/2026/07/myanmars-readmission-to-asean-summits-still-far-off-special-envoy-says/</link>
       <description>Ma. Theresa Lazaro said that the bloc wants to see more progress on the implementation of the Five-Point Consensus for resolving the country's conflict.</description>
@@ -5905,15 +5891,6 @@
       <description>Excessive groundwater extraction by households and industry is one of the primary reasons for the city's subsidence.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/07/jakarta-the-sinking-metropolis-where-millions-still-struggle-to-access-piped-water/</guid>
       <pubDate>Fri, 24 Jul 2026 05:55:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks</title>
-      <link>https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html</link>
-      <description>The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.
-
-The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html</guid>
-      <pubDate>Fri, 24 Jul 2026 06:50:57 +0000</pubDate>
     </item>
     <item>
       <title>Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say</title>
@@ -6466,6 +6443,29 @@ They codenamed the flaw Certighost. Because Domain Controller accounts carry dir
       <description>Martin-Baker is reaching out to drone companies: "How can we help?"</description>
       <guid isPermaLink="false">https://www.defenseone.com/threats/2026/07/ejection-seat-unmanned-aircraft/415008/</guid>
       <pubDate>Fri, 24 Jul 2026 23:07:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran-Backed Houthis Claim Missile Strike On Saudi Arabia</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the US-Israeli war with Iran continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Sat, 25 Jul 2026 07:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attacks On Chinese Projects Test China-Pakistan 'Iron Brotherhood' In Balochistan</title>
+      <link>https://www.rferl.org/a/pakistan-china-balochistan-investments-attacks/33812355.html</link>
+      <description>China's investments in Pakistan's Balochistan are increasingly at risk as attacks by separatists are on the rise in the impoverished region. The worsening security situation has strained ties between the Iron Brothers, raising concerns over the future of Beijing's investments in Pakistan.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/pakistan-china-balochistan-investments-attacks/33812355.html</guid>
+      <pubDate>Sat, 25 Jul 2026 08:12:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git</title>
+      <link>https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</link>
+      <description>Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server.
+
+An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no administrator rights, continuous integration (CI) runner access, victim interaction</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</guid>
+      <pubDate>Sat, 25 Jul 2026 08:34:15 +0000</pubDate>
     </item>
   </channel>
 </rss>
