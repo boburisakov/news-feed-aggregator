@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jul 2026 11:42:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 12:45:36 +0000</lastBuildDate>
     <item>
       <title>WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)</title>
       <link>https://isc.sans.edu/diary/rss/33168</link>
@@ -5572,13 +5572,6 @@
       <pubDate>Thu, 23 Jul 2026 13:41:41 +0000</pubDate>
     </item>
     <item>
-      <title>“The Odyssey” Movie Review and Opinion: Christopher Nolan’s Epic Is Worth the Journey</title>
-      <link>https://sofrep.com/news/the-odyssey-movie-review-and-opinion-christopher-nolans-epic-is-worth-the-journey/</link>
-      <description>I went into The Odyssey expecting to be disappointed, but left convinced Christopher Nolan had turned Homer’s ancient story of war, guilt, and the long struggle home into a cinematic masterpiece. #TheOdyssey #ChristopherNolan #MovieReview #EpicCinema #GreekMythology</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-odyssey-movie-review-and-opinion-christopher-nolans-epic-is-worth-the-journey/</guid>
-      <pubDate>Thu, 23 Jul 2026 14:00:48 +0000</pubDate>
-    </item>
-    <item>
       <title>Battlefield networks: Nokia Defense and NestAI at the edge</title>
       <link>https://www.army-technology.com/features/battlefield-networks-nokia-defense-and-nestai-at-the-edge/</link>
       <description>The need to develop secure 5G battlefield networks is increasingly critical, with electronic warfare effectors saturating the digital domain.</description>
@@ -5879,17 +5872,6 @@
       <pubDate>Fri, 24 Jul 2026 05:55:00 +0000</pubDate>
     </item>
     <item>
-      <title>Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say</title>
-      <link>https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html</link>
-      <description>Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0.
-
-All four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBloom module. Redis says the underlying memory flaws may lead to remote code execution.
-
-Redis 6.2.23, 7.2.15, and 7.4.10</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html</guid>
-      <pubDate>Fri, 24 Jul 2026 06:58:27 +0000</pubDate>
-    </item>
-    <item>
       <title>Europe's Multilingual Reality Exposes AI Security Gaps</title>
       <link>https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps</link>
       <description>The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language.</description>
@@ -5919,17 +5901,6 @@ Redis 6.2.23, 7.2.15, and 7.4.10</description>
       <pubDate>Fri, 24 Jul 2026 07:36:39 +0000</pubDate>
     </item>
     <item>
-      <title>NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats</title>
-      <link>https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html</link>
-      <description>Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code.
-
-Every version before 4.14.0 is affected. NodeBB has fixed them all, and administrators should be on 4.14.2.
-
-The simplest one takes a settings change. A</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html</guid>
-      <pubDate>Fri, 24 Jul 2026 07:41:06 +0000</pubDate>
-    </item>
-    <item>
       <title>Born in Jails, Popularized by Gandhi, Hunger Strikes Can Hit Authorities Hard. Conditions Apply.</title>
       <link>https://thediplomat.com/2026/07/born-in-jails-popularized-by-gandhi-hunger-strikes-can-hit-authorities-hard-conditions-apply/</link>
       <description>Sonam Wangchuk has ended his 26-day hunger strike supporting the Cockroach Janta Party’s demand for the education minister’s resignation. What did it achieve?</description>
@@ -5949,15 +5920,6 @@ The simplest one takes a settings change. A</description>
       <description>Ukraine struck targets in several parts of Russia early on July 24, including another warehouse of Russian e-commerce retailer Wildberries, as Kyiv continues to expand its retaliatory long-range strike campaign in an effort to force Moscow into negotiations.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/wildberries-russia-ukraine-strikes-us-rubio/33811940.html</guid>
       <pubDate>Fri, 24 Jul 2026 09:50:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Golden Chickens Resurfaces With Four New Malware Families and Modular Implants</title>
-      <link>https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html</link>
-      <description>The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner workings.
-
-The malware families in question are: TinyEgg, ChonkyChicken, a modularized variant of ChonkyChicken, and a modified web browser credential</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html</guid>
-      <pubDate>Fri, 24 Jul 2026 10:09:24 +0000</pubDate>
     </item>
     <item>
       <title>Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry</title>
@@ -6445,20 +6407,51 @@ They codenamed the flaw Certighost. Because Domain Controller accounts carry dir
       <pubDate>Sat, 25 Jul 2026 08:12:05 +0000</pubDate>
     </item>
     <item>
-      <title>Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git</title>
-      <link>https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</link>
-      <description>Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server.
-
-An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no administrator rights, continuous integration (CI) runner access, victim interaction</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</guid>
-      <pubDate>Sat, 25 Jul 2026 08:34:15 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenAI confirms ChatGPT is down worldwide</title>
       <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/</link>
       <description>ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/</guid>
       <pubDate>Sat, 25 Jul 2026 09:31:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts</title>
+      <link>https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html</link>
+      <description>The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims.
+
+Swiss cybersecurity company PRODAFT is tracking the centrally administered RaaS operation under the name Funky Mantis.
+
+"The portal combined build generation, finance,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html</guid>
+      <pubDate>Sat, 25 Jul 2026 09:53:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE</title>
+      <link>https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html</link>
+      <description>Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.
+
+"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html</guid>
+      <pubDate>Sat, 25 Jul 2026 10:14:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking</title>
+      <link>https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html</link>
+      <description>For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.
+
+That model is changing.
+
+Recent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html</guid>
+      <pubDate>Sat, 25 Jul 2026 10:14:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git</title>
+      <link>https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</link>
+      <description>Security researchers at&amp;nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.
+
+Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html</guid>
+      <pubDate>Sat, 25 Jul 2026 10:14:26 +0000</pubDate>
     </item>
     <item>
       <title>Fatal Accidents, Hidden Contracts: Chinese Building Projects In Serbia And Bosnia</title>
@@ -6467,6 +6460,15 @@ An ordinary authenticated user triggers it by committing two crafted Jupyter not
 From Serbia to Bosnia-Herzegovina, major state-backed Chinese developments share a troubling pattern: fatal accidents, illegal labor practices, and zero transparency.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/china-balkans-loan-infrastructure/33812817.html</guid>
       <pubDate>Sat, 25 Jul 2026 11:11:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>NATO 3.0: The End of American Co-Dependence and the Ankara Reset</title>
+      <link>https://sofrep.com/news/nato-3-0-the-end-of-american-co-dependence-and-the-ankara-reset/</link>
+      <description>The U.S. National Defense Strategy is unambiguous: American military bandwidth must be preserved for simultaneous, multi-theater threats, particularly the Indo-Pacific. Gen. Alexus G. Grynkewich (USEUCOM Commander) diagnosed the core problem: an "unhealthy co-dependence in the NATO Force Model on U.S. forces." The shift is definitive: from burden sharing to burden shifting. European NATO members now assume primary responsibility for conventional defense. The United States maintains its nuclear umbrella and strategic support, but Europe owns the daily tactical friction. #NATO3 
+#DefenseStrategy 
+#DroneWarfare</description>
+      <guid isPermaLink="false">https://sofrep.com/news/nato-3-0-the-end-of-american-co-dependence-and-the-ankara-reset/</guid>
+      <pubDate>Sat, 25 Jul 2026 12:00:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
