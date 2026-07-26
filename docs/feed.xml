@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jul 2026 14:27:20 +0000</lastBuildDate>
-    <item>
-      <title>WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)</title>
-      <link>https://isc.sans.edu/diary/rss/33168</link>
-      <description>Last week, Searchlight Cyber released details about a vulnerability they are calling "wp2shell". The vulnerability was initially announced without a CVE number. But now has been assigned CVE-2026-63030. Many WordPress plugin vulnerabilities are never assigned CVE numbers. But wp2shell is different. It is a SQL injection vulnerability in WordPress Core, not a plugin, and can lead to unauthenticated remote code execution. Shortly after being announced, the vulnerability started to be exploited.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33168</guid>
-      <pubDate>Mon, 20 Jul 2026 18:41:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC</title>
-      <link>https://openai.com/index/david-velez-robin-vince-join-openai-boards</link>
-      <description>David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.</description>
-      <guid isPermaLink="false">https://openai.com/index/david-velez-robin-vince-join-openai-boards</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 26 Jul 2026 15:39:48 +0000</lastBuildDate>
     <item>
       <title>ISC Stormcast For Tuesday, July 21st, 2026 https://isc.sans.edu/podcastdetail/10016, (Tue, Jul 21st)</title>
       <link>https://isc.sans.edu/diary/rss/33170</link>
@@ -6309,15 +6295,6 @@ From Serbia to Bosnia-Herzegovina, major state-backed Chinese developments share
       <pubDate>Sat, 25 Jul 2026 11:11:55 +0000</pubDate>
     </item>
     <item>
-      <title>NATO 3.0: The End of American Co-Dependence and the Ankara Reset</title>
-      <link>https://sofrep.com/news/nato-3-0-the-end-of-american-co-dependence-and-the-ankara-reset/</link>
-      <description>The U.S. National Defense Strategy is unambiguous: American military bandwidth must be preserved for simultaneous, multi-theater threats, particularly the Indo-Pacific. Gen. Alexus G. Grynkewich (USEUCOM Commander) diagnosed the core problem: an "unhealthy co-dependence in the NATO Force Model on U.S. forces." The shift is definitive: from burden sharing to burden shifting. European NATO members now assume primary responsibility for conventional defense. The United States maintains its nuclear umbrella and strategic support, but Europe owns the daily tactical friction. #NATO3 
-#DefenseStrategy 
-#DroneWarfare</description>
-      <guid isPermaLink="false">https://sofrep.com/news/nato-3-0-the-end-of-american-co-dependence-and-the-ankara-reset/</guid>
-      <pubDate>Sat, 25 Jul 2026 12:00:25 +0000</pubDate>
-    </item>
-    <item>
       <title>Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available</title>
       <link>https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html</link>
       <description>Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process.
@@ -6406,7 +6383,7 @@ Confiant, which detailed the campaign on July 23, 2026, said it has operated sin
       <pubDate>Sat, 25 Jul 2026 23:31:00 +0000</pubDate>
     </item>
     <item>
-      <title>Houthis Say They Downed Saudi Surveillance Drone</title>
+      <title>Trump Holding Off On Iran Attacks To Give Talks 'Some Space,' Says US Envoy</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -6467,6 +6444,27 @@ Confiant, which detailed the campaign on July 23, 2026, said it has operated sin
       <description>GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/</guid>
       <pubDate>Sun, 26 Jul 2026 14:13:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Titans of the Sea: The Evolution of Aircraft Carriers in World War II</title>
+      <link>https://sofrep.com/news/titans-of-the-sea-the-evolution-of-aircraft-carriers-in-world-war-ii/</link>
+      <description>From Pearl Harbor's surprise to modern naval might, explore how WWII aircraft carriers redefined warfare and today's strategic dominance. #AircraftCarrier #WWII #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/news/titans-of-the-sea-the-evolution-of-aircraft-carriers-in-world-war-ii/</guid>
+      <pubDate>Sun, 26 Jul 2026 15:00:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)</title>
+      <link>https://isc.sans.edu/diary/rss/33184</link>
+      <description>ESAFENET&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s CDG showed up in our data before. The company focused on secure document management and data leakage prevention solutions. The "CDG" stands for "Content Data Guard", and the product appears to be mostly targeting the Chinese market &amp;#x5b;1&amp;#x5d;. Sadly, like so many security products, it suffers from basic security vulnerabilities like SQL Injection, XSS, and default passwords. We have seen scanning for ESAFENET CDG before, in particular after the cross-site scripting vulnerability was made public.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33184</guid>
+      <pubDate>Sun, 26 Jul 2026 15:26:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>General (Ret.) Donald C. Bolduc: The Perils of Conflict Expansion</title>
+      <link>https://sofrep.com/?p=230027&amp;preview=true&amp;preview_id=230027</link>
+      <description>Restraint is not weakness; it is the hard-earned recognition that expanding a war with Iran would create more enemies, more suffering, and fewer paths to peace. #Iran #USForeignPolicy #MilitaryEscalation #MiddleEast #Diplomacy</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=230027&amp;preview=true&amp;preview_id=230027</guid>
+      <pubDate>Mon, 27 Jul 2026 13:00:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
