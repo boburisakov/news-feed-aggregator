@@ -7,22 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 19:09:16 +0000</lastBuildDate>
-    <item>
-      <title>Houthis announce blockade of Saudi Arabia, ships reroute to avoid Bab al Mandeb Strait</title>
-      <link>https://www.longwarjournal.org/archives/2026/07/houthis-announce-blockade-of-saudi-arabia-ships-reroute-to-avoid-bab-al-mandeb-strait.php</link>
-      <description>&lt;p&gt;The Houthis declared a complete maritime blockade of Saudi Arabia, claiming it is in response to blockades imposed by the Saudi-led coalition that supports Yemen's internationally recognized government. Saudi Arabia denounced the blockade and said it will protect its ships, but multiple commercial vessels have rerouted to avoid the Bab al Mandeb Strait.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/houthis-announce-blockade-of-saudi-arabia-ships-reroute-to-avoid-bab-al-mandeb-strait.php"&gt;Houthis announce blockade of Saudi Arabia, ships reroute to avoid Bab al Mandeb Strait&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/houthis-announce-blockade-of-saudi-arabia-ships-reroute-to-avoid-bab-al-mandeb-strait.php</guid>
-      <pubDate>Wed, 22 Jul 2026 18:49:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Launching Health in ChatGPT</title>
-      <link>https://openai.com/index/health-in-chatgpt</link>
-      <description>Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.</description>
-      <guid isPermaLink="false">https://openai.com/index/health-in-chatgpt</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 29 Jul 2026 20:17:29 +0000</lastBuildDate>
     <item>
       <title>ISC Stormcast For Thursday, July 23rd, 2026 https://isc.sans.edu/podcastdetail/10020, (Thu, Jul 23rd)</title>
       <link>https://isc.sans.edu/diary/rss/33178</link>
@@ -246,21 +231,6 @@
       <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
-&lt;ul type="square"&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-68686" target="_blank"&gt;CVE-2025-68686&lt;/a&gt; Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a class="fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="https://www.cve.org/CVERecord?id=CVE-2026-16812" id="menur1n1j" rel="noreferrer noopener" target="_blank" title="https://www.cve.org/cverecord?id=cve-2026-16812"&gt;CVE-2026-16812&lt;/a&gt; Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a class="ext" href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Download: lasers for nuclear fuel, and organ preservation advances</title>
       <link>https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/</link>
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. How lasers could help provide fuel for nuclear reactors&amp;#160; Nuclear power provides about 9% of global electricity today, and that fraction could tick up as countries look to build new reactors.&amp;#8230;</description>
@@ -321,14 +291,6 @@
       <pubDate>Mon, 27 Jul 2026 16:45:07 +0000</pubDate>
     </item>
     <item>
-      <title>What the latest US sanctions bill means for Russia—and for China, India, and Iran</title>
-      <link>https://www.atlanticcouncil.org/dispatches/what-the-latest-us-sanctions-bill-means-for-russia-and-for-china-india-and-iran/</link>
-      <description>&lt;p&gt;If it passes, the bill would affect several major countries that currently trade with Russia, and those effects should be factored into US planning.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/what-the-latest-us-sanctions-bill-means-for-russia-and-for-china-india-and-iran/"&gt;What the latest US sanctions bill means for Russia—and for China, India, and Iran&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/what-the-latest-us-sanctions-bill-means-for-russia-and-for-china-india-and-iran/</guid>
-      <pubDate>Mon, 27 Jul 2026 16:57:22 +0000</pubDate>
-    </item>
-    <item>
       <title>Google’s solution to hacker name confusion? Yet another naming system</title>
       <link>https://cyberscoop.com/google-threat-actor-naming-system/</link>
       <description>&lt;p&gt;APT-number conventions are out, cryptonyms are in, and security teams now have one more naming system to keep straight.&lt;/p&gt;
@@ -357,14 +319,6 @@
       <description>Romania will purchase 12 Thales Ground Master 200 Multi-Mission All-in-one radars from France as part of a government-to-government deal.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/romania-thales-gm200-mm-radar-france/</guid>
       <pubDate>Mon, 27 Jul 2026 18:15:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Navy’s GARC Kamikaze Drone Boat Blew A Hole In Ex-USS Peleliu During Sinking Exercise</title>
-      <link>https://www.twz.com/sea/navys-garc-kamikaze-drone-boat-blew-a-hole-in-ex-uss-peleliu-during-sinking-exercise</link>
-      <description>&lt;p&gt;Just days after the Navy's first combat use of a kamikaze USV, RIMPAC saw one take center stage during the sinking of an amphibious assault ship. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/navys-garc-kamikaze-drone-boat-blew-a-hole-in-ex-uss-peleliu-during-sinking-exercise"&gt;Navy&amp;#8217;s GARC Kamikaze Drone Boat Blew A Hole In Ex-USS Peleliu During Sinking Exercise&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/sea/navys-garc-kamikaze-drone-boat-blew-a-hole-in-ex-uss-peleliu-during-sinking-exercise</guid>
-      <pubDate>Mon, 27 Jul 2026 18:18:31 +0000</pubDate>
     </item>
     <item>
       <title>More than 30 companies form open-source AI alliance</title>
@@ -484,146 +438,6 @@
       <description>Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/</guid>
       <pubDate>Tue, 28 Jul 2026 09:18:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>igloohome Smart Lock Mobile Application</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-06.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of igloohome Smart Lock Mobile Application are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Smart Lock Mobile Application (Android) 3.2.3 (CVE-2026-16581)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 5.3&lt;/td&gt;
-&lt;td&gt;igloohome&lt;/td&gt;
-&lt;td&gt;igloohome Smart Lock Mobile Application&lt;/td&gt;
-&lt;td&gt;Inclusion of Sensitive Information in Source Code&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Commercial Facilities&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Singapore&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-16581&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;In igloohome Smart Lock Mobile App versions 3.2.3 and prior, an Inclusion of Sensitive Information in Source Code vulnerability could allow an unauthorized actor to access functions or backend services that were not sufficiently protected by authentication controls.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-16581"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;igloohome Smart Lock Mobile Application&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;igloohome&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;igloohome Smart Lock Mobile Application (Android): 3.2.3&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;igloohome have enhanced the access control mechanisms on backend services to ensure that only properly authenticated and authorized requests can interact with sensitive functionality. No user interaction is needed.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information, contact igloohome (info@igloohome.com).&lt;br /&gt;&lt;a href="mailto:info@igloohome.com"&gt;mailto:info@igloohome.com&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/540.html"&gt;CWE-540 Inclusion of Sensitive Information in Source Code&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;5.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;6.9&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Vincent C. of CodeVispera reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-07-28&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-07-28&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06</guid>
-      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ABB KNX Update Tool</title>
@@ -16360,6 +16174,146 @@
       <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>igloohome Smart Lock Mobile Application</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-06.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of igloohome Smart Lock Mobile Application are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Smart Lock Mobile Application (Android) 3.2.3 (CVE-2026-16581)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 5.3&lt;/td&gt;
+&lt;td&gt;igloohome&lt;/td&gt;
+&lt;td&gt;igloohome Smart Lock Mobile Application&lt;/td&gt;
+&lt;td&gt;Inclusion of Sensitive Information in Source Code&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Commercial Facilities&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Singapore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-16581&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;In igloohome Smart Lock Mobile App versions 3.2.3 and prior, an Inclusion of Sensitive Information in Source Code vulnerability could allow an unauthorized actor to access functions or backend services that were not sufficiently protected by authentication controls.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-16581"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;igloohome Smart Lock Mobile Application&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;igloohome&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;igloohome Smart Lock Mobile Application (Android): 3.2.3&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;igloohome have enhanced the access control mechanisms on backend services to ensure that only properly authenticated and authorized requests can interact with sensitive functionality. No user interaction is needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information, contact igloohome (info@igloohome.com).&lt;br /&gt;&lt;a href="mailto:info@igloohome.com"&gt;mailto:info@igloohome.com&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/540.html"&gt;CWE-540 Inclusion of Sensitive Information in Source Code&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;5.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;6.9&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Vincent C. of CodeVispera reported this vulnerability to CISA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
+&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
+&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
+&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
+&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
+&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-07-28&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-07-28&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06</guid>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Siemens Desigo CC</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01</link>
       <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -16505,6 +16459,13 @@
 &lt;hr /&gt;
 &lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
       <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01</guid>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CI Fortify – Advice for isolating vital systems</title>
+      <link>https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems</link>
+      <description>&lt;div class="c-page-title__buttons"&gt;&lt;a class="c-button" href="https://www.cyber.gov.au/business-government/secure-design/operational-technology-environments/ci-fortify/ci-fortify-advice-for-isolating-vital-systems" target="_blank"&gt;CI Fortify – Advice for isolating vital systems&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;CISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released joint guidance &lt;a href="https://www.cyber.gov.au/business-government/secure-design/operational-technology-environments/ci-fortify/ci-fortify-advice-for-isolating-vital-systems" target="_blank"&gt;CI Fortify – Advice for isolating vital systems&lt;/a&gt;. This guidance contains practical steps for critical infrastructure (CI) organizations to isolate vital operational technology and enabling systems from all other networks in the event of disruption or crisis and operate in isolation for an extended period. Developed to address escalating cyber threats, the guidance outlines key steps for identifying critical systems, mapping connections, and implementing effective separation points. By following these recommendations, organizations can enhance their resilience, minimize disruption, and maintain essential services during cyber incidents or geopolitical crises.&amp;nbsp;&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems</guid>
       <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -16795,13 +16756,6 @@
       <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CI Fortify – Advice for isolating vital systems</title>
-      <link>https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems</link>
-      <description>&lt;div class="c-page-title__buttons"&gt;&lt;a class="c-button" href="https://www.cyber.gov.au/business-government/secure-design/operational-technology-environments/ci-fortify/ci-fortify-advice-for-isolating-vital-systems" target="_blank"&gt;CI Fortify – Advice for isolating vital systems&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;CISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released joint guidance &lt;a href="https://www.cyber.gov.au/business-government/secure-design/operational-technology-environments/ci-fortify/ci-fortify-advice-for-isolating-vital-systems" target="_blank"&gt;CI Fortify – Advice for isolating vital systems&lt;/a&gt;. This guidance contains practical steps for critical infrastructure (CI) organizations to isolate vital operational technology and enabling systems from all other networks in the event of disruption or crisis and operate in isolation for an extended period. Developed to address escalating cyber threats, the guidance outlines key steps for identifying critical systems, mapping connections, and implementing effective separation points. By following these recommendations, organizations can enhance their resilience, minimize disruption, and maintain essential services during cyber incidents or geopolitical crises.&amp;nbsp;&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems</guid>
-      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Siemens Mendix Runtime</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02</link>
       <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-02.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -16961,26 +16915,12 @@
       <pubDate>Tue, 28 Jul 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Former Citigroup CISO Blauner on What Makes A Great Security Leader</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader</link>
-      <description>The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader</guid>
-      <pubDate>Tue, 28 Jul 2026 12:30:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wartime Ukraine’s people power protests are Putin’s worst nightmare</title>
       <link>https://www.atlanticcouncil.org/blogs/ukrainealert/wartime-ukraines-people-power-protests-are-putins-worst-nightmare/</link>
       <description>&lt;p&gt;Ukrainians have taken to the streets in recent weeks to protest the dismissal of Defense Minister Mykhailo Fedorov. The protests are a reminder of the vibrant democratic culture that provoked Putin's invasion, writes Peter Dickinson. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/wartime-ukraines-people-power-protests-are-putins-worst-nightmare/"&gt;Wartime Ukraine’s people power protests are Putin’s worst nightmare&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/wartime-ukraines-people-power-protests-are-putins-worst-nightmare/</guid>
       <pubDate>Tue, 28 Jul 2026 12:40:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>General (Ret) Donald C. Bolduc: Escalating the Military Conflict: A Strategic Failure in the Making</title>
-      <link>https://sofrep.com/news/general-ret-donald-c-bolduc-escalating-the-military-conflict-a-strategic-failure-in-the-making/</link>
-      <description>The Trump administration may speak the language of diplomacy, but its Iran policy has delivered escalation, depleted deterrence, fractured alliances, and a region moving steadily closer to wider war. #TrumpIranPolicy #Iran #MiddleEast #USForeignPolicy #Geopolitics</description>
-      <guid isPermaLink="false">https://sofrep.com/news/general-ret-donald-c-bolduc-escalating-the-military-conflict-a-strategic-failure-in-the-making/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:00:26 +0000</pubDate>
     </item>
     <item>
       <title>Bundeswehr orders 56 more Elefant 2 transporters from Rheinmetall</title>
@@ -16997,13 +16937,6 @@
 #SecretOps</description>
       <guid isPermaLink="false">https://sofrep.com/news/the-secret-5000-how-canadas-classified-radar-technicians-vanished-from-history/</guid>
       <pubDate>Tue, 28 Jul 2026 14:00:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Finland closes airspace, restricts maritime traffic near Russia over drone risk</title>
-      <link>https://www.defensenews.com/global/europe/2026/07/28/finland-closes-airspace-restricts-maritime-traffic-near-russia-over-drone-risk/</link>
-      <description>Finland’s military said it closed a section of Finnish airspace and restricted maritime traffic off the country’s southern coast near the Russian border.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/07/28/finland-closes-airspace-restricts-maritime-traffic-near-russia-over-drone-risk/</guid>
-      <pubDate>Tue, 28 Jul 2026 14:09:34 +0000</pubDate>
     </item>
     <item>
       <title>“Murder Most Foul”:  Was Jack the Ripper a Combat Veteran?</title>
@@ -17276,6 +17209,13 @@
       <pubDate>Tue, 28 Jul 2026 23:44:30 +0000</pubDate>
     </item>
     <item>
+      <title>How GPT-5.6 fuses frontier intelligence with frontier efficiency</title>
+      <link>https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency</link>
+      <description>GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.</description>
+      <guid isPermaLink="false">https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Prized Ohio Class Guided Missile Submarine USS Georgia Heading Into Retirement (Updated)</title>
       <link>https://www.twz.com/sea/prized-ohio-class-guided-missile-submarine-uss-georgia-heading-into-retirement</link>
       <description>&lt;p&gt;The Navy's Ohio guided missile submarines are heavily in demand, but all are set to be gone from active service within the next three years.&lt;/p&gt;
@@ -17499,6 +17439,20 @@ Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the 
       <pubDate>Wed, 29 Jul 2026 11:57:00 +0000</pubDate>
     </item>
     <item>
+      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-20316" target="_blank"&gt;CVE-2026-20316&lt;/a&gt; Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+      <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>2026 Minimum Elements for a Software Bill of Materials (SBOM)</title>
       <link>https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom</link>
       <description>&lt;p&gt;CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance,&amp;nbsp;&lt;a href="https://www.cisa.gov/sites/default/files/2026-07/2026_cisa_sbom_minimum_elements_508c.pdf"&gt;2026 Minimum Elements for a Software Bill of Materials (SBOM)&lt;/a&gt;, that updates and replaces the minimum elements for an SBOM published by the National Telecommunications and Information Administration (NTIA) in 2021. The new guidance incorporates stakeholder feedback from a 2025 public comment period&amp;nbsp;and reflects current SBOM tools and needs while preserving the core principles of the original NTIA document.&lt;/p&gt;
@@ -17508,17 +17462,17 @@ Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the 
       <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>House-passed defense bill includes controversial US-Israel tech measure</title>
-      <link>https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/</link>
-      <description>The House-passed defense bill includes a measure to encourage co-development and co-production between the U.S. and Israeli defense industrial bases.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/</guid>
-      <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How DARPA plans to get nuclear power in the size of a ‘AA battery’</title>
       <link>https://breakingdefense.com/2026/07/how-darpa-plans-to-get-nuclear-power-in-the-size-of-aa-battery/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/how-darpa-plans-to-get-nuclear-power-in-the-size-of-aa-battery/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/260724_rads_to_watts_DARPA-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Seven teams are competing as part of DARPA&amp;#8217;s Rads to Watts program to create a new kind of miniature power cell that last for years or decades without recharging. &lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/07/how-darpa-plans-to-get-nuclear-power-in-the-size-of-aa-battery/</guid>
+      <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>House-passed defense bill includes controversial US-Israel tech measure</title>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/</link>
+      <description>The House-passed defense bill includes a measure to encourage co-development and co-production between the U.S. and Israeli defense industrial bases.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/</guid>
       <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -17732,6 +17686,13 @@ The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all ver
       <pubDate>Wed, 29 Jul 2026 15:48:49 +0000</pubDate>
     </item>
     <item>
+      <title>Russian Su-57 Felon Stealth Fighter Shot Down by Friendly Fire Near Moscow</title>
+      <link>https://sofrep.com/?p=230101&amp;preview=true&amp;preview_id=230101</link>
+      <description>Russia’s vaunted Su-57 may have survived Ukrainian missiles and Western sanctions only to be blasted out of the Moscow sky by its own frightened, trigger-happy air defenders. #Su57 #RussianAirForce #FriendlyFire #MilitaryAviation #UkraineWar</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=230101&amp;preview=true&amp;preview_id=230101</guid>
+      <pubDate>Wed, 29 Jul 2026 16:00:44 +0000</pubDate>
+    </item>
+    <item>
       <title>Leidos subsidiary selected to design Australian nuclear submarine dry dock</title>
       <link>https://breakingdefense.com/2026/07/leidos-subsidiary-selected-to-design-australian-nuclear-submarine-dry-dock/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/leidos-subsidiary-selected-to-design-australian-nuclear-submarine-dry-dock/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/06/RS81761-RS79362-Surface-01.jpg.iCfxmu3yMTt7e-VjYBMA.h3rxlZNE4S-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The contingency dry dock &amp;#8220;is a critical pre-condition of Australia receiving its first Virginia class submarine&amp;#8221; under AUKUS, the Australian government said.&lt;/p&gt;</description>
@@ -17900,6 +17861,44 @@ Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails proce
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/reversing-mexicos-economic-and-democratic-decline/"&gt;Reversing Mexico&amp;#8217;s economic and democratic decline&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/reversing-mexicos-economic-and-democratic-decline/</guid>
       <pubDate>Wed, 29 Jul 2026 18:58:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon puts out call for robot boats that launch attack drones</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/</link>
+      <description>The Pentagon has put out a solicitation for drone boats that can launch attack drones — and it wants them ready to test within 120 days.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/</guid>
+      <pubDate>Wed, 29 Jul 2026 19:22:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Red Agents vs. Blue Agents: How to Make AI Better At Defense</title>
+      <link>https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense</link>
+      <description>The agentic AI playing field was heavily tilted toward offense, so researchers began using red team agents to help teach their blue counterparts.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense</guid>
+      <pubDate>Wed, 29 Jul 2026 19:46:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Suspect in deadly Berlin Pride attack pledged allegiance to Islamic State, prosecutors say</title>
+      <link>https://www.longwarjournal.org/archives/2026/07/suspect-in-deadly-berlin-pride-attack-pledged-allegiance-to-islamic-state-prosecutors-say.php</link>
+      <description>&lt;p&gt;A 21-year-old German who had reportedly previously attempted to join the Islamic State allegedly carried out the deadly vehicle-ramming attack at Berlin's Pride festival, killing one person and injuring 29 others.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/suspect-in-deadly-berlin-pride-attack-pledged-allegiance-to-islamic-state-prosecutors-say.php"&gt;Suspect in deadly Berlin Pride attack pledged allegiance to Islamic State, prosecutors say&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/suspect-in-deadly-berlin-pride-attack-pledged-allegiance-to-islamic-state-prosecutors-say.php</guid>
+      <pubDate>Wed, 29 Jul 2026 19:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Will The F-47 Have To Fly Initially With Inferior Engines?</title>
+      <link>https://www.twz.com/air/will-the-f-47-have-to-fly-initially-with-inferior-engines</link>
+      <description>&lt;p&gt;The timelines for a next-gen fighter engine and the F-47 appear out of sync, which could lead to a stop-gap engine, something with historical precedent.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/will-the-f-47-have-to-fly-initially-with-inferior-engines"&gt;Will The F-47 Have To Fly Initially With Inferior Engines?&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/will-the-f-47-have-to-fly-initially-with-inferior-engines</guid>
+      <pubDate>Wed, 29 Jul 2026 19:57:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Oman and Europe can open the Strait of Hormuz for good</title>
+      <link>https://www.atlanticcouncil.org/dispatches/how-oman-and-europe-can-open-the-strait-of-hormuz-for-good/</link>
+      <description>&lt;p&gt;Muscat should ask the British- and French-led maritime security mission to deploy to the strait within Omani territorial waters.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/how-oman-and-europe-can-open-the-strait-of-hormuz-for-good/"&gt;How Oman and Europe can open the Strait of Hormuz for good&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/how-oman-and-europe-can-open-the-strait-of-hormuz-for-good/</guid>
+      <pubDate>Wed, 29 Jul 2026 20:11:27 +0000</pubDate>
     </item>
   </channel>
 </rss>
