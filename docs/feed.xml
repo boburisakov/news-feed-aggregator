@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 14:52:16 +0000</lastBuildDate>
     <item>
       <title>Building AI infrastructure with the Effingham County community</title>
       <link>https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community</link>
@@ -65,145 +65,6 @@
       <description>Band together or struggle alone in a disordered world.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/small-suffer-what-they-must</guid>
       <pubDate>Thu, 23 Jul 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MZ Automation lib60870</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-07.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of MZ Automation lib60870 are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;lib60870 &amp;lt;=2.4.0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 8.2&lt;/td&gt;
-&lt;td&gt;MZ Automation&lt;/td&gt;
-&lt;td&gt;MZ Automation lib60870&lt;/td&gt;
-&lt;td&gt;Out-of-bounds Read&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Chemical, Energy, Water and Wastewater&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-16002&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected product is vulnerable to an Out-of-bounds read, which may allow an attacker to crash the parsing process and cause a denial of service.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-16002"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;MZ Automation lib60870&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation lib60870: &amp;lt;=2.4.0&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;MZ automation recommends users update to version 2.4.1 or later. Documentation can be found at https://github.com/mz-automation/lib60870/security/advisories/GHSA-f5xp-w6f3-vvrv.&lt;br /&gt;&lt;a href="https://github.com/mz-automation/lib60870/security/advisories/GHSA-f5xp-w6f3-vvrv"&gt;https://github.com/mz-automation/lib60870/security/advisories/GHSA-f5xp-w6f3-vvrv&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.2&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Lars Tray reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this (these) vulnerability(ies).&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-07-23&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-07-23&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07</guid>
-      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>When the "Autonomous Attacker" Is Your Own AI Model, (Thu, Jul 23rd)</title>
@@ -316,16 +177,9 @@
     <item>
       <title>Video Friday: An Italian Humanoid Comes to Life</title>
       <link>https://spectrum.ieee.org/video-friday-physical-ai-robotics</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://mrs.fel.cvut.cz/summer-school-2026/"&gt;Summer School on Multi-Robot Systems&lt;/a&gt;: 29 July–4 August 2026, PRAGUE&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://actuate.foxglove.dev/"&gt;Actuate 2026&lt;/a&gt;: 18–19 August 2026, SAN FRANCISCO&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="mgf142yepjc"&gt;&lt;em&gt;In just six months, our team turned GENE.01 into a fully functional humanoid platform that can walk, sense and interact. Its full-body multimodal skin perceives touch, proximity, force, and temperature, bringing Physical AI closer to safe and natural collaboration with people. Not a render. Not a concept. This is GENE.01. The future of Physical AI is taking its first steps.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://gbionics.ai/"&gt;Generative Bionics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="iq3pccrfegq"&gt;&lt;em&gt;Why create robot intelligence for just one hand, when we could have it learn from many? GEN-1, our latest embodied foundation model, now supports a broad range of end effectors from 5-finger hands, to specialized tools, and everything in between. Each hand is a different sensorimotor interface by which GEN-1 experiences the physical world. Scaling pretraining across thousands of these interfaces teaches GEN-1 a universal physical common sense that transfers to new hands and new ways to grasp, push, pull, twist, and more.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;And to illustrate this concept, a surprise spatula.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalistai.com/blog/towards-machines-with-a-thousand-hands"&gt;Generalist&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="gu2nuedjiuq"&gt;&lt;em&gt;This paper presents the design, fabrication, and flight validation of a flat-packable &lt;a href="https://spectrum.ieee.org/foldable-airplane-could-ride-a-cubesat-to-mars-in-2022" target="_blank"&gt;flying wing&lt;/a&gt; built primarily from corrugated cardboard. The aircraft is manufactured from three laser-cut sheets and assembled through a fold-and-lock architecture that forms load-bearing wing structures with minimal tooling and no permanent fasteners. The full airframe can be assembled in under 15 minutes, demonstrating strong potential for rapid deployment, low-cost logistics, and scalable field use.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://airlab.sutd.edu.sg/"&gt;AIR Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="hukrzo75_ww"&gt;A $14,000 open-source data-collection system that includes beat-down capability.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://github.com/haraduka/mevion"&gt;MEVION&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Kento!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="qzr0rmp2_5w"&gt;&lt;em&gt;Together with Niantic Spatial and Nvidia, [we] can now scan a real deployment site with off-the-shelf hardware, reconstruct it into a photorealistic Gaussian splat, and run massively parallel RL [&lt;a href="https://spectrum.ieee.org/ai-institute" target="_blank"&gt;reinforcement learning&lt;/a&gt;] training. The policies trained in our Gym environment then transfer zero-shot to the real robot and environments they were trained for. This enables faster deployment of more capable and robust policies for the end user.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://flexion.ai/news/niantic-spatial-flexion-and-nvidia-closing-the-sim2real-gap-for-humanoids"&gt;Flexion&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="w2bmy5cnhvs"&gt;I don’t know why, but the version of Tron 2 with the stubby little legs is just adorable.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en/products/tron2"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vmgiim6g_fg"&gt;Uh, get a real job already...?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.pndbotics.com/"&gt;PNDbotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="xtggy9lrisw"&gt;Well, I guess we can all stop asking what humanoid robots are good for.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://en.engineai.com.cn/"&gt;EngineAI&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="143b_pm77ga"&gt;I think the right thing to do here is only post the disclaimer included with this video: “This film is a conceptual creative production, and certain scenes are presented for demonstration purposes only and do not represent the actual in-store operating process. The final store environment, robot appearance, and functionality are subject to the actual deployment. During actual operations, the robot will autonomously perform only designated preparation steps for specified ice cream products, and its hands will be fitted with protective gloves that comply with applicable food safety requirements.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/pages/north-at-work"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="h_ztrvhjv8k"&gt;&lt;em&gt;&lt;a href="https://spectrum.ieee.org/in-the-air-with-ziplines-medical-delivery-drones" target="_blank"&gt;Drone delivery&lt;/a&gt; is now an essential part of the South West London Pathology (SWLP) modernization agenda. Since February 2026, our highly automated aircraft have been delivering urgent NHS samples across south west London, with service up to 85% faster than ground transport. We are thrilled to be part of this initiative, supporting clinicians in providing timely, effective care for patients and contributing to a greener, more resilient NHS.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://wing.com/news/elevating-healthcare-logistics-wing-apian-nhs-south-west-london-drone-deliveries"&gt;Wing&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="tzpswti20e8"&gt;&lt;em&gt;Take a closer look at what’s next for the Aurora Driver. Designed to move freight farther, faster, and more efficiently, this next generation of the Aurora Driver delivers greater performance, built to last one million miles and cut hardware cost in half. &lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://aurora.tech/newsroom/your-questions-about-our-latest-driverless-launch-answered"&gt;Aurora&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="gj4p0pc6kwc"&gt;&lt;em&gt;How does a robot learn to recognize an object it’s never encountered? In this case, a demo can be worth a thousand words. Short human demonstrations can be used to create fully automated training datasets, sidestepping the prompting limitations that hold back vision-language models. Rather than describing objects with language, the system tracks what a person touches and manipulates during a demo, follows those objects through time, and clusters detections to handle objects merging or splitting apart in the scene. This bypasses a core weakness of VLMs, which struggle to reliably detect unusual or novel objects even with repeated, carefully engineered prompts.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rai-inst.com/resources/blog/show-dont-tell-detecting-novel-objects-by-watching-human-demonstrations/"&gt;Robotics and AI Institute&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=150%2C0%2C150%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://mrs.fel.cvut.cz/summer-school-2026/"&gt;Summer School on Multi-Robot Systems&lt;/a&gt;: 29 July–4 August 2026, PRAGUE&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://actuate.foxglove.dev/"&gt;Actuate 2026&lt;/a&gt;: 18–19 August 2026, SAN FRANCISCO&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="mgf142yepjc"&gt;&lt;em&gt;In just six months, our team turned GENE.01 into a fully functional humanoid platform that can walk, sense and interact. Its full-body multimodal skin perceives touch, proximity, force, and temperature, bringing Physical AI closer to safe and natural collaboration with people. Not a render. Not a concept. This is GENE.01. The future of Physical AI is taking its first steps.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://gbionics.ai/"&gt;Generative Bionics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="iq3pccrfegq"&gt;&lt;em&gt;Why create robot intelligence for just one hand, when we could have it learn from many? GEN-1, our latest embodied foundation model, now supports a broad range of end effectors from 5-finger hands, to specialized tools, and everything in between. Each hand is a different sensorimotor interface by which GEN-1 experiences the physical world. Scaling pretraining across thousands of these interfaces teaches GEN-1 a universal physical common sense that transfers to new hands and new ways to grasp, push, pull, twist, and more.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;And to illustrate this concept, a surprise spatula.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalistai.com/blog/towards-machines-with-a-thousand-hands"&gt;Generalist&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="gu2nuedjiuq"&gt;&lt;em&gt;This paper presents the design, fabrication, and flight validation of a flat-packable &lt;a href="https://spectrum.ieee.org/foldable-airplane-could-ride-a-cubesat-to-mars-in-2022" target="_blank"&gt;flying wing&lt;/a&gt; built primarily from corrugated cardboard. The aircraft is manufactured from three laser-cut sheets and assembled through a fold-and-lock architecture that forms load-bearing wing structures with minimal tooling and no permanent fasteners. The full airframe can be assembled in under 15 minutes, demonstrating strong potential for rapid deployment, low-cost logistics, and scalable field use.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://airlab.sutd.edu.sg/"&gt;AIR Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="hukrzo75_ww"&gt;A $14,000 open-source data-collection system that includes beat-down capability.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://github.com/haraduka/mevion"&gt;MEVION&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Kento!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="qzr0rmp2_5w"&gt;&lt;em&gt;Together with Niantic Spatial and Nvidia, [we] can now scan a real deployment site with off-the-shelf hardware, reconstruct it into a photorealistic Gaussian splat, and run massively parallel RL [&lt;a href="https://spectrum.ieee.org/ai-institute" target="_blank"&gt;reinforcement learning&lt;/a&gt;] training. The policies trained in our Gym environment then transfer zero-shot to the real robot and environments they were trained for. This enables faster deployment of more capable and robust policies for the end user.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://flexion.ai/news/niantic-spatial-flexion-and-nvidia-closing-the-sim2real-gap-for-humanoids"&gt;Flexion&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="w2bmy5cnhvs"&gt;I don’t know why, but the version of Tron 2 with the stubby little legs is just adorable.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en/products/tron2"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vmgiim6g_fg"&gt;Uh, get a real job already...?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.pndbotics.com/"&gt;PNDbotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="xtggy9lrisw"&gt;Well, I guess we can all stop asking what humanoid robots are good for.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://en.engineai.com.cn/"&gt;EngineAI&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="143b_pm77ga"&gt;I think the right thing to do here is only post the disclaimer included with this video: “This film is a conceptual creative production, and certain scenes are presented for demonstration purposes only and do not represent the actual in-store operating process. The final store environment, robot appearance, and functionality are subject to the actual deployment. During actual operations, the robot will autonomously perform only designated preparation steps for specified ice cream products, and its hands will be fitted with protective gloves that comply with applicable food safety requirements.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/pages/north-at-work"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="h_ztrvhjv8k"&gt;&lt;em&gt;&lt;a href="https://spectrum.ieee.org/in-the-air-with-ziplines-medical-delivery-drones" target="_blank"&gt;Drone delivery&lt;/a&gt; is now an essential part of the South West London Pathology (SWLP) modernization agenda. Since February 2026, our highly automated aircraft have been delivering urgent NHS samples across south west London, with service up to 85% faster than ground transport. We are thrilled to be part of this initiative, supporting clinicians in providing timely, effective care for patients and contributing to a greener, more resilient NHS.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://wing.com/news/elevating-healthcare-logistics-wing-apian-nhs-south-west-london-drone-deliveries"&gt;Wing&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="tzpswti20e8"&gt;&lt;em&gt;Take a closer look at what’s next for the Aurora Driver. Designed to move freight farther, faster, and more efficiently, this next generation of the Aurora Driver delivers greater performance, built to last one million miles and cut hardware cost in half. &lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://aurora.tech/newsroom/your-questions-about-our-latest-driverless-launch-answered"&gt;Aurora&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="gj4p0pc6kwc"&gt;&lt;em&gt;How does a robot learn to recognize an object it’s never encountered? In this case, a demo can be worth a thousand words. Short human demonstrations can be used to create fully automated training datasets, sidestepping the prompting limitations that hold back vision-language models. Rather than describing objects with language, the system tracks what a person touches and manipulates during a demo, follows those objects through time, and clusters detections to handle objects merging or splitting apart in the scene. This bypasses a core weakness of VLMs, which struggle to reliably detect unusual or novel objects even with repeated, carefully engineered prompts.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rai-inst.com/resources/blog/show-dont-tell-detecting-novel-objects-by-watching-human-demonstrations/"&gt;Robotics and AI Institute&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-physical-ai-robotics</guid>
       <pubDate>Fri, 24 Jul 2026 15:30:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>The quest to keep organs alive outside the body</title>
-      <link>https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/</link>
-      <description>This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that can be preserved&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/</guid>
-      <pubDate>Fri, 24 Jul 2026 17:03:55 +0000</pubDate>
     </item>
     <item>
       <title>Global Risks Heating Up</title>
@@ -360,7 +214,7 @@
     <item>
       <title>Optical Tech Would Update a Robot’s AI on the Fly</title>
       <link>https://spectrum.ieee.org/ai-in-robotics</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C469%2C0%2C470" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Atop a lab bench, &lt;a href="https://tech.cornell.edu/" rel="noopener noreferrer" target="_blank"&gt;Cornell Tech&lt;/a&gt; postdoctoral researcher &lt;a href="https://www.linkedin.com/in/yifan-he-5471a1386/" rel="noopener noreferrer" target="_blank"&gt;Yifan He&lt;/a&gt; positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that resemble a QR code.&lt;/p&gt;&lt;p&gt;When you hold your phone camera up to a QR code, light strikes the image sensor as only a first step to revealing the data hidden behind the black-and-white matrix. The receiver here is doing something different: directly altering its own memory using the photocurrents produced by the beamed array of light. And unlike the data behind a QR code, which might point to a simple web address, this optical code could convey the &lt;a href="https://spectrum.ieee.org/sparse-ai" target="_blank"&gt;parameters of an AI model&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;The new receiver design, presented last month at the &lt;a href="https://www.vlsisymposium.org/" rel="noopener noreferrer" target="_blank"&gt;IEEE/JSAP Symposium on VLSI Technology &amp; Circuits&lt;/a&gt; in Honolulu, seeks to reduce the burden of increasing memory demands on AI systems. Shining data down onto processors could lower the energy typically required for data centers, self-driving cars, and even “edge” applications like AI-powered robots, researchers say. &lt;/p&gt;&lt;p&gt;“People are designing all sorts of different AI chips,” says &lt;a href="https://www.linkedin.com/in/jae-sun-seo-21062717/" rel="noopener noreferrer" target="_blank"&gt;Jae-sun Seo&lt;/a&gt;, an associate professor of electrical and computer engineering at Cornell Tech, in New York City. These processors don’t often have room for all the parameters that make up AI models, so the additional data is stored in dynamic RAM (&lt;a href="https://spectrum.ieee.org/stacking-chips-sideways" target="_blank"&gt;DRAM&lt;/a&gt;). The electrical connections commonly used to move the data between the DRAM and the processor create cost and efficiency concerns when systems scale up. “That’s one of the major bottlenecks.” &lt;/p&gt;&lt;p&gt;Optical links move data at high bandwidth with less energy loss than metal wires, but today’s optical receivers undercut that advantage by relying on power-hungry analog circuits to convert light to electronic bits. The group’s new tech would instead receive rapid flashes of digital QR-code-like matrices so that chips can tweak model parameters without those analog circuits, enabling fully digital optical communication that would consume less energy.&lt;/p&gt;&lt;p&gt;“This is a really important problem,” says &lt;a href="https://www.linkedin.com/in/dennis-sylvester-68a938/" rel="noopener noreferrer" target="_blank"&gt;Dennis Sylvester&lt;/a&gt;, an IEEE Fellow who chairs the &lt;a href="https://umich.edu/" rel="noopener noreferrer" target="_blank"&gt;University of Michigan&lt;/a&gt;’s electrical and computer engineering department and was not involved in the work. “It’s got massive commercial implications. This solution is a clever way of dealing with it.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Two Asian men standing in front of a lab desk with a receiver chip, oscilloscope and laptop displaying an optically programmable SRAM-based receiver demo." class="rm-shortcode" id="b2c1d" src="https://spectrum.ieee.org/media-library/two-asian-men-standing-in-front-of-a-lab-desk-with-a-receiver-chip-oscilloscope-and-laptop-displaying-an-optically-programmable.jpg?id=67530613&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Jae-sun Seo [left] and Yifan He have developed a receiver that can edit memory in response to QR-code-like arrays of light.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Alex Music&lt;/small&gt;&lt;/p&gt;&lt;h2&gt;How Light “Flips” Memory to Power AI&lt;/h2&gt;&lt;p&gt;Processors have a bit of built-in static RAM (&lt;a href="https://spectrum.ieee.org/sram-intel-tsmc" target="_blank"&gt;SRAM&lt;/a&gt;), but not enough to allow an AI model to run independently. While SRAM is the faster of the two memory options, DRAM can store more data in the same footprint.&lt;/p&gt;&lt;p&gt;In the new system, the DRAM sits with the transmitter, and the receiver is part of the processor’s SRAM. The transmitter beams the data to the array of SRAM cells, which in this case are modified to contain photodiodes. Light hitting each photodiode creates a current to flip binary values in the SRAM. &lt;/p&gt;&lt;p&gt;Creating a link between the light and receiver requires calibration, because you can’t expect them to be perfectly aligned or perpendicular to each other. So the chip references a data frame that has information about the expected position of each pixel of data and uses that frame to ensure it can receive the real data, He says. “Ideally the best way is to have direct, point-to-point space between the transmitter and the receiver,” Seo adds, “but even if it’s slightly tilted, we have this calibration circuit.”&lt;/p&gt;&lt;p&gt;For applications in real-world settings, the researchers say they will need to build an optical transmitter that can alter the light matrix millions of times per second, transferring gigabits per second. The transmitter that I saw in He and Seo’s lab is only a proof of concept, emitting a static 14-by-14-bit matrix through a metal mask over the light. The researchers say they are working with optics research groups to build a transmitter that is capable of rapidly changing the matrix. &lt;/p&gt;&lt;h2&gt;The Future of Light-Based Memory Links&lt;/h2&gt;&lt;p&gt;Michigan’s Sylvester says that the tech in its current form is likely far from commercialization because the individual photosensitive bit cells are larger than SRAM bit cells in conventional chips. Those larger cells mean the chip can fit less memory, a trade-off that he says could cancel out the added efficiency of the light-based approach. &lt;/p&gt;&lt;p&gt;Seo says that it’s part of the group’s ongoing efforts to shrink the bit cells, which can be achieved by optimizing the size of transistors and circuits and leveraging CMOS scaling.&lt;/p&gt;&lt;p&gt;Seo and He are looking at uses for the tech in robotics and other edge applications. One example is in AI-robot-powered warehouses and factories, which could use optical data transmission to save time and energy when updating the AI models in each robot. Additionally, &lt;a href="https://spectrum.ieee.org/microbots" target="_self"&gt;microrobots&lt;/a&gt;, which are inherently memory-constrained due to their size, could one day benefit from the tech, though it would require a more size-conscious design.&lt;/p&gt;&lt;p&gt;“Edge AI is a big growth area, and in three, four, five years, you’re going to hear as much about that as you are with data centers, probably, as the intelligence migrates more and more into these devices that we have,” Sylvester says.&lt;/p&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=0%2C209%2C0%2C209" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Atop a lab bench, &lt;a href="https://tech.cornell.edu/" rel="noopener noreferrer" target="_blank"&gt;Cornell Tech&lt;/a&gt; postdoctoral researcher &lt;a href="https://www.linkedin.com/in/yifan-he-5471a1386/" rel="noopener noreferrer" target="_blank"&gt;Yifan He&lt;/a&gt; positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that resemble a QR code.&lt;/p&gt;&lt;p&gt;When you hold your phone camera up to a QR code, light strikes the image sensor as only a first step to revealing the data hidden behind the black-and-white matrix. The receiver here is doing something different: directly altering its own memory using the photocurrents produced by the beamed array of light. And unlike the data behind a QR code, which might point to a simple web address, this optical code could convey the &lt;a href="https://spectrum.ieee.org/sparse-ai" target="_blank"&gt;parameters of an AI model&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;The new receiver design, presented last month at the &lt;a href="https://www.vlsisymposium.org/" rel="noopener noreferrer" target="_blank"&gt;IEEE/JSAP Symposium on VLSI Technology &amp; Circuits&lt;/a&gt; in Honolulu, seeks to reduce the burden of increasing memory demands on AI systems. Shining data down onto processors could lower the energy typically required for data centers, self-driving cars, and even “edge” applications like AI-powered robots, researchers say. &lt;/p&gt;&lt;p&gt;“People are designing all sorts of different AI chips,” says &lt;a href="https://www.linkedin.com/in/jae-sun-seo-21062717/" rel="noopener noreferrer" target="_blank"&gt;Jae-sun Seo&lt;/a&gt;, an associate professor of electrical and computer engineering at Cornell Tech, in New York City. These processors don’t often have room for all the parameters that make up AI models, so the additional data is stored in dynamic RAM (&lt;a href="https://spectrum.ieee.org/stacking-chips-sideways" target="_blank"&gt;DRAM&lt;/a&gt;). The electrical connections commonly used to move the data between the DRAM and the processor create cost and efficiency concerns when systems scale up. “That’s one of the major bottlenecks.” &lt;/p&gt;&lt;p&gt;Optical links move data at high bandwidth with less energy loss than metal wires, but today’s optical receivers undercut that advantage by relying on power-hungry analog circuits to convert light to electronic bits. The group’s new tech would instead receive rapid flashes of digital QR-code-like matrices so that chips can tweak model parameters without those analog circuits, enabling fully digital optical communication that would consume less energy.&lt;/p&gt;&lt;p&gt;“This is a really important problem,” says &lt;a href="https://www.linkedin.com/in/dennis-sylvester-68a938/" rel="noopener noreferrer" target="_blank"&gt;Dennis Sylvester&lt;/a&gt;, an IEEE Fellow who chairs the &lt;a href="https://umich.edu/" rel="noopener noreferrer" target="_blank"&gt;University of Michigan&lt;/a&gt;’s electrical and computer engineering department and was not involved in the work. “It’s got massive commercial implications. This solution is a clever way of dealing with it.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Two Asian men standing in front of a lab desk with a receiver chip, oscilloscope and laptop displaying an optically programmable SRAM-based receiver demo." class="rm-shortcode" id="b2c1d" src="https://spectrum.ieee.org/media-library/two-asian-men-standing-in-front-of-a-lab-desk-with-a-receiver-chip-oscilloscope-and-laptop-displaying-an-optically-programmable.jpg?id=67530613&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Jae-sun Seo [left] and Yifan He have developed a receiver that can edit memory in response to QR-code-like arrays of light.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Alex Music&lt;/small&gt;&lt;/p&gt;&lt;h2&gt;How Light “Flips” Memory to Power AI&lt;/h2&gt;&lt;p&gt;Processors have a bit of built-in static RAM (&lt;a href="https://spectrum.ieee.org/sram-intel-tsmc" target="_blank"&gt;SRAM&lt;/a&gt;), but not enough to allow an AI model to run independently. While SRAM is the faster of the two memory options, DRAM can store more data in the same footprint.&lt;/p&gt;&lt;p&gt;In the new system, the DRAM sits with the transmitter, and the receiver is part of the processor’s SRAM. The transmitter beams the data to the array of SRAM cells, which in this case are modified to contain photodiodes. Light hitting each photodiode creates a current to flip binary values in the SRAM. &lt;/p&gt;&lt;p&gt;Creating a link between the light and receiver requires calibration, because you can’t expect them to be perfectly aligned or perpendicular to each other. So the chip references a data frame that has information about the expected position of each pixel of data and uses that frame to ensure it can receive the real data, He says. “Ideally the best way is to have direct, point-to-point space between the transmitter and the receiver,” Seo adds, “but even if it’s slightly tilted, we have this calibration circuit.”&lt;/p&gt;&lt;p&gt;For applications in real-world settings, the researchers say they will need to build an optical transmitter that can alter the light matrix millions of times per second, transferring gigabits per second. The transmitter that I saw in He and Seo’s lab is only a proof of concept, emitting a static 14-by-14-bit matrix through a metal mask over the light. The researchers say they are working with optics research groups to build a transmitter that is capable of rapidly changing the matrix. &lt;/p&gt;&lt;h2&gt;The Future of Light-Based Memory Links&lt;/h2&gt;&lt;p&gt;Michigan’s Sylvester says that the tech in its current form is likely far from commercialization because the individual photosensitive bit cells are larger than SRAM bit cells in conventional chips. Those larger cells mean the chip can fit less memory, a trade-off that he says could cancel out the added efficiency of the light-based approach. &lt;/p&gt;&lt;p&gt;Seo says that it’s part of the group’s ongoing efforts to shrink the bit cells, which can be achieved by optimizing the size of transistors and circuits and leveraging CMOS scaling.&lt;/p&gt;&lt;p&gt;Seo and He are looking at uses for the tech in robotics and other edge applications. One example is in AI-robot-powered warehouses and factories, which could use optical data transmission to save time and energy when updating the AI models in each robot. Additionally, &lt;a href="https://spectrum.ieee.org/microbots" target="_self"&gt;microrobots&lt;/a&gt;, which are inherently memory-constrained due to their size, could one day benefit from the tech, though it would require a more size-conscious design.&lt;/p&gt;&lt;p&gt;“Edge AI is a big growth area, and in three, four, five years, you’re going to hear as much about that as you are with data centers, probably, as the intelligence migrates more and more into these devices that we have,” Sylvester says.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/ai-in-robotics</guid>
       <pubDate>Sun, 26 Jul 2026 13:00:01 +0000</pubDate>
     </item>
@@ -460,13 +314,6 @@
       <pubDate>Mon, 27 Jul 2026 11:40:16 +0000</pubDate>
     </item>
     <item>
-      <title>The path to artificial superintelligence</title>
-      <link>https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/</link>
-      <description>Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/</guid>
-      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
       <link>https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
       <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
@@ -479,6 +326,13 @@
 &lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a class="ext" href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
+      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The path to artificial superintelligence</title>
+      <link>https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/</link>
+      <description>Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/</guid>
       <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -524,29 +378,6 @@
       <description>Outside the small town of Paducah, Kentucky, a wealth of uranium is locked away in thousands of storage cylinders filled with waste material from a now-closed nuclear enrichment facility. Lasers could help get it out. A company called Global Laser Enrichment (GLE) is looking to reprocess this old material with a new technology called laser&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/07/27/1140798/laser-nuclear-enrichment/</guid>
       <pubDate>Mon, 27 Jul 2026 14:24:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Guenov quoted in The Washington Examiner on the costs of war</title>
-      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/guenov-quoted-in-the-washington-examiner-on-the-costs-of-war/</link>
-      <description>&lt;p&gt;On July 24, Scowcroft Center acting senior director and senior fellow Tressa Guenov was quoted in The Washington Examiner on the costs of war, arguing that that wars almost always cost more than expected, with expenses extending beyond immediate combat to include long-term impacts on readiness, force posture, and veterans' care.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/guenov-quoted-in-the-washington-examiner-on-the-costs-of-war/"&gt;Guenov quoted in The Washington Examiner on the costs of war&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/guenov-quoted-in-the-washington-examiner-on-the-costs-of-war/</guid>
-      <pubDate>Mon, 27 Jul 2026 14:31:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>From grain to drones, the Ukraine-Turkey free trade agreement marks a milestone in bilateral cooperation</title>
-      <link>https://www.atlanticcouncil.org/blogs/turkeysource/ukraine-turkey-free-trade-agreement/</link>
-      <description>&lt;p&gt;The ratification of the Ukraine-Turkey free trade agreement signals a deepening strategic partnership spanning trade, defense, reconstruction, and European integration.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/turkeysource/ukraine-turkey-free-trade-agreement/"&gt;From grain to drones, the Ukraine-Turkey free trade agreement marks a milestone in bilateral cooperation&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/turkeysource/ukraine-turkey-free-trade-agreement/</guid>
-      <pubDate>Mon, 27 Jul 2026 15:45:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>India moves closer to a homegrown, long-range air defense</title>
-      <link>https://www.defensenews.com/global/asia-pacific/2026/07/27/india-moves-closer-to-a-homegrown-long-range-air-defense/</link>
-      <description>A recent interceptor test marked the first demonstration of New Delhi’s efforts to build a system that could rival the Russian-made S-400.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/07/27/india-moves-closer-to-a-homegrown-long-range-air-defense/</guid>
-      <pubDate>Mon, 27 Jul 2026 15:59:38 +0000</pubDate>
     </item>
     <item>
       <title>Analysis: US Treasury sanctions Turkish Hamas financiers as Erdogan presses for F-35s</title>
@@ -677,13 +508,6 @@
       <pubDate>Mon, 27 Jul 2026 20:57:26 +0000</pubDate>
     </item>
     <item>
-      <title>Why A Larger B-21 Fleet Would Put China’s Missile Sanctuary Under Pressure</title>
-      <link>https://sofrep.com/news/why-a-larger-b-21-fleet-would-put-chinas-missile-sanctuary-under-pressure/</link>
-      <description>A larger B-21 fleet would give America the depth to keep striking after the first salvos, deny China sanctuary, and turn a fragile bomber program into a force built for a long war. #B21Raider #USAirForce #StealthBomber #DefenseTechnology #GlobalStrike</description>
-      <guid isPermaLink="false">https://sofrep.com/news/why-a-larger-b-21-fleet-would-put-chinas-missile-sanctuary-under-pressure/</guid>
-      <pubDate>Mon, 27 Jul 2026 21:00:31 +0000</pubDate>
-    </item>
-    <item>
       <title>Uneasy Pause In U.S.-Iran Fighting Holds Amidst Growing Concerns Over Interceptor Stockpiles</title>
       <link>https://www.twz.com/news-features/uneasy-pause-in-u-s-iran-fighting-holds-amidst-growing-concerns-over-interceptor-stockpiles</link>
       <description>&lt;p&gt;Though the U.S. and Iran aren't directly attacking each other, Saudi Arabia's oil infrastructure has been rocked by Iranian proxies.&lt;/p&gt;
@@ -723,26 +547,12 @@
       <pubDate>Mon, 27 Jul 2026 22:45:14 +0000</pubDate>
     </item>
     <item>
-      <title>Arista patches VeloCloud Orchestrator zero-day exploited in attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/</link>
-      <description>Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/</guid>
-      <pubDate>Mon, 27 Jul 2026 22:49:44 +0000</pubDate>
-    </item>
-    <item>
       <title>Australian MQ-28 Ghost Bat Fighter Drones Could Be Commanded By U.S. Pilots</title>
       <link>https://www.twz.com/air/australian-mq-28-ghost-bat-fighter-drones-could-be-commanded-by-u-s-pilots</link>
       <description>&lt;p&gt;Being able to freely share Collaborative Combat Aircraft, even in a heated fight, could be a huge boon for U.S. and Australian airpower.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/australian-mq-28-ghost-bat-fighter-drones-could-be-commanded-by-u-s-pilots"&gt;Australian MQ-28 Ghost Bat Fighter Drones Could Be Commanded By U.S. Pilots&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/australian-mq-28-ghost-bat-fighter-drones-could-be-commanded-by-u-s-pilots</guid>
       <pubDate>Mon, 27 Jul 2026 23:36:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hackers target US firms in FastJson RCE zero-day attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/</link>
-      <description>Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/</guid>
-      <pubDate>Mon, 27 Jul 2026 23:49:44 +0000</pubDate>
     </item>
     <item>
       <title>Air Force will resume B-52 radar testing with second bomber after deadly crash</title>
@@ -17006,13 +16816,6 @@
       <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CI Fortify – Advice for isolating vital systems</title>
-      <link>https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems</link>
-      <description>&lt;div class="c-page-title__buttons"&gt;&lt;a class="c-button" href="https://www.cyber.gov.au/business-government/secure-design/operational-technology-environments/ci-fortify/ci-fortify-advice-for-isolating-vital-systems" target="_blank"&gt;CI Fortify – Advice for isolating vital systems&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;CISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released joint guidance &lt;a href="https://www.cyber.gov.au/business-government/secure-design/operational-technology-environments/ci-fortify/ci-fortify-advice-for-isolating-vital-systems" target="_blank"&gt;CI Fortify – Advice for isolating vital systems&lt;/a&gt;. This guidance contains practical steps for critical infrastructure (CI) organizations to isolate vital operational technology and enabling systems from all other networks in the event of disruption or crisis and operate in isolation for an extended period. Developed to address escalating cyber threats, the guidance outlines key steps for identifying critical systems, mapping connections, and implementing effective separation points. By following these recommendations, organizations can enhance their resilience, minimize disruption, and maintain essential services during cyber incidents or geopolitical crises.&amp;nbsp;&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems</guid>
-      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>MikroTik RouterOS and Cloud Hosted Router</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05</link>
       <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-05.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -17151,6 +16954,13 @@
 &lt;hr /&gt;
 &lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
       <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05</guid>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CI Fortify – Advice for isolating vital systems</title>
+      <link>https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems</link>
+      <description>&lt;div class="c-page-title__buttons"&gt;&lt;a class="c-button" href="https://www.cyber.gov.au/business-government/secure-design/operational-technology-environments/ci-fortify/ci-fortify-advice-for-isolating-vital-systems" target="_blank"&gt;CI Fortify – Advice for isolating vital systems&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;CISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released joint guidance &lt;a href="https://www.cyber.gov.au/business-government/secure-design/operational-technology-environments/ci-fortify/ci-fortify-advice-for-isolating-vital-systems" target="_blank"&gt;CI Fortify – Advice for isolating vital systems&lt;/a&gt;. This guidance contains practical steps for critical infrastructure (CI) organizations to isolate vital operational technology and enabling systems from all other networks in the event of disruption or crisis and operate in isolation for an extended period. Developed to address escalating cyber threats, the guidance outlines key steps for identifying critical systems, mapping connections, and implementing effective separation points. By following these recommendations, organizations can enhance their resilience, minimize disruption, and maintain essential services during cyber incidents or geopolitical crises.&amp;nbsp;&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems</guid>
       <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -17341,20 +17151,6 @@
       <pubDate>Tue, 28 Jul 2026 12:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Leonardo UK CEO sees potential CCA role, but wary of funding</title>
-      <link>https://breakingdefense.com/2026/07/leonardo-uk-ceo-sees-potential-cca-role-but-wary-of-funding/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/leonardo-uk-ceo-sees-potential-cca-role-but-wary-of-funding/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="605" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/05/VCOP-20250320-0024-ACP_DRONE_TRAINING-0360-1024x605.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Clive Higgins told Breaking Defense the firm would likely pitch its experience in sensors and EW, but also saw an opening for drones developed with a Turkish partner.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/07/leonardo-uk-ceo-sees-potential-cca-role-but-wary-of-funding/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:32:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine And Gulf Conflicts Have Become Increasingly Intertwined, Says Russia-Iran Analyst Nicole Grajewski</title>
-      <link>https://www.rferl.org/a/russia-iran-partnership-ukraine-persian-gulf-nicole-grajewski/33816737.html</link>
-      <description>Russia and Iran's expanding partnership in drones, intelligence, sanctions evasion and internal security is increasingly linking the conflicts in Ukraine and the Persian Gulf, says Nicole Grajewski, an expert on Russian-Iranian relations.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-iran-partnership-ukraine-persian-gulf-nicole-grajewski/33816737.html</guid>
-      <pubDate>Tue, 28 Jul 2026 12:36:50 +0000</pubDate>
-    </item>
-    <item>
       <title>Wartime Ukraine’s people power protests are Putin’s worst nightmare</title>
       <link>https://www.atlanticcouncil.org/blogs/ukrainealert/wartime-ukraines-people-power-protests-are-putins-worst-nightmare/</link>
       <description>&lt;p&gt;Ukrainians have taken to the streets in recent weeks to protest the dismissal of Defense Minister Mykhailo Fedorov. The protests are a reminder of the vibrant democratic culture that provoked Putin's invasion, writes Peter Dickinson. &lt;/p&gt;
@@ -17389,13 +17185,6 @@
       <description>Bundeswehr has contracted Rheinmetall to deliver 56 additional Elefant 2, with deliveries planned in 2026 and 2027.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/bundeswehr-elefant-2-order-rheinmetall/</guid>
       <pubDate>Tue, 28 Jul 2026 13:25:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Time to decide: A critical moment in Japan-US missile defense cooperation</title>
-      <link>https://breakingdefense.com/2026/07/time-to-decide-a-critical-moment-in-japan-us-missile-defense-cooperation/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/time-to-decide-a-critical-moment-in-japan-us-missile-defense-cooperation/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/japan-patriot-e1785157117147-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In the face of growing air and missile threats in the Pacific, robust radar coverage and command networks will be critical to US and Japanese defense objectives, Tom Karako writes.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/07/time-to-decide-a-critical-moment-in-japan-us-missile-defense-cooperation/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:30:00 +0000</pubDate>
     </item>
     <item>
       <title>Ukraine Defense Exhibition Organizer Held Without Bail After Deadly Russian Strike</title>
@@ -17458,7 +17247,7 @@
     <item>
       <title>Robot Finger Feels in Color</title>
       <link>https://spectrum.ieee.org/robot-finger</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, if it’s tails, the fluted columns of the Lincoln Memorial. Getting a robot to sense the same things is an imposing task, often requiring gathering data on pressure and force at many spatial locations at once. But that’s just what a team of scientists in Europe has now managed to do, using an unusual, colorful robotic skin that provides high-resolution sensing in real time.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;“To be honest, when they showed us this, we thought it was, and pardon my French, [expletive] cool, because it’s a distinctly different approach,” recalled Rich Walker, director of &lt;a href="https://shadowrobot.com/" target="_blank"&gt;Shadow Robot&lt;/a&gt;, the U.K.’s longest-running robot company, which primarily focuses on &lt;a href="https://spectrum.ieee.org/video-friday-shadow-robot-hand" target="_blank"&gt;robotic hands&lt;/a&gt;.&lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot" target="_self"&gt;“This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors”&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The research team, which hails from Queen Mary University of London, the University of Florence, the University of Trieste, and the University of Trento, designed a robotic fingertip with a synthetic skin that reflects different colors of light in response to mechanical deformation. By reading the light reflected off the skin, the fingertip generates maps of topology, strain, and contact pressure. The team has already used the sensor to generate maps of a human fingertip, a penny, and a leaf.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.seresearch.qmul.ac.uk/cit/people/gsasso/" target="_blank"&gt;Giacomo Sasso&lt;/a&gt;, a postdoctoral research associate in the lab of &lt;a href="https://www.sems.qmul.ac.uk/staff/f.carpi/" target="_blank"&gt;Federico Carpi&lt;/a&gt; at Queen Mary University of London, came up with the idea for the sensor. He had been researching optics when he stumbled upon an interesting &lt;a href="https://www.nature.com/articles/s41563-022-01318-x" target="_blank"&gt;paper published in the journal &lt;em&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;. It described the “mechanochromic material” that would eventually make up the reflector in the skin.&lt;/p&gt;&lt;p&gt;Following the method described in &lt;em&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;/em&gt;, Sasso exposed a light-sensitive film to a 5-megawatt, 635-nanometer (red) laser for seven minutes. The laser beam creates an interference pattern which causes the film to polymerize in alternating densities, creating layers with different refractive indices.&lt;/p&gt;&lt;p&gt;This structure is called a &lt;a href="https://spectrum.ieee.org/a-simple-filter-makes-blueemitting-oleds-give-off-white-light" target="_blank"&gt;Bragg reflector&lt;/a&gt;. The alternating densities and refractive indices in the polymer cause specific wavelengths of light to be reflected. When the reflector is deformed by contact with an object, its layers are stretched, becoming thinner and reflecting light of a different wavelength. &lt;/p&gt;&lt;p&gt;It took Sasso less than a week to re-create the material in the lab. “From there, we started seeing how we could translate these color patterns into something that was useful for us,” he says. Soon, they realized that the color produced by the material was all they needed to be able to sense the topology of objects.&lt;/p&gt;&lt;p&gt;In the robotic finger, the Bragg reflector is sandwiched between a layer of silicone, which protects it from the outside, and a transparent, fingertip-shaped silicone finger with a camera and LED light embedded inside of it. &lt;/p&gt;&lt;p&gt;The light from the LED shines through the clear polymer of the finger. When the fingertip is deformed by an object, the reflector bounces light back to the camera, with wavelengths depending on the level of deformation—red for least deformation, shifting to green, and then to blue when most deformed.&lt;/p&gt;&lt;p&gt;The team also made adjustments to increase the sensitivity of the skin and help the camera to better read color differences. The silicone of the outer layer of the fingertip is colored black to increase the color contrast, allowing the camera to better translate color into the morphology. The rigidity of the camera inside the finger also enhances the deformation of the reflector, producing greater differences in reflected wavelengths.&lt;/p&gt;&lt;p&gt;After all that optimization, the finger provided 100-micrometer resolution with no &lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt;computational&lt;/a&gt; latency, the researchers determined.&lt;/p&gt;&lt;h2&gt;What robot fingers need&lt;/h2&gt;&lt;p&gt;Human skin takes in a variety of tactile information in order to successfully move and manipulate objects, including temperature, texture, pressure, and vibration. But engineering a robot to do the same is challenging because of spatial constraints. There often isn’t enough room in a robotic fingertip to incorporate more than one type of sensor. The question then becomes: Which type of sensor should be used?&lt;/p&gt;&lt;p&gt;“And the answer to that is…that’s a really hard question. No one knows yet,” says Walker. Carpi’s team’s robotic finger is exciting because it presents yet another option for roboticists to experiment with, Walker says.&lt;/p&gt;&lt;p&gt;Although Carpi’s team &lt;a href="https://www.gelsight.com/" target="_blank"&gt;isn’t the first&lt;/a&gt; to use soft materials for tactile sensing, its technology is unique because it is able to extract quantitative information about depth and size from the topologic maps it generates. According to Walker, most sensors can only generate topological maps, which reveal the relative sizes of object features.&lt;/p&gt;&lt;p&gt;To Sasso, another key advantage of this robotic finger is that it embeds tactile sensing directly into the material of the finger, rather than using taxels, or pixels that measure force or pressure at specific spatial points. &lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt;Robot Hand Manipulates Complex Objects by Touch Alone&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“The core aspect of the sensor is that we’re essentially [moving toward] having the sensing element at the material level,” he says. “The camera, which is a very highly optimized electronic component, is translating whatever the material is already doing directly into digital signals.” &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/in/michael-yu-wang-258a4525/" target="_blank"&gt;Michael Wang&lt;/a&gt;, co-founder and chief scientist at &lt;a href="https://spectrum.ieee.org/daimon-robotics-physical-ai" target="_blank"&gt;Daimon Robotics&lt;/a&gt;, which, unlike Shadow Robot, primarily uses vision-based sensing, echoed Walker’s sentiment that it’s beneficial to explore new methods of sensing, which may bring unique advantages. But he also explained that soft materials often face challenges with durability, and that the significance of the team’s work would be revealed when the finger is integrated into real&lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt; robot hands&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;“The practical and useful benefits, especially in the context of robot hands, remain to be tested and validated,” he says.&lt;/p&gt;&lt;p&gt;When the materials of soft sensors, like the silicone in Carpi’s team’s fingertip, become eroded or damaged after repeated use, the signals measured by the sensors may not reflect objects’ topography as well. &lt;/p&gt;&lt;p&gt;“Especially if you have the electronics embedded into the material layer itself, that becomes a very challenging engineering problem. And I haven’t seen [many] good soft electronics materials that really can undergo long periods of usage,” Wang says.&lt;/p&gt;&lt;p&gt;&lt;span&gt;However, because the Bragg reflector isn’t in direct contact with objects itself, the outer layer of silicone material acts as a protective barrier, Sasso says. The silicone can also be made more durable using certain chemical coatings, according to Wang.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The team has already been talking to companies that could potentially employ the new sensor. They also hope to improve the sensor so that it can sense objects that don’t lie flat on surfaces. That could open up its use in surgical instruments that require precise contact mapping of tissues and organs, Carpi says.&lt;/p&gt;&lt;p&gt;“There are significant developments that we expect with a clear path toward transition to real world applications,” he says.&lt;/p&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=0%2C83%2C0%2C84" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, if it’s tails, the fluted columns of the Lincoln Memorial. Getting a robot to sense the same things is an imposing task, often requiring gathering data on pressure and force at many spatial locations at once. But that’s just what a team of scientists in Europe has now managed to do, using an unusual, colorful robotic skin that provides high-resolution sensing in real time.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;“To be honest, when they showed us this, we thought it was, and pardon my French, [expletive] cool, because it’s a distinctly different approach,” recalled Rich Walker, director of &lt;a href="https://shadowrobot.com/" target="_blank"&gt;Shadow Robot&lt;/a&gt;, the U.K.’s longest-running robot company, which primarily focuses on &lt;a href="https://spectrum.ieee.org/video-friday-shadow-robot-hand" target="_blank"&gt;robotic hands&lt;/a&gt;.&lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot" target="_self"&gt;“This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors”&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The research team, which hails from Queen Mary University of London, the University of Florence, the University of Trieste, and the University of Trento, designed a robotic fingertip with a synthetic skin that reflects different colors of light in response to mechanical deformation. By reading the light reflected off the skin, the fingertip generates maps of topology, strain, and contact pressure. The team has already used the sensor to generate maps of a human fingertip, a penny, and a leaf.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.seresearch.qmul.ac.uk/cit/people/gsasso/" target="_blank"&gt;Giacomo Sasso&lt;/a&gt;, a postdoctoral research associate in the lab of &lt;a href="https://www.sems.qmul.ac.uk/staff/f.carpi/" target="_blank"&gt;Federico Carpi&lt;/a&gt; at Queen Mary University of London, came up with the idea for the sensor. He had been researching optics when he stumbled upon an interesting &lt;a href="https://www.nature.com/articles/s41563-022-01318-x" target="_blank"&gt;paper published in the journal &lt;em&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;. It described the “mechanochromic material” that would eventually make up the reflector in the skin.&lt;/p&gt;&lt;p&gt;Following the method described in &lt;em&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;/em&gt;, Sasso exposed a light-sensitive film to a 5-megawatt, 635-nanometer (red) laser for seven minutes. The laser beam creates an interference pattern which causes the film to polymerize in alternating densities, creating layers with different refractive indices.&lt;/p&gt;&lt;p&gt;This structure is called a &lt;a href="https://spectrum.ieee.org/a-simple-filter-makes-blueemitting-oleds-give-off-white-light" target="_blank"&gt;Bragg reflector&lt;/a&gt;. The alternating densities and refractive indices in the polymer cause specific wavelengths of light to be reflected. When the reflector is deformed by contact with an object, its layers are stretched, becoming thinner and reflecting light of a different wavelength. &lt;/p&gt;&lt;p&gt;It took Sasso less than a week to re-create the material in the lab. “From there, we started seeing how we could translate these color patterns into something that was useful for us,” he says. Soon, they realized that the color produced by the material was all they needed to be able to sense the topology of objects.&lt;/p&gt;&lt;p&gt;In the robotic finger, the Bragg reflector is sandwiched between a layer of silicone, which protects it from the outside, and a transparent, fingertip-shaped silicone finger with a camera and LED light embedded inside of it. &lt;/p&gt;&lt;p&gt;The light from the LED shines through the clear polymer of the finger. When the fingertip is deformed by an object, the reflector bounces light back to the camera, with wavelengths depending on the level of deformation—red for least deformation, shifting to green, and then to blue when most deformed.&lt;/p&gt;&lt;p&gt;The team also made adjustments to increase the sensitivity of the skin and help the camera to better read color differences. The silicone of the outer layer of the fingertip is colored black to increase the color contrast, allowing the camera to better translate color into the morphology. The rigidity of the camera inside the finger also enhances the deformation of the reflector, producing greater differences in reflected wavelengths.&lt;/p&gt;&lt;p&gt;After all that optimization, the finger provided 100-micrometer resolution with no &lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt;computational&lt;/a&gt; latency, the researchers determined.&lt;/p&gt;&lt;h2&gt;What robot fingers need&lt;/h2&gt;&lt;p&gt;Human skin takes in a variety of tactile information in order to successfully move and manipulate objects, including temperature, texture, pressure, and vibration. But engineering a robot to do the same is challenging because of spatial constraints. There often isn’t enough room in a robotic fingertip to incorporate more than one type of sensor. The question then becomes: Which type of sensor should be used?&lt;/p&gt;&lt;p&gt;“And the answer to that is…that’s a really hard question. No one knows yet,” says Walker. Carpi’s team’s robotic finger is exciting because it presents yet another option for roboticists to experiment with, Walker says.&lt;/p&gt;&lt;p&gt;Although Carpi’s team &lt;a href="https://www.gelsight.com/" target="_blank"&gt;isn’t the first&lt;/a&gt; to use soft materials for tactile sensing, its technology is unique because it is able to extract quantitative information about depth and size from the topologic maps it generates. According to Walker, most sensors can only generate topological maps, which reveal the relative sizes of object features.&lt;/p&gt;&lt;p&gt;To Sasso, another key advantage of this robotic finger is that it embeds tactile sensing directly into the material of the finger, rather than using taxels, or pixels that measure force or pressure at specific spatial points. &lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt;Robot Hand Manipulates Complex Objects by Touch Alone&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“The core aspect of the sensor is that we’re essentially [moving toward] having the sensing element at the material level,” he says. “The camera, which is a very highly optimized electronic component, is translating whatever the material is already doing directly into digital signals.” &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/in/michael-yu-wang-258a4525/" target="_blank"&gt;Michael Wang&lt;/a&gt;, co-founder and chief scientist at &lt;a href="https://spectrum.ieee.org/daimon-robotics-physical-ai" target="_blank"&gt;Daimon Robotics&lt;/a&gt;, which, unlike Shadow Robot, primarily uses vision-based sensing, echoed Walker’s sentiment that it’s beneficial to explore new methods of sensing, which may bring unique advantages. But he also explained that soft materials often face challenges with durability, and that the significance of the team’s work would be revealed when the finger is integrated into real&lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt; robot hands&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;“The practical and useful benefits, especially in the context of robot hands, remain to be tested and validated,” he says.&lt;/p&gt;&lt;p&gt;When the materials of soft sensors, like the silicone in Carpi’s team’s fingertip, become eroded or damaged after repeated use, the signals measured by the sensors may not reflect objects’ topography as well. &lt;/p&gt;&lt;p&gt;“Especially if you have the electronics embedded into the material layer itself, that becomes a very challenging engineering problem. And I haven’t seen [many] good soft electronics materials that really can undergo long periods of usage,” Wang says.&lt;/p&gt;&lt;p&gt;&lt;span&gt;However, because the Bragg reflector isn’t in direct contact with objects itself, the outer layer of silicone material acts as a protective barrier, Sasso says. The silicone can also be made more durable using certain chemical coatings, according to Wang.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The team has already been talking to companies that could potentially employ the new sensor. They also hope to improve the sensor so that it can sense objects that don’t lie flat on surfaces. That could open up its use in surgical instruments that require precise contact mapping of tissues and organs, Carpi says.&lt;/p&gt;&lt;p&gt;“There are significant developments that we expect with a clear path toward transition to real world applications,” he says.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/robot-finger</guid>
       <pubDate>Tue, 28 Jul 2026 15:00:03 +0000</pubDate>
     </item>
@@ -17653,15 +17442,6 @@
       <pubDate>Tue, 28 Jul 2026 18:47:46 +0000</pubDate>
     </item>
     <item>
-      <title>Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack</title>
-      <link>https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html</link>
-      <description>Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.
-
-The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html</guid>
-      <pubDate>Tue, 28 Jul 2026 18:59:07 +0000</pubDate>
-    </item>
-    <item>
       <title>Coordinated cyberattack disrupts water utilities in 30+ Minnesota communities</title>
       <link>https://statescoop.com/coordinated-cyberattack-disrupts-water-utilities-in-30-minnesota-communities/</link>
       <description>&lt;p&gt;A cyberattack of undetermined origin disrupted water treatment plants in at least 30 communities in Minnesota, according to the state's technology bureau.&lt;/p&gt;
@@ -17758,7 +17538,7 @@ The HAWK attack exploits a previously unused symmetry in the lattice behind the 
     <item>
       <title>Ghost Credentials Expose Cloud Systems to Hidden Identity Risks</title>
       <link>https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path</link>
-      <description>Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who has released an open source tool to sniff out trust paths.</description>
+      <description>Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who plans to release an open source tool next week at Black Hat USA 2026 that sniffs out trust paths.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path</guid>
       <pubDate>Tue, 28 Jul 2026 21:33:23 +0000</pubDate>
     </item>
@@ -17805,20 +17585,6 @@ The HAWK attack exploits a previously unused symmetry in the lattice behind the 
       <pubDate>Wed, 29 Jul 2026 02:00:02 +0000</pubDate>
     </item>
     <item>
-      <title>Beijing’s Next Play for the South China Sea</title>
-      <link>https://www.foreignaffairs.com/china/beijings-next-play-south-china-sea</link>
-      <description>How China is normalizing its control.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/china/beijings-next-play-south-china-sea</guid>
-      <pubDate>Wed, 29 Jul 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Reindustrialize America</title>
-      <link>https://www.foreignaffairs.com/united-states/how-reindustrialize-america</link>
-      <description>The case for a strategic investment fund.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/how-reindustrialize-america</guid>
-      <pubDate>Wed, 29 Jul 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>America’s Surprising Energy Advantage</title>
       <link>https://www.foreignaffairs.com/united-states/americas-surprising-energy-advantage</link>
       <description>How to beat China on clean power.</description>
@@ -17826,19 +17592,18 @@ The HAWK attack exploits a previously unused symmetry in the lattice behind the 
       <pubDate>Wed, 29 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js</title>
-      <link>https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html</link>
-      <description>Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.
-
-The list of affected packages is as follows -
-
-
-  @joyfill/layouts@0.1.2-2773.beta.0
-  @joyfill/components@4.0.0-rc24-2773-beta.4
-
-The two packages "contain an import-time JavaScript implant that resolves encrypted code</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html</guid>
-      <pubDate>Wed, 29 Jul 2026 04:20:57 +0000</pubDate>
+      <title>How to Reindustrialize America</title>
+      <link>https://www.foreignaffairs.com/united-states/how-reindustrialize-america-jake-sullivan</link>
+      <description>The case for a strategic investment fund.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/how-reindustrialize-america-jake-sullivan</guid>
+      <pubDate>Wed, 29 Jul 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beijing’s Next Play for the South China Sea</title>
+      <link>https://www.foreignaffairs.com/china/beijings-next-play-south-china-sea</link>
+      <description>How China is normalizing its control.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/beijings-next-play-south-china-sea</guid>
+      <pubDate>Wed, 29 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How the U.K. is helping Ukraine hit Russian targets</title>
@@ -17993,6 +17758,15 @@ Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the 
       <pubDate>Wed, 29 Jul 2026 11:57:00 +0000</pubDate>
     </item>
     <item>
+      <title>2026 Minimum Elements for a Software Bill of Materials (SBOM)</title>
+      <link>https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom</link>
+      <description>&lt;p&gt;CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance,&amp;nbsp;&lt;a href="https://www.cisa.gov/sites/default/files/2026-07/2026_cisa_sbom_minimum_elements_508c.pdf"&gt;2026 Minimum Elements for a Software Bill of Materials (SBOM)&lt;/a&gt;, that updates and replaces the minimum elements for an SBOM published by the National Telecommunications and Information Administration (NTIA) in 2021. The new guidance incorporates stakeholder feedback from a 2025 public comment period&amp;nbsp;and reflects current SBOM tools and needs while preserving the core principles of the original NTIA document.&lt;/p&gt;
+&lt;p&gt;An SBOM serves as an “ingredients list” for software and is a key building block of software security and supply chain risk management. Organizations can use SBOM data to better understand the makeup of their software components and supply chains and make more risk-informed decisions. Minimum elements for an SBOM describe the baseline technologies and practices that an SBOM should include.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;While the minimum elements for an SBOM apply to all software, some software types—such as artificial intelligence&lt;a&gt;&amp;nbsp;&lt;/a&gt;and software as a service in cloud environments—may require additional elements. Any effort to improve software transparency, regardless of the software type, should begin with the application of minimum elements.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom</guid>
+      <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>House-passed defense bill includes controversial US-Israel tech measure</title>
       <link>https://www.defensenews.com/news/pentagon-congress/2026/07/29/house-passed-defense-bill-includes-controversial-us-israel-tech-measure/</link>
       <description>The House-passed defense bill includes a measure to encourage co-development and co-production between the U.S. and Israeli defense industrial bases.</description>
@@ -18014,6 +17788,13 @@ Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the 
       <pubDate>Wed, 29 Jul 2026 12:00:43 +0000</pubDate>
     </item>
     <item>
+      <title>The Download: a chip talent battle, and deflating AI hype</title>
+      <link>https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix   Lee, an engineer at Samsung’s semiconductor division, used to work late. But lately, he’s been clocking out on time and heading&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/</guid>
+      <pubDate>Wed, 29 Jul 2026 12:10:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Mythos Asks the Right Question. It Doesn't Answer It.</title>
       <link>https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html</link>
       <description>AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.
@@ -18025,13 +17806,98 @@ The honest answer is</description>
       <pubDate>Wed, 29 Jul 2026 12:15:00 +0000</pubDate>
     </item>
     <item>
+      <title>Fears Mount In Kazakhstan As Beijing's 'Ethnic Unity Law' Looms Across The Border</title>
+      <link>https://www.rferl.org/a/kazakhstan-china-ethnic-unity-law-human-rights/33816706.html</link>
+      <description>As Beijing threatens to widen its net beyond its borders to pursue anyone who “undermines ethnic unity,” Chinese-born majority Muslim Turkic minorities in neighboring Kazakhstan are feeling the pressure.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/kazakhstan-china-ethnic-unity-law-human-rights/33816706.html</guid>
+      <pubDate>Wed, 29 Jul 2026 12:24:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ford, GM Defense, BC Customs to compete for US Army’s new infantry squad vehicle</title>
+      <link>https://www.defensenews.com/news/your-military/2026/07/29/ford-gm-defense-bc-customs-to-compete-for-us-armys-new-infantry-squad-vehicle/</link>
+      <description>Ford, GM Defense and BC Customs will build competing prototypes of the U.S. Army's future infantry squad vehicle.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/07/29/ford-gm-defense-bc-customs-to-compete-for-us-armys-new-infantry-squad-vehicle/</guid>
+      <pubDate>Wed, 29 Jul 2026 12:54:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boosting the Western Balkans’ digital transformation: The key role of the private sector</title>
+      <link>https://www.atlanticcouncil.org/in-depth-research-reports/report/boosting-the-western-balkans-digital-transformation-the-key-role-of-the-private-sector/</link>
+      <description>&lt;p&gt;In the Western Balkans, the private sector can play a meaningful role in promoting economic development through information and communication technology and digitalization.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/boosting-the-western-balkans-digital-transformation-the-key-role-of-the-private-sector/"&gt;Boosting the Western Balkans’ digital transformation: The key role of the private sector&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/report/boosting-the-western-balkans-digital-transformation-the-key-role-of-the-private-sector/</guid>
+      <pubDate>Wed, 29 Jul 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>General (Ret.) Donald C. Bolduc: Iran Is Watching as America’s Missile Stockpiles Run Dry</title>
+      <link>https://sofrep.com/news/general-ret-donald-c-bolduc-the-implications-of-dwindling-military-stockpiles-a-call-for-honesty-in-national-security-discourse/</link>
+      <description>America cannot credibly deter China, confront Iran, or protect its forces abroad while political leaders conceal the dangerous depletion of the munitions and missile defenses on which those missions depend. #MilitaryReadiness #MissileDefense #Iran #NationalSecurity #MunitionsStockpiles</description>
+      <guid isPermaLink="false">https://sofrep.com/news/general-ret-donald-c-bolduc-the-implications-of-dwindling-military-stockpiles-a-call-for-honesty-in-national-security-discourse/</guid>
+      <pubDate>Wed, 29 Jul 2026 13:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon weighing options to license Patriot production to Ukraine: DoD official</title>
+      <link>https://breakingdefense.com/2026/07/pentagon-weighing-options-to-license-patriot-production-to-ukraine-dod-official/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/pentagon-weighing-options-to-license-patriot-production-to-ukraine-dod-official/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2023/01/pac-3-e1728400253523-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“We&amp;#8217;re evaluating a set of [courses of action] right now, which include a mix of domestic and international sourcing for end units, where they&amp;#8217;re going to be located, how we&amp;#8217;re going to build it, [and] which variant,” Michael Cadenazzi, the assistant secretary of defense for industrial policy, told Breaking Defense.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/pentagon-weighing-options-to-license-patriot-production-to-ukraine-dod-official/</guid>
+      <pubDate>Wed, 29 Jul 2026 13:32:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments</title>
+      <link>https://thehackernews.com/2026/07/nine-year-fraud-campaign.html</link>
+      <description>Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.
+
+According to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/nine-year-fraud-campaign.html</guid>
+      <pubDate>Wed, 29 Jul 2026 13:42:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline</title>
+      <link>https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html</link>
+      <description>A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.
+
+Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls.
+
+Braham's water plant went offline, and the city asked residents to minimize</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html</guid>
+      <pubDate>Wed, 29 Jul 2026 13:48:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Colombia’s next president wants to work with the US. Here’s how Washington should respond.</title>
+      <link>https://www.atlanticcouncil.org/dispatches/colombias-next-president-wants-to-work-with-the-us-heres-how-washington-should-respond/</link>
+      <description>&lt;p&gt;The Trump administration can support the next phase of the relationship by presenting a real alternative to Chinese financing for critical projects.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/colombias-next-president-wants-to-work-with-the-us-heres-how-washington-should-respond/"&gt;Colombia’s next president wants to work with the US. Here’s how Washington should respond.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/colombias-next-president-wants-to-work-with-the-us-heres-how-washington-should-respond/</guid>
+      <pubDate>Wed, 29 Jul 2026 13:51:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows 11 KB5101684 update released with 42 changes and fixes</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/</link>
+      <description>​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/</guid>
+      <pubDate>Wed, 29 Jul 2026 13:56:22 +0000</pubDate>
+    </item>
+    <item>
       <title>WEATHER STATION KURT: The German Intelligence Operation North America Missed</title>
-      <link>https://sofrep.com/?p=230055&amp;preview=true&amp;preview_id=230055</link>
-      <description>Decades before Chinese spy balloons drifted across North American airspace, the Kriegsmarine successfully executed a hardware drop deep in Canadian territory—and the Allies didn&amp;#8217;t have a clue. In October 1943, a German U-boat infiltrated northern Labrador, deployed an automated weather station, and vanished. The installation remained on the Canadian coast for 34 years, camouflaged so [&amp;#8230;] #World War II 
+      <link>https://sofrep.com/news/weather-station-kurt-the-german-intelligence-operation-north-america-missed/</link>
+      <description>The Germans left a weather station on the Labrador coast, and for 38 years nobody thought to ask who had put it there. #World War II 
 #U-Boats 
 #Covert Operations,</description>
-      <guid isPermaLink="false">https://sofrep.com/?p=230055&amp;preview=true&amp;preview_id=230055</guid>
+      <guid isPermaLink="false">https://sofrep.com/news/weather-station-kurt-the-german-intelligence-operation-north-america-missed/</guid>
       <pubDate>Wed, 29 Jul 2026 14:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your AI Agents Are Guessing at Scale: Permissions Decide the Damage</title>
+      <link>https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/</link>
+      <description>AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/</guid>
+      <pubDate>Wed, 29 Jul 2026 14:02:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a predictive defense industrial base begins with artificial intelligence</title>
+      <link>https://breakingdefense.com/2026/07/building-a-predictive-defense-industrial-base-begins-with-artificial-intelligence/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/building-a-predictive-defense-industrial-base-begins-with-artificial-intelligence/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="683" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/Sustainment-1-1024x683.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] AI-enabled workflows accelerate production, but cybersecurity and governance remain central.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/07/building-a-predictive-defense-industrial-base-begins-with-artificial-intelligence/</guid>
+      <pubDate>Wed, 29 Jul 2026 14:04:46 +0000</pubDate>
     </item>
   </channel>
 </rss>
