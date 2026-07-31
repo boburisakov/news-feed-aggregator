@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 16:02:18 +0000</lastBuildDate>
-    <item>
-      <title>Java Spring Boot "heapdump" scans, (Mon, Jul 27th)</title>
-      <link>https://isc.sans.edu/diary/rss/33188</link>
-      <description>Spring Boot exposes the endpoint "/actuator/heapdump" to collect debug information. By default, the endpoint will return a file heapdump.hprof, which includes a binary heapdump that can be used to analyze the current state of the application. Non-Java readers may be familiar with a similar concept, core dumps, which are produced by binaries to expose a memory image at the time the software crashes. "heapdumps" are the Java analog to "core-dumps". The heapdump often includes secrets used by the application to connect to backend systems. API keys, database passwords, and other sensitive data may be exposed in the heapdump.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33188</guid>
-      <pubDate>Mon, 27 Jul 2026 10:04:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Forecasts: Australia defence market data (2026-2035)</title>
-      <link>https://www.army-technology.com/features/forecasts-australia-defence-market-data-2026-2035/</link>
-      <description>Australian defence spending will increase over the next decade as its military recapitalises capabilities across warfighting domains.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/features/forecasts-australia-defence-market-data-2026-2035/</guid>
-      <pubDate>Mon, 27 Jul 2026 13:38:32 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 31 Jul 2026 17:51:57 +0000</lastBuildDate>
     <item>
       <title>Tekever AR5 drones selected to replace British Army’s Watchkeeper fleet</title>
       <link>https://www.army-technology.com/news/tekever-ar5-british-army-drones/</link>
@@ -396,13 +382,6 @@
       <pubDate>Wed, 29 Jul 2026 18:58:00 +0000</pubDate>
     </item>
     <item>
-      <title>Pentagon puts out call for robot boats that launch attack drones</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/</link>
-      <description>The Pentagon has put out a solicitation for drone boats that can launch attack drones — and it wants them ready to test within 120 days.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/</guid>
-      <pubDate>Wed, 29 Jul 2026 19:22:52 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenAI's Rogue Model Claims More Victims Beyond Hugging Face</title>
       <link>https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face</link>
       <description>OpenAI's goal-seeking agent compromised a Modal customer environment and others during its sandbox escape.</description>
@@ -534,13 +513,6 @@
       <pubDate>Thu, 30 Jul 2026 08:00:57 +0000</pubDate>
     </item>
     <item>
-      <title>Can Southeast Asia Overcome the Middle-Income Trap?</title>
-      <link>https://thediplomat.com/2026/07/can-southeast-asia-overcome-the-middle-income-trap/</link>
-      <description>Southeast Asian nations won’t overcome the middle-income trap unless predatory elites stop undermining education and R&amp;#038;D.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/can-southeast-asia-overcome-the-middle-income-trap/</guid>
-      <pubDate>Thu, 30 Jul 2026 08:01:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Advancing the price-performance frontier with GPT-5.6</title>
       <link>https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6</link>
       <description>Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.</description>
@@ -575,13 +547,6 @@
       <description>Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.</description>
       <guid isPermaLink="false">https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/</guid>
       <pubDate>Thu, 30 Jul 2026 11:00:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Resilience at the Heart of Australia-Singapore Ties</title>
-      <link>https://thediplomat.com/2026/07/resilience-at-the-heart-of-australia-singapore-ties/</link>
-      <description>At the 15th Singapore-Australia Joint Ministerial Committee this week, the two sides emphasized resilience across sectors, from defense to trade.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/resilience-at-the-heart-of-australia-singapore-ties/</guid>
-      <pubDate>Thu, 30 Jul 2026 11:42:00 +0000</pubDate>
     </item>
     <item>
       <title>Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents</title>
@@ -2364,13 +2329,6 @@ Måløy's</description>
       <pubDate>Thu, 30 Jul 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Europe’s China Strategy Is Ready for a Refresh</title>
-      <link>https://thediplomat.com/2026/07/europes-china-strategy-is-ready-for-a-refresh/</link>
-      <description>EU leaders have an opportunity to stop treating repression as a side issue and instead make human rights more central to their engagement with China.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/europes-china-strategy-is-ready-for-a-refresh/</guid>
-      <pubDate>Thu, 30 Jul 2026 12:23:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database</title>
       <link>https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html</link>
       <description>A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.
@@ -2401,26 +2359,12 @@ Wiz, which codenamed the chain CosmosEscape, said the exploit chain began with a
       <pubDate>Thu, 30 Jul 2026 13:55:59 +0000</pubDate>
     </item>
     <item>
-      <title>Why Did China Test a Submarine-launched Ballistic Missile?</title>
-      <link>https://thediplomat.com/2026/07/why-did-china-test-a-submarine-launched-ballistic-missile/</link>
-      <description>July 6 was the first time that China has launched a submarine-launched ballistic missile into international waters.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/why-did-china-test-a-submarine-launched-ballistic-missile/</guid>
-      <pubDate>Thu, 30 Jul 2026 14:23:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Ghanaian national sentenced to 7 years in prison for stealing $10M from romance scam victims</title>
       <link>https://cyberscoop.com/ghanaian-national-sentenced-romance-scam/</link>
       <description>&lt;p&gt;Derrick Van Yeboah impersonated fake romantic partners and directly interacted with victims for more than nine years.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/ghanaian-national-sentenced-romance-scam/"&gt;Ghanaian national sentenced to 7 years in prison for stealing $10M from romance scam victims&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/ghanaian-national-sentenced-romance-scam/</guid>
       <pubDate>Thu, 30 Jul 2026 14:35:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Analog Devices discloses data breach, says operations unaffected</title>
-      <link>https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/</link>
-      <description>American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/</guid>
-      <pubDate>Thu, 30 Jul 2026 15:12:25 +0000</pubDate>
     </item>
     <item>
       <title>We know how to protect our troops from telecom attacks. We’re just not doing it.</title>
@@ -2462,13 +2406,6 @@ Some defenses improved. The loose parts still got found first. Anyway,</descript
       <pubDate>Thu, 30 Jul 2026 15:33:20 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft Teams vishing attacks lead to Chaos ransomware attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/</link>
-      <description>Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/</guid>
-      <pubDate>Thu, 30 Jul 2026 15:56:33 +0000</pubDate>
-    </item>
-    <item>
       <title>Britain’s Watchkeeper Drone Replacement Begins With a Failed Competition</title>
       <link>https://sofrep.com/news/britains-watchkeeper-drone-replacement-begins-with-a-failed-competition/</link>
       <description>Britain rejected every bid for its next surveillance drone, then handed the job to one of the losers because Watchkeeper’s clock was running out. #BritishArmy #TekeverAR5 #Watchkeeper #MilitaryDrones #DefenseProcurement</description>
@@ -2488,13 +2425,6 @@ Some defenses improved. The loose parts still got found first. Anyway,</descript
       <description>Defence AI start-up Agon has announced its launch with $30m in initial investment, marking one of the largest seed rounds in Europe’s defence technology sector this year.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/agon-seed-round-funding/</guid>
       <pubDate>Thu, 30 Jul 2026 16:08:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>North Korea Needs China and Russia – But Doesn’t Want Its People Admiring Them</title>
-      <link>https://thediplomat.com/2026/07/north-korea-needs-china-and-russia-but-doesnt-want-its-people-admiring-them/</link>
-      <description>Pyongyang’s strict ideological controls apply to perceptions of its allies as well as to “hostile states” like the United States.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/north-korea-needs-china-and-russia-but-doesnt-want-its-people-admiring-them/</guid>
-      <pubDate>Thu, 30 Jul 2026 16:09:00 +0000</pubDate>
     </item>
     <item>
       <title>Chinese Destroyer’s Encounter With U.S. Drone Boat Highlights Future Rules Of Engagement Issues</title>
@@ -2534,13 +2464,6 @@ Some defenses improved. The loose parts still got found first. Anyway,</descript
       <pubDate>Thu, 30 Jul 2026 17:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What the Reopening of Nathu La Means for China-India Relations</title>
-      <link>https://thediplomat.com/2026/07/what-the-reopening-of-nathu-la-means-for-china-india-relations/</link>
-      <description>Some practical cooperation is being restored between the two neighbors, despite the serious differences that remain.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/what-the-reopening-of-nathu-la-means-for-china-india-relations/</guid>
-      <pubDate>Thu, 30 Jul 2026 17:05:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Montana’s plan to become an experimental medical hub just pushed forward</title>
       <link>https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/</link>
       <description>As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once its treatment is rubber-stamped, the&amp;#8230;</description>
@@ -2567,6 +2490,13 @@ Some defenses improved. The loose parts still got found first. Anyway,</descript
       <description>The U.S. has depleted roughly two-thirds of its pre-war Patriot missile interceptor inventory during the conflict with Iran, new analysis says.</description>
       <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/</guid>
       <pubDate>Thu, 30 Jul 2026 17:48:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mongolia Signs Fuel Deal With South Korea</title>
+      <link>https://thediplomat.com/2026/07/mongolia-signs-fuel-deal-with-south-korea/</link>
+      <description>South Korea is now becoming a key guarantor of stability for Mongolian gas stations and aviation.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/mongolia-signs-fuel-deal-with-south-korea/</guid>
+      <pubDate>Thu, 30 Jul 2026 17:51:00 +0000</pubDate>
     </item>
     <item>
       <title>Activists Call Baku Court's Sentencing Of Independent Journalists An 'Unmistakable Warning'</title>
@@ -2680,14 +2610,6 @@ The defining aspect of the attack is that bogus macOS software update screen ste
       <pubDate>Thu, 30 Jul 2026 20:36:32 +0000</pubDate>
     </item>
     <item>
-      <title>Ukraine’s reconstruction: Advancing from solidarity to shared strategic interests</title>
-      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-reconstruction-advancing-from-solidarity-to-shared-strategic-interests/</link>
-      <description>&lt;p&gt;The future success of Ukraine's reconstruction will increasingly depend on Kyiv’s ability to promote participation in the country’s recovery not only as a moral imperative, but also as a shared economic and security interest, writes Olga Usenko.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-reconstruction-advancing-from-solidarity-to-shared-strategic-interests/"&gt;Ukraine’s reconstruction: Advancing from solidarity to shared strategic interests&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-reconstruction-advancing-from-solidarity-to-shared-strategic-interests/</guid>
-      <pubDate>Thu, 30 Jul 2026 20:36:34 +0000</pubDate>
-    </item>
-    <item>
       <title>Okta’s deal for Permiso aims to close gaps in identity threat detection</title>
       <link>https://cyberscoop.com/okta-acquires-permiso-security-ai-identity-threat-detection/</link>
       <description>&lt;p&gt;Ely Kahn, Okta's chief product officer, told CyberScoop the deal enriches the company's current threat detection tools and gives it deeper visibility into AI agent activity across enterprise systems.&lt;/p&gt;
@@ -2701,14 +2623,6 @@ The defining aspect of the attack is that bogus macOS software update screen ste
       <description>Hammer of the Gods is built to turn multimillion-dollar precision weapons into expensive pieces of metal searching for coordinates that no longer exist. #HammerOfTheGods #ElectronicWarfare #GPSJamming #CounterPNT #MissileDefense</description>
       <guid isPermaLink="false">https://sofrep.com/news/hammer-of-the-gods-is-built-to-break-enemy-precision-weapons-before-they-strike/</guid>
       <pubDate>Thu, 30 Jul 2026 21:00:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Putin’s pitiful naval parade highlights his inability to stop Ukrainian drones</title>
-      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/putins-pitiful-naval-parade-highlights-his-inability-to-stop-ukrainian-drones/</link>
-      <description>&lt;p&gt;Russian President Vladimir Putin has faced widespread ridicule following dramatically downgraded Navy Day celebrations that underlined his inability to secure Russian airspace against Ukrainian drones, writes Peter Dickinson. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/putins-pitiful-naval-parade-highlights-his-inability-to-stop-ukrainian-drones/"&gt;Putin’s pitiful naval parade highlights his inability to stop Ukrainian drones&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/putins-pitiful-naval-parade-highlights-his-inability-to-stop-ukrainian-drones/</guid>
-      <pubDate>Thu, 30 Jul 2026 21:13:30 +0000</pubDate>
     </item>
     <item>
       <title>Minnesota Water Utility Attacks Expose Sector's Cyber-Risks</title>
@@ -2762,13 +2676,6 @@ The defining aspect of the attack is that bogus macOS software update screen ste
       <pubDate>Thu, 30 Jul 2026 22:28:30 +0000</pubDate>
     </item>
     <item>
-      <title>US Aircraft Carrier USS George Washington Arrives in Vietnam on Friendship Visit</title>
-      <link>https://thediplomat.com/2026/07/us-aircraft-carrier-uss-george-washington-arrives-in-vietnam-on-friendship-visit/</link>
-      <description>The port call, the fourth by a U.S. carrier group since 2018, is a sign that relations between Washington and Hanoi remain healthy, despite ongoing trade tensions.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/us-aircraft-carrier-uss-george-washington-arrives-in-vietnam-on-friendship-visit/</guid>
-      <pubDate>Fri, 31 Jul 2026 00:41:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests</title>
       <link>https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/</link>
       <description>One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]</description>
@@ -2790,13 +2697,6 @@ The defining aspect of the attack is that bogus macOS software update screen ste
       <pubDate>Fri, 31 Jul 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
-      <title>Why a Weaker Russia Keeps Fighting</title>
-      <link>https://www.foreignaffairs.com/ukraine/why-weaker-russia-keeps-fighting</link>
-      <description>Putin sees little need to negotiate.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/ukraine/why-weaker-russia-keeps-fighting</guid>
-      <pubDate>Fri, 31 Jul 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Ambiguity Spiral in Iran</title>
       <link>https://www.foreignaffairs.com/united-states/ambiguity-spiral-iran</link>
       <description>How Trump’s lack of clarity leads to escalation.</description>
@@ -2804,25 +2704,11 @@ The defining aspect of the attack is that bogus macOS software update screen ste
       <pubDate>Fri, 31 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EU Announces New Sanctions Targeting Southeast Asia-Based Online Scam Networks</title>
-      <link>https://thediplomat.com/2026/07/eu-announces-new-sanctions-targeting-southeast-asia-based-online-scam-networks/</link>
-      <description>Cambodia's Prince Holding Group and the Democratic Karen Benevolent Army, a Myanmar-based rebel group, were among the targeted groups.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/eu-announces-new-sanctions-targeting-southeast-asia-based-online-scam-networks/</guid>
-      <pubDate>Fri, 31 Jul 2026 04:01:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Thailand Cracks Down on USDT Transactions in Fight Against China-linked Criminal Networks</title>
-      <link>https://thediplomat.com/2026/07/thailand-cracks-down-on-usdt-transactions-in-fight-against-china-linked-criminal-networks/</link>
-      <description>Bangkok has been evolving toward measures that target the financial infrastructure used by region-spanning criminal networks.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/thailand-cracks-down-on-usdt-transactions-in-fight-against-china-linked-criminal-networks/</guid>
-      <pubDate>Fri, 31 Jul 2026 04:18:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why the Bangsamoro Peace Process Still Depends on Trust</title>
-      <link>https://thediplomat.com/2026/07/why-the-bangsamoro-peace-process-still-depends-on-trust/</link>
-      <description>Elections set for September 14 will mark an important step forward, but the peace process will continue for long after the ballots have been counted.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/07/why-the-bangsamoro-peace-process-still-depends-on-trust/</guid>
-      <pubDate>Fri, 31 Jul 2026 04:34:00 +0000</pubDate>
+      <title>Why a Weaker Russia Keeps Fighting</title>
+      <link>https://www.foreignaffairs.com/ukraine/why-weaker-russia-keeps-fighting</link>
+      <description>Putin sees little need to negotiate.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/ukraine/why-weaker-russia-keeps-fighting</guid>
+      <pubDate>Fri, 31 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Zelenskyy: Iran Conflict Linked To Russia's War Against Ukraine</title>
@@ -2841,11 +2727,46 @@ The AI firm said the earliest incidents date back to April 2026, adding it made 
       <pubDate>Fri, 31 Jul 2026 06:41:44 +0000</pubDate>
     </item>
     <item>
+      <title>For the Arakan Army, Recognition Must Be Earned</title>
+      <link>https://thediplomat.com/2026/07/for-the-arakan-army-recognition-must-be-earned/</link>
+      <description>The Arakan Army’s quest for international recognition should be tied to Rohingya rights and accountability.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/for-the-arakan-army-recognition-must-be-earned/</guid>
+      <pubDate>Fri, 31 Jul 2026 06:50:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Univé builds an AI-ready workforce</title>
       <link>https://openai.com/index/unive</link>
       <description>See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.</description>
       <guid isPermaLink="false">https://openai.com/index/unive</guid>
       <pubDate>Fri, 31 Jul 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transaction or Transformation? Inside the Russia-North Korea Relationship</title>
+      <link>https://thediplomat.com/2026/07/transaction-or-transformation-inside-the-russia-north-korea-relationship/</link>
+      <description>How transactional is the massive shift in their relations and how sensitive is it to the Ukraine war?</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/transaction-or-transformation-inside-the-russia-north-korea-relationship/</guid>
+      <pubDate>Fri, 31 Jul 2026 07:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japan’s Intelligence Reform Has a Counterintelligence Problem</title>
+      <link>https://thediplomat.com/2026/07/japans-intelligence-reform-has-a-counterintelligence-problem/</link>
+      <description>As the Takaichi administration strives to strengthen Japan’s intelligence capabilities, it’s important to build up counterintelligence capabilities too.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/japans-intelligence-reform-has-a-counterintelligence-problem/</guid>
+      <pubDate>Fri, 31 Jul 2026 07:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>South Asia’s Smaller States Push to Revive SAARC — Again</title>
+      <link>https://thediplomat.com/2026/07/south-asias-smaller-states-push-to-revive-saarc-again/</link>
+      <description>Will the region’s perpetually squabbling siblings -- India and Pakistan -- put aside their insecurities to make regional cooperation happen?</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/south-asias-smaller-states-push-to-revive-saarc-again/</guid>
+      <pubDate>Fri, 31 Jul 2026 08:17:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Johor State Election 2026: Decoding Peninsular Malaysian Politics</title>
+      <link>https://thediplomat.com/2026/07/johor-state-election-2026-decoding-peninsular-malaysian-politics/</link>
+      <description>The Johor state election does not automatically presage a nationwide BN sweep because the results are heavily steeped in Johor's unique local context.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/johor-state-election-2026-decoding-peninsular-malaysian-politics/</guid>
+      <pubDate>Fri, 31 Jul 2026 08:26:00 +0000</pubDate>
     </item>
     <item>
       <title>Montana’s new “right to try” law can’t come soon enough for some</title>
@@ -2952,6 +2873,13 @@ The findings have been released by a group of researchers from Singapore's Nanya
       <pubDate>Fri, 31 Jul 2026 12:00:15 +0000</pubDate>
     </item>
     <item>
+      <title>Tajikistan Denies a Clothing Ban Its Police Keep Enforcing</title>
+      <link>https://thediplomat.com/2026/07/tajikistan-denies-a-clothing-ban-its-police-keep-enforcing/</link>
+      <description>A rumor with one traceable source drew an official rebuttal in Dushanbe that buried its documented enforcement.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/tajikistan-denies-a-clothing-ban-its-police-keep-enforcing/</guid>
+      <pubDate>Fri, 31 Jul 2026 12:05:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Light at the end of M-code’s tunnel? Receivers for ships, planes to finish tests by 2027</title>
       <link>https://breakingdefense.com/2026/07/light-at-the-end-of-m-codes-tunnel-receivers-for-ships-planes-to-finish-tests-by-2027/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/light-at-the-end-of-m-codes-tunnel-receivers-for-ships-planes-to-finish-tests-by-2027/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/260731_DVIDS_mcode_launch_9628911-scaled-e1785498551538-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;An Air Force office recently took over the sprawling M-code project, meant to give jam- and spoof-proof GPS receivers to potentially a million pieces of tech.&lt;/p&gt;</description>
@@ -2987,6 +2915,20 @@ The findings have been released by a group of researchers from Singapore's Nanya
       <pubDate>Fri, 31 Jul 2026 12:34:03 +0000</pubDate>
     </item>
     <item>
+      <title>Lee Pushes AI Investment in Silicon Valley and Turns to South American Minerals</title>
+      <link>https://thediplomat.com/2026/07/lee-pushes-ai-investment-in-silicon-valley-and-turns-to-south-american-minerals/</link>
+      <description>The South Korean president secured semiconductor pledges in San Francisco before turning to trade and mineral agreements in Brazil and Chile.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/lee-pushes-ai-investment-in-silicon-valley-and-turns-to-south-american-minerals/</guid>
+      <pubDate>Fri, 31 Jul 2026 12:39:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Afghanistan’s Return Crisis: Why Sending People Back Is Not a Durable Solution</title>
+      <link>https://thediplomat.com/2026/07/afghanistans-return-crisis-why-sending-people-back-is-not-a-durable-solution/</link>
+      <description>The shift in policies from protection to return assumes that return represents a durable solution.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/afghanistans-return-crisis-why-sending-people-back-is-not-a-durable-solution/</guid>
+      <pubDate>Fri, 31 Jul 2026 12:43:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined</title>
       <link>https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html</link>
       <description>Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined.
@@ -3008,6 +2950,13 @@ Both versions were released last month. In its latest patch for Chrome 151, rele
       <description>By trading diplomacy and allied unity for airstrikes and threats, the Trump administration proved Sun Tzu’s warning that brute force without strategic patience can strengthen the enemy while exhausting the nation that attacks it. #SunTzu #TheArtOfWar #TrumpIranPolicy #USForeignPolicy #MilitaryStrategy</description>
       <guid isPermaLink="false">https://sofrep.com/news/sun-tzus-the-art-of-war-the-strategic-failures-of-trumps-iran-policy/</guid>
       <pubDate>Fri, 31 Jul 2026 13:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Safeguarding Children Online: Beyond Singapore’s Social Media Ban Debate</title>
+      <link>https://thediplomat.com/2026/07/safeguarding-children-online-beyond-singapores-social-media-ban-debate/</link>
+      <description>Singapore might consider championing a roadmap of “supported autonomy.”</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/07/safeguarding-children-online-beyond-singapores-social-media-ban-debate/</guid>
+      <pubDate>Fri, 31 Jul 2026 13:02:00 +0000</pubDate>
     </item>
     <item>
       <title>US dollar shipments to Iraq are a molehill, not a mountain</title>
@@ -3176,6 +3125,57 @@ The same apps have a second job. When a box</description>
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/anti-taliban-resistance-groups-increase-attacks-in-northeast-afghanistan-district-center-briefly-falls.php"&gt;Anti-Taliban resistance groups increase attacks in northeast Afghanistan, district center briefly falls&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/anti-taliban-resistance-groups-increase-attacks-in-northeast-afghanistan-district-center-briefly-falls.php</guid>
       <pubDate>Fri, 31 Jul 2026 15:41:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>10 questions (and expert answers) about the deal to disarm Hamas</title>
+      <link>https://www.atlanticcouncil.org/dispatches/questions-and-expert-answers-about-the-deal-to-disarm-hamas/</link>
+      <description>&lt;p&gt;The US-led Board of Peace has announced an agreement that could lead to the disarmament of the Gaza-based terrorist group. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/questions-and-expert-answers-about-the-deal-to-disarm-hamas/"&gt;10 questions (and expert answers) about the deal to disarm Hamas&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/questions-and-expert-answers-about-the-deal-to-disarm-hamas/</guid>
+      <pubDate>Fri, 31 Jul 2026 16:02:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>French DGA receives first NH90 Standard 2 special operations helicopter</title>
+      <link>https://www.army-technology.com/news/france-nh90-standard-2-helicopters/</link>
+      <description>The French Armament General Directorate has received its first NH90 Standard 2, a variant of the NH90 TTH helicopter from Airbus Helicopters.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/france-nh90-standard-2-helicopters/</guid>
+      <pubDate>Fri, 31 Jul 2026 16:33:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nepal and Bangladesh are delaying LDC graduation. Now comes the hard part.</title>
+      <link>https://www.atlanticcouncil.org/dispatches/nepal-and-bangladesh-are-delaying-ldc-graduation-now-comes-the-hard-part/</link>
+      <description>&lt;p&gt;Both countries would need to use any delay in exiting “least developed country” status to advance structural changes to their economies.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/nepal-and-bangladesh-are-delaying-ldc-graduation-now-comes-the-hard-part/"&gt;Nepal and Bangladesh are delaying LDC graduation. Now comes the hard part. &lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/nepal-and-bangladesh-are-delaying-ldc-graduation-now-comes-the-hard-part/</guid>
+      <pubDate>Fri, 31 Jul 2026 16:42:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA warns of cyberattacks disrupting U.S. water utilities</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/</guid>
+      <pubDate>Fri, 31 Jul 2026 16:49:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Just one in three Americans back Iran war, most unsure of Trump’s goals, poll finds</title>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/</link>
+      <description>A Reuters/Ipsos poll found that 69% of Americans think President Donald Trump has not “clearly explained the goals of U.S. military involvement in Iran.”</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/07/31/just-one-in-three-americans-back-iran-war-most-unsure-of-trumps-goals-poll-finds/</guid>
+      <pubDate>Fri, 31 Jul 2026 17:33:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker uses DeepSeek AI to autonomously attack vulnerable servers</title>
+      <link>https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/</link>
+      <description>A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/</guid>
+      <pubDate>Fri, 31 Jul 2026 17:35:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disrupting a Criminal Scam Operation</title>
+      <link>https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation</link>
+      <description>OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.</description>
+      <guid isPermaLink="false">https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
