@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 20:40:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 21:46:14 +0000</lastBuildDate>
     <item>
       <title>Zelensky’s Political Storm Starts to Clear</title>
       <link>https://warontherocks.com/zelenskys-political-storm-starts-to-clear/</link>
@@ -22,20 +22,6 @@
       <description>Romania will purchase 12 Thales Ground Master 200 Multi-Mission All-in-one radars from France as part of a government-to-government deal.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/romania-thales-gm200-mm-radar-france/</guid>
       <pubDate>Mon, 27 Jul 2026 18:15:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>More than 30 companies form open-source AI alliance</title>
-      <link>https://www.defenseone.com/business/2026/07/over-30-companies-form-open-source-ai-alliance/415043/</link>
-      <description>The Open Secure AI Alliance hopes to shore up industry support for continued access to and work with open-source artificial intelligence models.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/business/2026/07/over-30-companies-form-open-source-ai-alliance/415043/</guid>
-      <pubDate>Mon, 27 Jul 2026 18:22:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NIST unveils new AI evaluation platform</title>
-      <link>https://www.defenseone.com/technology/2026/07/nist-unveils-new-ai-evaluation-platform/415044/</link>
-      <description>The AI Technology Evaluation will provide exclusive data to grade models’ performance in select areas.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/technology/2026/07/nist-unveils-new-ai-evaluation-platform/415044/</guid>
-      <pubDate>Mon, 27 Jul 2026 20:56:00 +0000</pubDate>
     </item>
     <item>
       <title>Air Force will resume B-52 radar testing with second bomber after deadly crash</title>
@@ -341,14 +327,6 @@
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/07/suspect-in-deadly-berlin-pride-attack-pledged-allegiance-to-islamic-state-prosecutors-say.php"&gt;Suspect in deadly Berlin Pride attack pledged allegiance to Islamic State, prosecutors say&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/07/suspect-in-deadly-berlin-pride-attack-pledged-allegiance-to-islamic-state-prosecutors-say.php</guid>
       <pubDate>Wed, 29 Jul 2026 19:51:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Will The F-47 Have To Fly Initially With Inferior Engines?</title>
-      <link>https://www.twz.com/air/will-the-f-47-have-to-fly-initially-with-inferior-engines</link>
-      <description>&lt;p&gt;The timelines for a next-gen fighter engine and the F-47 appear out of sync, which could lead to a stop-gap engine, something with historical precedent.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/will-the-f-47-have-to-fly-initially-with-inferior-engines"&gt;Will The F-47 Have To Fly Initially With Inferior Engines?&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/will-the-f-47-have-to-fly-initially-with-inferior-engines</guid>
-      <pubDate>Wed, 29 Jul 2026 19:57:15 +0000</pubDate>
     </item>
     <item>
       <title>Supply chain challenges loom large in quantum race, White House official says</title>
@@ -1269,8 +1247,10 @@
 &lt;p&gt;The following versions of Watchfire Controller Software are affected:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;BC550 12.30 (CVE-2026-5846)&lt;/li&gt;
-&lt;li&gt;BC750 11.33|12.35 (CVE-2026-5846)&lt;/li&gt;
-&lt;li&gt;BC760 12.38|13.00 (CVE-2026-5846)&lt;/li&gt;
+&lt;li&gt;BC750 11.33 (CVE-2026-5846)&lt;/li&gt;
+&lt;li&gt;BC750 12.35 (CVE-2026-5846)&lt;/li&gt;
+&lt;li&gt;BC760 12.38 (CVE-2026-5846)&lt;/li&gt;
+&lt;li&gt;BC760 13.00 (CVE-2026-5846)&lt;/li&gt;
 &lt;li&gt;BC760DC 12.39 (CVE-2026-5846)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="csaf-table"&gt;
@@ -1313,13 +1293,18 @@
 &lt;h5&gt;Watchfire Controller Software&lt;/h5&gt;
 &lt;div class="ics-vendor-version-status"&gt;
 &lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Watchfire&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Watchfire BC550: 12.30, Watchfire BC750: 11.33|12.35, Watchfire BC760: 12.38|13.00, Watchfire BC760DC: 12.39&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Watchfire BC550: 12.30, Watchfire BC750: 11.33, Watchfire BC750: 12.35, Watchfire BC760: 12.38, Watchfire BC760: 13.00, Watchfire BC760DC: 12.39&lt;/div&gt;
 &lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="ics-remediations"&gt;
 &lt;h6&gt;Remediations&lt;/h6&gt;
 &lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Watchfire has applied the required security patch to all affected controllers under its management. Watchfire recommends users verify their controller software version and upgrade to one of the approved versions below, if they are not already on an approved patch level.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Watchfire has issued patches to disable the use of the existing certificate as follows: BC550 12.30: Patch to 12.31 SP1BC750 11.33: Patch to 11.34BC750 12.35: Patch to 12.36 SP1BC760 12.38: Patch to 12.41 SP1BC760 13.00: Patch to 14.00 SP1BC760DC 12.39: Patch to 12.41 SP1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Watchfire has issued patches to disable the use of the existing certificates. Users using BC550; 12.30 should upgrade to 12.31 SP1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Watchfire has issued patches to disable the use of the existing certificates. Users using BC750; 11.33 should upgrade to 11.34&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Watchfire has issued patches to disable the use of the existing certificates. Users using BC750; 12.35 should upgrade to 12.36 SP1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Watchfire has issued patches to disable the use of the existing certificates. Users using BC760; 12.38 should upgrade to 12.41 SP1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Watchfire has issued patches to disable the use of the existing certificates. Users using BC760; 13.00 should upgrade to 14.00 SP1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Watchfire has issued patches to disable the use of the existing certificates. Users using BC760DC; 12.39 should upgrade to 12.41 SP1&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/321.html"&gt;CWE-321 Use of Hard-coded Cryptographic Key&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -1356,7 +1341,8 @@
 &lt;hr /&gt;
 &lt;h2&gt;Acknowledgments&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;James Tillson reported this vulnerability to CISA&lt;/li&gt;
+&lt;li&gt;Reporter Name(s): James Tillson&lt;/li&gt;
+&lt;li&gt;reported this vulnerability to CISA&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
@@ -1395,6 +1381,11 @@
 &lt;td&gt;2026-07-30&lt;/td&gt;
 &lt;td&gt;1&lt;/td&gt;
 &lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-07-31&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Updated Product and Remediation details&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2355,13 +2346,6 @@ Some defenses improved. The loose parts still got found first. Anyway,</descript
       <pubDate>Thu, 30 Jul 2026 16:49:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google says AI helped Chrome fix 1,072 security bugs in two releases</title>
-      <link>https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/</link>
-      <description>Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two most recent releases as it expands its use of AI. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/</guid>
-      <pubDate>Thu, 30 Jul 2026 17:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Montana’s plan to become an experimental medical hub just pushed forward</title>
       <link>https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/</link>
       <description>As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once its treatment is rubber-stamped, the&amp;#8230;</description>
@@ -2395,13 +2379,6 @@ Some defenses improved. The loose parts still got found first. Anyway,</descript
       <description>When Human Rights Watch's Georgi Gogia heard that several independent journalists were handed lengthy sentences this week by a court in the Azerbaijani capital, Baku, he didn't know what motivated the judge. But he does know the message is an "unmistakable warning."</description>
       <guid isPermaLink="false">https://www.rferl.org/a/azerbaijan-independent-journalists-court-sentencing-crackdown/33818515.html</guid>
       <pubDate>Thu, 30 Jul 2026 17:58:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>VMware fixes three critical flaws allowing auth bypass, VM escapes</title>
-      <link>https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/</link>
-      <description>Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execute arbitrary code, or escape from a virtual machine to the host. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/</guid>
-      <pubDate>Thu, 30 Jul 2026 18:00:51 +0000</pubDate>
     </item>
     <item>
       <title>Iran Has Tested The Gulf. Now Washington Must Rethink Its Security Role, Says Former Trump NSC Official Allison Minor</title>
@@ -2887,6 +2864,13 @@ RFE/RL spoke with Kurt Volker about the significance of their visit.</descriptio
       <pubDate>Fri, 31 Jul 2026 13:34:20 +0000</pubDate>
     </item>
     <item>
+      <title>Anthropic confirms its AI breached 3 organizations during testing</title>
+      <link>https://www.defenseone.com/business/2026/07/anthropic-confirms-its-ai-breached-3-organizations-during-testing/415159/</link>
+      <description>Three Claude models were inadvertently given access to the internet during security evaluations, and each model took a different approach to hacking external systems.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/07/anthropic-confirms-its-ai-breached-3-organizations-during-testing/415159/</guid>
+      <pubDate>Fri, 31 Jul 2026 13:40:00 +0000</pubDate>
+    </item>
+    <item>
       <title>In the battle of the AI stacks, model quality won’t be the most decisive factor</title>
       <link>https://www.atlanticcouncil.org/blogs/africasource/in-the-battle-of-the-ai-stacks-model-quality-wont-be-the-most-decisive-factor/</link>
       <description>&lt;p&gt;The US and Chinese strategies indicate that financing, powering, and permitting infrastructure matter most, and the African evidence so far bears it out.&lt;/p&gt;
@@ -3110,10 +3094,10 @@ According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishi
       <pubDate>Fri, 31 Jul 2026 18:13:11 +0000</pubDate>
     </item>
     <item>
-      <title>F-35B Crashes And Burns At Marine Corps Air Station Miramar</title>
+      <title>F-35B Crashes And Burns At Marine Corps Air Station Miramar (Updated)</title>
       <link>https://www.twz.com/air/f-35b-crashes-and-burns-at-marine-corps-air-station-miramar</link>
       <description>&lt;p&gt;The F-35B crashed near the end of the runway at the sprawling Marine Corps base at around 10AM local time. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/f-35b-crashes-and-burns-at-marine-corps-air-station-miramar"&gt;F-35B Crashes And Burns At Marine Corps Air Station Miramar&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/f-35b-crashes-and-burns-at-marine-corps-air-station-miramar"&gt;F-35B Crashes And Burns At Marine Corps Air Station Miramar (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/f-35b-crashes-and-burns-at-marine-corps-air-station-miramar</guid>
       <pubDate>Fri, 31 Jul 2026 18:47:27 +0000</pubDate>
     </item>
@@ -3177,6 +3161,35 @@ These targeted organizations operate across several sectors, such as healthcare,
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/the-atlantic-brief-the-strait-of-hormuz-and-the-future-of-free-navigation/"&gt;The Atlantic Brief: The Strait of Hormuz and the Future of Free Navigation&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/the-atlantic-brief-the-strait-of-hormuz-and-the-future-of-free-navigation/</guid>
       <pubDate>Fri, 31 Jul 2026 20:27:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Red Sea Maritime Security Task Force Commander Talks Major Jump In Escort Requests</title>
+      <link>https://www.twz.com/news-features/red-sea-maritime-security-task-force-commander-talks-major-jump-in-escort-requests</link>
+      <description>&lt;p&gt;The danger to Red Sea shipping has increased once again after the Houthis began attacking Saudi tankers.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/red-sea-maritime-security-task-force-commander-talks-major-jump-in-escort-requests"&gt;Red Sea Maritime Security Task Force Commander Talks Major Jump In Escort Requests&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/red-sea-maritime-security-task-force-commander-talks-major-jump-in-escort-requests</guid>
+      <pubDate>Fri, 31 Jul 2026 20:56:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>HII’s sea drone business is growing, but revenue is ‘modest,’ CEO says</title>
+      <link>https://www.defenseone.com/business/2026/07/hiis-sea-drone-business-growing-revenue-modest-ceo-says/415160/</link>
+      <description>The company recently booked a yearlong production contract extension for its underwater drone, Lionfish.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/07/hiis-sea-drone-business-growing-revenue-modest-ceo-says/415160/</guid>
+      <pubDate>Fri, 31 Jul 2026 20:58:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Online ad firm Adform’s script compromised to steal cryptocurrency</title>
+      <link>https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/</link>
+      <description>Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/</guid>
+      <pubDate>Fri, 31 Jul 2026 21:09:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arch Linux disables AUR package adoption to stop malware flood</title>
+      <link>https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/</link>
+      <description>The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/</guid>
+      <pubDate>Fri, 31 Jul 2026 21:38:08 +0000</pubDate>
     </item>
   </channel>
 </rss>
