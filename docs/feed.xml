@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Aug 2026 14:06:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 15:18:47 +0000</lastBuildDate>
+    <item>
+      <title>AutoIT Payload Injector , (Tue, Jul 28th)</title>
+      <link>https://isc.sans.edu/diary/rss/33192</link>
+      <description>For a long time, AutoIT&amp;#x5b;1&amp;#x5d; has been pretty common in the malware ecosystem. Threat actors still use it because it&amp;#x27s easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you&amp;#x27ll see below.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33192</guid>
+      <pubDate>Tue, 28 Jul 2026 07:42:27 +0000</pubDate>
+    </item>
     <item>
       <title>Mirage Kitten targets Middle East and Africa region with new malware</title>
       <link>https://securelist.com/mirage-kitten-new-tools/120811/</link>
@@ -2395,13 +2402,6 @@
       <pubDate>Thu, 30 Jul 2026 21:46:22 +0000</pubDate>
     </item>
     <item>
-      <title>South Korea fines telco giant KT $39 million for customer data breach</title>
-      <link>https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/</link>
-      <description>South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/</guid>
-      <pubDate>Thu, 30 Jul 2026 22:28:30 +0000</pubDate>
-    </item>
-    <item>
       <title>Disrupting a Criminal Scam Operation</title>
       <link>https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation</link>
       <description>OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.</description>
@@ -2766,15 +2766,6 @@ The same apps have a second job. When a box</description>
       <pubDate>Fri, 31 Jul 2026 15:41:37 +0000</pubDate>
     </item>
     <item>
-      <title>SOF Pic of the Day: Delta Operator Geo Hand Fires His Trusty 1911</title>
-      <link>https://sofrep.com/news/sof-pic-of-the-day-from-geos-private-stash-geo-fires-his-trusty-1911/</link>
-      <description>SOFREP's own resident former Green Beret turned Delta operator George Hand IV rocking sideburns and putting rounds downrange with his trusty 1911.  #SOFREP
-#GreenBeret
-#GeoHand</description>
-      <guid isPermaLink="false">https://sofrep.com/news/sof-pic-of-the-day-from-geos-private-stash-geo-fires-his-trusty-1911/</guid>
-      <pubDate>Fri, 31 Jul 2026 16:00:11 +0000</pubDate>
-    </item>
-    <item>
       <title>10 questions (and expert answers) about the deal to disarm Hamas</title>
       <link>https://www.atlanticcouncil.org/dispatches/questions-and-expert-answers-about-the-deal-to-disarm-hamas/</link>
       <description>&lt;p&gt;The US-led Board of Peace has announced an agreement that could lead to the disarmament of the Gaza-based terrorist group. &lt;/p&gt;
@@ -2940,13 +2931,6 @@ These targeted organizations operate across several sectors, such as healthcare,
       <description>The company recently booked a yearlong production contract extension for its underwater drone, Lionfish.</description>
       <guid isPermaLink="false">https://www.defenseone.com/business/2026/07/hiis-sea-drone-business-growing-revenue-modest-ceo-says/415160/</guid>
       <pubDate>Fri, 31 Jul 2026 20:58:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Japan’s F-2 Carries Suspected Type 25 Missile That Could Reach China’s Coast</title>
-      <link>https://sofrep.com/news/japans-f-2-carries-suspected-type-25-missile-that-could-reach-chinas-coast/</link>
-      <description>Japan’s suspected Type 25 missile gives its F-2 fighters the reach to strike from safer distances, but the real test will be keeping the targeting chain alive long enough to hit a moving ship. #JapanDefense #Type25Missile #MitsubishiF2 #IndoPacificSecurity #ChinaMilitary</description>
-      <guid isPermaLink="false">https://sofrep.com/news/japans-f-2-carries-suspected-type-25-missile-that-could-reach-chinas-coast/</guid>
-      <pubDate>Fri, 31 Jul 2026 21:00:21 +0000</pubDate>
     </item>
     <item>
       <title>Online ad firm Adform’s script compromised to steal cryptocurrency</title>
@@ -3192,6 +3176,20 @@ A March 2021 firmware integration error routed seed generation to a deterministi
       <description>Ukrainian drones struck a 178,600-square-meter Wildberries logistics hub in Russia's Samara region and a major oil refinery near Saratov. The warehouse attack is part of a sustained campaign targeting the Russian e-commerce giant's logistics network.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukrainian-drones-strike-wildberries-hub-in-samara-region/33820269.html</guid>
       <pubDate>Sun, 02 Aug 2026 13:44:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Chrome may soon block New Tab hijacker extensions by default</title>
+      <link>https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/</link>
+      <description>Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/</guid>
+      <pubDate>Sun, 02 Aug 2026 14:17:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Night in the Jungle</title>
+      <link>https://sofrep.com/military-history/a-night-in-the-jungle/</link>
+      <description>A jungle march, exhaustion, stealthy night ops, and a company on the edge—this is the brutal reality of a soldier's tour. #DeepGreen #VietnamWar #WarStories</description>
+      <guid isPermaLink="false">https://sofrep.com/military-history/a-night-in-the-jungle/</guid>
+      <pubDate>Sun, 02 Aug 2026 15:00:18 +0000</pubDate>
     </item>
   </channel>
 </rss>
