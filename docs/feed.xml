@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 09:53:10 +0000</lastBuildDate>
-    <item>
-      <title>Robot Finger Feels in Color</title>
-      <link>https://spectrum.ieee.org/robot-finger</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, if it’s tails, the fluted columns of the Lincoln Memorial. Getting a robot to sense the same things is an imposing task, often requiring gathering data on pressure and force at many spatial locations at once. But that’s just what a team of scientists in Europe has now managed to do, using an unusual, colorful robotic skin that provides high-resolution sensing in real time.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;“To be honest, when they showed us this, we thought it was, and pardon my French, [expletive] cool, because it’s a distinctly different approach,” recalled Rich Walker, director of &lt;a href="https://shadowrobot.com/" target="_blank"&gt;Shadow Robot&lt;/a&gt;, the U.K.’s longest-running robot company, which primarily focuses on &lt;a href="https://spectrum.ieee.org/video-friday-shadow-robot-hand" target="_blank"&gt;robotic hands&lt;/a&gt;.&lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot" target="_self"&gt;“This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors”&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The research team, which hails from Queen Mary University of London, the University of Florence, the University of Trieste, and the University of Trento, designed a robotic fingertip with a synthetic skin that reflects different colors of light in response to mechanical deformation. By reading the light reflected off the skin, the fingertip generates maps of topology, strain, and contact pressure. The team has already used the sensor to generate maps of a human fingertip, a penny, and a leaf.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.seresearch.qmul.ac.uk/cit/people/gsasso/" target="_blank"&gt;Giacomo Sasso&lt;/a&gt;, a postdoctoral research associate in the lab of &lt;a href="https://www.sems.qmul.ac.uk/staff/f.carpi/" target="_blank"&gt;Federico Carpi&lt;/a&gt; at Queen Mary University of London, came up with the idea for the sensor. He had been researching optics when he stumbled upon an interesting &lt;a href="https://www.nature.com/articles/s41563-022-01318-x" target="_blank"&gt;paper published in the journal &lt;em&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;. It described the “mechanochromic material” that would eventually make up the reflector in the skin.&lt;/p&gt;&lt;p&gt;Following the method described in &lt;em&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;/em&gt;, Sasso exposed a light-sensitive film to a 5-megawatt, 635-nanometer (red) laser for seven minutes. The laser beam creates an interference pattern which causes the film to polymerize in alternating densities, creating layers with different refractive indices.&lt;/p&gt;&lt;p&gt;This structure is called a &lt;a href="https://spectrum.ieee.org/a-simple-filter-makes-blueemitting-oleds-give-off-white-light" target="_blank"&gt;Bragg reflector&lt;/a&gt;. The alternating densities and refractive indices in the polymer cause specific wavelengths of light to be reflected. When the reflector is deformed by contact with an object, its layers are stretched, becoming thinner and reflecting light of a different wavelength. &lt;/p&gt;&lt;p&gt;It took Sasso less than a week to re-create the material in the lab. “From there, we started seeing how we could translate these color patterns into something that was useful for us,” he says. Soon, they realized that the color produced by the material was all they needed to be able to sense the topology of objects.&lt;/p&gt;&lt;p&gt;In the robotic finger, the Bragg reflector is sandwiched between a layer of silicone, which protects it from the outside, and a transparent, fingertip-shaped silicone finger with a camera and LED light embedded inside of it. &lt;/p&gt;&lt;p&gt;The light from the LED shines through the clear polymer of the finger. When the fingertip is deformed by an object, the reflector bounces light back to the camera, with wavelengths depending on the level of deformation—red for least deformation, shifting to green, and then to blue when most deformed.&lt;/p&gt;&lt;p&gt;The team also made adjustments to increase the sensitivity of the skin and help the camera to better read color differences. The silicone of the outer layer of the fingertip is colored black to increase the color contrast, allowing the camera to better translate color into the morphology. The rigidity of the camera inside the finger also enhances the deformation of the reflector, producing greater differences in reflected wavelengths.&lt;/p&gt;&lt;p&gt;After all that optimization, the finger provided 100-micrometer resolution with no &lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt;computational&lt;/a&gt; latency, the researchers determined.&lt;/p&gt;&lt;h2&gt;What robot fingers need&lt;/h2&gt;&lt;p&gt;Human skin takes in a variety of tactile information in order to successfully move and manipulate objects, including temperature, texture, pressure, and vibration. But engineering a robot to do the same is challenging because of spatial constraints. There often isn’t enough room in a robotic fingertip to incorporate more than one type of sensor. The question then becomes: Which type of sensor should be used?&lt;/p&gt;&lt;p&gt;“And the answer to that is…that’s a really hard question. No one knows yet,” says Walker. Carpi’s team’s robotic finger is exciting because it presents yet another option for roboticists to experiment with, Walker says.&lt;/p&gt;&lt;p&gt;Although Carpi’s team &lt;a href="https://www.gelsight.com/" target="_blank"&gt;isn’t the first&lt;/a&gt; to use soft materials for tactile sensing, its technology is unique because it is able to extract quantitative information about depth and size from the topologic maps it generates. According to Walker, most sensors can only generate topological maps, which reveal the relative sizes of object features.&lt;/p&gt;&lt;p&gt;To Sasso, another key advantage of this robotic finger is that it embeds tactile sensing directly into the material of the finger, rather than using taxels, or pixels that measure force or pressure at specific spatial points. &lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt;Robot Hand Manipulates Complex Objects by Touch Alone&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“The core aspect of the sensor is that we’re essentially [moving toward] having the sensing element at the material level,” he says. “The camera, which is a very highly optimized electronic component, is translating whatever the material is already doing directly into digital signals.” &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/in/michael-yu-wang-258a4525/" target="_blank"&gt;Michael Wang&lt;/a&gt;, co-founder and chief scientist at &lt;a href="https://spectrum.ieee.org/daimon-robotics-physical-ai" target="_blank"&gt;Daimon Robotics&lt;/a&gt;, which, unlike Shadow Robot, primarily uses vision-based sensing, echoed Walker’s sentiment that it’s beneficial to explore new methods of sensing, which may bring unique advantages. But he also explained that soft materials often face challenges with durability, and that the significance of the team’s work would be revealed when the finger is integrated into real&lt;a href="https://spectrum.ieee.org/robot-fingers" target="_blank"&gt; robot hands&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;“The practical and useful benefits, especially in the context of robot hands, remain to be tested and validated,” he says.&lt;/p&gt;&lt;p&gt;When the materials of soft sensors, like the silicone in Carpi’s team’s fingertip, become eroded or damaged after repeated use, the signals measured by the sensors may not reflect objects’ topography as well. &lt;/p&gt;&lt;p&gt;“Especially if you have the electronics embedded into the material layer itself, that becomes a very challenging engineering problem. And I haven’t seen [many] good soft electronics materials that really can undergo long periods of usage,” Wang says.&lt;/p&gt;&lt;p&gt;&lt;span&gt;However, because the Bragg reflector isn’t in direct contact with objects itself, the outer layer of silicone material acts as a protective barrier, Sasso says. The silicone can also be made more durable using certain chemical coatings, according to Wang.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The team has already been talking to companies that could potentially employ the new sensor. They also hope to improve the sensor so that it can sense objects that don’t lie flat on surfaces. That could open up its use in surgical instruments that require precise contact mapping of tissues and organs, Carpi says.&lt;/p&gt;&lt;p&gt;“There are significant developments that we expect with a clear path toward transition to real world applications,” he says.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/robot-finger</guid>
-      <pubDate>Tue, 28 Jul 2026 15:00:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>L3Harris to quadruple THAAD propulsion in contract with DoW, Lockheed</title>
-      <link>https://www.army-technology.com/news/l3harris-thaad-propulsion-contract/</link>
-      <description>L3Harris entered into a framework agreement with the DoW and Lockheed Martin to increase propulsion production for the THAAD system.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/l3harris-thaad-propulsion-contract/</guid>
-      <pubDate>Tue, 28 Jul 2026 15:21:25 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 03 Aug 2026 12:53:34 +0000</lastBuildDate>
     <item>
       <title>Israel approves entry of International Stabilization Force into Gaza</title>
       <link>https://www.longwarjournal.org/archives/2026/07/israel-approves-entry-of-international-stabilization-force-into-gaza.php</link>
@@ -325,13 +311,6 @@
       <description>It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/</guid>
       <pubDate>Thu, 30 Jul 2026 10:15:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine’s F-16s are being worn out from intercepting Russian drones</title>
-      <link>https://www.defensenews.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/</link>
-      <description>Ukrainian F-16s have destroyed more than 2,500 one-way attack drones, but repeated interceptions are wearing out the country's small fleet.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/flashpoints/ukraine/2026/07/30/ukraines-f-16s-are-being-worn-out-from-intercepting-russian-drones/</guid>
-      <pubDate>Thu, 30 Jul 2026 11:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia</title>
@@ -2210,13 +2189,6 @@
       <pubDate>Thu, 30 Jul 2026 17:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Fixing the Achilles’ heel of air-and-missile defense with solid rocket motors</title>
-      <link>https://breakingdefense.com/2026/07/fixing-the-achilles-heel-of-air-and-missile-defense-with-solid-rocket-motors/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/fixing-the-achilles-heel-of-air-and-missile-defense-with-solid-rocket-motors/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/Ursa-wrap-1-e1785423731614-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Resupply of SRMs during a high-tempo engagement like Iran could take years without procurement changes.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/07/fixing-the-achilles-heel-of-air-and-missile-defense-with-solid-rocket-motors/</guid>
-      <pubDate>Thu, 30 Jul 2026 17:43:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Iran war depleted US Patriot missile stockpiles, creating readiness challenges, experts say</title>
       <link>https://www.defensenews.com/news/your-military/2026/07/30/iran-war-depleted-us-patriot-missile-stockpiles-creating-readiness-challenges-experts-say/</link>
       <description>The U.S. has depleted roughly two-thirds of its pre-war Patriot missile interceptor inventory during the conflict with Iran, new analysis says.</description>
@@ -2237,13 +2209,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/cisa-open-source-software-security-guidance/"&gt;CISA issues recommendations to federal agencies on open-source software security&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/cisa-open-source-software-security-guidance/</guid>
       <pubDate>Thu, 30 Jul 2026 18:24:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Senate takes next steps toward confirming key Pentagon officials</title>
-      <link>https://breakingdefense.com/2026/07/senate-confirms-hurst-as-pentagon-comptroller-after-1-5-year-vacancy/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/07/senate-confirms-hurst-as-pentagon-comptroller-after-1-5-year-vacancy/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/jules-hurst-april-29-scaled-e1777486646940-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Lawmakers voted en bloc, setting up a next round of votes to confirm a new Pentagon comptroller, along with other influential positions.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/07/senate-confirms-hurst-as-pentagon-comptroller-after-1-5-year-vacancy/</guid>
-      <pubDate>Thu, 30 Jul 2026 18:36:13 +0000</pubDate>
     </item>
     <item>
       <title>Former Israeli prime minister says Qatar funded Iran’s IRGC</title>
@@ -2589,17 +2554,6 @@
       <pubDate>Fri, 31 Jul 2026 14:27:51 +0000</pubDate>
     </item>
     <item>
-      <title>Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies</title>
-      <link>https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html</link>
-      <description>Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators.
-
-Researchers named the operation Fuyao and attributed it to Zhejiang Fengwo IoT Technology Co., Ltd., a mainland China company founded in 2019.
-
-The same apps have a second job. When a box</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html</guid>
-      <pubDate>Fri, 31 Jul 2026 14:45:01 +0000</pubDate>
-    </item>
-    <item>
       <title>The infrastructure for tokenized bank deposits is beginning to take shape</title>
       <link>https://www.atlanticcouncil.org/blogs/econographics/the-infrastructure-for-tokenized-bank-deposits-is-beginning-to-take-shape/</link>
       <description>&lt;p&gt;Tokenized bank deposits remain modest in scale and largely limited to fragmented, bank-specific networks. Yet recent pilots suggest that the infrastructure needed for cross-border use is beginning to emerge.&lt;/p&gt;
@@ -2667,15 +2621,6 @@ The same apps have a second job. When a box</description>
       <pubDate>Fri, 31 Jul 2026 16:33:40 +0000</pubDate>
     </item>
     <item>
-      <title>HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm</title>
-      <link>https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html</link>
-      <description>Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.
-
-According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html</guid>
-      <pubDate>Fri, 31 Jul 2026 16:39:31 +0000</pubDate>
-    </item>
-    <item>
       <title>Nepal and Bangladesh are delaying LDC graduation. Now comes the hard part.</title>
       <link>https://www.atlanticcouncil.org/dispatches/nepal-and-bangladesh-are-delaying-ldc-graduation-now-comes-the-hard-part/</link>
       <description>&lt;p&gt;Both countries would need to use any delay in exiting “least developed country” status to advance structural changes to their economies.&lt;/p&gt;
@@ -2741,15 +2686,6 @@ According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishi
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/f-35b-crashes-and-burns-at-marine-corps-air-station-miramar"&gt;F-35B Crashes And Burns At Marine Corps Air Station Miramar (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/f-35b-crashes-and-burns-at-marine-corps-air-station-miramar</guid>
       <pubDate>Fri, 31 Jul 2026 18:47:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk</title>
-      <link>https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html</link>
-      <description>A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.
-
-These targeted organizations operate across several sectors, such as healthcare, research, government offices,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html</guid>
-      <pubDate>Fri, 31 Jul 2026 18:52:04 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI says its new GPT 5.6 models are becoming more cost-efficient</title>
@@ -2875,25 +2811,11 @@ It has been described as a case of incorrect authorization that could result in<
       <pubDate>Sat, 01 Aug 2026 07:12:42 +0000</pubDate>
     </item>
     <item>
-      <title>10-Year-Old Ukrainian Gymnast Wins Gold After Losing Leg In Russian Strike</title>
-      <link>https://www.rferl.org/a/ukrainian-gymnast-wins-gold-after-losing-leg-in-russian-strike/33819012.html</link>
-      <description>In 2022, Oleksandra Paskal lost her leg following a Russian missile strike on Ukraine’s Odesa region. She was just six years old. Following months of intense rehabilitation, she learned to walk with a prosthesis -- and made a remarkable return to rhythmic gymnastics.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukrainian-gymnast-wins-gold-after-losing-leg-in-russian-strike/33819012.html</guid>
-      <pubDate>Sat, 01 Aug 2026 07:21:28 +0000</pubDate>
-    </item>
-    <item>
       <title>Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)</title>
       <link>https://isc.sans.edu/diary/rss/33206</link>
       <description>Most phishing campaigns rely on the fact that the victim is afraid to loose "something": money, access to information, ... Many brands have been impersonated by campaigns but I spotted some phishing emails that focus on AI services like ChatGPT.&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33206</guid>
       <pubDate>Sat, 01 Aug 2026 07:22:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biggest Clue In US-Iran Conflict Is 'The Dog That Hasn't Barked,' Says War College's Jacob Stoil</title>
-      <link>https://www.rferl.org/a/iran-war-stoil-army-war-college-interview/33819707.html</link>
-      <description>A renewed exchange of military strikes and threats between the US and Iran has raised fresh fears of a wider Middle East war. But Jacob Stoil, research professor of Middle East security studies at the US Army War College, argues the more important story may be what has not happened.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-war-stoil-army-war-college-interview/33819707.html</guid>
-      <pubDate>Sat, 01 Aug 2026 08:25:00 +0000</pubDate>
     </item>
     <item>
       <title>Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites</title>
@@ -2907,13 +2829,6 @@ Anyone who visited a site carrying the affected script on July 27 and copied a B
       <pubDate>Sat, 01 Aug 2026 09:03:07 +0000</pubDate>
     </item>
     <item>
-      <title>Russia Launches Deadly Ballistic Missile Attack On Kyiv</title>
-      <link>https://www.rferl.org/a/russia-launches-deadly-ballistic-missile-attack-on-kyiv/33819745.html</link>
-      <description>Russia launched dozens of ballistic missiles at Kyiv, killing at least nine people and injuring 23, according to emergency services. Zelenskyy said a shortage of air defense missiles limited Ukraine's ability to intercept the attack.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-launches-deadly-ballistic-missile-attack-on-kyiv/33819745.html</guid>
-      <pubDate>Sat, 01 Aug 2026 10:30:23 +0000</pubDate>
-    </item>
-    <item>
       <title>Shock wave</title>
       <link>https://www.defenseone.com/ideas/2026/08/shock-wave-fictional-intelligence/415158/</link>
       <description>What if the U.S. were ahead of China in hypersonic weapons development? Welcome to the latest Fictional Intelligence.</description>
@@ -2921,31 +2836,11 @@ Anyone who visited a site carrying the affected script on July 27 and copied a B
       <pubDate>Sat, 01 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SOFREP War Stories: Origins, History and Operational Relevancy of the Green Berets</title>
-      <link>https://sofrep.com/news/sofrep-war-stories-origins-history-and-operational-relevancy-of-the-green-berets/</link>
-      <description>Established on June 19, 1952 under the leadership of Colonel Aaron Bank, the 10th Special Forces Group (Airborne) marked the beginning of the Green Berets' distinguished service.  #GreenBerets
-#SpecialForces
-#QuietProfessionals
-#MilitaryHistory
-#EliteWarriors
-#MSN
-#SpecialForcesBirthday</description>
-      <guid isPermaLink="false">https://sofrep.com/news/sofrep-war-stories-origins-history-and-operational-relevancy-of-the-green-berets/</guid>
-      <pubDate>Sat, 01 Aug 2026 14:00:31 +0000</pubDate>
-    </item>
-    <item>
       <title>Rails patches critical Active Storage flaw with RCE potential</title>
       <link>https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/</link>
       <description>A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/</guid>
       <pubDate>Sat, 01 Aug 2026 14:20:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Video of the Week: SOF CQB, Airborne Ops, Breaching, and Lots More</title>
-      <link>https://sofrep.com/news/the-video-of-the-week-sof-cqb-airborne-ops-breaching-and-lots-more/</link>
-      <description>B-roll Footage of Special Forces Operators conducting close-quarters combat, breaching techniques, airborne operations, and demolition and explosive training that was used to create a video in support of the Special Operations Recruiting Battalion Campaign at Fort Campbell, KY, on April, 15 2019. #GreenBerets #SpecialForces #SFAS #QCourse #ArmySpecialForces #SpecialForcesTraining #DeGlopper #FortLiberty #UnconventionalWarfare #SpecOps</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-video-of-the-week-sof-cqb-airborne-ops-breaching-and-lots-more/</guid>
-      <pubDate>Sat, 01 Aug 2026 15:00:56 +0000</pubDate>
     </item>
     <item>
       <title>The Unpleasant Experience of Meeting the Airborne Test Platoon</title>
@@ -3103,17 +2998,17 @@ A March 2021 firmware integration error routed seed generation to a deterministi
       <pubDate>Mon, 03 Aug 2026 02:00:02 +0000</pubDate>
     </item>
     <item>
-      <title>The Looming Nuclear Crisis in the Gulf</title>
-      <link>https://www.foreignaffairs.com/saudi-arabia/looming-nuclear-crisis-gulf</link>
-      <description>Overcoming the enrichment dilemma in the Saudi deal.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/saudi-arabia/looming-nuclear-crisis-gulf</guid>
-      <pubDate>Mon, 03 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>China’s Quiet Quest to Dominate Latin America</title>
       <link>https://www.foreignaffairs.com/china/chinas-quiet-quest-dominate-latin-america</link>
       <description>Small projects, big influence.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/china/chinas-quiet-quest-dominate-latin-america</guid>
+      <pubDate>Mon, 03 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Looming Nuclear Crisis in the Gulf</title>
+      <link>https://www.foreignaffairs.com/saudi-arabia/looming-nuclear-crisis-gulf</link>
+      <description>Overcoming the enrichment dilemma in the Saudi deal.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/saudi-arabia/looming-nuclear-crisis-gulf</guid>
       <pubDate>Mon, 03 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3191,6 +3086,126 @@ Thermo Fisher tracks the issue as CVE-2026-17583 and rates it</description>
       <description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/</guid>
       <pubDate>Mon, 03 Aug 2026 08:30:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web</title>
+      <link>https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html</link>
+      <description>The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.
+
+The data included names, organisations and work email addresses belonging to police officers, police staff, criminal justice professionals, government partners and customers.
+
+The incident, identified on July 26, also exposed some names</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html</guid>
+      <pubDate>Mon, 03 Aug 2026 09:13:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russian Logistics Sites Targeted Again As Zelenskyy Urges Faster Patriot Deliveries</title>
+      <link>https://www.rferl.org/a/ukraine-russian-drone-attack-wildberries/33820750.html</link>
+      <description>Ukraine and Russia exchanged another wave of overnight drone strikes targeting logistics, energy, and civilian infrastructure, as President Volodymyr Zelenskyy voiced frustration with Western allies over delays in delivering urgently needed Patriot air defense systems and other military aid.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russian-drone-attack-wildberries/33820750.html</guid>
+      <pubDate>Mon, 03 Aug 2026 09:52:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pass the Passkey: A Novel Attack Surface in Passwordless Authentication</title>
+      <link>https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</link>
+      <description>&lt;p&gt;Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/"&gt;Pass the Passkey: A Novel Attack Surface in Passwordless Authentication&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</guid>
+      <pubDate>Mon, 03 Aug 2026 10:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS</title>
+      <link>https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html</link>
+      <description>An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.
+
+Attack surface management platform Censys said it identified the threat actor running more than 100 web properties, most of which are fake Amazon Web Services (AWS) sign-in pages on a domain that also hosts the exploit toolkit.
+
+"</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html</guid>
+      <pubDate>Mon, 03 Aug 2026 10:49:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukraine Hits Another Wildberries Hub, This Time In Russia's Vladimir Region</title>
+      <link>https://www.rferl.org/a/ukraine-hits-another-wildberries-hub-this-time-in-russia-s-vladimir-region/33820788.html</link>
+      <description>Ukraine has launched another long-range drone strike targeting a Wildberries warehouse overnight on August 3, according to Russian authorities. The latest attack, in the Vladimir region, is part of a broader campaign in recent weeks that has repeatedly hit the logistics network of Russia's largest online retailer.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-hits-another-wildberries-hub-this-time-in-russia-s-vladimir-region/33820788.html</guid>
+      <pubDate>Mon, 03 Aug 2026 10:49:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>E. Royce Williams Awarded The Medal of Honor: One Panther, Seven Soviet MiGs, and 74 Years of Silence</title>
+      <link>https://sofrep.com/news/medal-of-honor-monday-one-panther-seven-soviet-migs-and-74-years-of-silence/</link>
+      <description>Royce Williams flew one battered Panther against seven Soviet MiGs, came home with 263 holes, and waited nearly 74 years for his country to tell the truth about what he had done. #RoyceWilliams #MedalOfHonor #NavalAviation #KoreanWar #MilitaryHistory</description>
+      <guid isPermaLink="false">https://sofrep.com/news/medal-of-honor-monday-one-panther-seven-soviet-migs-and-74-years-of-silence/</guid>
+      <pubDate>Mon, 03 Aug 2026 11:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>FOMO in the SOC: Where AI Platforms like Claude Actually Fit</title>
+      <link>https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html</link>
+      <description>AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.
+
+AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has evolved from whether AI belongs in the SOC, to where each type of AI delivers the most value.
+
+With so many new AI</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html</guid>
+      <pubDate>Mon, 03 Aug 2026 11:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran Hangs Two It Claims 'Spied' For Israel As Execution Surge Continues</title>
+      <link>https://www.rferl.org/a/iran-execute-behzad-safvat-israel-spy/33820765.html</link>
+      <description>Iran has hanged two men accused of spying for Israel as the Islamic republic’s execution spree since the start of the war with the United States and Israel shows no signs of slowing down.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-execute-behzad-safvat-israel-spy/33820765.html</guid>
+      <pubDate>Mon, 03 Aug 2026 11:31:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multinational RIMPAC exercise played ‘primary laboratory’ for cutting edge tech</title>
+      <link>https://breakingdefense.com/2026/08/multinational-rimpac-exercise-was-primary-laboratory-for-cutting-edge-tech/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/multinational-rimpac-exercise-was-primary-laboratory-for-cutting-edge-tech/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/USN_Saildrone_Surveyor_USV_RIMPAC_2026_DVIDS_9800266-scaled-e1783696065754-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Experiments involving 3D printing and launching missiles from uncrewed vessels were expected to take place among high-end warfighting training.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/multinational-rimpac-exercise-was-primary-laboratory-for-cutting-edge-tech/</guid>
+      <pubDate>Mon, 03 Aug 2026 11:33:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mercy Dogs of World War I: The Canine Medics Who Braved No Man’s Land</title>
+      <link>https://sofrep.com/news/mercy-dogs-of-world-war-i-the-furry-angels-of-no-mans-land/</link>
+      <description>Mercy dogs didn’t need orders, medals, or parades—they just saw a man bleeding in the mud and ran straight into gunfire to help him. #MercyDogs
+
+#WWIHistory
+
+#DogsOfWar
+
+#MilitaryDogs
+
+#HeroDogs
+
+#TrenchWarriors
+
+#CanineHeroes
+
+#HistoryUnleashed
+
+#FourLeggedMedics</description>
+      <guid isPermaLink="false">https://sofrep.com/news/mercy-dogs-of-world-war-i-the-furry-angels-of-no-mans-land/</guid>
+      <pubDate>Mon, 03 Aug 2026 12:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Download: reward hacking explained, and suspected Iranian cyberattacks</title>
+      <link>https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money or commit sabotage—they were&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</guid>
+      <pubDate>Mon, 03 Aug 2026 12:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Northrop gets $3B framework deal to increase motor production for PAC-3, THAAD</title>
+      <link>https://breakingdefense.com/2026/08/northrop-gets-3b-framework-deal-to-increase-motor-production-for-pac-3-thaad/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/northrop-gets-3b-framework-deal-to-increase-motor-production-for-pac-3-thaad/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2021/07/pac-3-launch.jpg.pc-adaptive.1920-e1679325063838-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The deal will allow Northrop to stand up production as a second supplier of solid rocket motors for the PAC-3 interceptor. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/northrop-gets-3b-framework-deal-to-increase-motor-production-for-pac-3-thaad/</guid>
+      <pubDate>Mon, 03 Aug 2026 12:18:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>UNIFIL’s final months: Uncertainty persists in Lebanon over what comes next</title>
+      <link>https://www.defensenews.com/global/mideast-africa/2026/08/03/unifils-final-months-uncertainty-persists-in-lebanon-over-what-comes-next/</link>
+      <description>The mission for the United Nations Interim Force in Lebanon is nearing its end. Amid Israeli occupation, a decision on what comes next has yet to be made.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/mideast-africa/2026/08/03/unifils-final-months-uncertainty-persists-in-lebanon-over-what-comes-next/</guid>
+      <pubDate>Mon, 03 Aug 2026 12:45:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
