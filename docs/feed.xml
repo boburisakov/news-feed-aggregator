@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 17:43:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 19:12:09 +0000</lastBuildDate>
     <item>
       <title>Defense Business Brief: Handshake deals &gt; plane orders?; Inside the aerospace supply chain, plus thoughts on that critical minerals EO</title>
       <link>https://www.defenseone.com/business/2026/07/defense-business-brief-handshake-deals-plane-orders-inside-aerospace-supply-chain-plus-thoughts-critical-minerals-eo/415111/</link>
@@ -84,41 +84,6 @@
       <description>Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.</description>
       <guid isPermaLink="false">https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/</guid>
       <pubDate>Thu, 30 Jul 2026 11:00:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Urges Water and Wastewater Systems Sector to Protect OT Against Activity Targeting PLCs</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs</link>
-      <description>&lt;p&gt;CISA is currently observing a significant increase in cyber threat actors targeting programmable logic controllers (PLCs) in the Water and Wastewater Systems (WWS) Sector. CISA urges critical infrastructure owners, operators, and integrators to remove publicly exposed PLCs and other operational technology (OT) from the internet as soon as possible. Threat actors targeting exposed PLCs have modified passwords to lock out operators and disconnected the PLCs by changing their IP addresses. This activity has resulted in boil water notices and sustained manual operations.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;These threat actors are targeting water entities of all sizes. Even water organizations with mature cybersecurity processes should validate their external connections, as this targeting activity includes cellular modems installed by operators, vendors, or system integrators that may not be documented or included in routine attack surface scans. OT assets exposed to the internet have an increased risk of defacement, configuration changes, operational disruptions, and, in severe cases, physical damage.&lt;/p&gt;
-&lt;p&gt;CISA recommends organizations implement the following mitigations:&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Disconnect the PLC from the internet. Remote access for operational purposes should go through a VPN or gateway device, not directly to the PLC.&lt;/li&gt;
-&lt;li&gt;Enable password protection and change default passwords.&lt;/li&gt;
-&lt;li&gt;Allowlist IPs to only allow remote access from known engineering laptops or other critical OT assets.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;After disconnecting PLCs from the internet, operators should ensure they have a known clean backup of the PLC image in case they are locked out by a modified password. &lt;strong&gt;Note:&amp;nbsp;&lt;/strong&gt;Owners, operators, and integrators of Rockwell Automation MicroLogix 1400 PLCs should see Rockwell Automation’s &lt;a href="https://www.rockwellautomation.com/en-us/trust-center/security-advisories/advisory.SD1790.html" target="_blank"&gt;IMPORTANT NOTICE: Restoring Access to a MicroLogix™ 1400 Controller When the Password Is Unknown&lt;/a&gt; for guidance addressing this activity.&lt;/p&gt;
-&lt;p&gt;To securely enable remote access to your OT systems, CISA recommends system owners, operators, and integrators see the following resources for guidance:&amp;nbsp;&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;CISA: &lt;a href="https://www.cisa.gov/resources-tools/resources/primary-mitigations-reduce-cyber-threats-operational-technology"&gt;Primary Mitigations to Reduce Cyber Threats to Operational Technology&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;United Kingdom's National Cyber Security Center: &lt;a href="https://www.ncsc.gov.uk/collection/operational-technology/secure-connectivity" target="_blank"&gt;Secure Connectivity Principles for Operational Technology&lt;/a&gt;&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Federal Bureau of Investigation (FBI): &lt;a href="https://www.ic3.gov/PSA/2026/PSA260730.pdf" target="_blank"&gt;Malicious Cyber Actors Targeting Water and Wastewater Sector Internet Facing Programmable Logic Controllers, Causing Operational Disruptions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For additional support, contact the Environmental Protection Agency’s &lt;a href="https://www.epa.gov/cyberwater/forms/cybersecurity-technical-assistance-program-water-sector" target="_blank"&gt;Cybersecurity Technical Assistance Program for the Water Sector&lt;/a&gt; or your &lt;a href="https://www.cisa.gov/about/regions"&gt;CISA Regional Office&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To report a cyber incident, contact CISA’s 24/7 Operations Center (&lt;a href="mailto:contact@cisa.dhs.gov" target="_blank"&gt;contact@cisa.dhs.gov&lt;/a&gt;), or call 1-844-Say-CISA (1-844-729-2472). Please see &lt;a href="https://www.cisa.gov/reporting-cyber-incident"&gt;Reporting a Cyber Incident&lt;/a&gt; for more details or contact &lt;a href="https://www.ic3.gov/" target="_blank"&gt;FBI’s Internet Crime Complaint Center (IC3)&lt;/a&gt; or your &lt;a href="https://www.fbi.gov/contact-us/field-offices" target="_blank"&gt;local FBI field office&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When available, please include the following information regarding the incident:&amp;nbsp;&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Date, time, and location of the incident&lt;/li&gt;
-&lt;li&gt;Type of activity&lt;/li&gt;
-&lt;li&gt;Number of people affected&lt;/li&gt;
-&lt;li&gt;Type of equipment used for the activity&lt;/li&gt;
-&lt;li&gt;Name of the submitting company or organization, and a designated point of contact&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The information in this report is being provided “as is” for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA. &lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The Environmental Protection Agency and the Federal Bureau of Investigation contributed to this Alert.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs</guid>
-      <pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Watchfire Controller Software</title>
@@ -966,14 +931,14 @@
       <pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>NASA Core Flight System (cFS) Health &amp; Safety (HS) Application</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-06.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+      <title>MZ Automation GmbH libiec61850</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-10.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of NASA Core Flight System (cFS) Health &amp;amp; Safety (HS) Application are affected:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of MZ Automation GmbH libiec61850 are affected:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Core Flight System (cFS) Health &amp;amp; Safety (HS) Application &amp;lt;=v7.0.1 (CVE-2026-18064)&lt;/li&gt;
+&lt;li&gt;libiec61850 &amp;lt;1.6.2 (CVE-2026-66720, CVE-2026-66369, CVE-2026-63550, CVE-2026-65421, CVE-2026-66364, CVE-2026-66349, CVE-2026-56758, CVE-2026-66360)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="csaf-table"&gt;
 &lt;table class="tablesaw tablesaw-stack"&gt;
@@ -988,42 +953,377 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;v3 7.5&lt;/td&gt;
-&lt;td&gt;NASA&lt;/td&gt;
-&lt;td&gt;NASA Core Flight System (cFS) Health &amp;amp; Safety (HS) Application&lt;/td&gt;
-&lt;td&gt;NULL Pointer Dereference&lt;/td&gt;
+&lt;td&gt;MZ Automation GmbH&lt;/td&gt;
+&lt;td&gt;MZ Automation GmbH libiec61850&lt;/td&gt;
+&lt;td&gt;Out-of-bounds Read&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;h3&gt;Background&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Transportation Systems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Energy&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Vulnerabilities&lt;/h2&gt;
 &lt;div class="csaf-accordion"&gt;
 &lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
 &lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-18064&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-66720&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;An incomplete fix for CVE-2026-15352 in the NASA core Flight System (cFS) Health and Safety (HS) application leaves a separate NULL pointer dereference reachable in versions through 7.0.1. An attacker who can trigger the affected command under specific conditions could cause the HS application to crash, resulting in a denial-of-service condition and processor reset.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18064"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The GOOSE subscriber component improperly validates the UTC timestamp field in unauthenticated IEC 61850 GOOSE (EtherType 0x88B8) Layer-2 multicast messages. A specially crafted GOOSE frame containing an undersized timestamp field can trigger a heap out-of-bounds read during message processing, causing the process to crash and resulting in a denial-of-service condition.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-66720"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;NASA Core Flight System (cFS) Health &amp;amp; Safety (HS) Application&lt;/h5&gt;
+&lt;h5&gt;MZ Automation GmbH libiec61850&lt;/h5&gt;
 &lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;NASA&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;NASA Core Flight System (cFS) Health &amp;amp; Safety (HS) Application: &amp;lt;=v7.0.1&lt;/div&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH libiec61850: &amp;lt;1.6.2&lt;/div&gt;
 &lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="ics-remediations"&gt;
 &lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;NASA reports that an official fix is currently under development and is expected to be included in a future software release.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;As an interim mitigation, users can update their HS app from the HS repo (https://github.com/nasa/HS) to the latest dev branch. The fix is in the dev branch starting at commit 828855f971db4b6714367ed0a970f52dbeab2965&lt;br /&gt;&lt;a href="https://github.com/nasa/HS"&gt;https://github.com/nasa/HS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH recommends that users update to version 1.6.2.&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/476.html"&gt;CWE-476 NULL Pointer Dereference&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-66369&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The GOOSE parser contains an off-by-one boundary-handling flaw that can be triggered by a single unauthenticated Layer-2 multicast frame on the process bus. When specific GOOSE message fields are processed, the parser advances its internal buffer position incorrectly, resulting in a heap out-of-bounds read. On affected platforms, this condition reliably terminates the subscriber process and causes a denial-of-service.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-66369"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;MZ Automation GmbH libiec61850&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH libiec61850: &amp;lt;1.6.2&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH recommends that users update to version 1.6.2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-63550&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The MMS BER decoder contains a boundary-handling flaw in the processing of certain fields within confirmed-request messages. When a crafted BER-encoded element is received over an established MMS session (TCP port 102), the decoder may advance its internal read position incorrectly, leading to a heap out-of-bounds read. This condition causes the MMS handling process to terminate unexpectedly, resulting in a denial-of-service.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-63550"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;MZ Automation GmbH libiec61850&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH libiec61850: &amp;lt;1.6.2&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH recommends that users update to version 1.6.2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-65421&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The MMS BER decoder contains a flaw in decoding fixed-width BER fields (boolean/integer): an attacker-supplied length value is not validated, causing a read past the end of a heap buffer. This leads to termination of the MMS service process and a denial-of-service condition.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65421"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;MZ Automation GmbH libiec61850&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH libiec61850: &amp;lt;1.6.2&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH recommends that users update to version 1.6.2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-66364&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The GOOSE payload parser contains a boundary handling flaw that can be triggered by a single unauthenticated Layer 2 multicast frame on the process bus. When processing specific payload fields, an attacker controlled inner element length may exceed its enclosing length, causing the parser to over read by one byte. This out-of-bounds read reliably terminates the subscriber process, resulting in a denial-of-service condition.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-66364"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;MZ Automation GmbH libiec61850&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH libiec61850: &amp;lt;1.6.2&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH recommends that users update to version 1.6.2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-66349&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The MMS server connection handler contains a flaw in its processing of BER-encoded request data. When an MMS confirmed request PDU containing an extended BER tag is received over an established session, the decoder may advance its internal buffer incorrectly due to a missing bounds check. This results in a one byte heap out-of-bounds read and causes the MMS service process to terminate, leading to a denial-of-service condition.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-66349"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;MZ Automation GmbH libiec61850&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH libiec61850: &amp;lt;1.6.2&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH recommends that users update to version 1.6.2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;6.9&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-56758&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The ACSE layer contains a flaw in the processing of AARQ PDUs during MMS connection establishment. When parsing certain fields within the calling AP title, an attacker controlled length value of zero or one may cause the parser to read past the end of a heap buffer.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-56758"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;MZ Automation GmbH libiec61850&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH libiec61850: &amp;lt;1.6.2&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH recommends that users update to version 1.6.2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;6.9&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-66360&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The ISO Presentation layer contains a flaw in the handling of specific parameters during normal mode negotiation. A missing length check in the processing of the encoded presentation data allows an attacker controlled field with a zero length value to trigger a bounded heap over read. This condition occurs before MMS session establishment, a crafted TCP/102 connection attempt can trigger the issue. The resulting over read causes the process to terminate, leading to a denial of service condition.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-66360"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;MZ Automation GmbH libiec61850&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH libiec61850: &amp;lt;1.6.2&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;MZ Automation GmbH recommends that users update to version 1.6.2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h4&gt;Metrics&lt;/h4&gt;
 &lt;div class="csaf-table csaf-metrics-table"&gt;
@@ -1045,9 +1345,9 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.2&lt;/td&gt;
+&lt;td&gt;8.7&lt;/td&gt;
 &lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1058,14 +1358,14 @@
 &lt;hr /&gt;
 &lt;h2&gt;Acknowledgments&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Michael Holmquist of Hasp Labs reported this vulnerability to CISA&lt;/li&gt;
+&lt;li&gt;Arun Babu of Central Power Research Institute reported these vulnerabilities to CISA&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
 &lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
 &lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
 &lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
 &lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
@@ -1078,7 +1378,7 @@
 &lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
 &lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
 &lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Revision History&lt;/h2&gt;
 &lt;ul&gt;
@@ -1102,7 +1402,7 @@
 &lt;/table&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06</guid>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10</guid>
       <pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1257,13 +1557,6 @@
       <pubDate>Fri, 31 Jul 2026 12:34:03 +0000</pubDate>
     </item>
     <item>
-      <title>Interpol Leverages Global System to Curtail Fraud Payments</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments</link>
-      <description>When a fraudulent transaction occurs, law enforcement agencies must work quickly to halt payments before cybercriminals cash out.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments</guid>
-      <pubDate>Fri, 31 Jul 2026 13:30:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic confirms its AI breached 3 organizations during testing</title>
       <link>https://www.defenseone.com/business/2026/07/anthropic-confirms-its-ai-breached-3-organizations-during-testing/415159/</link>
       <description>Three Claude models were inadvertently given access to the internet during security evaluations, and each model took a different approach to hacking external systems.</description>
@@ -1375,14 +1668,6 @@
       <pubDate>Fri, 31 Jul 2026 18:13:11 +0000</pubDate>
     </item>
     <item>
-      <title>U.S. Navy Is Seeking A Submarine Launched Anti-Air Missile</title>
-      <link>https://www.twz.com/sea/u-s-navy-is-seeking-a-submarine-launched-anti-air-missile</link>
-      <description>&lt;p&gt;The Navy has a plan for a revolutionary modular surface-to-air missile arsenal, and submarines are intended to be added as launch platforms.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/u-s-navy-is-seeking-a-submarine-launched-anti-air-missile"&gt;U.S. Navy Is Seeking A Submarine Launched Anti-Air Missile&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/sea/u-s-navy-is-seeking-a-submarine-launched-anti-air-missile</guid>
-      <pubDate>Fri, 31 Jul 2026 19:50:37 +0000</pubDate>
-    </item>
-    <item>
       <title>Trump blames Minnesota for cyberattacks on water sector, drawing pushback from cyber world</title>
       <link>https://cyberscoop.com/trump-blames-minnesota-water-cyberattacks-iran/</link>
       <description>&lt;p&gt;The president went against his intelligence agencies’ conclusions about Iran being the likely suspect in the campaign.&lt;/p&gt;
@@ -1397,14 +1682,6 @@
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/the-atlantic-brief-the-strait-of-hormuz-and-the-future-of-free-navigation/"&gt;The Atlantic Brief: The Strait of Hormuz and the Future of Free Navigation&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/the-atlantic-brief-the-strait-of-hormuz-and-the-future-of-free-navigation/</guid>
       <pubDate>Fri, 31 Jul 2026 20:27:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Red Sea Maritime Security Task Force Commander Talks Major Jump In Escort Requests (Updated)</title>
-      <link>https://www.twz.com/news-features/red-sea-maritime-security-task-force-commander-talks-major-jump-in-escort-requests</link>
-      <description>&lt;p&gt;The danger to Red Sea shipping has increased once again after the Houthis began attacking Saudi tankers.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/red-sea-maritime-security-task-force-commander-talks-major-jump-in-escort-requests"&gt;Red Sea Maritime Security Task Force Commander Talks Major Jump In Escort Requests (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/red-sea-maritime-security-task-force-commander-talks-major-jump-in-escort-requests</guid>
-      <pubDate>Fri, 31 Jul 2026 20:56:53 +0000</pubDate>
     </item>
     <item>
       <title>HII’s sea drone business is growing, but revenue is ‘modest,’ CEO says</title>
@@ -1455,13 +1732,6 @@
       <description>“We're going to be doing this forever,” security pros say, describing a race to find and patch holes in the AI era.</description>
       <guid isPermaLink="false">https://www.defenseone.com/business/2026/08/attackers-are-targeting-open-source-ai-just-big-tech-embracing-it/415165/</guid>
       <pubDate>Sun, 02 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems</title>
-      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/</link>
-      <description>OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/</guid>
-      <pubDate>Sun, 02 Aug 2026 22:31:41 +0000</pubDate>
     </item>
     <item>
       <title>Circles powers telco personalization with OpenAI technology</title>
@@ -1529,13 +1799,6 @@
       <pubDate>Mon, 03 Aug 2026 08:30:05 +0000</pubDate>
     </item>
     <item>
-      <title>Uzbekistan’s Nuclear Power Plant Project Advances</title>
-      <link>https://thediplomat.com/2026/08/uzbekistans-nuclear-power-plant-project-advances/</link>
-      <description>Officials say that the first small modular reactor of Uzbekistan’s nuclear power plant project is to be commissioned in 2029.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/uzbekistans-nuclear-power-plant-project-advances/</guid>
-      <pubDate>Mon, 03 Aug 2026 09:17:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Russian Logistics Sites Targeted Again As Zelenskyy Urges Faster Patriot Deliveries</title>
       <link>https://www.rferl.org/a/ukraine-russian-drone-attack-wildberries/33820750.html</link>
       <description>Ukraine and Russia exchanged another wave of overnight drone strikes targeting logistics, energy, and civilian infrastructure, as President Volodymyr Zelenskyy voiced frustration with Western allies over delays in delivering urgently needed Patriot air defense systems and other military aid.</description>
@@ -1563,13 +1826,6 @@
       <description>Ukraine has launched another long-range drone strike targeting a Wildberries warehouse overnight on August 3, according to Russian authorities. The latest attack, in the Vladimir region, is part of a broader campaign in recent weeks that has repeatedly hit the logistics network of Russia's largest online retailer.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-hits-another-wildberries-hub-this-time-in-russia-s-vladimir-region/33820788.html</guid>
       <pubDate>Mon, 03 Aug 2026 10:49:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>E. Royce Williams Awarded The Medal of Honor: One Panther, Seven Soviet MiGs, and 74 Years of Silence</title>
-      <link>https://sofrep.com/news/medal-of-honor-monday-one-panther-seven-soviet-migs-and-74-years-of-silence/</link>
-      <description>Royce Williams flew one battered Panther against seven Soviet MiGs, came home with 263 holes, and waited nearly 74 years for his country to tell the truth about what he had done. #RoyceWilliams #MedalOfHonor #NavalAviation #KoreanWar #MilitaryHistory</description>
-      <guid isPermaLink="false">https://sofrep.com/news/medal-of-honor-monday-one-panther-seven-soviet-migs-and-74-years-of-silence/</guid>
-      <pubDate>Mon, 03 Aug 2026 11:00:23 +0000</pubDate>
     </item>
     <item>
       <title>Iran Hangs 2 It Claims 'Spied' For Israel As Execution Surge Continues</title>
@@ -1623,13 +1879,6 @@
       <pubDate>Mon, 03 Aug 2026 12:08:00 +0000</pubDate>
     </item>
     <item>
-      <title>Is Japan Decoupling From China?</title>
-      <link>https://thediplomat.com/2026/08/is-japan-decoupling-from-china/</link>
-      <description>The new generation of Japanese policymakers is far less willing to accommodate China than its predecessors.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/is-japan-decoupling-from-china/</guid>
-      <pubDate>Mon, 03 Aug 2026 12:37:00 +0000</pubDate>
-    </item>
-    <item>
       <title>UNIFIL’s final months: Uncertainty persists in Lebanon over what comes next</title>
       <link>https://www.defensenews.com/global/mideast-africa/2026/08/03/unifils-final-months-uncertainty-persists-in-lebanon-over-what-comes-next/</link>
       <description>The mission for the United Nations Interim Force in Lebanon is nearing its end. Amid Israeli occupation, a decision on what comes next has yet to be made.</description>
@@ -1637,18 +1886,18 @@
       <pubDate>Mon, 03 Aug 2026 12:45:45 +0000</pubDate>
     </item>
     <item>
+      <title>From 1 NZSAS Counterterrorism to the “How Not to Die Guy”: Meet Damian Porter</title>
+      <link>https://sofrep.com/news/from-1-nzsas-counterterrorism-to-the-how-not-to-die-guy-meet-damian-porter/</link>
+      <description>Former New Zealand special operations commando Damian Porter brings hard-earned lessons from police work, firefighting and counterterrorism training to a simple mission: teaching ordinary people how not to become victims. #DamianPorter #HowNotToDieGuy #SituationalAwareness #PersonalSafety #NewZealandSpecialOperations</description>
+      <guid isPermaLink="false">https://sofrep.com/news/from-1-nzsas-counterterrorism-to-the-how-not-to-die-guy-meet-damian-porter/</guid>
+      <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ASEAN-5 in an era of geoeconomic realignment: Opportunities and risks in a fragmenting global economy</title>
       <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/asean-5-in-an-era-of-geoeconomic-realignment-opportunities-and-risks-in-a-fragmenting-global-economy/</link>
       <description>&lt;p&gt;ASEAN-5 is poised to become an increasingly important engine of global growth, supported by young populations, improving human capital, abundant resources, and deep integration into global supply chains. Yet fragmentation, trade tensions, climate risks, infrastructure gaps, and regulatory constraints could limit this potential, making coordinated reforms essential to securing resilient and sustained regional economic progress.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/asean-5-in-an-era-of-geoeconomic-realignment-opportunities-and-risks-in-a-fragmenting-global-economy/"&gt;ASEAN-5 in an era of geoeconomic realignment: Opportunities and risks in a fragmenting global economy&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/asean-5-in-an-era-of-geoeconomic-realignment-opportunities-and-risks-in-a-fragmenting-global-economy/</guid>
-      <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From 1 NZSAS Counterterrorism to the “How Not to Die Guy”: Meet Damian Porter</title>
-      <link>https://sofrep.com/news/from-1-nzsas-counterterrorism-to-the-how-not-to-die-guy-meet-damian-porter/</link>
-      <description>Former New Zealand special operations commando Damian Porter brings hard-earned lessons from police work, firefighting and counterterrorism training to a simple mission: teaching ordinary people how not to become victims. #DamianPorter #HowNotToDieGuy #SituationalAwareness #PersonalSafety #NewZealandSpecialOperations</description>
-      <guid isPermaLink="false">https://sofrep.com/news/from-1-nzsas-counterterrorism-to-the-how-not-to-die-guy-meet-damian-porter/</guid>
       <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1664,13 +1913,6 @@
       <description>Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.</description>
       <guid isPermaLink="false">https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</guid>
       <pubDate>Mon, 03 Aug 2026 13:00:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Xi Jinping’s AI Vision</title>
-      <link>https://thediplomat.com/2026/08/xi-jinpings-ai-vision/</link>
-      <description>Xi’s speech addressed the attendees at the World Artificial Intelligence Conference, but his real audience was the international community, and of course the United States.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/xi-jinpings-ai-vision/</guid>
-      <pubDate>Mon, 03 Aug 2026 13:01:00 +0000</pubDate>
     </item>
     <item>
       <title>American Rheinmetall to deliver hybrid‑powered UGVs to US Army</title>
@@ -1692,13 +1934,6 @@
       <description>Iran’s ballistic missile attack on U.S. forces in Jordan reveals a regime that views perpetual conflict as a tool of survival and a U.S. strategy that continues to mistake pressure for deterrence. #Iran #BallisticMissiles #MiddleEast #USForces #ForeignPolicy</description>
       <guid isPermaLink="false">https://sofrep.com/news/iran-calls-washingtons-bluff-with-ballistic-missiles/</guid>
       <pubDate>Mon, 03 Aug 2026 14:00:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inside the Underground Business of the Android BTMOB RAT malware</title>
-      <link>https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/</link>
-      <description>Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and competing sales channels. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/</guid>
-      <pubDate>Mon, 03 Aug 2026 14:45:55 +0000</pubDate>
     </item>
     <item>
       <title>Denmark begins extended military conscription in response to Russia, Trump</title>
@@ -1743,13 +1978,6 @@
       <pubDate>Mon, 03 Aug 2026 15:42:18 +0000</pubDate>
     </item>
     <item>
-      <title>Xi’s Shanghai Tour Offers No Relief for the Housing Crisis</title>
-      <link>https://thediplomat.com/2026/08/xis-shanghai-tour-offers-no-relief-for-the-housing-crisis/</link>
-      <description>Aside from making sympathetic noises about living standards, Xi offered no new wisdom or solutions.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/xis-shanghai-tour-offers-no-relief-for-the-housing-crisis/</guid>
-      <pubDate>Mon, 03 Aug 2026 15:59:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Pentagon moves to triple Patriot, quadruple THAAD interceptor production</title>
       <link>https://www.defensenews.com/news/pentagon-congress/2026/08/03/pentagon-moves-to-triple-patriot-quadruple-thaad-interceptor-production/</link>
       <description>The Pentagon is looking to triple Patriot missile production and quadruple THAAD interceptor production through framework agreements announced Monday.</description>
@@ -1762,13 +1990,6 @@
       <description>In Washington, the nation’s secrets are not buried so much as tucked behind office parks, suburban fences, and the occasional spectacularly stupid dead drop. #Espionage #CIA #SpyHistory #WashingtonDC #IntelligenceCommunity</description>
       <guid isPermaLink="false">https://sofrep.com/news/spy-sites-are-everywhere-in-the-washington-d-c-area/</guid>
       <pubDate>Mon, 03 Aug 2026 16:00:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Senate’s stopgap funding bill rejects special requests for Trump battleship, munitions</title>
-      <link>https://breakingdefense.com/2026/08/senates-stopgap-funding-bill-rejects-special-requests-for-trump-battleship-munitions/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/senates-stopgap-funding-bill-rejects-special-requests-for-trump-battleship-munitions/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/GettyImages-2253191070-scaled-e1785770678263-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;If passed by the Senate and House, the continuing resolution would extend federal funding until Dec. 11. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/senates-stopgap-funding-bill-rejects-special-requests-for-trump-battleship-munitions/</guid>
-      <pubDate>Mon, 03 Aug 2026 16:00:56 +0000</pubDate>
     </item>
     <item>
       <title>As Ukraine regains the initiative from Russia, Europe must seize the moment</title>
@@ -1818,6 +2039,13 @@ Unit 42 detailed three attack paths against Chrome's Google Password Manager clo
       <pubDate>Mon, 03 Aug 2026 16:52:55 +0000</pubDate>
     </item>
     <item>
+      <title>It’s Time for the East Asia Summit to Tackle Nuclear Proliferation</title>
+      <link>https://thediplomat.com/2026/08/its-time-for-the-east-asia-summit-to-tackle-nuclear-proliferation/</link>
+      <description>As more countries consider acquiring nuclear weapons, the EAS should take the lead in addressing the growing challenges of proliferation.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/its-time-for-the-east-asia-summit-to-tackle-nuclear-proliferation/</guid>
+      <pubDate>Mon, 03 Aug 2026 16:54:00 +0000</pubDate>
+    </item>
+    <item>
       <title>N-able warns of N-central auth bypass flaw exploited in attacks</title>
       <link>https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/</link>
       <description>N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]</description>
@@ -1831,6 +2059,13 @@ Unit 42 detailed three attack paths against Chrome's Google Password Manager clo
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sponsored-content/lockheed-martins-master-plan-for-accelerating-munitions-production"&gt;Lockheed Martin’s Master Plan For Accelerating Munitions Production&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sponsored-content/lockheed-martins-master-plan-for-accelerating-munitions-production</guid>
       <pubDate>Mon, 03 Aug 2026 17:13:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japan’s 2026 Defense White Paper Warns of China’s Expanding Military Reach in the Pacific</title>
+      <link>https://thediplomat.com/2026/08/japans-2026-defense-white-paper-warns-of-chinas-expanding-military-reach-in-the-pacific/</link>
+      <description>This year’s white paper places particular emphasis on Beijing’s growing ability to project military power beyond the First Island Chain.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/japans-2026-defense-white-paper-warns-of-chinas-expanding-military-reach-in-the-pacific/</guid>
+      <pubDate>Mon, 03 Aug 2026 17:18:00 +0000</pubDate>
     </item>
     <item>
       <title>Why Egypt’s Opinion of Ukraine Matters, Now and Later</title>
@@ -2057,7 +2292,7 @@ One of the packages in question is "lib-mtop," an unscoped package with the same
       <pubDate>Tue, 04 Aug 2026 04:47:00 +0000</pubDate>
     </item>
     <item>
-      <title>Iran's President Says He Has No Plans To Resign</title>
+      <title>US Treasury Secretary Bessent Says Deal On Opening Strait Of Hormuz Is Near</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -2119,6 +2354,13 @@ The vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a case of inc
       <pubDate>Tue, 04 Aug 2026 09:05:00 +0000</pubDate>
     </item>
     <item>
+      <title>As World Bank Retreats From Climate Targets, India’s Most Vulnerable Could Pay the Price</title>
+      <link>https://thediplomat.com/2026/08/as-world-bank-retreats-from-climate-targets-indias-most-vulnerable-could-pay-the-price/</link>
+      <description>Most climate finance goes where it is easiest to lend. Embankments, water systems, shade, and shelters that save lives and livelihoods in villages struggle to find funding.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/as-world-bank-retreats-from-climate-targets-indias-most-vulnerable-could-pay-the-price/</guid>
+      <pubDate>Tue, 04 Aug 2026 09:06:00 +0000</pubDate>
+    </item>
+    <item>
       <title>How companies could share cyber risks without exposing their secrets</title>
       <link>https://cyberscoop.com/zero-knowledge-proofs-cyber-risk-sharing-op-ed/</link>
       <description>&lt;p&gt;A cryptographic technique could let companies prove they're vulnerable to critical flaws without revealing the sensitive data that attackers could exploit.&lt;/p&gt;
@@ -2175,6 +2417,22 @@ That assumption is starting to break.
 Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as "script kiddies," sat at the other end, running public</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html</guid>
       <pubDate>Tue, 04 Aug 2026 11:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds Three Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</link>
+      <description>&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-9198" target="_blank"&gt;CVE-2026-9198&lt;/a&gt; IBM Langflow Code Injection Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18556" target="_blank"&gt;CVE-2026-18556&lt;/a&gt; N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-34486" target="_blank"&gt;CVE-2026-34486&lt;/a&gt; Apache Tomcat Missing Encryption of Sensitive Data Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Acrisure KARR BT and DR-100</title>
@@ -2490,6 +2748,13 @@ Security teams have long estimated risk by ranking attacker sophistication. Nati
       <pubDate>Tue, 04 Aug 2026 12:14:00 +0000</pubDate>
     </item>
     <item>
+      <title>KMT, TPP Mull Referendums to Go With Taiwan’s Local Elections</title>
+      <link>https://thediplomat.com/2026/08/kmt-tpp-mull-referendums-to-go-with-taiwans-local-elections/</link>
+      <description>Up to six proposals – ranging from nuclear power to absentee voting – will be put to voters in the November polls, but without the usual round of campaigning for signatures.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/kmt-tpp-mull-referendums-to-go-with-taiwans-local-elections/</guid>
+      <pubDate>Tue, 04 Aug 2026 12:24:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Wildberries: Ukrainian Drones Strike 'Russia's Amazon' Near St. Petersburg</title>
       <link>https://www.rferl.org/a/wildberries-ukrainian-drones-strike-russia-s-amazon-near-st-petersburg/33821702.html</link>
       <description>Russian authorities claim Ukrainian drones hit multiple Wildberries warehouses in several regions on August 4. Officials reported damage at facilities near St. Petersburg, and in the Tver and Moscow regions. Ukraine's drone commander Robert Brovdi said at least 15 Wildberries hubs have been hit since mid-July as part of a sustained campaign to disrupt logistics networks of Russia's largest online retailer.</description>
@@ -2666,7 +2931,7 @@ SafeDep verified 353 poisoned versions across 79 package names in the npm regist
     <item>
       <title>The confidence deficit in space</title>
       <link>https://breakingdefense.com/2026/08/the-confidence-deficit-in-space/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/the-confidence-deficit-in-space/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/251104_earth_satellite_graphic_GettyImages-2071084265-e1762277704935-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Satellite operators make decisions based on the quality and confidence of orbital data they receive. But new research indicates that data can be improved, argues Dan Oltrogge.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/the-confidence-deficit-in-space/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/251104_earth_satellite_graphic_GettyImages-2071084265-e1762277704935-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Satellite operators make decisions based on the quality and confidence of orbital data they receive. But new research indicates that such data must be improved in order for space safety and security to be effective, argues Dan Oltrogge.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/the-confidence-deficit-in-space/</guid>
       <pubDate>Tue, 04 Aug 2026 16:00:00 +0000</pubDate>
     </item>
@@ -2676,6 +2941,13 @@ SafeDep verified 353 poisoned versions across 79 package names in the npm regist
       <description>Essential Provisions is betting that the men and women carrying the mission should not have to survive on chemical paste, mystery meat, and the culinary indifference of a supply chain built for shelf life instead of human life. #EssentialProvisions #FieldFuel #MilitaryNutrition #MRE #EmergencyPreparedness</description>
       <guid isPermaLink="false">https://sofrep.com/news/essential-provisions-ceo-robin-gentry-mcgee-on-building-a-better-mre/</guid>
       <pubDate>Tue, 04 Aug 2026 16:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Operational Pause: Why the U.S.-Iran Standoff Is Reorganization, Not Peace</title>
+      <link>https://sofrep.com/news/the-operational-pause-why-the-u-s-iran-standoff-is-reorganization-not-peace/</link>
+      <description>This is not peace but a reload, and the side that uses the pause more effectively will shape the next phase of the war. #IranWar #StraitOfHormuz #SOF</description>
+      <guid isPermaLink="false">https://sofrep.com/news/the-operational-pause-why-the-u-s-iran-standoff-is-reorganization-not-peace/</guid>
+      <pubDate>Tue, 04 Aug 2026 16:00:58 +0000</pubDate>
     </item>
     <item>
       <title>Forecast: Global Missiles and Missile Defence Systems (2026-2036)</title>
@@ -2743,6 +3015,50 @@ SafeDep verified 353 poisoned versions across 79 package names in the npm regist
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/trump-ai-policy-chinese-models-risk/"&gt;Dem senators criticize Trump administration decisionmaking on AI security risks&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/trump-ai-policy-chinese-models-risk/</guid>
       <pubDate>Tue, 04 Aug 2026 17:28:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>X-62A Toting Infrared Search And Track Pod Used Its AI ‘Brain’ To Autonomously Intercept An ‘Enemy’ T-38</title>
+      <link>https://www.twz.com/air/x-62a-toting-infrared-search-and-track-pod-used-its-ai-brain-to-autonomously-intercept-an-enemy-t-38</link>
+      <description>&lt;p&gt;Being able to autonomously use onboard sensor data to engage aerial threats is exactly what the USAF wants from its future CCA drones.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/x-62a-toting-infrared-search-and-track-pod-used-its-ai-brain-to-autonomously-intercept-an-enemy-t-38"&gt;X-62A Toting Infrared Search And Track Pod Used Its AI &amp;#8216;Brain&amp;#8217; To Autonomously Intercept An &amp;#8216;Enemy&amp;#8217; T-38&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/x-62a-toting-infrared-search-and-track-pod-used-its-ai-brain-to-autonomously-intercept-an-enemy-t-38</guid>
+      <pubDate>Tue, 04 Aug 2026 17:48:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran And Oman Working To Control Strait Of Hormuz, Shaky Ceasefire Still Holding</title>
+      <link>https://www.twz.com/news-features/iran-and-oman-working-to-control-strait-of-hormuz-shaky-ceasefire-still-holding</link>
+      <description>&lt;p&gt;The U.S. and Iran aren't exchanging blows as Trump says he's given his final chance at a deal, and the strait remains the most urgent sticking point.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/iran-and-oman-working-to-control-strait-of-hormuz-shaky-ceasefire-still-holding"&gt;Iran And Oman Working To Control Strait Of Hormuz, Shaky Ceasefire Still Holding&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/iran-and-oman-working-to-control-strait-of-hormuz-shaky-ceasefire-still-holding</guid>
+      <pubDate>Tue, 04 Aug 2026 18:12:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Telesat wins $1.6B for Canadian Arctic MILSATCOM</title>
+      <link>https://breakingdefense.com/2026/08/telesat-wins-1-6b-for-canadian-arctic-milsatcom/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/telesat-wins-1-6b-for-canadian-arctic-milsatcom/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/03/260309_swedish_fighters_iceland_NATO-e1773081849108-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The contract is just the first step in a broader MoD plan to develop a secure Arctic communications grid.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/telesat-wins-1-6b-for-canadian-arctic-milsatcom/</guid>
+      <pubDate>Tue, 04 Aug 2026 18:13:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook</link>
+      <description>The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook</guid>
+      <pubDate>Tue, 04 Aug 2026 18:37:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>77 Open VSX extensions found harvesting developer info</title>
+      <link>https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/</link>
+      <description>77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/</guid>
+      <pubDate>Tue, 04 Aug 2026 18:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>New XCSSET variant targets macOS devs via compromised Xcode projects</title>
+      <link>https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/</link>
+      <description>A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/</guid>
+      <pubDate>Tue, 04 Aug 2026 19:03:09 +0000</pubDate>
     </item>
   </channel>
 </rss>
