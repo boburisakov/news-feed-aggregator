@@ -7,156 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 18:49:48 +0000</lastBuildDate>
-    <item>
-      <title>Schneider Electric IGSS</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-04.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Schneider Electric is aware of a vulnerability in its IGSS Definition module for the IGSS (Interactive Graphical SCADA System) product. The [IGSS](https://igss.schneider-electric.com/) product is a state-of-the-art SCADA system used for monitoring and controlling industrial processes. The IGSS Definition module is a design-time component used by system integrators to create mimic diagrams for plant personnel, enabling them to monitor and control the SCADA system. Failure to apply the remediation provided below may risk loss of data or arbitrary code execution, which could result in the loss of control of the system.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Schneider Electric IGSS are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IGSS ()&lt;/li&gt;
-&lt;li&gt;IGSS Definition (Def.exe) module vers:intdot/&amp;lt;=18.0.0.26124, 18.0.0.26125 ()&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.8&lt;/td&gt;
-&lt;td&gt;Schneider Electric&lt;/td&gt;
-&lt;td&gt;Schneider Electric IGSS&lt;/td&gt;
-&lt;td&gt;Out-of-bounds Write&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Commercial Facilities, Critical Manufacturing, Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;France&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-12927&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;An out-of-bounds write vulnerability exists that could cause loss of data or potentially risk arbitrary code execution when a malicious CGF file is imported to IGSS Definition.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-12927"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Schneider Electric IGSS&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Schneider Electric&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;&amp;nbsp;&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;fixed, known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Version 18.0.0.26125 of the IGSS Definition module includes a fix for this vulnerability and is available for download through IGSS Master &amp;gt; Update IGSS Software or here: https://igss.schneider-electric.com/igss/igssupdates/v180/IGSSUPDATE.ZIP&amp;nbsp;&lt;br /&gt;&lt;a href="https://igss.schneider-electric.com/igss/igssupdates/v180/IGSSUPDATE.ZIP"&gt;https://igss.schneider-electric.com/igss/igssupdates/v180/IGSSUPDATE.ZIP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If customers choose not to apply the remediation provided above, they should immediately apply the following mitigations to reduce the risk of exploit: Avoid executing commands, importing or opening files from untrusted sources.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Schneider Electric reported this vulnerability to CISA.&lt;/li&gt;
-&lt;li&gt;Michael Heinzl reported this vulnerability to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Security Recommendations&lt;/h2&gt;
-&lt;p&gt;We strongly recommend the following industry cybersecurity best practices. * Locate control and safety system networks and remote devices behind firewalls and isolate them from the business network. * Install physical controls so no unauthorized personnel can access your industrial control and safety systems, components, peripheral equipment, and networks. * Place all controllers in locked cabinets and never leave them in the “Program” mode. * Never connect programming software to any network other than the network intended for that device. * Scan all methods of mobile data exchange with the isolated network such as CDs, USB drives, etc. before use in the terminals or any node connected to these networks. * Never allow mobile devices that have connected to any other network besides the intended network to connect to the safety or control networks without proper sanitation. * Minimize network exposure for all control system devices and systems and ensure that they are not accessible from the Internet. * When remote access is required, use secure methods, such as virtual private networks (VPNs). Recognize that VPNs may have vulnerabilities and should be updated to the most current version available. Also, understand that VPNs are only as secure as the connected devices. For more information refer to the Schneider Electric [Recommended Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) document.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;For More Information&lt;/h2&gt;
-&lt;p&gt;This document provides an overview of the identified vulnerability or vulnerabilities and actions required to mitigate. For more details and assistance on how to protect your installation, contact your local Schneider Electric representative or Schneider Electric Industrial Cybersecurity Services: https://www.se.com/ww/en/work/solutions/cybersecurity/. These organizations will be fully aware of this situation and can support you through the process. For further information related to cybersecurity in Schneider Electric's products, visit the company's cybersecurity support portal page: https://www.se.com/ww/en/work/support/cybersecurity/overview.jsp&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;LEGAL DISCLAIMER&lt;/h2&gt;
-&lt;p&gt;THIS NOTIFICATION DOCUMENT, THE INFORMATION CONTAINED HEREIN, AND ANY MATERIALS LINKED FROM IT (COLLECTIVELY, THIS “NOTIFICATION”) ARE INTENDED TO HELP PROVIDE AN OVERVIEW OF THE IDENTIFIED SITUATION AND SUGGESTED MITIGATION ACTIONS, REMEDIATION, FIX, AND/OR GENERAL SECURITY RECOMMENDATIONS AND IS PROVIDED ON AN “AS-IS” BASIS WITHOUT WARRANTY OR GUARANTEE OF ANY KIND. SCHNEIDER ELECTRIC DISCLAIMS ALL WARRANTIES RELATING TO THIS NOTIFICATION, EITHER EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. SCHNEIDER ELECTRIC MAKES NO WARRANTY THAT THE NOTIFICATION WILL RESOLVE THE IDENTIFIED SITUATION. IN NO EVENT SHALL SCHNEIDER ELECTRIC BE LIABLE FOR ANY DAMAGES OR LOSSES WHATSOEVER IN CONNECTION WITH THIS NOTIFICATION, INCLUDING DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, LOSS OF BUSINESS PROFITS OR SPECIAL DAMAGES, EVEN IF SCHNEIDER ELECTRIC HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. YOUR USE OF THIS NOTIFICATION IS AT YOUR OWN RISK, AND YOU ARE SOLELY LIABLE FOR ANY DAMAGES TO YOUR SYSTEMS OR ASSETS OR OTHER LOSSES THAT MAY RESULT FROM YOUR USE OF THIS NOTIFICATION. SCHNEIDER ELECTRIC RESERVES THE RIGHT TO UPDATE OR CHANGE THIS NOTIFICATION AT ANY TIME AND IN ITS SOLE DISCRETION&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;About Schneider Electric&lt;/h2&gt;
-&lt;p&gt;Schneider's purpose is to create Impact by empowering all to make the most of our energy and resources, bridging progress and sustainability for all. We call this Life Is On. Our mission is to be the trusted partner in sustainability and efficiency. We are a global industrial technology leader bringing world-leading expertise in electrification, automation and digitization to smart industries, resilient infrastructure, future-proof data centers, intelligent buildings, and intuitive homes. Anchored by our deep domain expertise, we provide integrated end-to-end lifecycle AI enabled industrial IoT solutions with connected products, automation, software and services, delivering digital twins to enable profitable growth for our customers. We are a people company with an ecosystem of 150,000 colleagues and more than a million partners operating in over 100 countries to ensure proximity to our customers and stakeholders. We embrace diversity and inclusion in everything we do, guided by our meaningful purpose of a sustainable future for all. www.se.com&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of these vulnerabilities.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Schneider Electric SEVD-2026-195-01 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Schneider Electric directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-07-14&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-07-14&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Original Release&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-07-30&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Schneider Electric SEVD-2026-195-01 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04</guid>
-      <pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 05 Aug 2026 20:23:33 +0000</lastBuildDate>
     <item>
       <title>Mitsubishi Electric CC-Link IE TSN Communication Protocol</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07</link>
@@ -1028,7 +879,7 @@
     <item>
       <title>Video Friday: Meet Google DeepMind’s Gemini Robotics 2</title>
       <link>https://spectrum.ieee.org/video-robot-gemini2-ai-robot</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://actuate.foxglove.dev/"&gt;Actuate 2026&lt;/a&gt;: 18–19 August 2026, SAN FRANCISCO&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="4lsqnrmc6ny"&gt;&lt;em&gt;Introducing Gemini Robotics 2—the intelligence layer powering the next generation of truly adaptable robots. As it takes its first literal steps, this major advance unlocks intelligent whole-body control, advanced dexterity, and multi-robot collaboration. &lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"&gt;Google DeepMind&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vzwytn3fw1w"&gt;THE ROADMAP! NOOOOO!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.agilityrobotics.com/"&gt;Agility&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="xha2tj_1c6q"&gt;Videos like this always make me wonder how &lt;a href="https://spectrum.ieee.org/robot-with-liquid-metal-tendons-can-heal-itself" target="_blank"&gt;repairable&lt;/a&gt; these robots are. Very, I would hope.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.unitree.com/As2-W"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="m81_7rggdxm"&gt;&lt;em&gt;Humans routinely communicate through abstractions of their bodies, including shadows, silhouettes, and reflections. Here, we present a robotic system capable of dynamic shadow expression using a 21-degree-of-freedom &lt;a href="https://spectrum.ieee.org/video-friday-robotic-hand-dexterity" target="_blank"&gt;dexterous hand&lt;/a&gt; with compliant soft skin and a learned shadow self-model.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalroboticslab.com/shadow"&gt;General Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="n20cvjhmzh8"&gt;Human to quadruped motion transfer is an odd concept but I’m here for it.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://studios.disneyresearch.com/2026/07/30/two2four-generative-quadruped-puppeteering-from-human-motion/"&gt;Disney Research&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="alc1aon3a4i"&gt;&lt;em&gt;Meet Stretch 4.0&lt;/em&gt;—&lt;em&gt;The one-armed, three-wheeled robot that can navigate your home safely. Would you rather a humanoid robot or Stretch?&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://hello-robot.com/"&gt;Hello Robot&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="cjytikq4dum"&gt;And now, this, for some reason.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.pndbotics.com/"&gt;PNDbotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="k4wzqzblkry"&gt;I’m not sure we’re allowed to be impressed if you resize a badminton court to accommodate your robot.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.phybot.tech/en/home"&gt;PHYBOT&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="rnrf8fc47qm"&gt;Golden eagles care not for &lt;a href="https://spectrum.ieee.org/dutch-police-training-eagles-to-take-down-drones" target="_blank"&gt;drones&lt;/a&gt;. &lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.team-blacksheep.com/"&gt;Team BlackSheep&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="1tzmvkf7x10"&gt;&lt;em&gt;USC researchers work with NASA and others to train robot dogs for planetary exploration on Mars, the moon and beyond!&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.radlab.us/"&gt;Research in Applied Decisions: RAD Lab&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Cristina!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="lzphwt2wwv8"&gt;&lt;a href="https://spectrum.ieee.org/humanoid-robots-japan" target="_blank"&gt;WABOT-1&lt;/a&gt; was arguably the birth of the humanoid robot in Japan. We’ve come a long way, and it’s good to be reminded where we started.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="http://www.takanishi.mech.waseda.ac.jp/top/index.htm"&gt;Takanishi Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="1eplnnhbqbs"&gt;If only this video was at 1x instead of 5x we could have had 15 hours of Memo folding laundry.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sunday.ai/"&gt;Sunday Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://actuate.foxglove.dev/"&gt;Actuate 2026&lt;/a&gt;: 18–19 August 2026, SAN FRANCISCO&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="4lsqnrmc6ny"&gt;&lt;em&gt;Introducing Gemini Robotics 2—the intelligence layer powering the next generation of truly adaptable robots. As it takes its first literal steps, this major advance unlocks intelligent whole-body control, advanced dexterity, and multirobot collaboration. &lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"&gt;Google DeepMind&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vzwytn3fw1w"&gt;THE ROADMAP! NOOOOO!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.agilityrobotics.com/"&gt;Agility&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="xha2tj_1c6q"&gt;Videos like this always make me wonder how &lt;a href="https://spectrum.ieee.org/robot-with-liquid-metal-tendons-can-heal-itself" target="_blank"&gt;repairable&lt;/a&gt; these robots are. Very, I would hope.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.unitree.com/As2-W"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="m81_7rggdxm"&gt;&lt;em&gt;Humans routinely communicate through abstractions of their bodies, including shadows, silhouettes, and reflections. Here, we present a robotic system capable of dynamic shadow expression using a 21-degrees-of-freedom &lt;a href="https://spectrum.ieee.org/video-friday-robotic-hand-dexterity" target="_blank"&gt;dexterous hand&lt;/a&gt; with compliant soft skin and a learned shadow self-model.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalroboticslab.com/shadow"&gt;General Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="n20cvjhmzh8"&gt;Human-to-quadruped motion transfer is an odd concept, but I’m here for it.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://studios.disneyresearch.com/2026/07/30/two2four-generative-quadruped-puppeteering-from-human-motion/"&gt;Disney Research&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="alc1aon3a4i"&gt;&lt;em&gt;Meet Stretch 4.0&lt;/em&gt;—t&lt;em&gt;he one-armed, three-wheeled robot that can navigate your home safely. Would you rather a humanoid robot or Stretch?&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://hello-robot.com/"&gt;Hello Robot&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="cjytikq4dum"&gt;And now, this, for some reason.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.pndbotics.com/"&gt;PNDbotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="k4wzqzblkry"&gt;I’m not sure we’re allowed to be impressed if you resize a badminton court to accommodate your robot.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.phybot.tech/en/home"&gt;PHYBOT&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="rnrf8fc47qm"&gt;Golden eagles care not for &lt;a href="https://spectrum.ieee.org/dutch-police-training-eagles-to-take-down-drones" target="_blank"&gt;drones&lt;/a&gt;. &lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.team-blacksheep.com/"&gt;Team BlackSheep&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="1tzmvkf7x10"&gt;&lt;em&gt;University of Southern California researchers work with NASA and others to train robot dogs for planetary exploration on Mars, the moon, and beyond!&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.radlab.us/"&gt;Research in Applied Decisions: RAD Lab&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Cristina!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="lzphwt2wwv8"&gt;&lt;a href="https://spectrum.ieee.org/humanoid-robots-japan" target="_blank"&gt;WABOT-1&lt;/a&gt; was arguably the birth of the humanoid robot in Japan. We’ve come a long way, and it’s good to be reminded where we started.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="http://www.takanishi.mech.waseda.ac.jp/top/index.htm"&gt;Takanishi Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="1eplnnhbqbs"&gt;If only this video was at 1x instead of 5x we could have had 15 hours of Memo folding laundry.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sunday.ai/"&gt;Sunday Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-robot-gemini2-ai-robot</guid>
       <pubDate>Fri, 31 Jul 2026 16:00:03 +0000</pubDate>
     </item>
@@ -1219,20 +1070,6 @@
       <pubDate>Mon, 03 Aug 2026 13:33:38 +0000</pubDate>
     </item>
     <item>
-      <title>Is There Really a Fix for CISO Fatigue?</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/fix-for-ciso-fatigue</link>
-      <description>Accountability without any real authority is driving CISO burnout, and organizations need to take notice.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/fix-for-ciso-fatigue</guid>
-      <pubDate>Mon, 03 Aug 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm</link>
-      <description>Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm</guid>
-      <pubDate>Mon, 03 Aug 2026 15:42:18 +0000</pubDate>
-    </item>
-    <item>
       <title>Walden Robotics Partners With Toyota on Practical Humanoids</title>
       <link>https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C62%2C0%2C63" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;For a while there, it seemed as though robotics as a whole was stuck in a &lt;a href="https://spectrum.ieee.org/top-robotics-stories-2024" target="_self"&gt;mad rush&lt;/a&gt; towards building &lt;a href="https://spectrum.ieee.org/topic/robotics/humanoid-robots/" target="_self"&gt;humanoid robots&lt;/a&gt; mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also been an industry-wide sobering leading to &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;pointed questions about practicality and value&lt;/a&gt;. In other words, starting a commercial humanoid company &lt;em&gt;&lt;em&gt;now&lt;/em&gt;&lt;/em&gt; is a much different proposition than it would have been just a few years ago. &lt;/p&gt;&lt;p&gt;On 15 July, &lt;a href="https://www.waldenrobotics.com/news/walden-robotics-launches-from-stealth" rel="noopener noreferrer" target="_blank"&gt;Walden Robotics emerged from stealth&lt;/a&gt; with US $300 million in funding at a valuation of $1.1 billion. Walden is a spinout of &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota Research Institute&lt;/a&gt; (TRI), and it’s spent the last 10 or so years working on hard problems in robotics with the goal of transitioning from research to real-world applications. That seems like the amount of time and experience that it might reasonably take to develop a &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;practical and value-driven approach&lt;/a&gt; to deploying general-purpose humanoid robots, and Walden has chosen an excellent starting point by skipping the legs.&lt;/p&gt;&lt;p&gt;“It’s ironic,” says Walden co-founder and CEO &lt;a href="https://www.linkedin.com/in/russ-tedrake-88648a4a/" rel="noopener noreferrer" target="_blank"&gt;Russ Tedrake&lt;/a&gt;. “I thought about legs for 20 years; that’s the class I teach at MIT. There are many reasons to build a robot with legs. But the question is, what’s the addressable market? And what percentage of it is covered by a wheeled base?” It’s this focused, practical thinking that sets Walden somewhat apart from many (if not most) of the other companies in this space. Rather than &lt;a href="https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available" target="_self"&gt;developing a robot first and searching for a viable commercial use case second&lt;/a&gt;, Walden instead identified applications where robots can provide value now, and designed a robot that could safely and efficiently meet those needs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt; &lt;/p&gt;&lt;h2&gt;Walden Robotics’ Manufacturing Focus&lt;/h2&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="A smiling man in a blue shirt" class="rm-shortcode" id="f545c" src="https://spectrum.ieee.org/media-library/a-smiling-man-in-a-blue-shirt.jpg?id=67568051&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Russ Tedrake is the CEO and co-founder of Walden Robotics.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tedrake is light on the details about what specific applications Walden is targeting at this point (citing confidentiality with current commercial partners). Manufacturing and logistics environments where there are a lot of &lt;a href="https://www.youtube.com/watch?v=F_7IPm7f1vI" target="_blank"&gt;relatively simple&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=tv90GFM9RAo" target="_blank"&gt;repetitive tasks&lt;/a&gt; that aren’t friendly to conveyor belts and pre-programmed robot arms are a good bet. Even in these environments, however, robots still have to find a useful niche, because they’re going up against human workers who are more flexible while also cheaper to employ. So the question is: how do you make an argument to a customer that a robot is actually a better solution than their existing human workers?&lt;/p&gt;&lt;p&gt;“You need to find applications with high utilization—where the robot is used 24 hours a day, 7 days a week,” says Tedrake. “Manufacturing is a global imperative right now, and it makes the economics work.” Economic viability is a necessary condition, but it’s not a sufficient one for Walden, or for their partnership with Toyota. People are a big part of Walden’s plan, too.&lt;/p&gt;&lt;p&gt;One of Walden’s major strengths is the company’s partnership with Toyota, which is not all that surprising given that Walden is a spinout from TRI, which is &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota’s Silicon Valley-based R&amp;amp;D arm&lt;/a&gt;. “Toyota was very proud of the work we had done at TRI, and was ready to go big in this space,” says Tedrake. “Part of the excitement of having Toyota as a partner is that their culture is deeply people-first. When talking to Toyota’s leadership, I was never asked how much money this is going to make, but I was asked how it will improve the quality of life for all people.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A white and orange humanoid robot manipulates an object in its two-finger grippers." class="rm-shortcode" id="209d4" src="https://spectrum.ieee.org/media-library/a-white-and-orange-humanoid-robot-manipulates-an-object-in-its-two-finger-grippers.jpg?id=67568030&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The robot’s chonky design allows it to meet the high payload requirements of useful manufacturing work.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this context, at least in the short term, Walden’s approach to improving the quality of life for people is to take over those aforementioned repetitive manufacturing tasks with robots. Tedrake hopes that this will lead to workplaces where skilled craftspeople are able to do even more with their hard-earned expertise, increasing their efficiency, productivity, and happiness all at the same time—a noble goal, although there’s only so much Walden itself can do to make this happen, and not all customers will share Toyota’s priorities.&lt;/p&gt;&lt;h2&gt;Wheeled Humanoid Robots in Factories&lt;/h2&gt;&lt;p&gt;Many other &lt;a href="https://www.agilityrobotics.com/" target="_blank"&gt;humanoid&lt;/a&gt; &lt;a href="https://www.figure.ai/" target="_blank"&gt;robotics&lt;/a&gt; &lt;a href="https://apptronik.com/" target="_blank"&gt;companies&lt;/a&gt; are also targeting these logistics and manufacturing spaces with general-purpose robots, and they’re doing so by making robots that are as human-like as possible. The theory is that a humanoid form factor is necessary when operating in human environments. And there are certainly arguments in favor of a humanoid with legs—stairs exist, for one, and legged robots have a smaller footprint compared to wheels.&lt;/p&gt;&lt;p&gt;But a large wheeled base offers some significant advantages, as Tedrake points out. You’re incentivized to cram the base full of batteries, since more weight near the floor keeps the robot stable, which also solves the problem of running out of power during the middle of the workday. More importantly, a statically stable robot that moves around on a wheeled base can bypass the &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;safety challenges&lt;/a&gt; that are currently keeping legged humanoids physically separated from real humans—most prominently, the fact that legged robots can fall over. “Factories already have autonomous mobile [wheeled] robots,” explains Tedrake. “They already have safety cases built around AMRs. You can piggyback on that with a wheeled base.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A close-up of a robotic gripper grasping a metallic object in a vise." class="rm-shortcode" id="f600c" src="https://spectrum.ieee.org/media-library/a-close-up-of-a-robotic-gripper-grasping-a-metallic-object-in-a-vise.jpg?id=67568022&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Simple, rugged grippers make the robot suitable for commercial deployment.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Walden’s perspective on manipulation is similar. Many humanoid companies are using five-fingered hands that are highly dexterous, but also highly complex, which Tedrake believes is not a pragmatic approach in the context of commercial deployments. “There’s a question of what you need to do the tasks, but the real question is just durability,” Tedrake says. “We have been deployed in a Toyota factory, and at the end of the week, the hands take a beating, so we built hands that can take that. I have not seen a more dexterous hand that could have done the work our hand has done.”&lt;/p&gt;&lt;p&gt;Walden’s long-term plan is to build “general purpose robots.” It’s not always clear what a general purpose robot is, because (I would argue) nobody is quite sure what “general purpose” means. It’s certainly not referring to robots that can do &lt;em&gt;&lt;em&gt;everything&lt;/em&gt;&lt;/em&gt;; I think the closest we can get are robots that can be taught to do a useful number of different skills, which is why I prefer the term “multi-purpose.” It’s a little pedantic, I know, but I think the distinction is important because it moderates expectations in the near term.&lt;/p&gt;&lt;p&gt;Part of where Walden’s optimism towards general purposeness comes from is TRI’s earlier research on &lt;a href="https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573" target="_blank"&gt;diffusion policy&lt;/a&gt;, which helps robots learn new skills more quickly by leveraging previously learned skills as a foundation. “Fundamentally, multi-tasking is a way to get to a general purpose robot,” Tedrake says. “I believe there is a single platform that can do a lot of tasks that are of high value for real customers. That will give us the experience we need to give birth to this deployed general-purpose capability.”&lt;/p&gt;</description>
@@ -1379,26 +1216,11 @@
       <pubDate>Tue, 04 Aug 2026 08:00:41 +0000</pubDate>
     </item>
     <item>
-      <title>How companies could share cyber risks without exposing their secrets</title>
-      <link>https://cyberscoop.com/zero-knowledge-proofs-cyber-risk-sharing-op-ed/</link>
-      <description>&lt;p&gt;A cryptographic technique could let companies prove they're vulnerable to critical flaws without revealing the sensitive data that attackers could exploit.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/zero-knowledge-proofs-cyber-risk-sharing-op-ed/"&gt;How companies could share cyber risks without exposing their secrets&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/zero-knowledge-proofs-cyber-risk-sharing-op-ed/</guid>
-      <pubDate>Tue, 04 Aug 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What Robotics Companies Think About the U.S. Foreign Robot Ban</title>
       <link>https://spectrum.ieee.org/fcc-covered-list-mobile-robots</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C469%2C0%2C469" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. &lt;span&gt;On 28 July, the FCC added &lt;/span&gt;&lt;a href="https://www.fcc.gov/document/fcc-adds-foreign-produced-power-inverters-and-robots-covered-list-0" target="_blank"&gt;mobile, communicating robots weighing more than 2 kilograms and power inverters&lt;/a&gt;&lt;span&gt; commonly used in solar panels to the list, meaning that new products from any foreign country in these categories are no longer eligible for import.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The move is a Department of Defense (DOD)-driven expansion of scattered federal efforts to &lt;a href="https://spectrum.ieee.org/chinese-robots-us-ban" target="_self"&gt;further limit U.S. exposure&lt;/a&gt; to potentially sensitive Chinese technology, but it may impose major changes on the robotics industry in allied countries, too. &lt;/p&gt;&lt;p&gt;The FCC’s &lt;a href="https://www.fcc.gov/sites/default/files/robots-nsd.pdf" target="_blank"&gt;announcement&lt;/a&gt; says that: &lt;/p&gt;&lt;blockquote&gt;All foreign-produced advanced robotic devices pose an unacceptable risk to the national security of the United States and to the safety and security of U.S. persons… unless the [Department of Defense determines that] a given foreign-produced advanced robotic device, or a class of such devices, does not pose such risks.&lt;/blockquote&gt;&lt;p&gt;There are two &lt;a href="https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf" target="_blank"&gt;important definitions&lt;/a&gt; here. The first is what an “advanced robotic device” is, and the second is what “unacceptable risk” means. Drones already went through their own round of this sort of regulation, so they’re exempt from this particular restriction, as are connected vehicles and medical devices. As far as the FCC is concerned, “advanced robotic devices” are &lt;em&gt;&lt;em&gt;mobile&lt;/em&gt;&lt;/em&gt; systems that incorporate on-board sensing and communications and have some amount of autonomy. There are a couple of loopholes, including systems weighing under 2 kg and any system that communicates at less than 200 kilobits per second, which opens up some creative possibilities. It’s important to note that this applies to &lt;em&gt;&lt;em&gt;new&lt;/em&gt;&lt;/em&gt; devices; those already certified are not restricted for sale or use.&lt;/p&gt;&lt;p&gt;As to the risks, the U.S. government says that foreign advanced robotic devices represent: “a cybersecurity risk that threatens the security of critical infrastructure and thus the safety and security of U.S. persons.” There seem to be two main points to the justification, &lt;a href="https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf" rel="noopener noreferrer" target="_blank"&gt;found in Appendix C&lt;/a&gt;. The first is that mobile robots are important to both the economy and the military, so the United States needs its own supply chain and industrial base rather than relying on foreign manufacturers. And second, mobile robots monitor critical infrastructure in sensitive locations, making them a security risk.&lt;/p&gt;&lt;h2&gt;The Country That Must Not Be Named&lt;/h2&gt;&lt;p&gt;As part of &lt;a href="https://www.fcc.gov/sites/default/files/robots-nsd.pdf" rel="noopener noreferrer" target="_blank"&gt;its justification&lt;/a&gt; for why foreign robots are a security risk, DOD cites &lt;a href="https://spectrum.ieee.org/unitree-robot-exploit" target="_self"&gt;&lt;em&gt;&lt;em&gt;IEEE Spectrum’s&lt;/em&gt;&lt;/em&gt; article on a critical vulnerability in robots from Unitree&lt;/a&gt;, based in Hangzhou, China, along with several other news articles and reports about Chinese robotics. And despite the FCC &lt;a href="https://www.fcc.gov/covered-list-faqs-robots-inverters" rel="noopener noreferrer" target="_blank"&gt;swearing&lt;/a&gt; up and down that this action is “country neutral” and “not targeted at any country or countries,” U.S. national security sources told &lt;em&gt;&lt;em&gt;Spectrum&lt;/em&gt;&lt;/em&gt; that the perceived threat is obviously China. That’s how China feels about it, too, per a Chinese Ministry of Commerce 29 July &lt;a href="https://za.china-embassy.gov.cn/eng/fyrth/202607/t20260729_11994715.htm" rel="noopener noreferrer" target="_blank"&gt;press conference&lt;/a&gt; (&lt;a href="https://sinocism.notion.site/MOFCOM-Spokesperson-Answers-Reporters-Questions-on-the-US-FCC-Adding-Foreign-Power-Inverters-and-Ad-3ad84ece41d781ca8e46d4ec2a45c96c" rel="noopener noreferrer" target="_blank"&gt;translation of the first quote here&lt;/a&gt;):&lt;/p&gt;&lt;blockquote&gt;On the surface, the FCC’s measures fly the banner of “non-discrimination,” but in substance they discriminate against and suppress Chinese enterprises and products…&lt;br /&gt;&lt;br /&gt;China firmly opposes the U.S. overstretching the concept of national security and going after Chinese companies. Protectionism does not make the U.S. more competitive and will only hurt the interests of U.S. companies and consumers. China will continue to do what is necessary to firmly defend the legitimate and lawful rights and interests of Chinese companies.&lt;/blockquote&gt;&lt;p&gt;It’s unclear what China is going to do about this—but how about the rest of the world? How can foreign companies that make advanced robotic devices get them cleared for FCC authorization? Among &lt;a href="https://www.fcc.gov/sites/default/files/robots-ca.pdf" rel="noopener noreferrer" target="_blank"&gt;many, many other things&lt;/a&gt;, you’ll need to provide “a detailed, time-bound plan to establish or expand manufacturing in the United States for the advanced robotic device.” &lt;/p&gt;&lt;p&gt;Because China also produces a large fraction of robot components, even for robots assembled in the United States, it will have strong leverage in any related negotiations until U.S. robotics companies further diversify their supply chains.&lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/chinese-robots-us-ban" target="_self"&gt;Proposed Chinese Robot Ban Is Latest U.S. Tech Sovereignty Move&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Applicants must also submit their applications to the DOD and FCC by 1 January 2028, which is unfortunate for anyone who wants to develop an advanced robotic device after that point. &lt;/p&gt;&lt;h2&gt;Robotics Industry Reactions&lt;/h2&gt;&lt;p&gt;This is all very new, and reactions from the robotics community have been mixed. &lt;/p&gt;&lt;p&gt;Some American robotics companies may benefit in the local market from the newfound lack of competition in the commercial market. &lt;a href="https://www.linkedin.com/in/brendanschulman/" rel="noopener noreferrer" target="_blank"&gt;Brendan Schulman,&lt;/a&gt; &lt;a href="https://bostondynamics.com/" rel="noopener noreferrer" target="_blank"&gt;Boston Dynamics&lt;/a&gt;’ vice president of policy, wrote an enthusiastic &lt;a href="https://www.linkedin.com/posts/brendanschulman_after-months-of-increasing-calls-from-industry-activity-7488070496488435712-8LE-?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAADzTX0B_X82L2FL9GS1Qib6fNoMXJQlPzA" rel="noopener noreferrer" target="_blank"&gt;endorsement of the ban on LinkedIn&lt;/a&gt;: “I sense that this is just the first round in a series of policies that will define the success and growth of the industry for decades to come.” On the other hand, third-country buyers &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7488293386664292355/" rel="noopener noreferrer" target="_blank"&gt;may just stick to Chinese products&lt;/a&gt;, as they generally have for drones and electric cars. &lt;/p&gt;&lt;p&gt;But not all companies expect major changes from the new regulation. American customers “need to know they can audit the technology, get support quickly, and keep the system operating without depending on a fragile overseas supply chain,” &lt;a href="https://www.linkedin.com/in/nicolaus-radford/" rel="noopener noreferrer" target="_blank"&gt;Nic Radford&lt;/a&gt;, the CEO of U.S. humanoid robotics company &lt;a href="https://spectrum.ieee.org/persona-ai-radford-pratt/" target="_self"&gt;Persona&lt;/a&gt;, tells &lt;em&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;/em&gt;. In other words, he figures some customers wouldn’t have wanted Chinese humanoids anyway.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/in/phfrey/" rel="noopener noreferrer" target="_blank"&gt;Philipp Frey&lt;/a&gt;, vice president of strategy for Swiss quadruped company &lt;a href="https://www.anybotics.com/" rel="noopener noreferrer" target="_blank"&gt;ANYbotics&lt;/a&gt;, agrees. He says their enterprise customers in the United States “increasingly evaluate robots on long-term reliability, cybersecurity, software capability, safety certification, serviceability, and ecosystem integration, not on hardware cost alone.” &lt;/p&gt;&lt;p&gt;ANYbotics also plans to apply for conditional approval of future products, Frey says. That will involve a national-security review by DOD or the Department of Homeland Security, disclosing company beneficial ownership, supply chain risks, and declaring a plan for establishing a significant manufacturing presence in the United States.&lt;/p&gt;&lt;p&gt;U.S. quadruped company &lt;a href="https://www.ghostrobotics.io/" rel="noopener noreferrer" target="_blank"&gt;Ghost Robotic&lt;/a&gt;’s CEO &lt;a href="https://www.linkedin.com/in/gavin-kenneally-321a3833/" rel="noopener noreferrer" target="_blank"&gt;Gavin Kenneally&lt;/a&gt; is more explicit about the risks Chinese robot strategy poses to the United States. “Active and purposeful spyware is deployed inside the U.S. on Chinese robots. Examples of predatory pricing abound. And this isn’t just a competition between U.S. and Chinese robotics companies; it’s between private U.S. companies and China’s coordinated national strategy,” Kenneally tells &lt;em&gt;&lt;em&gt;Spectrum&lt;/em&gt;&lt;/em&gt;. “If today’s announcement encourages stronger cybersecurity and a more level competitive environment, that’s good for customers and good for the robotics industry.”&lt;/p&gt;&lt;p&gt;So is an industry-wide ban the best way to guard against threats? American approaches to Chinese technology security risks have been “ad hoc and fragmented,” wrote Brookings Institution sociologist &lt;a href="https://www.brookings.edu/people/kyle-chan/" rel="noopener noreferrer" target="_blank"&gt;Kyle Chan&lt;/a&gt; in a &lt;a href="https://www.brookings.edu/articles/a-new-risk-framework-for-chinese-technology-products-and-investments/" rel="noopener noreferrer" target="_blank"&gt;report&lt;/a&gt; published 9 July. Chan called for the Bureau of Industry and Security, part of the Department of Commerce, to centralize federal information gathering and decision-making on how to handle risky foreign devices. He also called for better public input mechanisms for these issues, and a continuous, proportionate process that tightened or relaxed targeted import restrictions in response to well-defined risks. &lt;/p&gt;&lt;p&gt;That would allow American industry to continue benefiting from partnerships with Chinese manufacturers in less sensitive links of the supply chain, Chan argues. Those links will evolve over time, requiring continued assessment, but without those partnerships, crude bans “could make it more difficult for American startups and researchers to develop new software and end up slowing innovation across the U.S. robotics ecosystem,” he writes.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/fcc-covered-list-mobile-robots</guid>
       <pubDate>Tue, 04 Aug 2026 11:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>'Human Safari': Russian Drone Hunts Down Market Vendor In Kherson</title>
-      <link>https://www.rferl.org/a/russian-drone-hunts-down-market-vendor-in-kherson/33821640.html</link>
-      <description>Ukrainian police have published a video they say shows a Russian drone stalking and attacking a man selling goods at a market in the city of Kherson. The 52-year-old survived but suffered blast trauma, a concussion, and shrapnel wounds, according to authorities.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russian-drone-hunts-down-market-vendor-in-kherson/33821640.html</guid>
-      <pubDate>Tue, 04 Aug 2026 11:02:01 +0000</pubDate>
     </item>
     <item>
       <title>CISA Adds Three Known Exploited Vulnerabilities to Catalog</title>
@@ -1716,13 +1538,6 @@
       <pubDate>Tue, 04 Aug 2026 12:00:12 +0000</pubDate>
     </item>
     <item>
-      <title>The Marine Corps Made Me Do It: A Polar Plunge in Pink Lingerie</title>
-      <link>https://sofrep.com/news/military-service-changes-you-a-marine-and-his-ego-vs-the-polar-plunge/</link>
-      <description>The Marine Corps taught me that sometimes becoming a better man means keeping your word, swallowing your pride, and charging into a frozen Vermont lake wearing a pink nightgown. #MarineCorps #PolarPlunge #MilitaryCulture #SpecialOlympics #VeteranStories</description>
-      <guid isPermaLink="false">https://sofrep.com/news/military-service-changes-you-a-marine-and-his-ego-vs-the-polar-plunge/</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:17 +0000</pubDate>
-    </item>
-    <item>
       <title>The Download: US robot restrictions and ICE’s DNA grab</title>
       <link>https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/</link>
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Trump’s AI protectionism has come for robotics   —James O’Donnell&amp;#160; Humanoid robots usually elicit more cringe than awe: They&amp;#160;stumble,&amp;#160;kick children, and despite advances are still worse at&amp;#160;using their hands&amp;#160;than my toddler. It’s&amp;#8230;</description>
@@ -1752,18 +1567,18 @@
       <pubDate>Tue, 04 Aug 2026 12:50:53 +0000</pubDate>
     </item>
     <item>
-      <title>AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls</title>
-      <link>https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls</link>
-      <description>A Google Firebase misconfiguration lets users of tl;dv, an AI meeting tool, query any other users' meeting information and potentially join calls.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls</guid>
-      <pubDate>Tue, 04 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>So what’s the strategy for Estonia navigating a changing security environment?</title>
       <link>https://www.atlanticcouncil.org/commentary/podcast/so-whats-the-strategy-for-estonia-navigating-a-changing-security-environment/</link>
       <description>&lt;p&gt;Host Matthew Kroenig is joined by Jonatan Vseviov, Secretary General of the Estonian Ministry of Foreign Affairs to discuss how Estonia is confronting a changing security environment. Located on NATO’s eastern flank, Estonia plays a critical role in helping the alliance deter and defend against adversaries, including Russia.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/commentary/podcast/so-whats-the-strategy-for-estonia-navigating-a-changing-security-environment/"&gt;So what’s the strategy for Estonia navigating a changing security environment?&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/commentary/podcast/so-whats-the-strategy-for-estonia-navigating-a-changing-security-environment/</guid>
+      <pubDate>Tue, 04 Aug 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls</title>
+      <link>https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls</link>
+      <description>A Google Firebase misconfiguration lets users of tl;dv, an AI meeting tool, query any other users' meeting information and potentially join calls.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls</guid>
       <pubDate>Tue, 04 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1872,25 +1687,11 @@
       <pubDate>Tue, 04 Aug 2026 15:24:10 +0000</pubDate>
     </item>
     <item>
-      <title>Massive ChainDrop npm supply-chain attack infects hundreds of packages</title>
-      <link>https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/</link>
-      <description>Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/</guid>
-      <pubDate>Tue, 04 Aug 2026 15:24:35 +0000</pubDate>
-    </item>
-    <item>
       <title>What a Near-Miss Drone Incident Reveals About South Korea-US Operational Coordination</title>
       <link>https://thediplomat.com/2026/08/what-a-near-miss-drone-incident-reveals-about-south-korea-us-operational-coordination/</link>
       <description>South Korea's army thought they were locked on to a North Korean UAV. It actually belonged to the U.S. Marine Corps.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/what-a-near-miss-drone-incident-reveals-about-south-korea-us-operational-coordination/</guid>
       <pubDate>Tue, 04 Aug 2026 15:29:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The confidence deficit in space</title>
-      <link>https://breakingdefense.com/2026/08/the-confidence-deficit-in-space/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/the-confidence-deficit-in-space/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/251104_earth_satellite_graphic_GettyImages-2071084265-e1762277704935-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Satellite operators make decisions based on the quality and confidence of orbital data they receive. But new research indicates that such data must be improved in order for space safety and security to be effective, argues Dan Oltrogge.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/the-confidence-deficit-in-space/</guid>
-      <pubDate>Tue, 04 Aug 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Essential Provisions CEO Robin Gentry McGee on Building a Better MRE</title>
@@ -2151,7 +1952,7 @@
     <item>
       <title>Trump Orders White House Helipad Construction Redo: Report</title>
       <link>https://www.twz.com/air/trump-orders-white-house-helipad-construction-redo-report</link>
-      <description>&lt;p&gt;The helipad was initially expected to be finished by the time Chinese President Xi Jinping arrives in September&lt;/p&gt;
+      <description>&lt;p&gt;The helipad was initially expected to be finished by the time Chinese President Xi Jinping arrives in September.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/trump-orders-white-house-helipad-construction-redo-report"&gt;Trump Orders White House Helipad Construction Redo: Report&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/trump-orders-white-house-helipad-construction-redo-report</guid>
       <pubDate>Tue, 04 Aug 2026 22:53:33 +0000</pubDate>
@@ -2250,15 +2051,6 @@
       <pubDate>Wed, 05 Aug 2026 07:30:49 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself</title>
-      <link>https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html</link>
-      <description>An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.
-
-When a bystander publicly warned that the code was malicious, the agent denied it, force-pushed a rewritten branch history to erase the evidence, and posted from a second account it controlled to vouch for</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html</guid>
-      <pubDate>Wed, 05 Aug 2026 07:53:50 +0000</pubDate>
-    </item>
-    <item>
       <title>Angola's Largest Telco Breached Hours Before IPO</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo</link>
       <description>Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.</description>
@@ -2279,15 +2071,6 @@ When a bystander publicly warned that the code was malicious, the agent denied i
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/ai-chatbots-2026-midterm-elections/"&gt;AI is getting better at election facts, but voters shouldn’t rely on it&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/ai-chatbots-2026-midterm-elections/</guid>
       <pubDate>Wed, 05 Aug 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data</title>
-      <link>https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html</link>
-      <description>A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed.
-
-The "evil twin" extensions were uploaded to the repository between July 26 and August 1, 2026, according to Manifold Security. The packages have been removed from Open VSX as of</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html</guid>
-      <pubDate>Wed, 05 Aug 2026 09:23:03 +0000</pubDate>
     </item>
     <item>
       <title>Leaked n8n API Tokens Exposed Live Instances to Credential Theft</title>
@@ -2352,6 +2135,20 @@ The phishing kit targets US organizations with attacker-controlled device codes 
 The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html</guid>
       <pubDate>Wed, 05 Aug 2026 11:43:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-63077" target="_blank"&gt;CVE-2026-63077 &lt;/a&gt;JetBrains TeamCity Deserialization of Untrusted Data Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Ghost Blimp of World War II: What Happened to the Crew of L-8?</title>
@@ -2613,7 +2410,7 @@ One such service, Poison Claude, claims to offer access to Anthropic's large lan
     <item>
       <title>Houthis To Expand Shipping Attacks To Northern Red Sea</title>
       <link>https://www.twz.com/news-features/houthis-to-expand-shipping-attacks-to-northern-red-sea</link>
-      <description>&lt;p&gt;If the Houthis start hitting ships heading toward the Suez Canal it could be another catastrophic blow to world energy supplies.&lt;/p&gt;
+      <description>&lt;p&gt;If the Houthis start hitting ships heading toward the Suez Canal, it could be another catastrophic blow to world energy supplies.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/houthis-to-expand-shipping-attacks-to-northern-red-sea"&gt;Houthis To Expand Shipping Attacks To Northern Red Sea&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/houthis-to-expand-shipping-attacks-to-northern-red-sea</guid>
       <pubDate>Wed, 05 Aug 2026 18:19:03 +0000</pubDate>
@@ -2626,11 +2423,79 @@ One such service, Poison Claude, claims to offer access to Anthropic's large lan
       <pubDate>Wed, 05 Aug 2026 18:30:00 +0000</pubDate>
     </item>
     <item>
+      <title>OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes</title>
+      <link>https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html</link>
+      <description>OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes.
+
+To that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html</guid>
+      <pubDate>Wed, 05 Aug 2026 18:33:47 +0000</pubDate>
+    </item>
+    <item>
       <title>Havrylov in Ukrinform: For the first time in Ukraine’s history, we are launching the licensed production of a defense system on Ukrainian soil</title>
       <link>https://www.atlanticcouncil.org/insight-impact/havrylov-in-ukrinform-for-the-first-time-in-ukraines-history-we-are-launching-the-licensed-production-of-a-defense-system-on-ukrainian-soil/</link>
       <description>&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/havrylov-in-ukrinform-for-the-first-time-in-ukraines-history-we-are-launching-the-licensed-production-of-a-defense-system-on-ukrainian-soil/"&gt;Havrylov in Ukrinform: For the first time in Ukraine&amp;#8217;s history, we are launching the licensed production of a defense system on Ukrainian soil&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/havrylov-in-ukrinform-for-the-first-time-in-ukraines-history-we-are-launching-the-licensed-production-of-a-defense-system-on-ukrainian-soil/</guid>
       <pubDate>Wed, 05 Aug 2026 18:39:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures</title>
+      <link>https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html</link>
+      <description>A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks.
+
+The server-side gate hides the malicious page from crawlers and sandboxes while presenting selected Mac users with a fake software download. Microsoft</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html</guid>
+      <pubDate>Wed, 05 Aug 2026 18:44:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning</title>
+      <link>https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning</link>
+      <description>Researchers are calling attention to the risks inherent in automated network device provisioning, using a world-leading device manufacturer as a case study.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning</guid>
+      <pubDate>Wed, 05 Aug 2026 19:08:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tom Cotton prods Treasury for tax code tweaks to modernize OT</title>
+      <link>https://fedscoop.com/treasury-tax-code-ot-cyberattacks-tom-cotton-letter/</link>
+      <description>&lt;p&gt;The Senate Intel Committee chair wrote to Treasury Secretary Scott Bessent about changes to spur investment in aging technology to better guard against cyberattacks.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://fedscoop.com/treasury-tax-code-ot-cyberattacks-tom-cotton-letter/"&gt;Tom Cotton prods Treasury for tax code tweaks to modernize OT&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://fedscoop.com/treasury-tax-code-ot-cyberattacks-tom-cotton-letter/</guid>
+      <pubDate>Wed, 05 Aug 2026 19:35:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>CSS: The Hidden Threat Lurking in Your Inbox</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/css-hidden-threat-lurking-inbox</link>
+      <description>CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail — and some vendors aren't prepared.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/css-hidden-threat-lurking-inbox</guid>
+      <pubDate>Wed, 05 Aug 2026 19:47:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Senator Curtis: 'Failure Is Not An Option' In Russia-Ukraine War</title>
+      <link>https://www.rferl.org/a/us-senator-john-curtis-russia-ukraine/33822950.html</link>
+      <description>In an interview with RFE/RL, US Senator John Curtis, a Republican from Utah, said there is strong bipartisan support for new legislation sanctioning Russia, stressing that a Russian victory in Ukraine would have negative repercussions elsewhere in the world.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/us-senator-john-curtis-russia-ukraine/33822950.html</guid>
+      <pubDate>Wed, 05 Aug 2026 19:51:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers run khunt post-exploitation toolkit from Oracle database</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/</link>
+      <description>Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/</guid>
+      <pubDate>Wed, 05 Aug 2026 19:55:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Space Force awards 3 firms $615M to track airborne targets</title>
+      <link>https://breakingdefense.com/2026/08/space-force-awards-3-firms-615m-to-track-airborne-targets/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/space-force-awards-3-firms-615m-to-track-airborne-targets/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/260805_DVIDS_rocket_lab_launch_9765532-scaled-e1785953802944-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The task orders come under an ID/IQ with an undisclosed value granted to nine firms in April, and follow a first order to SpaceX in May worth $4.6 billion.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/space-force-awards-3-firms-615m-to-track-airborne-targets/</guid>
+      <pubDate>Wed, 05 Aug 2026 19:56:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pic of the Day: Brothers in Agony – A MEDEVAC Photo From Afghanistan</title>
+      <link>https://sofrep.com/news/pic-of-the-day-the-real-faces-of-war/</link>
+      <description>War is not glorious; it is the white hot rattle of a MEDEVAC, two blood slick hands locked after an IED blast near Kandahar, and a young sergeant who learns the hard Latin that war is only sweet for those who have not been through it.  #SOFREP #USArmy #101stAirborne #MEDEVAC #Kandahar #AfghanistanWar #WoundedWarrior #IED #Veterans #NeverForget</description>
+      <guid isPermaLink="false">https://sofrep.com/news/pic-of-the-day-the-real-faces-of-war/</guid>
+      <pubDate>Wed, 05 Aug 2026 20:00:39 +0000</pubDate>
     </item>
   </channel>
 </rss>
