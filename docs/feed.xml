@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 15:27:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 17:03:39 +0000</lastBuildDate>
     <item>
       <title>Watchfire Controller Software</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09</link>
@@ -221,13 +221,11 @@
 &lt;div class="ics-remediations"&gt;
 &lt;h6&gt;Remediations&lt;/h6&gt;
 &lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Toptech Systems provides two methods for remediating affected RCU II+ and Multiload II+ units: First, move the device to a closed or segmented network without untrusted access.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Run one of the RCU II+/Multiload II+ Vulnerability Removal Tools (VRT) available at https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.zip, https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.gz. *-* This option does not require breaking Weights and Measures seals and has the least operational impact.&lt;br /&gt;&lt;a href="https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.zip"&gt;https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.zip&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Run one of the RCU II+/Multiload II+ Vulnerability Removal Tools (VRT) available at https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.zip, https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.gz. *-* This option does not require breaking Weights and Measures seals and has the least operational impact.&lt;br /&gt;&lt;a href="https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.gz"&gt;https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.gz&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;This option does not require breaking Weights and Measures seals and has the least operational impact.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Install the latest firmware from https://s3.amazonaws.com/docs.toptech.com/index.html#downloads/Firmware/RCUII+_MLII+_SMPII+/. *-* This method requires stopping the bay and breaking the W&amp;amp;M seal. Be sure to back up the current ML configuration before performing the firmware update.&lt;br /&gt;&lt;a href="https://s3.amazonaws.com/docs.toptech.com/index.html#downloads/Firmware/RCUII+_MLII+_SMPII+/"&gt;https://s3.amazonaws.com/docs.toptech.com/index.html#downloads/Firmware/RCUII+_MLII+_SMPII+/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;This method requires stopping the bay and breaking the W&amp;amp;M seal. Be sure to back up the current ML configuration before performing the firmware update.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For questions, contact Toptech Systems Support at security@toptech.com. Additional details are available in Toptech System's firmware vulnerability notice: https://s3.amazonaws.com/docs.toptech.com/nonpublic/2025%2012%2001%20RCU%20IIPlus%20MultiLoad%20IIPlus%20Vulnerability%20Notice.pdf.&lt;br /&gt;&lt;a href="mailto:security@toptech.com"&gt;mailto:security@toptech.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For questions, contact Toptech Systems Support at security@toptech.com. Additional details are available in Toptech System's firmware vulnerability notice: https://s3.amazonaws.com/docs.toptech.com/nonpublic/2025%2012%2001%20RCU%20IIPlus%20MultiLoad%20IIPlus%20Vulnerability%20Notice.pdf.&lt;br /&gt;&lt;a href="https://s3.amazonaws.com/docs.toptech.com/nonpublic/2025%2012%2001%20RCU%20IIPlus%20MultiLoad%20IIPlus%20Vulnerability%20Notice.pdf"&gt;https://s3.amazonaws.com/docs.toptech.com/nonpublic/2025%2012%2001%20RCU%20IIPlus%20MultiLoad%20IIPlus%20Vulnerability%20Notice.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Run one of the RCU II+/Multiload II+ Vulnerability Removal Tools (VRT) available at: https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.zip&lt;br /&gt;&lt;a href="https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.zip"&gt;https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.gz. This option does not require breaking Weights and Measures seals and has the least operational impact.&lt;br /&gt;&lt;a href="https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.gz"&gt;https://s3.amazonaws.com/docs.toptech.com/nonpublic/rcuiip_mliip_vrt.gz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Install the latest firmware from: https://s3.amazonaws.com/docs.toptech.com/index.html#downloads/Firmware/RCUII+_MLII+_SMPII+/. This method requires stopping the bay and breaking the W&amp;amp;M seal. Be sure to back up the current ML configuration before performing the firmware update.&lt;br /&gt;&lt;a href="https://s3.amazonaws.com/docs.toptech.com/index.html#downloads/Firmware/RCUII+_MLII+_SMPII+/"&gt;https://s3.amazonaws.com/docs.toptech.com/index.html#downloads/Firmware/RCUII+_MLII+_SMPII+/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For questions, contact Toptech Systems Support at security@toptech.com.&lt;br /&gt;&lt;a href="mailto:security@toptech.com"&gt;mailto:security@toptech.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Additional details are available in Toptech System's firmware vulnerability notice: https://s3.amazonaws.com/docs.toptech.com/nonpublic/2025%2012%2001%20RCU%20IIPlus%20MultiLoad%20IIPlus%20Vulnerability%20Notice.pdf&lt;br /&gt;&lt;a href="https://s3.amazonaws.com/docs.toptech.com/nonpublic/2025%2012%2001%20RCU%20IIPlus%20MultiLoad%20IIPlus%20Vulnerability%20Notice.pdf"&gt;https://s3.amazonaws.com/docs.toptech.com/nonpublic/2025%2012%2001%20RCU%20IIPlus%20MultiLoad%20IIPlus%20Vulnerability%20Notice.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -299,6 +297,11 @@
 &lt;td&gt;2026-07-30&lt;/td&gt;
 &lt;td&gt;1&lt;/td&gt;
 &lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-08-05&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Revision - Revised mitigation section&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1429,13 +1432,6 @@
       <pubDate>Fri, 31 Jul 2026 12:16:00 +0000</pubDate>
     </item>
     <item>
-      <title>Synthetic and federated training: drone AI gets combat-ready</title>
-      <link>https://www.army-technology.com/features/synthetic-and-federated-training-drone-ai-gets-combat-ready/</link>
-      <description>Battlefield learning for drone operations is increasingly being considered in real-time, as militaries try to adapt to counter new threats.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/features/synthetic-and-federated-training-drone-ai-gets-combat-ready/</guid>
-      <pubDate>Fri, 31 Jul 2026 12:32:24 +0000</pubDate>
-    </item>
-    <item>
       <title>Chinese military researchers tap US AI models to train defense systems</title>
       <link>https://www.c4isrnet.com/industry/techwatch/2026/07/31/chinese-military-researchers-tap-us-ai-models-to-train-defense-systems/</link>
       <description>Chinese researchers have reportedly used leading U.S. AI models developed by OpenAI and Anthropic to train AI systems to advance defense capabilities.</description>
@@ -1651,14 +1647,6 @@
       <pubDate>Mon, 03 Aug 2026 12:08:00 +0000</pubDate>
     </item>
     <item>
-      <title>ASEAN-5 in an era of geoeconomic realignment: Opportunities and risks in a fragmenting global economy</title>
-      <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/asean-5-in-an-era-of-geoeconomic-realignment-opportunities-and-risks-in-a-fragmenting-global-economy/</link>
-      <description>&lt;p&gt;ASEAN-5 is poised to become an increasingly important engine of global growth, supported by young populations, improving human capital, abundant resources, and deep integration into global supply chains. Yet fragmentation, trade tensions, climate risks, infrastructure gaps, and regulatory constraints could limit this potential, making coordinated reforms essential to securing resilient and sustained regional economic progress.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/asean-5-in-an-era-of-geoeconomic-realignment-opportunities-and-risks-in-a-fragmenting-global-economy/"&gt;ASEAN-5 in an era of geoeconomic realignment: Opportunities and risks in a fragmenting global economy&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/asean-5-in-an-era-of-geoeconomic-realignment-opportunities-and-risks-in-a-fragmenting-global-economy/</guid>
-      <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>OPM breach victims could get identity protection for life</title>
       <link>https://www.defenseone.com/threats/2026/08/lawmakers-propose-giving-2015-opm-breach-victims-identity-protection-life/415191/</link>
       <description>The federal government’s coverage for 22.1 million people hoovered up in the 2015 China-linked breaches is scheduled to end Sept. 30.</description>
@@ -1714,14 +1702,6 @@
       <description>Space-Eyes, a provider of AI-driven geospatial intelligence and counter-drone systems, has entered into a definitive business combination agreement with McKinley Acquisition (McKinley).</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/space-eyes-mckinley-merger/</guid>
       <pubDate>Mon, 03 Aug 2026 16:16:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Radar Delivery Pushes Arleigh Burke Destroyer Modernization Work Toward Next Phase</title>
-      <link>https://www.twz.com/sea/new-radar-delivery-pushes-arleigh-burke-destroyer-modernization-work-toward-next-phase</link>
-      <description>&lt;p&gt;The USS Pinckney is first in line to get the new AN/SPY‑6(V)4 radar, a key part of a larger upgrade package.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/new-radar-delivery-pushes-arleigh-burke-destroyer-modernization-work-toward-next-phase"&gt;New Radar Delivery Pushes Arleigh Burke Destroyer Modernization Work Toward Next Phase&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/sea/new-radar-delivery-pushes-arleigh-burke-destroyer-modernization-work-toward-next-phase</guid>
-      <pubDate>Mon, 03 Aug 2026 16:52:55 +0000</pubDate>
     </item>
     <item>
       <title>Lockheed Martin’s Master Plan For Accelerating Munitions Production</title>
@@ -1836,13 +1816,6 @@
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts</title>
-      <link>https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/</link>
-      <description>Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/</guid>
-      <pubDate>Tue, 04 Aug 2026 00:17:15 +0000</pubDate>
-    </item>
-    <item>
       <title>ISC Stormcast For Tuesday, August 4th, 2026 https://isc.sans.edu/podcastdetail/10036, (Tue, Aug 4th)</title>
       <link>https://isc.sans.edu/diary/rss/33212</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33212</guid>
@@ -1891,13 +1864,6 @@
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/a-conversation-with-the-pentagons-chief-buyer-under-secretary-michael-p-duffey/"&gt;A Conversation with the Pentagon&amp;#8217;s Chief Buyer, Under Secretary Michael P. Duffey&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/a-conversation-with-the-pentagons-chief-buyer-under-secretary-michael-p-duffey/</guid>
       <pubDate>Tue, 04 Aug 2026 08:00:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Navy renews Saildrone’s counter-drug mission in the Caribbean, Eastern Pacific</title>
-      <link>https://breakingdefense.com/2026/08/navy-renews-saildrones-counter-drug-mission-in-the-caribbean-eastern-pacific/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/navy-renews-saildrones-counter-drug-mission-in-the-caribbean-eastern-pacific/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/02/20250109-St-Thomas-200W-Radar-Voyagers-6741-scaled-e1738750883331-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The task order extension will keep Voyager USVs operating in the Caribbean and the Eastern Pacific. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/navy-renews-saildrones-counter-drug-mission-in-the-caribbean-eastern-pacific/</guid>
-      <pubDate>Tue, 04 Aug 2026 09:05:00 +0000</pubDate>
     </item>
     <item>
       <title>As World Bank Retreats From Climate Targets, India’s Most Vulnerable Could Pay the Price</title>
@@ -2790,18 +2756,9 @@
       <pubDate>Wed, 05 Aug 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer</title>
-      <link>https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html</link>
-      <description>Cybersecurity researchers have disclosed what has been described as a "long-standing supply chain attack" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.
-
-According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html</guid>
-      <pubDate>Wed, 05 Aug 2026 05:47:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russian Drone And Missile Barrage On Ukraine Kills 17</title>
+      <title>Russian Barrage On Kyiv Region Kills 17 Amid Ukraine's Air Defense Missile Shortage</title>
       <link>https://www.rferl.org/a/russian-drone-and-missile-barrage-on-ukraine/33822483.html</link>
-      <description>Russian overnight drone and ballistic missile strikes killed at least 15 people in Kyiv and the surrounding region, as Ukraine warned of critical air defense shortages.</description>
+      <description>BROVARY, Ukraine -- Russian overnight drone and ballistic missile strikes killed at least 17 people in the Kyiv region, as Ukraine warned of critical air defense shortages and urged its allies to hasten deliveries of urgently needed air defense missiles.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russian-drone-and-missile-barrage-on-ukraine/33822483.html</guid>
       <pubDate>Wed, 05 Aug 2026 05:50:58 +0000</pubDate>
     </item>
@@ -2820,18 +2777,6 @@ According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing 
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/why-trumps-israel-normalization-demand-may-kill-the-saudi-nuclear-deal/"&gt;Why Trump’s Israel Normalization Demand May Kill the Saudi Nuclear Deal&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/why-trumps-israel-normalization-demand-may-kill-the-saudi-nuclear-deal/</guid>
       <pubDate>Wed, 05 Aug 2026 07:30:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited</title>
-      <link>https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.
-
-The list of vulnerabilities is as follows -
-
-
-  CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html</guid>
-      <pubDate>Wed, 05 Aug 2026 07:40:39 +0000</pubDate>
     </item>
     <item>
       <title>Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself</title>
@@ -2883,7 +2828,7 @@ We scanned public GitHub commits for exposed n8n API tokens and identified 4,576
       <pubDate>Wed, 05 Aug 2026 10:35:29 +0000</pubDate>
     </item>
     <item>
-      <title>Germany Probes 'Very Serious' Incidents Near Ukrainian Plane, DHL Cargo Flight In Leipzig</title>
+      <title>Drone Carrying Explosives Found Near Ukrainian Plane At Leipzig Airport</title>
       <link>https://www.rferl.org/a/german-police-probe-leipzig-airport-suspicious-flying-object/33822656.html</link>
       <description>German authorities are investigating two "very serious security incidents" at the Leipzig/Halle airport that temporarily suspended and diverted flights, raising suspicions of Russian involvement after similar incidents in recent years.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/german-police-probe-leipzig-airport-suspicious-flying-object/33822656.html</guid>
@@ -2947,7 +2892,7 @@ The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVS
     <item>
       <title>The reasons why Group 2 drones are right-sized for the fight</title>
       <link>https://breakingdefense.com/2026/08/the-reasons-why-group-2-drones-are-right-sized-for-the-fight/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/the-reasons-why-group-2-drones-are-right-sized-for-the-fight/"&gt;&lt;img alt="Redwire gamechanger Right-sized for the fight, Group 2 drones are tactically capable and economical" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Breaking-Defense-Redwire-Gamechanger-Group-2-Drones-August-2026-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] Fuel cell technology lets smaller, more versatile VTOLs handle tasks previously reserved for larger drones.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/the-reasons-why-group-2-drones-are-right-sized-for-the-fight/"&gt;&lt;img alt="Redwire gamechanger Right-sized for the fight, Group 2 drones are tactically capable and economical" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Breaking-Defense-Redwire-Gamechanger-Group-2-Drones-August-2026-V2-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] Fuel cell technology lets smaller, more versatile VTOLs handle tasks previously reserved for larger drones.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/the-reasons-why-group-2-drones-are-right-sized-for-the-fight/</guid>
       <pubDate>Wed, 05 Aug 2026 12:30:00 +0000</pubDate>
     </item>
@@ -2981,11 +2926,11 @@ The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVS
       <pubDate>Wed, 05 Aug 2026 13:09:54 +0000</pubDate>
     </item>
     <item>
-      <title>Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses</title>
+      <title>Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain</title>
       <link>https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html</link>
       <description>Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer.
 
-The new dead drop resolver approach, observed in two trojanized npm package "bianira-ui" and "fluid-type-ui," has been codenamed NullReceiver by</description>
+The new dead drop resolver approach, observed in two trojanized npm packages "bianira-ui" and "fluid-type-ui," has been codenamed NullReceiver by</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html</guid>
       <pubDate>Wed, 05 Aug 2026 13:41:27 +0000</pubDate>
     </item>
@@ -3045,11 +2990,68 @@ The three most serious:
       <pubDate>Wed, 05 Aug 2026 14:59:29 +0000</pubDate>
     </item>
     <item>
+      <title>Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports</title>
+      <link>https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html</link>
+      <description>Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it.
+
+A third flaw could expose sensitive data and control-plane details through application programming interface (API) routes</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html</guid>
+      <pubDate>Wed, 05 Aug 2026 15:14:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt</title>
+      <link>https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html</link>
+      <description>Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.
+
+One such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6.
+
+"Advertisements for Poison Claude</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html</guid>
+      <pubDate>Wed, 05 Aug 2026 15:36:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/</guid>
+      <pubDate>Wed, 05 Aug 2026 15:51:33 +0000</pubDate>
+    </item>
+    <item>
       <title>Iranian Fingerprints on America’s Water Systems: What the Cyberattacks in 12 States Really Mean</title>
       <link>https://sofrep.com/?p=230216&amp;preview=true&amp;preview_id=230216</link>
       <description>Iran may not yet be convicted in the court of public attribution, but somebody has been reaching into America’s water systems through doors the government warned us to close years ago. #Cybersecurity #CriticalInfrastructure #Iran #WaterSecurity #CyberWarfare</description>
       <guid isPermaLink="false">https://sofrep.com/?p=230216&amp;preview=true&amp;preview_id=230216</guid>
       <pubDate>Wed, 05 Aug 2026 16:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russia will sacrifice its civilian economy on the altar of the war effort</title>
+      <link>https://www.atlanticcouncil.org/dispatches/russia-will-sacrifice-its-civilian-economy-on-the-altar-of-the-war-effort/</link>
+      <description>&lt;p&gt;As the Central Bank of Russia runs out of options and bad loans accumulate on balance sheets, the Kremlin continues to privilege war-linked sectors.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/russia-will-sacrifice-its-civilian-economy-on-the-altar-of-the-war-effort/"&gt;Russia will sacrifice its civilian economy on the altar of the war effort&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/russia-will-sacrifice-its-civilian-economy-on-the-altar-of-the-war-effort/</guid>
+      <pubDate>Wed, 05 Aug 2026 16:04:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Army’s LUS programme advances as HERO 120 clears test</title>
+      <link>https://www.army-technology.com/news/us-army-hero-120-munition/</link>
+      <description>Mistral and Uvision have completed the first Lot Acceptance Tests (LAT) for the HERO 120 loitering munition, a key US Army requirement.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/us-army-hero-120-munition/</guid>
+      <pubDate>Wed, 05 Aug 2026 16:26:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Everyone is learning the wrong lessons from Ukraine’s drone war</title>
+      <link>https://breakingdefense.com/2026/08/everyone-is-learning-the-wrong-lessons-from-ukraines-drone-war/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/everyone-is-learning-the-wrong-lessons-from-ukraines-drone-war/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/06/250606_Ukraine_spider_web_drone_GettyImages-2217998222-e1749233418677.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Everyone is focused on Ukraine’s drones. They should be focused on Ukraine’s ability to adapt.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/everyone-is-learning-the-wrong-lessons-from-ukraines-drone-war/</guid>
+      <pubDate>Wed, 05 Aug 2026 16:27:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>China’s Growing Regional Ballistic Missile Arsenal: A Guide</title>
+      <link>https://www.twz.com/land/chinas-growing-regional-ballistic-missile-arsenal-a-guide</link>
+      <description>&lt;p&gt;From short-range missiles that threaten Taiwan to dual-capable weapons that can reach Guam, these varied systems are a key component of China’s anti-access strategy. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/land/chinas-growing-regional-ballistic-missile-arsenal-a-guide"&gt;China’s Growing Regional Ballistic Missile Arsenal: A Guide&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/land/chinas-growing-regional-ballistic-missile-arsenal-a-guide</guid>
+      <pubDate>Wed, 05 Aug 2026 16:50:12 +0000</pubDate>
     </item>
   </channel>
 </rss>
