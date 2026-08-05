@@ -7,264 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 21:45:14 +0000</lastBuildDate>
-    <item>
-      <title>Mitsubishi Electric CC-Link IE TSN Communication Protocol</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-07.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packets under specific timing conditions. This could allow the attacker to cause a denial-of-service (DoS) condition in the affected product by interfering with its control function or causing it to operate incorrectly.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Mitsubishi Electric CC-Link IE TSN Communication Protocol are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-R model MXR300-16 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-R model MXR300-32 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-R model MXR300-64 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-R model MXR500-128 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-R model MXR500-256 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-F model MXF100-8-N32 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-F model MXF100-8-P32 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-F model MXF100-16-N32 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC MX Controller MX-F model MXF100-16-P32 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Master/local module RJ71GN11-T2 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Master/local module RJ71GN11-SX vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Master/local module RJ71GN11-EIP vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Master/local module FX5-CCLGN-MS vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN interface board NZ81GN11-SX vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN interface board NZ81GN11-T2 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion module RD78G4 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion module RD78G8 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion module RD78G16 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion module RD78G64 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion module RD78GHV vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion module RD78GHW vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion module FX5-40SSC-G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion module FX5-80SSC-G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion Control Board MR-EM441G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2S1-32D vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2S1-32T vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2S1-32TE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2S1-32DT vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2S1-32DTE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2B1-32D vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2B1-32T vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2B1-32TE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2B1-32DT vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2B1-32DTE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GNCF1-32D vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GNCF1-32T vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GNCE3-32D vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GNCE3-32DT vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN12A4-16D vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN12A4-16DE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN12A2-16T vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN12A2-16TE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN12A42-16DT vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN12A42-16DTE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2S1-16D vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2S1-16T vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2S1-16TE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2B1-16D vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2B1-16T vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module NZ2GN2B1-16TE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-8D vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-8D-K vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-8TE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-8TE-K vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-16DTE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-16DTE-K vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module with safety functions NZ2GNS12A2-14DT vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Block-type remote module with safety functions NZ2GNS12A2-16DTE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Analog-Digital converter module NZ2GN2S-60AD4 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Analog-Digital converter module NZ2GN2B-60AD4 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Digital-Analog converter module NZ2GN2S-60DA4 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Digital-Analog converter module NZ2GN2B-60DA4 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN compatible coupler NZ2FT-GN vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric FPGA module NZ2GN2S-D41P01 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric FPGA module NZ2GN2S-D41D01 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric FPGA module NZ2GN2S-D41PD02 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Tension meter LM7-1LG vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Tension meter LM7-2LG vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5-G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5W-G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5-G-HS vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5-G-RJ vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5-G-LL vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5D-G4 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-J5 MR-MD333G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-JET MR-JET-G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric AC Servo MELSERVO-JET MR-JET-G4-HS vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-A8NCG vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-A8NCG-S vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-A800-GN vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-E800-E vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-E800-SCE vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Industrial Robot CR800-D series controller Network Base Card 2F-DQ535-TSN vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN expansion unit FCU8-EX569 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN-CC-Link IE Field Network bridge module NZ2GN-GFB vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN-AnyWireASLINK bridge module NZ2AW1GNAL vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Energy Measuring Unit CC-Link IE TSN Communication Unit EMU4-CM-TSN vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Industrial Computer MELIPC series MI2532-W vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Industrial Computer MELIPC series MI2332-W vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3715-FHCBD vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3712-WXCBD vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3715-XRBA vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3715-XRBD vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3712-XRBA vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3712-XRBD vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3710-XRBA vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3710-XRBD vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3708-XRBA vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric GOT3000 Series GT3708-XRBD vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Communication Unit GT25-J71GN13-T2 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion Control Software SWM-G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Motion Control Software SWM-G-N1 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Communication Software for Windows SW1DND-CCIETCT-M vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Master/Local module Designated communication LSI DeviceKit NZ2KT-NPETNG51 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Master/Local module Designated communication LSI NZ2GACP610-60 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Remote Station Communication LSI with GbE-PHY NZ2GACP620-60 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Remote Station Communication LSI with GbE-PHY NZ2GACP620-300 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Remote Station Communication LSI with GbE-PHY NZ2GACP621-90 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Remote Station Communication LSI with GbE-PHY NZ2GACP621-720 vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Master/Local module Designated communication LSI SDK SW1DNN-GN610SRC-M vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Remote station software development kit SW1DNC-GNSDK1S-M vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Remote station software development kit SW1DNC-GNSDK2S-M vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Liner Track System MTR-S series Linear track control module MTR-SCU00-4G vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Liner Track System MTR-S series Linear track control module MTR-SCU00-PG vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric Analysis Support Software MELSOFT VIMA SW1DNN-VIMA-M vers:all/* (CVE-2026-13584)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.1&lt;/td&gt;
-&lt;td&gt;Mitsubishi Electric&lt;/td&gt;
-&lt;td&gt;Mitsubishi Electric CC-Link IE TSN Communication Protocol&lt;/td&gt;
-&lt;td&gt;Improper Enforcement of Message Integrity During Transmission in a Communication Channel&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Japan&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-13584&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Improper Enforcement of Message Integrity During Transmission in a Communication Channel (CWE-924) vulnerability exists in the CC-Link IE TSN communication protocol. This vulnerability could allow an attacker with access to the same network segment to tamper with communication data, such as control input and output values, by sending specially crafted packets under specific timing conditions. This could allow the attacker to cause a denial-of-service (DoS) condition in the affected product by interfering with its control function or causing it to operate incorrectly.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-13584"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Mitsubishi Electric CC-Link IE TSN Communication Protocol&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric MELSEC MX Controller MX-R model MXR300-16: vers:all/*, Mitsubishi Electric MELSEC MX Controller MX-R model MXR300-32: vers:all/*, Mitsubishi Electric MELSEC MX Controller MX-R model MXR300-64: vers:all/*, Mitsubishi Electric MELSEC MX Controller MX-R model MXR500-128: vers:all/*, Mitsubishi Electric MELSEC MX Controller MX-R model MXR500-256: vers:all/*, Mitsubishi Electric MELSEC MX Controller MX-F model MXF100-8-N32: vers:all/*, Mitsubishi Electric MELSEC MX Controller MX-F model MXF100-8-P32: vers:all/*, Mitsubishi Electric MELSEC MX Controller MX-F model MXF100-16-N32: vers:all/*, Mitsubishi Electric MELSEC MX Controller MX-F model MXF100-16-P32: vers:all/*, Mitsubishi Electric Master/local module RJ71GN11-T2: vers:all/*, Mitsubishi Electric Master/local module RJ71GN11-SX: vers:all/*, Mitsubishi Electric Master/local module RJ71GN11-EIP: vers:all/*, Mitsubishi Electric Master/local module FX5-CCLGN-MS: vers:all/*, Mitsubishi Electric CC-Link IE TSN interface board NZ81GN11-SX: vers:all/*, Mitsubishi Electric CC-Link IE TSN interface board NZ81GN11-T2: vers:all/*, Mitsubishi Electric Motion module RD78G4: vers:all/*, Mitsubishi Electric Motion module RD78G8: vers:all/*, Mitsubishi Electric Motion module RD78G16: vers:all/*, Mitsubishi Electric Motion module RD78G64: vers:all/*, Mitsubishi Electric Motion module RD78GHV: vers:all/*, Mitsubishi Electric Motion module RD78GHW: vers:all/*, Mitsubishi Electric Motion module FX5-40SSC-G: vers:all/*, Mitsubishi Electric Motion module FX5-80SSC-G: vers:all/*, Mitsubishi Electric Motion Control Board MR-EM441G: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2S1-32D: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2S1-32T: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2S1-32TE: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2S1-32DT: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2S1-32DTE: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2B1-32D: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2B1-32T: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2B1-32TE: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2B1-32DT: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2B1-32DTE: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GNCF1-32D: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GNCF1-32T: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GNCE3-32D: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GNCE3-32DT: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN12A4-16D: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN12A4-16DE: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN12A2-16T: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN12A2-16TE: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN12A42-16DT: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN12A42-16DTE: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2S1-16D: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2S1-16T: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2S1-16TE: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2B1-16D: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2B1-16T: vers:all/*, Mitsubishi Electric Block-type remote module NZ2GN2B1-16TE: vers:all/*, Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-8D: vers:all/*, Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-8D-K: vers:all/*, Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-8TE: vers:all/*, Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-8TE-K: vers:all/*, Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-16DTE: vers:all/*, Mitsubishi Electric Block-type remote module with safety functions NZ2GNSS2-16DTE-K: vers:all/*, Mitsubishi Electric Block-type remote module with safety functions NZ2GNS12A2-14DT: vers:all/*, Mitsubishi Electric Block-type remote module with safety functions NZ2GNS12A2-16DTE: vers:all/*, Mitsubishi Electric Analog-Digital converter module NZ2GN2S-60AD4: vers:all/*, Mitsubishi Electric Analog-Digital converter module NZ2GN2B-60AD4: vers:all/*, Mitsubishi Electric Digital-Analog converter module NZ2GN2S-60DA4: vers:all/*, Mitsubishi Electric Digital-Analog converter module NZ2GN2B-60DA4: vers:all/*, Mitsubishi Electric CC-Link IE TSN compatible coupler NZ2FT-GN: vers:all/*, Mitsubishi Electric FPGA module NZ2GN2S-D41P01: vers:all/*, Mitsubishi Electric FPGA module NZ2GN2S-D41D01: vers:all/*, Mitsubishi Electric FPGA module NZ2GN2S-D41PD02: vers:all/*, Mitsubishi Electric Tension meter LM7-1LG: vers:all/*, Mitsubishi Electric Tension meter LM7-2LG: vers:all/*, Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5-G: vers:all/*, Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5W-G: vers:all/*, Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5-G-HS: vers:all/*, Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5-G-RJ: vers:all/*, Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5-G-LL: vers:all/*, Mitsubishi Electric AC Servo MELSERVO-J5 MR-J5D-G4 : vers:all/*, Mitsubishi Electric AC Servo MELSERVO-J5 MR-MD333G: vers:all/*, Mitsubishi Electric AC Servo MELSERVO-JET MR-JET-G: vers:all/*, Mitsubishi Electric AC Servo MELSERVO-JET MR-JET-G4-HS: vers:all/*, Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-A8NCG: vers:all/*, Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-A8NCG-S: vers:all/*, Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-A800-GN: vers:all/*, Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-E800-E: vers:all/*, Mitsubishi Electric Inverter FR-A800/F800/E800 Series FR-E800-SCE: vers:all/*, Mitsubishi Electric Industrial Robot CR800-D series controller Network Base Card 2F-DQ535-TSN: vers:all/*, Mitsubishi Electric CC-Link IE TSN expansion unit FCU8-EX569: vers:all/*, Mitsubishi Electric CC-Link IE TSN-CC-Link IE Field Network bridge module NZ2GN-GFB: vers:all/*, Mitsubishi Electric CC-Link IE TSN-AnyWireASLINK bridge module NZ2AW1GNAL: vers:all/*, Mitsubishi Electric Energy Measuring Unit CC-Link IE TSN Communication Unit EMU4-CM-TSN: vers:all/*, Mitsubishi Electric Industrial Computer MELIPC series MI2532-W: vers:all/*, Mitsubishi Electric Industrial Computer MELIPC series MI2332-W: vers:all/*, Mitsubishi Electric GOT3000 Series GT3715-FHCBD: vers:all/*, Mitsubishi Electric GOT3000 Series GT3712-WXCBD: vers:all/*, Mitsubishi Electric GOT3000 Series GT3715-XRBA: vers:all/*, Mitsubishi Electric GOT3000 Series GT3715-XRBD: vers:all/*, Mitsubishi Electric GOT3000 Series GT3712-XRBA: vers:all/*, Mitsubishi Electric GOT3000 Series GT3712-XRBD: vers:all/*, Mitsubishi Electric GOT3000 Series GT3710-XRBA: vers:all/*, Mitsubishi Electric GOT3000 Series GT3710-XRBD: vers:all/*, Mitsubishi Electric GOT3000 Series GT3708-XRBA: vers:all/*, Mitsubishi Electric GOT3000 Series GT3708-XRBD: vers:all/*, Mitsubishi Electric CC-Link IE TSN Communication Unit GT25-J71GN13-T2: vers:all/*, Mitsubishi Electric Motion Control Software SWM-G: vers:all/*, Mitsubishi Electric Motion Control Software SWM-G-N1: vers:all/*, Mitsubishi Electric CC-Link IE TSN Communication Software for Windows SW1DND-CCIETCT-M: vers:all/*, Mitsubishi Electric Master/Local module Designated communication LSI DeviceKit NZ2KT-NPETNG51: vers:all/*, Mitsubishi Electric Master/Local module Designated communication LSI NZ2GACP610-60: vers:all/*, Mitsubishi Electric Remote Station Communication LSI with GbE-PHY NZ2GACP620-60: vers:all/*, Mitsubishi Electric Remote Station Communication LSI with GbE-PHY NZ2GACP620-300: vers:all/*, Mitsubishi Electric Remote Station Communication LSI with GbE-PHY NZ2GACP621-90: vers:all/*, Mitsubishi Electric Remote Station Communication LSI with GbE-PHY NZ2GACP621-720: vers:all/*, Mitsubishi Electric CC-Link IE TSN Master/Local module Designated communication LSI SDK SW1DNN-GN610SRC-M: vers:all/*, Mitsubishi Electric Remote station software development kit SW1DNC-GNSDK1S-M: vers:all/*, Mitsubishi Electric Remote station software development kit SW1DNC-GNSDK2S-M: vers:all/*, Mitsubishi Electric Liner Track System MTR-S series Linear track control module MTR-SCU00-4G: vers:all/*, Mitsubishi Electric Liner Track System MTR-S series Linear track control module MTR-SCU00-PG: vers:all/*, Mitsubishi Electric Analysis Support Software MELSOFT VIMA SW1DNN-VIMA-M: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;No fix planned&lt;/strong&gt;&lt;br /&gt;For customers using the affected products, please refer to Mitsubishi Electric's security advisory, "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2026-005_en.pdf" and take the measures described there.&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2026-005_en.pdf"&gt;https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2026-005_en.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of the affected products, Mitsubishi Electric recommends restricting physical access to the affected products and the CC-Link IE TSN network to which the affected products are connected by taking measures such as the following: (a) managing access to and from the site where the affected products are installed, (b) locking the control panel in which the affected products and/or the network devices are installed, and (c) locking the Ethernet ports such as with port lock accessories, to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of the affected products, Mitsubishi Electric recommends using the affected products within a trusted network where communication with untrusted networks and hosts is blocked by a firewall or similar measures, to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of the affected products, Mitsubishi Electric recommends appropriately configuring credentials and access privileges for network devices installed at the boundary between trusted networks and external networks, to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/924.html"&gt;CWE-924 Improper Enforcement of Message Integrity During Transmission in a Communication Channel&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Alessandro Di Pinto, Giovanni Dini Gentilini, Luca Cremona, and Gabriele Quagliarella of Nozomi Networks, Inc. reported this vulnerability to Mitsubishi Electric&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of these vulnerabilities.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Mitsubishi Electric 2026-005 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Mitsubishi Electric directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-07-30&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-07-30&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-07-30&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Mitsubishi Electric 2026-005 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07</guid>
-      <pubDate>Thu, 30 Jul 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 05 Aug 2026 22:44:49 +0000</lastBuildDate>
     <item>
       <title>MZ Automation GmbH libiec61850</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10</link>
@@ -1772,13 +1515,6 @@
       <pubDate>Tue, 04 Aug 2026 18:37:35 +0000</pubDate>
     </item>
     <item>
-      <title>77 Open VSX extensions found harvesting developer info</title>
-      <link>https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/</link>
-      <description>77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/</guid>
-      <pubDate>Tue, 04 Aug 2026 18:50:55 +0000</pubDate>
-    </item>
-    <item>
       <title>Third-party cyber evaluations involving OpenAI models</title>
       <link>https://openai.com/index/third-party-cyber-evaluations-involving-openai-models</link>
       <description>OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.</description>
@@ -2474,10 +2210,10 @@ The server-side gate hides the malicious page from crawlers and sandboxes while 
       <pubDate>Wed, 05 Aug 2026 21:21:41 +0000</pubDate>
     </item>
     <item>
-      <title>XQ-58 Valkyrie Crashes At Dugway Proving Ground In Utah</title>
+      <title>XQ-58 Valkyrie Crashes At Dugway Proving Ground In Utah (Updated)</title>
       <link>https://www.twz.com/news-features/xq-58-valkyrie-drone-crashes-at-dugway-proving-ground-in-utah</link>
       <description>&lt;p&gt;The stealthy autonomous drone's manufacturer, Kratos, said it went down upon takeoff while in a "test configuration."&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/xq-58-valkyrie-drone-crashes-at-dugway-proving-ground-in-utah"&gt;XQ-58 Valkyrie Crashes At Dugway Proving Ground In Utah&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/xq-58-valkyrie-drone-crashes-at-dugway-proving-ground-in-utah"&gt;XQ-58 Valkyrie Crashes At Dugway Proving Ground In Utah (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/xq-58-valkyrie-drone-crashes-at-dugway-proving-ground-in-utah</guid>
       <pubDate>Wed, 05 Aug 2026 21:28:58 +0000</pubDate>
     </item>
@@ -2490,12 +2226,26 @@ The server-side gate hides the malicious page from crawlers and sandboxes while 
       <pubDate>Wed, 05 Aug 2026 21:29:58 +0000</pubDate>
     </item>
     <item>
+      <title>Can an Alaskan spaceport ease Pentagon’s launch bottleneck?</title>
+      <link>https://www.defenseone.com/technology/2026/08/can-alaskan-spaceport-ease-pentagons-launch-bottleneck/415238/</link>
+      <description>Rocket Lab says its suborbital launches at Pacific Spaceport Complex-Alaska could lead to national-security ones.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/technology/2026/08/can-alaskan-spaceport-ease-pentagons-launch-bottleneck/415238/</guid>
+      <pubDate>Wed, 05 Aug 2026 21:30:13 +0000</pubDate>
+    </item>
+    <item>
       <title>North Korea Upping Ballistic Missile Supplies To Russia Would Be Bad News For Ukraine At The Worst Time</title>
       <link>https://www.twz.com/land/north-korea-upping-ballistic-missile-supplies-to-russia-would-be-bad-news-for-ukraine-at-the-worst-time</link>
       <description>&lt;p&gt;Kyiv's claim that North Korea is sending many more ballistic missiles to Russia comes as Ukraine is becoming defenseless to such attacks due to a lack of Patriot missiles. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/land/north-korea-upping-ballistic-missile-supplies-to-russia-would-be-bad-news-for-ukraine-at-the-worst-time"&gt;North Korea Upping Ballistic Missile Supplies To Russia Would Be Bad News For Ukraine At The Worst Time&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/land/north-korea-upping-ballistic-missile-supplies-to-russia-would-be-bad-news-for-ukraine-at-the-worst-time</guid>
       <pubDate>Wed, 05 Aug 2026 21:31:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canadian pleads guilty to Snowflake cloud data-theft attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/</link>
+      <description>A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/</guid>
+      <pubDate>Wed, 05 Aug 2026 21:53:26 +0000</pubDate>
     </item>
   </channel>
 </rss>
