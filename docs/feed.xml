@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 09:58:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 10:56:05 +0000</lastBuildDate>
     <item>
       <title>How we built a realtime system for responsive voice AI in six months</title>
       <link>https://openai.com/index/continuous-voice-interaction-with-gpt-live</link>
@@ -1114,15 +1114,6 @@
       <pubDate>Thu, 06 Aug 2026 11:40:50 +0000</pubDate>
     </item>
     <item>
-      <title>CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps</title>
-      <link>https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html</link>
-      <description>Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains.
-
-Introduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affected wallet apps used to generate recovery phrases. Coinspect's on-chain analysis puts the measured theft across two sweeps since late May at a lower bound of</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html</guid>
-      <pubDate>Thu, 06 Aug 2026 11:49:48 +0000</pubDate>
-    </item>
-    <item>
       <title>ABB Ability Zenon</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01</link>
       <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -2163,15 +2154,6 @@ Introduced in the JavaScript cryptography library 12 years ago, the function sup
       <pubDate>Thu, 06 Aug 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities</title>
-      <link>https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html</link>
-      <description>Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.
-
-Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but Forescout could not confirm any were compromised. That figure counts exposed</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html</guid>
-      <pubDate>Thu, 06 Aug 2026 12:16:58 +0000</pubDate>
-    </item>
-    <item>
       <title>How Ukraine tries to intercept Russian drones more effectively — and affordably</title>
       <link>https://breakingdefense.com/2026/08/how-ukraine-tries-to-intercept-russian-drones-more-effectively-and-affordably/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/how-ukraine-tries-to-intercept-russian-drones-more-effectively-and-affordably/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Capture-decran-le-2026-08-06-a-13.15.16-e1786017585138-1024x577.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Since last year, Kyiv has turned to Western fighter jets to shoot down aerial threats, but also rely on dispersed air defense teams and other modified aircraft.&lt;/p&gt;</description>
@@ -2724,7 +2706,7 @@ The flaw is tracked as&amp;nbsp;CVE-2026-64561&amp;nbsp;and affects KVM/x86's sh
       <pubDate>Fri, 07 Aug 2026 06:50:05 +0000</pubDate>
     </item>
     <item>
-      <title>Kuwait Orders Closure Of Iranian-Funded School</title>
+      <title>Trump Says War With Iran Will End 'Pretty Soon'</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -2765,9 +2747,9 @@ Novee Security ran the attack against each vendor's agent in the configuration t
     <item>
       <title>Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access</title>
       <link>https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html</link>
-      <description>Security researcher Malcolm Stagg has disclosed a new attack class called&amp;nbsp;NatJack&amp;nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, disclose victim IP addresses and mapped ports, and exhaust NAT tables.
+      <description>Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID.
 
-Presented at Black Hat USA 2026, Stagg said the techniques were demonstrated across network infrastructure devices</description>
+The attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary Refresh Token (PRT), and add further authentication methods where tenant policies</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html</guid>
       <pubDate>Fri, 07 Aug 2026 08:52:11 +0000</pubDate>
     </item>
@@ -2793,6 +2775,24 @@ Presented at Black Hat USA 2026, Stagg said the techniques were demonstrated acr
 Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html</guid>
       <pubDate>Fri, 07 Aug 2026 09:32:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day</title>
+      <link>https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html</link>
+      <description>PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate attack vectors.
+
+PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where scanning</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html</guid>
+      <pubDate>Fri, 07 Aug 2026 10:09:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails</title>
+      <link>https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html</link>
+      <description>Cybersecurity researchers have called attention to an active "widespread email-driven phishing campaign" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email.
+
+"The campaign uses residential proxies to disguise malicious sign-ins as ordinary consumer traffic,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html</guid>
+      <pubDate>Fri, 07 Aug 2026 10:38:27 +0000</pubDate>
     </item>
   </channel>
 </rss>
