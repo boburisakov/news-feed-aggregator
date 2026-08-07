@@ -7,15 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 15:52:42 +0000</lastBuildDate>
-    <item>
-      <title>Pass the Passkey: A Novel Attack Surface in Passwordless Authentication</title>
-      <link>https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</link>
-      <description>&lt;p&gt;Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/"&gt;Pass the Passkey: A Novel Attack Surface in Passwordless Authentication&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</guid>
-      <pubDate>Mon, 03 Aug 2026 10:00:35 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 07 Aug 2026 16:50:54 +0000</lastBuildDate>
     <item>
       <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
       <link>https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog</link>
@@ -50,13 +42,6 @@
       <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C62%2C0%2C63" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;For a while there, it seemed as though robotics as a whole was stuck in a &lt;a href="https://spectrum.ieee.org/top-robotics-stories-2024" target="_self"&gt;mad rush&lt;/a&gt; towards building &lt;a href="https://spectrum.ieee.org/topic/robotics/humanoid-robots/" target="_self"&gt;humanoid robots&lt;/a&gt; mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also been an industry-wide sobering leading to &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;pointed questions about practicality and value&lt;/a&gt;. In other words, starting a commercial humanoid company &lt;em&gt;&lt;em&gt;now&lt;/em&gt;&lt;/em&gt; is a much different proposition than it would have been just a few years ago. &lt;/p&gt;&lt;p&gt;On 15 July, &lt;a href="https://www.waldenrobotics.com/news/walden-robotics-launches-from-stealth" rel="noopener noreferrer" target="_blank"&gt;Walden Robotics emerged from stealth&lt;/a&gt; with US $300 million in funding at a valuation of $1.1 billion. Walden is a spinout of &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota Research Institute&lt;/a&gt; (TRI), and it’s spent the last 10 or so years working on hard problems in robotics with the goal of transitioning from research to real-world applications. That seems like the amount of time and experience that it might reasonably take to develop a &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;practical and value-driven approach&lt;/a&gt; to deploying general-purpose humanoid robots, and Walden has chosen an excellent starting point by skipping the legs.&lt;/p&gt;&lt;p&gt;“It’s ironic,” says Walden cofounder and CEO &lt;a href="https://www.linkedin.com/in/russ-tedrake-88648a4a/" rel="noopener noreferrer" target="_blank"&gt;Russ Tedrake&lt;/a&gt;. “I thought about legs for 20 years; that’s the class I teach at MIT. There are many reasons to build a robot with legs. But the question is, what’s the addressable market? And what percentage of it is covered by a wheeled base?” It’s this focused, practical thinking that sets Walden somewhat apart from many (if not most) of the other companies in this space. Rather than &lt;a href="https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available" target="_self"&gt;developing a robot first and searching for a viable commercial use case second&lt;/a&gt;, Walden instead identified applications where robots can provide value now, and designed a robot that could safely and efficiently meet those needs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt; &lt;/p&gt;&lt;h2&gt;Walden Robotics’ Manufacturing Focus&lt;/h2&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="A smiling man in a blue shirt" class="rm-shortcode" id="f545c" src="https://spectrum.ieee.org/media-library/a-smiling-man-in-a-blue-shirt.jpg?id=67568051&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Russ Tedrake is the CEO and cofounder of Walden Robotics.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tedrake is light on the details about what specific applications Walden is targeting at this point (citing confidentiality with current commercial partners). Manufacturing and logistics environments where there are a lot of &lt;a href="https://www.youtube.com/watch?v=F_7IPm7f1vI" target="_blank"&gt;relatively simple&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=tv90GFM9RAo" target="_blank"&gt;repetitive tasks&lt;/a&gt; that aren’t friendly to conveyor belts and preprogrammed robot arms are a good bet. Even in these environments, however, robots still have to find a useful niche because they’re going up against human workers who are more flexible while also cheaper to employ. So the question is: How do you make an argument to a customer that a robot is actually a better solution than their existing human workers?&lt;/p&gt;&lt;p&gt;“You need to find applications with high utilization—where the robot is used 24 hours a day, 7 days a week,” says Tedrake. “Manufacturing is a global imperative right now, and it makes the economics work.” Economic viability is a necessary condition, but it’s not a sufficient one for Walden, or for their partnership with Toyota. People are a big part of Walden’s plan, too.&lt;/p&gt;&lt;p&gt;One of Walden’s major strengths is the company’s partnership with Toyota, which is not all that surprising given that Walden is a spinout from TRI, which is &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota’s Silicon Valley–based R&amp;amp;D arm&lt;/a&gt;. “Toyota was very proud of the work we had done at TRI, and was ready to go big in this space,” says Tedrake. “Part of the excitement of having Toyota as a partner is that their culture is deeply people-first. When talking to Toyota’s leadership, I was never asked how much money this is going to make, but I was asked how it will improve the quality of life for all people.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A white and orange humanoid robot manipulates an object in its two-finger grippers." class="rm-shortcode" id="209d4" src="https://spectrum.ieee.org/media-library/a-white-and-orange-humanoid-robot-manipulates-an-object-in-its-two-finger-grippers.jpg?id=67568030&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The robot’s chonky design allows it to meet the high-payload requirements of useful manufacturing work.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this context, at least in the short term, Walden’s approach to improving the quality of life for people is to take over those aforementioned repetitive manufacturing tasks with robots. Tedrake hopes that this will lead to workplaces where skilled craftspeople are able to do even more with their hard-earned expertise, increasing their efficiency, productivity, and happiness all at the same time—a noble goal, although there’s only so much Walden itself can do to make this happen, and not all customers will share Toyota’s priorities.&lt;/p&gt;&lt;h2&gt;Wheeled Humanoid Robots in Factories&lt;/h2&gt;&lt;p&gt;Many other &lt;a href="https://www.agilityrobotics.com/" target="_blank"&gt;humanoid&lt;/a&gt; &lt;a href="https://www.figure.ai/" target="_blank"&gt;robotics&lt;/a&gt; &lt;a href="https://apptronik.com/" target="_blank"&gt;companies&lt;/a&gt; are also targeting these logistics and manufacturing spaces with general-purpose robots, and they’re doing so by making robots that are as humanlike as possible. The theory is that a humanoid form factor is necessary when operating in human environments. And there are certainly arguments in favor of a humanoid with legs—stairs exist, for one, and legged robots have a smaller footprint compared with ones that have wheels.&lt;/p&gt;&lt;p&gt;But a large wheeled base offers some significant advantages, as Tedrake points out. You’re incentivized to cram the base full of batteries, since more weight near the floor keeps the robot stable, which also solves the problem of running out of power during the middle of the workday. More importantly, a statically stable robot that moves around on a wheeled base can bypass the &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;safety challenges&lt;/a&gt; that are currently keeping legged humanoids physically separated from real humans—most prominently, the fact that legged robots can fall over. “Factories already have autonomous mobile [wheeled] robots,” explains Tedrake. “They already have safety cases built around AMRs. You can piggyback on that with a wheeled base.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A close-up of a robotic gripper grasping a metallic object in a vise." class="rm-shortcode" id="f600c" src="https://spectrum.ieee.org/media-library/a-close-up-of-a-robotic-gripper-grasping-a-metallic-object-in-a-vise.jpg?id=67568022&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Simple, rugged grippers make the robot suitable for commercial deployment.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Walden’s perspective on manipulation is similar. Many humanoid companies are using five-fingered hands that are highly dexterous but also highly complex, which Tedrake believes is not a pragmatic approach in the context of commercial deployments. “There’s a question of what you need to do the tasks, but the real question is just durability,” Tedrake says. “We have been deployed in a Toyota factory, and at the end of the week, the hands take a beating, so we built hands that can take that. I have not seen a more dexterous hand that could have done the work our hand has done.”&lt;/p&gt;&lt;p&gt;Walden’s long-term plan is to build “general-purpose robots.” It’s not always clear what a general-purpose robot is, because (I would argue) nobody is quite sure what “general purpose” means. It’s certainly not referring to robots that can do &lt;em&gt;&lt;em&gt;everything&lt;/em&gt;&lt;/em&gt;; I think the closest we can get are robots that can be taught to do a useful number of different skills, which is why I prefer the term “multipurpose.” It’s a little pedantic, I know, but I think the distinction is important because it moderates expectations in the near term.&lt;/p&gt;&lt;p&gt;Part of where Walden’s optimism towards general purposeness comes from is TRI’s earlier research on &lt;a href="https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573" target="_blank"&gt;diffusion policy&lt;/a&gt;, which helps robots learn new skills more quickly by leveraging previously learned skills as a foundation. “Fundamentally, multitasking is a way to get to a general-purpose robot,” Tedrake says. “I believe there is a single platform that can do a lot of tasks that are of high value for real customers. That will give us the experience we need to give birth to this deployed general-purpose capability.”&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</guid>
       <pubDate>Mon, 03 Aug 2026 16:05:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Space-Eyes confirms $638m SPAC merger with McKinley</title>
-      <link>https://www.army-technology.com/news/space-eyes-mckinley-merger/</link>
-      <description>Space-Eyes, a provider of AI-driven geospatial intelligence and counter-drone systems, has entered into a definitive business combination agreement with McKinley Acquisition (McKinley).</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/space-eyes-mckinley-merger/</guid>
-      <pubDate>Mon, 03 Aug 2026 16:16:59 +0000</pubDate>
     </item>
     <item>
       <title>Trump’s AI protectionism has come for robotics</title>
@@ -476,20 +461,6 @@
       <pubDate>Tue, 04 Aug 2026 14:19:50 +0000</pubDate>
     </item>
     <item>
-      <title>Forecast: Global Missiles and Missile Defence Systems (2026-2036)</title>
-      <link>https://www.army-technology.com/features/forecast-global-missiles-and-missile-defence-systems-2026-2036/</link>
-      <description>The global missiles and missile defence sector looks set for strong growth over the next decade, with Western countries dominating the market.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/features/forecast-global-missiles-and-missile-defence-systems-2026-2036/</guid>
-      <pubDate>Tue, 04 Aug 2026 16:07:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>US DoW signs deals for PAC-3, THAAD interceptor production</title>
-      <link>https://www.army-technology.com/news/us-dow-pac3-thaad-missile/</link>
-      <description>The Department of War has entered into two major framework agreements worth more than $3bn with Northrop Grumman and Lockheed Martin.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/us-dow-pac3-thaad-missile/</guid>
-      <pubDate>Tue, 04 Aug 2026 16:12:19 +0000</pubDate>
-    </item>
-    <item>
       <title>Australia sets up first Defence Research Centre to boost defence tech</title>
       <link>https://www.army-technology.com/news/australia-defence-research-centre/</link>
       <description>The Australian Government has established its first Defence Research Centre, aiming to strengthen the nation’s defence innovation ecosystem.</description>
@@ -699,14 +670,6 @@
       <pubDate>Wed, 05 Aug 2026 17:56:15 +0000</pubDate>
     </item>
     <item>
-      <title>P-8 Poseidon Crews Controlling MQ-4C Triton Drones Becoming A Reality</title>
-      <link>https://www.twz.com/air/p-8-poseidon-crews-controlling-mq-4c-triton-drones-becoming-a-reality</link>
-      <description>&lt;p&gt;The P-8A and MQ-4Cs were designed to work in concert, but direct in-flight control of Tritons will open new tactical possibilities and greatly extend the Poseidon's reach.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/p-8-poseidon-crews-controlling-mq-4c-triton-drones-becoming-a-reality"&gt;P-8 Poseidon Crews Controlling MQ-4C Triton Drones Becoming A Reality&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/p-8-poseidon-crews-controlling-mq-4c-triton-drones-becoming-a-reality</guid>
-      <pubDate>Wed, 05 Aug 2026 18:03:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Flaws in Google APK for Python Unlock Agent-to-Agent Attack</title>
       <link>https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack</link>
       <description>Google has fixed the issues, which exploited a trust boundary between two AI agents with different privilege levels to trigger automation that could compromise the supply chain.</description>
@@ -749,13 +712,6 @@
       <description>In an interview with RFE/RL, US Senator John Curtis, a Republican from Utah, said there is strong bipartisan support for new legislation sanctioning Russia, stressing that a Russian victory in Ukraine would have negative repercussions elsewhere in the world.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/us-senator-john-curtis-russia-ukraine/33822950.html</guid>
       <pubDate>Wed, 05 Aug 2026 19:51:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pic of the Day: Brothers in Agony – A MEDEVAC Photo From Afghanistan</title>
-      <link>https://sofrep.com/news/pic-of-the-day-the-real-faces-of-war/</link>
-      <description>War is not glorious; it is the white hot rattle of a MEDEVAC, two blood slick hands locked after an IED blast near Kandahar, and a young sergeant who learns the hard Latin that war is only sweet for those who have not been through it.  #SOFREP #USArmy #101stAirborne #MEDEVAC #Kandahar #AfghanistanWar #WoundedWarrior #IED #Veterans #NeverForget</description>
-      <guid isPermaLink="false">https://sofrep.com/news/pic-of-the-day-the-real-faces-of-war/</guid>
-      <pubDate>Wed, 05 Aug 2026 20:00:39 +0000</pubDate>
     </item>
     <item>
       <title>How many worked for DOGE? New data emerges, but many agencies stonewall</title>
@@ -2030,13 +1986,6 @@
       <pubDate>Thu, 06 Aug 2026 13:03:00 +0000</pubDate>
     </item>
     <item>
-      <title>Rheinmetall projects $346 million naval loss after F126 frigate cancellation</title>
-      <link>https://breakingdefense.com/2026/08/rheinmetall-projects-346-million-naval-loss-after-f126-frigate-cancellation/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/rheinmetall-projects-346-million-naval-loss-after-f126-frigate-cancellation/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/10/Rohde-Schwarz-to-provide-RS-KORA-for-F126-frigates-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The loss was a blow to Rheinmetall&amp;#8217;s new naval ambitions, but the rest of the European giant saw a large rise in revenue. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/rheinmetall-projects-346-million-naval-loss-after-f126-frigate-cancellation/</guid>
-      <pubDate>Thu, 06 Aug 2026 13:51:16 +0000</pubDate>
-    </item>
-    <item>
       <title>Expanded Collaboration to Boost Critical AI Governance Data and Tracking Tool</title>
       <link>https://cset.georgetown.edu/article/expanded-collaboration-to-boost-critical-ai-governance-data-and-tracking-tool/</link>
       <description>&lt;p&gt;CSET is partnering with top universities to expand AGORA, its living collection of 1,000+ AI-related laws, regulations, and standards.&lt;/p&gt;
@@ -2334,14 +2283,6 @@ The flaw is tracked as&amp;nbsp;CVE-2026-64561&amp;nbsp;and affects KVM/x86's sh
       <description>Two former chief security officers of the Democratic National Committee explain that a strong security-first mindset requires executive support — and a dose of absurdity.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture</guid>
       <pubDate>Thu, 06 Aug 2026 19:00:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>The US Navy’s decision to reclassify 19 Virginia-class submarines is a breakthrough. Here’s why.</title>
-      <link>https://www.atlanticcouncil.org/dispatches/the-us-navys-decision-to-reclassify-19-virginia-class-submarines-is-a-breakthrough-heres-why/</link>
-      <description>&lt;p&gt;The redesignation reveals that the US Navy increasingly views distributed, survivable strike capability as a central mission for its undersea fleet.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/the-us-navys-decision-to-reclassify-19-virginia-class-submarines-is-a-breakthrough-heres-why/"&gt;The US Navy’s decision to reclassify 19 Virginia-class submarines is a breakthrough. Here’s why.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/the-us-navys-decision-to-reclassify-19-virginia-class-submarines-is-a-breakthrough-heres-why/</guid>
-      <pubDate>Thu, 06 Aug 2026 19:09:36 +0000</pubDate>
     </item>
     <item>
       <title>Despite federal warnings, thousands of U.S. industrial controllers used in water systems remain exposed online</title>
@@ -2702,6 +2643,13 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the</description>
       <pubDate>Fri, 07 Aug 2026 14:00:10 +0000</pubDate>
     </item>
     <item>
+      <title>The War Nobody’s Watching: Russia Is Losing, and America Has Changed the Channel</title>
+      <link>https://sofrep.com/?p=230258&amp;preview=true&amp;preview_id=230258</link>
+      <description>Russia is still bleeding men and machines into Ukraine, the West is still paying to keep Kyiv in the fight, and the only thing that has truly collapsed is America’s attention span. #Ukraine #RussiaUkraineWar #RussianMilitary #NATO #VladimirPutin</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=230258&amp;preview=true&amp;preview_id=230258</guid>
+      <pubDate>Fri, 07 Aug 2026 14:00:14 +0000</pubDate>
+    </item>
+    <item>
       <title>Rheinmetall says ramping up ATACMS output will take time as US rebuilds stocks</title>
       <link>https://www.defensenews.com/industry/techwatch/2026/08/07/rheinmetall-says-ramping-up-atacms-output-will-take-time-as-us-rebuilds-stocks/</link>
       <description>Rheinmetall signed a memorandum of understanding with Lockheed last month to jointly produce Army Tactical Missile Systems.</description>
@@ -2780,6 +2728,13 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the</description>
       <pubDate>Fri, 07 Aug 2026 14:24:49 +0000</pubDate>
     </item>
     <item>
+      <title>Responding to the next frontier of critical cyber capabilities</title>
+      <link>https://openai.com/index/responding-next-frontier-critical-cyber-capabilities</link>
+      <description>OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.</description>
+      <guid isPermaLink="false">https://openai.com/index/responding-next-frontier-critical-cyber-capabilities</guid>
+      <pubDate>Fri, 07 Aug 2026 15:20:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Updating Navy warships at the speed of software</title>
       <link>https://breakingdefense.com/2026/08/updating-navy-warships-at-the-speed-of-software/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/updating-navy-warships-at-the-speed-of-software/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/260731_DVIDS_hormuz_sailor_9441586-scaled-e1785518144694-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;After years of wanting and waiting, the Navy is now updating combat systems over-the-air on ships at sea, write two Navy Department leaders. &lt;/p&gt;</description>
@@ -2792,6 +2747,50 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the</description>
       <description>Levi Strauss &amp; Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/</guid>
       <pubDate>Fri, 07 Aug 2026 15:48:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ARX Robotics validates GEREON autonomous fleet in major US Army trials</title>
+      <link>https://www.army-technology.com/news/arx-robotics-gereon-fleet-us-army/</link>
+      <description>ARX Robotics UK has successfully demonstrated the operational potential of its GEREON uncrewed ground vehicles (UGVs) during Project Convergence-Capstone 6 (PC-C6), the largest experiment to date in the US Army’s ongoing campaign to modernise land warfare capabilities.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/arx-robotics-gereon-fleet-us-army/</guid>
+      <pubDate>Fri, 07 Aug 2026 16:15:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Abelardo de la Espriella takes office in Colombia with a head start in Washington</title>
+      <link>https://www.atlanticcouncil.org/dispatches/abelardo-de-la-espriella-takes-office-in-colombia-with-a-head-start-in-washington/</link>
+      <description>&lt;p&gt;The new Colombian president and his US counterpart should seize the opportunity to reset the long-term bilateral relationship.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/abelardo-de-la-espriella-takes-office-in-colombia-with-a-head-start-in-washington/"&gt;Abelardo de la Espriella takes office in Colombia with a head start in Washington&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/abelardo-de-la-espriella-takes-office-in-colombia-with-a-head-start-in-washington/</guid>
+      <pubDate>Fri, 07 Aug 2026 16:17:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon wants ‘expanding options’ for nuclear weapons, officials say</title>
+      <link>https://breakingdefense.com/2026/08/pentagon-wants-expanding-options-for-nuclear-weapons-officials-say/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/pentagon-wants-expanding-options-for-nuclear-weapons-officials-say/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/05/bridge-colby-may-11-e1778604752481-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“There&amp;#8217;s, you know, a review or sort of relook at the employment guidance, which is more about the commander of STRATCOM and his responsibilities and [the defense] secretary&amp;#8217;s authorities, etcetera,”  said Undersecretary of Defense for Policy Elbridge Colby.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/pentagon-wants-expanding-options-for-nuclear-weapons-officials-say/</guid>
+      <pubDate>Fri, 07 Aug 2026 16:21:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Renk Group sees record order intake in H1, confirms 2026 outlook</title>
+      <link>https://www.army-technology.com/news/renk-group-h1-2026/</link>
+      <description>RENK Group has recorded its strongest-ever quarterly order intake and continued revenue growth for the first half of 2026.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/renk-group-h1-2026/</guid>
+      <pubDate>Fri, 07 Aug 2026 16:21:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>New M1A2T Abrams Tanks Guard Taiwan’s Main Airport During Invasion Drill</title>
+      <link>https://www.twz.com/news-features/new-m1a2t-abrams-tanks-guard-taiwans-main-airport-during-invasion-drill</link>
+      <description>&lt;p&gt;First deployment of M1A2T tanks to Taoyuan Airport highlights ongoing preparations to counter a PLA airborne operation aimed at Taipei.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/new-m1a2t-abrams-tanks-guard-taiwans-main-airport-during-invasion-drill"&gt;New M1A2T Abrams Tanks Guard Taiwan’s Main Airport During Invasion Drill&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/new-m1a2t-abrams-tanks-guard-taiwans-main-airport-during-invasion-drill</guid>
+      <pubDate>Fri, 07 Aug 2026 16:36:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Defending the skies: XCaliber validates C-UAS integrator</title>
+      <link>https://www.army-technology.com/features/defending-the-skies-xcaliber-validates-c-uas-integrator/</link>
+      <description>C-UAS start-up, XCaliber, is validating its MOSES platform to integrate multiple, disparate sensors and effectors together into one system.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/features/defending-the-skies-xcaliber-validates-c-uas-integrator/</guid>
+      <pubDate>Fri, 07 Aug 2026 16:42:19 +0000</pubDate>
     </item>
   </channel>
 </rss>
