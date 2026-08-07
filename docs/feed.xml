@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 07:51:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 08:55:10 +0000</lastBuildDate>
     <item>
       <title>China’s Quiet Quest to Dominate Latin America</title>
       <link>https://www.foreignaffairs.com/china/chinas-quiet-quest-dominate-latin-america</link>
@@ -1075,17 +1075,6 @@
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/the-arsenal-and-the-statehouse-new-defense-firms-venture-capital-and-state-industrial-policy/"&gt;The Arsenal and the Statehouse: New Defense Firms, Venture Capital and State Industrial Policy&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/the-arsenal-and-the-statehouse-new-defense-firms-venture-capital-and-state-industrial-policy/</guid>
       <pubDate>Thu, 06 Aug 2026 08:00:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model</title>
-      <link>https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html</link>
-      <description>Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.
-
-In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene.
-
-The affected products include Amazon</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html</guid>
-      <pubDate>Thu, 06 Aug 2026 08:57:30 +0000</pubDate>
     </item>
     <item>
       <title>Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access</title>
@@ -2526,7 +2515,7 @@ MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTER
       <pubDate>Thu, 06 Aug 2026 17:00:56 +0000</pubDate>
     </item>
     <item>
-      <title>Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs</title>
+      <title>Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs</title>
       <link>https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html</link>
       <description>Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review.
 
@@ -2772,6 +2761,15 @@ The flaw is tracked as&amp;nbsp;CVE-2026-64561&amp;nbsp;and affects KVM/x86's sh
       <link>https://www.defenseone.com/business/2026/08/defense-business-brief-enduring-case-small-usvs-battleship-costs-balloon-rainey-joins-bain-capital/415276/</link>
       <guid isPermaLink="false">https://www.defenseone.com/business/2026/08/defense-business-brief-enduring-case-small-usvs-battleship-costs-balloon-rainey-joins-bain-capital/415276/</guid>
       <pubDate>Fri, 07 Aug 2026 06:33:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign</title>
+      <link>https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</link>
+      <description>A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain.
+
+"The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</guid>
+      <pubDate>Fri, 07 Aug 2026 06:50:05 +0000</pubDate>
     </item>
     <item>
       <title>How Can U.S. Special Operations Forces Help Defeat China on Taiwan?</title>
