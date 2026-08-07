@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 11:43:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 12:29:20 +0000</lastBuildDate>
     <item>
       <title>How we built a realtime system for responsive voice AI in six months</title>
       <link>https://openai.com/index/continuous-voice-interaction-with-gpt-live</link>
@@ -716,13 +716,6 @@
       <pubDate>Wed, 05 Aug 2026 13:09:54 +0000</pubDate>
     </item>
     <item>
-      <title>Subsea Cable Warfare: How Russia and China Could Cripple the West Without Firing a Shot</title>
-      <link>https://sofrep.com/news/subsea-cable-warfare-how-russia-and-china-could-cripple-the-west-without-firing-a-shot/</link>
-      <description>The West is still preparing to destroy enemy armies while Russia and China probe the cables, grids, and networks that keep the modern world alive. #HybridWarfare #SubseaCables #NationalSecurity</description>
-      <guid isPermaLink="false">https://sofrep.com/news/subsea-cable-warfare-how-russia-and-china-could-cripple-the-west-without-firing-a-shot/</guid>
-      <pubDate>Wed, 05 Aug 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>US Navy, Saildrone to use unmanned systems in expanded counternarcotics role</title>
       <link>https://www.defensenews.com/industry/techwatch/2026/08/05/us-navy-saildrone-to-use-unmanned-systems-in-expanded-counternarcotics-role/</link>
       <description>The U.S. Navy is extending its use of Saildrone unmanned surface vehicles for an expanded counternarcotics mission.</description>
@@ -1091,13 +1084,6 @@
       <description>Interviews with residents and police units in Kherson were constantly interrupted by Russian drone attacks. Recent targets include a mechanic riding his bike to work and a garbage truck.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-kherson-russian-drones-human-safari/33822793.html</guid>
       <pubDate>Thu, 06 Aug 2026 10:16:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Japanese MoD report highlights push to bolster defense industry</title>
-      <link>https://breakingdefense.com/2026/08/japanese-mod-report-highlights-push-to-bolster-defense-industry/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/japanese-mod-report-highlights-push-to-bolster-defense-industry/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/260805_DVIDS_JSDF_soldier_7520887-e1785947515275-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The latest defense white paper, accompanied by an anime-style summary video, also pledges continued industrial cooperation with American firms.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/japanese-mod-report-highlights-push-to-bolster-defense-industry/</guid>
-      <pubDate>Thu, 06 Aug 2026 10:46:37 +0000</pubDate>
     </item>
     <item>
       <title>'Civil Death': The Kremlin Is Building A Legal Purgatory For Exiled Russians</title>
@@ -2271,17 +2257,6 @@
       <pubDate>Thu, 06 Aug 2026 15:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories</title>
-      <link>https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html</link>
-      <description>Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job.
-
-This week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as support software, and trusted defaults doing attackers a favor.
-
-Nothing here is especially mystical.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html</guid>
-      <pubDate>Thu, 06 Aug 2026 15:24:31 +0000</pubDate>
-    </item>
-    <item>
       <title>Iran issues warning to Gulf states: US must desist or you’ll be hit hard</title>
       <link>https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/</link>
       <description>Iran has made a concerted push with Gulf states, warning them explicitly that Tehran will hit their oil, power and water plants unless U.S. strikes end.</description>
@@ -2367,15 +2342,6 @@ Nothing here is especially mystical.</description>
       <description>To be rightfully concerned about the present is not an excuse to distort the past.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/the-rule-of-law-in-afghanistan-failed-long-before-the-talibans-triumph/</guid>
       <pubDate>Thu, 06 Aug 2026 16:14:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs</title>
-      <link>https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html</link>
-      <description>An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.
-
-MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation on,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html</guid>
-      <pubDate>Thu, 06 Aug 2026 16:17:13 +0000</pubDate>
     </item>
     <item>
       <title>South Korea UGV push more manpower move than tech gap fix: GlobalData</title>
@@ -2761,20 +2727,11 @@ The attacker can then establish longer-term cloud access, register a device it c
       <pubDate>Fri, 07 Aug 2026 09:19:52 +0000</pubDate>
     </item>
     <item>
-      <title>New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables</title>
-      <link>https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html</link>
-      <description>Security researcher Malcolm Stagg has disclosed a new attack class called&amp;nbsp;NatJack&amp;nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables.
-
-Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html</guid>
-      <pubDate>Fri, 07 Aug 2026 09:32:57 +0000</pubDate>
-    </item>
-    <item>
       <title>AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day</title>
       <link>https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html</link>
-      <description>PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate attack vectors.
+      <description>PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors.
 
-PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where scanning</description>
+PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html</guid>
       <pubDate>Fri, 07 Aug 2026 10:09:54 +0000</pubDate>
     </item>
@@ -2788,11 +2745,54 @@ PortSwigger said a separate human-guided discovery cascade also exposed a zero-d
       <pubDate>Fri, 07 Aug 2026 10:38:27 +0000</pubDate>
     </item>
     <item>
+      <title>New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables</title>
+      <link>https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html</link>
+      <description>Security researcher Malcolm Stagg has disclosed a new attack class called&amp;nbsp;NatJack&amp;nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables.
+
+Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html</guid>
+      <pubDate>Fri, 07 Aug 2026 10:58:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers</title>
+      <link>https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html</link>
+      <description>A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.
+
+The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August 3, close it. Anyone running an older kernel with SCTP reachable should update.</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html</guid>
+      <pubDate>Fri, 07 Aug 2026 11:10:33 +0000</pubDate>
+    </item>
+    <item>
       <title>Schiess confirmed as third Space Force chief</title>
       <link>https://breakingdefense.com/2026/08/schiess-confirmed-as-third-space-force-chief/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/schiess-confirmed-as-third-space-force-chief/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/GettyImages-2286386355-scaled-e1784829431147-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Lt. Gen. Doug Shiess will inherit a bigger service with plans to grow further, but also a complex set of acquisition and workforce challenges. &lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/schiess-confirmed-as-third-space-force-chief/</guid>
       <pubDate>Fri, 07 Aug 2026 11:31:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Growing Up The Hard Way</title>
+      <link>https://thehackernews.com/2026/08/growing-up-hard-way.html</link>
+      <description>Open Source had a great childhood.
+
+For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral.
+
+Then,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/growing-up-hard-way.html</guid>
+      <pubDate>Fri, 07 Aug 2026 11:55:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why the SR-71 Blackbird Shouldn’t Have Worked—But Did</title>
+      <link>https://sofrep.com/military-history/sr-71-blackbird-history-facts/</link>
+      <description>Before radar evasion, the US built planes so fast and high they were untouchable. The SR-71? 4,000 missiles fired, zero hits. #SR71Blackbird #MilitaryAviation #SR71History</description>
+      <guid isPermaLink="false">https://sofrep.com/military-history/sr-71-blackbird-history-facts/</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Saudi Arabia, Turkey, Pakistan ink ‘joint defense’ agreement</title>
+      <link>https://breakingdefense.com/2026/08/saudi-arabia-turkey-pakistan-ink-joint-defense-agreement/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/saudi-arabia-turkey-pakistan-ink-joint-defense-agreement/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/260807_turkey_pak_saudi_pact_GettyImages-2288615486-e1786104491503.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The agreement says that &amp;#8220;any armed attack against any one of the three States shall be regarded as an attack against them all.&amp;#8221;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/saudi-arabia-turkey-pakistan-ink-joint-defense-agreement/</guid>
+      <pubDate>Fri, 07 Aug 2026 12:26:52 +0000</pubDate>
     </item>
   </channel>
 </rss>
