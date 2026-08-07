@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 18:32:12 +0000</lastBuildDate>
-    <item>
-      <title>An analysis of incidents at Brazilian educational institutions</title>
-      <link>https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</link>
-      <description>Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.</description>
-      <guid isPermaLink="false">https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</guid>
-      <pubDate>Mon, 03 Aug 2026 13:00:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Walden Robotics Partners With Toyota on Practical Humanoids</title>
-      <link>https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&amp;amp;width=980" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;For a while there, it seemed as though robotics as a whole was stuck in a &lt;a href="https://spectrum.ieee.org/top-robotics-stories-2024" target="_self"&gt;mad rush&lt;/a&gt; towards building &lt;a href="https://spectrum.ieee.org/topic/robotics/humanoid-robots/" target="_self"&gt;humanoid robots&lt;/a&gt; mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also been an industry-wide sobering leading to &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;pointed questions about practicality and value&lt;/a&gt;. In other words, starting a commercial humanoid company &lt;em&gt;&lt;em&gt;now&lt;/em&gt;&lt;/em&gt; is a much different proposition than it would have been just a few years ago. &lt;/p&gt;&lt;p&gt;On 15 July, &lt;a href="https://www.waldenrobotics.com/news/walden-robotics-launches-from-stealth" rel="noopener noreferrer" target="_blank"&gt;Walden Robotics emerged from stealth&lt;/a&gt; with US $300 million in funding at a valuation of $1.1 billion. Walden is a spinout of &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota Research Institute&lt;/a&gt; (TRI), and it’s spent the last 10 or so years working on hard problems in robotics with the goal of transitioning from research to real-world applications. That seems like the amount of time and experience that it might reasonably take to develop a &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;practical and value-driven approach&lt;/a&gt; to deploying general-purpose humanoid robots, and Walden has chosen an excellent starting point by skipping the legs.&lt;/p&gt;&lt;p&gt;“It’s ironic,” says Walden cofounder and CEO &lt;a href="https://www.linkedin.com/in/russ-tedrake-88648a4a/" rel="noopener noreferrer" target="_blank"&gt;Russ Tedrake&lt;/a&gt;. “I thought about legs for 20 years; that’s the class I teach at MIT. There are many reasons to build a robot with legs. But the question is, what’s the addressable market? And what percentage of it is covered by a wheeled base?” It’s this focused, practical thinking that sets Walden somewhat apart from many (if not most) of the other companies in this space. Rather than &lt;a href="https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available" target="_self"&gt;developing a robot first and searching for a viable commercial use case second&lt;/a&gt;, Walden instead identified applications where robots can provide value now, and designed a robot that could safely and efficiently meet those needs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt; &lt;/p&gt;&lt;h2&gt;Walden Robotics’ Manufacturing Focus&lt;/h2&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="A smiling man in a blue shirt" class="rm-shortcode" id="f545c" src="https://spectrum.ieee.org/media-library/a-smiling-man-in-a-blue-shirt.jpg?id=67568051&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Russ Tedrake is the CEO and cofounder of Walden Robotics.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tedrake is light on the details about what specific applications Walden is targeting at this point (citing confidentiality with current commercial partners). Manufacturing and logistics environments where there are a lot of &lt;a href="https://www.youtube.com/watch?v=F_7IPm7f1vI" target="_blank"&gt;relatively simple&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=tv90GFM9RAo" target="_blank"&gt;repetitive tasks&lt;/a&gt; that aren’t friendly to conveyor belts and preprogrammed robot arms are a good bet. Even in these environments, however, robots still have to find a useful niche because they’re going up against human workers who are more flexible while also cheaper to employ. So the question is: How do you make an argument to a customer that a robot is actually a better solution than their existing human workers?&lt;/p&gt;&lt;p&gt;“You need to find applications with high utilization—where the robot is used 24 hours a day, 7 days a week,” says Tedrake. “Manufacturing is a global imperative right now, and it makes the economics work.” Economic viability is a necessary condition, but it’s not a sufficient one for Walden, or for their partnership with Toyota. People are a big part of Walden’s plan, too.&lt;/p&gt;&lt;p&gt;One of Walden’s major strengths is the company’s partnership with Toyota, which is not all that surprising given that Walden is a spinout from TRI, which is &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota’s Silicon Valley–based R&amp;amp;D arm&lt;/a&gt;. “Toyota was very proud of the work we had done at TRI, and was ready to go big in this space,” says Tedrake. “Part of the excitement of having Toyota as a partner is that their culture is deeply people-first. When talking to Toyota’s leadership, I was never asked how much money this is going to make, but I was asked how it will improve the quality of life for all people.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A white and orange humanoid robot manipulates an object in its two-finger grippers." class="rm-shortcode" id="209d4" src="https://spectrum.ieee.org/media-library/a-white-and-orange-humanoid-robot-manipulates-an-object-in-its-two-finger-grippers.jpg?id=67568030&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The robot’s chonky design allows it to meet the high-payload requirements of useful manufacturing work.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this context, at least in the short term, Walden’s approach to improving the quality of life for people is to take over those aforementioned repetitive manufacturing tasks with robots. Tedrake hopes that this will lead to workplaces where skilled craftspeople are able to do even more with their hard-earned expertise, increasing their efficiency, productivity, and happiness all at the same time—a noble goal, although there’s only so much Walden itself can do to make this happen, and not all customers will share Toyota’s priorities.&lt;/p&gt;&lt;h2&gt;Wheeled Humanoid Robots in Factories&lt;/h2&gt;&lt;p&gt;Many other &lt;a href="https://www.agilityrobotics.com/" target="_blank"&gt;humanoid&lt;/a&gt; &lt;a href="https://www.figure.ai/" target="_blank"&gt;robotics&lt;/a&gt; &lt;a href="https://apptronik.com/" target="_blank"&gt;companies&lt;/a&gt; are also targeting these logistics and manufacturing spaces with general-purpose robots, and they’re doing so by making robots that are as humanlike as possible. The theory is that a humanoid form factor is necessary when operating in human environments. And there are certainly arguments in favor of a humanoid with legs—stairs exist, for one, and legged robots have a smaller footprint compared with ones that have wheels.&lt;/p&gt;&lt;p&gt;But a large wheeled base offers some significant advantages, as Tedrake points out. You’re incentivized to cram the base full of batteries, since more weight near the floor keeps the robot stable, which also solves the problem of running out of power during the middle of the workday. More importantly, a statically stable robot that moves around on a wheeled base can bypass the &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;safety challenges&lt;/a&gt; that are currently keeping legged humanoids physically separated from real humans—most prominently, the fact that legged robots can fall over. “Factories already have autonomous mobile [wheeled] robots,” explains Tedrake. “They already have safety cases built around AMRs. You can piggyback on that with a wheeled base.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A close-up of a robotic gripper grasping a metallic object in a vise." class="rm-shortcode" id="f600c" src="https://spectrum.ieee.org/media-library/a-close-up-of-a-robotic-gripper-grasping-a-metallic-object-in-a-vise.jpg?id=67568022&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Simple, rugged grippers make the robot suitable for commercial deployment.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Walden’s perspective on manipulation is similar. Many humanoid companies are using five-fingered hands that are highly dexterous but also highly complex, which Tedrake believes is not a pragmatic approach in the context of commercial deployments. “There’s a question of what you need to do the tasks, but the real question is just durability,” Tedrake says. “We have been deployed in a Toyota factory, and at the end of the week, the hands take a beating, so we built hands that can take that. I have not seen a more dexterous hand that could have done the work our hand has done.”&lt;/p&gt;&lt;p&gt;Walden’s long-term plan is to build “general-purpose robots.” It’s not always clear what a general-purpose robot is, because (I would argue) nobody is quite sure what “general purpose” means. It’s certainly not referring to robots that can do &lt;em&gt;&lt;em&gt;everything&lt;/em&gt;&lt;/em&gt;; I think the closest we can get are robots that can be taught to do a useful number of different skills, which is why I prefer the term “multipurpose.” It’s a little pedantic, I know, but I think the distinction is important because it moderates expectations in the near term.&lt;/p&gt;&lt;p&gt;Part of where Walden’s optimism towards general purposeness comes from is TRI’s earlier research on &lt;a href="https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573" target="_blank"&gt;diffusion policy&lt;/a&gt;, which helps robots learn new skills more quickly by leveraging previously learned skills as a foundation. “Fundamentally, multitasking is a way to get to a general-purpose robot,” Tedrake says. “I believe there is a single platform that can do a lot of tasks that are of high value for real customers. That will give us the experience we need to give birth to this deployed general-purpose capability.”&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</guid>
-      <pubDate>Mon, 03 Aug 2026 16:05:39 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 07 Aug 2026 19:38:41 +0000</lastBuildDate>
     <item>
       <title>Trump’s AI protectionism has come for robotics</title>
       <link>https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/</link>
@@ -77,22 +63,6 @@
       <description>&lt;img src="https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&amp;amp;width=980" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. &lt;span&gt;On 28 July, the FCC added &lt;/span&gt;&lt;a href="https://www.fcc.gov/document/fcc-adds-foreign-produced-power-inverters-and-robots-covered-list-0" target="_blank"&gt;mobile, communicating robots weighing more than 2 kilograms and power inverters&lt;/a&gt;&lt;span&gt; commonly used in solar panels to the list, meaning that new products from any foreign country in these categories are no longer eligible for import.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The move is a Department of Defense–driven expansion of scattered federal efforts to &lt;a href="https://spectrum.ieee.org/chinese-robots-us-ban" target="_self"&gt;further limit U.S. exposure&lt;/a&gt; to potentially sensitive Chinese technology, but it may impose major changes on the robotics industry in allied countries, too. &lt;/p&gt;&lt;p&gt;The FCC’s &lt;a href="https://www.fcc.gov/sites/default/files/robots-nsd.pdf" target="_blank"&gt;announcement&lt;/a&gt; says:&lt;/p&gt;&lt;blockquote&gt;All foreign-produced advanced robotic devices pose an unacceptable risk to the national security of the United States and to the safety and security of U.S. persons…unless the [Department of Defense determines that] a given foreign-produced advanced robotic device, or a class of such devices, does not pose such risks.&lt;/blockquote&gt;&lt;p&gt;There are two &lt;a href="https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf" target="_blank"&gt;important definitions&lt;/a&gt; here. The first is what an “advanced robotic device” is, and the second is what “unacceptable risk” means. Drones already went through their own round of this sort of regulation, so they’re exempt from this particular restriction, as are connected vehicles and medical devices. As far as the FCC is concerned, “advanced robotic devices” are &lt;em&gt;&lt;em&gt;mobile&lt;/em&gt;&lt;/em&gt; systems that incorporate on-board sensing and communications and have some amount of autonomy. There are a couple of loopholes, including systems weighing under 2 kilograms and any system that communicates at less than 200 kilobits per second, which opens up some creative possibilities. It’s important to note that this applies to &lt;em&gt;&lt;em&gt;new&lt;/em&gt;&lt;/em&gt; devices; those already certified are not restricted for sale or use.&lt;/p&gt;&lt;p&gt;As to the risks, the U.S. government says that foreign advanced robotic devices represent “a cybersecurity risk that threatens the security of critical infrastructure and thus the safety and security of U.S. persons.” There seem to be two main points to the justification, &lt;a href="https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf" target="_blank"&gt;found in Appendix C&lt;/a&gt;. The first is that mobile robots are important to both the economy and the military, so the United States needs its own supply chain and industrial base rather than relying on foreign manufacturers. And second, mobile robots monitor critical infrastructure in sensitive locations, making them a security risk.&lt;/p&gt;&lt;h2&gt;The Country That Must Not Be Named&lt;/h2&gt;&lt;p&gt;As part of &lt;a href="https://www.fcc.gov/sites/default/files/robots-nsd.pdf" rel="noopener noreferrer" target="_blank"&gt;its justification&lt;/a&gt; for why foreign robots are a security risk, the DOD cites &lt;a href="https://spectrum.ieee.org/unitree-robot-exploit" target="_self"&gt;&lt;em&gt;&lt;em&gt;IEEE Spectrum’s&lt;/em&gt;&lt;/em&gt; article on a critical vulnerability in robots from Unitree&lt;/a&gt;, based in Hangzhou, China, along with several other news articles and reports about Chinese robotics. And despite the FCC &lt;a href="https://www.fcc.gov/covered-list-faqs-robots-inverters" rel="noopener noreferrer" target="_blank"&gt;swearing&lt;/a&gt; up and down that this action is “country neutral” and “not targeted at any country or countries,” U.S. national security sources told &lt;em&gt;&lt;em&gt;Spectrum&lt;/em&gt;&lt;/em&gt; that the perceived threat is obviously China. That’s how China feels about it, too, per a Chinese Ministry of Commerce 29 July &lt;a href="https://za.china-embassy.gov.cn/eng/fyrth/202607/t20260729_11994715.htm" rel="noopener noreferrer" target="_blank"&gt;press conference&lt;/a&gt; (&lt;a href="https://sinocism.notion.site/MOFCOM-Spokesperson-Answers-Reporters-Questions-on-the-US-FCC-Adding-Foreign-Power-Inverters-and-Ad-3ad84ece41d781ca8e46d4ec2a45c96c" rel="noopener noreferrer" target="_blank"&gt;translation of the first quote here&lt;/a&gt;):&lt;/p&gt;&lt;blockquote&gt;On the surface, the FCC’s measures fly the banner of “non-discrimination,” but in substance they discriminate against and suppress Chinese enterprises and products…&lt;br /&gt;&lt;br /&gt;China firmly opposes the U.S. overstretching the concept of national security and going after Chinese companies. Protectionism does not make the U.S. more competitive and will only hurt the interests of U.S. companies and consumers. China will continue to do what is necessary to firmly defend the legitimate and lawful rights and interests of Chinese companies.&lt;/blockquote&gt;&lt;p&gt;It’s unclear what China is going to do about this—but how about the rest of the world? How can foreign companies that make advanced robotic devices get them cleared for FCC authorization? Among &lt;a href="https://www.fcc.gov/sites/default/files/robots-ca.pdf" rel="noopener noreferrer" target="_blank"&gt;many, many other things&lt;/a&gt;, you’ll need to provide “a detailed, time-bound plan to establish or expand manufacturing in the United States for the advanced robotic device.” &lt;/p&gt;&lt;p&gt;Because China also produces a large fraction of robot components, even for robots assembled in the United States, it will have strong leverage in any related negotiations until U.S. robotics companies further diversify their supply chains.&lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/chinese-robots-us-ban" target="_self"&gt;Proposed Chinese Robot Ban Is Latest U.S. Tech Sovereignty Move&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Applicants must also submit their applications to the DOD and FCC by 1 January 2028, which is unfortunate for anyone who wants to develop an advanced robotic device after that point. &lt;/p&gt;&lt;h2&gt;Robotics Industry Reactions&lt;/h2&gt;&lt;p&gt;This is all very new, and reactions from the robotics community have been mixed. &lt;/p&gt;&lt;p&gt;Some American robotics companies may benefit in the local market from the newfound lack of competition in the commercial market. &lt;a href="https://www.linkedin.com/in/brendanschulman/" rel="noopener noreferrer" target="_blank"&gt;Brendan Schulman,&lt;/a&gt; &lt;a href="https://bostondynamics.com/" rel="noopener noreferrer" target="_blank"&gt;Boston Dynamics&lt;/a&gt;’ vice president of policy, wrote an enthusiastic &lt;a href="https://www.linkedin.com/posts/brendanschulman_after-months-of-increasing-calls-from-industry-activity-7488070496488435712-8LE-?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAADzTX0B_X82L2FL9GS1Qib6fNoMXJQlPzA" rel="noopener noreferrer" target="_blank"&gt;endorsement of the ban on LinkedIn&lt;/a&gt;: “I sense that this is just the first round in a series of policies that will define the success and growth of the industry for decades to come.” On the other hand, third-country buyers &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7488293386664292355/" rel="noopener noreferrer" target="_blank"&gt;may just stick to Chinese products&lt;/a&gt;, as they generally have for drones and electric cars. &lt;/p&gt;&lt;p&gt;But not all companies expect major changes from the new regulation. American customers “need to know they can audit the technology, get support quickly, and keep the system operating without depending on a fragile overseas supply chain,” &lt;a href="https://www.linkedin.com/in/nicolaus-radford/" rel="noopener noreferrer" target="_blank"&gt;Nic Radford&lt;/a&gt;, the CEO of the U.S. humanoid robotics company &lt;a href="https://spectrum.ieee.org/persona-ai-radford-pratt/" target="_self"&gt;Persona&lt;/a&gt;, tells &lt;em&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;/em&gt;. In other words, he figures some customers wouldn’t have wanted Chinese humanoids anyway.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/in/phfrey/" rel="noopener noreferrer" target="_blank"&gt;Philipp Frey&lt;/a&gt;, vice president of strategy for the Swiss quadruped company &lt;a href="https://www.anybotics.com/" rel="noopener noreferrer" target="_blank"&gt;ANYbotics&lt;/a&gt;, agrees. He says their enterprise customers in the United States “increasingly evaluate robots on long-term reliability, cybersecurity, software capability, safety certification, serviceability, and ecosystem integration, not on hardware cost alone.” &lt;/p&gt;&lt;p&gt;ANYbotics also plans to apply for conditional approval of future products, Frey says. That will involve a national-security review by the DOD or the Department of Homeland Security, disclosing company beneficial ownership, supply-chain risks, and declaring a plan for establishing a significant manufacturing presence in the United States.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/in/gavin-kenneally-321a3833/" target="_blank"&gt;Gavin Kenneally&lt;/a&gt;, CEO of the U.S. quadruped company &lt;a href="https://www.ghostrobotics.io/" target="_blank"&gt;Ghost Robotics&lt;/a&gt;, is more explicit about the risks that Chinese robot strategy poses to the United States. “Active and purposeful spyware is deployed inside the U.S. on Chinese robots. Examples of predatory pricing abound. And this isn’t just a competition between U.S. and Chinese robotics companies; it’s between private U.S. companies and China’s coordinated national strategy,” Kenneally tells &lt;em&gt;&lt;em&gt;Spectrum&lt;/em&gt;&lt;/em&gt;. “If today’s announcement encourages stronger cybersecurity and a more level competitive environment, that’s good for customers and good for the robotics industry.”&lt;/p&gt;&lt;p&gt;So is an industry-wide ban the best way to guard against threats? American approaches to Chinese technology security risks have been “ad hoc and fragmented,” wrote the Brookings Institution sociologist &lt;a href="https://www.brookings.edu/people/kyle-chan/" rel="noopener noreferrer" target="_blank"&gt;Kyle Chan&lt;/a&gt; in a &lt;a href="https://www.brookings.edu/articles/a-new-risk-framework-for-chinese-technology-products-and-investments/" rel="noopener noreferrer" target="_blank"&gt;report&lt;/a&gt; published 9 July. Chan called for the Bureau of Industry and Security, part of the Department of Commerce, to centralize federal information gathering and decision-making on how to handle risky foreign devices. He also called for better public input mechanisms for these issues, and a continuous, proportionate process that tightened or relaxed targeted import restrictions in response to well-defined risks. &lt;/p&gt;&lt;p&gt;That would allow American industry to continue benefiting from partnerships with Chinese manufacturers in less sensitive links of the supply chain, Chan argues. Those links will evolve over time, requiring continued assessment, but without those partnerships, crude bans “could make it more difficult for American startups and researchers to develop new software and end up slowing innovation across the U.S. robotics ecosystem,” he writes.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/fcc-covered-list-mobile-robots</guid>
       <pubDate>Tue, 04 Aug 2026 11:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Adds Three Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-9198" target="_blank"&gt;CVE-2026-9198&lt;/a&gt; IBM Langflow Code Injection Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18556" target="_blank"&gt;CVE-2026-18556&lt;/a&gt; N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-34486" target="_blank"&gt;CVE-2026-34486&lt;/a&gt; Apache Tomcat Missing Encryption of Sensitive Data Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Acrisure KARR BT and DR-100</title>
@@ -232,6 +202,22 @@
 &lt;hr /&gt;
 &lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
       <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds Three Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</link>
+      <description>&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-9198" target="_blank"&gt;CVE-2026-9198&lt;/a&gt; IBM Langflow Code Injection Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18556" target="_blank"&gt;CVE-2026-18556&lt;/a&gt; N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-34486" target="_blank"&gt;CVE-2026-34486&lt;/a&gt; Apache Tomcat Missing Encryption of Sensitive Data Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</guid>
       <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -461,13 +447,6 @@
       <pubDate>Tue, 04 Aug 2026 20:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lockheed seeks US mineral supplies after Trump supply-chain push, sources say</title>
-      <link>https://www.defensenews.com/industry/2026/08/04/lockheed-seeks-us-mineral-supplies-after-trump-supply-chain-push-sources-say/</link>
-      <description>The deals would mark a significant step in the U.S. push to build domestic mineral supply chains.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/2026/08/04/lockheed-seeks-us-mineral-supplies-after-trump-supply-chain-push-sources-say/</guid>
-      <pubDate>Tue, 04 Aug 2026 20:00:08 +0000</pubDate>
-    </item>
-    <item>
       <title>Trump meets AI giants, Senate Dems decry ‘unpredictable’ governance—and cheap Chinese AI looms as giant security risk</title>
       <link>https://cset.georgetown.edu/article/trump-meets-ai-giants-senate-dems-decry-unpredictable-governance-and-cheap-chinese-ai-looms-as-giant-security-risk/</link>
       <description>&lt;p&gt;CSET’s Sam Bresnick shared his expert insight in an article published by Fortune. The article examines how uncertainty surrounding the Trump administration’s AI governance, combined with the lower cost and flexibility of Chinese AI models, is influencing businesses’ decisions and raising concerns about U.S. competitiveness and national security.&lt;/p&gt;
@@ -685,13 +664,6 @@
       <pubDate>Wed, 05 Aug 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Iranian Fingerprints on America’s Water Systems: Cyberattacks Hit 12 States</title>
-      <link>https://sofrep.com/news/iranian-fingerprints-on-americas-water-systems-cyberattacks-hit-12-states/</link>
-      <description>Iran may not yet be convicted in the court of public attribution, but somebody has been reaching into America’s water systems through doors the government warned us to close years ago. #Cybersecurity #CriticalInfrastructure #Iran #WaterSecurity #CyberWarfare</description>
-      <guid isPermaLink="false">https://sofrep.com/news/iranian-fingerprints-on-americas-water-systems-cyberattacks-hit-12-states/</guid>
-      <pubDate>Wed, 05 Aug 2026 21:00:23 +0000</pubDate>
-    </item>
-    <item>
       <title>Snowflake hacker pleads guilty, faces up to 32 years in prison</title>
       <link>https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/</link>
       <description>&lt;p&gt;Connor Moucka obtained almost $500,000 for playing a key role in one of the most widespread and damaging cyberattack sprees on record.&lt;/p&gt;
@@ -878,6 +850,292 @@
       <description>Russian officials make no secret of what a new law signed by President Vladimir Putin is intended to do: strip basic legal rights from many Russians living outside the country, and scare them into silence.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russia-law-foreign-agent-consular-restriction-exile/33823432.html</guid>
       <pubDate>Thu, 06 Aug 2026 11:40:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Johnson Controls Inc. TL280</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-02.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of Johnson Controls Inc. TL280 are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TL280 &amp;lt;5.63&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 4.1&lt;/td&gt;
+&lt;td&gt;Johnson Controls Inc.&lt;/td&gt;
+&lt;td&gt;Johnson Controls Inc. TL280&lt;/td&gt;
+&lt;td&gt;Use of a Broken or Risky Cryptographic Algorithm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing, Commercial Facilities, Government Services and Facilities, Transportation Systems, Energy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Ireland&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-27871&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Hardcoded credentials refer to usernames, passwords, or other authentication information that are embedded directly into the source code of a firmware file. These credentials are often used to access system login and other areas of an application.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-27871"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;Johnson Controls Inc. TL280&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Johnson Controls Inc.&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Johnson Controls Inc. TL280: &amp;lt;5.63&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;To help reduce the risk of exploitation, Johnson Control suggests considering the following defensive measures: Apply firmware update 5.63.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Johnson Controls suggests the following defensive measures: Restrict network access to affected cameras to trusted management VLANs only - do not expose these devices directly to the internet or untrusted network segments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Monitor device access logs for any anomalous authentication activity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Rotate any shared or downstream credentials that may have been derived from or associated with the hard-coded values.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Implement network segmentation and place ICS/SCADA devices and systems behind firewalls, isolating them from the business network.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;When remote access is required, use secure methods such as Virtual Private Networks (VPNs), recognizing that VPNs may have vulnerabilities and should be kept up to date.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Minimize network exposure for all control system devices and/or systems; ensure they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Conduct regular firmware integrity checks to detect unauthorizedmodifications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more detailed mitigation instructions, please see Johnson Controls Product Security Advisory JCI-PSA-2026-08 at the following location: https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories&lt;br /&gt;&lt;a href="https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"&gt;https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/327.html"&gt;CWE-327 Use of a Broken or Risky Cryptographic Algorithm&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;4.1&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L"&gt;CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;2.1&lt;/td&gt;
+&lt;td&gt;LOW&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Z of VulnCheck reported this vulnerability to CISA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
+&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
+&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
+&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
+&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
+&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability has a high attack complexity.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-06&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-08-06&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Republication of Johnson Controls Security Advisory JCI-PSA-2026-08&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02</guid>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Medixant RadiAnt DICOM</title>
+      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-218-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to cause the application to crash if a maliciously crafted DICOM file is opened.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of Medixant RadiAnt DICOM are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RadiAnt DICOM &amp;lt;=2025.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 4.3&lt;/td&gt;
+&lt;td&gt;Medixant&lt;/td&gt;
+&lt;td&gt;Medixant RadiAnt DICOM&lt;/td&gt;
+&lt;td&gt;Out-of-bounds Write&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Healthcare and Public Health&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Poland&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-17264&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Opening a crafted DICOM file containing malicious JPEG-compressed pixel data triggers an attacker-controlled heap out-of-bounds write, which may allow an attacker to remotely execute arbitrary code.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-17264"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;Medixant RadiAnt DICOM&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Medixant&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Medixant RadiAnt DICOM: &amp;lt;=2025.2&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Users should update to version 2026.1. It is also recommended to open DICOM files only from trusted and reliable sources. Additionally, the application is compiled with exploit mitigation mechanisms enabled, including Control Flow Guard (CFG), Data Execution Prevention (DEP), and Address Space Layout Randomization (ASLR), which significantly reduces the practical exploitability of the issue.&lt;br /&gt;&lt;a href="https://www.radiantviewer.com/files/RadiAnt-2026.1-Setup.exe"&gt;https://www.radiantviewer.com/files/RadiAnt-2026.1-Setup.exe&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;4.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;5.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;banda, oriotie, ax123, jihyeon4725, lacroix, and minzu reported this vulnerability to CISA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
+&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
+&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
+&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
+&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
+&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-06&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-08-06&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01</guid>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ABB Ability Zenon</title>
@@ -1615,292 +1873,6 @@
       <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Johnson Controls Inc. TL280</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-02.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Johnson Controls Inc. TL280 are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TL280 &amp;lt;5.63&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 4.1&lt;/td&gt;
-&lt;td&gt;Johnson Controls Inc.&lt;/td&gt;
-&lt;td&gt;Johnson Controls Inc. TL280&lt;/td&gt;
-&lt;td&gt;Use of a Broken or Risky Cryptographic Algorithm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing, Commercial Facilities, Government Services and Facilities, Transportation Systems, Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Ireland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-27871&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Hardcoded credentials refer to usernames, passwords, or other authentication information that are embedded directly into the source code of a firmware file. These credentials are often used to access system login and other areas of an application.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-27871"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Johnson Controls Inc. TL280&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Johnson Controls Inc.&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Johnson Controls Inc. TL280: &amp;lt;5.63&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;To help reduce the risk of exploitation, Johnson Control suggests considering the following defensive measures: Apply firmware update 5.63.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Johnson Controls suggests the following defensive measures: Restrict network access to affected cameras to trusted management VLANs only - do not expose these devices directly to the internet or untrusted network segments.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Monitor device access logs for any anomalous authentication activity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Rotate any shared or downstream credentials that may have been derived from or associated with the hard-coded values.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Implement network segmentation and place ICS/SCADA devices and systems behind firewalls, isolating them from the business network.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;When remote access is required, use secure methods such as Virtual Private Networks (VPNs), recognizing that VPNs may have vulnerabilities and should be kept up to date.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Minimize network exposure for all control system devices and/or systems; ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Conduct regular firmware integrity checks to detect unauthorizedmodifications.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more detailed mitigation instructions, please see Johnson Controls Product Security Advisory JCI-PSA-2026-08 at the following location: https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories&lt;br /&gt;&lt;a href="https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"&gt;https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/327.html"&gt;CWE-327 Use of a Broken or Risky Cryptographic Algorithm&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;4.1&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L"&gt;CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;2.1&lt;/td&gt;
-&lt;td&gt;LOW&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Z of VulnCheck reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability has a high attack complexity.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-06&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-06&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Republication of Johnson Controls Security Advisory JCI-PSA-2026-08&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02</guid>
-      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Medixant RadiAnt DICOM</title>
-      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-218-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to cause the application to crash if a maliciously crafted DICOM file is opened.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Medixant RadiAnt DICOM are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;RadiAnt DICOM &amp;lt;=2025.2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 4.3&lt;/td&gt;
-&lt;td&gt;Medixant&lt;/td&gt;
-&lt;td&gt;Medixant RadiAnt DICOM&lt;/td&gt;
-&lt;td&gt;Out-of-bounds Write&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Healthcare and Public Health&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Poland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-17264&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Opening a crafted DICOM file containing malicious JPEG-compressed pixel data triggers an attacker-controlled heap out-of-bounds write, which may allow an attacker to remotely execute arbitrary code.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-17264"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Medixant RadiAnt DICOM&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Medixant&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Medixant RadiAnt DICOM: &amp;lt;=2025.2&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Users should update to version 2026.1. It is also recommended to open DICOM files only from trusted and reliable sources. Additionally, the application is compiled with exploit mitigation mechanisms enabled, including Control Flow Guard (CFG), Data Execution Prevention (DEP), and Address Space Layout Randomization (ASLR), which significantly reduces the practical exploitability of the issue.&lt;br /&gt;&lt;a href="https://www.radiantviewer.com/files/RadiAnt-2026.1-Setup.exe"&gt;https://www.radiantviewer.com/files/RadiAnt-2026.1-Setup.exe&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;4.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;5.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;banda, oriotie, ax123, jihyeon4725, lacroix, and minzu reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-06&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-06&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01</guid>
-      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Green Beret Remembers Navy SEAL Michael Murphy, Hero of Operation Red Wings</title>
       <link>https://sofrep.com/specialoperations/remembering-navy-seal-michael-p-murphy-medal-honor/</link>
       <description>With unwavering resolve and a heart that put his men before himself, Lieutenant Michael Murphy chose sacrifice over safety, cementing his legacy as a leader whose final act of bravery remains a testament to the very essence of duty, honor, and country. #HeroicSacrifice
@@ -1957,13 +1929,6 @@
       <pubDate>Thu, 06 Aug 2026 14:00:41 +0000</pubDate>
     </item>
     <item>
-      <title>How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore</title>
-      <link>https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/</link>
-      <description>AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/</guid>
-      <pubDate>Thu, 06 Aug 2026 14:02:12 +0000</pubDate>
-    </item>
-    <item>
       <title>Houthis escalate attacks in Red Sea and on Saudi Arabia, Riyadh evaluates options</title>
       <link>https://www.longwarjournal.org/archives/2026/08/houthis-escalate-attacks-in-red-sea-and-on-saudi-arabia-riyadh-evaluates-options.php</link>
       <description>&lt;p&gt;Yemen’s Houthis claimed attacks on eight Saudi-linked vessels as well as energy facilities and an airport to enforce its blockade of the kingdom. Saudi Arabia is reportedly pursuing a diplomatic path to de-escalate the conflict or military options if necessary.&lt;/p&gt;
@@ -2014,13 +1979,6 @@
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/afghan-united-front-commences-operations-against-taliban.php"&gt;Afghan United Front commences operations against Taliban&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/afghan-united-front-commences-operations-against-taliban.php</guid>
       <pubDate>Thu, 06 Aug 2026 15:37:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Air Force signs off on production of long-range JDAM</title>
-      <link>https://breakingdefense.com/2026/08/air-force-signs-off-on-production-of-long-range-jdam/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/air-force-signs-off-on-production-of-long-range-jdam/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/JDAM-LR-e1786026459677-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The first kits of the JDAM LR will go to the US Navy, according to manufacturer Boeing. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/air-force-signs-off-on-production-of-long-range-jdam/</guid>
-      <pubDate>Thu, 06 Aug 2026 15:45:39 +0000</pubDate>
     </item>
     <item>
       <title>Tiberius, US Army cooperate on 155mm Sceptre munition</title>
@@ -2100,15 +2058,6 @@
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/top-cover-and-clear-metrics-how-to-make-the-new-pae-structure-work/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Hegseth-Arsenal-of-Freedom-signing-munition-260227-D-PM193-1372X-scaled-e1785958760142-1024x577.jpeg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Two moves, made in the right order, will break portfolios — and eventually the acquisition system as a whole — out of the compliance trap, writes Timothy Cooke in this op-ed.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/top-cover-and-clear-metrics-how-to-make-the-new-pae-structure-work/</guid>
       <pubDate>Thu, 06 Aug 2026 17:44:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts</title>
-      <link>https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html</link>
-      <description>Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests.
-
-The flaw is tracked as&amp;nbsp;CVE-2026-64561&amp;nbsp;and affects KVM/x86's shadow memory management unit (MMU), which manages shadow page</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html</guid>
-      <pubDate>Thu, 06 Aug 2026 17:58:30 +0000</pubDate>
     </item>
     <item>
       <title>New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes</title>
@@ -2330,15 +2279,6 @@ The flaw is tracked as&amp;nbsp;CVE-2026-64561&amp;nbsp;and affects KVM/x86's sh
       <pubDate>Fri, 07 Aug 2026 06:48:00 +0000</pubDate>
     </item>
     <item>
-      <title>TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign</title>
-      <link>https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</link>
-      <description>A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain.
-
-"The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</guid>
-      <pubDate>Fri, 07 Aug 2026 06:50:05 +0000</pubDate>
-    </item>
-    <item>
       <title>US Treasury Targets Currency Exchanges, Shell Companies Tied To Iran</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
@@ -2381,15 +2321,6 @@ The flaw is tracked as&amp;nbsp;CVE-2026-64561&amp;nbsp;and affects KVM/x86's sh
       <description>Despite its rapid industrialization, the country's economy is not creating enough jobs that make productive use of advanced skills.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/from-jobs-to-skills-rethinking-vietnams-fdi-success/</guid>
       <pubDate>Fri, 07 Aug 2026 07:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets</title>
-      <link>https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html</link>
-      <description>A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run.
-
-Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html</guid>
-      <pubDate>Fri, 07 Aug 2026 08:18:35 +0000</pubDate>
     </item>
     <item>
       <title>Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access</title>
@@ -2474,6 +2405,351 @@ For two decades it got to be a kid. It ran around barefoot, gave everything away
 Then,</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/growing-up-hard-way.html</guid>
       <pubDate>Fri, 07 Aug 2026 11:55:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPDLC over ATN-B1 Vulnerabilities</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-219-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and forced session resets. These vulnerabilities do not constitute an unsafe aircraft condition but can degrade operational safety margins by increasing workload, delaying safety-critical instructions, and reducing situational awareness.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of CPDLC over ATN-B1 Vulnerabilities are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ATN-B1 CPDLC vers:all/* (CVE-2025-71409, CVE-2025-71410, CVE-2025-71411, CVE-2025-71412, CVE-2025-71413)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Standard&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 7.1&lt;/td&gt;
+&lt;td&gt;Advisory Circular 90-117 Data Link Communications&lt;/td&gt;
+&lt;td&gt;CPDLC over ATN-B1 Vulnerabilities&lt;/td&gt;
+&lt;td&gt;Missing Authentication for Critical Function, Allocation of Resources Without Limits or Throttling, Improper Check for Unusual or Exceptional Conditions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Transportation Systems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Global&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2025-71409&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Lack of authentication for Very High Frequency Data Link messages allows rogue ground stations to inject CPDLC messages leading to unexpected or misleading clearances and potential pilot confusion. This type of attack can be carried out remotely over radio frequency.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-71409"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CPDLC over ATN-B1 Vulnerabilities&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Standard:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications ATN-B1 CPDLC: vers:all/*&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;None available&lt;/strong&gt;&lt;br /&gt;Currently, there is no mitigation available for CVE-2025-71409, CVE-2025-71410, CVE-2025-71411, CVE-2025-71412, CVE-2025-71413.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;These vulnerabilities in the CPDLC protocol stack are exploitable in a lab environment. However, they require very specific conditions to be met and are unlikely to be exploited outside of a lab setting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time. These vulnerabilities have a high attack complexity.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:L"&gt;CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:H/VA:L/SC:N/SI:H/SA:L"&gt;CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:H/VA:L/SC:N/SI:H/SA:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2025-71410&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Unnumbered Disconnect (U DISC) and malformed Aviation Very High Frequency Link Control frames can terminate sessions and lead to a loss of CPDLC functions requiring a reversion to voice communication and increased controller workload. This type of attack can be carried out remotely over radio frequency.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-71410"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CPDLC over ATN-B1 Vulnerabilities&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Standard:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications ATN-B1 CPDLC: vers:all/*&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;None available&lt;/strong&gt;&lt;br /&gt;Currently, there is no mitigation available for CVE-2025-71409, CVE-2025-71410, CVE-2025-71411, CVE-2025-71412, CVE-2025-71413.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;These vulnerabilities in the CPDLC protocol stack are exploitable in a lab environment. However, they require very specific conditions to be met and are unlikely to be exploited outside of a lab setting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time. These vulnerabilities have a high attack complexity.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/770.html"&gt;CWE-770 Allocation of Resources Without Limits or Throttling&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;5.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2025-71411&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Broadcast control frames can disconnect multiple aircraft simultaneously leading to delayed clearances and air traffic controller overload. This type of attack can be carried out remotely over radio frequency.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-71411"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CPDLC over ATN-B1 Vulnerabilities&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Standard:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications ATN-B1 CPDLC: vers:all/*&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;None available&lt;/strong&gt;&lt;br /&gt;Currently, there is no mitigation available for CVE-2025-71409, CVE-2025-71410, CVE-2025-71411, CVE-2025-71412, CVE-2025-71413.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;These vulnerabilities in the CPDLC protocol stack are exploitable in a lab environment. However, they require very specific conditions to be met and are unlikely to be exploited outside of a lab setting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time. These vulnerabilities have a high attack complexity.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/770.html"&gt;CWE-770 Allocation of Resources Without Limits or Throttling&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;5.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2025-71412&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Injection of false emergency or status messages over CPDLC may lead to misallocation of resources, operational confusion, and improper response actions by flight crews, traffic controllers, and ground operations. This type of attack can be carried out remotely over radio frequency.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-71412"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CPDLC over ATN-B1 Vulnerabilities&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Standard:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications ATN-B1 CPDLC: vers:all/*&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;None available&lt;/strong&gt;&lt;br /&gt;Currently, there is no mitigation available for CVE-2025-71409, CVE-2025-71410, CVE-2025-71411, CVE-2025-71412, CVE-2025-71413.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;These vulnerabilities in the CPDLC protocol stack are exploitable in a lab environment. However, they require very specific conditions to be met and are unlikely to be exploited outside of a lab setting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time. These vulnerabilities have a high attack complexity.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/754.html"&gt;CWE-754 Improper Check for Unusual or Exceptional Conditions&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:L"&gt;CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:H/VA:L/SC:N/SI:H/SA:L"&gt;CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:H/VA:L/SC:N/SI:H/SA:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2025-71413&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Malformed or out-of-sequence frames at the Aviation Very High Frequency Link Control X.25 layers cause repeated resets which may result in increased workload and reduced situational awareness. This type of attack can be carried out remotely over radio frequency.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-71413"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CPDLC over ATN-B1 Vulnerabilities&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Standard:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Advisory Circular 90-117 Data Link Communications ATN-B1 CPDLC: vers:all/*&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;None available&lt;/strong&gt;&lt;br /&gt;Currently, there is no mitigation available for CVE-2025-71409, CVE-2025-71410, CVE-2025-71411, CVE-2025-71412, CVE-2025-71413.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;These vulnerabilities in the CPDLC protocol stack are exploitable in a lab environment. However, they require very specific conditions to be met and are unlikely to be exploited outside of a lab setting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time. These vulnerabilities have a high attack complexity.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/754.html"&gt;CWE-754 Improper Check for Unusual or Exceptional Conditions&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;5.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Martin Strohmeier of Armasuisse reported these vulnerabilities to CISA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-07&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-08-07&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-8037" target="_blank"&gt;CVE-2026-8037&lt;/a&gt; Progress LoadMaster Command Injection Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Why the SR-71 Blackbird Shouldn’t Have Worked—But Did</title>
@@ -2654,6 +2930,13 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the</description>
       <pubDate>Fri, 07 Aug 2026 14:24:49 +0000</pubDate>
     </item>
     <item>
+      <title>Boots on the Regolith, Part 1 of 4: No Bases, No Bunkers on the Moon</title>
+      <link>https://sofrep.com/news/boots-on-the-regolith-part-1-of-4-no-bases-no-bunkers/</link>
+      <description>America’s military future on the Moon will not be built around guns and garrisons, but around the quieter power of infrastructure, domain awareness, rescue capability, and the ability to keep everyone else from changing the rules. #SpaceForce #CislunarStrategy #MilitaryDoctrine</description>
+      <guid isPermaLink="false">https://sofrep.com/news/boots-on-the-regolith-part-1-of-4-no-bases-no-bunkers/</guid>
+      <pubDate>Fri, 07 Aug 2026 15:00:52 +0000</pubDate>
+    </item>
+    <item>
       <title>Responding to the next frontier of critical cyber capabilities</title>
       <link>https://openai.com/index/responding-next-frontier-critical-cyber-capabilities</link>
       <description>OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.</description>
@@ -2780,11 +3063,61 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the</description>
       <pubDate>Fri, 07 Aug 2026 17:44:45 +0000</pubDate>
     </item>
     <item>
+      <title>UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data</title>
+      <link>https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html</link>
+      <description>A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.
+
+"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html</guid>
+      <pubDate>Fri, 07 Aug 2026 18:16:13 +0000</pubDate>
+    </item>
+    <item>
       <title>Senate confirms nominees for Pentagon comptroller, space acquisition and NRO chief</title>
       <link>https://breakingdefense.com/2026/08/senate-confirms-nominees-for-pentagon-comptroller-space-acquisition-and-nro-chief/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/senate-confirms-nominees-for-pentagon-comptroller-space-acquisition-and-nro-chief/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/jules-hurst-april-29-2-scaled-e1777486705258-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Until today, the Pentagon had gone a year and a half without a confirmed comptroller.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/senate-confirms-nominees-for-pentagon-comptroller-space-acquisition-and-nro-chief/</guid>
       <pubDate>Fri, 07 Aug 2026 18:21:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets</title>
+      <link>https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html</link>
+      <description>ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.
+
+The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture.
+
+"</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html</guid>
+      <pubDate>Fri, 07 Aug 2026 18:29:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>How North Korean forces are bolstering Russia’s war against Ukraine</title>
+      <link>https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/</link>
+      <description>North Korea has deployed troops, weapons and now, according to a Ukrainian intelligence official, a missile unit to support Russia’s war against Ukraine.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/</guid>
+      <pubDate>Fri, 07 Aug 2026 18:29:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer</title>
+      <link>https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html</link>
+      <description>A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.
+
+"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload," OpenSourceMalware researcher Paul</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html</guid>
+      <pubDate>Fri, 07 Aug 2026 18:48:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Army opens ranges in US, Morocco to speed interceptor testing, development</title>
+      <link>https://breakingdefense.com/2026/08/army-opens-ranges-in-us-morocco-to-speed-interceptor-testing-development/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/army-opens-ranges-in-us-morocco-to-speed-interceptor-testing-development/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/08/gmars-08-03-release-hr-e1754399507509-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Army Secretary Dan Driscoll told reporters he hopes to get companies who have internally funded their own munitions onto testing ranges within 30 days of a request.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/army-opens-ranges-in-us-morocco-to-speed-interceptor-testing-development/</guid>
+      <pubDate>Fri, 07 Aug 2026 19:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlimited Technology Systems breach impacts 3.8 million people</title>
+      <link>https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/</link>
+      <description>Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/</guid>
+      <pubDate>Fri, 07 Aug 2026 19:30:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
