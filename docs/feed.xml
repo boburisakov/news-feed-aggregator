@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 19:38:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 20:21:54 +0000</lastBuildDate>
+    <item>
+      <title>An analysis of incidents at Brazilian educational institutions</title>
+      <link>https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</link>
+      <description>Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.</description>
+      <guid isPermaLink="false">https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</guid>
+      <pubDate>Mon, 03 Aug 2026 13:00:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Walden Robotics Partners With Toyota on Practical Humanoids</title>
+      <link>https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</link>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&amp;amp;width=980" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;For a while there, it seemed as though robotics as a whole was stuck in a &lt;a href="https://spectrum.ieee.org/top-robotics-stories-2024" target="_self"&gt;mad rush&lt;/a&gt; towards building &lt;a href="https://spectrum.ieee.org/topic/robotics/humanoid-robots/" target="_self"&gt;humanoid robots&lt;/a&gt; mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also been an industry-wide sobering leading to &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;pointed questions about practicality and value&lt;/a&gt;. In other words, starting a commercial humanoid company &lt;em&gt;&lt;em&gt;now&lt;/em&gt;&lt;/em&gt; is a much different proposition than it would have been just a few years ago. &lt;/p&gt;&lt;p&gt;On 15 July, &lt;a href="https://www.waldenrobotics.com/news/walden-robotics-launches-from-stealth" rel="noopener noreferrer" target="_blank"&gt;Walden Robotics emerged from stealth&lt;/a&gt; with US $300 million in funding at a valuation of $1.1 billion. Walden is a spinout of &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota Research Institute&lt;/a&gt; (TRI), and it’s spent the last 10 or so years working on hard problems in robotics with the goal of transitioning from research to real-world applications. That seems like the amount of time and experience that it might reasonably take to develop a &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;practical and value-driven approach&lt;/a&gt; to deploying general-purpose humanoid robots, and Walden has chosen an excellent starting point by skipping the legs.&lt;/p&gt;&lt;p&gt;“It’s ironic,” says Walden cofounder and CEO &lt;a href="https://www.linkedin.com/in/russ-tedrake-88648a4a/" rel="noopener noreferrer" target="_blank"&gt;Russ Tedrake&lt;/a&gt;. “I thought about legs for 20 years; that’s the class I teach at MIT. There are many reasons to build a robot with legs. But the question is, what’s the addressable market? And what percentage of it is covered by a wheeled base?” It’s this focused, practical thinking that sets Walden somewhat apart from many (if not most) of the other companies in this space. Rather than &lt;a href="https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available" target="_self"&gt;developing a robot first and searching for a viable commercial use case second&lt;/a&gt;, Walden instead identified applications where robots can provide value now, and designed a robot that could safely and efficiently meet those needs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt; &lt;/p&gt;&lt;h2&gt;Walden Robotics’ Manufacturing Focus&lt;/h2&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="A smiling man in a blue shirt" class="rm-shortcode" id="f545c" src="https://spectrum.ieee.org/media-library/a-smiling-man-in-a-blue-shirt.jpg?id=67568051&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Russ Tedrake is the CEO and cofounder of Walden Robotics.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tedrake is light on the details about what specific applications Walden is targeting at this point (citing confidentiality with current commercial partners). Manufacturing and logistics environments where there are a lot of &lt;a href="https://www.youtube.com/watch?v=F_7IPm7f1vI" target="_blank"&gt;relatively simple&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=tv90GFM9RAo" target="_blank"&gt;repetitive tasks&lt;/a&gt; that aren’t friendly to conveyor belts and preprogrammed robot arms are a good bet. Even in these environments, however, robots still have to find a useful niche because they’re going up against human workers who are more flexible while also cheaper to employ. So the question is: How do you make an argument to a customer that a robot is actually a better solution than their existing human workers?&lt;/p&gt;&lt;p&gt;“You need to find applications with high utilization—where the robot is used 24 hours a day, 7 days a week,” says Tedrake. “Manufacturing is a global imperative right now, and it makes the economics work.” Economic viability is a necessary condition, but it’s not a sufficient one for Walden, or for their partnership with Toyota. People are a big part of Walden’s plan, too.&lt;/p&gt;&lt;p&gt;One of Walden’s major strengths is the company’s partnership with Toyota, which is not all that surprising given that Walden is a spinout from TRI, which is &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota’s Silicon Valley–based R&amp;amp;D arm&lt;/a&gt;. “Toyota was very proud of the work we had done at TRI, and was ready to go big in this space,” says Tedrake. “Part of the excitement of having Toyota as a partner is that their culture is deeply people-first. When talking to Toyota’s leadership, I was never asked how much money this is going to make, but I was asked how it will improve the quality of life for all people.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A white and orange humanoid robot manipulates an object in its two-finger grippers." class="rm-shortcode" id="209d4" src="https://spectrum.ieee.org/media-library/a-white-and-orange-humanoid-robot-manipulates-an-object-in-its-two-finger-grippers.jpg?id=67568030&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The robot’s chonky design allows it to meet the high-payload requirements of useful manufacturing work.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this context, at least in the short term, Walden’s approach to improving the quality of life for people is to take over those aforementioned repetitive manufacturing tasks with robots. Tedrake hopes that this will lead to workplaces where skilled craftspeople are able to do even more with their hard-earned expertise, increasing their efficiency, productivity, and happiness all at the same time—a noble goal, although there’s only so much Walden itself can do to make this happen, and not all customers will share Toyota’s priorities.&lt;/p&gt;&lt;h2&gt;Wheeled Humanoid Robots in Factories&lt;/h2&gt;&lt;p&gt;Many other &lt;a href="https://www.agilityrobotics.com/" target="_blank"&gt;humanoid&lt;/a&gt; &lt;a href="https://www.figure.ai/" target="_blank"&gt;robotics&lt;/a&gt; &lt;a href="https://apptronik.com/" target="_blank"&gt;companies&lt;/a&gt; are also targeting these logistics and manufacturing spaces with general-purpose robots, and they’re doing so by making robots that are as humanlike as possible. The theory is that a humanoid form factor is necessary when operating in human environments. And there are certainly arguments in favor of a humanoid with legs—stairs exist, for one, and legged robots have a smaller footprint compared with ones that have wheels.&lt;/p&gt;&lt;p&gt;But a large wheeled base offers some significant advantages, as Tedrake points out. You’re incentivized to cram the base full of batteries, since more weight near the floor keeps the robot stable, which also solves the problem of running out of power during the middle of the workday. More importantly, a statically stable robot that moves around on a wheeled base can bypass the &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;safety challenges&lt;/a&gt; that are currently keeping legged humanoids physically separated from real humans—most prominently, the fact that legged robots can fall over. “Factories already have autonomous mobile [wheeled] robots,” explains Tedrake. “They already have safety cases built around AMRs. You can piggyback on that with a wheeled base.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A close-up of a robotic gripper grasping a metallic object in a vise." class="rm-shortcode" id="f600c" src="https://spectrum.ieee.org/media-library/a-close-up-of-a-robotic-gripper-grasping-a-metallic-object-in-a-vise.jpg?id=67568022&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Simple, rugged grippers make the robot suitable for commercial deployment.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Walden’s perspective on manipulation is similar. Many humanoid companies are using five-fingered hands that are highly dexterous but also highly complex, which Tedrake believes is not a pragmatic approach in the context of commercial deployments. “There’s a question of what you need to do the tasks, but the real question is just durability,” Tedrake says. “We have been deployed in a Toyota factory, and at the end of the week, the hands take a beating, so we built hands that can take that. I have not seen a more dexterous hand that could have done the work our hand has done.”&lt;/p&gt;&lt;p&gt;Walden’s long-term plan is to build “general-purpose robots.” It’s not always clear what a general-purpose robot is, because (I would argue) nobody is quite sure what “general purpose” means. It’s certainly not referring to robots that can do &lt;em&gt;&lt;em&gt;everything&lt;/em&gt;&lt;/em&gt;; I think the closest we can get are robots that can be taught to do a useful number of different skills, which is why I prefer the term “multipurpose.” It’s a little pedantic, I know, but I think the distinction is important because it moderates expectations in the near term.&lt;/p&gt;&lt;p&gt;Part of where Walden’s optimism towards general purposeness comes from is TRI’s earlier research on &lt;a href="https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573" target="_blank"&gt;diffusion policy&lt;/a&gt;, which helps robots learn new skills more quickly by leveraging previously learned skills as a foundation. “Fundamentally, multitasking is a way to get to a general-purpose robot,” Tedrake says. “I believe there is a single platform that can do a lot of tasks that are of high value for real customers. That will give us the experience we need to give birth to this deployed general-purpose capability.”&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</guid>
+      <pubDate>Mon, 03 Aug 2026 16:05:39 +0000</pubDate>
+    </item>
     <item>
       <title>Trump’s AI protectionism has come for robotics</title>
       <link>https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/</link>
@@ -1873,30 +1887,11 @@
       <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Green Beret Remembers Navy SEAL Michael Murphy, Hero of Operation Red Wings</title>
-      <link>https://sofrep.com/specialoperations/remembering-navy-seal-michael-p-murphy-medal-honor/</link>
-      <description>With unwavering resolve and a heart that put his men before himself, Lieutenant Michael Murphy chose sacrifice over safety, cementing his legacy as a leader whose final act of bravery remains a testament to the very essence of duty, honor, and country. #HeroicSacrifice
-#NavySEALs
-#OperationRedWings
-#MichaelMurphy
-#MedalOfHonor
-#NeverForget</description>
-      <guid isPermaLink="false">https://sofrep.com/specialoperations/remembering-navy-seal-michael-p-murphy-medal-honor/</guid>
-      <pubDate>Thu, 06 Aug 2026 12:00:25 +0000</pubDate>
-    </item>
-    <item>
       <title>The Download: Google’s AI shake-up and Meta’s rogue model</title>
       <link>https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/</link>
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model, and murmurings of poor morale,&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/</guid>
       <pubDate>Thu, 06 Aug 2026 12:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Operation Iraqi Freedom: How the 82nd Airborne Learned to Build a War from Scratch</title>
-      <link>https://sofrep.com/news/operation-iraqi-freedom-how-the-82nd-airborne-learned-to-build-a-war-from-scratch/</link>
-      <description>Before the coffee shops and contractors arrived, the soldiers of the 82nd Airborne fought the war they had trained for while improvising the one nobody had seen coming. #OperationIraqiFreedom #82ndAirborne #IraqWar #ArmyVeterans #MilitaryHistory</description>
-      <guid isPermaLink="false">https://sofrep.com/news/operation-iraqi-freedom-how-the-82nd-airborne-learned-to-build-a-war-from-scratch/</guid>
-      <pubDate>Thu, 06 Aug 2026 13:00:17 +0000</pubDate>
     </item>
     <item>
       <title>Expanded Collaboration to Boost Critical AI Governance Data and Tracking Tool</title>
@@ -2010,13 +2005,6 @@
       <pubDate>Thu, 06 Aug 2026 16:00:36 +0000</pubDate>
     </item>
     <item>
-      <title>Meta AI model hacked a company during misconfigured cyber test</title>
-      <link>https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/</link>
-      <description>Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/</guid>
-      <pubDate>Thu, 06 Aug 2026 16:11:39 +0000</pubDate>
-    </item>
-    <item>
       <title>South Korea UGV push more manpower move than tech gap fix: GlobalData</title>
       <link>https://www.army-technology.com/news/south-korea-ugv-globaldata/</link>
       <description>South Korea’s decision to begin large-scale unmanned ground vehicle deployment reflects a response to declining military recruitment</description>
@@ -2030,13 +2018,6 @@
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/australia-to-become-first-foreign-operator-of-aim-260-air-to-air-missile"&gt;Australia To Become First Foreign Operator Of AIM-260 Air-To-Air Missile&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/australia-to-become-first-foreign-operator-of-aim-260-air-to-air-missile</guid>
       <pubDate>Thu, 06 Aug 2026 16:19:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Australia commits to buying secretive AIM-260 JATM missiles, first non-US user</title>
-      <link>https://breakingdefense.com/2026/08/australian-commits-to-buying-secretive-aim-260-jatm-missiles-first-non-us-user/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/australian-commits-to-buying-secretive-aim-260-jatm-missiles-first-non-us-user/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/01/RAAF-F-35-scaled-e1736856580985-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Canberra separately announced the successfully test of an indigenous solid fuel rocket motor for guided munitions.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/australian-commits-to-buying-secretive-aim-260-jatm-missiles-first-non-us-user/</guid>
-      <pubDate>Thu, 06 Aug 2026 16:37:57 +0000</pubDate>
     </item>
     <item>
       <title>Boeing wins first production contract for jet-powered JDAM</title>
@@ -3118,6 +3099,20 @@ The macOS-focused infection chain is designed to deliver a shell script that pro
       <description>Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/</guid>
       <pubDate>Fri, 07 Aug 2026 19:30:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>GDIT scores $1.3 billion National Guard IT contract</title>
+      <link>https://breakingdefense.com/2026/08/gdit-scores-1-3-billion-national-guard-it-contract/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/gdit-scores-1-3-billion-national-guard-it-contract/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/05/Leidos-2-scaled-e1780580059918-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Enterprise Network Operations and Cybersecurity Support contract aims to provide modernized IT and cybersecurity services to the Army National Guard.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/gdit-scores-1-3-billion-national-guard-it-contract/</guid>
+      <pubDate>Fri, 07 Aug 2026 19:51:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Metabase SQLi zero-day exploited in customer data-theft attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/</link>
+      <description>A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/</guid>
+      <pubDate>Fri, 07 Aug 2026 20:14:46 +0000</pubDate>
     </item>
   </channel>
 </rss>
