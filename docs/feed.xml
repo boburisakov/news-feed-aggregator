@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Aug 2026 14:17:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 14:57:36 +0000</lastBuildDate>
+    <item>
+      <title>The Download: reward hacking explained and suspected Iranian cyberattacks</title>
+      <link>https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money or commit sabotage—they were&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</guid>
+      <pubDate>Mon, 03 Aug 2026 12:08:00 +0000</pubDate>
+    </item>
     <item>
       <title>An analysis of incidents at Brazilian educational institutions</title>
       <link>https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</link>
@@ -1962,13 +1969,6 @@
       <pubDate>Thu, 06 Aug 2026 17:00:56 +0000</pubDate>
     </item>
     <item>
-      <title>New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes</title>
-      <link>https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/</link>
-      <description>Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/</guid>
-      <pubDate>Thu, 06 Aug 2026 18:03:45 +0000</pubDate>
-    </item>
-    <item>
       <title>Swiss government SharePoint breach compromised 200 accounts</title>
       <link>https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/</link>
       <description>Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]</description>
@@ -2624,13 +2624,6 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the high-severity
       <pubDate>Fri, 07 Aug 2026 12:56:23 +0000</pubDate>
     </item>
     <item>
-      <title>Inside the Ukraine Flying Shark U1 Drone-Jammer Aircraft</title>
-      <link>https://sofrep.com/news/inside-the-ukraine-flying-shark-u1-drone-jammer-aircraft/</link>
-      <description>Ukraine’s Shark U1 turns a lightweight civilian aircraft into a low-cost electronic warfare platform, giving defenders another clever way to disrupt Russia’s relentless drone attacks without firing a shot. #Ukraine #SharkU1 #DroneWarfare #ElectronicWarfare #CounterUAS</description>
-      <guid isPermaLink="false">https://sofrep.com/news/inside-the-ukraine-flying-shark-u1-drone-jammer-aircraft/</guid>
-      <pubDate>Fri, 07 Aug 2026 13:00:12 +0000</pubDate>
-    </item>
-    <item>
       <title>Satellite Images Reveal Damage To Russia's Wildberries Warehouses</title>
       <link>https://www.rferl.org/a/wildberries-russia-satellite-ukraine-war-drones/33824084.html</link>
       <description>Before-and-after satellite images released by Vantor reveal the extent of the damage to Wildberries warehouses across Russia. Dubbed the "Russian Amazon," at least 20 facilities belonging to the country's largest online retailer have been targeted by a Ukrainian drone campaign since mid-July.</description>
@@ -3116,6 +3109,13 @@ PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It
       <description>Ukrainian President Volodymyr Zelenskyy’s first visit to Belgrade since being elected in 2019 has produced few significant results while underlining Serbia’s ongoing efforts to maintain ties with both Moscow and the West.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/serbia-seeks-to-maintain-balancing-act-as-zelenskyy-visits-belgrade/33824814.html</guid>
       <pubDate>Sat, 08 Aug 2026 13:16:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers breach TrueConf to trojanize client installers with backdoors</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/</link>
+      <description>The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/</guid>
+      <pubDate>Sat, 08 Aug 2026 14:16:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
