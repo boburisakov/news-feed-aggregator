@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Aug 2026 07:13:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 08:01:09 +0000</lastBuildDate>
     <item>
       <title>An analysis of incidents at Brazilian educational institutions</title>
       <link>https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</link>
@@ -768,13 +768,6 @@
       <description>And where Trump went wrong.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/why-we-should-fight-kori-schake</guid>
       <pubDate>Thu, 06 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Senator John Curtis Points To Bipartisan Momentum As Russia-Iran Sanctions Bill Nears Final Vote</title>
-      <link>https://www.rferl.org/a/us-russia-iran-sanctions-bill-vote-war/33822958.html</link>
-      <description>A bipartisan coalition in the US Senate is working to keep momentum behind a sweeping sanctions package targeting Russia and Iran, with lawmakers from both parties arguing that the legislation would send a broader message about American resolve against authoritarian powers.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/us-russia-iran-sanctions-bill-vote-war/33822958.html</guid>
-      <pubDate>Thu, 06 Aug 2026 05:34:10 +0000</pubDate>
     </item>
     <item>
       <title>Working with the American Psychological Association on youth mental health and AI</title>
@@ -2187,7 +2180,7 @@
       <pubDate>Fri, 07 Aug 2026 06:48:00 +0000</pubDate>
     </item>
     <item>
-      <title>US Treasury Targets Currency Exchanges, Shell Companies Tied To Iran</title>
+      <title>Turkey Says Defense Pact Doesn't Contradict NATO Commitments</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -2231,15 +2224,6 @@
       <pubDate>Fri, 07 Aug 2026 07:37:00 +0000</pubDate>
     </item>
     <item>
-      <title>Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access</title>
-      <link>https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html</link>
-      <description>Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID.
-
-The attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary Refresh Token (PRT), and add further authentication methods where tenant policies</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html</guid>
-      <pubDate>Fri, 07 Aug 2026 08:52:11 +0000</pubDate>
-    </item>
-    <item>
       <title>How HSP GRUPPE builds AI capabilities for tax advisory</title>
       <link>https://openai.com/index/hsp-gruppe</link>
       <description>Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.</description>
@@ -2252,24 +2236,6 @@ The attacker can then establish longer-term cloud access, register a device it c
       <description>Oleksiy Yukov spent years trawling the sprawling Ukrainian countryside for the remains of fallen soldiers, whom he identified so that families could hold dignified burials. Now, Yukov is being laid to rest after being killed during one of his missions to exhume bodies near the front line.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-war-russia-oleksiy-yukov-fallen-soldiers-remains/33823497.html</guid>
       <pubDate>Fri, 07 Aug 2026 09:19:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day</title>
-      <link>https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html</link>
-      <description>PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors.
-
-PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html</guid>
-      <pubDate>Fri, 07 Aug 2026 10:09:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails</title>
-      <link>https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html</link>
-      <description>Cybersecurity researchers have called attention to an active "widespread email-driven phishing campaign" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email.
-
-"The campaign uses residential proxies to disguise malicious sign-ins as ordinary consumer traffic,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html</guid>
-      <pubDate>Fri, 07 Aug 2026 10:38:27 +0000</pubDate>
     </item>
     <item>
       <title>New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables</title>
@@ -3110,6 +3076,42 @@ The macOS-focused infection chain is designed to deliver a shell script that pro
 &lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/soc-identity-front-door/"&gt;Inside the Modern SOC: The Identity Front Door&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://unit42.paloaltonetworks.com/soc-identity-front-door/</guid>
       <pubDate>Fri, 07 Aug 2026 23:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts</title>
+      <link>https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.
+
+The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html</guid>
+      <pubDate>Sat, 08 Aug 2026 06:52:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist</title>
+      <link>https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html</link>
+      <description>N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.
+
+"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques," the company said.
+
+"This is not a duplicate of our</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html</guid>
+      <pubDate>Sat, 08 Aug 2026 06:57:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication</title>
+      <link>https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html</link>
+      <description>Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.
+
+The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html</guid>
+      <pubDate>Sat, 08 Aug 2026 06:58:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deserted Or Dead? Russian Military Saves Money By Declaring Missing Soldiers AWOL</title>
+      <link>https://www.rferl.org/a/russia-awol-fake-military-deception-missing/33823408.html</link>
+      <description>The Russian state entices men to fight in the war on Ukraine by offering high wages and relatively generous benefits. But relatives and activists say the military often avoids paying what it owes by declaring soldiers AWOL despite the likelihood that they have been killed, captured, or gone missing.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/russia-awol-fake-military-deception-missing/33823408.html</guid>
+      <pubDate>Sat, 08 Aug 2026 07:44:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
