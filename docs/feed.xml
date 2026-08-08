@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Aug 2026 08:59:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 09:43:53 +0000</lastBuildDate>
     <item>
       <title>An analysis of incidents at Brazilian educational institutions</title>
       <link>https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</link>
@@ -2238,24 +2238,6 @@
       <pubDate>Fri, 07 Aug 2026 09:19:52 +0000</pubDate>
     </item>
     <item>
-      <title>New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables</title>
-      <link>https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html</link>
-      <description>Security researcher Malcolm Stagg has disclosed a new attack class called&amp;nbsp;NatJack&amp;nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables.
-
-Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html</guid>
-      <pubDate>Fri, 07 Aug 2026 10:58:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers</title>
-      <link>https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html</link>
-      <description>A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.
-
-The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August 3, close it. Anyone running an older kernel with SCTP reachable should update.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html</guid>
-      <pubDate>Fri, 07 Aug 2026 11:10:33 +0000</pubDate>
-    </item>
-    <item>
       <title>India’s Climate Stress and the Solar Power Paradox</title>
       <link>https://thediplomat.com/2026/08/indias-climate-stress-and-the-solar-power-paradox/</link>
       <description>Rising demand will keep coal the backbone of India’s power grid in the coming years. This buys time for executing an energy transition, if India can see through its plans.</description>
@@ -2672,7 +2654,7 @@ Then,</description>
       <link>https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html</link>
       <description>WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page.
 
-Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the</description>
+Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the high-severity</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html</guid>
       <pubDate>Fri, 07 Aug 2026 12:56:23 +0000</pubDate>
     </item>
@@ -3112,6 +3094,26 @@ The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, all
       <description>The Russian state entices men to fight in the war on Ukraine by offering high wages and relatively generous benefits. But relatives and activists say the military often avoids paying what it owes by declaring soldiers AWOL despite the likelihood that they have been killed, captured, or gone missing.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russia-awol-fake-military-deception-missing/33823408.html</guid>
       <pubDate>Sat, 08 Aug 2026 07:44:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens</title>
+      <link>https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html</link>
+      <description>New research shows content inside an email can escape its message boundary and interfere with the webmail interface.
+
+Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email.
+
+PortSwigger researcher Gareth</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html</guid>
+      <pubDate>Sat, 08 Aug 2026 08:03:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers</title>
+      <link>https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html</link>
+      <description>Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed.
+
+PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html</guid>
+      <pubDate>Sat, 08 Aug 2026 08:54:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
