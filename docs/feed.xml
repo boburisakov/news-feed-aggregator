@@ -7,7 +7,84 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Aug 2026 16:39:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 17:14:01 +0000</lastBuildDate>
+    <item>
+      <title>ISC Stormcast For Monday, August 3rd, 2026 https://isc.sans.edu/podcastdetail/10034, (Mon, Aug 3rd)</title>
+      <link>https://isc.sans.edu/diary/rss/33210</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33210</guid>
+      <pubDate>Mon, 03 Aug 2026 02:00:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>China’s Quiet Quest to Dominate Latin America</title>
+      <link>https://www.foreignaffairs.com/china/chinas-quiet-quest-dominate-latin-america</link>
+      <description>Small projects, big influence.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/chinas-quiet-quest-dominate-latin-america</guid>
+      <pubDate>Mon, 03 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we built a realtime system for responsive voice AI in six months</title>
+      <link>https://openai.com/index/continuous-voice-interaction-with-gpt-live</link>
+      <description>GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.</description>
+      <guid isPermaLink="false">https://openai.com/index/continuous-voice-interaction-with-gpt-live</guid>
+      <pubDate>Mon, 03 Aug 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Here’s why AI agents lie and cheat to reach their goals</title>
+      <link>https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/</link>
+      <description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/</guid>
+      <pubDate>Mon, 03 Aug 2026 08:30:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pass the Passkey: A Novel Attack Surface in Passwordless Authentication</title>
+      <link>https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</link>
+      <description>&lt;p&gt;Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/"&gt;Pass the Passkey: A Novel Attack Surface in Passwordless Authentication&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</guid>
+      <pubDate>Mon, 03 Aug 2026 10:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18577" target="_blank"&gt;CVE-2026-18577&lt;/a&gt; N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+      <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Download: reward hacking explained and suspected Iranian cyberattacks</title>
+      <link>https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money or commit sabotage—they were&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</guid>
+      <pubDate>Mon, 03 Aug 2026 12:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An analysis of incidents at Brazilian educational institutions</title>
+      <link>https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</link>
+      <description>Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.</description>
+      <guid isPermaLink="false">https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</guid>
+      <pubDate>Mon, 03 Aug 2026 13:00:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Walden Robotics Partners With Toyota on Practical Humanoids</title>
+      <link>https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</link>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&amp;amp;width=980" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;For a while there, it seemed as though robotics as a whole was stuck in a &lt;a href="https://spectrum.ieee.org/top-robotics-stories-2024" target="_self"&gt;mad rush&lt;/a&gt; towards building &lt;a href="https://spectrum.ieee.org/topic/robotics/humanoid-robots/" target="_self"&gt;humanoid robots&lt;/a&gt; mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also been an industry-wide sobering leading to &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;pointed questions about practicality and value&lt;/a&gt;. In other words, starting a commercial humanoid company &lt;em&gt;&lt;em&gt;now&lt;/em&gt;&lt;/em&gt; is a much different proposition than it would have been just a few years ago. &lt;/p&gt;&lt;p&gt;On 15 July, &lt;a href="https://www.waldenrobotics.com/news/walden-robotics-launches-from-stealth" rel="noopener noreferrer" target="_blank"&gt;Walden Robotics emerged from stealth&lt;/a&gt; with US $300 million in funding at a valuation of $1.1 billion. Walden is a spinout of &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota Research Institute&lt;/a&gt; (TRI), and it’s spent the last 10 or so years working on hard problems in robotics with the goal of transitioning from research to real-world applications. That seems like the amount of time and experience that it might reasonably take to develop a &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;practical and value-driven approach&lt;/a&gt; to deploying general-purpose humanoid robots, and Walden has chosen an excellent starting point by skipping the legs.&lt;/p&gt;&lt;p&gt;“It’s ironic,” says Walden cofounder and CEO &lt;a href="https://www.linkedin.com/in/russ-tedrake-88648a4a/" rel="noopener noreferrer" target="_blank"&gt;Russ Tedrake&lt;/a&gt;. “I thought about legs for 20 years; that’s the class I teach at MIT. There are many reasons to build a robot with legs. But the question is, what’s the addressable market? And what percentage of it is covered by a wheeled base?” It’s this focused, practical thinking that sets Walden somewhat apart from many (if not most) of the other companies in this space. Rather than &lt;a href="https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available" target="_self"&gt;developing a robot first and searching for a viable commercial use case second&lt;/a&gt;, Walden instead identified applications where robots can provide value now, and designed a robot that could safely and efficiently meet those needs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt; &lt;/p&gt;&lt;h2&gt;Walden Robotics’ Manufacturing Focus&lt;/h2&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="A smiling man in a blue shirt" class="rm-shortcode" id="f545c" src="https://spectrum.ieee.org/media-library/a-smiling-man-in-a-blue-shirt.jpg?id=67568051&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Russ Tedrake is the CEO and cofounder of Walden Robotics.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tedrake is light on the details about what specific applications Walden is targeting at this point (citing confidentiality with current commercial partners). Manufacturing and logistics environments where there are a lot of &lt;a href="https://www.youtube.com/watch?v=F_7IPm7f1vI" target="_blank"&gt;relatively simple&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=tv90GFM9RAo" target="_blank"&gt;repetitive tasks&lt;/a&gt; that aren’t friendly to conveyor belts and preprogrammed robot arms are a good bet. Even in these environments, however, robots still have to find a useful niche because they’re going up against human workers who are more flexible while also cheaper to employ. So the question is: How do you make an argument to a customer that a robot is actually a better solution than their existing human workers?&lt;/p&gt;&lt;p&gt;“You need to find applications with high utilization—where the robot is used 24 hours a day, 7 days a week,” says Tedrake. “Manufacturing is a global imperative right now, and it makes the economics work.” Economic viability is a necessary condition, but it’s not a sufficient one for Walden, or for their partnership with Toyota. People are a big part of Walden’s plan, too.&lt;/p&gt;&lt;p&gt;One of Walden’s major strengths is the company’s partnership with Toyota, which is not all that surprising given that Walden is a spinout from TRI, which is &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota’s Silicon Valley–based R&amp;amp;D arm&lt;/a&gt;. “Toyota was very proud of the work we had done at TRI, and was ready to go big in this space,” says Tedrake. “Part of the excitement of having Toyota as a partner is that their culture is deeply people-first. When talking to Toyota’s leadership, I was never asked how much money this is going to make, but I was asked how it will improve the quality of life for all people.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A white and orange humanoid robot manipulates an object in its two-finger grippers." class="rm-shortcode" id="209d4" src="https://spectrum.ieee.org/media-library/a-white-and-orange-humanoid-robot-manipulates-an-object-in-its-two-finger-grippers.jpg?id=67568030&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The robot’s chonky design allows it to meet the high-payload requirements of useful manufacturing work.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this context, at least in the short term, Walden’s approach to improving the quality of life for people is to take over those aforementioned repetitive manufacturing tasks with robots. Tedrake hopes that this will lead to workplaces where skilled craftspeople are able to do even more with their hard-earned expertise, increasing their efficiency, productivity, and happiness all at the same time—a noble goal, although there’s only so much Walden itself can do to make this happen, and not all customers will share Toyota’s priorities.&lt;/p&gt;&lt;h2&gt;Wheeled Humanoid Robots in Factories&lt;/h2&gt;&lt;p&gt;Many other &lt;a href="https://www.agilityrobotics.com/" target="_blank"&gt;humanoid&lt;/a&gt; &lt;a href="https://www.figure.ai/" target="_blank"&gt;robotics&lt;/a&gt; &lt;a href="https://apptronik.com/" target="_blank"&gt;companies&lt;/a&gt; are also targeting these logistics and manufacturing spaces with general-purpose robots, and they’re doing so by making robots that are as humanlike as possible. The theory is that a humanoid form factor is necessary when operating in human environments. And there are certainly arguments in favor of a humanoid with legs—stairs exist, for one, and legged robots have a smaller footprint compared with ones that have wheels.&lt;/p&gt;&lt;p&gt;But a large wheeled base offers some significant advantages, as Tedrake points out. You’re incentivized to cram the base full of batteries, since more weight near the floor keeps the robot stable, which also solves the problem of running out of power during the middle of the workday. More importantly, a statically stable robot that moves around on a wheeled base can bypass the &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;safety challenges&lt;/a&gt; that are currently keeping legged humanoids physically separated from real humans—most prominently, the fact that legged robots can fall over. “Factories already have autonomous mobile [wheeled] robots,” explains Tedrake. “They already have safety cases built around AMRs. You can piggyback on that with a wheeled base.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A close-up of a robotic gripper grasping a metallic object in a vise." class="rm-shortcode" id="f600c" src="https://spectrum.ieee.org/media-library/a-close-up-of-a-robotic-gripper-grasping-a-metallic-object-in-a-vise.jpg?id=67568022&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Simple, rugged grippers make the robot suitable for commercial deployment.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Walden’s perspective on manipulation is similar. Many humanoid companies are using five-fingered hands that are highly dexterous but also highly complex, which Tedrake believes is not a pragmatic approach in the context of commercial deployments. “There’s a question of what you need to do the tasks, but the real question is just durability,” Tedrake says. “We have been deployed in a Toyota factory, and at the end of the week, the hands take a beating, so we built hands that can take that. I have not seen a more dexterous hand that could have done the work our hand has done.”&lt;/p&gt;&lt;p&gt;Walden’s long-term plan is to build “general-purpose robots.” It’s not always clear what a general-purpose robot is, because (I would argue) nobody is quite sure what “general purpose” means. It’s certainly not referring to robots that can do &lt;em&gt;&lt;em&gt;everything&lt;/em&gt;&lt;/em&gt;; I think the closest we can get are robots that can be taught to do a useful number of different skills, which is why I prefer the term “multipurpose.” It’s a little pedantic, I know, but I think the distinction is important because it moderates expectations in the near term.&lt;/p&gt;&lt;p&gt;Part of where Walden’s optimism towards general purposeness comes from is TRI’s earlier research on &lt;a href="https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573" target="_blank"&gt;diffusion policy&lt;/a&gt;, which helps robots learn new skills more quickly by leveraging previously learned skills as a foundation. “Fundamentally, multitasking is a way to get to a general-purpose robot,” Tedrake says. “I believe there is a single platform that can do a lot of tasks that are of high value for real customers. That will give us the experience we need to give birth to this deployed general-purpose capability.”&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</guid>
+      <pubDate>Mon, 03 Aug 2026 16:05:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump’s AI protectionism has come for robotics</title>
+      <link>https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/</link>
+      <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&amp;#160;sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s a nascent industry, and such robots&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/</guid>
+      <pubDate>Mon, 03 Aug 2026 18:43:30 +0000</pubDate>
+    </item>
     <item>
       <title>Apple is getting this wrong</title>
       <link>https://openai.com/index/apple-is-getting-this-wrong</link>
@@ -41,14 +118,6 @@
       <description>A new Taiwan option.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/taiwan/war-china-might-choose</guid>
       <pubDate>Tue, 04 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Conversation with the Pentagon’s Chief Buyer, Under Secretary Michael P. Duffey</title>
-      <link>https://warontherocks.com/cogs-of-war/a-conversation-with-the-pentagons-chief-buyer-under-secretary-michael-p-duffey/</link>
-      <description>&lt;p&gt;Under Secretary of Defense for Acquisition and Sustainment Michael P. Duffey joins Jonathan to discuss the Pentagon&amp;#8217;s ongoing acquisition transformation. Their conversation spans the recent munitions agreements, industry investments, the shift to portfolio acquisition executives, allied coproduction, and more.Image: Cpl. Sarah Grawcock via DVIDS.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/a-conversation-with-the-pentagons-chief-buyer-under-secretary-michael-p-duffey/"&gt;A Conversation with the Pentagon&amp;#8217;s Chief Buyer, Under Secretary Michael P. Duffey&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/a-conversation-with-the-pentagons-chief-buyer-under-secretary-michael-p-duffey/</guid>
-      <pubDate>Tue, 04 Aug 2026 08:00:41 +0000</pubDate>
     </item>
     <item>
       <title>What Robotics Companies Think About the U.S. Foreign Robot Ban</title>
@@ -482,22 +551,6 @@
       <pubDate>Wed, 05 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Beyond the Output Trap: Haiti and the Future of International Stabilization</title>
-      <link>https://warontherocks.com/beyond-the-output-trap-haiti-and-the-future-of-international-stabilization/</link>
-      <description>&lt;p&gt;Five years after the assassinations in Haiti of Monferrier Dorval, Diego Charles, and Antoinette Duclaire, justice remains elusive. Four years after the assassination of President Jovenel Mo&amp;#239;se, accountability is still incomplete. Yet international reporting on Haiti continues to foreground outputs: workshops on gender and youth participation, deployments, and decrees. International organizations, including the United Nations, and the donor community measure what they do. Meanwhile, the Haitian public measures what actually changes.Call this the output trap: Missions demonstrate progress in outputs without delivering comparable gains in outcomes. Closing that gap requires making outcomes, not outputs, the measure of success. I examine&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/beyond-the-output-trap-haiti-and-the-future-of-international-stabilization/"&gt;Beyond the Output Trap: Haiti and the Future of International Stabilization&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/beyond-the-output-trap-haiti-and-the-future-of-international-stabilization/</guid>
-      <pubDate>Wed, 05 Aug 2026 07:00:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Trump’s Israel Normalization Demand May Kill the Saudi Nuclear Deal</title>
-      <link>https://warontherocks.com/why-trumps-israel-normalization-demand-may-kill-the-saudi-nuclear-deal/</link>
-      <description>&lt;p&gt;Only days after the Trump administration celebrated what it called a landmark civilian nuclear agreement with Saudi Arabia, the president himself appeared to place the entire arrangement in jeopardy. In a Truth Social post, President Donald Trump declared the deal &amp;#8220;totally subject&amp;#8221; to Saudi Arabia joining the Abraham Accords and normalizing with Israel &amp;#8212; a condition absent from the administration&amp;#8217;s own announcement barely a day earlier. White House Press Secretary Karoline Leavitt then confirmed that, without normalization, &amp;#8220;the deal is off.&amp;#8221;The reversal was striking not simply because it resurrected a condition Washington had already concluded was ineffective, as Saudi Arabia&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/why-trumps-israel-normalization-demand-may-kill-the-saudi-nuclear-deal/"&gt;Why Trump’s Israel Normalization Demand May Kill the Saudi Nuclear Deal&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/why-trumps-israel-normalization-demand-may-kill-the-saudi-nuclear-deal/</guid>
-      <pubDate>Wed, 05 Aug 2026 07:30:49 +0000</pubDate>
-    </item>
-    <item>
       <title>NASA’s new dark-energy space telescope can also detect killer asteroids</title>
       <link>https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/</link>
       <description>At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its goal is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion of the cosmos.&amp;#8230;</description>
@@ -596,14 +649,6 @@
       <description>Lawmakers blast administration's "ad-hoc" AI strategy; tech giants pitch ideas to keep federal contracts flowing.</description>
       <guid isPermaLink="false">https://www.defenseone.com/technology/2026/08/ai-models-white-house-and-companies-secret-safety-measures/415227/</guid>
       <pubDate>Wed, 05 Aug 2026 17:25:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond Hormuz: The Future of Maritime Chokepoints</title>
-      <link>https://warontherocks.com/beyond-hormuz-the-future-of-maritime-chokepoints/</link>
-      <description>&lt;p&gt;Iran&amp;#8217;s closure of the Strait of Hormuz and efforts to extract payments for safe passage &amp;#8212; plus, more recently, the Houthis&amp;#8217; move to attack Saudi shipping through the Bab el-Mandeb Strait &amp;#8212; have highlighted the risks of maritime chokepoints to global shipping and raised questions about the future for freedom of navigation. The impacts extend beyond the Persian Gulf and the Red Sea, so we asked five experts to consider the implications for several other crucial waterways: the Strait of Malacca, the Taiwan Strait, the Panama Canal, the Suez Canal, and the Turkish Straits.Read more below.Patrick M. CroninAsia-Pacific Security Chair&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/beyond-hormuz-the-future-of-maritime-chokepoints/"&gt;Beyond Hormuz: The Future of Maritime Chokepoints&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/beyond-hormuz-the-future-of-maritime-chokepoints/</guid>
-      <pubDate>Wed, 05 Aug 2026 17:30:07 +0000</pubDate>
     </item>
     <item>
       <title>Don't Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed, Aug 5th)</title>
@@ -746,22 +791,6 @@
       <description>OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.</description>
       <guid isPermaLink="false">https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai</guid>
       <pubDate>Thu, 06 Aug 2026 06:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Blood Price: In Israel, Military Sacrifice Is Becoming Political Power</title>
-      <link>https://warontherocks.com/the-blood-price-in-israel-military-sacrifice-is-becoming-political-power/</link>
-      <description>&lt;p&gt;In late June, cadets at the Israeli military&amp;#8217;s officer training school sat through a lecture by Ofer Winter, a retired brigadier general and a polarizing figure in the Israel Defense Forces. According to Haaretz, Winter told the future officers that &amp;#8220;there are no uninvolved civilians in Gaza&amp;#8221; and accused two former chiefs of staff of politically blocking his career. Regulations prohibit political activity in training programs, and the Israeli military later called the episode a failure. The cadets who spoke to Haaretz, however, described this politically charged lecture as part of a pattern of guest speakers drawn overwhelmingly from the&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/the-blood-price-in-israel-military-sacrifice-is-becoming-political-power/"&gt;The Blood Price: In Israel, Military Sacrifice Is Becoming Political Power&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/the-blood-price-in-israel-military-sacrifice-is-becoming-political-power/</guid>
-      <pubDate>Thu, 06 Aug 2026 07:30:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Arsenal and the Statehouse: New Defense Firms, Venture Capital and State Industrial Policy</title>
-      <link>https://warontherocks.com/cogs-of-war/the-arsenal-and-the-statehouse-new-defense-firms-venture-capital-and-state-industrial-policy/</link>
-      <description>&lt;p&gt;When Anduril announced a $910 million drone production facility in Ohio, it was not politics as usual. The main message came from Ohio&amp;#8217;s governor, Mike DeWine, while Representative Mike Carey&amp;#8217;s press release thanked the governor. Members of Congress usually take substantial credit for defense industrial jobs, but Carey did not because he could not. Anduril sited Arsenal-1 near Columbus partially because of state subsidies.New defense firms backed by venture financing and state economic development subsidies have given states a political stake in the most innovative portion of federal defense procurement. New entrants promise and sometimes deliver fast, commercial solutions. Subsidies&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/the-arsenal-and-the-statehouse-new-defense-firms-venture-capital-and-state-industrial-policy/"&gt;The Arsenal and the Statehouse: New Defense Firms, Venture Capital and State Industrial Policy&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/the-arsenal-and-the-statehouse-new-defense-firms-venture-capital-and-state-industrial-policy/</guid>
-      <pubDate>Thu, 06 Aug 2026 08:00:09 +0000</pubDate>
     </item>
     <item>
       <title>Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users</title>
@@ -1860,14 +1889,6 @@
       <pubDate>Thu, 06 Aug 2026 14:50:26 +0000</pubDate>
     </item>
     <item>
-      <title>Does Latent Nuclear Deterrence Really Work?</title>
-      <link>https://warontherocks.com/does-latent-nuclear-deterrence-really-work/</link>
-      <description>&lt;p&gt;In 2025, Matthew Fuhrmann wrote, &amp;#8220;U.S. Allies and Adversaries Are Attempting Nuclear Deterrence Without Weapons &amp;#8211; Will It Work?,&amp;#8221; where he argued countries don&amp;#8217;t always need to go as far as actually building nuclear weapons to reap the benefits of nuclear deterrence. A year later, we asked Matthew to revisit his arguments.Image: MidjourneyIn your 2025 article, you argued countries don&amp;#8217;t necessarily have to follow through with building nuclear weapons to reap the benefits of nuclear deterrence, a strategy you called latent nuclear deterrence. Which countries do you think stand to gain the most from this strategy, given the significant and,&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/does-latent-nuclear-deterrence-really-work/"&gt;Does Latent Nuclear Deterrence Really Work?&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/does-latent-nuclear-deterrence-really-work/</guid>
-      <pubDate>Thu, 06 Aug 2026 15:00:27 +0000</pubDate>
-    </item>
-    <item>
       <title>Iran issues warning to Gulf states: US must desist or you’ll be hit hard</title>
       <link>https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/</link>
       <description>Iran has made a concerted push with Gulf states, warning them explicitly that Tehran will hit their oil, power and water plants unless U.S. strikes end.</description>
@@ -1930,14 +1951,6 @@
       <description>Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/</guid>
       <pubDate>Thu, 06 Aug 2026 18:14:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attacks, Deals, and Discontent</title>
-      <link>https://warontherocks.com/attacks-deals-and-discontent/</link>
-      <description>&lt;p&gt;Welcome to The Adversarial.&amp;#160;Every other week, we&amp;#8217;ll provide you with expert analysis on America&amp;#8217;s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranOver the last two weeks, President Donald Trump repeatedly threatened major attacks on Iran. Going into the weekend, multiple news outlets reported that he was mulling a major bombing campaign &amp;#8212; which would almost certainly result in retaliatory strikes against U.S. bases and allies around the region. But late Saturday night, Trump asserted that a deal was in the works to reopen the Strait of Hormuz, based on which he would hold fire for the&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/attacks-deals-and-discontent/"&gt;Attacks, Deals, and Discontent&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/attacks-deals-and-discontent/</guid>
-      <pubDate>Thu, 06 Aug 2026 18:15:30 +0000</pubDate>
     </item>
     <item>
       <title>Ransom Cartel creator sentenced to 16 years in prison</title>
@@ -2108,14 +2121,6 @@
       <pubDate>Fri, 07 Aug 2026 06:48:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Can U.S. Special Operations Forces Help Defeat China on Taiwan?</title>
-      <link>https://warontherocks.com/how-can-u-s-special-operations-forces-help-defeat-china-on-taiwan/</link>
-      <description>&lt;p&gt;It is conceivable that in one blistering campaign, the People&amp;#8217;s Republic of China could invade, occupy, and forcibly annex Taiwan. One question would dominate the post-occupation debate: &amp;#8220;What more could have been done?&amp;#8221; The obvious answers will be better intelligence, bigger exercises, more weapons. One underexamined answer is a different model for U.S. special operations forces advising.The United States has spent decades using rotational military teams to train foreign partners. This approach is sustainable and useful for specific tactical tasks, but it is poorly suited to the institutional, linguistic, and political work required to help Taiwan prepare for a prolonged&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/how-can-u-s-special-operations-forces-help-defeat-china-on-taiwan/"&gt;How Can U.S. Special Operations Forces Help Defeat China on Taiwan?&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/how-can-u-s-special-operations-forces-help-defeat-china-on-taiwan/</guid>
-      <pubDate>Fri, 07 Aug 2026 07:00:55 +0000</pubDate>
-    </item>
-    <item>
       <title>Linux Shell Forensic: Let&amp;#x3f;s Dive Into Atuin&amp;#x21;, (Fri, Aug 7th)</title>
       <link>https://isc.sans.edu/diary/rss/33226</link>
       <description>UNIX systems (including Linux) are well-known to record a lot of activities in many different locations. But there is one domain where they definitely lack of "modern" logging: shells. Most shells provide an historization of the typed commands through a flat file in the &amp;#x24;HOME directory (ex: &amp;#x24;HOME/.bash&amp;#x5f;history). They suffer of multiple problems:&amp;#xd;</description>
@@ -2128,14 +2133,6 @@
       <description>With the RSS steadily building on Nepali soil, Hindu-Muslim tensions and violence are growing, especially in Nepal’s Tarai-Madhesh region bordering India</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/indias-communal-violence-is-crossing-into-nepal/</guid>
       <pubDate>Fri, 07 Aug 2026 07:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Warlords of Greece: Warfare in Homer’s World</title>
-      <link>https://warontherocks.com/warlords-of-greece-warfare-in-homers-world/</link>
-      <description>&lt;p&gt;The Iliad and Odyssey have shaped Western ideas of heroism for nearly three millennia. Yet despite centuries of debate over whether they reflect historical reality or poetic fantasy, the Homeric world remains an internally consistent universe worth studying on its own terms. This isn&amp;#8217;t about separating fact from fiction: it&amp;#8217;s about understanding the warrior ethos that dominated the ancient Greek and Roman imagination, and how battles were truly fought in the world of Achilles, Hector, and Odysseus.The release of Christopher Nolan&amp;#8217;s The Odyssey in cinemas has led to a resurgence in public interest in the original source material. In ancient&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/warlords-of-greece-warfare-in-homers-world/"&gt;Warlords of Greece: Warfare in Homer’s World&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/warlords-of-greece-warfare-in-homers-world/</guid>
-      <pubDate>Fri, 07 Aug 2026 07:30:12 +0000</pubDate>
     </item>
     <item>
       <title>From Jobs to Skills: Rethinking Vietnam’s FDI success</title>
