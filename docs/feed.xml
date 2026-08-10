@@ -7,91 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 00:04:06 +0000</lastBuildDate>
-    <item>
-      <title>Circles powers telco personalization with OpenAI technology</title>
-      <link>https://openai.com/index/circles</link>
-      <description>Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.</description>
-      <guid isPermaLink="false">https://openai.com/index/circles</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Monday, August 3rd, 2026 https://isc.sans.edu/podcastdetail/10034, (Mon, Aug 3rd)</title>
-      <link>https://isc.sans.edu/diary/rss/33210</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33210</guid>
-      <pubDate>Mon, 03 Aug 2026 02:00:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>China’s Quiet Quest to Dominate Latin America</title>
-      <link>https://www.foreignaffairs.com/china/chinas-quiet-quest-dominate-latin-america</link>
-      <description>Small projects, big influence.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/china/chinas-quiet-quest-dominate-latin-america</guid>
-      <pubDate>Mon, 03 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How we built a realtime system for responsive voice AI in six months</title>
-      <link>https://openai.com/index/continuous-voice-interaction-with-gpt-live</link>
-      <description>GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.</description>
-      <guid isPermaLink="false">https://openai.com/index/continuous-voice-interaction-with-gpt-live</guid>
-      <pubDate>Mon, 03 Aug 2026 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Here’s why AI agents lie and cheat to reach their goals</title>
-      <link>https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/</link>
-      <description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/</guid>
-      <pubDate>Mon, 03 Aug 2026 08:30:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pass the Passkey: A Novel Attack Surface in Passwordless Authentication</title>
-      <link>https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</link>
-      <description>&lt;p&gt;Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/"&gt;Pass the Passkey: A Novel Attack Surface in Passwordless Authentication&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/</guid>
-      <pubDate>Mon, 03 Aug 2026 10:00:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog</link>
-      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18577" target="_blank"&gt;CVE-2026-18577&lt;/a&gt; N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
-      <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Download: reward hacking explained and suspected Iranian cyberattacks</title>
-      <link>https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money or commit sabotage—they were&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/</guid>
-      <pubDate>Mon, 03 Aug 2026 12:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An analysis of incidents at Brazilian educational institutions</title>
-      <link>https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</link>
-      <description>Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.</description>
-      <guid isPermaLink="false">https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</guid>
-      <pubDate>Mon, 03 Aug 2026 13:00:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Walden Robotics Partners With Toyota on Practical Humanoids</title>
-      <link>https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&amp;amp;width=980" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;For a while there, it seemed as though robotics as a whole was stuck in a &lt;a href="https://spectrum.ieee.org/top-robotics-stories-2024" target="_self"&gt;mad rush&lt;/a&gt; towards building &lt;a href="https://spectrum.ieee.org/topic/robotics/humanoid-robots/" target="_self"&gt;humanoid robots&lt;/a&gt; mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also been an industry-wide sobering leading to &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;pointed questions about practicality and value&lt;/a&gt;. In other words, starting a commercial humanoid company &lt;em&gt;&lt;em&gt;now&lt;/em&gt;&lt;/em&gt; is a much different proposition than it would have been just a few years ago. &lt;/p&gt;&lt;p&gt;On 15 July, &lt;a href="https://www.waldenrobotics.com/news/walden-robotics-launches-from-stealth" rel="noopener noreferrer" target="_blank"&gt;Walden Robotics emerged from stealth&lt;/a&gt; with US $300 million in funding at a valuation of $1.1 billion. Walden is a spinout of &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota Research Institute&lt;/a&gt; (TRI), and it’s spent the last 10 or so years working on hard problems in robotics with the goal of transitioning from research to real-world applications. That seems like the amount of time and experience that it might reasonably take to develop a &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;practical and value-driven approach&lt;/a&gt; to deploying general-purpose humanoid robots, and Walden has chosen an excellent starting point by skipping the legs.&lt;/p&gt;&lt;p&gt;“It’s ironic,” says Walden cofounder and CEO &lt;a href="https://www.linkedin.com/in/russ-tedrake-88648a4a/" rel="noopener noreferrer" target="_blank"&gt;Russ Tedrake&lt;/a&gt;. “I thought about legs for 20 years; that’s the class I teach at MIT. There are many reasons to build a robot with legs. But the question is, what’s the addressable market? And what percentage of it is covered by a wheeled base?” It’s this focused, practical thinking that sets Walden somewhat apart from many (if not most) of the other companies in this space. Rather than &lt;a href="https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available" target="_self"&gt;developing a robot first and searching for a viable commercial use case second&lt;/a&gt;, Walden instead identified applications where robots can provide value now, and designed a robot that could safely and efficiently meet those needs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt; &lt;/p&gt;&lt;h2&gt;Walden Robotics’ Manufacturing Focus&lt;/h2&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="A smiling man in a blue shirt" class="rm-shortcode" id="f545c" src="https://spectrum.ieee.org/media-library/a-smiling-man-in-a-blue-shirt.jpg?id=67568051&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Russ Tedrake is the CEO and cofounder of Walden Robotics.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tedrake is light on the details about what specific applications Walden is targeting at this point (citing confidentiality with current commercial partners). Manufacturing and logistics environments where there are a lot of &lt;a href="https://www.youtube.com/watch?v=F_7IPm7f1vI" target="_blank"&gt;relatively simple&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=tv90GFM9RAo" target="_blank"&gt;repetitive tasks&lt;/a&gt; that aren’t friendly to conveyor belts and preprogrammed robot arms are a good bet. Even in these environments, however, robots still have to find a useful niche because they’re going up against human workers who are more flexible while also cheaper to employ. So the question is: How do you make an argument to a customer that a robot is actually a better solution than their existing human workers?&lt;/p&gt;&lt;p&gt;“You need to find applications with high utilization—where the robot is used 24 hours a day, 7 days a week,” says Tedrake. “Manufacturing is a global imperative right now, and it makes the economics work.” Economic viability is a necessary condition, but it’s not a sufficient one for Walden, or for their partnership with Toyota. People are a big part of Walden’s plan, too.&lt;/p&gt;&lt;p&gt;One of Walden’s major strengths is the company’s partnership with Toyota, which is not all that surprising given that Walden is a spinout from TRI, which is &lt;a href="https://spectrum.ieee.org/toyota-to-invest-1-billion-in-ai-and-robotics-rd" target="_self"&gt;Toyota’s Silicon Valley–based R&amp;amp;D arm&lt;/a&gt;. “Toyota was very proud of the work we had done at TRI, and was ready to go big in this space,” says Tedrake. “Part of the excitement of having Toyota as a partner is that their culture is deeply people-first. When talking to Toyota’s leadership, I was never asked how much money this is going to make, but I was asked how it will improve the quality of life for all people.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A white and orange humanoid robot manipulates an object in its two-finger grippers." class="rm-shortcode" id="209d4" src="https://spectrum.ieee.org/media-library/a-white-and-orange-humanoid-robot-manipulates-an-object-in-its-two-finger-grippers.jpg?id=67568030&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The robot’s chonky design allows it to meet the high-payload requirements of useful manufacturing work.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this context, at least in the short term, Walden’s approach to improving the quality of life for people is to take over those aforementioned repetitive manufacturing tasks with robots. Tedrake hopes that this will lead to workplaces where skilled craftspeople are able to do even more with their hard-earned expertise, increasing their efficiency, productivity, and happiness all at the same time—a noble goal, although there’s only so much Walden itself can do to make this happen, and not all customers will share Toyota’s priorities.&lt;/p&gt;&lt;h2&gt;Wheeled Humanoid Robots in Factories&lt;/h2&gt;&lt;p&gt;Many other &lt;a href="https://www.agilityrobotics.com/" target="_blank"&gt;humanoid&lt;/a&gt; &lt;a href="https://www.figure.ai/" target="_blank"&gt;robotics&lt;/a&gt; &lt;a href="https://apptronik.com/" target="_blank"&gt;companies&lt;/a&gt; are also targeting these logistics and manufacturing spaces with general-purpose robots, and they’re doing so by making robots that are as humanlike as possible. The theory is that a humanoid form factor is necessary when operating in human environments. And there are certainly arguments in favor of a humanoid with legs—stairs exist, for one, and legged robots have a smaller footprint compared with ones that have wheels.&lt;/p&gt;&lt;p&gt;But a large wheeled base offers some significant advantages, as Tedrake points out. You’re incentivized to cram the base full of batteries, since more weight near the floor keeps the robot stable, which also solves the problem of running out of power during the middle of the workday. More importantly, a statically stable robot that moves around on a wheeled base can bypass the &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;safety challenges&lt;/a&gt; that are currently keeping legged humanoids physically separated from real humans—most prominently, the fact that legged robots can fall over. “Factories already have autonomous mobile [wheeled] robots,” explains Tedrake. “They already have safety cases built around AMRs. You can piggyback on that with a wheeled base.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A close-up of a robotic gripper grasping a metallic object in a vise." class="rm-shortcode" id="f600c" src="https://spectrum.ieee.org/media-library/a-close-up-of-a-robotic-gripper-grasping-a-metallic-object-in-a-vise.jpg?id=67568022&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Simple, rugged grippers make the robot suitable for commercial deployment.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Walden Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Walden’s perspective on manipulation is similar. Many humanoid companies are using five-fingered hands that are highly dexterous but also highly complex, which Tedrake believes is not a pragmatic approach in the context of commercial deployments. “There’s a question of what you need to do the tasks, but the real question is just durability,” Tedrake says. “We have been deployed in a Toyota factory, and at the end of the week, the hands take a beating, so we built hands that can take that. I have not seen a more dexterous hand that could have done the work our hand has done.”&lt;/p&gt;&lt;p&gt;Walden’s long-term plan is to build “general-purpose robots.” It’s not always clear what a general-purpose robot is, because (I would argue) nobody is quite sure what “general purpose” means. It’s certainly not referring to robots that can do &lt;em&gt;&lt;em&gt;everything&lt;/em&gt;&lt;/em&gt;; I think the closest we can get are robots that can be taught to do a useful number of different skills, which is why I prefer the term “multipurpose.” It’s a little pedantic, I know, but I think the distinction is important because it moderates expectations in the near term.&lt;/p&gt;&lt;p&gt;Part of where Walden’s optimism towards general purposeness comes from is TRI’s earlier research on &lt;a href="https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573" target="_blank"&gt;diffusion policy&lt;/a&gt;, which helps robots learn new skills more quickly by leveraging previously learned skills as a foundation. “Fundamentally, multitasking is a way to get to a general-purpose robot,” Tedrake says. “I believe there is a single platform that can do a lot of tasks that are of high value for real customers. That will give us the experience we need to give birth to this deployed general-purpose capability.”&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota</guid>
-      <pubDate>Mon, 03 Aug 2026 16:05:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump’s AI protectionism has come for robotics</title>
-      <link>https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/</link>
-      <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&amp;#160;sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s a nascent industry, and such robots&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/</guid>
-      <pubDate>Mon, 03 Aug 2026 18:43:30 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 10 Aug 2026 02:33:33 +0000</lastBuildDate>
     <item>
       <title>Apple is getting this wrong</title>
       <link>https://openai.com/index/apple-is-getting-this-wrong</link>
@@ -2032,6 +1948,14 @@
       <pubDate>Thu, 06 Aug 2026 18:16:56 +0000</pubDate>
     </item>
     <item>
+      <title>XQ-58 Valkyrie Drones With Built-In Landing Gear Are Now In Production</title>
+      <link>https://www.twz.com/air/xq-58-valkyries-drones-with-built-in-landing-gear-are-now-in-production</link>
+      <description>&lt;p&gt;Despite the setback of a crash this week, Kratos says the Valkyrie program is ramping up for the Marines and other customers globally.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/xq-58-valkyries-drones-with-built-in-landing-gear-are-now-in-production"&gt;XQ-58 Valkyrie Drones With Built-In Landing Gear Are Now In Production&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/xq-58-valkyries-drones-with-built-in-landing-gear-are-now-in-production</guid>
+      <pubDate>Thu, 06 Aug 2026 18:21:01 +0000</pubDate>
+    </item>
+    <item>
       <title>From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture</title>
       <link>https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture</link>
       <description>Two former chief security officers of the Democratic National Committee explain that a strong security-first mindset requires executive support — and a dose of absurdity.</description>
@@ -2083,12 +2007,28 @@
       <pubDate>Thu, 06 Aug 2026 20:39:30 +0000</pubDate>
     </item>
     <item>
+      <title>Houthis Stage Large-Scale Attack On Saudi-Aligned Forces In Yemen</title>
+      <link>https://www.twz.com/news-features/houthis-stage-large-scale-attack-on-saudi-aligned-forces-in-yemen</link>
+      <description>&lt;p&gt;The strikes are yet another escalation in Houthi-Saudi hostilities roiling the Red Sea region. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/houthis-stage-large-scale-attack-on-saudi-aligned-forces-in-yemen"&gt;Houthis Stage Large-Scale Attack On Saudi-Aligned Forces In Yemen&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/houthis-stage-large-scale-attack-on-saudi-aligned-forces-in-yemen</guid>
+      <pubDate>Thu, 06 Aug 2026 20:42:40 +0000</pubDate>
+    </item>
+    <item>
       <title>Sudanese Armed Forces gains in civil war force strategic adjustment from paramilitia rival</title>
       <link>https://www.longwarjournal.org/archives/2026/08/sudanese-armed-forces-gains-in-civil-war-force-strategic-adjustment-from-paramilitia-rival.php</link>
       <description>&lt;p&gt;The Sudanese military's recapture of the Al Sadarat highway marks its most significant success against the Rapid Support Forces (RSF) in the fourth year of the Sudanese civil war. However, the RSF's shift toward tribal mobilization and the growing role of foreign-backed drone warfare suggest the conflict's broader cycle of adaptation and attrition will continue.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/sudanese-armed-forces-gains-in-civil-war-force-strategic-adjustment-from-paramilitia-rival.php"&gt;Sudanese Armed Forces gains in civil war force strategic adjustment from paramilitia rival&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/sudanese-armed-forces-gains-in-civil-war-force-strategic-adjustment-from-paramilitia-rival.php</guid>
       <pubDate>Thu, 06 Aug 2026 21:10:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Falaj 3 May Be The World’s Most Heavily Armed Patrol Boat</title>
+      <link>https://www.twz.com/uncategorized/the-falaj-3-may-be-the-worlds-most-heavily-armed-patrol-boat</link>
+      <description>&lt;p&gt;Officially an offshore patrol vessel, the compact design carries the kind of combat capability normally associated with well-armed corvettes or even frigates. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/uncategorized/the-falaj-3-may-be-the-worlds-most-heavily-armed-patrol-boat"&gt;The Falaj 3 May Be The World’s Most Heavily Armed Patrol Boat&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/uncategorized/the-falaj-3-may-be-the-worlds-most-heavily-armed-patrol-boat</guid>
+      <pubDate>Thu, 06 Aug 2026 21:15:37 +0000</pubDate>
     </item>
     <item>
       <title>The Coordination Gap: How Attackers Are Outpacing Law Enforcement</title>
@@ -2118,6 +2058,14 @@
       <description>OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/</guid>
       <pubDate>Thu, 06 Aug 2026 22:48:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jet-Powered JDAM Production Is A Go For The U.S. Navy</title>
+      <link>https://www.twz.com/air/jet-powered-jdam-production-is-a-go-for-the-u-s-navy</link>
+      <description>&lt;p&gt;Putting JDAM-LR into production will give the Navy an important new stream of lower-cost standoff munitions for its carrier air wings.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/jet-powered-jdam-production-is-a-go-for-the-u-s-navy"&gt;Jet-Powered JDAM Production Is A Go For The U.S. Navy&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/jet-powered-jdam-production-is-a-go-for-the-u-s-navy</guid>
+      <pubDate>Thu, 06 Aug 2026 23:15:24 +0000</pubDate>
     </item>
     <item>
       <title>ISC Stormcast For Friday, August 7th, 2026 https://isc.sans.edu/podcastdetail/10042, (Fri, Aug 7th)</title>
@@ -2771,6 +2719,14 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the high-severity
       <pubDate>Fri, 07 Aug 2026 16:21:49 +0000</pubDate>
     </item>
     <item>
+      <title>New M1A2T Abrams Tanks Guard Taiwan’s Main Airport During Invasion Drill</title>
+      <link>https://www.twz.com/news-features/new-m1a2t-abrams-tanks-guard-taiwans-main-airport-during-invasion-drill</link>
+      <description>&lt;p&gt;First deployment of M1A2T tanks to Taoyuan Airport highlights ongoing preparations to counter a PLA airborne operation aimed at Taipei.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/new-m1a2t-abrams-tanks-guard-taiwans-main-airport-during-invasion-drill"&gt;New M1A2T Abrams Tanks Guard Taiwan’s Main Airport During Invasion Drill&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/new-m1a2t-abrams-tanks-guard-taiwans-main-airport-during-invasion-drill</guid>
+      <pubDate>Fri, 07 Aug 2026 16:36:51 +0000</pubDate>
+    </item>
+    <item>
       <title>Defending the skies: XCaliber validates C-UAS integrator</title>
       <link>https://www.army-technology.com/features/defending-the-skies-xcaliber-validates-c-uas-integrator/</link>
       <description>C-UAS start-up, XCaliber, is validating its MOSES platform to integrate multiple, disparate sensors and effectors together into one system.</description>
@@ -2791,6 +2747,14 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the high-severity
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/commentary/braw-in-politico-on-kyivs-drone-triumphs/"&gt;Braw in Politico on Kyiv&amp;#8217;s drone triumphs&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/commentary/braw-in-politico-on-kyivs-drone-triumphs/</guid>
       <pubDate>Fri, 07 Aug 2026 17:02:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>KC-135 That Lost Its Tail In Deadly Collision Over Iraq Now At Tinker AFB Repair Shop</title>
+      <link>https://www.twz.com/air/kc-135-that-lost-its-tail-in-deadly-collision-over-iraq-now-at-tinker-afb-repair-shop</link>
+      <description>&lt;p&gt;The KC-135 made an emergency landing in Tel Aviv with half its tail sheared off following the collision that occurred during an Operation Epic Fury sortie. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/kc-135-that-lost-its-tail-in-deadly-collision-over-iraq-now-at-tinker-afb-repair-shop"&gt;KC-135 That Lost Its Tail In Deadly Collision Over Iraq Now At Tinker AFB Repair Shop&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/kc-135-that-lost-its-tail-in-deadly-collision-over-iraq-now-at-tinker-afb-repair-shop</guid>
+      <pubDate>Fri, 07 Aug 2026 17:02:40 +0000</pubDate>
     </item>
     <item>
       <title>EU lays out $18B satellite constellation plan, with Spanish firm winning key role</title>
@@ -2814,6 +2778,14 @@ Tracked as&amp;nbsp;CVE-2026-64638&amp;nbsp;(CVSS score: 8.9), the high-severity
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/analysis-north-korean-missile-deployment-raises-urgency-of-ukraines-starlink-plea.php"&gt;Analysis: North Korean missile deployment raises urgency of Ukraine’s Starlink plea&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/analysis-north-korean-missile-deployment-raises-urgency-of-ukraines-starlink-plea.php</guid>
       <pubDate>Fri, 07 Aug 2026 17:36:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>USS Theodore Roosevelt Is The First Carrier With A Drone Control Center Ready For MQ-25 Stingray Ops</title>
+      <link>https://www.twz.com/air/uss-theodore-roosevelt-is-the-first-carrier-with-a-drone-control-center-ready-for-mq-25-stingray-ops</link>
+      <description>&lt;p&gt;While Theodore Roosevelt is ready now, the Navy is not aiming to start flying the MQ-25 operationally until 2029, years behind schedule.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/uss-theodore-roosevelt-is-the-first-carrier-with-a-drone-control-center-ready-for-mq-25-stingray-ops"&gt;USS Theodore Roosevelt Is The First Carrier With A Drone Control Center Ready For MQ-25 Stingray Ops&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/uss-theodore-roosevelt-is-the-first-carrier-with-a-drone-control-center-ready-for-mq-25-stingray-ops</guid>
+      <pubDate>Fri, 07 Aug 2026 17:44:45 +0000</pubDate>
     </item>
     <item>
       <title>Hopes for the North Korean Human Rights Act of 2026</title>
@@ -2929,6 +2901,14 @@ The macOS-focused infection chain is designed to deliver a shell script that pro
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/content-series/fastthinking/the-senate-just-agreed-to-hand-trump-a-tariff-weapon-against-russia-will-he-use-it/"&gt;The Senate just agreed to hand Trump a tariff weapon against Russia. Will he use it?&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/content-series/fastthinking/the-senate-just-agreed-to-hand-trump-a-tariff-weapon-against-russia-will-he-use-it/</guid>
       <pubDate>Fri, 07 Aug 2026 21:56:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week</title>
+      <link>https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-202</link>
+      <description>&lt;p&gt;Sorry, the dust is staying. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-202"&gt;Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-202</guid>
+      <pubDate>Fri, 07 Aug 2026 22:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Why Saudi Arabia, Pakistan, and Turkey just signed a defense pact</title>
@@ -3053,6 +3033,14 @@ PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It
       <pubDate>Sat, 08 Aug 2026 16:31:18 +0000</pubDate>
     </item>
     <item>
+      <title>Russian Nuclear Ballistic Missile Submarines Are Now Cocooned In Nets</title>
+      <link>https://www.twz.com/news-features/russian-nuclear-ballistic-missile-submarines-are-now-cocooned-in-nets</link>
+      <description>&lt;p&gt;Growing uncrewed threats look to be prompting various new defensive measures at Russian naval bases far and wide.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/russian-nuclear-ballistic-missile-submarines-are-now-cocooned-in-nets"&gt;Russian Nuclear Ballistic Missile Submarines Are Now Cocooned In Nets&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/russian-nuclear-ballistic-missile-submarines-are-now-cocooned-in-nets</guid>
+      <pubDate>Sat, 08 Aug 2026 18:50:43 +0000</pubDate>
+    </item>
+    <item>
       <title>Two Wars, Two Machines: How Drones Are Rewriting Both the Russian Front and a Future Taiwan Landing</title>
       <link>https://sofrep.com/news/two-wars-two-machines-how-drones-are-rewriting-both-the-russian-front-and-a-future-taiwan-landing/</link>
       <description>Ukraine's drones just hit every major Russian refinery in range, including a record 2,500km strike on Omsk. Meanwhile, PLA footage shows robot dogs and FPV drones leading a simulated beach assault near Taiwan. Two militaries, two approaches to unmanned warfare — one forged in combat, one staged for cameras. #DroneWarfare #Ukraine #Russia #PLA #Taiwan #UnmannedSystems #SOFREP #Geopolitics #ModernWarfare #DeepStrike</description>
@@ -3079,6 +3067,14 @@ PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It
       <description>We love this official Navy promo video of Special Warfare Combatant-craft Crewmen (SWCC) turning to with guns blazing.</description>
       <guid isPermaLink="false">https://sofrep.com/news/watch-this-naval-special-warfare-combatant-craft-crewmen-swcc-video/</guid>
       <pubDate>Sun, 09 Aug 2026 13:00:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Last Days Of The A-10 Warthog Weapons School</title>
+      <link>https://www.twz.com/air/the-last-days-of-the-a-10-warthog-weapons-school</link>
+      <description>&lt;p&gt;The Weapons Instructor Course has been the center of excellence for the A-10 and its missions for nearly 50 years, but that's about to end.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/the-last-days-of-the-a-10-warthog-weapons-school"&gt;The Last Days Of The A-10 Warthog Weapons School&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/the-last-days-of-the-a-10-warthog-weapons-school</guid>
+      <pubDate>Sun, 09 Aug 2026 13:01:00 +0000</pubDate>
     </item>
     <item>
       <title>UK Special Forces breakdown: The Special Boat Service (SBS)</title>
@@ -3125,6 +3121,12 @@ PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It
       <description>10th Special Forces Group Green Berets requalified as combat divers at Camp Pendleton this July, sustaining one of the rarest skills in U.S. Special Operations. Using bubble-free rebreathers, these EUCOM-aligned teams can infiltrate hostile coastlines undetected — a capability growing more relevant as NATO refocuses on defending its Baltic and Arctic maritime flanks. : #GreenBerets #SpecialForces #10thSFG #CombatDivers #SOF #USArmy #NATO #Pendleton #MaritimeOps #SOFREP</description>
       <guid isPermaLink="false">https://sofrep.com/news/green-berets-go-back-underwater-10th-sfg-requalifies-combat-divers-at-pendleton/</guid>
       <pubDate>Sun, 09 Aug 2026 21:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Monday, August 10th, 2026 https://isc.sans.edu/podcastdetail/10044, (Mon, Aug 10th)</title>
+      <link>https://isc.sans.edu/diary/rss/33228</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33228</guid>
+      <pubDate>Mon, 10 Aug 2026 02:00:03 +0000</pubDate>
     </item>
   </channel>
 </rss>
