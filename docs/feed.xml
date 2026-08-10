@@ -7,23 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 13:43:09 +0000</lastBuildDate>
-    <item>
-      <title>CISA Adds Three Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-9198" target="_blank"&gt;CVE-2026-9198&lt;/a&gt; IBM Langflow Code Injection Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18556" target="_blank"&gt;CVE-2026-18556&lt;/a&gt; N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-34486" target="_blank"&gt;CVE-2026-34486&lt;/a&gt; Apache Tomcat Missing Encryption of Sensitive Data Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 10 Aug 2026 14:44:51 +0000</lastBuildDate>
     <item>
       <title>Thermo Fisher Applied Biosystems Genetic Analyzers</title>
       <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01</link>
@@ -293,14 +277,6 @@
       <pubDate>Wed, 05 Aug 2026 08:06:40 +0000</pubDate>
     </item>
     <item>
-      <title>AI is getting better at election facts, but voters shouldn’t rely on it</title>
-      <link>https://cyberscoop.com/ai-chatbots-2026-midterm-elections/</link>
-      <description>&lt;p&gt;AI chatbots are avoiding some of the obvious errors that plagued earlier models, but they still fall short giving voters the full picture compared to state and local sources.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/ai-chatbots-2026-midterm-elections/"&gt;AI is getting better at election facts, but voters shouldn’t rely on it&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/ai-chatbots-2026-midterm-elections/</guid>
-      <pubDate>Wed, 05 Aug 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
       <link>https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog</link>
       <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
@@ -335,13 +311,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/"&gt;Open-source software’s archenemy TeamPCP goes back further than anyone thought&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/</guid>
       <pubDate>Wed, 05 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Navy, Saildrone to use unmanned systems in expanded counternarcotics role</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/08/05/us-navy-saildrone-to-use-unmanned-systems-in-expanded-counternarcotics-role/</link>
-      <description>The U.S. Navy is extending its use of Saildrone unmanned surface vehicles for an expanded counternarcotics mission.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/08/05/us-navy-saildrone-to-use-unmanned-systems-in-expanded-counternarcotics-role/</guid>
-      <pubDate>Wed, 05 Aug 2026 14:37:54 +0000</pubDate>
     </item>
     <item>
       <title>Puzzle Corner</title>
@@ -444,13 +413,6 @@
       <description>AI browsers from top vendors remain vulnerable to prompt injection attacks despite multiple security guardrails, according to new research.</description>
       <guid isPermaLink="false">https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws</guid>
       <pubDate>Wed, 05 Aug 2026 22:18:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Firestorm Labs builds drones aboard USS Essex without shore resupply</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/</link>
-      <description>Service members aboard the USS Essex were able to 3D-print 12 first-person view drones using a containerized microfactory.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/08/05/firestorm-labs-builds-drones-aboard-uss-essex-without-shore-resupply/</guid>
-      <pubDate>Wed, 05 Aug 2026 23:14:31 +0000</pubDate>
     </item>
     <item>
       <title>Trump-class battleship program will cost $275 billion, CBO report says</title>
@@ -2222,20 +2184,6 @@
       <pubDate>Fri, 07 Aug 2026 12:22:00 +0000</pubDate>
     </item>
     <item>
-      <title>Saudi Arabia, Turkey, Pakistan ink ‘joint defense’ agreement</title>
-      <link>https://breakingdefense.com/2026/08/saudi-arabia-turkey-pakistan-ink-joint-defense-agreement/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/saudi-arabia-turkey-pakistan-ink-joint-defense-agreement/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/260807_turkey_pak_saudi_pact_GettyImages-2288615486-e1786104491503.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The agreement says that &amp;#8220;any armed attack against any one of the three States shall be regarded as an attack against them all.&amp;#8221;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/saudi-arabia-turkey-pakistan-ink-joint-defense-agreement/</guid>
-      <pubDate>Fri, 07 Aug 2026 12:26:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Saudi Arabia, Pakistan, Turkey Sign Joint Defense Pact Amid US-Iran Tensions</title>
-      <link>https://www.rferl.org/a/saudi-turkey-pakistan-defense-agreement-iran-war/33824220.html</link>
-      <description>As regional security tensions continue to mount amid the protracted conflict between Iran and the US, the leaders of Saudi Arabia, Pakistan, and Turkey came together on August 7 to sign a joint defense agreement in order to "strengthen collective deterrence against any act of aggression."</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/saudi-turkey-pakistan-defense-agreement-iran-war/33824220.html</guid>
-      <pubDate>Fri, 07 Aug 2026 12:42:03 +0000</pubDate>
-    </item>
-    <item>
       <title>Satellite Images Reveal Damage To Russia's Wildberries Warehouses</title>
       <link>https://www.rferl.org/a/wildberries-russia-satellite-ukraine-war-drones/33824084.html</link>
       <description>Before-and-after satellite images released by Vantor reveal the extent of the damage to Wildberries warehouses across Russia. Dubbed the "Russian Amazon," at least 20 facilities belonging to the country's largest online retailer have been targeted by a Ukrainian drone campaign since mid-July.</description>
@@ -2250,25 +2198,11 @@
       <pubDate>Fri, 07 Aug 2026 13:28:00 +0000</pubDate>
     </item>
     <item>
-      <title>North Carolina Ports confirms cyberattack disrupting operations</title>
-      <link>https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/</link>
-      <description>The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/</guid>
-      <pubDate>Fri, 07 Aug 2026 13:34:40 +0000</pubDate>
-    </item>
-    <item>
       <title>How ideas of a vast censorship network moved from the online fringe to Trump policy</title>
       <link>https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/</link>
       <description>This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading.&amp;#160; For months, Elon Musk’s Department of Government Efficiency had been cutting a wide swath through&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/</guid>
       <pubDate>Fri, 07 Aug 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Real emails, hijacked payments: Two H1 2026 attack chains</title>
-      <link>https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/</link>
-      <description>Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/</guid>
-      <pubDate>Fri, 07 Aug 2026 14:00:10 +0000</pubDate>
     </item>
     <item>
       <title>Rheinmetall says ramping up ATACMS output will take time as US rebuilds stocks</title>
@@ -2567,15 +2501,6 @@
       <pubDate>Fri, 07 Aug 2026 23:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts</title>
-      <link>https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.
-
-The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html</guid>
-      <pubDate>Sat, 08 Aug 2026 06:52:16 +0000</pubDate>
-    </item>
-    <item>
       <title>N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist</title>
       <link>https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html</link>
       <description>N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.
@@ -2665,13 +2590,6 @@ PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It
 &lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/russian-nuclear-ballistic-missile-submarines-are-now-cocooned-in-nets"&gt;Russian Nuclear Ballistic Missile Submarines Are Now Cocooned In Nets&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/russian-nuclear-ballistic-missile-submarines-are-now-cocooned-in-nets</guid>
       <pubDate>Sat, 08 Aug 2026 18:50:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Two Wars, Two Machines: How Drones Are Rewriting Both the Russian Front and a Future Taiwan Landing</title>
-      <link>https://sofrep.com/news/two-wars-two-machines-how-drones-are-rewriting-both-the-russian-front-and-a-future-taiwan-landing/</link>
-      <description>Ukraine's drones just hit every major Russian refinery in range, including a record 2,500km strike on Omsk. Meanwhile, PLA footage shows robot dogs and FPV drones leading a simulated beach assault near Taiwan. Two militaries, two approaches to unmanned warfare — one forged in combat, one staged for cameras. #DroneWarfare #Ukraine #Russia #PLA #Taiwan #UnmannedSystems #SOFREP #Geopolitics #ModernWarfare #DeepStrike</description>
-      <guid isPermaLink="false">https://sofrep.com/news/two-wars-two-machines-how-drones-are-rewriting-both-the-russian-front-and-a-future-taiwan-landing/</guid>
-      <pubDate>Sat, 08 Aug 2026 21:00:27 +0000</pubDate>
     </item>
     <item>
       <title>Trump Suggests Economic, Not Military, Pressure Now Favored Against Iran</title>
@@ -2999,6 +2917,79 @@ Passkeys are designed to replace reusable passwords and resist phishing. The att
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/smart-glasses-are-the-blind-spot-in-us-privacy-law/"&gt;Smart glasses are the blind spot in US privacy law&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/smart-glasses-are-the-blind-spot-in-us-privacy-law/</guid>
       <pubDate>Mon, 10 Aug 2026 13:06:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development</title>
+      <link>https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html</link>
+      <description>North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware.
+
+South Korean security firm Genians says it uncovered the</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html</guid>
+      <pubDate>Mon, 10 Aug 2026 13:19:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japan’s 2026 defense white paper highlights ‘new era of crisis’ in Indo-Pacific</title>
+      <link>https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/</link>
+      <description>Japan’s 2026 Defense White Paper called China the world's “greatest strategic challenge,” citing Beijing’s expanded cooperation with Moscow.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/08/10/japans-2026-defense-white-paper-highlights-new-era-of-crisis-in-indo-pacific/</guid>
+      <pubDate>Mon, 10 Aug 2026 13:44:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Germany and the Netherlands buy 69 more RCT30 infantry fighting vehicles</title>
+      <link>https://breakingdefense.com/2026/08/germany-and-the-netherlands-buy-69-more-rct30-infantry-fighting-vehicles/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/germany-and-the-netherlands-buy-69-more-rct30-infantry-fighting-vehicles/"&gt;&lt;img alt="Germany and the Netherlands are jointly acquiring 69 additional RCT30 wheeled infantry fighting vehicles (KNDS)" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Foto_KNDS_BOXER_RCT_30_f39b12a02c-e1786353827168-1024x577.avif" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Manufacturer KNDS said it has developed the Boxer RCT30 as the &amp;#8220;backbone&amp;#8221; of Germany&amp;#8217;s new &amp;#8220;Medium Forces.&amp;#8221;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/germany-and-the-netherlands-buy-69-more-rct30-infantry-fighting-vehicles/</guid>
+      <pubDate>Mon, 10 Aug 2026 13:45:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon launches online marketplace for counter-UAS technology</title>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/08/10/pentagon-launches-online-marketplace-for-counter-uas-technology/</link>
+      <description>It’s like Amazon but only for defense agencies needing equipment for destroying commercial drones.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/08/10/pentagon-launches-online-marketplace-for-counter-uas-technology/</guid>
+      <pubDate>Mon, 10 Aug 2026 13:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas</title>
+      <link>https://openai.com/index/responsible-ai-infrastructure-texas</link>
+      <description>OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.</description>
+      <guid isPermaLink="false">https://openai.com/index/responsible-ai-infrastructure-texas</guid>
+      <pubDate>Mon, 10 Aug 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Moral Injury Doesn’t Always Look Like Moral Injury: What Military Leaders Need to Recognize</title>
+      <link>https://sofrep.com/news/moral-injury-doesnt-always-look-like-moral-injury/</link>
+      <description>Moral injury does not always announce itself as a crisis; sometimes it looks like discipline, ambition, reliability, or simply someone getting very good at carrying something no one else can see. #MoralInjury #MilitaryMentalHealth #SpecialOperations #VeteranMentalHealth #QuietProfessional</description>
+      <guid isPermaLink="false">https://sofrep.com/news/moral-injury-doesnt-always-look-like-moral-injury/</guid>
+      <pubDate>Mon, 10 Aug 2026 14:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Credentials Are No Longer Enough: Device Trust in the AI Era</title>
+      <link>https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/</link>
+      <description>AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/</guid>
+      <pubDate>Mon, 10 Aug 2026 14:01:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why transparent AI agents matter more than you think</title>
+      <link>https://cyberscoop.com/transparent-ai-agent-security-op-ed/</link>
+      <description>&lt;p&gt;The difference between a prompt injection attack you'll catch and one you won't might just be whether your AI agent can explain itself.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/transparent-ai-agent-security-op-ed/"&gt;Why transparent AI agents matter more than you think&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/transparent-ai-agent-security-op-ed/</guid>
+      <pubDate>Mon, 10 Aug 2026 14:23:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zelenskyy’s Belgrade Visit Sparks Controversy In Kosovo</title>
+      <link>https://www.rferl.org/a/zelenskyy-kosovo-controversy-independence/33825969.html</link>
+      <description>Comments by Ukrainian President Volodymyr Zelenskyy during a visit to Belgrade have sparked controversy in Kosovo. RFE/RL’s Kosovo Service has been speaking to people in Pristina for their reactions.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/zelenskyy-kosovo-controversy-independence/33825969.html</guid>
+      <pubDate>Mon, 10 Aug 2026 14:24:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/</link>
+      <description>CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/</guid>
+      <pubDate>Mon, 10 Aug 2026 14:34:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
