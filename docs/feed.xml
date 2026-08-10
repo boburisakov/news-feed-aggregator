@@ -7,159 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 14:44:51 +0000</lastBuildDate>
-    <item>
-      <title>Thermo Fisher Applied Biosystems Genetic Analyzers</title>
-      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-216-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to modify .fsa/.hid output files, tampering with DNA data and resulting in inaccurate test results.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Thermo Fisher Applied Biosystems Genetic Analyzers are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Applied Biosystems 3500/3500xL Series Data Collection Software &amp;lt;=4.0.2&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Applied Biosystems 3730/3730xL Series Data Collection Software &amp;lt;=5.0.2&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Applied Biosystems SeqStudio Genetic Analyzer Data Collection Software &amp;lt;=1.2.5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Applied Biosystems SeqStudio Flex Series Instrument Software &amp;lt;=1.2.0&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Applied Biosystems GeneMapper ID-X Software &amp;lt;=v1.7.3&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Applied Biosystems 3130 Series Data Collection Software &amp;lt;=4.1&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;ABI PRISM 3100/3100-Avant Data Collection Software &amp;lt;=2.0&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;ABI PRISM 310 Data Collection Software &amp;lt;=3.1&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 8.4&lt;/td&gt;
-&lt;td&gt;Thermo Fisher&lt;/td&gt;
-&lt;td&gt;Thermo Fisher Applied Biosystems Genetic Analyzers&lt;/td&gt;
-&lt;td&gt;Missing Support for Integrity Check&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Healthcare and Public Health&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-17583&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected product is vulnerable because its .fsa/.hid output files can be edited. An attacker could tamper with these files, altering DNA data and resulting in inaccurate DNA test outcomes.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-17583"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Thermo Fisher Applied Biosystems Genetic Analyzers&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Thermo Fisher&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Thermo Fisher Applied Biosystems 3500/3500xL Series Data Collection Software: &amp;lt;=4.0.2, Thermo Fisher Applied Biosystems 3730/3730xL Series Data Collection Software: &amp;lt;=5.0.2, Thermo Fisher Applied Biosystems SeqStudio Genetic Analyzer Data Collection Software: &amp;lt;=1.2.5, Thermo Fisher Applied Biosystems SeqStudio Flex Series Instrument Software: &amp;lt;=1.2.0, Thermo Fisher Applied Biosystems GeneMapper ID-X Software: &amp;lt;=v1.7.3, Thermo Fisher Applied Biosystems 3130 Series Data Collection Software: &amp;lt;=4.1, Thermo Fisher ABI PRISM 3100/3100-Avant Data Collection Software: &amp;lt;=2.0, Thermo Fisher ABI PRISM 310 Data Collection Software: &amp;lt;=3.1&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Thermo Fisher has developed security updates to address the vulnerability. The security updates implement the use of digital signatures on the instrument software that adds an extralayer of protection. Moving forward, this will help users verify that data files have not been modified.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Applied Biosystems 3500/3500xL Series Data Collection Software: Update to version 4.0.3&lt;br /&gt;&lt;a href="https://downloads.thermofisher.com/3500_DCS_v4.0.3_Patch/v4.0.3_Patch_Installer.exe"&gt;https://downloads.thermofisher.com/3500_DCS_v4.0.3_Patch/v4.0.3_Patch_Installer.exe&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Applied Biosystems 3730/3730xL Series Data Collection Software: Update to version 5.0.3&lt;br /&gt;&lt;a href="https://downloads.thermofisher.com/3730xl_UDC_v5.0.3_Patch/3730xl_UDC_v5.0.3_Patch.exe"&gt;https://downloads.thermofisher.com/3730xl_UDC_v5.0.3_Patch/3730xl_UDC_v5.0.3_Patch.exe&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Applied Biosystems SeqStudio Genetic Analyzer Data Collection Software: Update to version 1.2.6&lt;br /&gt;&lt;a href="https://downloads.thermofisher.com/SeqStudio/1.2.6/SeqStudio-1.2.6.abpkg"&gt;https://downloads.thermofisher.com/SeqStudio/1.2.6/SeqStudio-1.2.6.abpkg&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Applied Biosystems SeqStudio Flex Series Instrument Software: Update to version 1.2.1&lt;br /&gt;&lt;a href="https://downloads.thermofisher.com/SeqStudioFlex/1.2.1/SeqStudioFlex-1.2.1.abpkg"&gt;https://downloads.thermofisher.com/SeqStudioFlex/1.2.1/SeqStudioFlex-1.2.1.abpkg&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Applied Biosystems GeneMapper ID-X Software: Update to version 1.7.4&lt;br /&gt;&lt;a href="https://downloads.thermofisher.com/GeneMapperID-Xv1.7.4_Patch/GMIDX_v1.7.4_Patch.exe"&gt;https://downloads.thermofisher.com/GeneMapperID-Xv1.7.4_Patch/GMIDX_v1.7.4_Patch.exe&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Applied Biosystems 3130 Series Data Collection Software: Product is End of Life (EoL), no update provided&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;ABI PRISM 3100/3100-Avant Data Collection Software: Product is End of Life (EoL), no update provided&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;ABI PRISM 310 Data Collection Software: Product is End of Life (EoL), no update provided&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For users who are unable to immediately implement all applicable security updates, Thermo Fisher Scientific recommends implementing the following interim mitigation measures until the applicable updates have been installed:&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;-Maintain a secure chain of custody for files generated by the HID instrumentation throughout the analysis workflow.&lt;br /&gt;-Store generated files on encrypted, password-protected storage media (for example, encrypted USB drives or encrypted hard drives).&lt;br /&gt;-Restrict access to generated files to authorized personnel in accordance with your laboratory's access control policies.&lt;br /&gt;-Apply the principle of least privilege by limiting user permissions on systems operating the HID instrumentation or hosting associated data analysis and secondary analysis software.&lt;br /&gt;-Leverage firewall rules and network access control lists (NACLs) to restrict internet connectivity to only trusted sources.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information, refer to Thermo Fisher's security bulletin.&lt;br /&gt;&lt;a href="https://documents.thermofisher.com/TFS-Assets/CORP/Product-Guides/fsa_hid_bulletin.pdf"&gt;https://documents.thermofisher.com/TFS-Assets/CORP/Product-Guides/fsa_hid_bulletin.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/353.html"&gt;CWE-353 Missing Support for Integrity Check&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.4&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.2&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:H/SA:N"&gt;CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:H/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Nathaniel Adams, Laura Gaydosh-Combs, and Kevin Dyer reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-04&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-04&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 10 Aug 2026 15:41:47 +0000</lastBuildDate>
     <item>
       <title>How legitimate cloud platforms enable phishers to bypass MFA</title>
       <link>https://securelist.com/cloud-platforms-in-phishing/120832/</link>
@@ -305,14 +153,6 @@
       <pubDate>Wed, 05 Aug 2026 12:14:46 +0000</pubDate>
     </item>
     <item>
-      <title>Open-source software’s archenemy TeamPCP goes back further than anyone thought</title>
-      <link>https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/</link>
-      <description>&lt;p&gt;Oligo Security uncovered evidence of a long operational history, including multiple previous attacks it traced to the same attacker infrastructure and tools.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/"&gt;Open-source software’s archenemy TeamPCP goes back further than anyone thought&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/</guid>
-      <pubDate>Wed, 05 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Puzzle Corner</title>
       <link>https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/</link>
       <description>Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner ’03, MEng ’04, and Abe Kunin ’03. This column includes solutions to the May/June issue. Send problems, solutions (by October&amp;#8230;</description>
@@ -413,13 +253,6 @@
       <description>AI browsers from top vendors remain vulnerable to prompt injection attacks despite multiple security guardrails, according to new research.</description>
       <guid isPermaLink="false">https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws</guid>
       <pubDate>Wed, 05 Aug 2026 22:18:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump-class battleship program will cost $275 billion, CBO report says</title>
-      <link>https://www.defensenews.com/news/your-military/2026/08/05/trump-class-battleship-program-will-cost-275-billion-cbo-report-says/</link>
-      <description>The Congressional Budget Office estimates the Navy’s new Trump-class battleship program will cost $275 billion, with the first ship costing $23.4 billion.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/05/trump-class-battleship-program-will-cost-275-billion-cbo-report-says/</guid>
-      <pubDate>Wed, 05 Aug 2026 23:17:27 +0000</pubDate>
     </item>
     <item>
       <title>AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking</title>
@@ -2212,14 +2045,6 @@
       <pubDate>Fri, 07 Aug 2026 14:10:14 +0000</pubDate>
     </item>
     <item>
-      <title>Tran quoted in CNN Business on Japan’s persistently low interest rates and its relation to the yen</title>
-      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/tran-quoted-in-cnn-business-on-japans-persistently-low-interest-rates-and-its-relation-to-the-yen/</link>
-      <description>&lt;p&gt;Read the full article here&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/tran-quoted-in-cnn-business-on-japans-persistently-low-interest-rates-and-its-relation-to-the-yen/"&gt;Tran quoted in CNN Business on Japan’s persistently low interest rates and its relation to the yen&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/tran-quoted-in-cnn-business-on-japans-persistently-low-interest-rates-and-its-relation-to-the-yen/</guid>
-      <pubDate>Fri, 07 Aug 2026 14:17:49 +0000</pubDate>
-    </item>
-    <item>
       <title>Lichfield quoted in the Japan Times on the US defending its own Treasury yields.</title>
       <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/lichfield-quoted-in-the-japan-times-on-russia-defending-its-treasury-yields/</link>
       <description>&lt;p&gt;Read the full article here&lt;/p&gt;
@@ -2256,13 +2081,6 @@
       <description>OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.</description>
       <guid isPermaLink="false">https://openai.com/index/responding-next-frontier-critical-cyber-capabilities</guid>
       <pubDate>Fri, 07 Aug 2026 15:20:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Updating Navy warships at the speed of software</title>
-      <link>https://breakingdefense.com/2026/08/updating-navy-warships-at-the-speed-of-software/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/updating-navy-warships-at-the-speed-of-software/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/260731_DVIDS_hormuz_sailor_9441586-scaled-e1785518144694-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;After years of wanting and waiting, the Navy is now updating combat systems over-the-air on ships at sea, write two Navy Department leaders. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/updating-navy-warships-at-the-speed-of-software/</guid>
-      <pubDate>Fri, 07 Aug 2026 15:40:02 +0000</pubDate>
     </item>
     <item>
       <title>Levi Strauss &amp; Co. says hackers stole corporate data in cyberattack</title>
@@ -2461,6 +2279,14 @@
       <pubDate>Fri, 07 Aug 2026 20:54:56 +0000</pubDate>
     </item>
     <item>
+      <title>How America’s Dizzying AI Strategy Plays Into China’s Hands</title>
+      <link>https://cset.georgetown.edu/article/how-americas-dizzying-ai-strategy-plays-into-chinas-hands/</link>
+      <description>&lt;p&gt;CSET’s Sam Bresnick shared his expert insight in an op-ed published by Barron’s. In his piece, he examines how the Trump administration’s AI strategy could affect U.S. competitiveness with China, particularly as the administration seeks to promote AI and semiconductor exports while addressing national security concerns.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/how-americas-dizzying-ai-strategy-plays-into-chinas-hands/"&gt;How America’s Dizzying AI Strategy Plays Into China’s Hands&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cset.georgetown.edu/article/how-americas-dizzying-ai-strategy-plays-into-chinas-hands/</guid>
+      <pubDate>Fri, 07 Aug 2026 21:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Braw in New York Times on disrupting Russian sea routes to Crimea</title>
       <link>https://www.atlanticcouncil.org/commentary/braw-in-new-york-times-on-disrupting-russian-sea-routes-to-crimea/</link>
       <description>&lt;p&gt;On July 15, Elisabeth Braw was quoted in a New York Times article on the small Russian vessels bringing supplies to Crimea and their likely contents.&lt;/p&gt;
@@ -2597,13 +2423,6 @@ PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
       <pubDate>Sun, 09 Aug 2026 02:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Behind the Scenes of Special Warfare Combatant-Cdraft Crewmen (SWCC)</title>
-      <link>https://sofrep.com/news/the-behind-the-scenes-work-of-swcc-operators/</link>
-      <description>Special Warfare Combatant-craft Crewmen (SWCCs) are a critical link in the SOCOM chain, supporting Navy SEALs in most water-borne operations.</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-behind-the-scenes-work-of-swcc-operators/</guid>
-      <pubDate>Sun, 09 Aug 2026 12:00:31 +0000</pubDate>
     </item>
     <item>
       <title>Watch: The Explosive Naval Special Warfare Combatant-Craft Crewmen (SWCC)</title>
@@ -2990,6 +2809,59 @@ South Korean security firm Genians says it uncovered the</description>
       <description>CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/</guid>
       <pubDate>Mon, 10 Aug 2026 14:34:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Air Force seeks AI tool to help manage Minuteman III ICBM sustainment</title>
+      <link>https://breakingdefense.com/2026/08/air-force-seeks-ai-tool-to-help-manage-minuteman-iii-icbm-sustainment/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/air-force-seeks-ai-tool-to-help-manage-minuteman-iii-icbm-sustainment/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2024/01/240116_DVIDS_minuteman_launch_6404099-scaled-e1705437305502-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The new AI tool could help cut down the cumbersome labor needed to sift through roughly 60 different data sources, according to the Air Force. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/air-force-seeks-ai-tool-to-help-manage-minuteman-iii-icbm-sustainment/</guid>
+      <pubDate>Mon, 10 Aug 2026 14:53:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why SOCOM Was Created: Desert One and the Birth of U.S. Special Operations Command</title>
+      <link>https://sofrep.com/specialoperations/the-birth-of-socom-how-americas-special-operations-command-was-born-of-tragedy/</link>
+      <description>America’s special operations roots stretch back to ragtag patriots who fought dirty and thought fast—long before “unconventional warfare” became a buzzword and SOCOM had a command patch. #SpecialOperations
+
+#SOCOM
+
+#UnconventionalWarfare
+
+#DarbysRangers
+
+#DesertOne
+
+#MilitaryHistory
+
+#EliteWarriors
+
+#SpecOps
+
+#JSOC</description>
+      <guid isPermaLink="false">https://sofrep.com/specialoperations/the-birth-of-socom-how-americas-special-operations-command-was-born-of-tragedy/</guid>
+      <pubDate>Mon, 10 Aug 2026 15:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Navy tests AI-powered submarine hunter</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/08/10/us-navy-tests-ai-powered-submarine-hunter/</link>
+      <description>The U.S. Navy tested artificial intelligence-powered sonar to target submarines during the multinational Rim of the Pacific exercise.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/08/10/us-navy-tests-ai-powered-submarine-hunter/</guid>
+      <pubDate>Mon, 10 Aug 2026 15:01:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>UK man tied to The Com sentenced for abusing 117 victims</title>
+      <link>https://cyberscoop.com/uk-justin-swaddle-the-com-sentenced/</link>
+      <description>&lt;p&gt;Justin Swaddle, who was a minor when he committed the crimes, coerced children across multiple countries into self-harm and sexual abuse using threats tied to their personal information, authorities said.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/uk-justin-swaddle-the-com-sentenced/"&gt;UK man tied to The Com sentenced for abusing 117 victims&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/uk-justin-swaddle-the-com-sentenced/</guid>
+      <pubDate>Mon, 10 Aug 2026 15:09:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>When a few stocks become the market</title>
+      <link>https://www.atlanticcouncil.org/blogs/econographics/stock-market-concentration/</link>
+      <description>&lt;p&gt;Stock market concentration is rising as a small group of companies increasingly drives major indexes. South Korea’s KOSPI shows how quickly strong returns can become a market vulnerability.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/stock-market-concentration/"&gt;When a few stocks become the market&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/stock-market-concentration/</guid>
+      <pubDate>Mon, 10 Aug 2026 15:40:08 +0000</pubDate>
     </item>
   </channel>
 </rss>
