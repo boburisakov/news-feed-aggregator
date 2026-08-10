@@ -7,154 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 12:11:03 +0000</lastBuildDate>
-    <item>
-      <title>What Robotics Companies Think About the U.S. Foreign Robot Ban</title>
-      <link>https://spectrum.ieee.org/fcc-covered-list-mobile-robots</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C469%2C0%2C469" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. &lt;span&gt;On 28 July, the FCC added &lt;/span&gt;&lt;a href="https://www.fcc.gov/document/fcc-adds-foreign-produced-power-inverters-and-robots-covered-list-0" target="_blank"&gt;mobile, communicating robots weighing more than 2 kilograms and power inverters&lt;/a&gt;&lt;span&gt; commonly used in solar panels to the list, meaning that new products from any foreign country in these categories are no longer eligible for import.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The move is a Department of Defense–driven expansion of scattered federal efforts to &lt;a href="https://spectrum.ieee.org/chinese-robots-us-ban" target="_self"&gt;further limit U.S. exposure&lt;/a&gt; to potentially sensitive Chinese technology, but it may impose major changes on the robotics industry in allied countries, too. &lt;/p&gt;&lt;p&gt;The FCC’s &lt;a href="https://www.fcc.gov/sites/default/files/robots-nsd.pdf" target="_blank"&gt;announcement&lt;/a&gt; says:&lt;/p&gt;&lt;blockquote&gt;All foreign-produced advanced robotic devices pose an unacceptable risk to the national security of the United States and to the safety and security of U.S. persons…unless the [Department of Defense determines that] a given foreign-produced advanced robotic device, or a class of such devices, does not pose such risks.&lt;/blockquote&gt;&lt;p&gt;There are two &lt;a href="https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf" target="_blank"&gt;important definitions&lt;/a&gt; here. The first is what an “advanced robotic device” is, and the second is what “unacceptable risk” means. Drones already went through their own round of this sort of regulation, so they’re exempt from this particular restriction, as are connected vehicles and medical devices. As far as the FCC is concerned, “advanced robotic devices” are &lt;em&gt;&lt;em&gt;mobile&lt;/em&gt;&lt;/em&gt; systems that incorporate on-board sensing and communications and have some amount of autonomy. There are a couple of loopholes, including systems weighing under 2 kilograms and any system that communicates at less than 200 kilobits per second, which opens up some creative possibilities. It’s important to note that this applies to &lt;em&gt;&lt;em&gt;new&lt;/em&gt;&lt;/em&gt; devices; those already certified are not restricted for sale or use.&lt;/p&gt;&lt;p&gt;As to the risks, the U.S. government says that foreign advanced robotic devices represent “a cybersecurity risk that threatens the security of critical infrastructure and thus the safety and security of U.S. persons.” There seem to be two main points to the justification, &lt;a href="https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf" target="_blank"&gt;found in Appendix C&lt;/a&gt;. The first is that mobile robots are important to both the economy and the military, so the United States needs its own supply chain and industrial base rather than relying on foreign manufacturers. And second, mobile robots monitor critical infrastructure in sensitive locations, making them a security risk.&lt;/p&gt;&lt;h2&gt;The Country That Must Not Be Named&lt;/h2&gt;&lt;p&gt;As part of &lt;a href="https://www.fcc.gov/sites/default/files/robots-nsd.pdf" rel="noopener noreferrer" target="_blank"&gt;its justification&lt;/a&gt; for why foreign robots are a security risk, the DOD cites &lt;a href="https://spectrum.ieee.org/unitree-robot-exploit" target="_self"&gt;&lt;em&gt;&lt;em&gt;IEEE Spectrum’s&lt;/em&gt;&lt;/em&gt; article on a critical vulnerability in robots from Unitree&lt;/a&gt;, based in Hangzhou, China, along with several other news articles and reports about Chinese robotics. And despite the FCC &lt;a href="https://www.fcc.gov/covered-list-faqs-robots-inverters" rel="noopener noreferrer" target="_blank"&gt;swearing&lt;/a&gt; up and down that this action is “country neutral” and “not targeted at any country or countries,” U.S. national security sources told &lt;em&gt;&lt;em&gt;Spectrum&lt;/em&gt;&lt;/em&gt; that the perceived threat is obviously China. That’s how China feels about it, too, per a Chinese Ministry of Commerce 29 July &lt;a href="https://za.china-embassy.gov.cn/eng/fyrth/202607/t20260729_11994715.htm" rel="noopener noreferrer" target="_blank"&gt;press conference&lt;/a&gt; (&lt;a href="https://sinocism.notion.site/MOFCOM-Spokesperson-Answers-Reporters-Questions-on-the-US-FCC-Adding-Foreign-Power-Inverters-and-Ad-3ad84ece41d781ca8e46d4ec2a45c96c" rel="noopener noreferrer" target="_blank"&gt;translation of the first quote here&lt;/a&gt;):&lt;/p&gt;&lt;blockquote&gt;On the surface, the FCC’s measures fly the banner of “non-discrimination,” but in substance they discriminate against and suppress Chinese enterprises and products…&lt;br /&gt;&lt;br /&gt;China firmly opposes the U.S. overstretching the concept of national security and going after Chinese companies. Protectionism does not make the U.S. more competitive and will only hurt the interests of U.S. companies and consumers. China will continue to do what is necessary to firmly defend the legitimate and lawful rights and interests of Chinese companies.&lt;/blockquote&gt;&lt;p&gt;It’s unclear what China is going to do about this—but how about the rest of the world? How can foreign companies that make advanced robotic devices get them cleared for FCC authorization? Among &lt;a href="https://www.fcc.gov/sites/default/files/robots-ca.pdf" rel="noopener noreferrer" target="_blank"&gt;many, many other things&lt;/a&gt;, you’ll need to provide “a detailed, time-bound plan to establish or expand manufacturing in the United States for the advanced robotic device.” &lt;/p&gt;&lt;p&gt;Because China also produces a large fraction of robot components, even for robots assembled in the United States, it will have strong leverage in any related negotiations until U.S. robotics companies further diversify their supply chains.&lt;/p&gt;&lt;p class="ieee-inbody-related"&gt;RELATED: &lt;a href="https://spectrum.ieee.org/chinese-robots-us-ban" target="_self"&gt;Proposed Chinese Robot Ban Is Latest U.S. Tech Sovereignty Move&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Applicants must also submit their applications to the DOD and FCC by 1 January 2028, which is unfortunate for anyone who wants to develop an advanced robotic device after that point. &lt;/p&gt;&lt;h2&gt;Robotics Industry Reactions&lt;/h2&gt;&lt;p&gt;This is all very new, and reactions from the robotics community have been mixed. &lt;/p&gt;&lt;p&gt;Some American robotics companies may benefit in the local market from the newfound lack of competition in the commercial market. &lt;a href="https://www.linkedin.com/in/brendanschulman/" rel="noopener noreferrer" target="_blank"&gt;Brendan Schulman,&lt;/a&gt; &lt;a href="https://bostondynamics.com/" rel="noopener noreferrer" target="_blank"&gt;Boston Dynamics&lt;/a&gt;’ vice president of policy, wrote an enthusiastic &lt;a href="https://www.linkedin.com/posts/brendanschulman_after-months-of-increasing-calls-from-industry-activity-7488070496488435712-8LE-?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAADzTX0B_X82L2FL9GS1Qib6fNoMXJQlPzA" rel="noopener noreferrer" target="_blank"&gt;endorsement of the ban on LinkedIn&lt;/a&gt;: “I sense that this is just the first round in a series of policies that will define the success and growth of the industry for decades to come.” On the other hand, third-country buyers &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7488293386664292355/" rel="noopener noreferrer" target="_blank"&gt;may just stick to Chinese products&lt;/a&gt;, as they generally have for drones and electric cars. &lt;/p&gt;&lt;p&gt;But not all companies expect major changes from the new regulation. American customers “need to know they can audit the technology, get support quickly, and keep the system operating without depending on a fragile overseas supply chain,” &lt;a href="https://www.linkedin.com/in/nicolaus-radford/" rel="noopener noreferrer" target="_blank"&gt;Nic Radford&lt;/a&gt;, the CEO of the U.S. humanoid robotics company &lt;a href="https://spectrum.ieee.org/persona-ai-radford-pratt/" target="_self"&gt;Persona&lt;/a&gt;, tells &lt;em&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;/em&gt;. In other words, he figures some customers wouldn’t have wanted Chinese humanoids anyway.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/in/phfrey/" rel="noopener noreferrer" target="_blank"&gt;Philipp Frey&lt;/a&gt;, vice president of strategy for the Swiss quadruped company &lt;a href="https://www.anybotics.com/" rel="noopener noreferrer" target="_blank"&gt;ANYbotics&lt;/a&gt;, agrees. He says their enterprise customers in the United States “increasingly evaluate robots on long-term reliability, cybersecurity, software capability, safety certification, serviceability, and ecosystem integration, not on hardware cost alone.” &lt;/p&gt;&lt;p&gt;ANYbotics also plans to apply for conditional approval of future products, Frey says. That will involve a national-security review by the DOD or the Department of Homeland Security, disclosing company beneficial ownership, supply-chain risks, and declaring a plan for establishing a significant manufacturing presence in the United States.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/in/gavin-kenneally-321a3833/" target="_blank"&gt;Gavin Kenneally&lt;/a&gt;, CEO of the U.S. quadruped company &lt;a href="https://www.ghostrobotics.io/" target="_blank"&gt;Ghost Robotics&lt;/a&gt;, is more explicit about the risks that Chinese robot strategy poses to the United States. “Active and purposeful spyware is deployed inside the U.S. on Chinese robots. Examples of predatory pricing abound. And this isn’t just a competition between U.S. and Chinese robotics companies; it’s between private U.S. companies and China’s coordinated national strategy,” Kenneally tells &lt;em&gt;&lt;em&gt;Spectrum&lt;/em&gt;&lt;/em&gt;. “If today’s announcement encourages stronger cybersecurity and a more level competitive environment, that’s good for customers and good for the robotics industry.”&lt;/p&gt;&lt;p&gt;So is an industry-wide ban the best way to guard against threats? American approaches to Chinese technology security risks have been “ad hoc and fragmented,” wrote the Brookings Institution sociologist &lt;a href="https://www.brookings.edu/people/kyle-chan/" rel="noopener noreferrer" target="_blank"&gt;Kyle Chan&lt;/a&gt; in a &lt;a href="https://www.brookings.edu/articles/a-new-risk-framework-for-chinese-technology-products-and-investments/" rel="noopener noreferrer" target="_blank"&gt;report&lt;/a&gt; published 9 July. Chan called for the Bureau of Industry and Security, part of the Department of Commerce, to centralize federal information gathering and decision-making on how to handle risky foreign devices. He also called for better public input mechanisms for these issues, and a continuous, proportionate process that tightened or relaxed targeted import restrictions in response to well-defined risks. &lt;/p&gt;&lt;p&gt;That would allow American industry to continue benefiting from partnerships with Chinese manufacturers in less sensitive links of the supply chain, Chan argues. Those links will evolve over time, requiring continued assessment, but without those partnerships, crude bans “could make it more difficult for American startups and researchers to develop new software and end up slowing innovation across the U.S. robotics ecosystem,” he writes.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/fcc-covered-list-mobile-robots</guid>
-      <pubDate>Tue, 04 Aug 2026 11:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Acrisure KARR BT and DR-100</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-216-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to perform unauthorized vehicle control operations.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Acrisure KARR BT and DR-100 are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;KARR BT firmware &amp;lt;July_20_2026&lt;/li&gt;
-&lt;li&gt;DR-100 firmware &amp;lt;July_20_2026&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 8.1&lt;/td&gt;
-&lt;td&gt;Acrisure&lt;/td&gt;
-&lt;td&gt;Acrisure KARR BT and DR-100&lt;/td&gt;
-&lt;td&gt;Use of Hard-coded Cryptographic Key&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Transportation Systems&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-18411&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The KARR Security System and SWDS dealer-installed automotive anti-theft systems use a shared Bluetooth authentication key across affected devices. An attacker within Bluetooth range can leverage this weakness to issue unauthorized commands to the vehicle, potentially allowing unauthorized access to vehicle functions, including door unlocking and engine immobilization.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18411"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Acrisure KARR BT and DR-100&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Acrisure&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Acrisure KARR BT firmware: &amp;lt;July_20_2026, Acrisure DR-100 firmware: &amp;lt;July_20_2026&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Acrisure Protection Group released a firmware update on July 20, 2026, to address this vulnerability. They recommend that affected users should follow the directions found here: https://www.karrsecurity.com/karr-security-firmware-update-instructions.&lt;br /&gt;&lt;a href="https://www.karrsecurity.com/karr-security-firmware-update-instructions"&gt;https://www.karrsecurity.com/karr-security-firmware-update-instructions&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/321.html"&gt;CWE-321 Use of Hard-coded Cryptographic Key&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7.2&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Aaron Schulman, Jerry Yu, Yibo Wei, Sumanth Rao, Mohak Vaswani, Jefferson Chien, Christian Dameff, Nishant Bhaskar of UC San Diego team reported this vulnerability to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-04&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-04&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 10 Aug 2026 13:43:09 +0000</lastBuildDate>
     <item>
       <title>CISA Adds Three Known Exploited Vulnerabilities to Catalog</title>
       <link>https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog</link>
@@ -476,26 +329,12 @@
       <pubDate>Wed, 05 Aug 2026 12:14:46 +0000</pubDate>
     </item>
     <item>
-      <title>France’s drone production shifts from policy ambition to factory floor</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/08/05/frances-drone-production-shifts-from-policy-ambition-to-factory-floor/</link>
-      <description>France’s push to enlist its car industry to produce military drones is moving to industrial implementation.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/08/05/frances-drone-production-shifts-from-policy-ambition-to-factory-floor/</guid>
-      <pubDate>Wed, 05 Aug 2026 12:48:10 +0000</pubDate>
-    </item>
-    <item>
       <title>Open-source software’s archenemy TeamPCP goes back further than anyone thought</title>
       <link>https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/</link>
       <description>&lt;p&gt;Oligo Security uncovered evidence of a long operational history, including multiple previous attacks it traced to the same attacker infrastructure and tools.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/"&gt;Open-source software’s archenemy TeamPCP goes back further than anyone thought&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/</guid>
       <pubDate>Wed, 05 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Taiwan launches major war games to test command flexibility</title>
-      <link>https://www.defensenews.com/global/asia-pacific/2026/08/05/taiwan-launches-major-war-games-to-test-command-flexibility/</link>
-      <description>Taiwan began major military drills to test commanders’ ability to fight on the fly while temporarily limiting internet access for the first time.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/08/05/taiwan-launches-major-war-games-to-test-command-flexibility/</guid>
-      <pubDate>Wed, 05 Aug 2026 13:09:54 +0000</pubDate>
     </item>
     <item>
       <title>US Navy, Saildrone to use unmanned systems in expanded counternarcotics role</title>
@@ -1953,20 +1792,6 @@
       <pubDate>Thu, 06 Aug 2026 22:26:39 +0000</pubDate>
     </item>
     <item>
-      <title>ClickFix attack pushes macOS infostealer for crypto theft attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/</link>
-      <description>A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/</guid>
-      <pubDate>Thu, 06 Aug 2026 22:37:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it</title>
-      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/</link>
-      <description>OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/</guid>
-      <pubDate>Thu, 06 Aug 2026 22:48:22 +0000</pubDate>
-    </item>
-    <item>
       <title>Jet-Powered JDAM Production Is A Go For The U.S. Navy</title>
       <link>https://www.twz.com/air/jet-powered-jdam-production-is-a-go-for-the-u-s-navy</link>
       <description>&lt;p&gt;Putting JDAM-LR into production will give the Navy an important new stream of lower-cost standoff munitions for its carrier air wings.&lt;/p&gt;
@@ -2043,13 +1868,6 @@
       <description>Rising demand will keep coal the backbone of India’s power grid in the coming years. This buys time for executing an energy transition, if India can see through its plans.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/indias-climate-stress-and-the-solar-power-paradox/</guid>
       <pubDate>Fri, 07 Aug 2026 11:19:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Schiess confirmed as third Space Force chief</title>
-      <link>https://breakingdefense.com/2026/08/schiess-confirmed-as-third-space-force-chief/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/schiess-confirmed-as-third-space-force-chief/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/GettyImages-2286386355-scaled-e1784829431147-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Lt. Gen. Doug Schiess will inherit a bigger service with plans to grow further, but also a complex set of acquisition and workforce challenges. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/schiess-confirmed-as-third-space-force-chief/</guid>
-      <pubDate>Fri, 07 Aug 2026 11:31:35 +0000</pubDate>
     </item>
     <item>
       <title>CPDLC over ATN-B1 Vulnerabilities</title>
@@ -2460,14 +2278,6 @@
       <pubDate>Fri, 07 Aug 2026 14:10:14 +0000</pubDate>
     </item>
     <item>
-      <title>Chhangani cited in Foreign Policy on e-CNY transaction volumes</title>
-      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-foreign-policy-on-e-cny-transaction-volumes/</link>
-      <description>&lt;p&gt;Read the full article here&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-foreign-policy-on-e-cny-transaction-volumes/"&gt;Chhangani cited in Foreign Policy on e-CNY transaction volumes&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-foreign-policy-on-e-cny-transaction-volumes/</guid>
-      <pubDate>Fri, 07 Aug 2026 14:17:09 +0000</pubDate>
-    </item>
-    <item>
       <title>Tran quoted in CNN Business on Japan’s persistently low interest rates and its relation to the yen</title>
       <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/tran-quoted-in-cnn-business-on-japans-persistently-low-interest-rates-and-its-relation-to-the-yen/</link>
       <description>&lt;p&gt;Read the full article here&lt;/p&gt;
@@ -2647,15 +2457,6 @@
       <pubDate>Fri, 07 Aug 2026 18:03:00 +0000</pubDate>
     </item>
     <item>
-      <title>UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data</title>
-      <link>https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html</link>
-      <description>A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671.
-
-"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html</guid>
-      <pubDate>Fri, 07 Aug 2026 18:16:13 +0000</pubDate>
-    </item>
-    <item>
       <title>Senate confirms nominees for Pentagon comptroller, space acquisition and NRO chief</title>
       <link>https://breakingdefense.com/2026/08/senate-confirms-nominees-for-pentagon-comptroller-space-acquisition-and-nro-chief/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/senate-confirms-nominees-for-pentagon-comptroller-space-acquisition-and-nro-chief/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/jules-hurst-april-29-2-scaled-e1777486705258-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Until today, the Pentagon had gone a year and a half without a confirmed comptroller.&lt;/p&gt;</description>
@@ -2663,31 +2464,11 @@
       <pubDate>Fri, 07 Aug 2026 18:21:44 +0000</pubDate>
     </item>
     <item>
-      <title>ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets</title>
-      <link>https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html</link>
-      <description>ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.
-
-The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture.
-
-"</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html</guid>
-      <pubDate>Fri, 07 Aug 2026 18:29:08 +0000</pubDate>
-    </item>
-    <item>
       <title>How North Korean forces are bolstering Russia’s war against Ukraine</title>
       <link>https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/</link>
       <description>North Korea has deployed troops, weapons and now, according to a Ukrainian intelligence official, a missile unit to support Russia’s war against Ukraine.</description>
       <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/07/how-north-korean-forces-are-bolstering-russias-war-against-ukraine/</guid>
       <pubDate>Fri, 07 Aug 2026 18:29:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer</title>
-      <link>https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html</link>
-      <description>A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.
-
-"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload," OpenSourceMalware researcher Paul</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html</guid>
-      <pubDate>Fri, 07 Aug 2026 18:48:17 +0000</pubDate>
     </item>
     <item>
       <title>Army opens ranges in US, Morocco to speed interceptor testing, development</title>
@@ -2869,13 +2650,6 @@ PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It
       <description>The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/</guid>
       <pubDate>Sat, 08 Aug 2026 14:16:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Next Generation Combat Medic Wants to ‘Stop the Bleed’ and Save Civilian Lives</title>
-      <link>https://sofrep.com/news/next-generation-combat-medic-wants-stop-bleed-save-civilian-lives/</link>
-      <description>Andy Fisher is currently a second-year medical student at Texas A&amp;#38;M College of Medicine.  He is probably like a lot of other medical students, studying hard and trying to grind his way through a grueling four years of intense academia.  Unlike most other medical students, he served as a former physician assistant (PA) for the 75th [&amp;#8230;]</description>
-      <guid isPermaLink="false">https://sofrep.com/news/next-generation-combat-medic-wants-stop-bleed-save-civilian-lives/</guid>
-      <pubDate>Sat, 08 Aug 2026 16:00:12 +0000</pubDate>
     </item>
     <item>
       <title>Senate passes stopgap funding bill</title>
@@ -3120,6 +2894,17 @@ Although neither of the extensions is now available on Open VSX, the GitHub repo
       <pubDate>Mon, 10 Aug 2026 11:12:00 +0000</pubDate>
     </item>
     <item>
+      <title>TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore</title>
+      <link>https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html</link>
+      <description>The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.
+
+Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026.
+
+The activity involves exploiting a vulnerability chain</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html</guid>
+      <pubDate>Mon, 10 Aug 2026 11:33:41 +0000</pubDate>
+    </item>
+    <item>
       <title>Valve notifies Steam hardware customers of a data breach</title>
       <link>https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/</link>
       <description>Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]</description>
@@ -3127,11 +2912,93 @@ Although neither of the extensions is now available on Open VSX, the GitHub repo
       <pubDate>Mon, 10 Aug 2026 11:47:55 +0000</pubDate>
     </item>
     <item>
+      <title>Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development</title>
+      <link>https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html</link>
+      <description>AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.
+
+When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security from becoming the bottleneck, or worse, losing control of what gets shipped.</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html</guid>
+      <pubDate>Mon, 10 Aug 2026 11:52:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model ML completes finance work more efficiently with GPT-5.6 Sol</title>
+      <link>https://openai.com/index/model-ml</link>
+      <description>Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.</description>
+      <guid isPermaLink="false">https://openai.com/index/model-ml</guid>
+      <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>John Freeman Mackie: Medal of Honor at Drewry’s Bluff</title>
       <link>https://sofrep.com/news/john-freeman-mackie-medal-of-honor-at-drewrys-bluff/</link>
       <description>At Drewry’s Bluff, Corporal John Freeman Mackie earned his place in Marine Corps history by keeping the fight alive aboard a shattered ironclad after the plan, the guns and much of the crew had already been torn apart. #MedalOfHonor #JohnFreemanMackie #USMarineCorps #CivilWarHistory #MilitaryHistory</description>
       <guid isPermaLink="false">https://sofrep.com/news/john-freeman-mackie-medal-of-honor-at-drewrys-bluff/</guid>
       <pubDate>Mon, 10 Aug 2026 12:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Download: AI agents for science, and the “censorship-industrial complex”</title>
+      <link>https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. AI for science needs reasoning, not just data —Eric Schmidt, the former CEO of Google and the cofounder of Schmidt Sciences, and Suhas Mahesh, who leads the AI for science work&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LexisNexis shuts down services after suspicious activity on servers</title>
+      <link>https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/</link>
+      <description>LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA</title>
+      <link>https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html</link>
+      <description>Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.
+
+Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a&amp;nbsp;</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html</guid>
+      <pubDate>Mon, 10 Aug 2026 12:25:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>If software and agentic AI are key to mission success, accelerate them to the front lines</title>
+      <link>https://breakingdefense.com/2026/08/if-software-and-agentic-ai-are-key-to-mission-success-accelerate-them-to-the-front-lines/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/if-software-and-agentic-ai-are-key-to-mission-success-accelerate-them-to-the-front-lines/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="731" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Future-Fight-2-1024x731.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] A commercial prototype in a sandbox is different from deploying AI across classified networks.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/if-software-and-agentic-ai-are-key-to-mission-success-accelerate-them-to-the-front-lines/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:29:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Australia to buy sophisticated US air-to-air missiles</title>
+      <link>https://www.defensenews.com/global/asia-pacific/2026/08/10/australia-to-buy-sophisticated-us-air-to-air-missiles/</link>
+      <description>Australia is set to become the first export customer for America's highly classified AIM-260A Joint Advanced Tactical Missile.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/08/10/australia-to-buy-sophisticated-us-air-to-air-missiles/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:49:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Member of The Com sent to prison for blackmail, sextortion</title>
+      <link>https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/</link>
+      <description>A member of "The Com," a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:56:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Marine Corps to get ‘production-ready’ microwave drone swarm killer</title>
+      <link>https://www.defensenews.com/news/your-military/2026/08/10/marine-corps-to-get-production-ready-microwave-drone-swarm-killer/</link>
+      <description>The Marine Corps inked an $11 million contract for a vehicle-mounted weapon that can take down dozens of drones in a single zap.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/10/marine-corps-to-get-production-ready-microwave-drone-swarm-killer/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:59:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Did John Wilkes Booth Escape? The Evidence That Challenges the Official Story</title>
+      <link>https://sofrep.com/news/did-john-wilkes-booth-escape-the-evidence-that-challenges-the-official-story/</link>
+      <description>The deeper you dig into the death of John Wilkes Booth, the harder it becomes to ignore the possibility that the man killed in Garrett’s barn was someone else entirely. #JohnWilkesBooth, #AbrahamLincoln, #LincolnAssassination, #CivilWarHistory, #AmericanHistory</description>
+      <guid isPermaLink="false">https://sofrep.com/news/did-john-wilkes-booth-escape-the-evidence-that-challenges-the-official-story/</guid>
+      <pubDate>Mon, 10 Aug 2026 13:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smart glasses are the blind spot in US privacy law</title>
+      <link>https://www.atlanticcouncil.org/dispatches/smart-glasses-are-the-blind-spot-in-us-privacy-law/</link>
+      <description>&lt;p&gt;Artificial intelligence and other new technologies are changing what eyeware can do, but they are also raising concerns about privacy.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/smart-glasses-are-the-blind-spot-in-us-privacy-law/"&gt;Smart glasses are the blind spot in US privacy law&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/smart-glasses-are-the-blind-spot-in-us-privacy-law/</guid>
+      <pubDate>Mon, 10 Aug 2026 13:06:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
