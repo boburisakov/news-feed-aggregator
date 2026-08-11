@@ -7,749 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 21:03:03 +0000</lastBuildDate>
-    <item>
-      <title>ABB Ability Zenon</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of ABB Ability Zenon are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IIoT services with MongoDB (4.2) installed on ABB Ability Zenon vers:all/*&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.8&lt;/td&gt;
-&lt;td&gt;ABB&lt;/td&gt;
-&lt;td&gt;ABB Ability Zenon&lt;/td&gt;
-&lt;td&gt;Improper Handling of Length Parameter Inconsistency, Improper Neutralization of Null Byte or NUL Character, Collapse of Data into Unsafe Value, Undefined Behavior for Input to API, Incorrect Regular Expression, Uncaught Exception, Reachable Assertion, Allocation of Resources Without Limits or Throttling, Out-of-bounds Write, Improper Output Neutralization for Logs, Improper Certificate Validation, Execution with Unnecessary Privileges&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Chemical, Communications, Critical Manufacturing, Dams, Energy, Healthcare and Public Health, Information Technology, Water and Wastewater&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Switzerland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2025-14847&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Mismatched length fields in Zlib compressed protocol headers may allow a read of uninitialized heap memory by an unauthenticated client. This issue affects all MongoDB Server v7.0 prior to 7.0.28 versions, MongoDB Server v8.0 versions prior to 8.0.17, MongoDB Server v8.2 versions prior to 8.2.3, MongoDB Server v6.0 versions prior to 6.0.27, MongoDB Server v5.0 versions prior to 5.0.32, MongoDB Server v4.4 versions prior to 4.4.30, MongoDB Server v4.2 versions greater than or equal to 4.2.0, MongoDB Server v4.0 versions greater than or equal to 4.0.0, and MongoDB Server v3.6 versions greater than or equal to 3.6.0.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-14847"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/130.html"&gt;CWE-130 Improper Handling of Length Parameter Inconsistency&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2020-7928&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;A user authorized to perform database queries may trigger a read overrun and access arbitrary memory by issuing specially crafted queries. This issue affects MongoDB Server v4.4 versions prior to 4.4.1; MongoDB Server v4.2 versions prior to 4.2.9; MongoDB Server v4.0 versions prior to 4.0.20 and MongoDB Server v3.6 versions prior to 3.6.20.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2020-7928"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/158.html"&gt;CWE-158 Improper Neutralization of Null Byte or NUL Character&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2020-7921&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Improper serialization of internal state in the authorization subsystem in MongoDB Server's authorization subsystem permits a user with valid credentials to bypass IP whitelisting protection mechanisms following administrative action. This issue affects MongoDB Server v4.2 versions prior to 4.2.3; MongoDB Server v4.0 versions prior to 4.0.15; MongoDB Server v4.3 versions prior to 4.3.3 and MongoDB Server v3.6 versions prior to 3.6.18.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2020-7921"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/182.html"&gt;CWE-182 Collapse of Data into Unsafe Value&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;5.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N"&gt;CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2020-7925&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Incorrect validation of user input in the role name parser may lead to use of uninitialized memory allowing an unauthenticated attacker to use a specially crafted request to cause a denial of service. This issue affects MongoDB Server v4.4 versions prior to 4.4.0-rc12; MongoDB Server v4.2 versions prior to 4.2.9.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2020-7925"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/475.html"&gt;CWE-475 Undefined Behavior for Input to API&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2020-7929&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;A user authorized to perform database queries may trigger denial of service by issuing specially crafted query contain a type of regex. This issue affects MongoDB Server v3.6 versions prior to 3.6.21 and MongoDB Server v4.0 versions prior to 4.0.20.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2020-7929"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/185.html"&gt;CWE-185 Incorrect Regular Expression&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2020-7923&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;A user authorized to perform database queries may cause denial of service by issuing specially crafted queries, which violate an invariant in the query subsystem's support for geoNear. This issue affects MongoDB Server v4.4 versions prior to 4.4.0-rc7; MongoDB Server v4.2 versions prior to 4.2.8 and MongoDB Server v4.0 versions prior to 4.0.19.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2020-7923"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/248.html"&gt;CWE-248 Uncaught Exception&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2021-20330&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;An attacker with basic CRUD permissions on a replicated collection can run the applyOps command with specially malformed oplog entries, resulting in a potential denial of service on secondaries. This issue affects MongoDB Server v4.0 versions prior to 4.0.27; MongoDB Server v4.2 versions prior to 4.2.16; MongoDB Server v4.4 versions prior to 4.4.9.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2021-20330"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/617.html"&gt;CWE-617 Reachable Assertion&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2021-32036&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;An authenticated user without any specific authorizations may be able to repeatedly invoke the features command where at a high volume may lead to resource depletion or generate high lock contention. This may result in denial of service and in rare cases could result in id field collisions. This issue affects MongoDB Server v5.0 versions prior to and including 5.0.3; MongoDB Server v4.4 versions prior to and including 4.4.9; MongoDB Server v4.2 versions prior to and including 4.2.16 and MongoDB Server v4.0 versions prior to and including 4.0.28&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2021-32036"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/770.html"&gt;CWE-770 Allocation of Resources Without Limits or Throttling&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2021-32040&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;It may be possible to have an extremely long aggregation pipeline in conjunction with a specific stage/operator and cause a stack overflow due to the size of the stack frames used by that stage. If an attacker could cause such an aggregation to occur, they could maliciously crash MongoDB in a DoS attack. This vulnerability affects MongoDB Server v4.4 versions prior to and including 4.4.28, MongoDB Server v5.0 versions prior to 5.0.4 and MongoDB Server v4.2 versions prior to 4.2.16. Workaround: &amp;gt;= v4.2.16 users and all v4.4 users can add the --setParameter internalPipelineLengthLimit=50 instead of the default 1000 to mongod at startup to prevent a crash.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2021-32040"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2021-20333&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Sending specially crafted commands to a MongoDB Server may result in artificial log entries being generated or for log entries to be split. This issue affects MongoDB Server v3.6 versions prior to 3.6.20; MongoDB Server v4.0 versions prior to 4.0.21 and MongoDB Server v4.2 versions prior to 4.2.10.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2021-20333"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/117.html"&gt;CWE-117 Improper Output Neutralization for Logs&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;5.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2020-7924&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Usage of specific command line parameter in MongoDB Tools which was originally intended to just skip hostname checks, may result in MongoDB skipping all certificate validation. This may result in accepting invalid certificates. This issue affects: MongoDB Inc. MongoDB Database Tools 3.6 versions later than 3.6.5; 3.6 versions prior to 3.6.21; 4.0 versions prior to 4.0.21; 4.2 versions prior to 4.2.11; 100 versions prior to 100.2.0. MongoDB Inc. Mongomirror 0 versions later than 0.6.0.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2020-7924"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/295.html"&gt;CWE-295 Improper Certificate Validation&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2021-20328&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Specific versions of the Java driver that support client-side field level encryption (CSFLE) fail to perform correct host name verification on the KMS server's certificate. This vulnerability in combination with a privileged network position active MITM attack could result in interception of traffic between the Java driver and the KMS service rendering Field Level Encryption ineffective. This issue was discovered during internal testing and affects all versions of the Java driver that support CSFLE. The Java async, Scala, and reactive streams drivers are not impacted. This vulnerability does not impact driver traffic payloads with CSFLE-supported key services originating from applications residing inside the AWS, GCP, and Azure network fabrics due to compensating controls in these environments. This issue does not impact driver workloads that don't use Field Level Encryption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2021-20328"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/295.html"&gt;CWE-295 Improper Certificate Validation&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.8&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"&gt;CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2021-20334&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;A malicious 3rd party with local access to the Windows machine where MongoDB Compass is installed can execute arbitrary software with the privileges of the user who is running MongoDB Compass. This issue affects: MongoDB Inc. MongoDB Compass 1.x version 1.3.0 on Windows and later versions; 1.x versions prior to 1.25.0 on Windows.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2021-20334"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ABB Ability Zenon&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ABB&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ABB IIoT services with MongoDB (4.2) installed on ABB Ability Zenon: vers:all/*&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ABB recommends the following specific mitigations for users with IIoT services utilizing MongoDB (version 4.2) on ABB Ability Zenon to reduce risk:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Replace bundled MongoDB with a supported version if IIoT services are required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Where IIoT functionality is required, the bundled MongoDB instance can be replaced with a supported and patched version through manual configuration.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The following zenon online help section explains the process of installing and using your own MongoDB database: zenHelpViewer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall IIoT Services wherever it's not required:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If IIoT Services are not required, they can be removed using the Control panel uninstaller. This eliminates the dependency on MongoDB without affecting other zenon components. Refer to section "General security recommendations" for further advice on how to keep your system secure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch"&gt;https://search.abb.com/library/Download.aspx?DocumentID=9AKK108472A9037&amp;amp;LanguageCode=en&amp;amp;DocumentPartId=pdf&amp;amp;Action=Launch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information see the associated ABB PSIRT security advisory 9AKK108472A9037 ABB CYBERSECURITY ADVISORY - PDF Version , ABB CYBERSECURITY ADVISORY - CSAF Version .&lt;br /&gt;&lt;a href="https://psirt.abb.com/csaf/2026/9akk108472a9037.json"&gt;https://psirt.abb.com/csaf/2026/9akk108472a9037.json&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/250.html"&gt;CWE-250 Execution with Unnecessary Privileges&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;ABB PSIRT reported these vulnerabilities to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs). Recognize VPNs may have vulnerabilities, should be updated to the most recent version available, and are only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-07-30&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-07-30&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-06&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial Republication of ABB PSIRT 9AKK108472A9037&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01</guid>
-      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Download: Google’s AI shake-up and Meta’s rogue model</title>
-      <link>https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model, and murmurings of poor morale,&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/</guid>
-      <pubDate>Thu, 06 Aug 2026 12:10:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 11 Aug 2026 22:03:34 +0000</lastBuildDate>
     <item>
       <title>Expanded Collaboration to Boost Critical AI Governance Data and Tracking Tool</title>
       <link>https://cset.georgetown.edu/article/expanded-collaboration-to-boost-critical-ai-governance-data-and-tracking-tool/</link>
@@ -819,26 +77,12 @@
       <pubDate>Thu, 06 Aug 2026 18:15:30 +0000</pubDate>
     </item>
     <item>
-      <title>Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride</link>
-      <description>In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride</guid>
-      <pubDate>Thu, 06 Aug 2026 20:39:30 +0000</pubDate>
-    </item>
-    <item>
       <title>Sudanese Armed Forces gains in civil war force strategic adjustment from paramilitia rival</title>
       <link>https://www.longwarjournal.org/archives/2026/08/sudanese-armed-forces-gains-in-civil-war-force-strategic-adjustment-from-paramilitia-rival.php</link>
       <description>&lt;p&gt;The Sudanese military's recapture of the Al Sadarat highway marks its most significant success against the Rapid Support Forces (RSF) in the fourth year of the Sudanese civil war. However, the RSF's shift toward tribal mobilization and the growing role of foreign-backed drone warfare suggest the conflict's broader cycle of adaptation and attrition will continue.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/sudanese-armed-forces-gains-in-civil-war-force-strategic-adjustment-from-paramilitia-rival.php"&gt;Sudanese Armed Forces gains in civil war force strategic adjustment from paramilitia rival&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/sudanese-armed-forces-gains-in-civil-war-force-strategic-adjustment-from-paramilitia-rival.php</guid>
       <pubDate>Thu, 06 Aug 2026 21:10:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Coordination Gap: How Attackers Are Outpacing Law Enforcement</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement</link>
-      <description>The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement</guid>
-      <pubDate>Thu, 06 Aug 2026 21:42:50 +0000</pubDate>
     </item>
     <item>
       <title>ChainDrop: Inside a Self-Propagating npm Worm</title>
@@ -1270,13 +514,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/north-carolina-ports-cyberattack-coast-guard/"&gt;Coast Guard says it is monitoring cyberattack that disrupted North Carolina&amp;#8217;s ports&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/north-carolina-ports-cyberattack-coast-guard/</guid>
       <pubDate>Fri, 07 Aug 2026 14:24:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Responding to the next frontier of critical cyber capabilities</title>
-      <link>https://openai.com/index/responding-next-frontier-critical-cyber-capabilities</link>
-      <description>OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.</description>
-      <guid isPermaLink="false">https://openai.com/index/responding-next-frontier-critical-cyber-capabilities</guid>
-      <pubDate>Fri, 07 Aug 2026 15:20:00 +0000</pubDate>
     </item>
     <item>
       <title>Video Friday: Drones Go Heavy in DARPA Lift Challenge</title>
@@ -2752,7 +1989,7 @@
       <pubDate>Mon, 10 Aug 2026 23:12:30 +0000</pubDate>
     </item>
     <item>
-      <title>6 Killed In Red Sea Shipping Attack</title>
+      <title>Iran's New Security Chief Demands US End War To Reopen Hormuz Strait</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -2851,6 +2088,13 @@
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/who-pays-for-americas-research-and-development/"&gt;Who Pays for America’s Research and Development?&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/who-pays-for-americas-research-and-development/</guid>
       <pubDate>Tue, 11 Aug 2026 08:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Daybreak models are now available on AWS</title>
+      <link>https://openai.com/index/daybreak-models-are-now-available-on-aws</link>
+      <description>OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.</description>
+      <guid isPermaLink="false">https://openai.com/index/daybreak-models-are-now-available-on-aws</guid>
+      <pubDate>Tue, 11 Aug 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Testing ads in ChatGPT</title>
@@ -3815,25 +3059,11 @@ Researchers at the University of Birmingham and the security firm Fuzzware teste
       <pubDate>Tue, 11 Aug 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>CISA: Microsoft SharePoint flaw now exploited in ransomware attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/</link>
-      <description>CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/</guid>
-      <pubDate>Tue, 11 Aug 2026 12:12:16 +0000</pubDate>
-    </item>
-    <item>
       <title>The Mecca Pact and America’s Reduced Leverage in West Asia</title>
       <link>https://thediplomat.com/2026/08/the-mecca-pact-and-americas-reduced-leverage-in-west-asia/</link>
       <description>Erosion of U.S. influence could, in the long run, impact arms sales, the negotiation of military basing rights, and the management of regional crises.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/the-mecca-pact-and-americas-reduced-leverage-in-west-asia/</guid>
       <pubDate>Tue, 11 Aug 2026 12:19:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biodefense is force protection: Ready today, prepared for tomorrow</title>
-      <link>https://breakingdefense.com/2026/08/biodefense-is-force-protection-ready-today-prepared-for-tomorrow/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/biodefense-is-force-protection-ready-today-prepared-for-tomorrow/"&gt;&lt;img alt="AIM ImmunoTech" class="attachment-large size-large wp-post-image" height="512" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/AIM_BreakingDefense_600x300-Lead-Image-1-1024x512.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] A decorated combat aviator and biotech CEO advocates preparing for novel viral threats before the next crisis.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/biodefense-is-force-protection-ready-today-prepared-for-tomorrow/</guid>
-      <pubDate>Tue, 11 Aug 2026 12:26:00 +0000</pubDate>
     </item>
     <item>
       <title>Symbolic Concessions, No Implementation: Myanmar’s Promises of Rohingya Repatriation</title>
@@ -3979,13 +3209,6 @@ Researchers at the University of Birmingham and the security firm Fuzzware teste
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/turkeysource/turkey-wants-a-bigger-role-in-nato-its-defense-industry-will-be-key/"&gt;Turkey wants a bigger role in NATO. Its defense industry will be key.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/turkeysource/turkey-wants-a-bigger-role-in-nato-its-defense-industry-will-be-key/</guid>
       <pubDate>Tue, 11 Aug 2026 15:52:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fatalities at CYBERCOM merit Pentagon intervention</title>
-      <link>https://breakingdefense.com/2026/08/fatalities-at-cybercom-merit-pentagon-intervention/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/fatalities-at-cybercom-merit-pentagon-intervention/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/6762559-scaled-e1782151740819-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Recent suicides among US cyber personnel should serve as a call to action for implementing durable institutional change, Joshua Stiefel argues. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/fatalities-at-cybercom-merit-pentagon-intervention/</guid>
-      <pubDate>Tue, 11 Aug 2026 15:54:03 +0000</pubDate>
     </item>
     <item>
       <title>Wesco confirms security incident after ExfilSquad claims data theft</title>
@@ -4283,6 +3506,55 @@ The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only</descrip
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/western-weakness-is-encouraging-putin-to-test-nato/"&gt;Western weakness is encouraging Putin to test NATO&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/western-weakness-is-encouraging-putin-to-test-nato/</guid>
       <pubDate>Tue, 11 Aug 2026 20:55:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI Fighter Jet That Sees Without Radar</title>
+      <link>https://sofrep.com/news/the-ai-fighter-jet-that-sees-without-radar/</link>
+      <description>The X-62A intercept was impressive, but the real story is bigger: the Air Force is building combat aircraft whose digital brains can evolve far faster than the wings carrying them. #X62AVISTA #ArtificialIntelligence #MilitaryAviation #CollaborativeCombatAircraft #USAirForce</description>
+      <guid isPermaLink="false">https://sofrep.com/news/the-ai-fighter-jet-that-sees-without-radar/</guid>
+      <pubDate>Tue, 11 Aug 2026 21:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sandworm hackers target IT pros with trojanized WireGuard VPN client</title>
+      <link>https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/</link>
+      <description>Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/</guid>
+      <pubDate>Tue, 11 Aug 2026 21:07:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa</link>
+      <description>The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa</guid>
+      <pubDate>Tue, 11 Aug 2026 21:16:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>A peek at Day 1 of the 2026 Space and Missile Defense Symposium</title>
+      <link>https://breakingdefense.com/2026/08/a-peek-at-day-1-of-the-2026-space-and-missile-defense-symposium/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/a-peek-at-day-1-of-the-2026-space-and-missile-defense-symposium/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/SMD2026-1-1-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;From sensors and satellites to missiles and missile defense, here are a few images from this year&amp;#8217;s symposium. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/a-peek-at-day-1-of-the-2026-space-and-missile-defense-symposium/</guid>
+      <pubDate>Tue, 11 Aug 2026 21:23:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Plugs Nearly 400 Security Holes</title>
+      <link>https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/</link>
+      <description>Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/</guid>
+      <pubDate>Tue, 11 Aug 2026 21:28:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft's Patch Tuesday Deluge Continues With August Updates</title>
+      <link>https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues</link>
+      <description>Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues</guid>
+      <pubDate>Tue, 11 Aug 2026 21:42:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Army awards 6 companies prototype contracts for last tactical mile program</title>
+      <link>https://breakingdefense.com/2026/08/army-awards-six-companies-prototype-contracts-for-last-tactical-mile-program/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/army-awards-six-companies-prototype-contracts-for-last-tactical-mile-program/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/IMG_0798-1-scaled-e1786483048243-1024x577.jpeg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The six companies awarded through prototype Other Transaction Agreements are: Maren-Go, Overland AI, Forterra, Hendrick’s Motorsports, American Rheinmetall and HDT, according to a service release. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/army-awards-six-companies-prototype-contracts-for-last-tactical-mile-program/</guid>
+      <pubDate>Tue, 11 Aug 2026 21:45:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
