@@ -7,154 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 20:04:57 +0000</lastBuildDate>
-    <item>
-      <title>Johnson Controls Inc. TL280</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-02.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Johnson Controls Inc. TL280 are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TL280 &amp;lt;5.63&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 4.1&lt;/td&gt;
-&lt;td&gt;Johnson Controls Inc.&lt;/td&gt;
-&lt;td&gt;Johnson Controls Inc. TL280&lt;/td&gt;
-&lt;td&gt;Use of a Broken or Risky Cryptographic Algorithm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing, Commercial Facilities, Government Services and Facilities, Transportation Systems, Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Ireland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-27871&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Hardcoded credentials refer to usernames, passwords, or other authentication information that are embedded directly into the source code of a firmware file. These credentials are often used to access system login and other areas of an application.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-27871"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Johnson Controls Inc. TL280&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Johnson Controls Inc.&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Johnson Controls Inc. TL280: &amp;lt;5.63&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;To help reduce the risk of exploitation, Johnson Control suggests considering the following defensive measures: Apply firmware update 5.63.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Johnson Controls suggests the following defensive measures: Restrict network access to affected cameras to trusted management VLANs only - do not expose these devices directly to the internet or untrusted network segments.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Monitor device access logs for any anomalous authentication activity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Rotate any shared or downstream credentials that may have been derived from or associated with the hard-coded values.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Implement network segmentation and place ICS/SCADA devices and systems behind firewalls, isolating them from the business network.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;When remote access is required, use secure methods such as Virtual Private Networks (VPNs), recognizing that VPNs may have vulnerabilities and should be kept up to date.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Minimize network exposure for all control system devices and/or systems; ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Conduct regular firmware integrity checks to detect unauthorizedmodifications.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more detailed mitigation instructions, please see Johnson Controls Product Security Advisory JCI-PSA-2026-08 at the following location: https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories&lt;br /&gt;&lt;a href="https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"&gt;https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/327.html"&gt;CWE-327 Use of a Broken or Risky Cryptographic Algorithm&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;4.1&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L"&gt;CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;2.1&lt;/td&gt;
-&lt;td&gt;LOW&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Z of VulnCheck reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability has a high attack complexity.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-06&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-06&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Republication of Johnson Controls Security Advisory JCI-PSA-2026-08&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02</guid>
-      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 11 Aug 2026 21:03:03 +0000</lastBuildDate>
     <item>
       <title>ABB Ability Zenon</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01</link>
@@ -937,13 +790,6 @@
       <pubDate>Thu, 06 Aug 2026 15:37:47 +0000</pubDate>
     </item>
     <item>
-      <title>Tiberius, US Army cooperate on 155mm Sceptre munition</title>
-      <link>https://www.army-technology.com/news/tiberius-us-army-cooperate-on-155mm-sceptre-munition/</link>
-      <description>Tiberius Aerospace has entered a CRADA agreement with the US Army to develop the 155mm Sceptre artillery munition.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/tiberius-us-army-cooperate-on-155mm-sceptre-munition/</guid>
-      <pubDate>Thu, 06 Aug 2026 15:55:12 +0000</pubDate>
-    </item>
-    <item>
       <title>Officials hedge SpaceX aircraft-tracking satellite bet with three smaller company contracts</title>
       <link>https://www.defenseone.com/defense-systems/2026/08/officials-hedge-spacex-aircraft-tracking-satellite-bet-three-smaller-company-contracts/415252/</link>
       <description>Rocket Labs, STR, and one mystery company are the latest space-based AMTI awardees.</description>
@@ -1500,14 +1346,6 @@
       <pubDate>Fri, 07 Aug 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Braw in New York Times on disrupting Russian sea routes to Crimea</title>
-      <link>https://www.atlanticcouncil.org/commentary/braw-in-new-york-times-on-disrupting-russian-sea-routes-to-crimea/</link>
-      <description>&lt;p&gt;On July 15, Elisabeth Braw was quoted in a New York Times article on the small Russian vessels bringing supplies to Crimea and their likely contents.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/commentary/braw-in-new-york-times-on-disrupting-russian-sea-routes-to-crimea/"&gt;Braw in New York Times on disrupting Russian sea routes to Crimea&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/commentary/braw-in-new-york-times-on-disrupting-russian-sea-routes-to-crimea/</guid>
-      <pubDate>Fri, 07 Aug 2026 21:15:42 +0000</pubDate>
-    </item>
-    <item>
       <title>The Senate just agreed to hand Trump a tariff weapon against Russia. Will he use it?</title>
       <link>https://www.atlanticcouncil.org/content-series/fastthinking/the-senate-just-agreed-to-hand-trump-a-tariff-weapon-against-russia-will-he-use-it/</link>
       <description>&lt;p&gt;Our experts break down what exactly the Russia sanctions bill would accomplish and its prospects of becoming law.&lt;/p&gt;
@@ -1538,22 +1376,6 @@
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/menasource/the-gccs-wartime-borrowing-machine-is-helping-counter-the-iran-war/"&gt;The GCC’s wartime borrowing machine is helping counter the Iran war&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/menasource/the-gccs-wartime-borrowing-machine-is-helping-counter-the-iran-war/</guid>
       <pubDate>Sat, 08 Aug 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russian Nuclear Ballistic Missile Submarines Are Now Cocooned In Nets</title>
-      <link>https://www.twz.com/news-features/russian-nuclear-ballistic-missile-submarines-are-now-cocooned-in-nets</link>
-      <description>&lt;p&gt;Growing uncrewed threats look to be prompting various new defensive measures at Russian naval bases far and wide.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/russian-nuclear-ballistic-missile-submarines-are-now-cocooned-in-nets"&gt;Russian Nuclear Ballistic Missile Submarines Are Now Cocooned In Nets&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/russian-nuclear-ballistic-missile-submarines-are-now-cocooned-in-nets</guid>
-      <pubDate>Sat, 08 Aug 2026 18:50:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Last Days Of The A-10 Warthog Weapons School</title>
-      <link>https://www.twz.com/air/the-last-days-of-the-a-10-warthog-weapons-school</link>
-      <description>&lt;p&gt;The Weapons Instructor Course has been the center of excellence for the A-10 and its missions for nearly 50 years, but that's about to end.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/the-last-days-of-the-a-10-warthog-weapons-school"&gt;The Last Days Of The A-10 Warthog Weapons School&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/the-last-days-of-the-a-10-warthog-weapons-school</guid>
-      <pubDate>Sun, 09 Aug 2026 13:01:00 +0000</pubDate>
     </item>
     <item>
       <title>Virgin Atlantic sharpens customer journeys with ChatGPT Work</title>
@@ -2893,13 +2715,6 @@
       <pubDate>Mon, 10 Aug 2026 21:34:38 +0000</pubDate>
     </item>
     <item>
-      <title>Agentic AI turning Zero Trust cybersecurity ‘on its head’</title>
-      <link>https://breakingdefense.com/2026/08/agentic-ai-turning-zero-trust-cybersecurity-on-its-head/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/agentic-ai-turning-zero-trust-cybersecurity-on-its-head/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/260810_DoDIIS_cossa_BARRY-scaled-e1786396422106-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;A top Intelligence Community official said the government may need to develop digital birth certificates for AI agents.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/agentic-ai-turning-zero-trust-cybersecurity-on-its-head/</guid>
-      <pubDate>Mon, 10 Aug 2026 21:39:40 +0000</pubDate>
-    </item>
-    <item>
       <title>'GhostJacking' Exposes Identity Governance Gaps in AI Agents</title>
       <link>https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents</link>
       <description>New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.</description>
@@ -2937,14 +2752,7 @@
       <pubDate>Mon, 10 Aug 2026 23:12:30 +0000</pubDate>
     </item>
     <item>
-      <title>Hanwha Defense USA seeks to acquire Austal USA in $1.2B potential deal</title>
-      <link>https://breakingdefense.com/2026/08/hanwha-defense-usa-seeks-to-acquire-austal-usa/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/hanwha-defense-usa-seeks-to-acquire-austal-usa/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2021/10/210827CommercialShipexitingAWCdrydockreduced-scaled-e1633439903641-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Hanwha&amp;#8217;s parent firm previously sought to acquire Austal&amp;#8217;s parent company in 2024. Now, the two US arms might merge. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/hanwha-defense-usa-seeks-to-acquire-austal-usa/</guid>
-      <pubDate>Mon, 10 Aug 2026 23:38:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Four Killed In Red Sea Shipping Attack</title>
+      <title>6 Killed In Red Sea Shipping Attack</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -3045,17 +2853,6 @@
       <pubDate>Tue, 11 Aug 2026 08:00:32 +0000</pubDate>
     </item>
     <item>
-      <title>Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks</title>
-      <link>https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html</link>
-      <description>Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world.
-
-Targets of these attacks include healthcare and public health, financial services, government services and facilities, and professional and nonprofit services.
-
-"Gunra is another variant in the ongoing trend of</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html</guid>
-      <pubDate>Tue, 11 Aug 2026 09:16:24 +0000</pubDate>
-    </item>
-    <item>
       <title>Testing ads in ChatGPT</title>
       <link>https://openai.com/index/testing-ads-in-chatgpt</link>
       <description>OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.</description>
@@ -3083,24 +2880,6 @@ Targets of these attacks include healthcare and public health, financial service
       <description>In this week's briefing, Rikard Jozwiak focuses on the Ceuta crisis and whether or not Russia had a role.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/wider-europe-briefing-what-was-russia-s-role-in-the-ceuta-migrant-crisis/33825247.html</guid>
       <pubDate>Tue, 11 Aug 2026 10:16:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets</title>
-      <link>https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html</link>
-      <description>A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction.
-
-The trick can work even after a blunt version of the same theft is refused: split the request into fragments that each look routine, place them in channels the assistant already uses, and let</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html</guid>
-      <pubDate>Tue, 11 Aug 2026 10:24:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11</title>
-      <link>https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html</link>
-      <description>Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine.
-
-The same PnP path can be triggered over Remote Desktop without physical hardware when supported Plug and Play or low-level USB redirection is enabled; Microsoft says that</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html</guid>
-      <pubDate>Tue, 11 Aug 2026 10:48:26 +0000</pubDate>
     </item>
     <item>
       <title>Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers</title>
@@ -4225,7 +4004,7 @@ Researchers at the University of Birmingham and the security firm Fuzzware teste
     <item>
       <title>What Do You Want From TWZ?</title>
       <link>https://www.twz.com/uncategorized/what-do-you-want-from-twz</link>
-      <description>&lt;p&gt;We want to know how we are doing from all our readers, so have at it!&lt;/p&gt;
+      <description>&lt;p&gt;We want to know from all of our readers: how we are doing — so have at it!&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/uncategorized/what-do-you-want-from-twz"&gt;What Do You Want From TWZ?&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/uncategorized/what-do-you-want-from-twz</guid>
       <pubDate>Tue, 11 Aug 2026 16:10:27 +0000</pubDate>
@@ -4290,6 +4069,13 @@ The flaw, tracked as&amp;nbsp;CVE-2026-55040&amp;nbsp;(CVSS 9.1), affects ShareP
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/joby-to-buy-resonant-sciences-establish-defense-business-in-500-million-deal/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/joby-e1762971973493-1024x577.jpeg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The acquisition will be funded by roughly $450 million in cash and $50 million in Joby common stock and is expected to close &amp;#8220;in the first half of 2027,&amp;#8221; according to a press release.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/joby-to-buy-resonant-sciences-establish-defense-business-in-500-million-deal/</guid>
       <pubDate>Tue, 11 Aug 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nightclubs, novelty shops, and resorts among costs revealed by MoD</title>
+      <link>https://www.army-technology.com/news/nightclubs-novelty-shops-and-resorts-among-costs-revealed-by-mod/</link>
+      <description>The UK Government has published transparency data on MoD departmental spending using electronic purchasing cards, also known as ePCs.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/nightclubs-novelty-shops-and-resorts-among-costs-revealed-by-mod/</guid>
+      <pubDate>Tue, 11 Aug 2026 17:23:42 +0000</pubDate>
     </item>
     <item>
       <title>Island surge: The Army’s Next Generation Command and Control in action</title>
@@ -4395,6 +4181,26 @@ CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is 
       <pubDate>Tue, 11 Aug 2026 18:45:57 +0000</pubDate>
     </item>
     <item>
+      <title>Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client</title>
+      <link>https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html</link>
+      <description>Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.
+
+The flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in the meeting. No click, no download, no prompt, and nothing on screen to show it</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html</guid>
+      <pubDate>Tue, 11 Aug 2026 19:08:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing</title>
+      <link>https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html</link>
+      <description>Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.
+
+The new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026.
+
+"Kimwolf v7 adds an HTTP/2-based</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html</guid>
+      <pubDate>Tue, 11 Aug 2026 19:36:37 +0000</pubDate>
+    </item>
+    <item>
       <title>Boeing, Northrop unveil low-cost intercept tech</title>
       <link>https://breakingdefense.com/2026/08/boeing-northrop-unveil-low-cost-intercept-tech/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/boeing-northrop-unveil-low-cost-intercept-tech/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Boeing-ULCS-1024x576.webp" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Boeing plans to offer a cheaper seeker for defensive and offensive military missiles, while Northrop Grumman revealed more about a cannon-based solution to bat down threats like drones and cruise missiles. &lt;/p&gt;</description>
@@ -4421,6 +4227,62 @@ CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is 
       <description>Kyiv has sounded the alarm as Rassvet, Russia's equivalent to Starlink, takes shape. Experts say the satellite Internet system could have a major impact on the war in Ukraine, but there is one key vulnerability of the Russian system.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russia-ukraine-starlink-internet-satellite-rassvet-war-invasion/33826676.html</guid>
       <pubDate>Tue, 11 Aug 2026 19:46:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon to solicit entrants for next giant cloud-service contract vehicle</title>
+      <link>https://www.defenseone.com/defense-systems/2026/08/disa-sets-release-date-follow-cloud-solicitation/415345/</link>
+      <description>DISA aims to expand its $9 billion cloud vehicle beyond the big four hyperscalers.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/defense-systems/2026/08/disa-sets-release-date-follow-cloud-solicitation/415345/</guid>
+      <pubDate>Tue, 11 Aug 2026 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack</title>
+      <link>https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html</link>
+      <description>Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.
+
+The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first.
+
+The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html</guid>
+      <pubDate>Tue, 11 Aug 2026 20:10:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Army Downed More Than 1,400 Iranian Missiles And Drones During Epic Fury And 12-Day War</title>
+      <link>https://www.twz.com/land/army-downed-more-than-1400-iranian-missiles-and-drones-in-epic-fury-and-12-day-war</link>
+      <description>&lt;p&gt;The Army's air and missile defense boss offered new context about how the service defended against Iranian threats in the two most recent Middle East conflicts.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/land/army-downed-more-than-1400-iranian-missiles-and-drones-in-epic-fury-and-12-day-war"&gt;Army Downed More Than 1,400 Iranian Missiles And Drones During Epic Fury And 12-Day War&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/land/army-downed-more-than-1400-iranian-missiles-and-drones-in-epic-fury-and-12-day-war</guid>
+      <pubDate>Tue, 11 Aug 2026 20:15:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Laser weapons for space? US officials see threat, opportunity</title>
+      <link>https://breakingdefense.com/2026/08/laser-weapons-for-space-us-officials-see-threat-opportunity/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/laser-weapons-for-space-us-officials-see-threat-opportunity/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2023/08/Laser-in-space-getty-scaled-e1693509200562-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Directed-energy and cyber weapons, as well as bombs targeted on communications hubs, all have potential to disable large satellite constellations, said Lt. Col. Rick Zellman, deputy commander of US Space Command.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/laser-weapons-for-space-us-officials-see-threat-opportunity/</guid>
+      <pubDate>Tue, 11 Aug 2026 20:39:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukraine’s Latest Armor Donor? A Military Museum</title>
+      <link>https://www.twz.com/land/ukraines-latest-armor-donor-a-military-museum</link>
+      <description>&lt;p&gt;Scouring the globe's arsenals to provide Ukraine with Soviet-designed materiel is nothing new, but sourcing systems from museums is less common. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/land/ukraines-latest-armor-donor-a-military-museum"&gt;Ukraine’s Latest Armor Donor? A Military Museum&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/land/ukraines-latest-armor-donor-a-military-museum</guid>
+      <pubDate>Tue, 11 Aug 2026 20:47:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>If funding falters, ‘there’s no Golden Dome,’ Guetlein warns</title>
+      <link>https://breakingdefense.com/2026/08/if-funding-falters-theres-no-golden-dome-general-warns/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/if-funding-falters-theres-no-golden-dome-general-warns/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/IMG_2547-scaled-e1786481289479-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“Without continued funding, Golden Dome will stop with everything we&amp;#8217;ve already built and delivered,” Space Force Gen. Michael Guetlein told reporters today.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/if-funding-falters-theres-no-golden-dome-general-warns/</guid>
+      <pubDate>Tue, 11 Aug 2026 20:48:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Western weakness is encouraging Putin to test NATO</title>
+      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/western-weakness-is-encouraging-putin-to-test-nato/</link>
+      <description>&lt;p&gt;As Moscow's hybrid war against NATO continues to escalate, the alliance's reluctance to impose any additional costs on the Kremlin will only only embolden Putin and fuel Russian perceptions of Western weakness, writes Peter Dickinson. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/western-weakness-is-encouraging-putin-to-test-nato/"&gt;Western weakness is encouraging Putin to test NATO&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/western-weakness-is-encouraging-putin-to-test-nato/</guid>
+      <pubDate>Tue, 11 Aug 2026 20:55:13 +0000</pubDate>
     </item>
   </channel>
 </rss>
