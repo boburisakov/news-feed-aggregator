@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 23:00:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 23:56:55 +0000</lastBuildDate>
     <item>
       <title>China’s Legal Weapon</title>
       <link>https://www.foreignaffairs.com/china/chinas-legal-weapon</link>
@@ -3034,13 +3034,6 @@ The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-t
       <pubDate>Wed, 12 Aug 2026 10:14:58 +0000</pubDate>
     </item>
     <item>
-      <title>New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges</title>
-      <link>https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/</link>
-      <description>Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named "ShieldBreak" after Microsoft released the August 2026 Patch Tuesday security updates. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/</guid>
-      <pubDate>Wed, 12 Aug 2026 10:15:22 +0000</pubDate>
-    </item>
-    <item>
       <title>'All Our Hopes Have Been Destroyed': Afghanistan's Maternal Mortality Crisis Under Taliban</title>
       <link>https://www.rferl.org/a/afghanistan-healthcare-maternal-mortality-taliban-kabul/33827032.html</link>
       <description>Several thousand women die during childbirth every year in Afghanistan, which has one of the highest maternal mortality rates in the world.</description>
@@ -3539,6 +3532,13 @@ The activity, per Check Point Research, is part of Operation Dream Job, a long-r
       <description>A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/</guid>
       <pubDate>Wed, 12 Aug 2026 22:22:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>"City-Forum" data-theft attacks target Salesforce, ServiceNow portals</title>
+      <link>https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/</link>
+      <description>An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:07:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
