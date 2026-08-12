@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 11:02:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 11:57:18 +0000</lastBuildDate>
     <item>
       <title>South Korea UGV push more manpower move than tech gap fix: GlobalData</title>
       <link>https://www.army-technology.com/news/south-korea-ugv-globaldata/</link>
@@ -3015,13 +3015,6 @@
       <pubDate>Tue, 11 Aug 2026 15:52:05 +0000</pubDate>
     </item>
     <item>
-      <title>Wesco confirms security incident after ExfilSquad claims data theft</title>
-      <link>https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/</link>
-      <description>Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/</guid>
-      <pubDate>Tue, 11 Aug 2026 15:59:35 +0000</pubDate>
-    </item>
-    <item>
       <title>Trump, Air Force One, and the Iranian Missile Threat: Inside Mogul’s Secret Flight Out of Turkey</title>
       <link>https://sofrep.com/news/trump-air-force-one-and-the-iranian-missile-threat-inside-moguls-secret-flight-out-of-turkey/</link>
       <description>A credible missile threat turned Air Force One into a decoy and a presidential departure into a lesson in deception, signature management, and just how seriously Washington takes the possibility of Iran reaching for the commander in chief. #AirForceOne #DonaldTrump #Iran #NationalSecurity #SecretService</description>
@@ -3071,15 +3064,6 @@
       <description>Changing an alphabet involves more than just replacing letters; it requires a profound transformation of the state’s institutional and cultural fabric.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/the-cyrillic-stalemate-why-uzbekistans-alphabet-reform-is-still-stuck-30-years-later/</guid>
       <pubDate>Tue, 11 Aug 2026 16:44:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE</title>
-      <link>https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html</link>
-      <description>Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.
-
-The flaw, tracked as&amp;nbsp;CVE-2026-55040&amp;nbsp;(CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html</guid>
-      <pubDate>Tue, 11 Aug 2026 16:47:44 +0000</pubDate>
     </item>
     <item>
       <title>KBR’s Trinzic lands $208m task order for US Army TAGM support</title>
@@ -3438,17 +3422,17 @@ The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only</descrip
       <pubDate>Wed, 12 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
-      <title>America's Fatal Attraction to War</title>
-      <link>https://www.foreignaffairs.com/united-states/americas-fatal-attraction-war</link>
-      <description>The perverse incentives for presidents to use military force.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-fatal-attraction-war</guid>
-      <pubDate>Wed, 12 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The AI Growth Paradox</title>
       <link>https://www.foreignaffairs.com/united-states/ai-growth-paradox</link>
       <description>Why high productivity could still lead to a crash.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/ai-growth-paradox</guid>
+      <pubDate>Wed, 12 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>America's Fatal Attraction to War</title>
+      <link>https://www.foreignaffairs.com/united-states/americas-fatal-attraction-war</link>
+      <description>The perverse incentives for presidents to use military force.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-fatal-attraction-war</guid>
       <pubDate>Wed, 12 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3550,6 +3534,25 @@ The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-t
       <description>Several thousand women die during childbirth every year in Afghanistan, which has one of the highest maternal mortality rates in the world.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/afghanistan-healthcare-maternal-mortality-taliban-kabul/33827032.html</guid>
       <pubDate>Wed, 12 Aug 2026 10:22:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws</title>
+      <link>https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</link>
+      <description>Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.
+
+The most severe of the flaws are listed below -
+
+
+  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</guid>
+      <pubDate>Wed, 12 Aug 2026 11:13:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Signal adds new security feature to thwart man-in-the-middle attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/</link>
+      <description>​Signal has introduced Automatic Key Verification, a new security feature that gives users a new way to ensure their encrypted chats haven't been intercepted. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/</guid>
+      <pubDate>Wed, 12 Aug 2026 11:21:42 +0000</pubDate>
     </item>
   </channel>
 </rss>
