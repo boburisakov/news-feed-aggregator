@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 01:59:09 +0000</lastBuildDate>
-    <item>
-      <title>Linux Shell Forensic: Let&amp;#x3f;s Dive Into Atuin&amp;#x21;, (Fri, Aug 7th)</title>
-      <link>https://isc.sans.edu/diary/rss/33226</link>
-      <description>UNIX systems (including Linux) are well-known to record a lot of activities in many different locations. But there is one domain where they definitely lack of "modern" logging: shells. Most shells provide an historization of the typed commands through a flat file in the &amp;#x24;HOME directory (ex: &amp;#x24;HOME/.bash&amp;#x5f;history). They suffer of multiple problems:&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33226</guid>
-      <pubDate>Fri, 07 Aug 2026 07:22:28 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 13 Aug 2026 04:17:00 +0000</lastBuildDate>
     <item>
       <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
       <link>https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog</link>
@@ -1537,13 +1530,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/openai-daybreak-expansion-specialized-cyber-services/"&gt;OpenAI says Daybreak will expand to offer specialized cyber services &lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/openai-daybreak-expansion-specialized-cyber-services/</guid>
       <pubDate>Mon, 10 Aug 2026 20:55:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>The government was ready to expand its voting-security work. Then it pulled the plug</title>
-      <link>https://www.defenseone.com/policy/2026/08/government-was-ready-expand-its-voting-security-work-then-it-pulled-plug/415325/</link>
-      <description>Cybersecurity executives described the political pressures that emerged when their findings did not support claims of election manipulation.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/08/government-was-ready-expand-its-voting-security-work-then-it-pulled-plug/415325/</guid>
-      <pubDate>Mon, 10 Aug 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius</title>
@@ -3539,6 +3525,19 @@ The activity, per Check Point Research, is part of Operation Dream Job, a long-r
       <description>In the past few weeks, I have been using Gemma4 as a Large Language Model (LLM) to see how useful it can be to analyze some of the malware hashes uploaded to the DShield sensor over the past 30 days and figure out how its recommendation can be considered useful about the activity my DShield sensor is collecting and tracking. The model I use for this testing is gemma4:e4b &amp;#x5b;2&amp;#x5d; using two sites to compare the data against VirusTotal and CyberGordon. &amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33242</guid>
       <pubDate>Thu, 13 Aug 2026 01:26:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050, (Thu, Aug 13th)</title>
+      <link>https://isc.sans.edu/diary/rss/33244</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33244</guid>
+      <pubDate>Thu, 13 Aug 2026 02:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran war reveals protection of space assets on bases has to ‘evolve,’ top general says</title>
+      <link>https://www.defenseone.com/threats/2026/08/iran-war-reveals-protection-space-assets-bases-has-evolve-top-general-says/415389/</link>
+      <description>Key radars have been hit during Epic Fury, Gen. Whiting says.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/08/iran-war-reveals-protection-space-assets-bases-has-evolve-top-general-says/415389/</guid>
+      <pubDate>Thu, 13 Aug 2026 03:32:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
