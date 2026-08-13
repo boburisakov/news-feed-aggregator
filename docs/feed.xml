@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 13:24:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 15:37:42 +0000</lastBuildDate>
     <item>
       <title>Analysis: North Korean missile deployment raises urgency of Ukraine’s Starlink plea</title>
       <link>https://www.longwarjournal.org/archives/2026/08/analysis-north-korean-missile-deployment-raises-urgency-of-ukraines-starlink-plea.php</link>
@@ -1034,16 +1034,9 @@
     <item>
       <title>Robot Recycler Salvages Parts From Broken Machines</title>
       <link>https://spectrum.ieee.org/recycling-robot</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C156%2C0%2C157" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacturers want to produce (and consumers want to consume) at lower costs, the more industrial robots will be needed.&lt;/p&gt;&lt;p&gt;There are &lt;a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years" rel="noopener noreferrer" target="_blank"&gt;over 4 million&lt;/a&gt; industrial robots in use worldwide, according to the &lt;a href="https://ifr.org/" target="_blank"&gt;International Federation of Robotics&lt;/a&gt;. And &lt;a href="https://www.abiresearch.com/press/manufacturing-robot-installed-base-to-hit-16.3-million-by-2030-amid-baby-boomer-exodus" rel="noopener noreferrer" target="_blank"&gt;researchers predict&lt;/a&gt; that number will grow to over 16 million by 2030, as manufacturing rapidly increases. But what’s going to happen when they start breaking down? A new system designed by researchers at the &lt;a href="https://www.wbk.kit.edu/english/index.php" target="_blank"&gt;Karlsruhe Institute of Technology&lt;/a&gt; (KIT), in Karlsruhe, Germany, can predict the defect in a broken product and disassemble it while protecting valuable parts from damage. To continue robotic development &lt;a href="https://roboticsecolabel.com/" rel="noopener noreferrer" target="_blank"&gt;sustainably&lt;/a&gt;, the industry should prepare for the dismantling, &lt;a href="https://spectrum.ieee.org/e-waste-recycling-robots-ram" target="_blank"&gt;recycling&lt;/a&gt;, and rebuilding of our robotic systems.&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;The system consists of a predictive algorithm that guesses how a product is broken, along with robotic manipulators that actually take the broken product apart. At every stage of the process, the system checks to see if the results align with its predictions, and updates its methods if necessary. For example, in the video below, the system begins by unscrewing a broken component. To simulate a stuck screw, the researcher replaces the screw. When the system observes the screw still in place, it switches to milling away material to remove the part.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Building a product with new parts is easy, says &lt;a href="https://www.jan-baumgaertner.com/" target="_blank"&gt;Jan Baumgärtner&lt;/a&gt;, one of the designers of the system. Each step is clearly outlined, and there are no expected deviations. But taking apart something that’s broken is unpredictable. “We can imagine 100 ways that something can go wrong.” And if you start taking something apart without knowing how it broke, you might have to undo part of your work when you find the problem. For example, if you have to unscrew 100 screws holding two parts together, but the last screw is stuck, you’ll have wasted time unscrewing all those screws when you should have used a different method to remove the part in the first place.&lt;/p&gt;&lt;h3&gt;How to Take Apart a Robot&lt;/h3&gt;&lt;p&gt;KIT’s robotic disassembly system relies on a CAD model of the broken robot and of each part, so it can see how the parts should behave and understand if anything is out of the ordinary. It also uses &lt;span&gt;a mathematical model to predict the damage done to a broken part.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;When you give the system a broken device and a CAD model, it first guesses how each part of the broken device should move. The axes each part can move along are called degrees of freedom (for example, a screw should rotate, but not move side to side). The disassembler nudges each part to see if it moves as expected. Based on how the part actually moves, it then uses the mathematical model to predict what went wrong with the part: A corroded part might move less than you think it should, a loose screw may move more, and a deformed part might have different degrees of freedom than expected.&lt;/p&gt;&lt;p&gt;At the beginning of disassembly, the system formulates a plan. It guesses what might be wrong with the device it’s taking apart, and then can change its guess based on observing each piece it takes apart. For example, if there was a screw loose in the part, that might be hard to guess from an initial photograph of the broken part. But when the system moves the screw, it will notice that it can move in more ways than a screw &lt;em&gt;should&lt;/em&gt; move, and take that loose screw into account when deconstructing the device. You can also tell the disassembly system which parts are most important to salvage intact from a broken device, and it can adjust its strategy to preserve those specific parts.&lt;/p&gt;&lt;h3&gt;The Automated Circular Economy&lt;/h3&gt;&lt;p&gt;Baumgärtner’s motivation behind the design of the robotic disassembler is to help create a circular economy, where old devices are repaired instead of thrown away, reducing waste. “The big future is saving our planet,” he says.&lt;/p&gt;&lt;p&gt;Baumgärtner envisions scaling up this one system, composed of a few robotic arms, to have many robotic disassembler arms, each with different tools. These arms will specialize in a different part of the disassembly process so that an entire factory could use different robotic limbs to disassemble a wide range of products. Think of an &lt;a href="https://spectrum.ieee.org/hyundai-metaplant" target="_self"&gt;industrial robot factory that creates cars,&lt;/a&gt; but instead is specialized to take them apart. Or, as he puts it, “as a giant robot with 100 arms.”&lt;/p&gt;&lt;p&gt;Ultimately, if this system works as intended, it would be a fully automated way of extracting a broken part from a system, replacing it, and rebuilding the device. Then the circular economy would really shine, as people replaced broken parts in old devices instead of buying new ones all the time. “That’s why we need to think about scaling this,” he says. “Because it means it becomes so cheap that it’s cheaper to repair this [electronic device] than to produce it. That’s the goal.”&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/pdf/2511.23407" target="_blank"&gt;This research&lt;/a&gt; was presented at the IEEE International Conference on Robotics and Automation (ICRA) 2026 in Vienna.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;This story was updated 11 August 2026 to clarify that the disassembly system works for products in general, not only robots.&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C156%2C0%2C157" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacturers want to produce (and consumers want to consume) at lower costs, the more industrial robots will be needed.&lt;/p&gt;&lt;p&gt;There are &lt;a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years" rel="noopener noreferrer" target="_blank"&gt;over 4 million&lt;/a&gt; industrial robots in use worldwide, according to the &lt;a href="https://ifr.org/" target="_blank"&gt;International Federation of Robotics&lt;/a&gt;. And &lt;a href="https://www.abiresearch.com/press/manufacturing-robot-installed-base-to-hit-16.3-million-by-2030-amid-baby-boomer-exodus" rel="noopener noreferrer" target="_blank"&gt;researchers predict&lt;/a&gt; that number will grow to over 16 million by 2030, as manufacturing rapidly increases. But what’s going to happen when they start breaking down? A new system designed by researchers at the &lt;a href="https://www.wbk.kit.edu/english/index.php" target="_blank"&gt;Karlsruhe Institute of Technology&lt;/a&gt; (KIT), in Karlsruhe, Germany, can predict the defect in a broken product and disassemble it while protecting valuable parts from damage. To continue robotic development &lt;a href="https://roboticsecolabel.com/" rel="noopener noreferrer" target="_blank"&gt;sustainably&lt;/a&gt;, the industry should prepare for the dismantling, &lt;a href="https://spectrum.ieee.org/e-waste-recycling-robots-ram" target="_blank"&gt;recycling&lt;/a&gt;, and rebuilding of our robotic systems.&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;The system consists of a predictive algorithm that guesses how a product is broken, along with robotic manipulators that actually take the broken product apart. At every stage of the process, the system checks to see if the results align with its predictions, and updates its methods if necessary. For example, in the video below, the system begins by unscrewing a broken component. To simulate a stuck screw, the researcher replaces the screw. When the system observes the screw still in place, it switches to milling away material to remove the part.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Building a product with new parts is easy, says &lt;a href="https://www.jan-baumgaertner.com/" target="_blank"&gt;Jan Baumgärtner&lt;/a&gt;, one of the designers of the system. Each step is clearly outlined, and there are no expected deviations. But taking apart something that’s broken is unpredictable. “We can imagine 100 ways that something can go wrong.” And if you start taking something apart without knowing how it broke, you might have to undo part of your work when you find the problem. For example, if you have to unscrew 100 screws holding two parts together, but the last screw is stuck, you’ll have wasted time unscrewing all those screws when you should have used a different method to remove the part in the first place.&lt;/p&gt;&lt;h3&gt;How to Take Apart a Product&lt;/h3&gt;&lt;p&gt;KIT’s robotic disassembly system relies on a CAD model of the broken product and of each part, so it can see how the parts should behave and understand if anything is out of the ordinary. It also uses &lt;span&gt;a mathematical model to predict the damage done to a broken part.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;When you give the system a broken device and a CAD model, it first guesses how each part of the broken device should move. The axes each part can move along are called degrees of freedom (for example, a screw should rotate, but not move side to side). The disassembler nudges each part to see if it moves as expected. Based on how the part actually moves, it then uses the mathematical model to predict what went wrong with the part: A corroded part might move less than you think it should, a loose screw may move more, and a deformed part might have different degrees of freedom than expected.&lt;/p&gt;&lt;p&gt;At the beginning of disassembly, the system formulates a plan. It guesses what might be wrong with the device it’s taking apart, and then can change its guess based on observing each piece it takes apart. For example, if there was a screw loose in the part, that might be hard to guess from an initial photograph of the broken part. But when the system moves the screw, it will notice that it can move in more ways than a screw &lt;em&gt;should&lt;/em&gt; move, and take that loose screw into account when deconstructing the device. You can also tell the disassembly system which parts are most important to salvage intact from a broken device, and it can adjust its strategy to preserve those specific parts.&lt;/p&gt;&lt;h3&gt;The Automated Circular Economy&lt;/h3&gt;&lt;p&gt;Baumgärtner’s motivation behind the design of the robotic disassembler is to help create a circular economy, where old devices are repaired instead of thrown away, reducing waste. “The big future is saving our planet,” he says.&lt;/p&gt;&lt;p&gt;Baumgärtner envisions scaling up this one system, composed of a few robotic arms, to have many robotic disassembler arms, each with different tools. These arms will specialize in a different part of the disassembly process so that an entire factory could use different robotic limbs to disassemble a wide range of products. Think of an &lt;a href="https://spectrum.ieee.org/hyundai-metaplant" target="_self"&gt;industrial robot factory that creates cars,&lt;/a&gt; but instead is specialized to take them apart. Or, as he puts it, “as a giant robot with 100 arms.”&lt;/p&gt;&lt;p&gt;Ultimately, if this system works as intended, it would be a fully automated way of extracting a broken part from a system, replacing it, and rebuilding the device. Then the circular economy would really shine, as people replaced broken parts in old devices instead of buying new ones all the time. “That’s why we need to think about scaling this,” he says. “Because it means it becomes so cheap that it’s cheaper to repair this [electronic device] than to produce it. That’s the goal.”&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/pdf/2511.23407" target="_blank"&gt;This research&lt;/a&gt; was presented at the IEEE International Conference on Robotics and Automation (ICRA) 2026 in Vienna.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;This story was updated 11 August 2026 to clarify that the disassembly system works for products in general, not only robots.&lt;/em&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/recycling-robot</guid>
       <pubDate>Mon, 10 Aug 2026 18:01:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Army exploring 50mm cannon to destroy drones</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/08/10/us-army-exploring-50mm-cannon-to-destroy-drones/</link>
-      <description>The U.S. Army is looking for companies that can provide a 50mm cannon and ammunition capable of destroying a broad range of drones.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/08/10/us-army-exploring-50mm-cannon-to-destroy-drones/</guid>
-      <pubDate>Mon, 10 Aug 2026 18:10:52 +0000</pubDate>
     </item>
     <item>
       <title>From Guantanamo Bay to ISCAP: The case of Jamal Kiyemba</title>
@@ -1075,13 +1068,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/nato-aisle-enisa-cve-vulnerability-tracking/"&gt;NATO and an AI startup can now name and track software vulnerabilities&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/nato-aisle-enisa-cve-vulnerability-tracking/</guid>
       <pubDate>Mon, 10 Aug 2026 19:50:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI professors are negotiating the new realities of academic research</title>
-      <link>https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/</link>
-      <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising, AI&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/</guid>
-      <pubDate>Mon, 10 Aug 2026 20:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DARPA developing hypersonic cruise missile to evade enemy air defenses</title>
@@ -2160,13 +2146,6 @@
       <pubDate>Tue, 11 Aug 2026 14:54:22 +0000</pubDate>
     </item>
     <item>
-      <title>Germany’s Skyranger 30 and Jackal Combat Vehicles: Built For The Drone War</title>
-      <link>https://sofrep.com/news/germanys-skyranger-30-and-jackal-combat-vehicles-built-for-the-drone-war/</link>
-      <description>Germany’s Skyranger 30 and Boxer RCT 30 Jackal reflect a hard lesson from Ukraine: modern armored vehicles must be able to fight enemy forces while defending themselves against the growing threat from drones. #Skyranger30 #BoxerRCT30 #GermanArmy #CounterDrone #DefenseTechnology</description>
-      <guid isPermaLink="false">https://sofrep.com/news/germanys-skyranger-30-and-jackal-combat-vehicles-built-for-the-drone-war/</guid>
-      <pubDate>Tue, 11 Aug 2026 15:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Where Are The Aircraft Carriers: August 11, 2026</title>
       <link>https://www.twz.com/sea/where-are-the-aircraft-carriers-august-11-2026</link>
       <description>&lt;p&gt;More than 20 American warships, including two carrier groups, remain on station in the Middle East with less than a week left for negotiations under the U.S.-Iran memorandum.&lt;/p&gt;
@@ -2232,13 +2211,6 @@
       <description>This month we got patches for 418 vulnerabilities. Of these, 62 are critical, 1 is being exploited in the wild, and 2 were publicly disclosed as zero-days. Notable fixes include Windows privilege escalation, container tampering, and critical QUIC and DNS Server remote code execution bugs. &amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33236</guid>
       <pubDate>Tue, 11 Aug 2026 17:54:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine Says Russia Fired North Korean Missiles In Deadly Strike</title>
-      <link>https://www.rferl.org/a/ukraine-russia-north-korean-missile-attack/33827030.html</link>
-      <description>Russia used North Korean missiles in a deadly attack on the southeastern Ukrainian city of city of Zaporizhzhya, Ukrainian President Volodymyr Zelenskyy said on August 11.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-north-korean-missile-attack/33827030.html</guid>
-      <pubDate>Tue, 11 Aug 2026 17:58:10 +0000</pubDate>
     </item>
     <item>
       <title>How the “censorship-industrial complex” is changing the internet and US policy</title>
@@ -2340,7 +2312,7 @@
     <item>
       <title>Microsoft's Patch Tuesday Deluge Continues With August Updates</title>
       <link>https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues</link>
-      <description>Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.</description>
+      <description>The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.</description>
       <guid isPermaLink="false">https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues</guid>
       <pubDate>Tue, 11 Aug 2026 21:42:34 +0000</pubDate>
     </item>
@@ -2549,13 +2521,6 @@ The weakness affected encrypted reasoning objects used by the providers' reasoni
       <pubDate>Wed, 12 Aug 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hackers leverage new Microsoft SharePoint exploit in attacks</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/</link>
-      <description>Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/</guid>
-      <pubDate>Wed, 12 Aug 2026 12:25:37 +0000</pubDate>
-    </item>
-    <item>
       <title>Japan’s Nuclear Taboo Is Starting to Crack</title>
       <link>https://thediplomat.com/2026/08/japans-nuclear-taboo-is-starting-to-crack/</link>
       <description>Whether or not Japan’s nuclear policy is actually revised, the very fact that such a revision is being openly debated is a striking development.</description>
@@ -2649,13 +2614,6 @@ The weakness affected encrypted reasoning objects used by the providers' reasoni
       <pubDate>Wed, 12 Aug 2026 14:00:26 +0000</pubDate>
     </item>
     <item>
-      <title>The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In</title>
-      <link>https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/</link>
-      <description>Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and biometric liveness checks can help organizations confirm that the person receiving access is the legitimate new hire. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/</guid>
-      <pubDate>Wed, 12 Aug 2026 14:01:11 +0000</pubDate>
-    </item>
-    <item>
       <title>Putin Threatens To Seize European Ships Over Moves Against Russia's 'Shadow Fleet'</title>
       <link>https://www.rferl.org/a/putin-russia-shadow-fleet-sanctions/33827667.html</link>
       <description>President Vladimir Putin said Russia would seize ships belonging to European countries if they tried to sell cargo confiscated from Russia-linked vessels suspected of belonging to Moscow's so-called shadow fleet.</description>
@@ -2678,13 +2636,6 @@ The weakness affected encrypted reasoning objects used by the providers' reasoni
 The extensions, published across at least 40 Chrome Web Store developer accounts, racked up 75,486 installs. Of those identified, 274 have been found to impersonate 66</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html</guid>
       <pubDate>Wed, 12 Aug 2026 14:09:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>FBI: Hackers target online accounts to steal nude photos</title>
-      <link>https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/</link>
-      <description>The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or videos. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/</guid>
-      <pubDate>Wed, 12 Aug 2026 14:15:09 +0000</pubDate>
     </item>
     <item>
       <title>Linux Kernel Process Accounting, (Wed, Aug 12th)</title>
@@ -2826,13 +2777,6 @@ The extensions, published across at least 40 Chrome Web Store developer accounts
       <pubDate>Wed, 12 Aug 2026 17:09:00 +0000</pubDate>
     </item>
     <item>
-      <title>DARPA seeks ‘unconstrained, radical’ concepts for next-gen hypersonic cruise missile</title>
-      <link>https://breakingdefense.com/2026/08/darpa-seeks-unconstrained-radical-concepts-for-next-gen-hypersonic-cruise-missile/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/darpa-seeks-unconstrained-radical-concepts-for-next-gen-hypersonic-cruise-missile/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/05/220524_hypersonic_missile_concept_GettyImages-1391247339-scaled-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Pentagon’s secretive research agency says new advances are needed to counter adversary air defenses, along with innovative manufacturing techniques that can produce hypersonic weapons affordably and at scale.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/darpa-seeks-unconstrained-radical-concepts-for-next-gen-hypersonic-cruise-missile/</guid>
-      <pubDate>Wed, 12 Aug 2026 17:16:23 +0000</pubDate>
-    </item>
-    <item>
       <title>Russia’s Blurry Line Between Science and Sabotage Beneath the Ocean’s Surface</title>
       <link>https://warontherocks.com/russias-blurry-line-between-science-and-sabotage-beneath-the-oceans-surface/</link>
       <description>&lt;p&gt;In 2025, Nurlan Aliyev wrote, &amp;#8220;The Mayhem of Russia&amp;#8217;s &amp;#8220;Research&amp;#8221; Fleet,&amp;#8221; where he argued that NATO must act decisively to safeguard critical undersea infrastructure from Russian sabotage attempts. A year later, we asked him to revisit his arguments. Image:&amp;#160;Andrey Luzik&amp;#160;via&amp;#160;Wikimedia CommonsIn your 2025 article, you argued that NATO needed to act decisively to safeguard critical undersea infrastructure in the Baltic, Barents, and Arctic regions from Russian sabotage. Since then, where has NATO strengthened its deterrence and defense in this area, and where do gaps still remain?&amp;#160;Since 2025, NATO and E.U. members have strengthened coordination to protect critical undersea infrastructure through&lt;/p&gt;
@@ -2848,13 +2792,6 @@ The extensions, published across at least 40 Chrome Web Store developer accounts
 The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</guid>
       <pubDate>Wed, 12 Aug 2026 17:39:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Defeating modern threats with capable, affordable munitions</title>
-      <link>https://breakingdefense.com/2026/08/defeating-modern-threats-with-capable-affordable-munitions/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/defeating-modern-threats-with-capable-affordable-munitions/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/clouds_5X_alt1-5-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] L3Harris’ launched effects portfolio comes from a pedigree of proven capabilities and decades of experience.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/defeating-modern-threats-with-capable-affordable-munitions/</guid>
-      <pubDate>Wed, 12 Aug 2026 18:05:00 +0000</pubDate>
     </item>
     <item>
       <title>Hundreds of fake Chrome VPN extensions route traffic through a proxy</title>
@@ -3204,11 +3141,74 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Russia’s Yak-130M Jet Trainer Takes on a New Anti-Drone Role</title>
+      <link>https://sofrep.com/news/russias-yak-130m-jet-trainer-takes-on-a-new-anti-drone-role/</link>
+      <description>Russia’s Yak-130M turns a proven jet trainer into a heavily armed, low-cost drone hunter, freeing its most advanced fighters for more demanding combat missions. #Yak130M #RussianAirForce #DroneWarfare #MilitaryAviation #DefenseTechnology</description>
+      <guid isPermaLink="false">https://sofrep.com/news/russias-yak-130m-jet-trainer-takes-on-a-new-anti-drone-role/</guid>
+      <pubDate>Thu, 13 Aug 2026 13:00:29 +0000</pubDate>
+    </item>
+    <item>
       <title>Lockheed Martin completes first live-fire test of Kodiak launcher</title>
       <link>https://www.army-technology.com/news/lockheed-martin-kodiak-launcher/</link>
       <description>Lockheed Martin has completed the first integrated live-fire test of its Kodiak containerised launcher at at Yakima Training Centre.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/lockheed-martin-kodiak-launcher/</guid>
       <pubDate>Thu, 13 Aug 2026 13:16:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>White House taps security firms for offensive hack-back operations</title>
+      <link>https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/</link>
+      <description>A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval to hack foreign cybercrime organizations. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/</guid>
+      <pubDate>Thu, 13 Aug 2026 13:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flock is tightening its rules in response to a growing surveillance backlash</title>
+      <link>https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/</link>
+      <description>The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/</guid>
+      <pubDate>Thu, 13 Aug 2026 13:41:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion</title>
+      <link>https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/</link>
+      <description>AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at the point of selection, before they enter the development pipeline. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/</guid>
+      <pubDate>Thu, 13 Aug 2026 14:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>AEVEX to acquire BlackSea Technologies for up to $650M</title>
+      <link>https://breakingdefense.com/2026/08/aevex-to-acquire-blacksea-technologies-for-up-to-650m/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/aevex-to-acquire-blacksea-technologies-for-up-to-650m/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/8407254-scaled-e1786572544823-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The acquisition is slated to close in September and aims to provide AEVEX greater &amp;#8220;customer access&amp;#8221; to military users.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/aevex-to-acquire-blacksea-technologies-for-up-to-650m/</guid>
+      <pubDate>Thu, 13 Aug 2026 14:09:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran Lurching Toward 'Severe Economic Collapse' As US Pressure Mounts</title>
+      <link>https://www.rferl.org/a/iran-economy-sanctions-trump/33829720.html</link>
+      <description>Iran’s war with the United States has pushed the Islamic republic to the verge of economic collapse. Observers say the United States is betting that economic pressure will force it to capitulate.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-economy-sanctions-trump/33829720.html</guid>
+      <pubDate>Thu, 13 Aug 2026 14:57:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI’s next leap for the Intelligence Community: Agents managing agents</title>
+      <link>https://breakingdefense.com/2026/08/ais-next-leap-for-the-intelligence-community-agents-managing-agents/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/ais-next-leap-for-the-intelligence-community-agents-managing-agents/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/agentic-ai-image-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DIA, NGA and the FBI are building the infrastructure and guardrails needed for increasingly autonomous artificial intelligence.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/ais-next-leap-for-the-intelligence-community-agents-managing-agents/</guid>
+      <pubDate>Thu, 13 Aug 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flight-tracking data shows continued Russian air bridge to sub-Saharan Africa</title>
+      <link>https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/</link>
+      <description>A recent report from the Center for Advanced Defense Studies found that Russian state-aligned military forces flew at least 75 flights in Central Sahel.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/13/flight-tracking-data-shows-continued-russian-air-bridge-to-sub-saharan-africa/</guid>
+      <pubDate>Thu, 13 Aug 2026 15:07:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trezor discloses data breach affecting nearly 14,000 customers</title>
+      <link>https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/</link>
+      <description>Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping provider and logistics partner, got hacked. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/</guid>
+      <pubDate>Thu, 13 Aug 2026 15:13:19 +0000</pubDate>
     </item>
   </channel>
 </rss>
