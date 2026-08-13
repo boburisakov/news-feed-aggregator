@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 05:55:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 07:20:48 +0000</lastBuildDate>
     <item>
       <title>Video Friday: Drones Go Heavy in DARPA Lift Challenge</title>
       <link>https://spectrum.ieee.org/video-friday-heavy-lift-drone</link>
@@ -1103,13 +1103,6 @@
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/is-ukraine-drifting-towards-groupthink-on-european-integration/"&gt;Is Ukraine Drifting Towards Groupthink on European Integration?&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/is-ukraine-drifting-towards-groupthink-on-european-integration/</guid>
       <pubDate>Mon, 10 Aug 2026 17:45:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists</link>
-      <description>It's time to turn from CVSS-backed patching to choke-point patching focused on breaking chains to critical assets.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists</guid>
-      <pubDate>Mon, 10 Aug 2026 17:56:34 +0000</pubDate>
     </item>
     <item>
       <title>Robot Recycler Salvages Parts From Broken Machines</title>
@@ -2562,27 +2555,11 @@
       <pubDate>Wed, 12 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EU, Western States Condemn Iranian Executions In 'Strongest Terms'</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Wed, 12 Aug 2026 05:30:00 +0000</pubDate>
-    </item>
-    <item>
       <title>From assistance to execution: How enterprises put AI to work</title>
       <link>https://openai.com/index/how-enterprises-put-ai-to-work</link>
       <description>OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.</description>
       <guid isPermaLink="false">https://openai.com/index/how-enterprises-put-ai-to-work</guid>
       <pubDate>Wed, 12 Aug 2026 06:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS</title>
-      <link>https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html</link>
-      <description>Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild.
-
-The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html</guid>
-      <pubDate>Wed, 12 Aug 2026 06:15:58 +0000</pubDate>
     </item>
     <item>
       <title>ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access</title>
@@ -3188,6 +3165,13 @@ The activity, per Check Point Research, is part of Operation Dream Job, a long-r
       <pubDate>Thu, 13 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
+      <title>Concern Grows Over Spread Of Spill From Grounded Tanker Carrying Russian Oil Off Oman</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Thu, 13 Aug 2026 03:30:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Iran war reveals protection of space assets on bases has to ‘evolve,’ top general says</title>
       <link>https://www.defenseone.com/threats/2026/08/iran-war-reveals-protection-space-assets-bases-has-evolve-top-general-says/415389/</link>
       <description>Key radars have been hit during Epic Fury, Gen. Whiting says.</description>
@@ -3207,6 +3191,24 @@ The activity, per Check Point Research, is part of Operation Dream Job, a long-r
       <description>Decades of hard-won mediation experience point the way.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/ukraine/hot-broker-peace-ukraine</guid>
       <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attackers Exploit SharePoint Authentication Bypass After Public PoC Release</title>
+      <link>https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html</link>
+      <description>Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.
+
+The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates.
+
+"The authentication</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html</guid>
+      <pubDate>Thu, 13 Aug 2026 06:09:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Belgium's eID Authentication Opens Citizen Accounts to RCE</title>
+      <link>https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce</link>
+      <description>The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce</guid>
+      <pubDate>Thu, 13 Aug 2026 07:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
