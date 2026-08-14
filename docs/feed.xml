@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 23:57:30 +0000</lastBuildDate>
-    <item>
-      <title>ISC Stormcast For Monday, August 10th, 2026 https://isc.sans.edu/podcastdetail/10044, (Mon, Aug 10th)</title>
-      <link>https://isc.sans.edu/diary/rss/33228</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33228</guid>
-      <pubDate>Mon, 10 Aug 2026 02:00:03 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 14 Aug 2026 02:06:03 +0000</lastBuildDate>
     <item>
       <title>Why China Worries About North Korea</title>
       <link>https://www.foreignaffairs.com/china/why-china-worries-about-north-korea</link>
@@ -90,7 +84,7 @@
     <item>
       <title>Robot Recycler Salvages Parts From Broken Machines</title>
       <link>https://spectrum.ieee.org/recycling-robot</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C156%2C0%2C157" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacturers want to produce (and consumers want to consume) at lower costs, the more industrial robots will be needed.&lt;/p&gt;&lt;p&gt;There are &lt;a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years" rel="noopener noreferrer" target="_blank"&gt;over 4 million&lt;/a&gt; industrial robots in use worldwide, according to the &lt;a href="https://ifr.org/" target="_blank"&gt;International Federation of Robotics&lt;/a&gt;. And &lt;a href="https://www.abiresearch.com/press/manufacturing-robot-installed-base-to-hit-16.3-million-by-2030-amid-baby-boomer-exodus" rel="noopener noreferrer" target="_blank"&gt;researchers predict&lt;/a&gt; that number will grow to over 16 million by 2030, as manufacturing rapidly increases. But what’s going to happen when they start breaking down? A new system designed by researchers at the &lt;a href="https://www.wbk.kit.edu/english/index.php" target="_blank"&gt;Karlsruhe Institute of Technology&lt;/a&gt; (KIT), in Karlsruhe, Germany, can predict the defect in a broken product and disassemble it while protecting valuable parts from damage. To continue robotic development &lt;a href="https://roboticsecolabel.com/" rel="noopener noreferrer" target="_blank"&gt;sustainably&lt;/a&gt;, the industry should prepare for the dismantling, &lt;a href="https://spectrum.ieee.org/e-waste-recycling-robots-ram" target="_blank"&gt;recycling&lt;/a&gt;, and rebuilding of our robotic systems.&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;The system consists of a predictive algorithm that guesses how a product is broken, along with robotic manipulators that actually take the broken product apart. At every stage of the process, the system checks to see if the results align with its predictions, and updates its methods if necessary. For example, in the video below, the system begins by unscrewing a broken component. To simulate a stuck screw, the researcher replaces the screw. When the system observes the screw still in place, it switches to milling away material to remove the part.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Building a product with new parts is easy, says &lt;a href="https://www.jan-baumgaertner.com/" target="_blank"&gt;Jan Baumgärtner&lt;/a&gt;, one of the designers of the system. Each step is clearly outlined, and there are no expected deviations. But taking apart something that’s broken is unpredictable. “We can imagine 100 ways that something can go wrong.” And if you start taking something apart without knowing how it broke, you might have to undo part of your work when you find the problem. For example, if you have to unscrew 100 screws holding two parts together, but the last screw is stuck, you’ll have wasted time unscrewing all those screws when you should have used a different method to remove the part in the first place.&lt;/p&gt;&lt;h3&gt;How to Take Apart a Product&lt;/h3&gt;&lt;p&gt;KIT’s robotic disassembly system relies on a CAD model of the broken product and of each part, so it can see how the parts should behave and understand if anything is out of the ordinary. It also uses &lt;span&gt;a mathematical model to predict the damage done to a broken part.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;When you give the system a broken device and a CAD model, it first guesses how each part of the broken device should move. The axes each part can move along are called degrees of freedom (for example, a screw should rotate, but not move side to side). The disassembler nudges each part to see if it moves as expected. Based on how the part actually moves, it then uses the mathematical model to predict what went wrong with the part: A corroded part might move less than you think it should, a loose screw may move more, and a deformed part might have different degrees of freedom than expected.&lt;/p&gt;&lt;p&gt;At the beginning of disassembly, the system formulates a plan. It guesses what might be wrong with the device it’s taking apart, and then can change its guess based on observing each piece it takes apart. For example, if there was a screw loose in the part, that might be hard to guess from an initial photograph of the broken part. But when the system moves the screw, it will notice that it can move in more ways than a screw &lt;em&gt;should&lt;/em&gt; move, and take that loose screw into account when deconstructing the device. You can also tell the disassembly system which parts are most important to salvage intact from a broken device, and it can adjust its strategy to preserve those specific parts.&lt;/p&gt;&lt;h3&gt;The Automated Circular Economy&lt;/h3&gt;&lt;p&gt;Baumgärtner’s motivation behind the design of the robotic disassembler is to help create a circular economy, where old devices are repaired instead of thrown away, reducing waste. “The big future is saving our planet,” he says.&lt;/p&gt;&lt;p&gt;Baumgärtner envisions scaling up this one system, composed of a few robotic arms, to have many robotic disassembler arms, each with different tools. These arms will specialize in a different part of the disassembly process so that an entire factory could use different robotic limbs to disassemble a wide range of products. Think of an &lt;a href="https://spectrum.ieee.org/hyundai-metaplant" target="_self"&gt;industrial robot factory that creates cars,&lt;/a&gt; but instead is specialized to take them apart. Or, as he puts it, “as a giant robot with 100 arms.”&lt;/p&gt;&lt;p&gt;Ultimately, if this system works as intended, it would be a fully automated way of extracting a broken part from a system, replacing it, and rebuilding the device. Then the circular economy would really shine, as people replaced broken parts in old devices instead of buying new ones all the time. “That’s why we need to think about scaling this,” he says. “Because it means it becomes so cheap that it’s cheaper to repair this [electronic device] than to produce it. That’s the goal.”&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/pdf/2511.23407" target="_blank"&gt;This research&lt;/a&gt; was presented at the IEEE International Conference on Robotics and Automation (ICRA) 2026 in Vienna.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;This story was updated 11 August 2026 to clarify that the disassembly system works for products in general, not only robots.&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=156%2C0%2C156%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacturers want to produce (and consumers want to consume) at lower costs, the more industrial robots will be needed.&lt;/p&gt;&lt;p&gt;There are &lt;a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years" rel="noopener noreferrer" target="_blank"&gt;over 4 million&lt;/a&gt; industrial robots in use worldwide, according to the &lt;a href="https://ifr.org/" target="_blank"&gt;International Federation of Robotics&lt;/a&gt;. And &lt;a href="https://www.abiresearch.com/press/manufacturing-robot-installed-base-to-hit-16.3-million-by-2030-amid-baby-boomer-exodus" rel="noopener noreferrer" target="_blank"&gt;researchers predict&lt;/a&gt; that number will grow to over 16 million by 2030, as manufacturing rapidly increases. But what’s going to happen when they start breaking down? A new system designed by researchers at the &lt;a href="https://www.wbk.kit.edu/english/index.php" target="_blank"&gt;Karlsruhe Institute of Technology&lt;/a&gt; (KIT), in Karlsruhe, Germany, can predict the defect in a broken product and disassemble it while protecting valuable parts from damage. To continue robotic development &lt;a href="https://roboticsecolabel.com/" rel="noopener noreferrer" target="_blank"&gt;sustainably&lt;/a&gt;, the industry should prepare for the dismantling, &lt;a href="https://spectrum.ieee.org/e-waste-recycling-robots-ram" target="_blank"&gt;recycling&lt;/a&gt;, and rebuilding of our robotic systems.&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;The system consists of a predictive algorithm that guesses how a product is broken, along with robotic manipulators that actually take the broken product apart. At every stage of the process, the system checks to see if the results align with its predictions, and updates its methods if necessary. For example, in the video below, the system begins by unscrewing a broken component. To simulate a stuck screw, the researcher replaces the screw. When the system observes the screw still in place, it switches to milling away material to remove the part.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Building a product with new parts is easy, says &lt;a href="https://www.jan-baumgaertner.com/" target="_blank"&gt;Jan Baumgärtner&lt;/a&gt;, one of the designers of the system. Each step is clearly outlined, and there are no expected deviations. But taking apart something that’s broken is unpredictable. “We can imagine 100 ways that something can go wrong.” And if you start taking something apart without knowing how it broke, you might have to undo part of your work when you find the problem. For example, if you have to unscrew 100 screws holding two parts together, but the last screw is stuck, you’ll have wasted time unscrewing all those screws when you should have used a different method to remove the part in the first place.&lt;/p&gt;&lt;h3&gt;How to Take Apart a Product&lt;/h3&gt;&lt;p&gt;KIT’s robotic disassembly system relies on a CAD model of the broken product and of each part, so it can see how the parts should behave and understand if anything is out of the ordinary. It also uses &lt;span&gt;a mathematical model to predict the damage done to a broken part.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;When you give the system a broken device and a CAD model, it first guesses how each part of the broken device should move. The axes each part can move along are called degrees of freedom (for example, a screw should rotate, but not move side to side). The disassembler nudges each part to see if it moves as expected. Based on how the part actually moves, it then uses the mathematical model to predict what went wrong with the part: A corroded part might move less than you think it should, a loose screw may move more, and a deformed part might have different degrees of freedom than expected.&lt;/p&gt;&lt;p&gt;At the beginning of disassembly, the system formulates a plan. It guesses what might be wrong with the device it’s taking apart, and then can change its guess based on observing each piece it takes apart. For example, if there was a screw loose in the part, that might be hard to guess from an initial photograph of the broken part. But when the system moves the screw, it will notice that it can move in more ways than a screw &lt;em&gt;should&lt;/em&gt; move, and take that loose screw into account when deconstructing the device. You can also tell the disassembly system which parts are most important to salvage intact from a broken device, and it can adjust its strategy to preserve those specific parts.&lt;/p&gt;&lt;h3&gt;The Automated Circular Economy&lt;/h3&gt;&lt;p&gt;Baumgärtner’s motivation behind the design of the robotic disassembler is to help create a circular economy, where old devices are repaired instead of thrown away, reducing waste. “The big future is saving our planet,” he says.&lt;/p&gt;&lt;p&gt;Baumgärtner envisions scaling up this one system, composed of a few robotic arms, to have many robotic disassembler arms, each with different tools. These arms will specialize in a different part of the disassembly process so that an entire factory could use different robotic limbs to disassemble a wide range of products. Think of an &lt;a href="https://spectrum.ieee.org/hyundai-metaplant" target="_self"&gt;industrial robot factory that creates cars,&lt;/a&gt; but instead is specialized to take them apart. Or, as he puts it, “as a giant robot with 100 arms.”&lt;/p&gt;&lt;p&gt;Ultimately, if this system works as intended, it would be a fully automated way of extracting a broken part from a system, replacing it, and rebuilding the device. Then the circular economy would really shine, as people replaced broken parts in old devices instead of buying new ones all the time. “That’s why we need to think about scaling this,” he says. “Because it means it becomes so cheap that it’s cheaper to repair this [electronic device] than to produce it. That’s the goal.”&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/pdf/2511.23407" target="_blank"&gt;This research&lt;/a&gt; was presented at the IEEE International Conference on Robotics and Automation (ICRA) 2026 in Vienna.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;This story was updated 11 August 2026 to clarify that the disassembly system works for products in general, not only robots.&lt;/em&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/recycling-robot</guid>
       <pubDate>Mon, 10 Aug 2026 18:01:25 +0000</pubDate>
     </item>
@@ -138,13 +132,6 @@
 &lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/"&gt;The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/</guid>
       <pubDate>Mon, 10 Aug 2026 22:00:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Congress is reshaping the administration's FY27 budget</title>
-      <link>https://www.defenseone.com/policy/2026/08/how-congress-reshaping-administrations-fy27-budget/415327/</link>
-      <description>Three of the four House and Senate committees have marked up the spending proposal. Here's what they want.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/08/how-congress-reshaping-administrations-fy27-budget/415327/</guid>
-      <pubDate>Tue, 11 Aug 2026 00:21:24 +0000</pubDate>
     </item>
     <item>
       <title>ISC Stormcast For Tuesday, August 11th, 2026 https://isc.sans.edu/podcastdetail/10046, (Tue, Aug 11th)</title>
@@ -313,13 +300,6 @@
       <pubDate>Tue, 11 Aug 2026 18:39:53 +0000</pubDate>
     </item>
     <item>
-      <title>Pentagon to solicit entrants for next giant cloud-service contract vehicle</title>
-      <link>https://www.defenseone.com/defense-systems/2026/08/disa-sets-release-date-follow-cloud-solicitation/415345/</link>
-      <description>DISA aims to expand its $9 billion cloud vehicle beyond the big four hyperscalers.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/defense-systems/2026/08/disa-sets-release-date-follow-cloud-solicitation/415345/</guid>
-      <pubDate>Tue, 11 Aug 2026 20:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa</link>
       <description>The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.</description>
@@ -369,14 +349,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/"&gt;Kimwolf botnet rebuilt to survive takedowns, researchers say&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/</guid>
       <pubDate>Wed, 12 Aug 2026 00:13:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Golden Dome Missile Defense Shield At Risk Of Grinding To A Halt Due To Budget Impasse</title>
-      <link>https://www.twz.com/space/golden-dome-missile-defense-shield-at-risk-of-grinding-to-a-halt-due-to-budget-impasse</link>
-      <description>&lt;p&gt;The top officer in charge says "if they don't figure it out, there is no Golden Dome because there is no funding."&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/space/golden-dome-missile-defense-shield-at-risk-of-grinding-to-a-halt-due-to-budget-impasse"&gt;Golden Dome Missile Defense Shield At Risk Of Grinding To A Halt Due To Budget Impasse&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/space/golden-dome-missile-defense-shield-at-risk-of-grinding-to-a-halt-due-to-budget-impasse</guid>
-      <pubDate>Wed, 12 Aug 2026 00:26:46 +0000</pubDate>
     </item>
     <item>
       <title>The lasers are coming, but don’t forget training</title>
@@ -821,13 +793,6 @@ The activity, per Check Point Research, is part of Operation Dream Job, a long-r
       <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Myanmar’s Resistance Finally Has a Unified Front</title>
-      <link>https://thediplomat.com/2026/08/myanmars-resistance-finally-has-a-unified-front/</link>
-      <description>The new Steering Council for the Emergence of a Federal Democratic Union could change the course of the country's conflict.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/myanmars-resistance-finally-has-a-unified-front/</guid>
-      <pubDate>Thu, 13 Aug 2026 04:56:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Vietnam, Rare Earths, and the Evolving China Plus One Strategy</title>
       <link>https://thediplomat.com/2026/08/vietnam-rare-earths-and-the-evolving-china-plus-one-strategy/</link>
       <description>Vietnam has benefited greatly from foreign firms' desire to de-risk from China. Can it free itself of dependence on the country's critical rare earth inputs?</description>
@@ -945,13 +910,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/"&gt;Trump turns to private sector in offensive hacking operations memo&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/</guid>
       <pubDate>Thu, 13 Aug 2026 11:47:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>WhatsApp rolls out new feature that flags potential scam messages</title>
-      <link>https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/</link>
-      <description>WhatsApp has begun rolling out a new optional "Scam Alert" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/</guid>
-      <pubDate>Thu, 13 Aug 2026 11:50:22 +0000</pubDate>
     </item>
     <item>
       <title>Siemens Solid Edge</title>
@@ -3178,6 +3136,13 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 16:55:02 +0000</pubDate>
     </item>
     <item>
+      <title>How Could the Rise of Progressive Democrats Impact US China Policy?</title>
+      <link>https://thediplomat.com/2026/08/how-could-the-rise-of-progressive-democrats-impact-us-china-policy/</link>
+      <description>A divide over China, although less pronounced than the divide over Israel, has become increasingly visible among Democrats as progressives have risen within the party.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/how-could-the-rise-of-progressive-democrats-impact-us-china-policy/</guid>
+      <pubDate>Thu, 13 Aug 2026 17:08:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Iranians Wait In Long Lines For Gas Amid Fuel Shortage</title>
       <link>https://www.rferl.org/a/iranians-wait-in-long-lines-for-gas-amid-fuel-shortage/33829842.html</link>
       <description>Long lines are forming at gas stations in Iran as the ongoing war with the United States disrupts fuel supplies. Iranian authorities have rationed fuel and considered other measures that would raise prices in an effort to curb consumption. Previous price hikes on gas have sparked social unrest in the country.</description>
@@ -3397,6 +3362,41 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <description>Alabama landed SPACECOM after a years-long political fight. Now it’s getting off the ground.</description>
       <guid isPermaLink="false">https://www.defenseone.com/policy/2026/08/intel-ops-are-underway-space-commands-nascent-alabama-hq/415418/</guid>
       <pubDate>Thu, 13 Aug 2026 22:24:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>U.S. Launching International One-Way Attack Drone Task Force In The Middle East</title>
+      <link>https://www.twz.com/news-features/u-s-launching-international-one-way-attack-drone-task-force-in-the-middle-east</link>
+      <description>&lt;p&gt;Task Force Falcon Strike will combine allies' air, sea and underwater one-way drone operations.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/u-s-launching-international-one-way-attack-drone-task-force-in-the-middle-east"&gt;U.S. Launching International One-Way Attack Drone Task Force In The Middle East&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/u-s-launching-international-one-way-attack-drone-task-force-in-the-middle-east</guid>
+      <pubDate>Fri, 14 Aug 2026 00:15:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>As warfare becomes engineering, the era of the digital mercenary dawns</title>
+      <link>https://www.defenseone.com/policy/2026/08/warfare-becomes-engineering-era-digital-mercenary-dawns/415421/</link>
+      <description>The White House revives “privateering for the digital age” by authorizing cyber firms to strike foreign targets.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/08/warfare-becomes-engineering-era-digital-mercenary-dawns/415421/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:28:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks</title>
+      <link>https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/</link>
+      <description>You're not alone if you just received an "Apple Threat Notification" saying it detected a "mercenary spyware attack targeted at your iPhone." [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/</guid>
+      <pubDate>Fri, 14 Aug 2026 01:19:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>New US security entities hint at more Latin American operations</title>
+      <link>https://www.defenseone.com/ideas/2026/08/security-entities-latin-american-operations/415420/</link>
+      <description>A new task force and coordinating body suggest SOUTHCOM senses a need for cooperation in the region.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/ideas/2026/08/security-entities-latin-american-operations/415420/</guid>
+      <pubDate>Fri, 14 Aug 2026 01:26:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)</title>
+      <link>https://isc.sans.edu/diary/rss/33246</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33246</guid>
+      <pubDate>Fri, 14 Aug 2026 02:00:03 +0000</pubDate>
     </item>
   </channel>
 </rss>
