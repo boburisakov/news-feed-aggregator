@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 17:37:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 18:32:22 +0000</lastBuildDate>
     <item>
       <title>They said they would build AI safely. Then it went rogue.</title>
       <link>https://cset.georgetown.edu/article/they-said-they-would-build-ai-safely-then-it-went-rogue/</link>
@@ -41,7 +41,7 @@
     <item>
       <title>Robot Recycler Salvages Parts From Broken Machines</title>
       <link>https://spectrum.ieee.org/recycling-robot</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&amp;amp;width=1200&amp;amp;height=400&amp;amp;coordinates=0%2C729%2C0%2C730" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacturers want to produce (and consumers want to consume) at lower costs, the more industrial robots will be needed.&lt;/p&gt;&lt;p&gt;There are &lt;a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years" rel="noopener noreferrer" target="_blank"&gt;over 4 million&lt;/a&gt; industrial robots in use worldwide, according to the &lt;a href="https://ifr.org/" target="_blank"&gt;International Federation of Robotics&lt;/a&gt;. And &lt;a href="https://www.abiresearch.com/press/manufacturing-robot-installed-base-to-hit-16.3-million-by-2030-amid-baby-boomer-exodus" rel="noopener noreferrer" target="_blank"&gt;researchers predict&lt;/a&gt; that number will grow to over 16 million by 2030, as manufacturing rapidly increases. But what’s going to happen when they start breaking down? A new system designed by researchers at the &lt;a href="https://www.wbk.kit.edu/english/index.php" target="_blank"&gt;Karlsruhe Institute of Technology&lt;/a&gt; (KIT), in Karlsruhe, Germany, can predict the defect in a broken product and disassemble it while protecting valuable parts from damage. To continue robotic development &lt;a href="https://roboticsecolabel.com/" rel="noopener noreferrer" target="_blank"&gt;sustainably&lt;/a&gt;, the industry should prepare for the dismantling, &lt;a href="https://spectrum.ieee.org/e-waste-recycling-robots-ram" target="_blank"&gt;recycling&lt;/a&gt;, and rebuilding of our robotic systems.&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;The system consists of a predictive algorithm that guesses how a product is broken, along with robotic manipulators that actually take the broken product apart. At every stage of the process, the system checks to see if the results align with its predictions, and updates its methods if necessary. For example, in the video below, the system begins by unscrewing a broken component. To simulate a stuck screw, the researcher replaces the screw. When the system observes the screw still in place, it switches to milling away material to remove the part.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Building a product with new parts is easy, says &lt;a href="https://www.jan-baumgaertner.com/" target="_blank"&gt;Jan Baumgärtner&lt;/a&gt;, one of the designers of the system. Each step is clearly outlined, and there are no expected deviations. But taking apart something that’s broken is unpredictable. “We can imagine 100 ways that something can go wrong.” And if you start taking something apart without knowing how it broke, you might have to undo part of your work when you find the problem. For example, if you have to unscrew 100 screws holding two parts together, but the last screw is stuck, you’ll have wasted time unscrewing all those screws when you should have used a different method to remove the part in the first place.&lt;/p&gt;&lt;h3&gt;How to Take Apart a Product&lt;/h3&gt;&lt;p&gt;KIT’s robotic disassembly system relies on a CAD model of the broken product and of each part, so it can see how the parts should behave and understand if anything is out of the ordinary. It also uses &lt;span&gt;a mathematical model to predict the damage done to a broken part.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;When you give the system a broken device and a CAD model, it first guesses how each part of the broken device should move. The axes each part can move along are called degrees of freedom (for example, a screw should rotate, but not move side to side). The disassembler nudges each part to see if it moves as expected. Based on how the part actually moves, it then uses the mathematical model to predict what went wrong with the part: A corroded part might move less than you think it should, a loose screw may move more, and a deformed part might have different degrees of freedom than expected.&lt;/p&gt;&lt;p&gt;At the beginning of disassembly, the system formulates a plan. It guesses what might be wrong with the device it’s taking apart, and then can change its guess based on observing each piece it takes apart. For example, if there was a screw loose in the part, that might be hard to guess from an initial photograph of the broken part. But when the system moves the screw, it will notice that it can move in more ways than a screw &lt;em&gt;should&lt;/em&gt; move, and take that loose screw into account when deconstructing the device. You can also tell the disassembly system which parts are most important to salvage intact from a broken device, and it can adjust its strategy to preserve those specific parts.&lt;/p&gt;&lt;h3&gt;The Automated Circular Economy&lt;/h3&gt;&lt;p&gt;Baumgärtner’s motivation behind the design of the robotic disassembler is to help create a circular economy, where old devices are repaired instead of thrown away, reducing waste. “The big future is saving our planet,” he says.&lt;/p&gt;&lt;p&gt;Baumgärtner envisions scaling up this one system, composed of a few robotic arms, to have many robotic disassembler arms, each with different tools. These arms will specialize in a different part of the disassembly process so that an entire factory could use different robotic limbs to disassemble a wide range of products. Think of an &lt;a href="https://spectrum.ieee.org/hyundai-metaplant" target="_self"&gt;industrial robot factory that creates cars,&lt;/a&gt; but instead is specialized to take them apart. Or, as he puts it, “as a giant robot with 100 arms.”&lt;/p&gt;&lt;p&gt;Ultimately, if this system works as intended, it would be a fully automated way of extracting a broken part from a system, replacing it, and rebuilding the device. Then the circular economy would really shine, as people replaced broken parts in old devices instead of buying new ones all the time. “That’s why we need to think about scaling this,” he says. “Because it means it becomes so cheap that it’s cheaper to repair this [electronic device] than to produce it. That’s the goal.”&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/pdf/2511.23407" target="_blank"&gt;This research&lt;/a&gt; was presented at the IEEE International Conference on Robotics and Automation (ICRA) 2026 in Vienna.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;This story was updated 11 August 2026 to clarify that the disassembly system works for products in general, not only robots.&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C156%2C0%2C157" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacturers want to produce (and consumers want to consume) at lower costs, the more industrial robots will be needed.&lt;/p&gt;&lt;p&gt;There are &lt;a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years" rel="noopener noreferrer" target="_blank"&gt;over 4 million&lt;/a&gt; industrial robots in use worldwide, according to the &lt;a href="https://ifr.org/" target="_blank"&gt;International Federation of Robotics&lt;/a&gt;. And &lt;a href="https://www.abiresearch.com/press/manufacturing-robot-installed-base-to-hit-16.3-million-by-2030-amid-baby-boomer-exodus" rel="noopener noreferrer" target="_blank"&gt;researchers predict&lt;/a&gt; that number will grow to over 16 million by 2030, as manufacturing rapidly increases. But what’s going to happen when they start breaking down? A new system designed by researchers at the &lt;a href="https://www.wbk.kit.edu/english/index.php" target="_blank"&gt;Karlsruhe Institute of Technology&lt;/a&gt; (KIT), in Karlsruhe, Germany, can predict the defect in a broken product and disassemble it while protecting valuable parts from damage. To continue robotic development &lt;a href="https://roboticsecolabel.com/" rel="noopener noreferrer" target="_blank"&gt;sustainably&lt;/a&gt;, the industry should prepare for the dismantling, &lt;a href="https://spectrum.ieee.org/e-waste-recycling-robots-ram" target="_blank"&gt;recycling&lt;/a&gt;, and rebuilding of our robotic systems.&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;The system consists of a predictive algorithm that guesses how a product is broken, along with robotic manipulators that actually take the broken product apart. At every stage of the process, the system checks to see if the results align with its predictions, and updates its methods if necessary. For example, in the video below, the system begins by unscrewing a broken component. To simulate a stuck screw, the researcher replaces the screw. When the system observes the screw still in place, it switches to milling away material to remove the part.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Building a product with new parts is easy, says &lt;a href="https://www.jan-baumgaertner.com/" target="_blank"&gt;Jan Baumgärtner&lt;/a&gt;, one of the designers of the system. Each step is clearly outlined, and there are no expected deviations. But taking apart something that’s broken is unpredictable. “We can imagine 100 ways that something can go wrong.” And if you start taking something apart without knowing how it broke, you might have to undo part of your work when you find the problem. For example, if you have to unscrew 100 screws holding two parts together, but the last screw is stuck, you’ll have wasted time unscrewing all those screws when you should have used a different method to remove the part in the first place.&lt;/p&gt;&lt;h3&gt;How to Take Apart a Product&lt;/h3&gt;&lt;p&gt;KIT’s robotic disassembly system relies on a CAD model of the broken product and of each part, so it can see how the parts should behave and understand if anything is out of the ordinary. It also uses &lt;span&gt;a mathematical model to predict the damage done to a broken part.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;When you give the system a broken device and a CAD model, it first guesses how each part of the broken device should move. The axes each part can move along are called degrees of freedom (for example, a screw should rotate, but not move side to side). The disassembler nudges each part to see if it moves as expected. Based on how the part actually moves, it then uses the mathematical model to predict what went wrong with the part: A corroded part might move less than you think it should, a loose screw may move more, and a deformed part might have different degrees of freedom than expected.&lt;/p&gt;&lt;p&gt;At the beginning of disassembly, the system formulates a plan. It guesses what might be wrong with the device it’s taking apart, and then can change its guess based on observing each piece it takes apart. For example, if there was a screw loose in the part, that might be hard to guess from an initial photograph of the broken part. But when the system moves the screw, it will notice that it can move in more ways than a screw &lt;em&gt;should&lt;/em&gt; move, and take that loose screw into account when deconstructing the device. You can also tell the disassembly system which parts are most important to salvage intact from a broken device, and it can adjust its strategy to preserve those specific parts.&lt;/p&gt;&lt;h3&gt;The Automated Circular Economy&lt;/h3&gt;&lt;p&gt;Baumgärtner’s motivation behind the design of the robotic disassembler is to help create a circular economy, where old devices are repaired instead of thrown away, reducing waste. “The big future is saving our planet,” he says.&lt;/p&gt;&lt;p&gt;Baumgärtner envisions scaling up this one system, composed of a few robotic arms, to have many robotic disassembler arms, each with different tools. These arms will specialize in a different part of the disassembly process so that an entire factory could use different robotic limbs to disassemble a wide range of products. Think of an &lt;a href="https://spectrum.ieee.org/hyundai-metaplant" target="_self"&gt;industrial robot factory that creates cars,&lt;/a&gt; but instead is specialized to take them apart. Or, as he puts it, “as a giant robot with 100 arms.”&lt;/p&gt;&lt;p&gt;Ultimately, if this system works as intended, it would be a fully automated way of extracting a broken part from a system, replacing it, and rebuilding the device. Then the circular economy would really shine, as people replaced broken parts in old devices instead of buying new ones all the time. “That’s why we need to think about scaling this,” he says. “Because it means it becomes so cheap that it’s cheaper to repair this [electronic device] than to produce it. That’s the goal.”&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/pdf/2511.23407" target="_blank"&gt;This research&lt;/a&gt; was presented at the IEEE International Conference on Robotics and Automation (ICRA) 2026 in Vienna.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;This story was updated 11 August 2026 to clarify that the disassembly system works for products in general, not only robots.&lt;/em&gt;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/recycling-robot</guid>
       <pubDate>Mon, 10 Aug 2026 18:01:25 +0000</pubDate>
     </item>
@@ -60,13 +60,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/ftc-regulating-ai-ideological-bias/"&gt;The FTC wants to regulate AI for ideological bias &lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/ftc-regulating-ai-ideological-bias/</guid>
       <pubDate>Mon, 10 Aug 2026 21:20:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>DOGE said it saved $1.7 billion by terminating a military health IT contract. GAO found the contract was never terminated.</title>
-      <link>https://www.defensenews.com/news/pentagon-congress/2026/08/10/doge-said-it-saved-17-billion-by-terminating-a-military-health-it-contract-gao-found-the-contract-was-never-terminated/</link>
-      <description>DOGE reported $1.76 billion in savings from terminating a contract, but GAO found that the contract was never terminated and no funds were deobligated.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/08/10/doge-said-it-saved-17-billion-by-terminating-a-military-health-it-contract-gao-found-the-contract-was-never-terminated/</guid>
-      <pubDate>Mon, 10 Aug 2026 21:33:33 +0000</pubDate>
     </item>
     <item>
       <title>The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications</title>
@@ -158,16 +151,16 @@
     </item>
     <item>
       <title>Lockheed Martin launches modular missile tech with dedicated ‘storefront’</title>
-      <link>https://www.c4isrnet.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/</link>
+      <link>https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/</link>
       <description>Lockheed Martin on Monday announced the launch of Strigo, a new line of modular missile and sensor hardware.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/</guid>
       <pubDate>Tue, 11 Aug 2026 14:38:29 +0000</pubDate>
     </item>
     <item>
       <title>Lockheed Martin launches modular missile tech with dedicated ‘storefront’</title>
-      <link>https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/</link>
+      <link>https://www.c4isrnet.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/</link>
       <description>Lockheed Martin on Monday announced the launch of Strigo, a new line of modular missile and sensor hardware.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/news/your-military/2026/08/11/lockheed-martin-launches-modular-missile-tech-with-dedicated-storefront/</guid>
       <pubDate>Tue, 11 Aug 2026 14:38:29 +0000</pubDate>
     </item>
     <item>
@@ -370,13 +363,6 @@ According to Picus Labs' new Blue Report 2026, which measured more than 338 mill
 The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html</guid>
       <pubDate>Wed, 12 Aug 2026 11:47:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Walmart Leaders Transform Security Operations Without Going Bananas</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas</link>
-      <description>The big-box giant has scaled its defenses by encouraging trust and innovation. Good communications, transparency, and team spirit are key factors.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas</guid>
-      <pubDate>Wed, 12 Aug 2026 12:41:03 +0000</pubDate>
     </item>
     <item>
       <title>Collins Aerospace lands US Army contract for Chinook avionics upgrade</title>
@@ -604,13 +590,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How the Modi Government is Downgrading India’s National Anthem</title>
-      <link>https://thediplomat.com/2026/08/how-the-modi-government-is-downgrading-indias-national-anthem/</link>
-      <description>For the first time in eight decades, the country’s national song, Vande Mataram, will precede the playing of the national anthem on Independence Day.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/how-the-modi-government-is-downgrading-indias-national-anthem/</guid>
-      <pubDate>Thu, 13 Aug 2026 07:23:00 +0000</pubDate>
-    </item>
-    <item>
       <title>2026 and All That: Another Benchmark Year in Royal Navy Decline</title>
       <link>https://warontherocks.com/2026-and-all-that-another-benchmark-year-in-royal-navy-decline/</link>
       <description>&lt;p&gt;The 1930 comic history, 1066 and All That, made famous the British habit of reducing national history to a sequence of memorable dates. The modern Royal Navy has its own unhappy version of that calendar. Since 1945, a series of ostensibly practical political decisions has steadily reduced Britain&amp;#8217;s ability to sustain a globally relevant fleet: the 1956 failed Suez expedition, the 1966 retreat from &amp;#8220;East of Suez,&amp;#8221; the 1981 Nott Review, the 1998 Strategic Defence Review, and the 2010 review that further reduced the fleet even as Britain moved toward operating the long-desired Queen Elizabeth-class aircraft carriers. The year 2026&lt;/p&gt;
@@ -655,17 +634,17 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>'Jewelbug' APT Balances State Espionage &amp;amp; Cryptocurrency Theft</title>
-      <link>https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft</link>
-      <description>Researchers discovered hackers-for-hire performing cyber espionage and financially motivated heists from the same Web panel.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft</guid>
-      <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What’s behind this summer’s heat, and why 2027 could be worse</title>
       <link>https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/</link>
       <description>This summer has been a scorcher for much of the Northern Hemisphere. June and July marked the hottest two-month stretch in Europe since record-keeping began. The contiguous US endured its hottest month on record in July. South Korea saw its highest-ever recorded temperature.   The heat isn’t over yet, but some scientists are already looking ahead&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/</guid>
+      <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Jewelbug' APT Balances State Espionage &amp;amp; Cryptocurrency Theft</title>
+      <link>https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft</link>
+      <description>Researchers discovered hackers-for-hire performing cyber espionage and financially motivated heists from the same Web panel.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft</guid>
       <pubDate>Thu, 13 Aug 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2686,20 +2665,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Competing Interests, Common Narrative: How Industry Shapes the AI Race</title>
-      <link>https://thediplomat.com/2026/08/competing-interests-common-narrative-how-industry-shapes-the-ai-race/</link>
-      <description>Different firms in the AI value chain invoke the AI race narrative, but with different policy preferences in mind.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/competing-interests-common-narrative-how-industry-shapes-the-ai-race/</guid>
-      <pubDate>Thu, 13 Aug 2026 12:48:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can Japan’s Defense Industry Meet its Ambitious Goals?</title>
-      <link>https://thediplomat.com/2026/08/can-japans-defense-industry-meet-its-ambitious-goals/</link>
-      <description>Japan increasingly recognizes the importance of the defense industrial base as a source of strategic capability. But can the industry actually deliver?</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/can-japans-defense-industry-meet-its-ambitious-goals/</guid>
-      <pubDate>Thu, 13 Aug 2026 12:48:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Digitizing Gaza’s financial system</title>
       <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/digitizing-gazas-financial-system/</link>
       <description>&lt;p&gt;A modern payment system could allow households and businesses in Gaza to receive aid, earn income, and transact safely during reconstruction. But it can only function with reliable internet, suitable devices, and robust identity verification.&lt;/p&gt;
@@ -2716,20 +2681,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Russia’s Yak-130M Jet Trainer Takes on a New Anti-Drone Role</title>
-      <link>https://sofrep.com/news/russias-yak-130m-jet-trainer-takes-on-a-new-anti-drone-role/</link>
-      <description>Russia’s Yak-130M turns a proven jet trainer into a heavily armed, low-cost drone hunter, freeing its most advanced fighters for more demanding combat missions. #Yak130M #RussianAirForce #DroneWarfare #MilitaryAviation #DefenseTechnology</description>
-      <guid isPermaLink="false">https://sofrep.com/news/russias-yak-130m-jet-trainer-takes-on-a-new-anti-drone-role/</guid>
-      <pubDate>Thu, 13 Aug 2026 13:00:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>The US Military Can’t Function Without China</title>
-      <link>https://thediplomat.com/2026/08/the-us-military-cant-function-without-china/</link>
-      <description>Rare earths are critical to making modern weapons – and China dominates the supply chain.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/the-us-military-cant-function-without-china/</guid>
-      <pubDate>Thu, 13 Aug 2026 13:13:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Lockheed Martin completes first live-fire test of Kodiak launcher</title>
       <link>https://www.army-technology.com/news/lockheed-martin-kodiak-launcher/</link>
       <description>Lockheed Martin has completed the first integrated live-fire test of its Kodiak containerised launcher at at Yakima Training Centre.</description>
@@ -2744,13 +2695,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 13:20:27 +0000</pubDate>
     </item>
     <item>
-      <title>North Korea Fires Ballistic Missiles, Deepening Silence Fuels Analyst Speculation</title>
-      <link>https://thediplomat.com/2026/08/north-korea-fires-ballistic-missiles-deepening-silence-fuels-analyst-speculation/</link>
-      <description>Seoul, Tokyo, and Washington condemned two ballistic missile launches ahead of allied military drills, but Pyongyang’s failure to report either test has left analysts guessing at the cause.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/north-korea-fires-ballistic-missiles-deepening-silence-fuels-analyst-speculation/</guid>
-      <pubDate>Thu, 13 Aug 2026 13:32:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Flock is tightening its rules in response to a growing surveillance backlash</title>
       <link>https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/</link>
       <description>The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:&amp;#8230;</description>
@@ -2763,20 +2707,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <description>America does not need another candidate molded by the machinery of partisan politics; it needs a leader willing to confront the failures of both parties and restore unity, compromise, and purpose to national leadership. #AmericanPolitics #PoliticalPolarization #BipartisanLeadership #PresidentialElection #PoliticalReform</description>
       <guid isPermaLink="false">https://sofrep.com/news/americas-national-security-depends-on-finding-a-unifying-presidential-candidate/</guid>
       <pubDate>Thu, 13 Aug 2026 14:00:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can South Korea’s $880 Billion AI Ambition Help Cement Its Status as a High-Tech Powerhouse?</title>
-      <link>https://thediplomat.com/2026/08/can-south-koreas-880-billion-ai-ambition-help-cement-its-status-as-a-high-tech-powerhouse/</link>
-      <description>Plans are firmly underway to ensure that South Korea’s chipmaking strength can help to facilitate a stronger global position when it comes to the AI buildout.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/can-south-koreas-880-billion-ai-ambition-help-cement-its-status-as-a-high-tech-powerhouse/</guid>
-      <pubDate>Thu, 13 Aug 2026 14:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Is Everyone Playing Mahjong?</title>
-      <link>https://thediplomat.com/2026/08/why-is-everyone-playing-mahjong/</link>
-      <description>The centuries-old game is having a moment. But what happens when a tradition rooted in Chinese history becomes a lifestyle trend?</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/why-is-everyone-playing-mahjong/</guid>
-      <pubDate>Thu, 13 Aug 2026 14:48:00 +0000</pubDate>
     </item>
     <item>
       <title>Navy SEAL Fitness: Why Rock Climbing Builds Real-World Strength</title>
@@ -2831,13 +2761,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 16:55:02 +0000</pubDate>
     </item>
     <item>
-      <title>How Could the Rise of Progressive Democrats Impact US China Policy?</title>
-      <link>https://thediplomat.com/2026/08/how-could-the-rise-of-progressive-democrats-impact-us-china-policy/</link>
-      <description>A divide over China, although less pronounced than the divide over Israel, has become increasingly visible among Democrats as progressives have risen within the party.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/how-could-the-rise-of-progressive-democrats-impact-us-china-policy/</guid>
-      <pubDate>Thu, 13 Aug 2026 17:08:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Iranians Wait In Long Lines For Gas Amid Fuel Shortage</title>
       <link>https://www.rferl.org/a/iranians-wait-in-long-lines-for-gas-amid-fuel-shortage/33829842.html</link>
       <description>Long lines are forming at gas stations in Iran as the ongoing war with the United States disrupts fuel supplies. Iranian authorities have rationed fuel and considered other measures that would raise prices in an effort to curb consumption. Previous price hikes on gas have sparked social unrest in the country.</description>
@@ -2876,13 +2799,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Thu, 13 Aug 2026 18:14:06 +0000</pubDate>
     </item>
     <item>
-      <title>Hackers breach govt webmail while running parallel crypto fraud</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/</link>
-      <description>The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/</guid>
-      <pubDate>Thu, 13 Aug 2026 18:15:19 +0000</pubDate>
-    </item>
-    <item>
       <title>US Marines roam far and wide from temporary Darwin base</title>
       <link>https://www.defensenews.com/news/your-marine-corps/2026/08/13/us-marines-roam-far-and-wide-from-temporary-darwin-base/</link>
       <description>This year's Marine Rotation Force-Darwin is the first in its 15-year history to be certified as a Marine Air-Ground Task Force.</description>
@@ -2896,13 +2812,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/how-nepal-sri-lanka-and-bangladesh-are-deciding-on-indias-digital-public-infrastructure/"&gt;How Nepal, Sri Lanka, and Bangladesh are deciding on India’s digital public infrastructure&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/how-nepal-sri-lanka-and-bangladesh-are-deciding-on-indias-digital-public-infrastructure/</guid>
       <pubDate>Thu, 13 Aug 2026 19:07:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Day 3 of the 2026 Space and Missile Defense Symposium</title>
-      <link>https://breakingdefense.com/2026/08/day-3-of-the-2026-space-and-missile-defense-symposium/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/day-3-of-the-2026-space-and-missile-defense-symposium/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/20260813-SMD-dwoolfolk-015-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;A final round of photos from around the show floor in Huntsville, Ala. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/day-3-of-the-2026-space-and-missile-defense-symposium/</guid>
-      <pubDate>Thu, 13 Aug 2026 19:14:33 +0000</pubDate>
     </item>
     <item>
       <title>Army fires community tackling four ‘capability gaps,’ including magazine depth</title>
@@ -3060,24 +2969,17 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 01:26:27 +0000</pubDate>
     </item>
     <item>
-      <title>Former Myanmar Ambassador to UK Goes on Trial For ‘Trespassing’ in Diplomatic Residence</title>
-      <link>https://thediplomat.com/2026/08/former-myanmar-ambassador-to-uk-goes-on-trial-for-trespassing-in-diplomatic-residence/</link>
-      <description>Kyaw Zwar Minn argues that the military government formed after the 2021 coup was illegitimate and had no authority to order him to vacate Myanmar House.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/former-myanmar-ambassador-to-uk-goes-on-trial-for-trespassing-in-diplomatic-residence/</guid>
-      <pubDate>Fri, 14 Aug 2026 01:52:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)</title>
       <link>https://isc.sans.edu/diary/rss/33246</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33246</guid>
       <pubDate>Fri, 14 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
-      <title>How Indonesia Can Get Ahead in the Artificial Intelligence Race</title>
-      <link>https://thediplomat.com/2026/08/how-indonesia-can-get-ahead-in-the-artificial-intelligence-race/</link>
-      <description>The country has the abundant land and energy resources needed to power hyperscale data centers. Can it harness them effectively?</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/how-indonesia-can-get-ahead-in-the-artificial-intelligence-race/</guid>
-      <pubDate>Fri, 14 Aug 2026 02:08:00 +0000</pubDate>
+      <title>Restrictions on Foreign Fund Flow to Christian Organizations in India Complicate India-US Ties</title>
+      <link>https://thediplomat.com/2026/08/restrictions-on-foreign-fund-flow-to-christian-organizations-in-india-complicate-india-us-ties/</link>
+      <description>If the row over India’s proposed amendment of the FCRA persists alongside other irritants, the trade deal will remain in limbo for the foreseeable future.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/restrictions-on-foreign-fund-flow-to-christian-organizations-in-india-complicate-india-us-ties/</guid>
+      <pubDate>Fri, 14 Aug 2026 02:52:00 +0000</pubDate>
     </item>
     <item>
       <title>Standing With Afghan Women</title>
@@ -3165,6 +3067,13 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 10:31:35 +0000</pubDate>
     </item>
     <item>
+      <title>Mecca Joint Deterrence Agreement: Implications for India</title>
+      <link>https://thediplomat.com/2026/08/mecca-joint-deterrence-agreement-implications-for-india/</link>
+      <description>Pakistan would surely try to rally the group and invoke the pact in some form in the event of tensions with India.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/mecca-joint-deterrence-agreement-implications-for-india/</guid>
+      <pubDate>Fri, 14 Aug 2026 10:48:00 +0000</pubDate>
+    </item>
+    <item>
       <title>RingCentral data breach exposed info of 1.6 million accounts</title>
       <link>https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/</link>
       <description>The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]</description>
@@ -3200,6 +3109,13 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 12:00:15 +0000</pubDate>
     </item>
     <item>
+      <title>The Download: Flock’s new rules, cloning’s future, and children’s cells</title>
+      <link>https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwide network of license plate readers. The move comes&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</guid>
+      <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
+    </item>
+    <item>
       <title>Cyera's Oasis Security Buy Is All About AI Agent Control</title>
       <link>https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control</link>
       <description>The $1 billion deal aims to converge data security and identity into a single control plane for agents, with privileged access redefined around business context rather than static roles.</description>
@@ -3207,11 +3123,25 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
     </item>
     <item>
-      <title>The Download: Flock’s new rules, cloning’s future, and children’s cells</title>
-      <link>https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwide network of license plate readers. The move comes&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</guid>
-      <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
+      <title>Afghanistan: 5 Years in the Dark</title>
+      <link>https://thediplomat.com/2026/08/afghanistan-5-years-in-the-dark/</link>
+      <description>How the Taliban turned Afghanistan into a country where half the population has been ordered to disappear.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/afghanistan-5-years-in-the-dark/</guid>
+      <pubDate>Fri, 14 Aug 2026 12:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>5 Years After the Fall: Why the World Still Misreads the Taliban</title>
+      <link>https://thediplomat.com/2026/08/5-years-after-the-fall-why-the-world-still-misreads-the-taliban/</link>
+      <description>The international community assumed that governing would change the Taliban. The Taliban, however, viewed government as a means of transforming society according to their ideology.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/5-years-after-the-fall-why-the-world-still-misreads-the-taliban/</guid>
+      <pubDate>Fri, 14 Aug 2026 12:26:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>In Afghanistan, Growing Resistance Meets Fears of Pakistani Influence</title>
+      <link>https://thediplomat.com/2026/08/in-afghanistan-growing-resistance-meets-fears-of-pakistani-influence/</link>
+      <description>Five years after the Taliban’s return, the Afghan resistance is growing but so is the fear of Pakistan’s shadow.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/in-afghanistan-growing-resistance-meets-fears-of-pakistani-influence/</guid>
+      <pubDate>Fri, 14 Aug 2026 12:57:00 +0000</pubDate>
     </item>
     <item>
       <title>Russian atrocities in Ukraine are escalating and demand urgent action</title>
@@ -3227,6 +3157,13 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <description>Life aboard an aircraft carrier has always been cramped, filthy, exhausting, and occasionally absurd, but apparently Washington just discovered that the USS Abraham Lincoln isn’t a luxury cruise ship. #headline #USSLincoln #CVN72</description>
       <guid isPermaLink="false">https://sofrep.com/news/u-s-aircraft-carriers-arent-cruise-ships-the-washington-post-just-discovered-that-80-years-late/</guid>
       <pubDate>Fri, 14 Aug 2026 13:00:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>China Forced Nepal to Cancel an International Conference on Tibetan Studies</title>
+      <link>https://thediplomat.com/2026/08/china-forced-nepal-to-cancel-an-international-conference-on-tibetan-studies/</link>
+      <description>The incident reveals Beijing’s growing efforts to assert authority over Tibetan Buddhism – including in other countries.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/china-forced-nepal-to-cancel-an-international-conference-on-tibetan-studies/</guid>
+      <pubDate>Fri, 14 Aug 2026 13:21:00 +0000</pubDate>
     </item>
     <item>
       <title>CENTCOM launches multinational one-way attack drone force</title>
@@ -3250,10 +3187,24 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 13:45:18 +0000</pubDate>
     </item>
     <item>
+      <title>Why India Needs a Comprehensive Polar Strategy</title>
+      <link>https://thediplomat.com/2026/08/why-india-needs-a-comprehensive-polar-strategy/</link>
+      <description>The Arctic and Antarctic are reshaping both the global climate and the geopolitical chessboard. Yet India remains absent from the tables where polar futures are decided.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/why-india-needs-a-comprehensive-polar-strategy/</guid>
+      <pubDate>Fri, 14 Aug 2026 13:56:00 +0000</pubDate>
+    </item>
+    <item>
       <title>What Boards Need to Know About Tech Risk</title>
       <link>https://www.darkreading.com/cyber-risk/what-boards-must-know-tech-risk</link>
       <description>Why do so many boards underestimate technology risk until it becomes a crisis?</description>
       <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/what-boards-must-know-tech-risk</guid>
+      <pubDate>Fri, 14 Aug 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>In Interview, Japarov Says He’d Planned for Tashiev to Be Kyrgyz President Next</title>
+      <link>https://thediplomat.com/2026/08/in-interview-japarov-says-hed-planned-for-tashiev-to-be-kyrgyz-president-next/</link>
+      <description>Japarov claimed he changed his mind once he realized Tashiev is “not ready.”</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/in-interview-japarov-says-hed-planned-for-tashiev-to-be-kyrgyz-president-next/</guid>
       <pubDate>Fri, 14 Aug 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3292,6 +3243,13 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 14:43:02 +0000</pubDate>
     </item>
     <item>
+      <title>Taiwan Wants to Know Why Indonesia Joined China in a Naval Exercise East of Taiwan</title>
+      <link>https://thediplomat.com/2026/08/taiwan-wants-to-know-why-indonesia-joined-china-in-a-naval-exercise-east-of-taiwan/</link>
+      <description>The exercise highlighted increasing tensions in the waters east of Taiwan, which are also close to Japan and the Philippines.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/taiwan-wants-to-know-why-indonesia-joined-china-in-a-naval-exercise-east-of-taiwan/</guid>
+      <pubDate>Fri, 14 Aug 2026 14:50:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Pentagon inks SM-3 framework deals with RTX, Boeing on critical components</title>
       <link>https://breakingdefense.com/2026/08/pentagon-inks-sm-3-framework-deals-with-rtx-boeing-on-critical-components/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/pentagon-inks-sm-3-framework-deals-with-rtx-boeing-on-critical-components/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2024/04/934664-scaled-e1713286156806-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The seven-year framework deals cover key SM-3 components including avionics and ejector assemblies.&lt;/p&gt;</description>
@@ -3306,11 +3264,25 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 14:59:55 +0000</pubDate>
     </item>
     <item>
+      <title>Real World Fitness: Discipline Beats Motivation Every Time</title>
+      <link>https://sofrep.com/news/old-man-fitness-motivation-high-school-girlfriend-fitness/</link>
+      <description>Motivation gets you fired up, but discipline is what drags your ass under the weights on the days you’d rather stay in bed. #RealWorldFitness #FitnessMotivation #FitnessDiscipline #TrainHard #StayConsistent</description>
+      <guid isPermaLink="false">https://sofrep.com/news/old-man-fitness-motivation-high-school-girlfriend-fitness/</guid>
+      <pubDate>Fri, 14 Aug 2026 15:00:37 +0000</pubDate>
+    </item>
+    <item>
       <title>CENTCOM launches multinational attack drone task force</title>
       <link>https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/</link>
       <description>Task Force Falcon Strike will employ one-way attack drones composed of unmanned systems from above, on and below the sea.</description>
       <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/08/14/centcom-launches-multinational-attack-drone-task-force/</guid>
       <pubDate>Fri, 14 Aug 2026 15:09:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Singapore’s Israel Tightrope</title>
+      <link>https://thediplomat.com/2026/08/singapores-israel-tightrope/</link>
+      <description>The city-state’s ties with Israel have been built on a history that very few other Asian countries can boast. But Singapore can still say "no."</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/singapores-israel-tightrope/</guid>
+      <pubDate>Fri, 14 Aug 2026 15:20:00 +0000</pubDate>
     </item>
     <item>
       <title>Hanwha progresses K9 precision munition tender</title>
@@ -3380,7 +3352,7 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
     <item>
       <title>Video Friday: Lift Happens</title>
       <link>https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&amp;amp;width=1200&amp;amp;height=400&amp;amp;coordinates=0%2C229%2C0%2C230" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://actuate.foxglove.dev/"&gt;Actuate 2026&lt;/a&gt;: 18–19 August 2026, SAN FRANCISCO&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="2x2w3mweriu"&gt;Speaking from experience, I can tell you that the best part of any DARPA challenge is when things go horribly wrong. And after you enjoy all the crashes (followed by all of the battery fires), get caught up with the &lt;a href="https://spectrum.ieee.org/video-friday-heavy-lift-drone" target="_blank"&gt;DARPA Lift Challenge&lt;/a&gt; with video recaps of the final few days.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.darpa.mil/news/2026/lift-challenge-awards"&gt;DARPA Lift Challenge&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="gx-oyg38vjs"&gt;&lt;a href="https://spectrum.ieee.org/the-economics-of-drone-delivery" target="_blank"&gt;Drone delivery&lt;/a&gt;: coming soon to a moving vehicle (or perhaps even through an open window) near you.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://uav.hkust.edu.hk/"&gt;HKUST Aerial Robotics Group&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="shsjoyknax0"&gt;This tiny little robot called STEMbot (as in stem, not STEM) can climb up and around plant stems to check for pests. It’s not very fast, but it sure is adorable.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://um-arm-lab.github.io/stembot-site/"&gt;STEMbot&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="e47yaza_yuu"&gt;&lt;em&gt;Monumental’s robots delivered the brickwork for a semi-detached home, laying around 20,000 bricks in a new community.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.monumental.co/"&gt;Monumental&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="mm5itwlmsba"&gt;Meet the world’s most “truss’t-worthy” robot.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.modlabupenn.org/category/vtt/"&gt;Modlab University of Pennsylvania&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="f2r9grjjses"&gt;Stanford BDML and Honeybee Robotics propose a payload to test gecko-inspired adhesives in spaaace!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rmpc.nasatechleap.org/"&gt;NASA&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="q-yhtvmvxgk"&gt;&lt;em&gt;How can a legged robot organize its own walking while maintaining a desired direction? In this work, we present a Differential Adaptive Steering (DAST) mechanism for directional adaptation in legged robots under decentralized adaptive control.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://brain.vistec.ac.th/"&gt;BRAIN VISTEC&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="bugnlio-rqy"&gt;I do not care even a little bit if a robot fails (safely of course), as long as it recovers from that failure.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://sanctuary.ai/"&gt;Sanctuary AI&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="6_x5rirnn8o"&gt;Even for a robot that doesn’t drink champagne, those are some pretty light pours.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://kawasakirobotics.com/"&gt;Kawasaki Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="yqlkm6ylxkq"&gt;If we as a society would just accept that the appropriate place to store clothing is in a pile on the floor, robots would have a much easier time of it.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ixwjcz6xelo"&gt;To be fair, this is also the speed at which I fold shirts.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="5gd2b0cmfyu"&gt;&lt;em&gt;Our DR02 humanoid robot takes on the stairs with stable, controlled movement—steady steps, steady progress.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.cn/en"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="en7jfhgmqci"&gt;Two words: structural minifridge. Or is it mini fridge...? Whatever, THREE words.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://global.agilex.ai/"&gt;AgileX&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://actuate.foxglove.dev/"&gt;Actuate 2026&lt;/a&gt;: 18–19 August 2026, SAN FRANCISCO&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="2x2w3mweriu"&gt;Speaking from experience, I can tell you that the best part of any DARPA challenge is when things go horribly wrong. And after you enjoy all the crashes (followed by all of the battery fires), get caught up with the &lt;a href="https://spectrum.ieee.org/video-friday-heavy-lift-drone" target="_blank"&gt;DARPA Lift Challenge&lt;/a&gt; with video recaps of the final few days.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.darpa.mil/news/2026/lift-challenge-awards"&gt;DARPA Lift Challenge&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="gx-oyg38vjs"&gt;&lt;a href="https://spectrum.ieee.org/the-economics-of-drone-delivery" target="_blank"&gt;Drone delivery&lt;/a&gt;: coming soon to a moving vehicle (or perhaps even through an open window) near you.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://uav.hkust.edu.hk/"&gt;HKUST Aerial Robotics Group&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="shsjoyknax0"&gt;This tiny little robot called STEMbot (as in stem, not STEM) can climb up and around plant stems to check for pests. It’s not very fast, but it sure is adorable.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://um-arm-lab.github.io/stembot-site/"&gt;STEMbot&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="e47yaza_yuu"&gt;&lt;em&gt;Monumental’s robots delivered the brickwork for a semi-detached home, laying around 20,000 bricks in a new community.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.monumental.co/"&gt;Monumental&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="mm5itwlmsba"&gt;Meet the world’s most “truss’t-worthy” robot.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.modlabupenn.org/category/vtt/"&gt;Modlab University of Pennsylvania&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="f2r9grjjses"&gt;Stanford BDML and Honeybee Robotics propose a payload to test gecko-inspired adhesives in spaaace!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rmpc.nasatechleap.org/"&gt;NASA&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="q-yhtvmvxgk"&gt;&lt;em&gt;How can a legged robot organize its own walking while maintaining a desired direction? In this work, we present a Differential Adaptive Steering (DAST) mechanism for directional adaptation in legged robots under decentralized adaptive control.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://brain.vistec.ac.th/"&gt;BRAIN VISTEC&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="bugnlio-rqy"&gt;I do not care even a little bit if a robot fails (safely of course), as long as it recovers from that failure.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://sanctuary.ai/"&gt;Sanctuary AI&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="6_x5rirnn8o"&gt;Even for a robot that doesn’t drink champagne, those are some pretty light pours.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://kawasakirobotics.com/"&gt;Kawasaki Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="yqlkm6ylxkq"&gt;If we as a society would just accept that the appropriate place to store clothing is in a pile on the floor, robots would have a much easier time of it.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ixwjcz6xelo"&gt;To be fair, this is also the speed at which I fold shirts.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="5gd2b0cmfyu"&gt;&lt;em&gt;Our DR02 humanoid robot takes on the stairs with stable, controlled movement—steady steps, steady progress.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.cn/en"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="en7jfhgmqci"&gt;Two words: structural minifridge. Or is it mini fridge...? Whatever, THREE words.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://global.agilex.ai/"&gt;AgileX&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge</guid>
       <pubDate>Fri, 14 Aug 2026 17:00:01 +0000</pubDate>
     </item>
@@ -3397,6 +3369,34 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <description>The US President has implemented tariffs on foreign UAS and components, which reach 100% in some cases, over fears of dependence.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/us-apply-uas-tariffs-amid-fear-of-foreign-dependency/</guid>
       <pubDate>Fri, 14 Aug 2026 17:29:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Amid AI-Driven Bug Tsunami, NIST Looks to…AI</title>
+      <link>https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai</link>
+      <description>Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai</guid>
+      <pubDate>Fri, 14 Aug 2026 17:32:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patriot makers hedge on Ukraine production deal as officials question cause of hold-up</title>
+      <link>https://www.defensenews.com/global/europe/2026/08/14/patriot-makers-hedge-on-ukraine-production-deal-as-officials-question-cause-of-hold-up/</link>
+      <description>Though Trump promised Kyiv a license to build Patriot missile interceptors last month, Lockheed Martin and Raytheon have put the brakes on production.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/14/patriot-makers-hedge-on-ukraine-production-deal-as-officials-question-cause-of-hold-up/</guid>
+      <pubDate>Fri, 14 Aug 2026 17:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>America is sailing through the Taiwan Strait less. Does it matter?</title>
+      <link>https://breakingdefense.com/2026/08/america-is-sailing-through-the-taiwan-strait-less-does-it-matter/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/america-is-sailing-through-the-taiwan-strait-less-does-it-matter/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/8270635-scaled-e1786717267553-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;A Heritage Foundation study shows a significant drop in Taiwan Strait transits by the US military under the second Trump administration. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/america-is-sailing-through-the-taiwan-strait-less-does-it-matter/</guid>
+      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers arrested over €30M bank fraud exploiting service provider flaw</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/</link>
+      <description>Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/</guid>
+      <pubDate>Fri, 14 Aug 2026 18:04:26 +0000</pubDate>
     </item>
   </channel>
 </rss>
