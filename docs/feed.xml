@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 23:43:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 23:57:41 +0000</lastBuildDate>
     <item>
       <title>Scans for Solana (Surfpool&amp;#x3f;) Endpoints, (Mon, Aug 10th)</title>
       <link>https://isc.sans.edu/diary/rss/33230</link>
@@ -2907,13 +2907,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 11:24:35 +0000</pubDate>
     </item>
     <item>
-      <title>Shell investigates 'potential incident' after Clop data theft claims</title>
-      <link>https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/</link>
-      <description>Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/</guid>
-      <pubDate>Fri, 14 Aug 2026 11:55:45 +0000</pubDate>
-    </item>
-    <item>
       <title>The Download: Flock’s new rules, cloning’s future, and children’s cells</title>
       <link>https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</link>
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwide network of license plate readers. The move comes&amp;#8230;</description>
@@ -3400,6 +3393,13 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <description>Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/</guid>
       <pubDate>Sun, 16 Aug 2026 22:28:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>SafePal data breach impacts 39,798 customers, stolen info for sale</title>
+      <link>https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/</link>
+      <description>Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/</guid>
+      <pubDate>Sun, 16 Aug 2026 23:47:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
