@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 10:04:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 10:47:40 +0000</lastBuildDate>
     <item>
       <title>Robot Recycler Salvages Parts From Broken Machines</title>
       <link>https://spectrum.ieee.org/recycling-robot</link>
@@ -212,17 +212,6 @@
       <pubDate>Wed, 12 Aug 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access</title>
-      <link>https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html</link>
-      <description>The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.
-
-The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet.
-
-RoguePlanet has been described</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html</guid>
-      <pubDate>Wed, 12 Aug 2026 06:41:38 +0000</pubDate>
-    </item>
-    <item>
       <title>The Next School of War: Educating for Tomorrow’s Battlefield</title>
       <link>https://warontherocks.com/the-next-school-of-war-educating-for-tomorrows-battlefield/</link>
       <description>&lt;p&gt;When war changes, schools change. New technology, the politics of mass mobilization and campaign design, and novel tactics that defined Napoleonic warfare led to Gerhard von Scharnhorst&amp;#8217;s reforms and the idea of lifelong education as a professional obligation. The pattern repeated itself in the interwar period. In 1929, James Carson Breckinridge, a Marine officer, published &amp;#8220;Some Thoughts on Service Schools&amp;#8221; in the Marine Corps Gazette, calling for a new educational paradigm consistent with John Dewey&amp;#8217;s ideas about pragmatism and experiential learning.War is again changing. The promise of the third offset has arrived, extending the battlefield&amp;#160;and resulting in wars waged by&lt;/p&gt;
@@ -231,71 +220,12 @@ RoguePlanet has been described</description>
       <pubDate>Wed, 12 Aug 2026 07:30:12 +0000</pubDate>
     </item>
     <item>
-      <title>SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code</title>
-      <link>https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html</link>
-      <description>SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.
-
-The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation.
-
-"SAP Commerce Cloud allows an</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html</guid>
-      <pubDate>Wed, 12 Aug 2026 07:31:40 +0000</pubDate>
-    </item>
-    <item>
       <title>Hyman Rickover and the Birth of Nuclear Power</title>
       <link>https://warontherocks.com/cogs-of-war/hyman-rickover-and-the-birth-of-nuclear-power/</link>
       <description>&lt;p&gt;Editor&amp;#8217;s note: This is the eighth article in a limited series celebrating American defense technologies born from wartime and their effects on broader national security, politics, and society. This series will run for several weeks to commemorate America&amp;#8217;s 250th anniversary, and winners will be selected by a reader vote undertaken through our newsletter&amp;#160;later this summer. Prior installments can be found at the&amp;#160;Arsenal of Innovation&amp;#160;page.For more than 70 years, nuclear power has propelled America&amp;#8217;s silent service &amp;#8212; attack submarines stalking their prey from below, and the &amp;#8220;boomers&amp;#8221; that lurk undetected, ballistic missiles on alert, forming the most survivable leg of the&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/hyman-rickover-and-the-birth-of-nuclear-power/"&gt;Hyman Rickover and the Birth of Nuclear Power&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/hyman-rickover-and-the-birth-of-nuclear-power/</guid>
       <pubDate>Wed, 12 Aug 2026 08:00:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations</title>
-      <link>https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html</link>
-      <description>Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.
-
-Threat intelligence firm CloudSEK now says a dataset it obtained, built from roughly 434,000 files the attackers captured, maps potential exposure to more</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html</guid>
-      <pubDate>Wed, 12 Aug 2026 08:04:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access</title>
-      <link>https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html</link>
-      <description>Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.
-
-The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html</guid>
-      <pubDate>Wed, 12 Aug 2026 09:01:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws</title>
-      <link>https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</link>
-      <description>Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.
-
-The most severe of the flaws are listed below -
-
-
-  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</guid>
-      <pubDate>Wed, 12 Aug 2026 11:13:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Enterprise Defenses Recovered at the Edge and Collapsed Inside</title>
-      <link>https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html</link>
-      <description>Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none.
-
-According to Picus Labs' new Blue Report 2026, which measured more than 338 million real attack simulations across actual client production environments in the first half of 2026, defenses are having one of their strongest years yet. Average prevention effectiveness</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html</guid>
-      <pubDate>Wed, 12 Aug 2026 11:41:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning</title>
-      <link>https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html</link>
-      <description>A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords.
-
-The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html</guid>
-      <pubDate>Wed, 12 Aug 2026 11:47:38 +0000</pubDate>
     </item>
     <item>
       <title>Collins Aerospace lands US Army contract for Chinook avionics upgrade</title>
@@ -311,15 +241,6 @@ The weakness affected encrypted reasoning objects used by the providers' reasoni
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/irgc-qods-force-commander-qaani-travels-to-iraq-amid-pressure-over-militia-weapons.php"&gt;IRGC-Qods Force commander Qaani travels to Iraq amid pressure over militia weapons&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/irgc-qods-force-commander-qaani-travels-to-iraq-amid-pressure-over-militia-weapons.php</guid>
       <pubDate>Wed, 12 Aug 2026 13:59:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One</title>
-      <link>https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html</link>
-      <description>A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure.
-
-The extensions, published across at least 40 Chrome Web Store developer accounts, racked up 75,486 installs. Of those identified, 274 have been found to impersonate 66</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html</guid>
-      <pubDate>Wed, 12 Aug 2026 14:09:50 +0000</pubDate>
     </item>
     <item>
       <title>Linux Kernel Process Accounting, (Wed, Aug 12th)</title>
@@ -389,15 +310,6 @@ The extensions, published across at least 40 Chrome Web Store developer accounts
       <pubDate>Wed, 12 Aug 2026 17:30:08 +0000</pubDate>
     </item>
     <item>
-      <title>Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor</title>
-      <link>https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</link>
-      <description>The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India.
-
-The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</guid>
-      <pubDate>Wed, 12 Aug 2026 17:39:27 +0000</pubDate>
-    </item>
-    <item>
       <title>Army opens test ranges to private industry</title>
       <link>https://www.defensenews.com/news/your-military/2026/08/12/army-opens-test-ranges-to-private-industry/</link>
       <description>The effort, the Army says, is designed to hasten the development and testing of drones, counter-drone systems, long-range fires and cheap interceptors.</description>
@@ -464,17 +376,6 @@ The activity, per Check Point Research, is part of Operation Dream Job, a long-r
       <description>Decades of hard-won mediation experience point the way.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/ukraine/how-broker-peace-ukraine</guid>
       <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attackers Exploit SharePoint Authentication Bypass After Public PoC Release</title>
-      <link>https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html</link>
-      <description>Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.
-
-The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates.
-
-"The authentication</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html</guid>
-      <pubDate>Thu, 13 Aug 2026 06:09:48 +0000</pubDate>
     </item>
     <item>
       <title>Belgium's eID Authentication Opens Citizen Accounts to RCE</title>
@@ -2841,18 +2742,38 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 09:00:14 +0000</pubDate>
     </item>
     <item>
+      <title>Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware</title>
+      <link>https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html</link>
+      <description>Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks.
+
+In a statement shared with TechCrunch, the iPhone maker said it alerted an unspecified number of users targeted in 110 countries and that it has notified customers in over 150 countries to date. Apple began sending threat notifications to users in late 2021.</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html</guid>
+      <pubDate>Fri, 14 Aug 2026 10:44:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps</title>
+      <link>https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html</link>
+      <description>Cybersecurity researchers have uncovered a large-scale, global recruitment-themed phishing campaign that uses fake interview scheduling pages and Browser-in-the-Browser (BitB) windows to steal Google and Facebook credentials and, in more advanced cases, relay multi-factor authentication (MFA) prompts in real time.
+
+CTM360, which detailed the activity in a new report titled RecruitTrap, said it</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html</guid>
+      <pubDate>Fri, 14 Aug 2026 10:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers</title>
+      <link>https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html</link>
+      <description>Cybersecurity researchers have detailed a post-exploitation technique that enables the&amp;nbsp;Chrome DevTools Protocol (CDP)&amp;nbsp;inside a running Google Chrome or Microsoft Edge process on Windows, allowing an operator to access cookies, saved data, and authenticated browser sessions.
+
+The technique assumes that an operator already has code execution on the Windows host and does not involve</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html</guid>
+      <pubDate>Fri, 14 Aug 2026 11:07:45 +0000</pubDate>
+    </item>
+    <item>
       <title>Who’s Tracking You? Use This New Service to Find Out</title>
       <link>https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/</link>
       <description>It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.</description>
       <guid isPermaLink="false">https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/</guid>
       <pubDate>Fri, 14 Aug 2026 11:24:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Download: Flock’s new rules, cloning’s future, and children’s cells</title>
-      <link>https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwide network of license plate readers. The move comes&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</guid>
-      <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
     </item>
     <item>
       <title>Cyera's Oasis Security Buy Is All About AI Agent Control</title>
@@ -2862,12 +2783,28 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
     </item>
     <item>
+      <title>The Download: Flock’s new rules, cloning’s future, and children’s cells</title>
+      <link>https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwide network of license plate readers. The move comes&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</guid>
+      <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
+    </item>
+    <item>
       <title>Russian atrocities in Ukraine are escalating and demand urgent action</title>
       <link>https://www.atlanticcouncil.org/blogs/ukrainealert/russian-atrocities-in-ukraine-are-escalating-and-demand-urgent-action/</link>
       <description>&lt;p&gt;When leaders like Russian President Vladimir Putin embrace an ideology of national group destruction, history offers little reason to believe they can be persuaded to abandon that objective, writes Kristina Hook.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/russian-atrocities-in-ukraine-are-escalating-and-demand-urgent-action/"&gt;Russian atrocities in Ukraine are escalating and demand urgent action&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/russian-atrocities-in-ukraine-are-escalating-and-demand-urgent-action/</guid>
       <pubDate>Fri, 14 Aug 2026 12:57:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth</title>
+      <link>https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html</link>
+      <description>The threat actor known as HoneyMyte (aka&amp;nbsp;Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, files, registry objects, and command-and-control (C2) network information.
+
+Russian cybersecurity vendor Kaspersky said it identified victims in Myanmar, Mongolia, Pakistan,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html</guid>
+      <pubDate>Fri, 14 Aug 2026 13:08:56 +0000</pubDate>
     </item>
     <item>
       <title>China Forced Nepal to Cancel an International Conference on Tibetan Studies</title>
@@ -2910,13 +2847,6 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <description>Japarov claimed he changed his mind once he realized Tashiev is “not ready.”</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/in-interview-japarov-says-hed-planned-for-tashiev-to-be-kyrgyz-president-next/</guid>
       <pubDate>Fri, 14 Aug 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI</title>
-      <link>https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/</link>
-      <description>Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/</guid>
-      <pubDate>Fri, 14 Aug 2026 14:00:10 +0000</pubDate>
     </item>
     <item>
       <title>Trump opens door for foreign-built Navy ships. It could get complicated.</title>
@@ -3026,6 +2956,13 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 17:08:25 +0000</pubDate>
     </item>
     <item>
+      <title>IAM Compliance Requirements and Best Practices</title>
+      <link>https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html</link>
+      <description>IAM compliance is the practice of demonstrating that identity and access controls are not only documented but actually enforced across users, applications, infrastructure, and non-human identities. This guide explains what IAM compliance requires, which regulations matter, and how organizations move from periodic access reviews toward continuous, evidence-backed verification that auditors can</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html</guid>
+      <pubDate>Fri, 14 Aug 2026 17:19:49 +0000</pubDate>
+    </item>
+    <item>
       <title>US apply UAS tariffs amid fear of foreign dependency</title>
       <link>https://www.army-technology.com/news/us-apply-uas-tariffs-amid-fear-of-foreign-dependency/</link>
       <description>The US President has implemented tariffs on foreign UAS and components, which reach 100% in some cases, over fears of dependence.</description>
@@ -3059,6 +2996,17 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <description>Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/</guid>
       <pubDate>Fri, 14 Aug 2026 18:04:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware</title>
+      <link>https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html</link>
+      <description>Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.
+
+DNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain becomes available for registration and is then snapped up by another party.
+
+During the first half of 2026, 50,400</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html</guid>
+      <pubDate>Fri, 14 Aug 2026 18:48:46 +0000</pubDate>
     </item>
     <item>
       <title>Indonesia has all that it takes to move up the value chain</title>
@@ -3129,11 +3077,24 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Fri, 14 Aug 2026 23:24:17 +0000</pubDate>
     </item>
     <item>
-      <title>Arrests Of Top Figures In Russia's Drone Industry Highlight Claims Of Wartime Corruption</title>
-      <link>https://www.rferl.org/a/russia-drones-corruption-fraud-ukraine-china/33830405.html</link>
-      <description>A number of senior figures in Russian drone companies are facing fraud charges, with one accused of passing Chinese drones off as being produced in Russia. Drones made by both companies have been presented to President Vladimir Putin as examples of homegrown innovation.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-drones-corruption-fraud-ukraine-china/33830405.html</guid>
-      <pubDate>Sat, 15 Aug 2026 09:37:23 +0000</pubDate>
+      <title>Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner</title>
+      <link>https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html</link>
+      <description>A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned.
+
+The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html</guid>
+      <pubDate>Sat, 15 Aug 2026 07:24:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch</title>
+      <link>https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html</link>
+      <description>A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.
+
+The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation.
+
+"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html</guid>
+      <pubDate>Sat, 15 Aug 2026 08:38:46 +0000</pubDate>
     </item>
     <item>
       <title>Afghanistan Under Taliban Rule: Five Years Of Crisis, Isolation, And Growing Resistance</title>
@@ -3364,6 +3325,15 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <pubDate>Mon, 17 Aug 2026 07:30:08 +0000</pubDate>
     </item>
     <item>
+      <title>Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware</title>
+      <link>https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html</link>
+      <description>Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT).
+
+The attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html</guid>
+      <pubDate>Mon, 17 Aug 2026 07:36:19 +0000</pubDate>
+    </item>
+    <item>
       <title>Blanchard’s Lathe and the Long Arc of American Manufacturing</title>
       <link>https://warontherocks.com/cogs-of-war/blanchards-lathe-and-the-long-arc-of-american-manufacturing/</link>
       <description>&lt;p&gt;Emerging from the chaos of supplying the U.S. Army during the War of 1812, the War Department sought to foster domestic production of standardized muskets. Out of this industrial project arose an invention that laid the foundation for automation and mass production. Thomas Blanchard&amp;#8217;s copying lathe was a product of a fluid interchange between public and private interests, expertise, and capital. Born into the mechanical milieu of the nineteenth-century Connecticut River Valley, Blanchard embodied&amp;#160;the period&amp;#8217;s spirit of ingenuity. His creation enabled complex, irregular three-dimensional wood forms to be manufactured at scale. Prior to the copying lathe, this was an artisanal&amp;#160;task&lt;/p&gt;
@@ -3391,6 +3361,29 @@ The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers 
       <description>Microsoft is working on a security patch for the "ShieldBreak" zero-day vulnerability disclosed last week by security researcher "Nightmare Eclipse" and now tracked as CVE-2026-69414. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/</guid>
       <pubDate>Mon, 17 Aug 2026 09:05:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies</title>
+      <link>https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html</link>
+      <description>Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.
+
+"While the malware reuses the DDoS engine from the publicly leaked Mirai source code, it extends the original framework with numerous capabilities, including</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html</guid>
+      <pubDate>Mon, 17 Aug 2026 09:29:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>French tax authority data breach affects 678,000 individuals</title>
+      <link>https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/</link>
+      <description>The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/</guid>
+      <pubDate>Mon, 17 Aug 2026 10:09:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran's Parliament Moves On Bill That Could Turn Foreign Contact Into A Crime</title>
+      <link>https://www.rferl.org/a/iran-parliament-bill-hostile-media-criminalize/33832009.html</link>
+      <description>Iran’s hardline-dominated parliament has approved the framework of a bill that criminalizes a range of interactions with "hostile" foreign media and other institutions with ties abroad as authorities look to curb what they consider foreign infiltration of the Islamic republic.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-parliament-bill-hostile-media-criminalize/33832009.html</guid>
+      <pubDate>Mon, 17 Aug 2026 10:15:28 +0000</pubDate>
     </item>
     <item>
       <title>Advice From a Navy SEAL Dad: Unplug and Get to the Woods</title>
