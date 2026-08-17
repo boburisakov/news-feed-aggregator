@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 15:37:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 15:58:50 +0000</lastBuildDate>
     <item>
       <title>ISC Stormcast For Tuesday, August 11th, 2026 https://isc.sans.edu/podcastdetail/10046, (Tue, Aug 11th)</title>
       <link>https://isc.sans.edu/diary/rss/33232</link>
@@ -369,409 +369,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/"&gt;Trump turns to private sector in offensive hacking operations memo&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/</guid>
       <pubDate>Thu, 13 Aug 2026 11:47:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Siemens Solid Edge</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-12.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and recommends to update to the latest versions.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Siemens Solid Edge are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid Edge SE2025 vers:intdot/&amp;lt;225.0.15 (CVE-2026-50058, CVE-2026-50059, CVE-2026-50060, CVE-2026-50061, CVE-2026-50062, CVE-2026-50063, CVE-2026-50064)&lt;/li&gt;
-&lt;li&gt;Solid Edge SE2026 vers:intdot/&amp;lt;226.0.7 (CVE-2026-50058, CVE-2026-50059, CVE-2026-50060, CVE-2026-50061, CVE-2026-50062, CVE-2026-50063, CVE-2026-50064)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.8&lt;/td&gt;
-&lt;td&gt;Siemens&lt;/td&gt;
-&lt;td&gt;Siemens Solid Edge&lt;/td&gt;
-&lt;td&gt;Out-of-bounds Read, Out-of-bounds Write, Use After Free&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50058&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds read vulnerability while parsing specially crafted DFT files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50058"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50059&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds write vulnerability while parsing specially crafted DFT files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50059"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50060&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contain a use-after-free vulnerability that could be triggered while parsing specially crafted DFT files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50060"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/416.html"&gt;CWE-416 Use After Free&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50061&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contain a use-after-free vulnerability that could be triggered while parsing specially crafted DFT files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50061"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/416.html"&gt;CWE-416 Use After Free&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50062&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds read vulnerability while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50062"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50063&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds read vulnerability while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50063"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50064&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds write vulnerability while parsing specially crafted PSM files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50064"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Siemens ProductCERT reported these vulnerabilities to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Recommendations&lt;/h2&gt;
-&lt;p&gt;As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Additional Resources&lt;/h2&gt;
-&lt;p&gt;For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Terms of Use&lt;/h2&gt;
-&lt;p&gt;The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Siemens ProductCERT SSA-621657 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-11&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-11&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Publication Date&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-13&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Siemens ProductCERT SSA-621657 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12</guid>
-      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ANDRITZ HIPASE-250 and 250 SCALA</title>
@@ -2931,13 +2528,6 @@ The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring 
       <pubDate>Sat, 15 Aug 2026 08:38:46 +0000</pubDate>
     </item>
     <item>
-      <title>US Promises 'Unprecedented' Economic Isolation Of Iran. What Could That Mean?</title>
-      <link>https://www.rferl.org/a/iran-us-economic-isolation-sanctions-pressure/33830630.html</link>
-      <description>The US is threatening to hit Iran with what Treasury Secretary Scott Bessent called “measures like have never been seen in the history of economic isolation on a country." What could those measures be – and will they work?</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-us-economic-isolation-sanctions-pressure/33830630.html</guid>
-      <pubDate>Sat, 15 Aug 2026 12:57:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Ukraine Strikes Key Russian Rocket Facility, Zelenskyy Says</title>
       <link>https://www.rferl.org/a/ukraine-strikes-key-russian-rocket-facility-zelenskyy-says/33831042.html</link>
       <description>Ukraine says it struck a key Russian rocket facility in Samara on August 15. Ukrainian President Volodymyr Zelenskyy said a domestically produced long-range Flamingo missile was used in the attack. The strike is part of a wider campaign targeting key Russian military, energy, and logistics facilities.</description>
@@ -2978,13 +2568,6 @@ The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring 
       <description>Russia is proposing an overhaul of its foreign-worker recruitment system in 2027, tying migrants to specific employers, jobs, and regions. Experts warn that tighter rules could worsen labor shortages and push more migrants into informal employment.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russia-migrant-worker-rules-central-asia-uzbekistan-tajikistan/33831461.html</guid>
       <pubDate>Sun, 16 Aug 2026 12:34:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Navy SEAL Submarine Surfing in Panama? No $hit There I Was…</title>
-      <link>https://sofrep.com/news/submarine-surfing-navy-seal-in-panama-no-hit-there-i-was/</link>
-      <description>Jerry M was the legend of SEAL Team 3. Most of his stories hover somewhere between myth and make-believe, but this one is real. #NavySEALs #SEALTeam #BUDS #NavalSpecialWarfare #Frogman #TridentEarned #SOF #SpecialOperations #USNavy #TeamGuys</description>
-      <guid isPermaLink="false">https://sofrep.com/news/submarine-surfing-navy-seal-in-panama-no-hit-there-i-was/</guid>
-      <pubDate>Sun, 16 Aug 2026 13:00:11 +0000</pubDate>
     </item>
     <item>
       <title>History of the 8th Special Forces Group</title>
@@ -3229,6 +2812,20 @@ The&amp;nbsp;advisory, published August 17, 2026, is the second stage of a chain
       <pubDate>Mon, 17 Aug 2026 11:58:00 +0000</pubDate>
     </item>
     <item>
+      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-62593" target="_blank"&gt;CVE-2025-62593&lt;/a&gt; Ray-Project Ray Code Injection Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Medal of Honor: Donald Sloat Smothered a Grenade to Save His Squad, Then Waited 44 Years for Recognition</title>
       <link>https://sofrep.com/news/medal-of-honor-don-sloat-had-seconds-to-decide-who-the-grenade-would-kill/</link>
       <description>Donald Sloat had seconds to decide who that grenade would kill, and the 20-year-old machine gunner from Coweta chose to take the blast himself so the men around him could live. #MedalOfHonor #DonaldPSloat #VietnamWar #USArmy #MedalOfHonorMonday</description>
@@ -3387,6 +2984,20 @@ So, nothing magical. Just a</description>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/kubasik-ousted-as-l3harris-ceo-following-conduct-violation-company-says/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/09/220920_KATZ_L3Harris_sign-scaled-e1690550785613-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;L3Harris did not provide specifics on what led to Kubasik’s ouster, but said in a press release that the company “became aware” of conduct by Kubasik “that was not consistent” with its code of conduct. &lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/kubasik-ousted-as-l3harris-ceo-following-conduct-violation-company-says/</guid>
       <pubDate>Mon, 17 Aug 2026 15:21:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Artist Collective Challenges Iran's Account of Designers' Arrest</title>
+      <link>https://www.rferl.org/a/iran-graphic-designers-french-diplomats-arrest/33832095.html</link>
+      <description>Almost a month after two prominent Iranian graphic designers were detained by security forces, friends and relatives of the pair have issued a statement demanding public disclosure of the charges against them and immediate access to independent legal counsel.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-graphic-designers-french-diplomats-arrest/33832095.html</guid>
+      <pubDate>Mon, 17 Aug 2026 15:43:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grab Life By the Balls: 10 Life Hacks From a Former Navy SEAL</title>
+      <link>https://sofrep.com/?p=77866&amp;preview=true&amp;preview_id=77866</link>
+      <description>Getting your act together does not mean becoming some joyless productivity robot. It means managing your time, setting your priorities, staying flexible when life goes sideways, and still leaving enough room to enjoy the ride. #ProductivityTips #TimeManagement #LifeHacks #DailyDiscipline #GetThingsDone</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=77866&amp;preview=true&amp;preview_id=77866</guid>
+      <pubDate>Wed, 19 Aug 2026 12:00:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
