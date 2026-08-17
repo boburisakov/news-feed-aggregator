@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 14:43:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 15:02:50 +0000</lastBuildDate>
     <item>
       <title>ISC Stormcast For Tuesday, August 11th, 2026 https://isc.sans.edu/podcastdetail/10046, (Tue, Aug 11th)</title>
       <link>https://isc.sans.edu/diary/rss/33232</link>
@@ -2659,17 +2659,17 @@
       <pubDate>Fri, 14 Aug 2026 11:24:35 +0000</pubDate>
     </item>
     <item>
-      <title>The Download: Flock’s new rules, cloning’s future, and children’s cells</title>
-      <link>https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwide network of license plate readers. The move comes&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</guid>
-      <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
-    </item>
-    <item>
       <title>Cyera's Oasis Security Buy Is All About AI Agent Control</title>
       <link>https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control</link>
       <description>The $1 billion deal aims to converge data security and identity into a single control plane for agents, with privileged access redefined around business context rather than static roles.</description>
       <guid isPermaLink="false">https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control</guid>
+      <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Download: Flock’s new rules, cloning’s future, and children’s cells</title>
+      <link>https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwide network of license plate readers. The move comes&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/</guid>
       <pubDate>Fri, 14 Aug 2026 12:17:21 +0000</pubDate>
     </item>
     <item>
@@ -2959,13 +2959,6 @@ The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring 
       <pubDate>Sat, 15 Aug 2026 08:38:46 +0000</pubDate>
     </item>
     <item>
-      <title>Ukraine Targets Russian Rocket Facility In Major Overnight Attack</title>
-      <link>https://www.rferl.org/a/ukraine-strikes-samara-rocket-facility-long-range-attacks-zelenskyy/33831016.html</link>
-      <description>Ukraine said it struck a major Russian rocket and space facility with domestically produced Flamingo cruise missiles on August 15, as Kyiv continued its campaign of long-range attacks deep inside Russia.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-strikes-samara-rocket-facility-long-range-attacks-zelenskyy/33831016.html</guid>
-      <pubDate>Sat, 15 Aug 2026 12:20:04 +0000</pubDate>
-    </item>
-    <item>
       <title>US Promises 'Unprecedented' Economic Isolation Of Iran. What Could That Mean?</title>
       <link>https://www.rferl.org/a/iran-us-economic-isolation-sanctions-pressure/33830630.html</link>
       <description>The US is threatening to hit Iran with what Treasury Secretary Scott Bessent called “measures like have never been seen in the history of economic isolation on a country." What could those measures be – and will they work?</description>
@@ -2978,13 +2971,6 @@ The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring 
       <description>Ukraine says it struck a key Russian rocket facility in Samara on August 15. Ukrainian President Volodymyr Zelenskyy said a domestically produced long-range Flamingo missile was used in the attack. The strike is part of a wider campaign targeting key Russian military, energy, and logistics facilities.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-strikes-key-russian-rocket-facility-zelenskyy-says/33831042.html</guid>
       <pubDate>Sat, 15 Aug 2026 13:28:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Evooo1Bot Linux botnet turns routers into traffic relay nodes</title>
-      <link>https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/</link>
-      <description>A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/</guid>
-      <pubDate>Sat, 15 Aug 2026 14:14:38 +0000</pubDate>
     </item>
     <item>
       <title>The Army gave General Dynamics $533M to build an artillery plant that produced nothing</title>
@@ -3382,10 +3368,24 @@ So, nothing magical. Just a</description>
       <pubDate>Mon, 17 Aug 2026 14:35:50 +0000</pubDate>
     </item>
     <item>
+      <title>Microsoft confirms GitHub is down worldwide</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/</link>
+      <description>GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/</guid>
+      <pubDate>Mon, 17 Aug 2026 14:47:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russian Court Rejects Anti-War Party's Appeal Over Election Ban</title>
+      <link>https://www.rferl.org/a/russia-anti-war-party-yabloko-court-appeal-elections/33832027.html</link>
+      <description>Russia's Supreme Court has rejected an appeal by the Yabloko party, the sole officially registered party to openly oppose Moscow's war on Ukraine, against its removal from the ballot for September parliamentary elections.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/russia-anti-war-party-yabloko-court-appeal-elections/33832027.html</guid>
+      <pubDate>Mon, 17 Aug 2026 14:57:51 +0000</pubDate>
+    </item>
+    <item>
       <title>Advice From a Navy SEAL Dad: Unplug and Get to the Woods</title>
-      <link>https://sofrep.com/?p=40999&amp;preview=true&amp;preview_id=40999</link>
-      <description>Sometimes the best thing you can do for your kids, and yourself, is shut off the damn screens, get outside, get dirty, and remember what the real world feels like.</description>
-      <guid isPermaLink="false">https://sofrep.com/?p=40999&amp;preview=true&amp;preview_id=40999</guid>
+      <link>https://sofrep.com/news/advice-navy-seal-dad-unplug-get-woods/</link>
+      <description>Sometimes the best thing you can do for your kids, and yourself, is shut off the damn screens, get outside, get dirty, and remember what the real world feels like. #Parenting #CampingWithKids #GetOutside #OutdoorAdventure #FamilyCamping</description>
+      <guid isPermaLink="false">https://sofrep.com/news/advice-navy-seal-dad-unplug-get-woods/</guid>
       <pubDate>Mon, 17 Aug 2026 15:00:35 +0000</pubDate>
     </item>
   </channel>
