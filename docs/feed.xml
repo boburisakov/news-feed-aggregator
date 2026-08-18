@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 15:45:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 16:26:18 +0000</lastBuildDate>
     <item>
       <title>Federal judge issues second order blocking Trump mail-in voting directive</title>
       <link>https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/</link>
@@ -154,468 +154,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/"&gt;Trump turns to private sector in offensive hacking operations memo&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/</guid>
       <pubDate>Thu, 13 Aug 2026 11:47:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>ANDRITZ HIPASE-250 and 250 SCALA</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-05.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to read data from the device or gain access to affected workstations.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of ANDRITZ HIPASE-250 and 250 SCALA are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;HIPASE-250 &amp;lt;=7.20 (CVE-2026-65309, CVE-2026-65310, CVE-2026-65311, CVE-2026-65313)&lt;/li&gt;
-&lt;li&gt;250 SCALA &amp;lt;=7.20 (CVE-2026-65309, CVE-2026-65310, CVE-2026-65311, CVE-2026-65313)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 8.1&lt;/td&gt;
-&lt;td&gt;ANDRITZ&lt;/td&gt;
-&lt;td&gt;ANDRITZ HIPASE-250 and 250 SCALA&lt;/td&gt;
-&lt;td&gt;Storing Passwords in a Recoverable Format, Missing Authentication for Critical Function, Use of Hard-coded Credentials&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Austria&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-65309&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;ANDRITZ HIPASE-250 (formerly 250 SCALA) in affected versions stores and transmits user passwords using a reversible format instead of a one-way password hash. This allows an attacker able to read the credential store or capture network traffic to recover all stored passwords.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65309"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ANDRITZ HIPASE-250 and 250 SCALA&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ANDRITZ&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ANDRITZ HIPASE-250: &amp;lt;=7.20, ANDRITZ 250 SCALA: &amp;lt;=7.20&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;ANDRITZ has addressed these issues in version V8.00.00 (released 2024-12) and in version V8.15.00 (released 2026-07) and encourages users to keep their systems updated to the latest version (currently HIPASE-250 Version V8.15.00). For more information, users can contact ANDRITZ at the following website: https://www.andritz.com/group-en/contact&lt;br /&gt;&lt;a href="https://www.andritz.com/group-en/contact"&gt;https://www.andritz.com/group-en/contact&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/257.html"&gt;CWE-257 Storing Passwords in a Recoverable Format&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-65310&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;ANDRITZ HIPASE-250 (formerly 250 SCALA), in the default configuration of affected versions, exposes its data and configuration endpoint without any authentication and permissive CORS on every response. An unauthenticated attacker with network access can read live process values and server configuration.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65310"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ANDRITZ HIPASE-250 and 250 SCALA&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ANDRITZ&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ANDRITZ HIPASE-250: &amp;lt;=7.20, ANDRITZ 250 SCALA: &amp;lt;=7.20&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;ANDRITZ has addressed these issues in version V8.00.00 (released 2024-12) and in version V8.15.00 (released 2026-07) and encourages users to keep their systems updated to the latest version (currently HIPASE-250 Version V8.15.00). For more information, users can contact ANDRITZ at the following website: https://www.andritz.com/group-en/contact&lt;br /&gt;&lt;a href="https://www.andritz.com/group-en/contact"&gt;https://www.andritz.com/group-en/contact&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-65311&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The HTTP server component of ANDRITZ HIPASE-250 (formerly 250 SCALA) in affected versions exposes an undocumented endpoint that changes the server's logging level and target without requiring authentication. A remote, unauthenticated attacker with network access to the service may suppress audit logging, potentially concealing other activity on the system.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65311"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ANDRITZ HIPASE-250 and 250 SCALA&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ANDRITZ&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ANDRITZ HIPASE-250: &amp;lt;=7.20, ANDRITZ 250 SCALA: &amp;lt;=7.20&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;ANDRITZ has addressed these issues in version V8.00.00 (released 2024-12) and in version V8.15.00 (released 2026-07) and encourages users to keep their systems updated to the latest version (currently HIPASE-250 Version V8.15.00). For more information, users can contact ANDRITZ at the following website: https://www.andritz.com/group-en/contact&lt;br /&gt;&lt;a href="https://www.andritz.com/group-en/contact"&gt;https://www.andritz.com/group-en/contact&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;5.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;6.9&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-65313&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;A provisioning script used when installing HIPASE-250 (formerly 250 SCALA) engineering workstations sets a fixed, hard-coded x11vnc password. Because the same credential is applied to every workstation provisioned this way, an attacker with adjacent-network access who knows the password can gain VNC access to affected workstations.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65313"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;ANDRITZ HIPASE-250 and 250 SCALA&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ANDRITZ&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ANDRITZ HIPASE-250: &amp;lt;=7.20, ANDRITZ 250 SCALA: &amp;lt;=7.20&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;ANDRITZ has addressed these issues in version V8.00.00 (released 2024-12) and in version V8.15.00 (released 2026-07) and encourages users to keep their systems updated to the latest version (currently HIPASE-250 Version V8.15.00). For more information, users can contact ANDRITZ at the following website: https://www.andritz.com/group-en/contact&lt;br /&gt;&lt;a href="https://www.andritz.com/group-en/contact"&gt;https://www.andritz.com/group-en/contact&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/798.html"&gt;CWE-798 Use of Hard-coded Credentials&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.6&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Duc Anh Nguyen and Ta Duc Thien of NTCS OT Penetration Testing Team reported these vulnerabilities to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet. Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as virtual private networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-13&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-13&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05</guid>
-      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Siemens LOGO! Soft Comfort</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-13.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these vulnerabilities to extract the master key, allowing them to decrypt project data or remove project passwords. The lack of password salting enables offline dictionary or brute-force attacks against the password hashes. Successful exploitation could result in unauthorized access to, or modification of, sensitive project logic and configurations. Siemens has released a new version for LOGO! Soft Comfort and recommends to update to the latest version.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Siemens LOGO! Soft Comfort are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;LOGO! Soft Comfort vers:intdot/&amp;lt;9 (CVE-2026-57262, CVE-2026-57263)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 6.8&lt;/td&gt;
-&lt;td&gt;Siemens&lt;/td&gt;
-&lt;td&gt;Siemens LOGO! Soft Comfort&lt;/td&gt;
-&lt;td&gt;Use of Hard-coded Cryptographic Key, Use of a One-Way Hash without a Salt&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Commercial Facilities, Transportation Systems&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-57262&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Affected products use a static, hardcoded AES master key to encrypt project files. This could allow a local attacker to extract the master key from the application files or memory and use it to decrypt project files or remove project passwords entirely without knowing the actual user-defined password.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-57262"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens LOGO! Soft Comfort&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;LOGO! Soft Comfort &amp;lt; V9&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V9 or later version Note: A hardware upgrade to LOGO! V9 BM or later is also required to avoid compatibility mode, in which the vulnerabilities addressed by this advisory remain present.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/321.html"&gt;CWE-321 Use of Hard-coded Cryptographic Key&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.8&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-57263&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The project password feature in the affected products stores the password as an unsalted SHA-256 hash. This could allow an attacker who has obtained the project file to perform efficient offline dictionary or brute-force attacks against the unsalted hash.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-57263"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens LOGO! Soft Comfort&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;LOGO! Soft Comfort &amp;lt; V9&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V9 or later version Note: A hardware upgrade to LOGO! V9 BM or later is also required to avoid compatibility mode, in which the vulnerabilities addressed by this advisory remain present.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/759.html"&gt;CWE-759 Use of a One-Way Hash without a Salt&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.8&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Siemens ProductCERT reported these vulnerabilities to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Recommendations&lt;/h2&gt;
-&lt;p&gt;As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Additional Resources&lt;/h2&gt;
-&lt;p&gt;For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Terms of Use&lt;/h2&gt;
-&lt;p&gt;The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Siemens ProductCERT SSA-751328 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-11&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-11&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Publication Date&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-13&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Siemens ProductCERT SSA-751328 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13</guid>
-      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Flow Neuroscience FL-100</title>
@@ -1748,20 +1286,6 @@
       <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lockheed Martin completes first live-fire test of Kodiak launcher</title>
-      <link>https://www.army-technology.com/news/lockheed-martin-kodiak-launcher/</link>
-      <description>Lockheed Martin has completed the first integrated live-fire test of its Kodiak containerised launcher at at Yakima Training Centre.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/lockheed-martin-kodiak-launcher/</guid>
-      <pubDate>Thu, 13 Aug 2026 13:16:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Army crew killed after Apache helicopter crash</title>
-      <link>https://www.army-technology.com/news/us-army-apache-crash/</link>
-      <description>Two service members died after a US Army AH-64 Apache helicopter crashed in a field south of Salado, Texas, on Wednesday afternoon.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/us-army-apache-crash/</guid>
-      <pubDate>Thu, 13 Aug 2026 13:20:27 +0000</pubDate>
-    </item>
-    <item>
       <title>QinetiQ to integrate Australian radars across UK enterprise</title>
       <link>https://www.army-technology.com/news/qinetiq-to-integrate-australian-radars-across-uk-enterprise/</link>
       <description>The UK signed a statement of intent to cooperate closely with Australia in advancing AESA radar and integrating the CEAFAR2 radar suite.</description>
@@ -1936,13 +1460,6 @@
       <pubDate>Fri, 14 Aug 2026 17:32:46 +0000</pubDate>
     </item>
     <item>
-      <title>Patriot makers hedge on Ukraine production deal as officials question cause of hold-up</title>
-      <link>https://www.defensenews.com/global/europe/2026/08/14/patriot-makers-hedge-on-ukraine-production-deal-as-officials-question-cause-of-hold-up/</link>
-      <description>Though Trump promised Kyiv a license to build Patriot missile interceptors last month, Lockheed Martin and Raytheon have put the brakes on production.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/14/patriot-makers-hedge-on-ukraine-production-deal-as-officials-question-cause-of-hold-up/</guid>
-      <pubDate>Fri, 14 Aug 2026 17:40:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Indonesia has all that it takes to move up the value chain</title>
       <link>https://www.atlanticcouncil.org/blogs/econographics/indonesia-has-all-that-it-takes-to-move-up-the-value-chain/</link>
       <description>&lt;p&gt;Ahead of the 2026 IMF-World Bank Annual Meetings, Indonesia has a chance to showcase its growing economic clout. The challenge is turning its natural resources, young population, and strategic position into lasting productivity gains.&lt;/p&gt;
@@ -2009,13 +1526,6 @@
       <description>Instead of making shells, the assembly robots kept failing in bizarre ways—and that's just for starters.</description>
       <guid isPermaLink="false">https://www.defenseone.com/business/2026/08/artillery-plant-made-nothing/415443/</guid>
       <pubDate>Sun, 16 Aug 2026 00:27:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russia, Ukraine Trade Major Overnight Air Attacks, At Least 11 Killed</title>
-      <link>https://www.rferl.org/a/ukraine-moscow-wildberries-facilities-drones/33831405.html</link>
-      <description>Russia and Ukraine traded overnight attacks into August 16, with Ukrainian officials reporting at least five killed in Russian strikes and damage to the country’s largest steel plant, while Russian officials said Ukrainian drones killed at least six and set warehouses ablaze.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-moscow-wildberries-facilities-drones/33831405.html</guid>
-      <pubDate>Sun, 16 Aug 2026 07:59:55 +0000</pubDate>
     </item>
     <item>
       <title>Ukrainian Launches Hundreds Of Drones At Moscow</title>
@@ -2181,13 +1691,6 @@
       <pubDate>Mon, 17 Aug 2026 13:00:28 +0000</pubDate>
     </item>
     <item>
-      <title>The Fleet Can’t Fight If the Sailors Are Running on Fumes</title>
-      <link>https://sofrep.com/news/the-fleet-cant-fight-if-the-sailors-are-running-on-fumes/</link>
-      <description>The Navy can have the finest ships, weapons, and technology in the world, but none of it matters if senior leaders fail to take care of the sailors expected to fight and win with them. #USNavy #MilitaryLeadership #SailorWelfare #MilitaryReadiness #NavyDeployment</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-fleet-cant-fight-if-the-sailors-are-running-on-fumes/</guid>
-      <pubDate>Mon, 17 Aug 2026 13:00:48 +0000</pubDate>
-    </item>
-    <item>
       <title>Sovereignty without borders: Decoding the transatlantic digital relationship at a time of change</title>
       <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/sovereignty-without-borders-decoding-the-transatlantic-digital-relationship-at-a-time-of-change/</link>
       <description>&lt;p&gt;An examination of the EU–US trust deficit and its implications for digital policymaking.&lt;/p&gt;
@@ -2285,13 +1788,6 @@
       <description>President Trump instructed the Pentagon to “substantially reduce” joint military exercises with long-term Asian ally South Korea.</description>
       <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/17/trump-orders-pentagon-to-cut-back-military-exercises-with-south-korea/</guid>
       <pubDate>Mon, 17 Aug 2026 15:14:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kubasik ousted as L3Harris CEO following conduct violation, company says</title>
-      <link>https://breakingdefense.com/2026/08/kubasik-ousted-as-l3harris-ceo-following-conduct-violation-company-says/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/kubasik-ousted-as-l3harris-ceo-following-conduct-violation-company-says/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/09/220920_KATZ_L3Harris_sign-scaled-e1690550785613-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;L3Harris did not provide specifics on what led to Chris Kubasik’s ouster, but said in a press release that the company “became aware” of conduct by Kubasik “that was not consistent” with its code of conduct. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/kubasik-ousted-as-l3harris-ceo-following-conduct-violation-company-says/</guid>
-      <pubDate>Mon, 17 Aug 2026 15:21:06 +0000</pubDate>
     </item>
     <item>
       <title>Is Shipyard Welding the Right First Job for Humanoid Robots?</title>
@@ -2643,20 +2139,6 @@ Released on</description>
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How China Found Its Most Potent Weapon</title>
-      <link>https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss</link>
-      <description>The real history of Beijing’s rare-earth dominance.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>America’s Missing Military Revolution</title>
-      <link>https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</link>
-      <description>Why Washington still risks losing the tech race.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>AI and the New Age of Bioweapons</title>
       <link>https://www.foreignaffairs.com/united-states/ai-and-new-age-bioweapons-sherwood-randall</link>
       <description>Preparing for a world of synthetic pathogens.</description>
@@ -2668,6 +2150,20 @@ Released on</description>
       <link>https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway</link>
       <description>How to make government work again.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How China Found Its Most Potent Weapon</title>
+      <link>https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss</link>
+      <description>The real history of Beijing’s rare-earth dominance.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>America’s Missing Military Revolution</title>
+      <link>https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</link>
+      <description>Why Washington still risks losing the tech race.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</guid>
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2851,6 +2347,538 @@ The activity, which Reco has named the City Forum campaign after a domain tied t
       <pubDate>Tue, 18 Aug 2026 11:52:19 +0000</pubDate>
     </item>
     <item>
+      <title>CISA Malcolm</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-230-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of CISA Malcolm are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Malcolm &amp;lt;26.06.1 (CVE-2026-55676)&lt;/li&gt;
+&lt;li&gt;Malcolm &amp;lt;26.07.0 (CVE-2026-63133, CVE-2026-63134, CVE-2026-63177)&lt;/li&gt;
+&lt;li&gt;Malcolm &amp;lt;=26.07.1 (CVE-2026-19670, CVE-2026-19671)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 8.8&lt;/td&gt;
+&lt;td&gt;CISA&lt;/td&gt;
+&lt;td&gt;CISA Malcolm&lt;/td&gt;
+&lt;td&gt;Allocation of Resources Without Limits or Throttling, Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Unrestricted Upload of File with Dangerous Type, Incorrect Authorization, Improper Handling of Highly Compressed Data (Data Amplification)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Information Technology&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-63133&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Malcolm is a network traffic analysis tool suite. Prior to version 26.07.0, safe-extract.py extracts uploaded archives with no limit on entry count, directory depth, total entries, or output size. A small malicious archive containing a large number of directory or file entries causes the filebeat processing container to create an unbounded number of filesystem objects, exhausting inodes or filesystem metadata and denying service to the processing pipeline and any service sharing the same mount. Version 26.07.0 fixes the issue.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-63133"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;26.07.0&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.07.0 addresses these issues. For more information, see https://github.com/cisagov/Malcolm/pull/1043. (CVE-2026-63133, CVE-2026-63134, CVE-2026-63177)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/pull/1043"&gt;https://github.com/cisagov/Malcolm/pull/1043&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/770.html"&gt;CWE-770 Allocation of Resources Without Limits or Throttling&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-63134&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Malcolm is a network traffic analysis tool suite. Prior to version 26.07.0, safe-extract.py protects file extraction with libarchive's secure flags, but creates directory entries with a raw os.makedirs(os.path.join(dest, entry.pathname)) that has no traversal protection. An uploaded malicious archive containing a directory entry with a ../ sequence or an absolute path causes the filebeat processing container to create directories outside the intended extraction directory. Version 26.07.0 fixes the issue.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-63134"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;26.07.0&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.07.0 addresses these issues. For more information, see https://github.com/cisagov/Malcolm/pull/1043. (CVE-2026-63133, CVE-2026-63134, CVE-2026-63177)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/pull/1043"&gt;https://github.com/cisagov/Malcolm/pull/1043&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/22.html"&gt;CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;5.4&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;5.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-55676&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Malcolm is a network traffic analysis tool suite. The file-upload component (FilePond PHP backend) accepts uploads at POST /server/php/submit.php and stores them in a directory served by the same nginx and php-fpm instance. The allow-list that should restrict accepted file types is an empty array by default (file-upload/php/config.php:16), so the type check is a no-op and every extension is accepted. The filename sanitizer keeps the .php extension intact. Committed files land in /var/www/upload/server/php/files (file-upload/php/config.php:7), and the component's nginx routes any URL ending in .php to php-fpm. An authenticated GET /server/php/files/.php then executes the uploaded code as www-data. Prior to version 26.06.1, in RBAC mode, the upload endpoint is reachable by the granular ROLE_UPLOAD role (nginx/lua/nginx_auth_helpers.lua:71), a role intended only for submitting capture files. As a result, a user holding the upload-only role runs arbitrary PHP as www-data inside the file-upload container. Version 26.06.1 fixes the issue.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-55676"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;26.06.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.06.1 addresses this issue. For more information, see https://github.com/cisagov/Malcolm/pull/1026. (CVE-2026-55676)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/pull/1026"&gt;https://github.com/cisagov/Malcolm/pull/1026&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/434.html"&gt;CWE-434 Unrestricted Upload of File with Dangerous Type&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.8&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;8.7&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-63177&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Malcolm is a network traffic analysis tool suite. Prior to version 26.07.0, role-based access control enforced in the Nginx OpenResty Lua layer evaluates the raw, unnormalized ngx.var.request_uri, while Nginx itself routes requests using the normalized path. An authenticated low-privilege user can prepend a traversal segment (for example /x/../upload/...) so that Nginx routes the request to a restricted backend while the Lua role check fails to match any rule and falls open, granting access it should deny. Version 26.07.0 fixes the issue.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-63177"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;26.07.0&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.07.0 addresses these issues. For more information, see https://github.com/cisagov/Malcolm/pull/1043. (CVE-2026-63133, CVE-2026-63134, CVE-2026-63177)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/pull/1043"&gt;https://github.com/cisagov/Malcolm/pull/1043&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/863.html"&gt;CWE-863 Incorrect Authorization&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:N/SC:L/SI:L/SA:L"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:N/SC:L/SI:L/SA:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-19670&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Malcolm's nginx Lua role-based access control (RBAC) layer decides whether an authenticated user may reach a role-restricted path (e.g. /htadmin, /auth, /admin_login, /arkime/api/esadmin, NetBox, upload endpoints) by pattern-matching the raw, percent-encoded request URI. Nginx itself, however, selects which location block actually serves the request using the percent-decoded, normalized URI. Because the RBAC check never percent-decodes its input, an authenticated low-privilege user can request an admin-only path using percent-encoding (e.g. /%68tadmin.php) and have nginx route it to the restricted location while the Lua RBAC gate evaluating the un-decoded raw string finds no matching restriction and grants access.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-19670"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;=26.07.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.08.0 addresses this issue. For more information, see https://github.com/cisagov/Malcolm/security/advisories/GHSA-jr6p-63pg-hr6g. (CVE-2026-19670)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/security/advisories/GHSA-jr6p-63pg-hr6g"&gt;https://github.com/cisagov/Malcolm/security/advisories/GHSA-jr6p-63pg-hr6g&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/863.html"&gt;CWE-863 Incorrect Authorization&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;5.4&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;5.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-19671&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;Malcolm's upload-processing pipeline (scripts/safe-extract.py) enforces entry-count, nesting-depth, and total-uncompressed-byte limits when extracting container archives (zip/tar/rar/7z via libarchive), but those limits are not applied when the uploaded file is a single-stream compressed format (.gz, .bz2, .xz, .lzma, .lz) that isn't a .tar.*-style archive. Any authenticated user permitted to upload PCAP/log files can upload a small, highly compressible file (e.g. a gzip bomb) that decompresses to an effectively unbounded size on disk, exhausting the shared Docker volume used by OpenSearch, Logstash, Arkime, and Zeek, and disrupting the platform for all users.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-19671"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;=26.07.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.08.0 addresses this issue. For more information, see https://github.com/cisagov/Malcolm/security/advisories/GHSA-f2v6-8cj4-mhr6. (CVE-2026-19671)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/security/advisories/GHSA-f2v6-8cj4-mhr6"&gt;https://github.com/cisagov/Malcolm/security/advisories/GHSA-f2v6-8cj4-mhr6&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/409.html"&gt;CWE-409 Improper Handling of Highly Compressed Data (Data Amplification)&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;pavanchow reported CVE-2026-63133, CVE-2026-63134, and CVE-2026-63177 to CISA.&lt;/li&gt;
+&lt;li&gt;kah-ja, DeathRipper21 reported CVE-2026-55676 to CISA.&lt;/li&gt;
+&lt;li&gt;tinyb0y reported CVE-2026-19670 and CVE-2026-19671 to CISA.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
+&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
+&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
+&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
+&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
+&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-18&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-08-18&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01</guid>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Siemens Simcenter Nastran</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-230-02.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impacted application binary with a malicious string, an attacker could leverage the vulnerability to perform remote code execution in the context of the current process. Siemens has released new versions for the affected products and recommends to update to the latest versions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of Siemens Simcenter Nastran are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simcenter Femap vers:intdot/&amp;lt;2606 (CVE-2026-59086)&lt;/li&gt;
+&lt;li&gt;Simcenter Nastran vers:intdot/&amp;lt;2606 (CVE-2026-59086)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 7.8&lt;/td&gt;
+&lt;td&gt;Siemens&lt;/td&gt;
+&lt;td&gt;Siemens Simcenter Nastran&lt;/td&gt;
+&lt;td&gt;Stack-based Buffer Overflow&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing, Defense Industrial Base, Energy, Healthcare and Public Health, Transportation Systems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-59086&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The affected applications contain a stack overflow vulnerability while parsing specially strings as argument for one of the application binaries. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-59086"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;Siemens Simcenter Nastran&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Simcenter Femap &amp;lt; V2606, Simcenter Nastran &amp;lt; V2606&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V2606 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/275652363/"&gt;https://support.sw.siemens.com/product/275652363/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/121.html"&gt;CWE-121 Stack-based Buffer Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;7.8&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Michael Heinzl reported this vulnerability to Siemens ProductCERT.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;General Recommendations&lt;/h2&gt;
+&lt;p&gt;As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Additional Resources&lt;/h2&gt;
+&lt;p&gt;For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Terms of Use&lt;/h2&gt;
+&lt;p&gt;The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
+&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
+&lt;p&gt;This ICSA is a verbatim republication of Siemens ProductCERT SSA-069220 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory.&lt;/p&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-08-11&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Publication Date&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-08-13&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Added Simcenter Femap with fix&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-08-18&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Initial CISA Republication of Siemens ProductCERT SSA-069220 advisory&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02</guid>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>George Washington’s Secret War: The Spy Ring That Helped Beat the British</title>
       <link>https://sofrep.com/specialoperations/general-george-washington-sets-espionage-ring-long-island/</link>
       <description>George Washington’s Culper Spy Ring turned ordinary citizens into an intelligence network whose clandestine tradecraft helped outmaneuver the British and shape the outcome of the American Revolution. #CulperSpyRing #GeorgeWashington #AmericanRevolution #MilitaryHistory #Espionage</description>
@@ -2874,7 +2902,7 @@ The activity, which Reco has named the City Forum campaign after a domain tied t
     <item>
       <title>Air Force Wants Family Of Expendable Target Drones That Can Mimic Everything From Stealth Fighters To UAV Swarms</title>
       <link>https://www.twz.com/air/air-force-wants-family-of-expendable-target-drones-that-can-mimic-everything-from-stealth-fighters-to-uav-swarms</link>
-      <description>&lt;p&gt;With rapidly evolving threats around the globe, the USAF's target drones need to start making leaps to catch up and a new family of systems is wanted to this. &lt;/p&gt;
+      <description>&lt;p&gt;With rapidly evolving threats around the globe, the USAF's target drones need to start making leaps to catch up and a new family of systems is wanted for this. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/air-force-wants-family-of-expendable-target-drones-that-can-mimic-everything-from-stealth-fighters-to-uav-swarms"&gt;Air Force Wants Family Of Expendable Target Drones That Can Mimic Everything From Stealth Fighters To UAV Swarms&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/air-force-wants-family-of-expendable-target-drones-that-can-mimic-everything-from-stealth-fighters-to-uav-swarms</guid>
       <pubDate>Tue, 18 Aug 2026 12:26:59 +0000</pubDate>
@@ -2970,11 +2998,25 @@ The work, released as a preprint on August 10, 2026, tests the technique in a si
       <pubDate>Tue, 18 Aug 2026 14:01:11 +0000</pubDate>
     </item>
     <item>
+      <title>Rheinmetall secures Bundeswehr order for mobile rescue stations</title>
+      <link>https://www.army-technology.com/news/rheinmetall-bundeswehr-mobile-rescue-stations/</link>
+      <description>Rheinmetall has received an additional order of 149 mobile rescue stations from the German Federal Armed Forces (Bundeswehr).</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/rheinmetall-bundeswehr-mobile-rescue-stations/</guid>
+      <pubDate>Tue, 18 Aug 2026 14:53:30 +0000</pubDate>
+    </item>
+    <item>
       <title>Smoky: The Four-Pound Yorkshire Terrier Who Became a Pacific War Hero</title>
       <link>https://sofrep.com/news/smoky-the-four-pound-yorkshire-terrier-who-became-a-pacific-war-asset/</link>
       <description>A four-pound Yorkshire Terrier found in a New Guinea foxhole in 1944 became an unofficial Pacific War asset — running a communications wire through an eight-inch culvert pipe under fire, then comforting wounded soldiers as history's first recorded therapy dog. #WarDogs #WWIIHistory #MilitaryWorkingDogs</description>
       <guid isPermaLink="false">https://sofrep.com/news/smoky-the-four-pound-yorkshire-terrier-who-became-a-pacific-war-asset/</guid>
       <pubDate>Tue, 18 Aug 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rocket One launches Swarm Stage AI for US military C-UAS training</title>
+      <link>https://www.army-technology.com/news/rocket-one-swarm-stage-ai/</link>
+      <description>Rheinmetall has received an additional order of 149 mobile rescue stations from the German Federal Armed Forces (Bundeswehr).</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/rocket-one-swarm-stage-ai/</guid>
+      <pubDate>Tue, 18 Aug 2026 15:02:12 +0000</pubDate>
     </item>
     <item>
       <title>Australia, Japan test co-developed high-energy laser</title>
@@ -3006,6 +3048,34 @@ The work, released as a preprint on August 10, 2026, tests the technique in a si
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/un-report-the-jihads-new-center-of-gravity.php"&gt;UN report: The jihad&amp;#8217;s new center of gravity&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/un-report-the-jihads-new-center-of-gravity.php</guid>
       <pubDate>Tue, 18 Aug 2026 15:37:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diving into Trump’s unusual shipbuilding plans, plus an SMD expo floor tour</title>
+      <link>https://breakingdefense.com/2026/08/diving-into-trumps-unusual-shipbuilding-plans-plus-an-smd-expo-floor-tour/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/diving-into-trumps-unusual-shipbuilding-plans-plus-an-smd-expo-floor-tour/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/BO230-pb2-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Breaking Defense team unpacks three new directives from the White House that could influence the future of the Navy.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/diving-into-trumps-unusual-shipbuilding-plans-plus-an-smd-expo-floor-tour/</guid>
+      <pubDate>Tue, 18 Aug 2026 15:48:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zelenskyy Nominates Defense Chief, Russian Missiles Kill 10, Drone Hits Nuclear Plant Workers</title>
+      <link>https://www.rferl.org/a/ukraine-defense-chief-nuclear-plant-missiles/33832964.html</link>
+      <description>Ukrainian President Volodymyr Zelenskyy has nominated acting Defense Minister Yevhen Khmara to hold the crucial wartime job on a permanent basis, lawmakers said, one month after his dismissal of a popular figure from the post sparked street protests.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-defense-chief-nuclear-plant-missiles/33832964.html</guid>
+      <pubDate>Tue, 18 Aug 2026 15:54:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>How US military funding propelled China’s robot dogs</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/08/18/how-us-military-funding-propelled-chinas-robot-dogs/</link>
+      <description>Chinese company Unitree Robotics based the designs for its most successful robot dogs on innovations fueled by the U.S. military.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/08/18/how-us-military-funding-propelled-chinas-robot-dogs/</guid>
+      <pubDate>Tue, 18 Aug 2026 16:01:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>SOCOM Wants Machines That Hunt Together: The Fight Over Portable Autonomy</title>
+      <link>https://sofrep.com/?p=230424&amp;preview=true&amp;preview_id=230424</link>
+      <description>SOCOM’s future fight depends on portable autonomy that can jump from drone to boat to whatever comes next, while the operator keeps control when the network gets ugly. #SOCOM #SpecialOperations #ArtificialIntelligence #AutonomousSystems #DefenseTechnology</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=230424&amp;preview=true&amp;preview_id=230424</guid>
+      <pubDate>Tue, 18 Aug 2026 21:00:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
