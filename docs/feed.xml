@@ -7,7 +7,22 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 17:56:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 18:37:48 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft Plugs Nearly 400 Security Holes</title>
+      <link>https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/</link>
+      <description>Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/</guid>
+      <pubDate>Tue, 11 Aug 2026 21:28:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Federal judge issues second order blocking Trump mail-in voting directive</title>
+      <link>https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/</link>
+      <description>&lt;p&gt;The U.S. Supreme Court temporarily reversed an earlier decision through the shadow docket. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/"&gt;Federal judge issues second order blocking Trump mail-in voting directive&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/federal-judge-blocks-trump-mail-in-voting-executive-order/</guid>
+      <pubDate>Tue, 11 Aug 2026 23:26:09 +0000</pubDate>
+    </item>
     <item>
       <title>Kimwolf botnet rebuilt to survive takedowns, researchers say</title>
       <link>https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/</link>
@@ -139,146 +154,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/"&gt;Trump turns to private sector in offensive hacking operations memo&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/trump-memo-private-sector-offensive-hacking/</guid>
       <pubDate>Thu, 13 Aug 2026 11:47:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Flow Neuroscience FL-100</title>
-      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-225-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Flow Neuroscience FL-100 are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Flow Neuroscience FL-100&lt;/li&gt;
-&lt;li&gt;Halo Neuroscience FL-100&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 8.1&lt;/td&gt;
-&lt;td&gt;Flow Neuroscience&lt;/td&gt;
-&lt;td&gt;Flow Neuroscience FL-100&lt;/td&gt;
-&lt;td&gt;Use of Hard-coded Credentials&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Healthcare and Public Health&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Sweden&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-18164&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;An undocumented hard-coded credential, shared by all device units, is authorized to bypass authentication. This allows an attacker within Bluetooth range to arbitrarilymanipulate brain stimulation parameters and state.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-18164"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Flow Neuroscience FL-100&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Flow Neuroscience&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Flow Neuroscience Flow Neuroscience FL-100: &amp;lt;July_2026, Flow Neuroscience Halo Neuroscience FL-100: &amp;lt;July_2026&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Users are encouraged to install the latest firmware updates provided by Flow Neuroscience via the Flow app.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/798.html"&gt;CWE-798 Use of Hard-coded Credentials&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7.2&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;A.C. Buglione reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-13&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-13&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01</guid>
-      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Siemens Siveillance Video</title>
@@ -1640,13 +1515,6 @@
       <pubDate>Mon, 17 Aug 2026 13:00:28 +0000</pubDate>
     </item>
     <item>
-      <title>The Fleet Can’t Fight If the Sailors Are Running on Fumes</title>
-      <link>https://sofrep.com/news/the-fleet-cant-fight-if-the-sailors-are-running-on-fumes/</link>
-      <description>The Navy can have the finest ships, weapons, and technology in the world, but none of it matters if senior leaders fail to take care of the sailors expected to fight and win with them. #USNavy #MilitaryLeadership #SailorWelfare #MilitaryReadiness #NavyDeployment</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-fleet-cant-fight-if-the-sailors-are-running-on-fumes/</guid>
-      <pubDate>Mon, 17 Aug 2026 13:00:48 +0000</pubDate>
-    </item>
-    <item>
       <title>Sovereignty without borders: Decoding the transatlantic digital relationship at a time of change</title>
       <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/sovereignty-without-borders-decoding-the-transatlantic-digital-relationship-at-a-time-of-change/</link>
       <description>&lt;p&gt;An examination of the EU–US trust deficit and its implications for digital policymaking.&lt;/p&gt;
@@ -1667,13 +1535,6 @@
       <description>U.S. intelligence sharing with Ukraine has rebounded to full strength as Kyiv’s mid- and deep-range strikes continue to hammer Russia’s oil industry.</description>
       <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/17/everybody-loves-a-winner-us-ukraine-intel-sharing-surges-as-kyiv-racks-up-wins/</guid>
       <pubDate>Mon, 17 Aug 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Golden Dome vs. Congress: “You’re Gonna Need a Bigger Hammer”</title>
-      <link>https://sofrep.com/news/golden-dome-vs-congress-youre-gonna-need-a-bigger-hammer/</link>
-      <description>Golden Dome is not the problem; paying for it may require Congress to introduce the federal budget process to the business end of a sledgehammer. #GoldenDome #MissileDefense #Congress #SpaceForce #SOFREP</description>
-      <guid isPermaLink="false">https://sofrep.com/news/golden-dome-vs-congress-youre-gonna-need-a-bigger-hammer/</guid>
-      <pubDate>Mon, 17 Aug 2026 14:00:06 +0000</pubDate>
     </item>
     <item>
       <title>Certighost and the Privilege Hiding in Your Certificate Authority</title>
@@ -1812,15 +1673,6 @@
       <pubDate>Mon, 17 Aug 2026 17:40:08 +0000</pubDate>
     </item>
     <item>
-      <title>Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic</title>
-      <link>https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html</link>
-      <description>Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel.
-
-Russian cybersecurity company Kaspersky said its ongoing monitoring of the threat activity cluster since December 2025 has led to the discovery of previously unreported components that expand the</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html</guid>
-      <pubDate>Mon, 17 Aug 2026 17:41:06 +0000</pubDate>
-    </item>
-    <item>
       <title>Raytheon gets massive $23B contract to boost Tomahawk production</title>
       <link>https://breakingdefense.com/2026/08/raytheon-gets-massive-23b-contract-to-boost-tomahawk-production/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/raytheon-gets-massive-23b-contract-to-boost-tomahawk-production/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/03/Raytheon-Barbara-second-image-scaled-e1786988335335-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Over the past year, Pentagon leaders have leveraged multiyear contracts for critical munitions as an incentive to get defense primes to make larger investments in their production facilities and supply chain.&lt;/p&gt;</description>
@@ -1848,24 +1700,6 @@ Russian cybersecurity company Kaspersky said its ongoing monitoring of the threa
       <description>The U.S. Air Force wants to acquire target drones that can mimic the performance of a variety of aircraft, from stealth fighters to small UAVs.</description>
       <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/08/17/us-air-force-looks-to-acquire-target-drones-that-can-mimic-stealth-jets/</guid>
       <pubDate>Mon, 17 Aug 2026 18:19:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads</title>
-      <link>https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html</link>
-      <description>A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites.
-
-The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias "</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html</guid>
-      <pubDate>Mon, 17 Aug 2026 18:22:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection</title>
-      <link>https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html</link>
-      <description>Cybersecurity researchers at Wiz&amp;nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public&amp;nbsp;snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted GitHub issue to execute commands in a workflow containing internal Jira credentials.
-
-The issue was present in&amp;nbsp;.github/workflows/jira_issue.yml, which ran when a</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html</guid>
-      <pubDate>Mon, 17 Aug 2026 18:44:17 +0000</pubDate>
     </item>
     <item>
       <title>Japan launches second US military payload to monitor space above Indo-Pacific</title>
@@ -1919,9 +1753,9 @@ The issue was present in&amp;nbsp;.github/workflows/jira_issue.yml, which ran wh
       <pubDate>Mon, 17 Aug 2026 19:19:00 +0000</pubDate>
     </item>
     <item>
-      <title>Adam Shostack Talks Hugging Face Breach &amp;amp; PHANTOM-B</title>
+      <title>Hugging Face Breach Raises Big Questions About AI Security Controls</title>
       <link>https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b</link>
-      <description>The security expert talks with the Dark Reading News Desk about why he &amp;quot;blown away&amp;quot; by OpenAI's revelations regarding the Hugging Face attack, and also discussed his new threat model for LLMs.</description>
+      <description>Adam Shostack, president of Shostack &amp;amp; Associates and an affiliate professor at the University of Washington, talks with the Dark Reading News Desk about why he was &amp;quot;blown away&amp;quot; by OpenAI's revelations regarding the Hugging Face attack.</description>
       <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b</guid>
       <pubDate>Mon, 17 Aug 2026 19:22:56 +0000</pubDate>
     </item>
@@ -2102,7 +1936,7 @@ Released on</description>
       <pubDate>Tue, 18 Aug 2026 05:04:00 +0000</pubDate>
     </item>
     <item>
-      <title>Iran Says Hormuz Will Remain Closed Until US 'Fulfills Commitments'</title>
+      <title>Trump Says No Iran Talks Underway</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -2266,6 +2100,23 @@ The activity, which Reco has named the City Forum campaign after a domain tied t
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/saildrone-expands-european-footprint-with-production-plans-in-3-countries/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="674" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Capture-decran-le-2026-08-17-a-19.08.45-1024x674.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“The first 52-meter Saildrone Spectre will be built at Van Der Valk Shipyard in the Netherlands, and the next generation of the Saildrone Surveyor will be produced at Umoe Mandal in Norway,” Richard Jenkins, Saildrone’s founder and CEO, said.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/saildrone-expands-european-footprint-with-production-plans-in-3-countries/</guid>
       <pubDate>Tue, 18 Aug 2026 11:52:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
+      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-33824" target="_blank"&gt;CVE-2026-33824&lt;/a&gt; Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-55040" target="_blank"&gt;CVE-2026-55040&lt;/a&gt; Microsoft SharePoint Weak Authentication Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-59310" target="_blank"&gt;CVE-2026-59310&lt;/a&gt; Broadcom VMware vCenter Path Traversal Vulnerability &amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65400" target="_blank"&gt;CVE-2026-65400&lt;/a&gt; Apple macOS Improper Authentication Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CISA Malcolm</title>
@@ -2861,17 +2712,17 @@ The work, released as a preprint on August 10, 2026, tests the technique in a si
       <pubDate>Tue, 18 Aug 2026 12:43:00 +0000</pubDate>
     </item>
     <item>
-      <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
-      <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
-      <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
       <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
+      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
+      <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
+      <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
       <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3056,6 +2907,15 @@ The work, released as a preprint on August 10, 2026, tests the technique in a si
       <pubDate>Tue, 18 Aug 2026 16:41:58 +0000</pubDate>
     </item>
     <item>
+      <title>Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000</title>
+      <link>https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html</link>
+      <description>A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000.
+
+"In these messages, the third-party offers to help the victim recover from ransomware attack. This immediately stands out as anomalous," GuidePoint Research</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html</guid>
+      <pubDate>Tue, 18 Aug 2026 16:58:16 +0000</pubDate>
+    </item>
+    <item>
       <title>Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics</title>
       <link>https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/</link>
       <description>&lt;p&gt;The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward.&lt;/p&gt;
@@ -3076,6 +2936,24 @@ The work, released as a preprint on August 10, 2026, tests the technique in a si
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/dod-expands-rd-on-clearing-expired-satellites-from-orbit/"&gt;&lt;img alt="Katalyst&amp;#039;s Nexus on-orbit service spacecraft" class="attachment-large size-large wp-post-image" height="560" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Screenshot-2026-08-17-at-6.13.43-PM-1024x560.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The stated goal is to clean out obsolete satellites, though the capabilities could also be used in weapons that move a target bird to an orbit where it no longer can perform its function, disable it in some manner or simply smash it.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/dod-expands-rd-on-clearing-expired-satellites-from-orbit/</guid>
       <pubDate>Tue, 18 Aug 2026 17:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets</title>
+      <link>https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html</link>
+      <description>Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing malicious scanning and exploitation efforts.
+
+According to independent reports from watchTowr and VulnCheck, the vulnerabilities in question are as follows -</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html</guid>
+      <pubDate>Tue, 18 Aug 2026 17:44:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps</title>
+      <link>https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html</link>
+      <description>Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session.
+
+The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html</guid>
+      <pubDate>Tue, 18 Aug 2026 17:47:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
