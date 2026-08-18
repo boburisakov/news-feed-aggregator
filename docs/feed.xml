@@ -7,22 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 11:01:47 +0000</lastBuildDate>
-    <item>
-      <title>Kimwolf v7: An Evolution of the Kimwolf Botnet</title>
-      <link>https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/</link>
-      <description>&lt;p&gt;Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/"&gt;Kimwolf v7: An Evolution of the Kimwolf Botnet&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/</guid>
-      <pubDate>Tue, 11 Aug 2026 10:00:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection</title>
-      <link>https://securelist.com/project-cav3rn-continues/120991/</link>
-      <description>Project CAV3RN targets Israel with Google Apps Script C2 relays and DNS-based routing. Modular .NET NativeAOT framework blends C2 traffic with legitimate Google services to evade detection.</description>
-      <guid isPermaLink="false">https://securelist.com/project-cav3rn-continues/120991/</guid>
-      <pubDate>Tue, 11 Aug 2026 10:00:19 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 18 Aug 2026 11:39:42 +0000</lastBuildDate>
     <item>
       <title>Head Mare APT is exploiting vulnerabilities in an unpatched TrueConf server to deliver PhantomCore and PhantomGraph to video conference participants</title>
       <link>https://securelist.com/tr/head-mare-targets-trueconf-server-with-phantomcore/120988/</link>
@@ -2262,13 +2247,6 @@
       <pubDate>Mon, 17 Aug 2026 09:29:55 +0000</pubDate>
     </item>
     <item>
-      <title>French tax authority data breach affects 678,000 individuals</title>
-      <link>https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/</link>
-      <description>The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/</guid>
-      <pubDate>Mon, 17 Aug 2026 10:09:48 +0000</pubDate>
-    </item>
-    <item>
       <title>Iran Parliament Advances Bill Criminalizing Contact With Foreign Media and Institutions</title>
       <link>https://www.rferl.org/a/iran-parliament-bill-hostile-media-criminalize/33832009.html</link>
       <description>Iran’s hardline-dominated parliament has approved the framework of a bill that criminalizes a range of interactions with "hostile" foreign media and other institutions with ties abroad as authorities look to curb what they consider foreign infiltration of the Islamic republic.</description>
@@ -3001,6 +2979,27 @@ The hardware wallet maker said all affected customers were notified individually
       <description>A former patient has leaked multiple videos about conditions at a high-security psychiatric hospital in Kazakhstan, sparking widespread discussion about what happens behind its guarded walls.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/aktas-mental-hospital-kazakhstan-videos/33832790.html</guid>
       <pubDate>Tue, 18 Aug 2026 10:46:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing ChatGPT for Teens: Built for learning, backed by protections</title>
+      <link>https://openai.com/index/chatgpt-for-teens</link>
+      <description>ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.</description>
+      <guid isPermaLink="false">https://openai.com/index/chatgpt-for-teens</guid>
+      <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Partnering with CodeAI to prepare the first AI generation</title>
+      <link>https://openai.com/index/partnering-with-codeai</link>
+      <description>OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.</description>
+      <guid isPermaLink="false">https://openai.com/index/partnering-with-codeai</guid>
+      <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft tests faster Windows File Explorer, new context menu</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/</link>
+      <description>Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds rolling out to Insiders this week. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/</guid>
+      <pubDate>Tue, 18 Aug 2026 11:14:28 +0000</pubDate>
     </item>
   </channel>
 </rss>
