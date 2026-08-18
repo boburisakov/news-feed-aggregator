@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 20:18:28 +0000</lastBuildDate>
-    <item>
-      <title>ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048, (Wed, Aug 12th)</title>
-      <link>https://isc.sans.edu/diary/rss/33238</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33238</guid>
-      <pubDate>Wed, 12 Aug 2026 02:00:03 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 18 Aug 2026 20:48:24 +0000</lastBuildDate>
     <item>
       <title>IRGC-Qods Force commander Qaani travels to Iraq amid pressure over militia weapons</title>
       <link>https://www.longwarjournal.org/archives/2026/08/irgc-qods-force-commander-qaani-travels-to-iraq-amid-pressure-over-militia-weapons.php</link>
@@ -1210,13 +1204,6 @@
       <pubDate>Fri, 14 Aug 2026 15:29:33 +0000</pubDate>
     </item>
     <item>
-      <title>Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office</link>
-      <description>One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office</guid>
-      <pubDate>Fri, 14 Aug 2026 15:58:50 +0000</pubDate>
-    </item>
-    <item>
       <title>Ukraine codifies new 4×4 armoured personnel carrier with VR tech</title>
       <link>https://www.army-technology.com/news/ukraine-owl-apc-vehicles/</link>
       <description>Ukraine’s Ministry of Defence has officially codified the OWL-APC, a new 4x4 armoured personnel carrier (APC) manufactured domestically.</description>
@@ -1762,17 +1749,17 @@ Released on</description>
       <pubDate>Tue, 18 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
-      <title>The Abandoned Order</title>
-      <link>https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</link>
-      <description>Learning to live in a post-American world.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The End of the American Middle East</title>
       <link>https://www.foreignaffairs.com/united-states/end-american-middle-east-iran-marc-lynch</link>
       <description>Iran and the last gasp of a failed order.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/end-american-middle-east-iran-marc-lynch</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Abandoned Order</title>
+      <link>https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</link>
+      <description>Learning to live in a post-American world.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</guid>
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2918,6 +2905,14 @@ The flaws, which the researchers collectively named CoSnitch, turn in part on an
       <pubDate>Tue, 18 Aug 2026 19:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)</title>
+      <link>https://unit42.paloaltonetworks.com/large-scale-credential-attacks/</link>
+      <description>&lt;p&gt;We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/large-scale-credential-attacks/"&gt;Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/large-scale-credential-attacks/</guid>
+      <pubDate>Tue, 18 Aug 2026 19:05:33 +0000</pubDate>
+    </item>
+    <item>
       <title>Israel Moves AH-64 Apaches Closer To Critical Northern Front</title>
       <link>https://www.twz.com/air/israel-moves-ah-64-apaches-closer-to-critical-northern-front</link>
       <description>&lt;p&gt;An AH-64 squadron is moving from Ramon to Ramat David as Israel shifts more attack helicopter capacity toward the northern front.&lt;/p&gt;
@@ -2955,6 +2950,13 @@ The flaws, which the researchers collectively named CoSnitch, turn in part on an
       <description>Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/</guid>
       <pubDate>Tue, 18 Aug 2026 20:14:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>'CoSnitch' Attack Tricked Copilot into Mapping Out Architecture</title>
+      <link>https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture</link>
+      <description>Researchers discovered a &amp;quot;meta-hacking&amp;quot; technique that can manipulate the AI service into revealing its own security weaknesses.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture</guid>
+      <pubDate>Tue, 18 Aug 2026 20:17:24 +0000</pubDate>
     </item>
   </channel>
 </rss>
