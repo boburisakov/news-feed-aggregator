@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 19:37:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 19:58:34 +0000</lastBuildDate>
     <item>
       <title>Siemens Desigo DXR and PXC Controllers</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08</link>
@@ -2028,15 +2028,6 @@
       <pubDate>Tue, 18 Aug 2026 16:41:58 +0000</pubDate>
     </item>
     <item>
-      <title>Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000</title>
-      <link>https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html</link>
-      <description>A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000.
-
-"In these messages, the third-party offers to help the victim recover from ransomware attack. This immediately stands out as anomalous," GuidePoint Research</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html</guid>
-      <pubDate>Tue, 18 Aug 2026 16:58:16 +0000</pubDate>
-    </item>
-    <item>
       <title>Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics</title>
       <link>https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/</link>
       <description>&lt;p&gt;The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward.&lt;/p&gt;
@@ -2064,15 +2055,6 @@
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/dod-expands-rd-on-clearing-expired-satellites-from-orbit/"&gt;&lt;img alt="Katalyst&amp;#039;s Nexus on-orbit service spacecraft" class="attachment-large size-large wp-post-image" height="560" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Screenshot-2026-08-17-at-6.13.43-PM-1024x560.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The stated goal is to clean out obsolete satellites, though the capabilities could also be used in weapons that move a target bird to an orbit where it no longer can perform its function, disable it in some manner or simply smash it.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/dod-expands-rd-on-clearing-expired-satellites-from-orbit/</guid>
       <pubDate>Tue, 18 Aug 2026 17:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets</title>
-      <link>https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html</link>
-      <description>Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing malicious scanning and exploitation efforts.
-
-According to independent reports from watchTowr and VulnCheck, the vulnerabilities in question are as follows -</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html</guid>
-      <pubDate>Tue, 18 Aug 2026 17:44:05 +0000</pubDate>
     </item>
     <item>
       <title>Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps</title>
@@ -2981,6 +2963,15 @@ The intrusion set makes use of seven remote access tool (RAT) families, five of 
       <pubDate>Wed, 19 Aug 2026 17:50:01 +0000</pubDate>
     </item>
     <item>
+      <title>OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior</title>
+      <link>https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html</link>
+      <description>OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident.
+
+"As models become more capable, the risks associated with developing and testing them internally also grow," the AI company</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html</guid>
+      <pubDate>Wed, 19 Aug 2026 18:06:44 +0000</pubDate>
+    </item>
+    <item>
       <title>Hackers compromise 14,500 Dahua web cameras in 35-day campaign</title>
       <link>https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/</link>
       <description>In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]</description>
@@ -3011,10 +3002,19 @@ The intrusion set makes use of seven remote access tool (RAT) families, five of 
     </item>
     <item>
       <title>Offering Zero Data Retention for frontier models</title>
-      <link>https://openai.com/index/our-commitment-to-zero-data-retention</link>
+      <link>https://openai.com/index/offering-zero-data-retention-for-frontier-models</link>
       <description>OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.</description>
-      <guid isPermaLink="false">https://openai.com/index/our-commitment-to-zero-data-retention</guid>
+      <guid isPermaLink="false">https://openai.com/index/offering-zero-data-retention-for-frontier-models</guid>
       <pubDate>Wed, 19 Aug 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second</title>
+      <link>https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html</link>
+      <description>Cybersecurity researchers have disclosed details of a&amp;nbsp;remote Spectre attack&amp;nbsp;against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021.
+
+The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html</guid>
+      <pubDate>Wed, 19 Aug 2026 19:02:40 +0000</pubDate>
     </item>
     <item>
       <title>New USS John F. Kennedy Brings Back Key Feature From The Nimitz Class</title>
