@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 09:29:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 09:59:47 +0000</lastBuildDate>
     <item>
       <title>Fighting in Yemen escalates, raising concern of a return to civil war</title>
       <link>https://www.longwarjournal.org/archives/2026/08/fighting-in-yemen-escalates-raising-concern-of-a-return-to-civil-war.php</link>
@@ -1542,17 +1542,6 @@
       <pubDate>Mon, 17 Aug 2026 21:00:44 +0000</pubDate>
     </item>
     <item>
-      <title>Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects</title>
-      <link>https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html</link>
-      <description>GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data.
-
-The flaw, tracked as CVE-2026-19478, has been rated Critical by GitLab and assigned a CVSS score of 9.4.
-
-Released on</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html</guid>
-      <pubDate>Mon, 17 Aug 2026 21:03:04 +0000</pubDate>
-    </item>
-    <item>
       <title>Video Call Exploit Chains Two Flaws in Unisoc Modems</title>
       <link>https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems</link>
       <description>Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.</description>
@@ -1679,22 +1668,6 @@ Released on</description>
       <description>Kem Monovithya's appointment comes three months after her father Kem Sokha received a royal pardon quashing a 27-year sentence for treason.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/daughter-of-former-cambodian-opposition-leader-appointed-special-envoy-to-pm/</guid>
       <pubDate>Tue, 18 Aug 2026 04:44:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Is Vietnam’s Energy Transition Entering a New Phase?</title>
-      <link>https://thediplomat.com/2026/08/is-vietnams-energy-transition-entering-a-new-phase/</link>
-      <description>The country has so far outpaced most of its regional peers when it comes to the production of renewable energy.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/is-vietnams-energy-transition-entering-a-new-phase/</guid>
-      <pubDate>Tue, 18 Aug 2026 05:04:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE</title>
-      <link>https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
-
-Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html</guid>
-      <pubDate>Tue, 18 Aug 2026 06:34:20 +0000</pubDate>
     </item>
     <item>
       <title>Asana cleared 5 years of engineering work in 2 weeks with Codex</title>
@@ -2464,17 +2437,17 @@ The work, released as a preprint on August 10, 2026, tests the technique in a si
       <pubDate>Tue, 18 Aug 2026 12:43:00 +0000</pubDate>
     </item>
     <item>
-      <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
-      <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
       <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
       <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
+      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
+      <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
       <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2782,6 +2755,13 @@ The flaws, which the researchers collectively named CoSnitch, turn in part on an
       <pubDate>Tue, 18 Aug 2026 19:05:33 +0000</pubDate>
     </item>
     <item>
+      <title>Kazakhstan’s Kurultai Election is a Domestic Test for Central Asia’s Regional Ambitions</title>
+      <link>https://thediplomat.com/2026/08/kazakhstans-kurultai-election-is-a-domestic-test-for-central-asias-regional-ambitions/</link>
+      <description>Central Asia’s growing international agency needs to be matched by domestic institutions capable of implementing what governments negotiate abroad.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/kazakhstans-kurultai-election-is-a-domestic-test-for-central-asias-regional-ambitions/</guid>
+      <pubDate>Tue, 18 Aug 2026 19:13:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Israel Moves AH-64 Apaches Closer To Critical Northern Front</title>
       <link>https://www.twz.com/air/israel-moves-ah-64-apaches-closer-to-critical-northern-front</link>
       <description>&lt;p&gt;An AH-64 squadron is moving from Ramon to Ramat David as Israel shifts more attack helicopter capacity toward the northern front.&lt;/p&gt;
@@ -2897,6 +2877,24 @@ The flaws, which the researchers collectively named CoSnitch, turn in part on an
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
       <pubDate>Wed, 19 Aug 2026 05:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data</title>
+      <link>https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html</link>
+      <description>A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest.
+
+The cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html</guid>
+      <pubDate>Wed, 19 Aug 2026 05:39:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure</title>
+      <link>https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</link>
+      <description>Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration.
+
+The tech giant said it required multiple endpoint and network behaviors to align before</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</guid>
+      <pubDate>Wed, 19 Aug 2026 06:01:53 +0000</pubDate>
     </item>
     <item>
       <title>Proving the Negative: Three Warnings from Arms Control for the Age of AI</title>
