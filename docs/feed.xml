@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 17:49:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 18:28:48 +0000</lastBuildDate>
     <item>
       <title>Johnson Controls Metasys</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14</link>
@@ -1534,17 +1534,17 @@
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Democracies Need Creative Destruction</title>
-      <link>https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway</link>
-      <description>How to make government work again.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>America’s Missing Military Revolution</title>
       <link>https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</link>
       <description>Why Washington still risks losing the tech race.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democracies Need Creative Destruction</title>
+      <link>https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway</link>
+      <description>How to make government work again.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway</guid>
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1660,13 +1660,6 @@
       <description>OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.</description>
       <guid isPermaLink="false">https://openai.com/index/partnering-with-codeai</guid>
       <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft tests faster Windows File Explorer, new context menu</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/</link>
-      <description>Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds rolling out to Insiders this week. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/</guid>
-      <pubDate>Tue, 18 Aug 2026 11:14:28 +0000</pubDate>
     </item>
     <item>
       <title>Saildrone expands European footprint with production plans in 3 countries</title>
@@ -2317,13 +2310,6 @@
       <description>Operation Epic Fury may have been intended to curb Iran’s regional reach, but its unintended consequences in Yemen now threaten one of the world’s most critical maritime chokepoints and demand a serious reassessment of U.S. strategy. #Houthis #RedSea #Yemen #MaritimeSecurity #BabAlMandeb</description>
       <guid isPermaLink="false">https://sofrep.com/news/trump-took-aim-at-iran-the-houthis-took-aim-at-global-shipping/</guid>
       <pubDate>Tue, 18 Aug 2026 14:00:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Your Controls Block Known Attacks. What About the Behavior?</title>
-      <link>https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/</link>
-      <description>Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by technique and why behavioral testing is needed to uncover those gaps. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/</guid>
-      <pubDate>Tue, 18 Aug 2026 14:01:11 +0000</pubDate>
     </item>
     <item>
       <title>Kyrgyzstan Liquidates More Companies Over Sanctions Risks</title>
@@ -3373,6 +3359,20 @@ The intrusion set makes use of seven remote access tool (RAT) families, five of 
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/russia-helps-iran-sharpen-its-sword.php"&gt;Russia helps Iran sharpen its sword&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/russia-helps-iran-sharpen-its-sword.php</guid>
       <pubDate>Wed, 19 Aug 2026 17:32:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>US warns of AI-powered attacks on Siemens PLCs in critical infrastructure</title>
+      <link>https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/</link>
+      <description>U.S. cybersecurity agencies warn that threat actors are using AI-generated scripts to exploit Siemens S7 Series programmable logic controllers (PLCs) in U.S. critical infrastructure. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/</guid>
+      <pubDate>Wed, 19 Aug 2026 17:50:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers compromise 14,500 Dahua web cameras in 35-day campaign</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/</link>
+      <description>In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/</guid>
+      <pubDate>Wed, 19 Aug 2026 18:09:13 +0000</pubDate>
     </item>
     <item>
       <title>Offering Zero Data Retention for frontier models</title>
