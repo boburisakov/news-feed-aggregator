@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 20:33:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 21:02:00 +0000</lastBuildDate>
     <item>
       <title>Siemens Desigo DXR and PXC Controllers</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08</link>
@@ -1016,13 +1016,6 @@
       <pubDate>Mon, 17 Aug 2026 19:19:00 +0000</pubDate>
     </item>
     <item>
-      <title>'Turf War' Between Claude Agents Leads to Self-Replicating Malware</title>
-      <link>https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware</link>
-      <description>Three testing models with the same goal but different directives engaged in &amp;quot;increasingly aggressive&amp;quot; territorial attacks on one another, according to Anthropic.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware</guid>
-      <pubDate>Mon, 17 Aug 2026 20:26:34 +0000</pubDate>
-    </item>
-    <item>
       <title>Apple Patches iOS and macOS, (Mon, Aug 17th)</title>
       <link>https://isc.sans.edu/diary/rss/33254</link>
       <description>Apple today released updates for iOS/iPadOS (26 and 18) and macOS 26. This update fixes 108 vulnerabilities and comes about two weeks after the much smaller macOS update that addressed the single screen-sharing vulnerability. This vulnerability did not affect iOS/iPadOS.&amp;#xd;</description>
@@ -1126,13 +1119,6 @@
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>America’s Missing Military Revolution</title>
-      <link>https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</link>
-      <description>Why Washington still risks losing the tech race.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>“The Strategy of Terrorism”</title>
       <link>https://www.foreignaffairs.com/the-back-page/strategy-terrorism</link>
       <description>A quarter century before 9/11, an upsurge in global terrorism prompted the historian David Fromkin to examine its purpose and method. Terrorism was a strategy of the weak, Fromkin wrote in these pages, but modern technology had enabled it “to enter the political arena on a new scale.” And its surprising success seemed to be due, in large part, “to a miscomprehension of the strategy by its opponents.”</description>
@@ -1165,6 +1151,13 @@
       <link>https://www.foreignaffairs.com/united-states/ai-new-age-bioweapons-sherwood-randall</link>
       <description>Preparing for a world of synthetic pathogens.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/ai-new-age-bioweapons-sherwood-randall</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>America’s Missing Military Revolution</title>
+      <link>https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</link>
+      <description>Why Washington still risks losing the tech race.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</guid>
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1825,17 +1818,17 @@
       <pubDate>Tue, 18 Aug 2026 12:43:00 +0000</pubDate>
     </item>
     <item>
-      <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
-      <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
-      <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
       <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
+      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
+      <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
+      <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
       <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2158,13 +2151,6 @@ The flaws, which the researchers collectively named CoSnitch, turn in part on an
       <pubDate>Tue, 18 Aug 2026 20:12:06 +0000</pubDate>
     </item>
     <item>
-      <title>Comcast turns your Xfinity WiFi into a home motion detector</title>
-      <link>https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/</link>
-      <description>Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/</guid>
-      <pubDate>Tue, 18 Aug 2026 20:14:58 +0000</pubDate>
-    </item>
-    <item>
       <title>'CoSnitch' Attack Tricked Copilot Into Mapping Out Architecture</title>
       <link>https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture</link>
       <description>Researchers discovered a &amp;quot;meta-hacking&amp;quot; technique that can manipulate the AI service into revealing its own security weaknesses.</description>
@@ -2296,13 +2282,6 @@ The tech giant said it required multiple endpoint and network behaviors to align
       <description>The strategy includes key provisions to encourage innovation—but also has a glaring omission.</description>
       <guid isPermaLink="false">https://www.defenseone.com/technology/2026/08/what-trumps-tech-strategy-means-military-deterring-china-and-future-ai/415504/</guid>
       <pubDate>Wed, 19 Aug 2026 07:44:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA: Medusa ransomware hit over 500 critical infrastructure orgs</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/</link>
-      <description>The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/</guid>
-      <pubDate>Wed, 19 Aug 2026 08:00:48 +0000</pubDate>
     </item>
     <item>
       <title>Contested Logistics and the “Last Unmanned Mile”</title>
@@ -3039,6 +3018,27 @@ The end-to-end experiment used an attacker Worker and a victim Worker controlled
       <description>U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/</guid>
       <pubDate>Wed, 19 Aug 2026 20:07:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns</title>
+      <link>https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns</link>
+      <description>The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns</guid>
+      <pubDate>Wed, 19 Aug 2026 20:32:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sakura Internet hack exposes data of up to 1.36 million accounts</title>
+      <link>https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/</link>
+      <description>Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/</guid>
+      <pubDate>Wed, 19 Aug 2026 20:53:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rogue ransomware affiliate poses as data recovery firm to steal payments</title>
+      <link>https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/</link>
+      <description>A suspected ransomware affiliate is posing as a ransomware recovery service called "Ransom Busters," contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/</guid>
+      <pubDate>Wed, 19 Aug 2026 20:59:58 +0000</pubDate>
     </item>
   </channel>
 </rss>
