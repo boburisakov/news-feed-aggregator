@@ -7,595 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 01:21:09 +0000</lastBuildDate>
-    <item>
-      <title>Siemens License Server (SLS)</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-07.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released a new version for Siemens License Server (SLS) and recommends to update to the latest version.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Siemens License Server (SLS) are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Siemens License Server (SLS) vers:intdot/&amp;lt;5.1, vers:intdot/&amp;lt;5.3 (CVE-2026-69108, CVE-2026-69109)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.5&lt;/td&gt;
-&lt;td&gt;Siemens&lt;/td&gt;
-&lt;td&gt;Siemens License Server (SLS)&lt;/td&gt;
-&lt;td&gt;Incorrect Permission Assignment for Critical Resource, Path Traversal: '.../...//'&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Information Technology&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-69108&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected application is vulnerable to a local privilege escalation due to an insecure sudoers policy. This could allow an attacker to execute arbitrary commands and plant malicious files as root, leading to full system compromise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-69108"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens License Server (SLS)&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Siemens License Server (SLS) &amp;lt; V5.1&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V5.1 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/1586485382/"&gt;https://support.sw.siemens.com/product/1586485382/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/732.html"&gt;CWE-732 Incorrect Permission Assignment for Critical Resource&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N"&gt;CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-69109&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected application is vulnerable to a path traversal vulnerability due to lack of sanitization of user input. This could allow a remote attacker to access arbitrary files on the application.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-69109"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens License Server (SLS)&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Siemens License Server (SLS) &amp;lt; V5.3&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V5.3 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/1586485382/"&gt;https://support.sw.siemens.com/product/1586485382/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/35.html"&gt;CWE-35 Path Traversal: '.../...//'&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Siemens ProductCERT reported these vulnerabilities to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Recommendations&lt;/h2&gt;
-&lt;p&gt;As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Additional Resources&lt;/h2&gt;
-&lt;p&gt;For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Terms of Use&lt;/h2&gt;
-&lt;p&gt;The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Siemens ProductCERT SSA-077553 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-11&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-11&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Publication Date&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-13&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Siemens ProductCERT SSA-077553 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07</guid>
-      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Siemens Solid Edge</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-12.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and recommends to update to the latest versions.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Siemens Solid Edge are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Solid Edge SE2025 vers:intdot/&amp;lt;225.0.15 (CVE-2026-50058, CVE-2026-50059, CVE-2026-50060, CVE-2026-50061, CVE-2026-50062, CVE-2026-50063, CVE-2026-50064)&lt;/li&gt;
-&lt;li&gt;Solid Edge SE2026 vers:intdot/&amp;lt;226.0.7 (CVE-2026-50058, CVE-2026-50059, CVE-2026-50060, CVE-2026-50061, CVE-2026-50062, CVE-2026-50063, CVE-2026-50064)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.8&lt;/td&gt;
-&lt;td&gt;Siemens&lt;/td&gt;
-&lt;td&gt;Siemens Solid Edge&lt;/td&gt;
-&lt;td&gt;Out-of-bounds Read, Out-of-bounds Write, Use After Free&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50058&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds read vulnerability while parsing specially crafted DFT files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50058"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50059&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds write vulnerability while parsing specially crafted DFT files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50059"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50060&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contain a use-after-free vulnerability that could be triggered while parsing specially crafted DFT files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50060"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/416.html"&gt;CWE-416 Use After Free&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50061&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contain a use-after-free vulnerability that could be triggered while parsing specially crafted DFT files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50061"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/416.html"&gt;CWE-416 Use After Free&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50062&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds read vulnerability while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50062"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50063&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds read vulnerability while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50063"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-50064&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected applications contains an out of bounds write vulnerability while parsing specially crafted PSM files. This could allow an attacker to execute code in the context of the current process.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-50064"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens Solid Edge&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Solid Edge SE2025 &amp;lt; V225.0.15, Solid Edge SE2026 &amp;lt; V226.0.7&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V225.0 Update 15 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V226.0 Update 7 or later version&lt;br /&gt;&lt;a href="https://support.sw.siemens.com/product/246738425/"&gt;https://support.sw.siemens.com/product/246738425/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Siemens ProductCERT reported these vulnerabilities to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Recommendations&lt;/h2&gt;
-&lt;p&gt;As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Additional Resources&lt;/h2&gt;
-&lt;p&gt;For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Terms of Use&lt;/h2&gt;
-&lt;p&gt;The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Siemens ProductCERT SSA-621657 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-11&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-11&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Publication Date&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-13&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Siemens ProductCERT SSA-621657 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12</guid>
-      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 20 Aug 2026 02:35:23 +0000</lastBuildDate>
     <item>
       <title>AI’s ‘middle class’ has gotten dramatically better at hacking</title>
       <link>https://cyberscoop.com/mid-tier-ai-models-hacking-threat/</link>
@@ -646,13 +58,6 @@
       <description>&lt;img src="https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://actuate.foxglove.dev/"&gt;Actuate 2026&lt;/a&gt;: 18–19 August 2026, SAN FRANCISCO&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="2x2w3mweriu"&gt;Speaking from experience, I can tell you that the best part of any DARPA challenge is when things go horribly wrong. And after you enjoy all the crashes (followed by all of the battery fires), get caught up with the &lt;a href="https://spectrum.ieee.org/video-friday-heavy-lift-drone" target="_blank"&gt;DARPA Lift Challenge&lt;/a&gt; with video recaps of the final few days.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.darpa.mil/news/2026/lift-challenge-awards"&gt;DARPA Lift Challenge&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="gx-oyg38vjs"&gt;&lt;a href="https://spectrum.ieee.org/the-economics-of-drone-delivery" target="_blank"&gt;Drone delivery&lt;/a&gt;: coming soon to a moving vehicle (or perhaps even through an open window) near you.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://uav.hkust.edu.hk/"&gt;HKUST Aerial Robotics Group&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="shsjoyknax0"&gt;This tiny little robot called STEMbot (as in stem, not STEM) can climb up and around plant stems to check for pests. It’s not very fast, but it sure is adorable.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://um-arm-lab.github.io/stembot-site/"&gt;STEMbot&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="e47yaza_yuu"&gt;&lt;em&gt;Monumental’s robots delivered the brickwork for a semi-detached home, laying around 20,000 bricks in a new community.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.monumental.co/"&gt;Monumental&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="mm5itwlmsba"&gt;Meet the world’s most “truss’t-worthy” robot.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.modlabupenn.org/category/vtt/"&gt;Modlab University of Pennsylvania&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="f2r9grjjses"&gt;Stanford BDML and Honeybee Robotics propose a payload to test gecko-inspired adhesives in spaaace!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rmpc.nasatechleap.org/"&gt;NASA&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="q-yhtvmvxgk"&gt;&lt;em&gt;How can a legged robot organize its own walking while maintaining a desired direction? In this work, we present a Differential Adaptive Steering (DAST) mechanism for directional adaptation in legged robots under decentralized adaptive control.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://brain.vistec.ac.th/"&gt;BRAIN VISTEC&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="bugnlio-rqy"&gt;I do not care even a little bit if a robot fails (safely, of course), as long as it recovers from that failure.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://sanctuary.ai/"&gt;Sanctuary AI&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="6_x5rirnn8o"&gt;Even for a robot that doesn’t drink champagne, those are some pretty light pours.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://kawasakirobotics.com/"&gt;Kawasaki Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="yqlkm6ylxkq"&gt;If we as a society would just accept that the appropriate place to store clothing is in a pile on the floor, robots would have a much easier time of it.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ixwjcz6xelo"&gt;To be fair, this is also the speed at which I fold shirts.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="5gd2b0cmfyu"&gt;&lt;em&gt;Our DR02 humanoid robot takes on the stairs with stable, controlled movement—steady steps, steady progress.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.cn/en"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="en7jfhgmqci"&gt;Two words: structural minifridge. Or is it mini fridge...? Whatever, THREE words.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://global.agilex.ai/"&gt;AgileX&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge</guid>
       <pubDate>Fri, 14 Aug 2026 17:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Army picks M1 to lead $10B helicopter-school transformation</title>
-      <link>https://www.defenseone.com/business/2026/08/army-picks-m1-lead-10b-helicopter-school-transformation/415439/</link>
-      <description>The aviation-services firm beat out Bell and Lockheed Martin.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/business/2026/08/army-picks-m1-lead-10b-helicopter-school-transformation/415439/</guid>
-      <pubDate>Fri, 14 Aug 2026 21:10:13 +0000</pubDate>
     </item>
     <item>
       <title>The Army gave General Dynamics $533M to build an artillery plant that produced nothing</title>
@@ -1649,24 +1054,17 @@
       <pubDate>Tue, 18 Aug 2026 12:26:59 +0000</pubDate>
     </item>
     <item>
-      <title>6 Reasons Why Kim Jong Un Might Want to Meet With Trump</title>
-      <link>https://thediplomat.com/2026/08/6-reasons-why-kim-jong-un-might-want-to-meet-with-trump/</link>
-      <description>Kim is in a stronger position today than he was during his summit diplomacy with Trump in 2018 and 2019. But that doesn't mean he has nothing to gain from a meeting.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/6-reasons-why-kim-jong-un-might-want-to-meet-with-trump/</guid>
-      <pubDate>Tue, 18 Aug 2026 12:43:00 +0000</pubDate>
+      <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
+      <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
+      <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
+      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
       <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
       <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
-      <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
-      <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
       <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1698,20 +1096,6 @@
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/commentary/podcast/so-whats-the-strategy-for-democracy-in-2026/"&gt;So what’s the strategy for democracy in 2026?&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/commentary/podcast/so-whats-the-strategy-for-democracy-in-2026/</guid>
       <pubDate>Tue, 18 Aug 2026 13:35:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exercise Rotor Clap III and Mission Sudarshan Chakra: Options for Pakistan</title>
-      <link>https://thediplomat.com/2026/08/exercise-rotor-clap-iii-and-mission-sudarshan-chakra-options-for-pakistan/</link>
-      <description>India is trying to establish a defensive shield against airborne objects, from drones to missiles.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/exercise-rotor-clap-iii-and-mission-sudarshan-chakra-options-for-pakistan/</guid>
-      <pubDate>Tue, 18 Aug 2026 13:54:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kyrgyzstan Liquidates More Companies Over Sanctions Risks</title>
-      <link>https://thediplomat.com/2026/08/kyrgyzstan-liquidates-more-companies-over-sanctions-risks/</link>
-      <description>19 more companies have been ordered to close down, and more than 140 have been cut off by their state-owned banking partners.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/08/kyrgyzstan-liquidates-more-companies-over-sanctions-risks/</guid>
-      <pubDate>Tue, 18 Aug 2026 14:09:00 +0000</pubDate>
     </item>
     <item>
       <title>Rheinmetall secures Bundeswehr order for mobile rescue stations</title>
@@ -2650,6 +2034,20 @@ The intrusion set makes use of seven remote access tool (RAT) families, five of 
       <pubDate>Wed, 19 Aug 2026 14:30:52 +0000</pubDate>
     </item>
     <item>
+      <title>US ICC Sanctions Pose a Test for Japan</title>
+      <link>https://thediplomat.com/2026/08/us-icc-sanctions-pose-a-test-for-japan/</link>
+      <description>Japan’s only treaty ally sanctioned the ICC president – who happens to be a Japanese national. That embodies Japan’s rule-of-law conundrum.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/us-icc-sanctions-pose-a-test-for-japan/</guid>
+      <pubDate>Wed, 19 Aug 2026 14:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Has Pakistan’s Jailed Former PM Imran Khan Been Shifted to Hospital Now?</title>
+      <link>https://thediplomat.com/2026/08/why-has-pakistans-jailed-former-pm-imran-khan-been-shifted-to-hospital-now/</link>
+      <description>Lowering political temperatures and exploring limited dialogue have become a priority for the Pakistani government.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/why-has-pakistans-jailed-former-pm-imran-khan-been-shifted-to-hospital-now/</guid>
+      <pubDate>Wed, 19 Aug 2026 14:49:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Marines Take Sniper Competition Crown With Barrett’s MK 22</title>
       <link>https://sofrep.com/news/marines-take-sniper-competition-crown-with-barretts-mk-22/</link>
       <description>Two Marines without sniper MOSs carried Barrett’s MK 22 into the Army’s toughest sniper competition and walked out with the trophy, proving once again that hardware matters, but the Marine behind the rifle matters more. #BarrettMK22 #MarineCorps #SniperCompetition #MilitarySnipers #PrecisionRifle</description>
@@ -2706,6 +2104,13 @@ The intrusion set makes use of seven remote access tool (RAT) families, five of 
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sea/singapores-formidable-class-frigate-appears-armed-with-blue-spear-missiles"&gt;Singapore’s Formidable Class Frigate Appears Armed With Blue Spear Anti-Ship Missiles&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sea/singapores-formidable-class-frigate-appears-armed-with-blue-spear-missiles</guid>
       <pubDate>Wed, 19 Aug 2026 16:24:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Putin’s Visit to Disputed Island Exacerbates Japan-Russia Tensions</title>
+      <link>https://thediplomat.com/2026/08/putins-visit-to-disputed-island-exacerbates-japan-russia-tensions/</link>
+      <description>The Kuril Islands/Northern Territories have been a constant thorn in Japan-Russia relations. Putin just made it worse.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/08/putins-visit-to-disputed-island-exacerbates-japan-russia-tensions/</guid>
+      <pubDate>Wed, 19 Aug 2026 16:29:00 +0000</pubDate>
     </item>
     <item>
       <title>US Navy destroyer spent 4 days without power in South China Sea</title>
@@ -2901,6 +2306,26 @@ The end-to-end experiment used an attacker Worker and a victim Worker controlled
       <description>ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/</guid>
       <pubDate>Thu, 20 Aug 2026 00:20:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Defense Business Brief: Arcfield’s state of play; SMD wrap up; X-Bow Systems’ MDA win</title>
+      <link>https://www.defenseone.com/business/2026/08/defense-business-brief-arcfields-state-play-smd-wrap-x-bow-systems-mda-win/415535/</link>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/08/defense-business-brief-arcfields-state-play-smd-wrap-x-bow-systems-mda-win/415535/</guid>
+      <pubDate>Thu, 20 Aug 2026 01:28:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33262</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33262</guid>
+      <pubDate>Thu, 20 Aug 2026 02:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Israel strikes military airbase in Syria while warning Turkey</title>
+      <link>https://www.longwarjournal.org/archives/2026/08/israel-strikes-military-airbase-in-syria-while-warning-turkey.php</link>
+      <description>&lt;p&gt;Israeli airstrikes on Syria's Abu al Duhur military airbase overnight between August 17 and 18 highlighted growing tensions between Israel and Turkey over Ankara's expanding role in Syria. Syria condemned the strikes, while the US continued efforts to de-escalate the situation.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/israel-strikes-military-airbase-in-syria-while-warning-turkey.php"&gt;Israel strikes military airbase in Syria while warning Turkey&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/israel-strikes-military-airbase-in-syria-while-warning-turkey.php</guid>
+      <pubDate>Thu, 20 Aug 2026 02:00:33 +0000</pubDate>
     </item>
   </channel>
 </rss>
