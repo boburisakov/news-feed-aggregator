@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 05:56:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 06:42:35 +0000</lastBuildDate>
     <item>
       <title>AI’s ‘middle class’ has gotten dramatically better at hacking</title>
       <link>https://cyberscoop.com/mid-tier-ai-models-hacking-threat/</link>
@@ -1223,15 +1223,6 @@
       <pubDate>Tue, 18 Aug 2026 17:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps</title>
-      <link>https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html</link>
-      <description>Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session.
-
-The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html</guid>
-      <pubDate>Tue, 18 Aug 2026 17:47:22 +0000</pubDate>
-    </item>
-    <item>
       <title>The A.I.s Are Already Out of Control</title>
       <link>https://cset.georgetown.edu/article/the-a-i-s-are-already-out-of-control/</link>
       <description>&lt;p&gt;CSET’s Helen Toner shared her expert insight in an interview with The New York Times. The conversation examines recent incidents involving AI systems hacking, deceiving humans, and coordinating with other AI agents, as well as concerns about the ability of companies to safely monitor and control increasingly capable AI models.&lt;/p&gt;
@@ -2326,6 +2317,17 @@ The end-to-end experiment used an attacker Worker and a victim Worker controlled
       <description>Russia launched a large-scale barrage of ballistic and cruise missiles and drones against Kyiv, killing at least 11 people and injuring 33 others, according to Ukrainian authorities.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russian-deadly-attack-on-kyiv-ukraine/33834170.html</guid>
       <pubDate>Thu, 20 Aug 2026 05:27:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code</title>
+      <link>https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html</link>
+      <description>Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.
+
+The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type.
+
+"The flaw lives in the Forms module's File</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html</guid>
+      <pubDate>Thu, 20 Aug 2026 06:04:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
