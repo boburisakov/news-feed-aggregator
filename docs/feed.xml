@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 14:20:26 +0000</lastBuildDate>
-    <item>
-      <title>Who’s Tracking You? Use This New Service to Find Out</title>
-      <link>https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/</link>
-      <description>It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/</guid>
-      <pubDate>Fri, 14 Aug 2026 11:24:35 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 20 Aug 2026 15:04:12 +0000</lastBuildDate>
     <item>
       <title>Video Friday: Lift Happens</title>
       <link>https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge</link>
@@ -901,13 +894,6 @@
       <pubDate>Tue, 18 Aug 2026 12:26:59 +0000</pubDate>
     </item>
     <item>
-      <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
-      <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Drones With Claws Perch on Arctic Icebergs</title>
       <link>https://spectrum.ieee.org/arctic-iceberg-drones</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;em&gt;&lt;em&gt;This article is part of our exclusive &lt;/em&gt;&lt;/em&gt;&lt;a href="https://spectrum.ieee.org/collections/journal-watch/" target="_self"&gt;&lt;em&gt;&lt;em&gt;IEEE Journal Watch series&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&lt;em&gt; in partnership with IEEE Xplore.&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Microspines are one of many ways to enable robots to latch onto surfaces like &lt;a href="https://spectrum.ieee.org/microspines-make-it-easy-for-drones-to-perch-on-walls-and-ceilings" target="_self"&gt;walls and ceilings&lt;/a&gt;. Now roboticists in Canada are using the mini spikes to get drones to land on a more challenging, remote surface: icebergs.&lt;/p&gt;&lt;p&gt;Like a spider, the Ice Dart can land on and latch onto steep, slippery surfaces such as icebergs and glaciers—an increasingly useful capability as activity in the Arctic increases. The drone can grip onto icy slopes of nearly 60 degrees, which is way beyond what most humans could manage without special equipment. &lt;/p&gt;&lt;p&gt;In a recent study, researchers explained how they developed the Ice Dart drone with a special landing gear that absorbs the impact of a hard landing while holding the drone in place with tiny spines that penetrate and grip the ice.&lt;/p&gt;&lt;hr /&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;/p&gt;&lt;p&gt;Published in &lt;a href="https://ieeexplore.ieee.org/abstract/document/11554347" rel="noopener noreferrer" target="_blank"&gt;&lt;em&gt;&lt;em&gt;IEEE Transactions on Field Robotics&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;, the study describes how the Ice Dart was able to land on icebergs and a glacier in southeast Iceland. Tests took place amid persistent winds and temperatures of 0 to 10 °C along the ruggedly breathtaking Fjallsjökull (pronounced “FYATLS-yuh-kuutl”) glacier, which empties into a lagoon filled with icebergs. The drone was able to successfully perch at speeds of up to 3 meters per second and slopes of up to 58 degrees, with a success rate of 100 percent even in wind speeds of 30 km/h&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The researchers were motivated by a desire to allow drones to land almost anywhere in the world, since the availability of safe landing sites is one of the primary limitations on where and how drones can operate. The researchers already have a history of developing drones that can land on &lt;a href="https://onlinelibrary.wiley.com/doi/full/10.1002/rob.70069" target="_blank"&gt;fast-moving trucks&lt;/a&gt; as well as &lt;a href="https://ieeexplore.ieee.org/abstract/document/9779538" target="_blank"&gt;trailers, boats, and steep roofs&lt;/a&gt;. &lt;/p&gt;&lt;h4&gt;Ice Perching&lt;/h4&gt;&lt;p&gt;“The ability to land rather than hover can fundamentally change how drones are used in the field,” says &lt;a href="https://alexislussierdesbiens.github.io/" rel="noopener noreferrer" target="_blank"&gt;Alexis Lussier Desbiens&lt;/a&gt;, a professor of engineering at  &lt;a href="https://www.createk.co/" rel="noopener noreferrer" target="_blank"&gt;Université de Sherbrooke&lt;/a&gt;, in Sherbrooke, Quebec, Canada, who coauthored the study. “Once a drone has landed, energy consumption drops dramatically, allowing much longer observation periods with a small aircraft. The drone also becomes completely silent and can even reduce or eliminate its thermal and RF signature by shutting down major onboard systems.”&lt;/p&gt;&lt;p&gt;Landing on icebergs specifically allows drones to monitor them for days or months, producing more detailed observation than a quick aerial surveillance mission. This could simplify iceberg tracking compared to methods such as helicopter deployment, dropped instruments, or dart-like tracking devices, and provide another data layer to satellite and ship-based iceberg detection, according to the researchers. It could also provide a means of monitoring icebergs that are otherwise untrackable.&lt;/p&gt;&lt;p&gt;With its carbon-fiber construction, the Ice Dart drone weighs just 2.65 kg and has four legs arranged in an X shape, attached to its body with a pivot joint. Used in the group’s &lt;a href="https://www.youtube.com/watch?v=tTUVr1Ogag0" rel="noopener noreferrer" target="_blank"&gt;previous drone research&lt;/a&gt;, this landing gear disperses energy to reduce impact and overcomes multiple engineering challenges. The friction shock absorbers consist of 38 disks that generate friction torque as the legs move up and down upon impact. This lowers the UAV’s center of mass and helps spread out the kinetic energy of landing, but the real trick comes in the form of two retractable spines on each foot—one for uphill and one for downhill grip. The larger spine engages on the more heavily loaded downhill feet, and the smaller, thinner spine engages more easily on the uphill feet, even under very low loads on steep slopes. The spines only penetrate the ice as the suspension compresses, generating grip and protecting them from high-impact forces. &lt;/p&gt;&lt;p&gt;“The inspiration for the retractable spines in the feet came from looking at a cat’s claws and their ability to deploy only when needed,” says &lt;a href="https://www.linkedin.com/in/isaac-tunney-10094912a/" rel="noopener noreferrer" target="_blank"&gt;Isaac Tunney&lt;/a&gt;, a Université de Sherbrooke postdoc in mechanical and robotics engineering who was lead author of the paper. “I wanted to create feet that would naturally and passively engage their spines in the ice at the right moment, regardless of the drone’s orientation, the surface geometry, or the ice conditions.”&lt;/p&gt;&lt;h4&gt;Arctic Surveillance&lt;/h4&gt;&lt;p&gt;&lt;a href="https://www.abdn.ac.uk/people/william.harcourt" rel="noopener noreferrer" target="_blank"&gt;William D. Harcourt&lt;/a&gt; is a researcher at the University of Aberdeen, in Aberdeen, Scotland, focused on Arctic glaciers, snow, and sea ice, as well as the use of remote sensing and machine learning techniques. Harcourt was not involved in the study, but he sees several potentially interesting applications of the technology. &lt;/p&gt;&lt;p&gt;“Near the front of tidewater glaciers, these systems could enable measurement of &lt;a href="https://www.antarcticglaciers.org/glacier-processes/glacier-flow-2/glacier-flow-ii-stress-and-strain/" rel="noopener noreferrer" target="_blank"&gt;stress and strain&lt;/a&gt; and help us understand &lt;a href="https://en.wikipedia.org/wiki/Ice_calving" rel="noopener noreferrer" target="_blank"&gt;calving processes&lt;/a&gt;,” Harcourt says. “Drones can be used as a mobile GPS, literally acting as a receiver on the ice, but the system would need to solve tilting issues as 3D change measurements usually required the antenna to be horizontal. However, if these problems can be solved, it could be used to track iceberg movements.”&lt;/p&gt;&lt;p&gt;The researchers want to continue developing the Ice Dart technology for real-world applications, including autonomous landing site selection and an emergency takeoff capability to be used if an iceberg rolls over or breaks apart. This August, the drone will be deployed during a Canadian Arctic mission to land on icebergs, collect data, and help validate ship-based iceberg-detection systems.&lt;/p&gt;</description>
@@ -1032,13 +1018,6 @@
       <description>The Defense Information Systems Agency is emphasizing on-demand communications capabilities for this iteration of the program.</description>
       <guid isPermaLink="false">https://www.defenseone.com/business/2026/08/peraton-wins-290m-disa-comms-infrastructure-recompete/415519/</guid>
       <pubDate>Tue, 18 Aug 2026 17:19:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DoD expands R&amp;D on clearing expired satellites from orbit</title>
-      <link>https://breakingdefense.com/2026/08/dod-expands-rd-on-clearing-expired-satellites-from-orbit/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/dod-expands-rd-on-clearing-expired-satellites-from-orbit/"&gt;&lt;img alt="Katalyst&amp;#039;s Nexus on-orbit service spacecraft" class="attachment-large size-large wp-post-image" height="560" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/Screenshot-2026-08-17-at-6.13.43-PM-1024x560.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The stated goal is to clean out obsolete satellites, though the capabilities could also be used in weapons that move a target bird to an orbit where it no longer can perform its function, disable it in some manner or simply smash it.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/dod-expands-rd-on-clearing-expired-satellites-from-orbit/</guid>
-      <pubDate>Tue, 18 Aug 2026 17:30:00 +0000</pubDate>
     </item>
     <item>
       <title>The A.I.s Are Already Out of Control</title>
@@ -1902,13 +1881,6 @@
       <pubDate>Wed, 19 Aug 2026 20:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>Healthtech firm CareCloud data breach impacts 3.7 million patients</title>
-      <link>https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/</link>
-      <description>U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/</guid>
-      <pubDate>Wed, 19 Aug 2026 20:07:12 +0000</pubDate>
-    </item>
-    <item>
       <title>No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns</title>
       <link>https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns</link>
       <description>The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.</description>
@@ -2285,10 +2257,10 @@ The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers 
       <pubDate>Thu, 20 Aug 2026 13:31:17 +0000</pubDate>
     </item>
     <item>
-      <title>Faster, cheaper, safer? The G20 should address the tradeoffs in cross-border payments</title>
+      <title>Faster, cheaper, safer? The G20 should address the tradeoffs in cross-border payments.</title>
       <link>https://www.atlanticcouncil.org/blogs/econographics/faster-cheaper-safer-the-g20-should-address-the-tradeoffs-in-cross-border-payments/</link>
       <description>&lt;p&gt;The tensions between inclusion and speed on the one hand, and safety and security on the other, are becoming increasingly difficult to ignore&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/faster-cheaper-safer-the-g20-should-address-the-tradeoffs-in-cross-border-payments/"&gt;Faster, cheaper, safer? The G20 should address the tradeoffs in cross-border payments&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/faster-cheaper-safer-the-g20-should-address-the-tradeoffs-in-cross-border-payments/"&gt;Faster, cheaper, safer? The G20 should address the tradeoffs in cross-border payments.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/faster-cheaper-safer-the-g20-should-address-the-tradeoffs-in-cross-border-payments/</guid>
       <pubDate>Thu, 20 Aug 2026 13:33:52 +0000</pubDate>
     </item>
@@ -2323,6 +2295,35 @@ The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE id
       <description>AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/</guid>
       <pubDate>Thu, 20 Aug 2026 14:01:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Estonian lawmaker calls US questionnaire to NATO ‘unnecessary stress test’</title>
+      <link>https://breakingdefense.com/2026/08/estonian-lawmaker-calls-us-questionnaire-to-nato-unnecessary-stress-test/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/estonian-lawmaker-calls-us-questionnaire-to-nato-unnecessary-stress-test/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/07/260710_nato_summit_trump_GettyImages-2284609608-e1783693669801.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“It is critically important for us in this time, a time of not living in peace time &amp;#8230; that both in words and deeds to not make any steps to create an image that would indicate to Moscow or Beijing that NATO is not united or focused on deterring threats growing on our borders,” Marko Mihkelson told Breaking Defense. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/estonian-lawmaker-calls-us-questionnaire-to-nato-unnecessary-stress-test/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:24:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>25 years later: The state of Al Qaeda</title>
+      <link>https://www.longwarjournal.org/archives/2026/08/25-years-later-the-state-of-al-qaeda.php</link>
+      <description>&lt;p&gt;Twenty-five years after 9/11, analysts still can't agree on whether Al Qaeda is a spent force or a resurgent threat. Generation Jihad's Bill Roggio and co-host Will Selber speak with guest Graeme Wood, staff writer at The Atlantic, and unpack his new article on the group's uncertain legacy.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/25-years-later-the-state-of-al-qaeda.php"&gt;25 years later: The state of Al Qaeda&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/25-years-later-the-state-of-al-qaeda.php</guid>
+      <pubDate>Thu, 20 Aug 2026 14:38:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Critical Elementor Pro bug exposes WordPress sites to RCE attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/</link>
+      <description>A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:39:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks</link>
+      <description>A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks</guid>
+      <pubDate>Thu, 20 Aug 2026 14:59:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
