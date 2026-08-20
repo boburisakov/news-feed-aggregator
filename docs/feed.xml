@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 12:39:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 13:32:40 +0000</lastBuildDate>
     <item>
       <title>A bold new strategy or a dangerous precedent? Experts are divided on Trump’s memo.</title>
       <link>https://cyberscoop.com/private-sector-hacking-presidential-memo-cybersecurity/</link>
@@ -15,12 +15,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/private-sector-hacking-presidential-memo-cybersecurity/"&gt;A bold new strategy or a dangerous precedent? Experts are divided on Trump&amp;#8217;s memo.&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/private-sector-hacking-presidential-memo-cybersecurity/</guid>
       <pubDate>Thu, 13 Aug 2026 22:19:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)</title>
-      <link>https://isc.sans.edu/diary/rss/33246</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33246</guid>
-      <pubDate>Fri, 14 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
       <title>APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit</title>
@@ -111,13 +105,6 @@
       <description>&lt;img src="https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Humanoids desperately need to stop making YouTube videos and get a job already, and &lt;a href="https://persona.ai/" rel="noopener noreferrer" target="_blank"&gt;Persona AI&lt;/a&gt; is one of the few humanoid companies which seems to be entirely focused on making that happen. Persona’s approach has been to carefully select a job that is economically viable for robots right now, and they’ve found one that was also the job of &lt;a href="https://spectrum.ieee.org/unimation-robot" target="_self"&gt;one of the very first industrial robots ever sold&lt;/a&gt;: welding.&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;/em&gt; first spoke with Persona &lt;a href="https://spectrum.ieee.org/persona-ai-radford-pratt" target="_self"&gt;two years ago&lt;/a&gt;, shortly after it was founded by &lt;a href="https://www.linkedin.com/in/nicolaus-radford/" rel="noopener noreferrer" target="_blank"&gt;Nic Radford&lt;/a&gt; and &lt;a href="https://www.linkedin.com/in/jerry-pratt/" rel="noopener noreferrer" target="_blank"&gt;Jerry Pratt&lt;/a&gt;. Radford led &lt;a href="https://spectrum.ieee.org/meet-valkyrie-nasas-superhero-robot" target="_self"&gt;NASA JSC’s Valkyrie program&lt;/a&gt; back in the day and was also the founder of &lt;a href="https://spectrum.ieee.org/meet-aquanaut-the-underwater-transformer" target="_self"&gt;Nauticus Robotics&lt;/a&gt;, while Pratt led &lt;a href="https://www.ihmc.us/research/human-machine-teamwork/" rel="noopener noreferrer" target="_blank"&gt;IHMC’s&lt;/a&gt; &lt;a href="https://spectrum.ieee.org/darpa-robotics-challenge-amazing-moments-lessons-learned-whats-next" target="_self"&gt;DARPA Robotics Challenge&lt;/a&gt; team before spending a couple of years as CTO of &lt;a href="https://www.figure.ai/" rel="noopener noreferrer" target="_blank"&gt;Figure&lt;/a&gt;. &lt;/p&gt;&lt;h2&gt;The Challenge of Humanoids&lt;/h2&gt;&lt;p&gt;As of &lt;a href="https://spectrum.ieee.org/persona-ai-radford-pratt" target="_self"&gt;our first conversation in 2024&lt;/a&gt;, Persona had committed to building an economically viable humanoid, but they hadn’t yet figured out where their focus was going to be. “We were all over the place,” Radford says. “Warehousing, automotive, we probably even mentioned the home.” These are the same environments with the same sorts of potential applications that basically every other humanoid robotics company is attempting to make economically viable, and despite an ever more exhaustive number of demonstrations, so far none have succeeded at any sort of useful scale. &lt;/p&gt;&lt;p&gt;The challenge for Persona, and really for every robotics company, is that it’s not enough that you have a robot that is simply capable of doing a task. It’s &lt;em&gt;&lt;em&gt;also&lt;/em&gt;&lt;/em&gt; not enough that your robot can do that task in a way that is &lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;efficient and reliable and safe&lt;/a&gt;. What’s required is that your robot can make money for both you and your customer. Most humanoid companies seek to achieve this by targeting baseline “unskilled” human labor.&lt;/p&gt;&lt;p&gt;Persona did not see economic viability in the unskilled labor approach, Radford says. “We started forming this thesis around skilled trades and tool usage.” Persona is targeting much more expensive &lt;em&gt;&lt;em&gt;skilled&lt;/em&gt;&lt;/em&gt; labor with its robots, and the reason why this is feasible is because their entry point focuses on the kind of skills that robots are especially good at. “I like to call it ‘last-mover advantage.’ We’ve seen everything that everybody’s doing, and we’ve decided that there’s a different way.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://www.youtube.com/watch?v=lDNrnmCj2DM" target="_blank"&gt;Persona AI/YouTube&lt;/a&gt;&lt;/small&gt; &lt;/p&gt;&lt;h2&gt;A Humanoid for Shipyard Welding&lt;/h2&gt;&lt;p&gt;The first task that Persona’s humanoid is focusing on is welding—using a handheld tool to connect one piece of metal to another. “Tool use is pretty difficult,” Pratt says. “And we want to use the same tools that humans do, which makes it more difficult.” That difficulty is offset somewhat by the fact that Persona’s humanoid will first focus on making long, linear welds that are relatively uncomplicated. “This is not the hardest style of weld,” Radford says, “but in shipbuilding you need a lot of them—hundreds of kilometers of linear welds per ship.”&lt;/p&gt;&lt;p&gt;Currently, Persona has two public partnerships: one with &lt;a href="https://www.hd.com/en/business/shipbuilding/hhi/contents" rel="noopener noreferrer" target="_blank"&gt;HD Hyundai&lt;/a&gt;, which is the world’s largest shipbuilder, and the other with &lt;a href="https://www.posco.com/" rel="noopener noreferrer" target="_blank"&gt;POSCO&lt;/a&gt;, the third-largest steel producer in the world, both in Korea. Persona declined to get into detail, but Radford says that broadly speaking, the company is interested in customers who can support ‘hundreds’ of robots per location.&lt;/p&gt;&lt;p&gt;Shipyard welding is an enticing application for Persona because there is a deficit of skilled (and highly paid) workers, it’s taxing physical labor, and it’s a comparatively easy skill for a humanoid to learn.&lt;/p&gt;&lt;p&gt;The welding process is skilled in a very robot-friendly way. Because you can only weld as fast as metal melts, the top speed for the task is an easily manageable centimeter per second. And making a high quality weld involves millimeter-scale repeated motions, which robots excel at, especially over long periods of time—whereas humans tend to get tired or bored. Pratt expects that for these uncomplicated welds, performing on-par with humans—if not eventually better—will be achievable soon.&lt;/p&gt;&lt;p&gt;Shipyards make a compelling case for a humanoid with legs, as opposed to a &lt;a href="https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota" target="_self"&gt;more stable wheeled base&lt;/a&gt;. “These open-air shipyards are a couple hundred meters long, with horizontal and vertical spars you have to step over all the time,” says Radford. “You’ve got to work on the ground, overhead, and through portholes.” Persona considered other form factors, like four legs (or even more), but determined a two-legged robot would be the least disruptive to existing shipyard rhythms.&lt;/p&gt;&lt;h2&gt;The Economic Viability of Humanoids&lt;/h2&gt;&lt;p&gt;Deploying their robots in shipyards specifically brings additional advantages for Persona. The safety concerns that come with bipedal robots—such as potentially falling over on a human worker—are lessened because a shipyard environment is staffed with workers who are trained to work around potentially dangerous industrial equipment. The company is also less sensitive to competitive pricing because no other company is pursuing the use case. “We’re now in an industry where the value added by our robot can be high enough that we don’t have to cut corners on quality and features in order to reduce the price,” says Pratt. “With a robot for the home, for example, there would be a lot of competition and a ton of price pressure.”&lt;/p&gt;&lt;p&gt;The added value for shipbuilders, explains Radford, doesn’t come from replacing humans with robots. “Our current partnerships are running at a significant backlog, and they’re labor-constrained. So we want to help our customers’ top line, not necessarily their bottom line.” In other words, rather than trying to argue that their robots will lower shipbuilding costs, Persona is instead arguing that their robots will allow more ships to be built. “Even if our robot was more expensive than a human, that would still be valuable to these companies, because it could unlock additional revenue,” Radford says. And when the additional skilled labor does not exist, Persona’s robots could be the next-best option for shipbuilders who need to scale.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Several workers on scaffolding as they weld a large vessel in an industrial shipyard." class="rm-shortcode" id="54539" src="https://spectrum.ieee.org/media-library/several-workers-on-scaffolding-as-they-weld-a-large-vessel-in-an-industrial-shipyard.jpg?id=67626098&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Shipyards are environments where legs are necessary for a robot to be useful.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;CFOTO/Future Publishing/Getty Images&lt;/small&gt;&lt;/p&gt;&lt;h2&gt;Persona’s Multipurpose Future&lt;/h2&gt;&lt;p&gt;In the current commercial humanoid climate where the emphasis seems to be on developing a “general purpose” (whatever that means) robot that will somehow justify itself through some undefined scale in some equally undefined and perpetually receding future, Persona stands out with their focus on a seemingly viable, near-term, and very specific business case. It hasn’t been easy, though. “It hurts us a little bit,” Radford says. “We’ve been told that we’re not thinking big enough.” &lt;/p&gt;&lt;p&gt;But a tool-using heavy industrial humanoid has plenty of future applications, many of which can be expanded from the welding skill even within shipyards. “Shipbuilding is a great beachhead,” says Pratt. “There are tons of adjacent markets, like grinding, painting, and other kinds of fabrication.” Persona’s ambition, adds Radford, is to be “the largest repository of industrial skills.” &lt;/p&gt;&lt;p&gt;It’s going to take time to get there. That time will be needed to collect tens of thousands of hours of expert demonstration data, create high-fidelity simulations, and conduct real-world testing. And however promising Persona’s approach may seem, the company still has to prove that its idea for an economically viable robotics company can be realized. It’s the same challenge that every humanoid robot company is facing. “A lot of the technical problems are the same no matter whether you’re in a house or a shipyard,” Pratt says. “Everybody’s got a great team and smart people, and we’re all knocking these problems out together.”&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/persona-ai-humanoid-robot-welding</guid>
       <pubDate>Mon, 17 Aug 2026 15:33:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>M1 contracted to modernise US Army’s helicopter flight training</title>
-      <link>https://www.army-technology.com/news/m1-us-army-helicopter-trainer/</link>
-      <description>M1 Support Services has been awarded a $10bn contract to provide Initial Entry Rotary Wing training for the US Army over a 26-year period.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/m1-us-army-helicopter-trainer/</guid>
-      <pubDate>Mon, 17 Aug 2026 16:02:57 +0000</pubDate>
     </item>
     <item>
       <title>American missionary abducted in Niger freed after nearly 10 months of captivity</title>
@@ -223,14 +210,6 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Spring 2026 Young Global Professionals</title>
-      <link>https://www.atlanticcouncil.org/content-series/meet-our-ygps/spring-2026-young-global-professionals/</link>
-      <description>&lt;p&gt;Meet our Young Global Professionals for the Spring of 2026.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/content-series/meet-our-ygps/spring-2026-young-global-professionals/"&gt;Spring 2026 Young Global Professionals&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/content-series/meet-our-ygps/spring-2026-young-global-professionals/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:39 +0000</pubDate>
-    </item>
-    <item>
       <title>Where Are The Aircraft Carriers?: August 17, 2026</title>
       <link>https://www.twz.com/sea/where-are-the-aircraft-carriers-august-17-2026</link>
       <description>&lt;p&gt;USS George Washington is en route to relieve USS Abraham Lincoln in the Middle East, which leaves no carriers in the Pacific.&lt;/p&gt;
@@ -266,27 +245,6 @@
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Abandoned Order</title>
-      <link>https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</link>
-      <description>Learning to live in a post-American world.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Alliances Survive</title>
-      <link>https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi</link>
-      <description>The case against pessimism and the path to a new allied order.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI and the New Age of Bioweapons</title>
-      <link>https://www.foreignaffairs.com/united-states/ai-new-age-bioweapons-sherwood-randall</link>
-      <description>Preparing for a world of synthetic pathogens.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/ai-new-age-bioweapons-sherwood-randall</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>America’s Missing Military Revolution</title>
       <link>https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</link>
       <description>Why Washington still risks losing the tech race.</description>
@@ -298,6 +256,27 @@
       <link>https://www.foreignaffairs.com/united-states/end-american-middle-east-iran-marc-lynch</link>
       <description>Iran and the last gasp of a failed order.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/end-american-middle-east-iran-marc-lynch</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Alliances Survive</title>
+      <link>https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi</link>
+      <description>The case against pessimism and the path to a new allied order.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Abandoned Order</title>
+      <link>https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</link>
+      <description>Learning to live in a post-American world.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI and the New Age of Bioweapons</title>
+      <link>https://www.foreignaffairs.com/united-states/ai-new-age-bioweapons-sherwood-randall</link>
+      <description>Preparing for a world of synthetic pathogens.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/ai-new-age-bioweapons-sherwood-randall</guid>
       <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -937,13 +916,6 @@
       <pubDate>Tue, 18 Aug 2026 12:26:59 +0000</pubDate>
     </item>
     <item>
-      <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
-      <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
-      <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
       <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
@@ -1349,35 +1321,6 @@
       <pubDate>Wed, 19 Aug 2026 10:06:55 +0000</pubDate>
     </item>
     <item>
-      <title>StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data</title>
-      <link>https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html</link>
-      <description>Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stolen documents, screenshots, and activity logs created to track the status of the activity.
-
-"The operation doesn't rely on a single piece of malware, but on a whole toolkit of criminal software</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html</guid>
-      <pubDate>Wed, 19 Aug 2026 11:25:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Phishing 3.0: The Fight Moves to Agent Versus Agent</title>
-      <link>https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html</link>
-      <description>Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person.
-
-From Bad Content to Bad Intent to AI on Both Sides
-
-Phishing 1.0 was bad</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html</guid>
-      <pubDate>Wed, 19 Aug 2026 11:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P</title>
-      <link>https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html</link>
-      <description>Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique.
-
-The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html</guid>
-      <pubDate>Wed, 19 Aug 2026 11:34:28 +0000</pubDate>
-    </item>
-    <item>
       <title>Fevered Political Moves In Ukraine Amid Anti-Corruption Raids, Fedorov Challenge</title>
       <link>https://www.rferl.org/a/ukraine-anti-corruption-raids-fedorov-zelenskyy/33833537.html</link>
       <description>Ukraine's anti-corruption agency has announced new investigations focusing on lawmakers and people from President Volodymyr Zelenskyy's office, a day after popular former Defense Minister Mykhaylo Fedorov issued a video calling for him to hold new elections .</description>
@@ -1753,15 +1696,6 @@ The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB e
       <description>The collapse of diplomacy and the return to military confrontation with Iran have shown that pressure alone cannot contain Tehran’s nuclear ambitions, protect American interests, or bring lasting stability to the region. #Iran #JCPOA #IranNuclearDeal #OperationEpicFury #ForeignPolicy</description>
       <guid isPermaLink="false">https://sofrep.com/news/trump-killed-the-iran-nuclear-deal-did-the-war-prove-it-was-a-mistake/</guid>
       <pubDate>Wed, 19 Aug 2026 13:00:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs</title>
-      <link>https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html</link>
-      <description>A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.
-
-The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT. SilkParasite, first discovered in late 2025, is assessed to be a</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html</guid>
-      <pubDate>Wed, 19 Aug 2026 13:12:17 +0000</pubDate>
     </item>
     <item>
       <title>Israel lessens strikes after US-backed disarmament plan, rejects initial withdrawal; IDF reports 16 Gaza ceasefire violations July 31-August 18</title>
@@ -2276,6 +2210,33 @@ The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring
       <pubDate>Thu, 20 Aug 2026 11:06:14 +0000</pubDate>
     </item>
     <item>
+      <title>Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices</title>
+      <link>https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html</link>
+      <description>A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused communications.
+
+"Manic sits at the intersection of Android banking malware and mobile spyware, combining financial-fraud</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html</guid>
+      <pubDate>Thu, 20 Aug 2026 11:26:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification</title>
+      <link>https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html</link>
+      <description>Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server.
+
+The attacks, collectively named "CDN Tsunami," were evaluated against Alibaba, Baidu,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html</guid>
+      <pubDate>Thu, 20 Aug 2026 11:39:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why "Shady AI" is Security's Next Big Governance Problem</title>
+      <link>https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html</link>
+      <description>In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it.&amp;nbsp;
+
+The incident began when a Meta employee posted a technical question on an internal forum. An engineer used an approved AI agent to analyze it, but the agent posted its response publicly without approval. The employee</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html</guid>
+      <pubDate>Thu, 20 Aug 2026 11:45:00 +0000</pubDate>
+    </item>
+    <item>
       <title>New White House strategy clarifies military tech priorities: undersea, outer space and AI</title>
       <link>https://breakingdefense.com/2026/08/new-white-house-strategy-clarifies-military-tech-priorities-undersea-outer-space-and-ai/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/new-white-house-strategy-clarifies-military-tech-priorities-undersea-outer-space-and-ai/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/260819_DVIDS_sub_sailing_9353211-scaled-e1787169323902-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The National Security Science &amp;#038; Technology Strategy (NSSTS) also outlines an array of second-tier or longer-term technologies to watch, notably quantum and biotech.&lt;/p&gt;</description>
@@ -2290,11 +2251,13 @@ The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring
       <pubDate>Thu, 20 Aug 2026 12:00:35 +0000</pubDate>
     </item>
     <item>
-      <title>Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)</title>
-      <link>https://isc.sans.edu/diary/rss/33264</link>
-      <description>Microsoft Graph is a newer API that is meant to replace several others.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; OK, it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s at version 2.3.9, so it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s not all that new, but it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s new enough that lots of folks (and commercial tools) aren&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;t using it yet.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;It allows you to Get and Set info from/to M365, Entra Users and Entra managed machines for starters.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; Let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s dig in&amp;#x21;&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33264</guid>
-      <pubDate>Thu, 20 Aug 2026 12:08:40 +0000</pubDate>
+      <title>Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments</title>
+      <link>https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html</link>
+      <description>Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card's cryptography.
+
+The attack, which the researchers named "Zombie Card," requires physical</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html</guid>
+      <pubDate>Thu, 20 Aug 2026 12:01:24 +0000</pubDate>
     </item>
     <item>
       <title>The Download: polycrisis support networks and a hydrogen gold rush</title>
@@ -2324,6 +2287,42 @@ The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/menasource/the-global-munitions-crisis-requires-foreign-military-sales-reform/"&gt;The global munitions crisis requires Foreign Military Sales reform&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/menasource/the-global-munitions-crisis-requires-foreign-military-sales-reform/</guid>
       <pubDate>Thu, 20 Aug 2026 12:24:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33264</link>
+      <description>Microsoft Graph is a newer API that is meant to replace several others.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; OK, it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s at version 2.3.9, so it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s not all that new, but it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s new enough that lots of folks (and commercial tools) aren&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;t using it yet.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;It allows you to Get and Set info from/to M365, Entra Users and Entra managed machines for starters.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; Let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s dig in&amp;#x21;&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33264</guid>
+      <pubDate>Thu, 20 Aug 2026 12:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Castelion raises $1bn to scale low-cost hypersonic missiles</title>
+      <link>https://www.army-technology.com/news/castelion-funding-blackbeard-missile/</link>
+      <description>Defence tech company Castelion has secured $1bn in Series C funding to ramp up production of its Blackbeard hypersonic missile and further develop advanced weapons technology.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/castelion-funding-blackbeard-missile/</guid>
+      <pubDate>Thu, 20 Aug 2026 12:57:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Colombia-Venezuela agenda for recovery, security, and economic growth</title>
+      <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/a-colombia-venezuela-agenda-for-recovery-security-and-economic-growth/</link>
+      <description>&lt;p&gt;The recent earthquakes in Venezuela and Colombia have created urgent humanitarian needs that will require sustained international support. As recovery advances, the US-Colombia Strategic Alignment Coalition outlines how both countries, with US support, can build a cooperation agenda.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/a-colombia-venezuela-agenda-for-recovery-security-and-economic-growth/"&gt;A Colombia-Venezuela agenda for recovery, security, and economic growth&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/a-colombia-venezuela-agenda-for-recovery-security-and-economic-growth/</guid>
+      <pubDate>Thu, 20 Aug 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33266</link>
+      <description>Building on the last diary on Using MS Graph and Powershell, let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s look at "Risky" logins.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33266</guid>
+      <pubDate>Thu, 20 Aug 2026 13:09:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Grandoreiro' Malware Resurfaces With Mexico Campaign</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign</link>
+      <description>The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign</guid>
+      <pubDate>Thu, 20 Aug 2026 13:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
