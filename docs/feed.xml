@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 21:23:33 +0000</lastBuildDate>
-    <item>
-      <title>Army’s Apache grounding prompted by deadly Texas crash will end this week, memo says</title>
-      <link>https://www.defenseone.com/defense-systems/2026/08/armys-apache-grounding-prompted-deadly-texas-crash-will-end-week-memo-says/415467/</link>
-      <description>The service confirmed a transmission problem on the helicopters three months ago. It wasn’t a factor in this crash, an official told Defense One.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/defense-systems/2026/08/armys-apache-grounding-prompted-deadly-texas-crash-will-end-week-memo-says/415467/</guid>
-      <pubDate>Mon, 17 Aug 2026 19:15:28 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 20 Aug 2026 21:52:40 +0000</lastBuildDate>
     <item>
       <title>CMMC Works. Now let’s sharpen it.</title>
       <link>https://www.defenseone.com/ideas/2026/08/cmmc-works-now-lets-sharpen-it/415470/</link>
@@ -914,13 +907,6 @@
       <pubDate>Tue, 18 Aug 2026 23:00:18 +0000</pubDate>
     </item>
     <item>
-      <title>China-Linked Hacker Shows AI Capabilities in APAC Attack</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack</link>
-      <description>In the first purported &amp;quot;near-autonomous&amp;quot; attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in Taiwan.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack</guid>
-      <pubDate>Wed, 19 Aug 2026 01:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>South Korea’s Highly Mobile 155mm Artillery System Wins U.S. Army Howitzer Contract</title>
       <link>https://www.twz.com/land/south-koreas-highly-mobile-155mm-artillery-system-wins-u-s-army-howitzer-contract</link>
       <description>&lt;p&gt;The Army wants a new wheeled self-propelled 155mm howitzer to replace its towed M777s, offering a boost in range and mobility.&lt;/p&gt;
@@ -1600,7 +1586,7 @@
       <pubDate>Wed, 19 Aug 2026 23:43:18 +0000</pubDate>
     </item>
     <item>
-      <title>How ChatGPT Work helps Stampli move ideas to market</title>
+      <title>Stampli cuts launch hours by 68% using ChatGPT Work</title>
       <link>https://openai.com/index/stampli</link>
       <description>With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.</description>
       <guid isPermaLink="false">https://openai.com/index/stampli</guid>
@@ -1761,15 +1747,6 @@
       <description>The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/</guid>
       <pubDate>Thu, 20 Aug 2026 11:06:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification</title>
-      <link>https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html</link>
-      <description>Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server.
-
-The attacks, collectively named "CDN Tsunami," were evaluated against Alibaba, Baidu,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html</guid>
-      <pubDate>Thu, 20 Aug 2026 11:39:35 +0000</pubDate>
     </item>
     <item>
       <title>Why "Shady AI" is Security's Next Big Governance Problem</title>
@@ -2426,6 +2403,15 @@ These clusters include UNC6293, UNC7005, and UNC5976.
       <pubDate>Thu, 20 Aug 2026 20:19:34 +0000</pubDate>
     </item>
     <item>
+      <title>Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads</title>
+      <link>https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html</link>
+      <description>The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.
+
+The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html</guid>
+      <pubDate>Thu, 20 Aug 2026 20:22:35 +0000</pubDate>
+    </item>
+    <item>
       <title>US Navy leads multinational effort for next-gen SeaSparrow missile</title>
       <link>https://www.defensenews.com/air-warfare/2026/08/20/us-navy-leads-multinational-effort-for-next-gen-seasparrow-missile/</link>
       <description>The U.S. Navy is leading a multinational effort to develop a new version of the Evolved SeaSparrow air defense missile.</description>
@@ -2447,6 +2433,21 @@ These clusters include UNC6293, UNC7005, and UNC5976.
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/as-pressure-mounts-on-putin-russia-is-escalating-against-ukraines-allies/"&gt;As pressure mounts on Putin, Russia is escalating against Ukraine’s allies&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/as-pressure-mounts-on-putin-russia-is-escalating-against-ukraines-allies/</guid>
       <pubDate>Thu, 20 Aug 2026 20:37:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>New CUSTODY Framework Constrains AI Agents Inside the Network</title>
+      <link>https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network</link>
+      <description>Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network</guid>
+      <pubDate>Thu, 20 Aug 2026 20:42:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI Could Hollow Out the U.S. Military</title>
+      <link>https://cset.georgetown.edu/article/how-ai-could-hollow-out-the-u-s-military/</link>
+      <description>&lt;p&gt;CSET’s Emelia Probasco shared her expert insight in an op-ed published by Foreign Affairs. In her piece, she examines how the U.S. military’s growing use of AI could affect military decision-making and human judgment, particularly as the Pentagon works to integrate increasingly capable AI systems into operations and training.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/how-ai-could-hollow-out-the-u-s-military/"&gt;How AI Could Hollow Out the U.S. Military&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cset.georgetown.edu/article/how-ai-could-hollow-out-the-u-s-military/</guid>
+      <pubDate>Thu, 20 Aug 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
       <title>White House Ranks the Future of War: Undersea, Space and AI Come Out on Top</title>
