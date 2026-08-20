@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 06:42:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 07:27:46 +0000</lastBuildDate>
     <item>
       <title>AI’s ‘middle class’ has gotten dramatically better at hacking</title>
       <link>https://cyberscoop.com/mid-tier-ai-models-hacking-threat/</link>
@@ -1040,17 +1040,17 @@
       <pubDate>Tue, 18 Aug 2026 12:26:59 +0000</pubDate>
     </item>
     <item>
-      <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
-      <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
       <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
       <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
+      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
+      <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
       <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1496,13 +1496,6 @@ The tech giant said it required multiple endpoint and network behaviors to align
       <description>Iranian authorities have moved against the popular online platform Azad, accusing it of publishing “falsehoods” and signaling what an Iranian political activist and commentator says could be a broader crackdown on independent Persian-language YouTube channels.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-azad-youtube-ban-dissent/33833478.html</guid>
       <pubDate>Wed, 19 Aug 2026 10:06:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Critical RCE flaw in Windows IKE Extension now actively exploited</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions component. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/</guid>
-      <pubDate>Wed, 19 Aug 2026 10:12:24 +0000</pubDate>
     </item>
     <item>
       <title>Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation</title>
@@ -2328,6 +2321,13 @@ The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of
 "The flaw lives in the Forms module's File</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html</guid>
       <pubDate>Thu, 20 Aug 2026 06:04:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft says August Windows updates may cause gaming issues</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/</link>
+      <description>Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/</guid>
+      <pubDate>Thu, 20 Aug 2026 06:51:03 +0000</pubDate>
     </item>
   </channel>
 </rss>
