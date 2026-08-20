@@ -7,15 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 11:22:12 +0000</lastBuildDate>
-    <item>
-      <title>Tech contractor for Brightly Software sentenced to 2 years in prison for insider attack</title>
-      <link>https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/</link>
-      <description>&lt;p&gt;Cameron Curry stole corporate data and employee information, which he used to threaten the company as his six-month contract gig came to a close. He ultimately extorted the company for $7,540.92.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/"&gt;Tech contractor for Brightly Software sentenced to 2 years in prison for insider attack&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/</guid>
-      <pubDate>Thu, 13 Aug 2026 21:59:53 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 20 Aug 2026 11:52:19 +0000</lastBuildDate>
     <item>
       <title>A bold new strategy or a dangerous precedent? Experts are divided on Trump’s memo.</title>
       <link>https://cyberscoop.com/private-sector-hacking-presidential-memo-cybersecurity/</link>
@@ -1947,7 +1939,7 @@ The intrusion set makes use of seven remote access tool (RAT) families, five of 
     <item>
       <title>SilkParasite Threatens Central Asian Orgs With Flurry of RATs</title>
       <link>https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats</link>
-      <description>A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.</description>
+      <description>A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.</description>
       <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats</guid>
       <pubDate>Wed, 19 Aug 2026 16:58:23 +0000</pubDate>
     </item>
@@ -2325,6 +2317,13 @@ The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring
       <description>The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/</guid>
       <pubDate>Thu, 20 Aug 2026 11:06:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33264</link>
+      <description>Microsoft Graph is a newer API that is meant to replace several others.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; OK, it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s at version 2.3.9, so it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s not all that new, but it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s new enough that lots of folks (and commercial tools) aren&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;t using it yet.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;It allows you to Get and Set info from/to M365, Entra Users and Entra managed machines for starters.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; Let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s dig in&amp;#x21;&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33264</guid>
+      <pubDate>Thu, 20 Aug 2026 11:47:54 +0000</pubDate>
     </item>
   </channel>
 </rss>
