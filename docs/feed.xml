@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 10:46:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 11:22:12 +0000</lastBuildDate>
     <item>
       <title>Tech contractor for Brightly Software sentenced to 2 years in prison for insider attack</title>
       <link>https://cyberscoop.com/cameron-curry-insider-attack-brightly-software-sentenced/</link>
@@ -230,13 +230,6 @@
 &lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/trump-crypto-firm-backs-venture-offering-ai-from-restricted-chinese-companies/"&gt;Trump crypto firm backs venture offering AI from restricted Chinese companies&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cset.georgetown.edu/article/trump-crypto-firm-backs-venture-offering-ai-from-restricted-chinese-companies/</guid>
       <pubDate>Mon, 17 Aug 2026 21:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Video Call Exploit Chains Two Flaws in Unisoc Modems</title>
-      <link>https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems</link>
-      <description>Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems</guid>
-      <pubDate>Mon, 17 Aug 2026 21:37:23 +0000</pubDate>
     </item>
     <item>
       <title>Bill expanding paid leave for feds pared back in Senate</title>
@@ -974,17 +967,17 @@
       <pubDate>Tue, 18 Aug 2026 12:26:59 +0000</pubDate>
     </item>
     <item>
-      <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
-      <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud</title>
       <link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
       <description>The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
+      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
+      <description>A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</guid>
       <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1334,24 +1327,6 @@
       <pubDate>Wed, 19 Aug 2026 05:15:00 +0000</pubDate>
     </item>
     <item>
-      <title>Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data</title>
-      <link>https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html</link>
-      <description>A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest.
-
-The cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html</guid>
-      <pubDate>Wed, 19 Aug 2026 05:39:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure</title>
-      <link>https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</link>
-      <description>Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration.
-
-The tech giant said it required multiple endpoint and network behaviors to align before</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</guid>
-      <pubDate>Wed, 19 Aug 2026 06:01:53 +0000</pubDate>
-    </item>
-    <item>
       <title>Replit expands access to software creation with GPT-5.6 Luna</title>
       <link>https://openai.com/index/replit</link>
       <description>Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.</description>
@@ -1416,18 +1391,6 @@ The tech giant said it required multiple endpoint and network behaviors to align
       <description>Iranian authorities have moved against the popular online platform Azad, accusing it of publishing “falsehoods” and signaling what an Iranian political activist and commentator says could be a broader crackdown on independent Persian-language YouTube channels.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-azad-youtube-ban-dissent/33833478.html</guid>
       <pubDate>Wed, 19 Aug 2026 10:06:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation</title>
-      <link>https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild.
-
-The shortcomings added to the KEV catalog are listed below -
-
-
-  CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</guid>
-      <pubDate>Wed, 19 Aug 2026 11:01:48 +0000</pubDate>
     </item>
     <item>
       <title>StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data</title>
@@ -1938,13 +1901,6 @@ The intrusion set makes use of seven remote access tool (RAT) families, five of 
       <pubDate>Wed, 19 Aug 2026 15:37:25 +0000</pubDate>
     </item>
     <item>
-      <title>US charges Iranian hackers over $3.4 billion intellectual property theft</title>
-      <link>https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/</link>
-      <description>The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/</guid>
-      <pubDate>Wed, 19 Aug 2026 15:56:09 +0000</pubDate>
-    </item>
-    <item>
       <title>A California county wants to hire Tina Peters to help run its elections</title>
       <link>https://cyberscoop.com/shasta-county-elections-tina-peters/</link>
       <description>&lt;p&gt;After her prison sentence for felony election-related crimes was commuted, Peters is poised to once again administer critical election duties.&lt;/p&gt;
@@ -2095,6 +2051,13 @@ The end-to-end experiment used an attacker Worker and a victim Worker controlled
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/bosnias-high-representative-fight-exposes-transatlantic-rift/"&gt;Bosnia’s high representative succession dispute exposes a deeper transatlantic rift&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/bosnias-high-representative-fight-exposes-transatlantic-rift/</guid>
       <pubDate>Wed, 19 Aug 2026 19:35:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic AI Presents New Insider Threat Model for Orgs</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model</link>
+      <description>Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent Hugging Face attack.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model</guid>
+      <pubDate>Wed, 19 Aug 2026 19:54:43 +0000</pubDate>
     </item>
     <item>
       <title>Striveworks to build AI layer for NGC2 at corps level, Army says</title>
@@ -2280,6 +2243,15 @@ The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of
       <pubDate>Thu, 20 Aug 2026 08:00:25 +0000</pubDate>
     </item>
     <item>
+      <title>40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets</title>
+      <link>https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html</link>
+      <description>A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products.
+
+According to the Socket Threat Research team, the extensions are part of a broader set of 77 browser add-ons that share source code and infrastructure overlaps. The campaign, dubbed Offside Wallet Theft Factory, is believed to</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html</guid>
+      <pubDate>Thu, 20 Aug 2026 08:42:03 +0000</pubDate>
+    </item>
+    <item>
       <title>Support networks aim to help kids through the polycrisis</title>
       <link>https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/</link>
       <description>Sometime in the late 2000s, Pim Sullivan-Tailyour was sitting in the back of a car, headed toward her great-grandmother’s tiny town in the south of Thailand. She watched big mountains pass by out the window. She was just six years old but was about to be hit by an adult-size realization. “They were just quarried&amp;#8230;</description>
@@ -2328,6 +2300,31 @@ The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of
       <description>A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/</guid>
       <pubDate>Thu, 20 Aug 2026 10:02:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud</title>
+      <link>https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html</link>
+      <description>Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with "significant enhancements," including a set of 167 remote commands and expands its targeting footprint globally.
+
+Zimperium zLabs, in a Wednesday report, said the Android malware also features a PIN harvesting workflow targeting more than 140 banking and cryptocurrency applications.</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html</guid>
+      <pubDate>Thu, 20 Aug 2026 10:38:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands</title>
+      <link>https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html</link>
+      <description>Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument command bus.
+
+The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring system, impacts AIT-GUI</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html</guid>
+      <pubDate>Thu, 20 Aug 2026 11:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA warns of hackers exploiting critical MLflow vulnerability</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/</link>
+      <description>The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/</guid>
+      <pubDate>Thu, 20 Aug 2026 11:06:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
