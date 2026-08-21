@@ -7,7 +7,57 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 19:22:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 19:47:08 +0000</lastBuildDate>
+    <item>
+      <title>CMMC Works. Now let’s sharpen it.</title>
+      <link>https://www.defenseone.com/ideas/2026/08/cmmc-works-now-lets-sharpen-it/415470/</link>
+      <description>This is not the moment to loosen the standard, writes a former DOD CIO.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/ideas/2026/08/cmmc-works-now-lets-sharpen-it/415470/</guid>
+      <pubDate>Mon, 17 Aug 2026 19:19:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump crypto firm backs venture offering AI from restricted Chinese companies</title>
+      <link>https://cset.georgetown.edu/article/trump-crypto-firm-backs-venture-offering-ai-from-restricted-chinese-companies/</link>
+      <description>&lt;p&gt;CSET’s Sam Bresnick shared his expert insight in an article published by Reuters. The article examines how President Trump’s crypto-backed World Liberty Financial is collaborating with WorldClaw, an AI platform offering models from Chinese companies that the U.S. government has flagged for national security and intellectual property concerns&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/trump-crypto-firm-backs-venture-offering-ai-from-restricted-chinese-companies/"&gt;Trump crypto firm backs venture offering AI from restricted Chinese companies&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cset.georgetown.edu/article/trump-crypto-firm-backs-venture-offering-ai-from-restricted-chinese-companies/</guid>
+      <pubDate>Mon, 17 Aug 2026 21:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bill expanding paid leave for feds pared back in Senate</title>
+      <link>https://www.defenseone.com/policy/2026/08/bill-expanding-paid-leave-feds-pared-back-senate/415506/</link>
+      <description>The upper chamber’s version removes provisions allowing the paid family leave to be used in connection with helping a family member who has been the victim of sexual assault, domestic violence, or stalking.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/08/bill-expanding-paid-leave-feds-pared-back-senate/415506/</guid>
+      <pubDate>Mon, 17 Aug 2026 21:54:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>White House S&amp;T strategy calls for new approaches to safeguard US research</title>
+      <link>https://www.defenseone.com/technology/2026/08/white-house-st-strategy-calls-new-approaches-safeguard-us-research/415505/</link>
+      <description>The new guidance is a departure from last year’s National Security Strategy.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/technology/2026/08/white-house-st-strategy-calls-new-approaches-safeguard-us-research/415505/</guid>
+      <pubDate>Mon, 17 Aug 2026 22:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How NVIDIA scales expertise with ChatGPT Work</title>
+      <link>https://openai.com/index/nvidia/chatgpt-work</link>
+      <description>NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.</description>
+      <guid isPermaLink="false">https://openai.com/index/nvidia/chatgpt-work</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How China Found Its Most Potent Weapon</title>
+      <link>https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss</link>
+      <description>The real history of Beijing’s rare-earth dominance.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Alliances Survive</title>
+      <link>https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi</link>
+      <description>The case against pessimism and the path to a new allied order.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi</guid>
+      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>America’s Missing Military Revolution</title>
       <link>https://www.foreignaffairs.com/united-states/americas-missing-military-revolution-doug-beck</link>
@@ -728,12 +778,6 @@
       <pubDate>Tue, 18 Aug 2026 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058, (Wed, Aug 19th)</title>
-      <link>https://isc.sans.edu/diary/rss/33258</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33258</guid>
-      <pubDate>Wed, 19 Aug 2026 02:00:03 +0000</pubDate>
-    </item>
-    <item>
       <title>A China Strategy That Lasts</title>
       <link>https://www.foreignaffairs.com/united-states/china-strategy-lasts-bill-cassidy</link>
       <description>Congress must lead to compete with Beijing.</description>
@@ -1143,13 +1187,6 @@
       <pubDate>Wed, 19 Aug 2026 14:18:12 +0000</pubDate>
     </item>
     <item>
-      <title>Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)</title>
-      <link>https://isc.sans.edu/diary/rss/33260</link>
-      <description>Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the region the machine is running in or its MAC and IP addresses. However, the service may also be used to retrieve credentials for IAM roles and service account tokens.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33260</guid>
-      <pubDate>Wed, 19 Aug 2026 14:24:58 +0000</pubDate>
-    </item>
-    <item>
       <title>The long tail of Clop’s PTC hack is just beginning to emerge</title>
       <link>https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/</link>
       <description>&lt;p&gt;The data theft extortion group likely compromised a critical vulnerability affecting PTC’s product lifecycle management software in June, a month before it sent threatening emails to victims.&lt;/p&gt;
@@ -1283,12 +1320,6 @@
       <link>https://www.defenseone.com/business/2026/08/defense-business-brief-arcfields-state-play-smd-wrap-x-bow-systems-mda-win/415535/</link>
       <guid isPermaLink="false">https://www.defenseone.com/business/2026/08/defense-business-brief-arcfields-state-play-smd-wrap-x-bow-systems-mda-win/415535/</guid>
       <pubDate>Thu, 20 Aug 2026 01:28:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)</title>
-      <link>https://isc.sans.edu/diary/rss/33262</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33262</guid>
-      <pubDate>Thu, 20 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
       <title>Israel strikes military airbase in Syria while warning Turkey</title>
@@ -1549,13 +1580,6 @@
       <pubDate>Thu, 20 Aug 2026 12:20:03 +0000</pubDate>
     </item>
     <item>
-      <title>Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)</title>
-      <link>https://isc.sans.edu/diary/rss/33264</link>
-      <description>Microsoft Graph is a newer API that is meant to replace several others.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; OK, it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s at version 2.3.9, so it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s not all that new, but it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s new enough that lots of folks (and commercial tools) aren&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;t using it yet.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;It allows you to Get and Set info from/to M365, Entra Users and Entra managed machines for starters.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; Let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s dig in&amp;#x21;&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33264</guid>
-      <pubDate>Thu, 20 Aug 2026 12:45:32 +0000</pubDate>
-    </item>
-    <item>
       <title>Castelion raises $1bn to scale low-cost hypersonic missiles</title>
       <link>https://www.army-technology.com/news/castelion-funding-blackbeard-missile/</link>
       <description>Defence tech company Castelion has secured $1bn in Series C funding to ramp up production of its Blackbeard hypersonic missile and further develop advanced weapons technology.</description>
@@ -1568,13 +1592,6 @@
       <description>Thales and Systematic have established a strategic partnership aimed at delivering advanced, interoperable air defence solutions to the Danish Armed Forces.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/thales-systematic-denmark-air-defence/</guid>
       <pubDate>Thu, 20 Aug 2026 13:09:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)</title>
-      <link>https://isc.sans.edu/diary/rss/33266</link>
-      <description>Building on the last diary on Using MS Graph and Powershell, let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s look at "Risky" logins.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33266</guid>
-      <pubDate>Thu, 20 Aug 2026 13:09:50 +0000</pubDate>
     </item>
     <item>
       <title>'Grandoreiro' Malware Resurfaces With Mexico Campaign</title>
@@ -1895,26 +1912,6 @@ The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec
       <description>Carrier availability and decisions made during the Iran war have exacerbated the US Navy's longstanding struggles with a frenzied operational tempo.</description>
       <guid isPermaLink="false">https://www.defensenews.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/</guid>
       <pubDate>Thu, 20 Aug 2026 23:20:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)</title>
-      <link>https://isc.sans.edu/diary/rss/33268</link>
-      <description>One thing that folks never seem to do after "going to the CLOOOOUUUUD" is to look at their logs, logs that they would have checked daily when things were on premise.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33268</guid>
-      <pubDate>Fri, 21 Aug 2026 01:49:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Friday, August 21st, 2026 https://isc.sans.edu/podcastdetail/10062, (Fri, Aug 21st)</title>
-      <link>https://isc.sans.edu/diary/rss/33270</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33270</guid>
-      <pubDate>Fri, 21 Aug 2026 02:00:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Who Got Missed in the MFA Rollout&amp;#x3f; More Powershell &amp;#x2b; Graph &amp;#x2b; Entra scripting&amp;#x21;, (Fri, Aug 21st)</title>
-      <link>https://isc.sans.edu/diary/rss/33272</link>
-      <description>In every MFA rollout, there will come a time where you think you are closing in on "done", and some automation to list what&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s left would be handy.  Something quicker than scrolling through the web interface through thousands of accounts ...&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33272</guid>
-      <pubDate>Fri, 21 Aug 2026 02:47:00 +0000</pubDate>
     </item>
     <item>
       <title>Singapore Needs a Broader Conversation About How to Measure Economic Progress</title>
@@ -2395,6 +2392,13 @@ The driver, BTR.sys (Boot Time Removal Tool), is a</description>
       <description>More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/</guid>
       <pubDate>Fri, 21 Aug 2026 15:55:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video Friday: Do We Need Superhuman Humanoid Robots?</title>
+      <link>https://spectrum.ieee.org/video-friday-unitree-superhuman</link>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200cm-height-board-beside-person-in-warehouse.png?id=67655329&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="o7okizfils4"&gt;This is very, very cool. But I’m trying to think of what the commercial use case will be, you know? I guess, high speed, incredibly dangerous package delivery to second floor windows or something...?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.unitree.com/"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="1cllcvk-9lo"&gt;&lt;em&gt;Humans have a remarkable ability to perform new physical skills from only one or a few examples. Our latest robot foundation model, GEN-1.5, exhibits the beginnings of that same ability: it can learn a new task in seconds, from a single example, without gradient updates or fine-tuning. It displays broad capabilities across one-shot and few-shot learning from demonstration, as well as zero-shot physical generalization. Although the tasks are simple and short-horizon, this is the first model we know for which one-shot and few-shot learning of physical skills have emerged at scale. We view these results as a significant step towards our mission of building general intelligence for the physical world.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;I will make the cautionary point that for many of these “the model figured it out” tasks, the blog post can only say that there was no relevant pretraining data “to the best of our knowledge.”&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalistai.com/blog/gen-1.5"&gt;Generalist&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="hwpuyegnujs"&gt;BeanBot is a robot inspired by Mexican jumping beans, and I need say no more.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://bsr.iit.it/"&gt;IIT&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="rcbpit1--0w"&gt;As a professional bagpiper who definitely pays very close attention to whatever that annoying tapping noise is coming from the back of the band, I can attest to this group of &lt;a href="https://spectrum.ieee.org/cybernetic-third-arm-makes-drummers-even-more-annoying" target="_blank"&gt;robot drummers&lt;/a&gt; being absolutely top-notch.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://global.agilex.ai/"&gt;AgileX Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="1zzj64jxb1m"&gt;&lt;em&gt;What does it take for an aerial robot to move through a sequence of arbitrary poses—fast, precisely, and continuously? Rather than teaching the robot a behavior from data, we asked how far a first-principles analytical model could take us. Through a collaboration between the AIMS Group at The Hong Kong Polytechnic University and DRAGON Lab at The University of Tokyo, we developed the first sequential-convex-programming-based trajectory optimization framework for generalized &lt;a href="https://spectrum.ieee.org/caltech-and-jpl-firing-quadrotors-out-of-cannons" target="_blank"&gt;multirotors&lt;/a&gt;, covering both conventional and omnidirectional platforms.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.dragon.t.u-tokyo.ac.jp/"&gt;DRAGON Lab&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Moju!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="tqx_y8ehahc"&gt;This is a nifty idea that adapts a kind of interface frequently used for robot training and uses it for human training instead.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://news.mit.edu/2026/mit-engineers-design-better-controller-operating-construction-diggers-0820"&gt;MIT&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="gc54o6bzcgw"&gt;&lt;em&gt;Gravis Robotics brings robotic intelligence to heavy construction machines. Our retrofit kit, the Gravis Rack, turns off-the-shelf hydraulic machines into robots. Cameras, LiDAR and onboard compute lets your machine see and understand its surroundings, and learning-based control lets it work close to its limits, moving more dirt with full, fast cycles.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.gravisrobotics.com/"&gt;Gravis Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="kczc9sjylno"&gt;&lt;em&gt;Robust brachiation requires precise hand movements to grasp and release bars together with highly coordinated whole-body motion. To address this challenge, we propose a learning-based framework centered on Waypoint-Guided Reinforcement Learning (WGRL). WGRL guides the end-effector through waypoints while allowing RL to explore and generate dynamic whole-body behaviors. With this approach, the learned policy demonstrated robust brachiation across diverse courses with different bar heights, spacings, and orientations in Sim-to-Sim experiments. In the real world, our life-sized dual-arm robot successfully traversed four consecutive bars.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.eva.ai.u-tokyo.ac.jp/team/"&gt;EVARL&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Ayumu!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="qulo_xmvsw4"&gt;Well, here’s a different approach to &lt;a href="https://spectrum.ieee.org/persona-ai-humanoid-robot-welding" target="_blank"&gt;welding in shipyards with robots&lt;/a&gt;.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://kawasakirobotics.com/applications/arc-welding/"&gt;Kawasaki&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="p55r7gn8xi8"&gt;We should have a lot more robots in agriculture, if only they’d lettuce.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.flexiv.com/"&gt;Flexiv&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ghfcvlu_iku"&gt;We’ve all had refs like these.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.phybot.tech/en/home"&gt;PHYBOT&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="roxyluaqabq"&gt;I got stuck after the first 15 seconds of this video trying to imagine what any of these home humanoids would usefully do if they dropped a glass.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://en.zhejianglab.com/institutescenters/researchunits/interdisciplinaryresearchcenters/researchcenterforintelligentrobot/"&gt;Zhejiang Humanoid&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="4oggdyyo45i"&gt;&lt;a href="https://spectrum.ieee.org/sri-shakey-robot-honored-as-ieee-milestone" target="_blank"&gt;Shakey the Robot&lt;/a&gt; doesn’t get enough love.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sri.com/"&gt;SRI&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="qtd7zwk3mq4"&gt;&lt;em&gt;This work introduces a novel approach to physical Human-Robot Interaction (pHRI) by leveraging the joint torque sensors of standard collaborative robots. By mounting a passive, uninstrumented plexiglass touchpad to the robot’s flange, we transform the robot into a handwriting-based input interface.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://ts-robotics.github.io/pHRI-CHAR-TACT/"&gt;TS-Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-unitree-superhuman</guid>
+      <pubDate>Fri, 21 Aug 2026 16:00:01 +0000</pubDate>
     </item>
     <item>
       <title>SOFREP Cartoon: CENTCOM Can Stand Down. McDonald’s Is On Station.</title>
