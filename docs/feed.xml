@@ -7,24 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 14:25:17 +0000</lastBuildDate>
-    <item>
-      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-33824" target="_blank"&gt;CVE-2026-33824&lt;/a&gt; Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-55040" target="_blank"&gt;CVE-2026-55040&lt;/a&gt; Microsoft SharePoint Weak Authentication Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-59310" target="_blank"&gt;CVE-2026-59310&lt;/a&gt; Broadcom VMware vCenter Path Traversal Vulnerability &amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65400" target="_blank"&gt;CVE-2026-65400&lt;/a&gt; Apple macOS Improper Authentication Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 24 Aug 2026 15:10:01 +0000</lastBuildDate>
     <item>
       <title>Siemens Simcenter Nastran</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02</link>
@@ -1165,13 +1148,6 @@
       <pubDate>Thu, 20 Aug 2026 08:00:25 +0000</pubDate>
     </item>
     <item>
-      <title>Unlocking hidden revenue streams with market models</title>
-      <link>https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/</link>
-      <description>Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/</guid>
-      <pubDate>Thu, 20 Aug 2026 09:47:22 +0000</pubDate>
-    </item>
-    <item>
       <title>The next big thing in hydrogen could be underground</title>
       <link>https://www.technologyreview.com/2026/08/20/1142512/geologic-hydrogen-hunt/</link>
       <description>There’s a hunt for new sources of hydrogen, and the gas (or at least the right conditions to make it) could be hiding beneath our feet. Hydrogen can be used as a fuel in everything from large trucks to planes to steelmaking. It’s often hailed as a climate solution because when burned, it produces water&amp;#8230;</description>
@@ -1350,13 +1326,6 @@
       <pubDate>Thu, 20 Aug 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Switzerland seeks additional $1.2 billion for air defense in 2026 budget</title>
-      <link>https://www.defensenews.com/global/europe/2026/08/20/switzerland-seeks-additional-12-billion-for-air-defense-in-2026-budget/</link>
-      <description>Switzerland's envisioned plus-up for air defense comes amid a heightened threat situation and long delivery times for defense equipment, officials said.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/20/switzerland-seeks-additional-12-billion-for-air-defense-in-2026-budget/</guid>
-      <pubDate>Thu, 20 Aug 2026 12:20:03 +0000</pubDate>
-    </item>
-    <item>
       <title>Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)</title>
       <link>https://isc.sans.edu/diary/rss/33264</link>
       <description>Microsoft Graph is a newer API that is meant to replace several others.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; OK, it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s at version 2.3.9, so it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s not all that new, but it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s new enough that lots of folks (and commercial tools) aren&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;t using it yet.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;It allows you to Get and Set info from/to M365, Entra Users and Entra managed machines for starters.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; Let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s dig in&amp;#x21;&amp;#xd;</description>
@@ -1399,13 +1368,6 @@
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/25-years-later-the-state-of-al-qaeda.php"&gt;25 years later: The state of Al Qaeda&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/25-years-later-the-state-of-al-qaeda.php</guid>
       <pubDate>Thu, 20 Aug 2026 14:38:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks</link>
-      <description>A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks</guid>
-      <pubDate>Thu, 20 Aug 2026 14:59:22 +0000</pubDate>
     </item>
     <item>
       <title>Retail theft bill spurs ‘very large and very dangerous’ surveillance fears</title>
@@ -1743,7 +1705,7 @@
     <item>
       <title>Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near</title>
       <link>https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography</link>
-      <description>The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.</description>
+      <description>The coming threat of super-powerful computers capable of cracking today's algorithms requires upgrading encryption now. Tech companies have begun building defenses.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography</guid>
       <pubDate>Fri, 21 Aug 2026 13:10:33 +0000</pubDate>
     </item>
@@ -2172,21 +2134,6 @@ As part of the settlement, the social media platform will pay $300 million immed
       <pubDate>Sun, 23 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SOFREP Pic of the Day: SPAD’s Hunting the Enemy in Vietnam</title>
-      <link>https://sofrep.com/news/sofrep-pic-of-the-day-spads-hunting-the-enemy-in-vietnam/</link>
-      <description>Nicknamed "Spad" for looking like a WWI relic in the jet age, the A-1 Skyraider became Vietnam's most trusted close-air-support workhorse — absorbing ground fire, flying "Sandy" rescue escort, and earning Bernard Fisher the Medal of Honor for a daring 1966 airstrip landing. #A1Skyraider
-#Spad
-#VietnamWar
-#USAF
-#CloseAirSupport
-#SandyRescue
-#MedalOfHonor
-#MilitaryAviation
-#WarbirdHistory</description>
-      <guid isPermaLink="false">https://sofrep.com/news/sofrep-pic-of-the-day-spads-hunting-the-enemy-in-vietnam/</guid>
-      <pubDate>Sun, 23 Aug 2026 12:00:40 +0000</pubDate>
-    </item>
-    <item>
       <title>Flashback: Delta Force Founder Charlie Beckwith in Vietnam</title>
       <link>https://sofrep.com/news/flashback-delta-force-founder-charlie-beckwith-in-vietnam/</link>
       <description>We thought readers might appreciate this gem from our archives.  Prior to becoming the founder of the Army&amp;#8217;s counter-terrorism unit, Delta Force, Colonel Beckwith was an officer in Project Delta (unrelated to the unit he later founded) in Vietnam. &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; #CharlieBeckwith #DeltaForce #1stSFODD #SpecialOperations #USSpecialForces #USArmy #Counterterrorism #MilitaryHistory #SpecialMissionUnit #TierOne</description>
@@ -2476,6 +2423,41 @@ According to findings from Gen Digital, WordlistLoader is being used to deliver 
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/stablecoin-regulation-has-outpaced-global-coordination-the-g20-can-help/"&gt;Stablecoin regulation has outpaced global coordination. The G20 can help.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/stablecoin-regulation-has-outpaced-global-coordination-the-g20-can-help/</guid>
       <pubDate>Mon, 24 Aug 2026 14:10:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to encourage smarter AI use in the classroom</title>
+      <link>https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/</link>
+      <description>This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/</guid>
+      <pubDate>Mon, 24 Aug 2026 14:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ToxicPanda Banking Trojan Matures into Enterprise Threat</title>
+      <link>https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat</link>
+      <description>The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat</guid>
+      <pubDate>Mon, 24 Aug 2026 14:34:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patria to join with Ukraine’s General Cherry to make drones in Finland</title>
+      <link>https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
+      <description>Finnish defense company Patria is teaming up with Ukrainian drone maker General Cherry to jointly develop drones and start production in Finland.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
+      <pubDate>Mon, 24 Aug 2026 14:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patria to join with Ukraine’s General Cherry to make drones in Finland</title>
+      <link>https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
+      <description>Finnish defense company Patria is teaming up with Ukrainian drone maker General Cherry to jointly develop drones and start production in Finland.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
+      <pubDate>Mon, 24 Aug 2026 14:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Iran Turned Maritime Insurance Into an Oil Weapon</title>
+      <link>https://sofrep.com/news/how-iran-turned-maritime-insurance-into-an-oil-weapon/</link>
+      <description>The Strait of Hormuz crisis has exposed an uncomfortable truth: global energy power belongs not to those who own the oil, but to those who control the terms under which it moves. #StraitOfHormuz #Iran #EnergySecurity #OilMarkets #MaritimeSecurity</description>
+      <guid isPermaLink="false">https://sofrep.com/news/how-iran-turned-maritime-insurance-into-an-oil-weapon/</guid>
+      <pubDate>Mon, 24 Aug 2026 15:00:21 +0000</pubDate>
     </item>
     <item>
       <title>The Iceman Cometh: America’s secret Cold War nuke base beneath the ice</title>
