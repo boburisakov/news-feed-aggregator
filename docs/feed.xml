@@ -7,463 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 23:02:25 +0000</lastBuildDate>
-    <item>
-      <title>Democracies Need Creative Destruction</title>
-      <link>https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway</link>
-      <description>How to make government work again.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/democracies-need-creative-destruction-pahlka-greenway</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Alliances Survive</title>
-      <link>https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi</link>
-      <description>The case against pessimism and the path to a new allied order.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/how-alliances-survive-campbell-doshi</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Abandoned Order</title>
-      <link>https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</link>
-      <description>Learning to live in a post-American world.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/abandoned-order-world-mark-leonard</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI and the New Age of Bioweapons</title>
-      <link>https://www.foreignaffairs.com/united-states/ai-new-age-bioweapons-sherwood-randall</link>
-      <description>Preparing for a world of synthetic pathogens.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/ai-new-age-bioweapons-sherwood-randall</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How China Found Its Most Potent Weapon</title>
-      <link>https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss</link>
-      <description>The real history of Beijing’s rare-earth dominance.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/china/how-china-found-most-potent-weapon-xiong-weiss</guid>
-      <pubDate>Tue, 18 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing ChatGPT for Teens: Built for learning, backed by protections</title>
-      <link>https://openai.com/index/chatgpt-for-teens</link>
-      <description>ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.</description>
-      <guid isPermaLink="false">https://openai.com/index/chatgpt-for-teens</guid>
-      <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pacing model development in an era of cyber-critical capabilities</title>
-      <link>https://openai.com/index/pacing-model-development-cyber-capabilities</link>
-      <description>OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.</description>
-      <guid isPermaLink="false">https://openai.com/index/pacing-model-development-cyber-capabilities</guid>
-      <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Partnering with CodeAI to prepare the first AI generation</title>
-      <link>https://openai.com/index/partnering-with-codeai</link>
-      <description>OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.</description>
-      <guid isPermaLink="false">https://openai.com/index/partnering-with-codeai</guid>
-      <pubDate>Tue, 18 Aug 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Malcolm</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-230-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of CISA Malcolm are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Malcolm &amp;lt;26.06.1 (CVE-2026-55676)&lt;/li&gt;
-&lt;li&gt;Malcolm &amp;lt;26.07.0 (CVE-2026-63133, CVE-2026-63134, CVE-2026-63177)&lt;/li&gt;
-&lt;li&gt;Malcolm &amp;lt;=26.07.1 (CVE-2026-19670, CVE-2026-19671)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 8.8&lt;/td&gt;
-&lt;td&gt;CISA&lt;/td&gt;
-&lt;td&gt;CISA Malcolm&lt;/td&gt;
-&lt;td&gt;Allocation of Resources Without Limits or Throttling, Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Unrestricted Upload of File with Dangerous Type, Incorrect Authorization, Improper Handling of Highly Compressed Data (Data Amplification)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Information Technology&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-63133&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Malcolm is a network traffic analysis tool suite. Prior to version 26.07.0, safe-extract.py extracts uploaded archives with no limit on entry count, directory depth, total entries, or output size. A small malicious archive containing a large number of directory or file entries causes the filebeat processing container to create an unbounded number of filesystem objects, exhausting inodes or filesystem metadata and denying service to the processing pipeline and any service sharing the same mount. Version 26.07.0 fixes the issue.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-63133"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;26.07.0&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.07.0 addresses these issues. For more information, see https://github.com/cisagov/Malcolm/pull/1043. (CVE-2026-63133, CVE-2026-63134, CVE-2026-63177)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/pull/1043"&gt;https://github.com/cisagov/Malcolm/pull/1043&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/770.html"&gt;CWE-770 Allocation of Resources Without Limits or Throttling&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-63134&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Malcolm is a network traffic analysis tool suite. Prior to version 26.07.0, safe-extract.py protects file extraction with libarchive's secure flags, but creates directory entries with a raw os.makedirs(os.path.join(dest, entry.pathname)) that has no traversal protection. An uploaded malicious archive containing a directory entry with a ../ sequence or an absolute path causes the filebeat processing container to create directories outside the intended extraction directory. Version 26.07.0 fixes the issue.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-63134"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;26.07.0&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.07.0 addresses these issues. For more information, see https://github.com/cisagov/Malcolm/pull/1043. (CVE-2026-63133, CVE-2026-63134, CVE-2026-63177)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/pull/1043"&gt;https://github.com/cisagov/Malcolm/pull/1043&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/22.html"&gt;CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;5.4&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;5.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-55676&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Malcolm is a network traffic analysis tool suite. The file-upload component (FilePond PHP backend) accepts uploads at POST /server/php/submit.php and stores them in a directory served by the same nginx and php-fpm instance. The allow-list that should restrict accepted file types is an empty array by default (file-upload/php/config.php:16), so the type check is a no-op and every extension is accepted. The filename sanitizer keeps the .php extension intact. Committed files land in /var/www/upload/server/php/files (file-upload/php/config.php:7), and the component's nginx routes any URL ending in .php to php-fpm. An authenticated GET /server/php/files/.php then executes the uploaded code as www-data. Prior to version 26.06.1, in RBAC mode, the upload endpoint is reachable by the granular ROLE_UPLOAD role (nginx/lua/nginx_auth_helpers.lua:71), a role intended only for submitting capture files. As a result, a user holding the upload-only role runs arbitrary PHP as www-data inside the file-upload container. Version 26.06.1 fixes the issue.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-55676"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;26.06.1&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.06.1 addresses this issue. For more information, see https://github.com/cisagov/Malcolm/pull/1026. (CVE-2026-55676)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/pull/1026"&gt;https://github.com/cisagov/Malcolm/pull/1026&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/434.html"&gt;CWE-434 Unrestricted Upload of File with Dangerous Type&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-63177&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Malcolm is a network traffic analysis tool suite. Prior to version 26.07.0, role-based access control enforced in the Nginx OpenResty Lua layer evaluates the raw, unnormalized ngx.var.request_uri, while Nginx itself routes requests using the normalized path. An authenticated low-privilege user can prepend a traversal segment (for example /x/../upload/...) so that Nginx routes the request to a restricted backend while the Lua role check fails to match any rule and falls open, granting access it should deny. Version 26.07.0 fixes the issue.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-63177"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;26.07.0&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.07.0 addresses these issues. For more information, see https://github.com/cisagov/Malcolm/pull/1043. (CVE-2026-63133, CVE-2026-63134, CVE-2026-63177)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/pull/1043"&gt;https://github.com/cisagov/Malcolm/pull/1043&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/863.html"&gt;CWE-863 Incorrect Authorization&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:N/SC:L/SI:L/SA:L"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:N/SC:L/SI:L/SA:L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-19670&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Malcolm's nginx Lua role-based access control (RBAC) layer decides whether an authenticated user may reach a role-restricted path (e.g. /htadmin, /auth, /admin_login, /arkime/api/esadmin, NetBox, upload endpoints) by pattern-matching the raw, percent-encoded request URI. Nginx itself, however, selects which location block actually serves the request using the percent-decoded, normalized URI. Because the RBAC check never percent-decodes its input, an authenticated low-privilege user can request an admin-only path using percent-encoding (e.g. /%68tadmin.php) and have nginx route it to the restricted location while the Lua RBAC gate evaluating the un-decoded raw string finds no matching restriction and grants access.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-19670"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;=26.07.1&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.08.0 addresses this issue. For more information, see https://github.com/cisagov/Malcolm/security/advisories/GHSA-jr6p-63pg-hr6g. (CVE-2026-19670)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/security/advisories/GHSA-jr6p-63pg-hr6g"&gt;https://github.com/cisagov/Malcolm/security/advisories/GHSA-jr6p-63pg-hr6g&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/863.html"&gt;CWE-863 Incorrect Authorization&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;5.4&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;5.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-19671&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Malcolm's upload-processing pipeline (scripts/safe-extract.py) enforces entry-count, nesting-depth, and total-uncompressed-byte limits when extracting container archives (zip/tar/rar/7z via libarchive), but those limits are not applied when the uploaded file is a single-stream compressed format (.gz, .bz2, .xz, .lzma, .lz) that isn't a .tar.*-style archive. Any authenticated user permitted to upload PCAP/log files can upload a small, highly compressible file (e.g. a gzip bomb) that decompresses to an effectively unbounded size on disk, exhausting the shared Docker volume used by OpenSearch, Logstash, Arkime, and Zeek, and disrupting the platform for all users.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-19671"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;CISA Malcolm&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CISA&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CISA Malcolm: &amp;lt;=26.07.1&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Malcolm version 26.08.0 addresses this issue. For more information, see https://github.com/cisagov/Malcolm/security/advisories/GHSA-f2v6-8cj4-mhr6. (CVE-2026-19671)&lt;br /&gt;&lt;a href="https://github.com/cisagov/Malcolm/security/advisories/GHSA-f2v6-8cj4-mhr6"&gt;https://github.com/cisagov/Malcolm/security/advisories/GHSA-f2v6-8cj4-mhr6&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/409.html"&gt;CWE-409 Improper Handling of Highly Compressed Data (Data Amplification)&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;pavanchow reported CVE-2026-63133, CVE-2026-63134, and CVE-2026-63177 to CISA.&lt;/li&gt;
-&lt;li&gt;kah-ja, DeathRipper21 reported CVE-2026-55676 to CISA.&lt;/li&gt;
-&lt;li&gt;tinyb0y reported CVE-2026-19670 and CVE-2026-19671 to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-18&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-18&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-33824" target="_blank"&gt;CVE-2026-33824&lt;/a&gt; Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-55040" target="_blank"&gt;CVE-2026-55040&lt;/a&gt; Microsoft SharePoint Weak Authentication Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-59310" target="_blank"&gt;CVE-2026-59310&lt;/a&gt; Broadcom VMware vCenter Path Traversal Vulnerability &amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65400" target="_blank"&gt;CVE-2026-65400&lt;/a&gt; Apple macOS Improper Authentication Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 24 Aug 2026 23:33:58 +0000</lastBuildDate>
     <item>
       <title>Siemens Simcenter Nastran</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02</link>
@@ -672,6 +216,12 @@
       <description>ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.</description>
       <guid isPermaLink="false">https://openai.com/index/chatgpt-ads-expands-across-europe</guid>
       <pubDate>Tue, 18 Aug 2026 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058, (Wed, Aug 19th)</title>
+      <link>https://isc.sans.edu/diary/rss/33258</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33258</guid>
+      <pubDate>Wed, 19 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
       <title>A China Strategy That Lasts</title>
@@ -1060,6 +610,13 @@
       <pubDate>Wed, 19 Aug 2026 14:18:12 +0000</pubDate>
     </item>
     <item>
+      <title>Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)</title>
+      <link>https://isc.sans.edu/diary/rss/33260</link>
+      <description>Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the region the machine is running in or its MAC and IP addresses. However, the service may also be used to retrieve credentials for IAM roles and service account tokens.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33260</guid>
+      <pubDate>Wed, 19 Aug 2026 14:24:58 +0000</pubDate>
+    </item>
+    <item>
       <title>India’s Defence Ministry adds 405 items to positive indigenisation list</title>
       <link>https://www.army-technology.com/news/india-defence-pil-items/</link>
       <description>The Indian Ministry of Defence has unveiled its sixth Positive Indigenisation List (PIL), identifying 405 new items for domestic production as part of ongoing efforts to reduce import dependence.</description>
@@ -1124,6 +681,12 @@
       <link>https://www.defenseone.com/business/2026/08/defense-business-brief-arcfields-state-play-smd-wrap-x-bow-systems-mda-win/415535/</link>
       <guid isPermaLink="false">https://www.defenseone.com/business/2026/08/defense-business-brief-arcfields-state-play-smd-wrap-x-bow-systems-mda-win/415535/</guid>
       <pubDate>Thu, 20 Aug 2026 01:28:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33262</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33262</guid>
+      <pubDate>Thu, 20 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
       <title>Israel strikes military airbase in Syria while warning Turkey</title>
@@ -1342,6 +905,13 @@
       <pubDate>Thu, 20 Aug 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
+      <title>Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33264</link>
+      <description>Microsoft Graph is a newer API that is meant to replace several others.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; OK, it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s at version 2.3.9, so it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s not all that new, but it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s new enough that lots of folks (and commercial tools) aren&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;t using it yet.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;It allows you to Get and Set info from/to M365, Entra Users and Entra managed machines for starters.&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b; Let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s dig in&amp;#x21;&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33264</guid>
+      <pubDate>Thu, 20 Aug 2026 12:45:32 +0000</pubDate>
+    </item>
+    <item>
       <title>Castelion raises $1bn to scale low-cost hypersonic missiles</title>
       <link>https://www.army-technology.com/news/castelion-funding-blackbeard-missile/</link>
       <description>Defence tech company Castelion has secured $1bn in Series C funding to ramp up production of its Blackbeard hypersonic missile and further develop advanced weapons technology.</description>
@@ -1354,6 +924,13 @@
       <description>Thales and Systematic have established a strategic partnership aimed at delivering advanced, interoperable air defence solutions to the Danish Armed Forces.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/thales-systematic-denmark-air-defence/</guid>
       <pubDate>Thu, 20 Aug 2026 13:09:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)</title>
+      <link>https://isc.sans.edu/diary/rss/33266</link>
+      <description>Building on the last diary on Using MS Graph and Powershell, let&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s look at "Risky" logins.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33266</guid>
+      <pubDate>Thu, 20 Aug 2026 13:09:50 +0000</pubDate>
     </item>
     <item>
       <title>The push to designate AI as the next critical infrastructure sector</title>
@@ -1471,6 +1048,26 @@
       <pubDate>Thu, 20 Aug 2026 23:20:57 +0000</pubDate>
     </item>
     <item>
+      <title>Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)</title>
+      <link>https://isc.sans.edu/diary/rss/33268</link>
+      <description>One thing that folks never seem to do after "going to the CLOOOOUUUUD" is to look at their logs, logs that they would have checked daily when things were on premise.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33268</guid>
+      <pubDate>Fri, 21 Aug 2026 01:49:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Friday, August 21st, 2026 https://isc.sans.edu/podcastdetail/10062, (Fri, Aug 21st)</title>
+      <link>https://isc.sans.edu/diary/rss/33270</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33270</guid>
+      <pubDate>Fri, 21 Aug 2026 02:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who Got Missed in the MFA Rollout&amp;#x3f; More Powershell &amp;#x2b; Graph &amp;#x2b; Entra scripting&amp;#x21;, (Fri, Aug 21st)</title>
+      <link>https://isc.sans.edu/diary/rss/33272</link>
+      <description>In every MFA rollout, there will come a time where you think you are closing in on "done", and some automation to list what&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s left would be handy.  Something quicker than scrolling through the web interface through thousands of accounts ...&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33272</guid>
+      <pubDate>Fri, 21 Aug 2026 02:47:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Why Criminals Love the Chinese Economy</title>
       <link>https://www.foreignaffairs.com/china/why-criminals-love-chinese-economy</link>
       <description>And why Beijing can’t—or won’t—crack down.</description>
@@ -1502,16 +1099,16 @@
     </item>
     <item>
       <title>US Army to end experimental drone battalion in Europe</title>
-      <link>https://www.c4isrnet.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</link>
+      <link>https://www.defensenews.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</link>
       <description>After Exercise Saber Junction in August and September, the battalion will return to its airborne infantry mission.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</guid>
       <pubDate>Fri, 21 Aug 2026 08:14:42 +0000</pubDate>
     </item>
     <item>
       <title>US Army to end experimental drone battalion in Europe</title>
-      <link>https://www.defensenews.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</link>
+      <link>https://www.c4isrnet.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</link>
       <description>After Exercise Saber Junction in August and September, the battalion will return to its airborne infantry mission.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</guid>
       <pubDate>Fri, 21 Aug 2026 08:14:42 +0000</pubDate>
     </item>
     <item>
@@ -1642,15 +1239,6 @@
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/army-cyber-defenses-need-dedicated-funding-for-ai-top-official-says/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/9648679-scaled-e1777644034350-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Dedicated funding is key, according to the Army&amp;#8217;s principal cyber advisor, because the service&amp;#8217;s cyber command cannot fund AI work strictly from their operational budget.  &lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/08/army-cyber-defenses-need-dedicated-funding-for-ai-top-official-says/</guid>
       <pubDate>Fri, 21 Aug 2026 15:10:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot</title>
-      <link>https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html</link>
-      <description>Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 through Windows 11 25H2, with no software flaw exploited and no driver imported from outside the machine.
-
-The driver, BTR.sys (Boot Time Removal Tool), is a</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html</guid>
-      <pubDate>Fri, 21 Aug 2026 15:52:10 +0000</pubDate>
     </item>
     <item>
       <title>Video Friday: Do We Need Superhuman Humanoid Robots?</title>
@@ -1891,6 +1479,12 @@ As part of the settlement, the social media platform will pay $300 million immed
       <pubDate>Sun, 23 Aug 2026 22:00:18 +0000</pubDate>
     </item>
     <item>
+      <title>ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064, (Mon, Aug 24th)</title>
+      <link>https://isc.sans.edu/diary/rss/33276</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33276</guid>
+      <pubDate>Mon, 24 Aug 2026 02:00:03 +0000</pubDate>
+    </item>
+    <item>
       <title>The End of Thailand’s Long Stalemate?</title>
       <link>https://www.foreignaffairs.com/thailand/end-thailands-long-stalemate</link>
       <description>Conservatives finally won and took over the state.</description>
@@ -1924,6 +1518,13 @@ As part of the settlement, the social media platform will pay $300 million immed
       <description>The claims of Hindu groups that the Taj Mahal was originally a Hindu temple are “high on prejudice and assumptions, low on evidence.”</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/08/ziya-us-salam-on-the-controversy-over-the-taj-mahal/</guid>
       <pubDate>Mon, 24 Aug 2026 06:23:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DOUBLECUP's PNG Payload, (Mon, Aug 24th)</title>
+      <link>https://isc.sans.edu/diary/rss/33274</link>
+      <description>New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up. It doesn&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;t use real steganography:&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33274</guid>
+      <pubDate>Mon, 24 Aug 2026 07:23:16 +0000</pubDate>
     </item>
     <item>
       <title>The Risks of Downplaying China’s Military</title>
@@ -2040,15 +1641,6 @@ The campaign, codenamed Operation QUICSILVER, has been found to target governmen
 The vulnerability, assigned the CVE identifier&amp;nbsp;CVE-2026-18963, is rated 9.1 on the CVSS scoring system by Red Hat, which acts as</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html</guid>
       <pubDate>Mon, 24 Aug 2026 11:56:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt</title>
-      <link>https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</link>
-      <description>If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.
-
-The harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never built to handle. More dependencies mean more vulnerabilities to review, more remediation work, and a backlog that can</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</guid>
-      <pubDate>Mon, 24 Aug 2026 11:58:00 +0000</pubDate>
     </item>
     <item>
       <title>Advancing price-performance for developers with GPT‑5.6 in Kiro</title>
@@ -2240,16 +1832,16 @@ U.S.</description>
     </item>
     <item>
       <title>Patria to join with Ukraine’s General Cherry to make drones in Finland</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
+      <link>https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
       <description>Finnish defense company Patria is teaming up with Ukrainian drone maker General Cherry to jointly develop drones and start production in Finland.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
       <pubDate>Mon, 24 Aug 2026 14:45:18 +0000</pubDate>
     </item>
     <item>
       <title>Patria to join with Ukraine’s General Cherry to make drones in Finland</title>
-      <link>https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
+      <link>https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
       <description>Finnish defense company Patria is teaming up with Ukrainian drone maker General Cherry to jointly develop drones and start production in Finland.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
       <pubDate>Mon, 24 Aug 2026 14:45:18 +0000</pubDate>
     </item>
     <item>
@@ -2344,6 +1936,24 @@ U.S.</description>
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/storm-shadow-cruise-missile-production-is-coming-to-ukraine"&gt;Storm Shadow Cruise Missile Production Is Coming To Ukraine&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/storm-shadow-cruise-missile-production-is-coming-to-ukraine</guid>
       <pubDate>Mon, 24 Aug 2026 17:12:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning</title>
+      <link>https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html</link>
+      <description>Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.
+
+McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites designed to mimic legitimate projects, including branding, feature lists, FAQs,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html</guid>
+      <pubDate>Mon, 24 Aug 2026 17:41:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt</title>
+      <link>https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</link>
+      <description>If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.
+
+The harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never built to handle. More dependencies mean more vulnerabilities to review, more remediation work, and a backlog that can</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html</guid>
+      <pubDate>Mon, 24 Aug 2026 17:41:30 +0000</pubDate>
     </item>
     <item>
       <title>TikTok reaches $400M settlement with US over COPPA violations</title>
