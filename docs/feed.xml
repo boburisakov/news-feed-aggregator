@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 15:03:55 +0000</lastBuildDate>
-    <item>
-      <title>Replit expands access to software creation with GPT-5.6 Luna</title>
-      <link>https://openai.com/index/replit</link>
-      <description>Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.</description>
-      <guid isPermaLink="false">https://openai.com/index/replit</guid>
-      <pubDate>Wed, 19 Aug 2026 07:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 25 Aug 2026 15:59:06 +0000</lastBuildDate>
     <item>
       <title>Defending Against an Active Threat to Siemens S7 Series PLCs</title>
       <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a</link>
@@ -357,13 +350,6 @@
       <description>&lt;p&gt;Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers — the directors, VPs, CIOs, and CTOs — who are evaluating, buying, and deploying enterprise AI.&lt;/p&gt;&lt;p&gt;The enterprise AI stack is being rewritten in real time, and the decision-makers I talk with are starved for objective, defendable data. Rob Strechay has the mix of technical rigor and operating experience needed to dissect the architecture behind the next phase of enterprise AI deployment.&lt;/p&gt;&lt;p&gt;The questions enterprise technology leaders are asking have changed. As organizations move past experimentation with generative AI toward production deployment, they want to know how to orchestrate multi-vendor environments, where the security gaps in their agentic pipelines sit, and how to fix the utilization problems draining their infrastructure budgets. Answering those questions requires more depth than news coverage alone provides, and that is the gap this research offering is built to fill.&lt;/p&gt;&lt;h2&gt;An analyst who has sat on every side of the table&lt;/h2&gt;&lt;p&gt;Strechay brings nearly three decades of experience as a practitioner, product executive, and industry analyst. Before becoming an analyst, he was an executive at numerous startups, including Zerto; he joined Amazon Web Services to help build a new analytics service; and he held executive roles across enterprise infrastructure. He later served as a senior analyst at Enterprise Strategy Group and most recently as managing director and principal analyst at theCUBE Research and SiliconANGLE, where he hosted executive interviews and analyzed the evolution of cloud, data, and AI infrastructure.&lt;/p&gt;&lt;p&gt;Strechay will initially focus his coverage on cloud infrastructure, advanced data infrastructure, platform engineering and DevOps orchestration and observability, and the intersection points where AI and enterprise security collide.&lt;/p&gt;&lt;h2&gt;Already at work: GPU utilization and the VB Pulse surveys&lt;/h2&gt;&lt;p&gt;Strechay has already been contributing to &lt;a href="https://venturebeat.com/category/resources"&gt;&lt;u&gt;VentureBeat&amp;#x27;s research&lt;/u&gt;&lt;/a&gt;. In May he published an &lt;a href="https://venturebeat.com/infrastructure/5-gpu-utilization-the-401-billion-ai-infrastructure-problem-enterprises-cant-keep-ignoring"&gt;&lt;u&gt;analysis of enterprise GPU utilization&lt;/u&gt;&lt;/a&gt;, examining the compute waste sitting inside enterprise AI infrastructure, and he provided a substantive review of our AI Infrastructure &amp;amp; Compute survey before it went into the field.&lt;/p&gt;&lt;p&gt;His infrastructure-level focus complements the research engine VentureBeat has built around its monthly VB Pulse surveys, which track five areas of enterprise AI adoption: agentic orchestration, agent reliability and evals, agentic security and identity, AI infrastructure and compute, and context layers, including retrieval-augmented generation (RAG). &lt;a href="https://venturebeat.com/resources/the-control-gap-enterprise-ai-organizations-have-an-ownership-problem-not-a-technology-problem-and-most-are-governing-it-by-hand"&gt;&lt;u&gt;Our June report on agentic orchestration&lt;/u&gt;&lt;/a&gt;, drawn from a survey of 145 enterprises, found that two-thirds of those enterprises had hedged their AI model strategy rather than committing to a single provider — a posture whose value the June outage of Anthropic&amp;#x27;s Claude models made plain.&lt;/p&gt;&lt;h2&gt;VB In Conversation: The first vehicle&lt;/h2&gt;&lt;p&gt;A core vehicle for this expanded research footprint will be a deepening of VentureBeat&amp;#x27;s existing VB In Conversation video interview series, which Strechay will host. Rather than high-level industry overviews, the series will bring architectural blueprints, actual deployment barriers, and back-end infrastructure realities to light through in-depth technical interviews with the architects and product leaders behind leading enterprise AI systems — an unvarnished look at which tools perform under production-grade pressure.&lt;/p&gt;&lt;p&gt;&amp;quot;VentureBeat has built an audience of enterprise builders and technology buyers that any analyst would want to serve,&amp;quot; Strechay said. &amp;quot;My goal is to use deep empirical metrics and VentureBeat&amp;#x27;s proprietary tracking data to help enterprise buyers and the people building for them make sound platform and infrastructure decisions during the most disruptive transition enterprise technology has seen.&amp;quot;&lt;/p&gt;&lt;p&gt;The expanded VB In Conversation series will appear on &lt;a href="http://venturebeat.com"&gt;&lt;u&gt;VentureBeat&lt;/u&gt;&lt;/a&gt; and on VentureBeat&amp;#x27;s &lt;a href="https://www.youtube.com/playlist?list=PLMQoSwszBxm7QyNw8D7eHWN0tORhB8ewm"&gt;&lt;u&gt;YouTube channel&lt;/u&gt;&lt;/a&gt;, alongside Rob&amp;#x27;s written analysis on the site. Enterprise practitioners who want to take part in our monthly VB Pulse surveys, or arrange an analyst briefing with Rob, can reach the research team &lt;a href="mailto:VBIntelligence@VentureBeat.com"&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push</guid>
       <pubDate>Wed, 19 Aug 2026 14:18:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)</title>
-      <link>https://isc.sans.edu/diary/rss/33260</link>
-      <description>Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the region the machine is running in or its MAC and IP addresses. However, the service may also be used to retrieve credentials for IAM roles and service account tokens.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33260</guid>
-      <pubDate>Wed, 19 Aug 2026 14:24:58 +0000</pubDate>
     </item>
     <item>
       <title>India’s Defence Ministry adds 405 items to positive indigenisation list</title>
@@ -739,13 +725,6 @@
       <pubDate>Thu, 20 Aug 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The US Navy has battled operational tempo ordeals for years. The Iran war exposed the flaws.</title>
-      <link>https://www.defensenews.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/</link>
-      <description>Carrier availability and decisions made during the Iran war have exacerbated the US Navy's longstanding struggles with a frenzied operational tempo.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-navy/2026/08/20/the-us-navy-has-battled-operational-tempo-ordeals-for-years-the-iran-war-exposed-the-flaws/</guid>
-      <pubDate>Thu, 20 Aug 2026 23:20:57 +0000</pubDate>
-    </item>
-    <item>
       <title>Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)</title>
       <link>https://isc.sans.edu/diary/rss/33268</link>
       <description>One thing that folks never seem to do after "going to the CLOOOOUUUUD" is to look at their logs, logs that they would have checked daily when things were on premise.&amp;#xd;</description>
@@ -794,13 +773,6 @@
       <description>Kaspersky expert has discovered new Android malware designed to serve ads and build a proxy botnet. It's delivered through legitimate software for DoFun head units.</description>
       <guid isPermaLink="false">https://securelist.com/android-head-unit-malware/121106/</guid>
       <pubDate>Fri, 21 Aug 2026 08:00:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Army to end experimental drone battalion in Europe</title>
-      <link>https://www.defensenews.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</link>
-      <description>After Exercise Saber Junction in August and September, the battalion will return to its airborne infantry mission.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/21/us-army-to-end-experimental-drone-battalion-in-europe/</guid>
-      <pubDate>Fri, 21 Aug 2026 08:14:42 +0000</pubDate>
     </item>
     <item>
       <title>US Army to end experimental drone battalion in Europe</title>
@@ -864,13 +836,6 @@
       <description>India hopes to gain key fighter-jet knowledge in a prospective partnership with France on a sixth-generation aircraft.</description>
       <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/08/21/india-seeks-role-in-frances-sixth-generation-fighter-program/</guid>
       <pubDate>Fri, 21 Aug 2026 12:52:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near</title>
-      <link>https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography</link>
-      <description>The coming threat of super-powerful computers capable of cracking today's algorithms requires upgrading encryption now. Tech companies have begun building defenses.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography</guid>
-      <pubDate>Fri, 21 Aug 2026 13:10:33 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI Adds Controls That Should've Been There Already</title>
@@ -1220,13 +1185,6 @@
       <pubDate>Mon, 24 Aug 2026 13:00:47 +0000</pubDate>
     </item>
     <item>
-      <title>Pentagon counter-drone task force preps ‘shoot-off’ for directed energy prototypes</title>
-      <link>https://breakingdefense.com/2026/08/pentagon-counter-drone-task-force-preps-shoot-off-for-directed-energy-prototypes/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/pentagon-counter-drone-task-force-preps-shoot-off-for-directed-energy-prototypes/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/06/8929406-e1748899781813.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The event will be structured such that a promising demonstration could result &amp;#8220;in a purchase order that allows us to start building the production lines to get these systems into the field,” said Army Brig. Gen. Matt Ross, director of the Pentagon’s JIATF-401. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/08/pentagon-counter-drone-task-force-preps-shoot-off-for-directed-energy-prototypes/</guid>
-      <pubDate>Mon, 24 Aug 2026 13:06:14 +0000</pubDate>
-    </item>
-    <item>
       <title>UK’s Burnham to visit Ukraine with plan to support long-range missile production</title>
       <link>https://www.defensenews.com/global/europe/2026/08/24/uks-burnham-to-visit-ukraine-with-plan-to-support-long-range-missile-production/</link>
       <description>UK Prime Minister Andy Burnham is set to announce British support to help Ukraine improve its domestic production of long-range missiles.</description>
@@ -1285,16 +1243,16 @@
     </item>
     <item>
       <title>Patria to join with Ukraine’s General Cherry to make drones in Finland</title>
-      <link>https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
+      <link>https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
       <description>Finnish defense company Patria is teaming up with Ukrainian drone maker General Cherry to jointly develop drones and start production in Finland.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
       <pubDate>Mon, 24 Aug 2026 14:45:18 +0000</pubDate>
     </item>
     <item>
       <title>Patria to join with Ukraine’s General Cherry to make drones in Finland</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
+      <link>https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</link>
       <description>Finnish defense company Patria is teaming up with Ukrainian drone maker General Cherry to jointly develop drones and start production in Finland.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/24/patria-to-join-with-ukraines-general-cherry-to-make-drones-in-finland/</guid>
       <pubDate>Mon, 24 Aug 2026 14:45:18 +0000</pubDate>
     </item>
     <item>
@@ -1317,13 +1275,6 @@
       <description>An advanced, multilingual malware family brings back a trick from yesteryear — screen hijacking — for effective password theft, along with a slew of novel features.</description>
       <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware</guid>
       <pubDate>Mon, 24 Aug 2026 15:02:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>ReliaQuest confirms failed data-theft attack after ShinyHunters breach</title>
-      <link>https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/</link>
-      <description>Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/</guid>
-      <pubDate>Mon, 24 Aug 2026 15:17:16 +0000</pubDate>
     </item>
     <item>
       <title>Election Observers Say Kazakh President's Party Had 'Undue Advantage' As It Grabs 70 Percent Of Vote</title>
@@ -1403,15 +1354,6 @@
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/storm-shadow-cruise-missile-production-is-coming-to-ukraine"&gt;Storm Shadow Cruise Missile Production Is Coming To Ukraine&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/storm-shadow-cruise-missile-production-is-coming-to-ukraine</guid>
       <pubDate>Mon, 24 Aug 2026 17:12:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning</title>
-      <link>https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html</link>
-      <description>Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.
-
-McAfee Labs said it detected and blocked more than 6,300 attempts to access malicious sites, adding that it found lookalike gaming websites designed to mimic legitimate projects, including branding, feature lists, FAQs,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html</guid>
-      <pubDate>Mon, 24 Aug 2026 17:41:11 +0000</pubDate>
     </item>
     <item>
       <title>Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt</title>
@@ -1619,17 +1561,17 @@ The harder part is what comes after. AI can also introduce open-source packages 
       <pubDate>Tue, 25 Aug 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
-      <title>The New Right’s Grand Strategy After Trump</title>
-      <link>https://www.foreignaffairs.com/united-states/new-rights-grand-strategy-after-trump</link>
-      <description>Civilizationism would upend America’s role in the world.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/new-rights-grand-strategy-after-trump</guid>
-      <pubDate>Tue, 25 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Maximum Pressure on Iran Will Fail</title>
       <link>https://www.foreignaffairs.com/united-states/maximum-pressure-iran-will-fail</link>
       <description>Trump's war has brought American strategy to a dead end.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/maximum-pressure-iran-will-fail</guid>
+      <pubDate>Tue, 25 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The New Right’s Grand Strategy After Trump</title>
+      <link>https://www.foreignaffairs.com/united-states/new-rights-grand-strategy-after-trump</link>
+      <description>Civilizationism would upend America’s role in the world.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/new-rights-grand-strategy-after-trump</guid>
       <pubDate>Tue, 25 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1656,6 +1598,13 @@ The vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unaut
       <pubDate>Tue, 25 Aug 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The full stack behind abundant intelligence</title>
+      <link>https://openai.com/index/the-full-stack-behind-abundant-intelligence</link>
+      <description>OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.</description>
+      <guid isPermaLink="false">https://openai.com/index/the-full-stack-behind-abundant-intelligence</guid>
+      <pubDate>Tue, 25 Aug 2026 07:05:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Russia’s Next Top General: Promotions in Russian Military Leadership</title>
       <link>https://warontherocks.com/russias-next-top-general-promotions-in-russian-military-leadership/</link>
       <description>&lt;p&gt;Judged by the initial strategic goals set by Russian President Vladimir Putin in 2022, Russia&amp;#8217;s military lost its war against Ukraine some time ago. Yet Russia&amp;#8217;s armed forces have not stopped fighting and continue to prosecute large-scale combat operations in a brutalizing, protracted war sucking up much of Russia&amp;#8217;s assets of national power, from pure military capacity to foreign policy priorities to considerable societal and economic resources. While Putin calls the most important strategic shots, it is Russia&amp;#8217;s senior military elite that makes the strategic and operational decisions impacting warfighting outcomes every day. Who are these senior officers, where did&lt;/p&gt;
@@ -1677,16 +1626,16 @@ The vulnerabilities, as disclosed by Patchstack, are listed below -
     </item>
     <item>
       <title>Dutch Navy to equip fleet with Destinus C-UAS interceptor drones</title>
-      <link>https://www.defensenews.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/</link>
+      <link>https://www.c4isrnet.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/</link>
       <description>The Royal Netherlands Navy plans to equip its fleet with a new counter-UAS capability from defense firm Destinus.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/</guid>
       <pubDate>Tue, 25 Aug 2026 08:50:44 +0000</pubDate>
     </item>
     <item>
       <title>Dutch Navy to equip fleet with Destinus C-UAS interceptor drones</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/</link>
+      <link>https://www.defensenews.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/</link>
       <description>The Royal Netherlands Navy plans to equip its fleet with a new counter-UAS capability from defense firm Destinus.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/25/dutch-navy-to-equip-fleet-with-destinus-c-uas-interceptor-drones/</guid>
       <pubDate>Tue, 25 Aug 2026 08:50:44 +0000</pubDate>
     </item>
     <item>
@@ -2624,6 +2573,15 @@ The tech giant said more than 1 billion people use a passkey to log into WhatsAp
       <pubDate>Tue, 25 Aug 2026 14:01:11 +0000</pubDate>
     </item>
     <item>
+      <title>A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw</title>
+      <link>https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html</link>
+      <description>Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.
+
+The findings were shared with The Hacker News ahead of publication, and the report says Oasis Security reported them to NVIDIA's Product Security Incident</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html</guid>
+      <pubDate>Tue, 25 Aug 2026 14:07:37 +0000</pubDate>
+    </item>
+    <item>
       <title>Maritime trade routes are under threat—and markets still underprice the risks</title>
       <link>https://www.atlanticcouncil.org/blogs/econographics/maritime-trade-routes-are-under-threat-and-markets-still-underprice-the-risks/</link>
       <description>&lt;p&gt;Conflict, climate change, and geopolitical tensions are putting unprecedented pressure on the world's most important waterways. The economic costs are set to ripple far beyond the shipping industry.&lt;/p&gt;
@@ -2666,6 +2624,48 @@ The tech giant said more than 1 billion people use a passkey to log into WhatsAp
       <description>Children at a Russian Orthodox Christian military-patriotic camp have allegedly been beaten and subjected to other physical punishment, prompting a criminal investigation and scrutiny of an organization that has received millions of rubles in state grants.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russia-children-patriotic-camp-abuse-military-kremlin/33839209.html</guid>
       <pubDate>Tue, 25 Aug 2026 14:44:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is Cyber Facing an Affordability Crisis?</title>
+      <link>https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-</link>
+      <description>As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-</guid>
+      <pubDate>Tue, 25 Aug 2026 14:53:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)</title>
+      <link>https://isc.sans.edu/diary/rss/33280</link>
+      <description>It is pretty obvious that hostnames can replace IP addresses. Pretty much any software accepting an IP address will also accept a hostname as an argument. Last week, I wrote about scans for the cloud metadata service listening at 169.254.169.254. These scans attempted to exploit Server Side Request Forgery (SSRF) vulnerability. One way to prevent these types of exploits is to filter requests that contain the string "169.254.169.254" or to add this IP to a blocklist of URLs that should not be accessed.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33280</guid>
+      <pubDate>Tue, 25 Aug 2026 15:03:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>European allies team up to buy Polish portable anti-aircraft systems</title>
+      <link>https://www.defensenews.com/global/europe/2026/08/25/european-allies-team-up-to-buy-polish-portable-anti-aircraft-systems/</link>
+      <description>Poland, Norway, Lithuania and Latvia have signed a framework agreement to buy Piorun (Thunderbolt) man-portable air defense systems from Poland's PGZ.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/25/european-allies-team-up-to-buy-polish-portable-anti-aircraft-systems/</guid>
+      <pubDate>Tue, 25 Aug 2026 15:18:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Saudi-Turkish-Pakistani defense pact to boost Turkish  industry, entire trilateral ‘ecosystem’</title>
+      <link>https://breakingdefense.com/2026/08/saudi-turkish-pakistani-defense-pact-to-boost-turkish-industry-entire-trilateral-ecosystem/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/08/saudi-turkish-pakistani-defense-pact-to-boost-turkish-industry-entire-trilateral-ecosystem/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/02/250226_kaan_model_idex_AGNES-scaled-e1740585056855-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“The Mecca Pact should not be viewed simply as an arms-export agreement. It is much broader,&amp;#8221; one expert told Breaking Defense.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/08/saudi-turkish-pakistani-defense-pact-to-boost-turkish-industry-entire-trilateral-ecosystem/</guid>
+      <pubDate>Tue, 25 Aug 2026 15:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hung Cao taps civilian to stand up Navy industrial base office</title>
+      <link>https://www.defensenews.com/news/your-military/2026/08/25/hung-cao-taps-civilian-to-stand-up-navy-industrial-base-office/</link>
+      <description>Andrew Magliochetti was tapped by Hung Cao to become the first deputy assistant secretary of the Navy for the defense industrial base.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/25/hung-cao-taps-civilian-to-stand-up-navy-industrial-base-office/</guid>
+      <pubDate>Tue, 25 Aug 2026 15:39:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Massive DDoS attack disrupts Norway’s government digital services</title>
+      <link>https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/</link>
+      <description>A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/</guid>
+      <pubDate>Tue, 25 Aug 2026 15:52:36 +0000</pubDate>
     </item>
   </channel>
 </rss>
