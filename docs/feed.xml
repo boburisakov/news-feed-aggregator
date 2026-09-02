@@ -7,28 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 18:43:11 +0000</lastBuildDate>
-    <item>
-      <title>Our decision on Cursor following its acquisition by SpaceX</title>
-      <link>https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex</link>
-      <description>Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.</description>
-      <guid isPermaLink="false">https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex</guid>
-      <pubDate>Fri, 28 Aug 2026 06:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Some Malicious PE Stats, (Thu, Aug 27th)</title>
-      <link>https://isc.sans.edu/diary/rss/33292</link>
-      <description>During my last FOR610 session, a student asked me if I had some statistics in mind about the compilers used to generate malicious PE files&amp;#x3f; A couple of months ago, I shared some stats about the trend in 64bits VS. 32bits malware&amp;#x5b;1&amp;#x5d;. Can we go a bit further&amp;#x3f; I (vibe-)coded a Python script based on the pefile library&amp;#x5b;2&amp;#x5d; to extract some info from the PE headers. Indeed, the PE file format contains a lot of metadata&amp;#x21; They can be accessed using a lot of tools, like Detect It Easy:&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33292</guid>
-      <pubDate>Fri, 28 Aug 2026 07:04:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to sign up for a virtual power plant—and decide whether you should</title>
-      <link>https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/</link>
-      <description>MIT Technology Review’s How To series helps you get things done.&amp;#160; Your thermostat may not look like a power plant. Neither does your electric vehicle, home battery, or HVAC system. But utility and energy companies increasingly want to treat them like one. A virtual power plant, or VPP, is a collection of household devices (such&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/</guid>
-      <pubDate>Fri, 28 Aug 2026 09:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 21:20:05 +0000</lastBuildDate>
     <item>
       <title>The Download: a secretive antiaging drug and joining virtual power plants</title>
       <link>https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/</link>
@@ -46,7 +25,7 @@
     <item>
       <title>Video Friday: Meet Microduck</title>
       <link>https://spectrum.ieee.org/video-friday-microduck-robot</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=241%2C0%2C242%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN, TEXAS&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ratzeygbgfu"&gt;Nvidia just paid US $12.9 billion for the company that acquired Pollen Robotics, and this must be why.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;Meet Microduck. 🦆 The 25-centimeter, 780-gram robot that waddles, falls, gets back up, and learns new tricks.&lt;br /&gt;&lt;br /&gt;Packed inside: 15 degrees of freedom, a front camera, an 8x8 lidar, two IMUs, mics, a speaker, NFC, Wi-Fi, and Bluetooth.&lt;br /&gt;&lt;br /&gt;Out of the box, Microduck already walks, sits, crouches, roller skates, picks up objects with its articulated beak, and recovers from falls on its own. Drive it with a game controller, plug-in accessories, and NFC tagged objects, run autonomous behaviors, or gather several Microducks for races and football. &lt;br /&gt;&lt;br /&gt;Software fully open source. Ready for whatever you throw at it.&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;On pre-order for an astonishingly low $399, and ships before Christmas.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://pollen-robotics.com/microduck/"&gt;Microduck&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Matthieu!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="tbgy6brdxqu"&gt;If you’ve chosen to ignore all the earlier &lt;a href="https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge" target="_blank"&gt;DARPA Lift Challenge&lt;/a&gt; videos that we’ve posted, now you can get all caught up in about five minutes.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.darpa.mil/research/challenges/lift"&gt;DARPA&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="uzv-96uhiqc"&gt;You had me at “54-gram robot that out-jumps a kangaroo.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://ieeexplore.ieee.org/document/11553415"&gt;&lt;em&gt;IEEE Transactions on Robotics&lt;/em&gt;&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vwen7knkzk4"&gt;Sometimes, you just need a video like this.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;Most fish-inspired robots are built for one size and one job, so scaling them up or down usually means starting from scratch. A team of engineers says it has found a way to solve that problem. They’ve unveiled ScaFi, a robot modeled on fish like cod and mackerel.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://engineering.nyu.edu/news/robot-grows-fish-not-machine"&gt;New York University&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Leah!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="8qlvfdpz4qq"&gt;Martin writes, “We’re a small robotics team in Czechia, Europe, building practical hardware around the &lt;a href="https://spectrum.ieee.org/unitree-g1" target="_blank"&gt;Unitree G1&lt;/a&gt;. Here’s a short demo of our lightweight gripper picking up a strawberry; the gripper weighs under 200 grams and is designed for simple, sensitive manipulation without adding a complex multifinger hand.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://sentiorobotix.com/gripper"&gt;Sentio Robotix&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Martin!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3kzjnb42dnm"&gt;Hybrid visual markers that are useful for both cameras and lidar is a neat idea.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://binitshah.github.io/blog/stretch-4-autodocking/"&gt;Hello Robot&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Binit!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="j_rrgxeaxfc"&gt;&lt;em&gt;EmoLo brings emotion-inspired expressive locomotion to Open Duck Mini V2, a low-cost, open-source bipedal robot inspired by Disney’s BDX droids. With a single reinforcement learning policy, the robot can generate distinct walking styles associated with different emotional expressions, showing how characterful and expressive whole-body motion can be achieved on an accessible robotic platform.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://mertcookimg.github.io/emolo/"&gt;EmoLo&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Masato!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3c2s1zhuvum"&gt;If it’s possible for a robot with a completely immobile face to look frustrated, this robot absolutely does, starting at three minutes into this video.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://elib.dlr.de/218609/"&gt;DLR RM&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="zvumtotghu0"&gt;&lt;em&gt;Noble Machines deployed its first general-purpose robots to a Fortune Global 500 industrial customer within 18 months of the company’s launch and met its first delivery milestone, made possible by its AI-driven whole-body control and industry-leading end-to-end autonomy.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.businesswire.com/news/home/20260303533339/en/Noble-Machines-Emerges-from-Stealth-Ships-and-Deploys-General-Purpose-Robots-for-Industrys-Toughest-Jobs"&gt;Noble Machines&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="u3hru7dacvy"&gt;&lt;em&gt;We’ve reduced the time it takes to go from physical prompt → robot behavior. The faster anyone can teach a robot to do something new, the easier it becomes to scale physical work.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalistai.com/blog/gen-1.5"&gt;Generalist&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3hrjrztzkni"&gt;I know this video is mostly a gimmick, but I would totally rent a moderately heavy lift quadruped for a couple of days to help with a move.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.cn/en"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="4u52yao8g3a"&gt;Is taking two minutes to excellently fold a shirt too long, or do we even care how long it takes, as long as it’s a robot doing it?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://robotics.tokyo/"&gt;Tokyo Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="npovvg-8yoe"&gt;&lt;em&gt;TRON 2 × Wuji Hand 2 handles TCM pharmacy work: picking, weighing, grinding, and packaging. The omnidirectional base frees the hands, while precise gripping and dual-arm force control enable midair operations.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="forsxxxit4i"&gt;Person who genuinely knows things about robots, Christian Hubicki, explains everything about robots smashing into walls.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.christianhubicki.com/"&gt;Christian Hubicki&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=101%2C0%2C101%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN, TEXAS&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ratzeygbgfu"&gt;Nvidia just paid US $12.9 billion for the company that acquired Pollen Robotics, and this must be why.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;Meet Microduck. 🦆 The 25-centimeter, 780-gram robot that waddles, falls, gets back up, and learns new tricks.&lt;br /&gt;&lt;br /&gt;Packed inside: 15 degrees of freedom, a front camera, an 8x8 lidar, two IMUs, mics, a speaker, NFC, Wi-Fi, and Bluetooth.&lt;br /&gt;&lt;br /&gt;Out of the box, Microduck already walks, sits, crouches, roller skates, picks up objects with its articulated beak, and recovers from falls on its own. Drive it with a game controller, plug-in accessories, and NFC tagged objects, run autonomous behaviors, or gather several Microducks for races and football. &lt;br /&gt;&lt;br /&gt;Software fully open source. Ready for whatever you throw at it.&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;On pre-order for an astonishingly low $399, and ships before Christmas.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://pollen-robotics.com/microduck/"&gt;Microduck&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Matthieu!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="tbgy6brdxqu"&gt;If you’ve chosen to ignore all the earlier &lt;a href="https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge" target="_blank"&gt;DARPA Lift Challenge&lt;/a&gt; videos that we’ve posted, now you can get all caught up in about five minutes.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.darpa.mil/research/challenges/lift"&gt;DARPA&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="uzv-96uhiqc"&gt;You had me at “54-gram robot that out-jumps a kangaroo.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://ieeexplore.ieee.org/document/11553415"&gt;&lt;em&gt;IEEE Transactions on Robotics&lt;/em&gt;&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vwen7knkzk4"&gt;Sometimes, you just need a video like this.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;Most fish-inspired robots are built for one size and one job, so scaling them up or down usually means starting from scratch. A team of engineers says it has found a way to solve that problem. They’ve unveiled ScaFi, a robot modeled on fish like cod and mackerel.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://engineering.nyu.edu/news/robot-grows-fish-not-machine"&gt;New York University&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Leah!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="8qlvfdpz4qq"&gt;Martin writes, “We’re a small robotics team in Czechia, Europe, building practical hardware around the &lt;a href="https://spectrum.ieee.org/unitree-g1" target="_blank"&gt;Unitree G1&lt;/a&gt;. Here’s a short demo of our lightweight gripper picking up a strawberry; the gripper weighs under 200 grams and is designed for simple, sensitive manipulation without adding a complex multifinger hand.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://sentiorobotix.com/gripper"&gt;Sentio Robotix&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Martin!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3kzjnb42dnm"&gt;Hybrid visual markers that are useful for both cameras and lidar is a neat idea.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://binitshah.github.io/blog/stretch-4-autodocking/"&gt;Hello Robot&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Binit!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="j_rrgxeaxfc"&gt;&lt;em&gt;EmoLo brings emotion-inspired expressive locomotion to Open Duck Mini V2, a low-cost, open-source bipedal robot inspired by Disney’s BDX droids. With a single reinforcement learning policy, the robot can generate distinct walking styles associated with different emotional expressions, showing how characterful and expressive whole-body motion can be achieved on an accessible robotic platform.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://mertcookimg.github.io/emolo/"&gt;EmoLo&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Masato!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3c2s1zhuvum"&gt;If it’s possible for a robot with a completely immobile face to look frustrated, this robot absolutely does, starting at three minutes into this video.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://elib.dlr.de/218609/"&gt;DLR RM&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="zvumtotghu0"&gt;&lt;em&gt;Noble Machines deployed its first general-purpose robots to a Fortune Global 500 industrial customer within 18 months of the company’s launch and met its first delivery milestone, made possible by its AI-driven whole-body control and industry-leading end-to-end autonomy.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.businesswire.com/news/home/20260303533339/en/Noble-Machines-Emerges-from-Stealth-Ships-and-Deploys-General-Purpose-Robots-for-Industrys-Toughest-Jobs"&gt;Noble Machines&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="u3hru7dacvy"&gt;&lt;em&gt;We’ve reduced the time it takes to go from physical prompt → robot behavior. The faster anyone can teach a robot to do something new, the easier it becomes to scale physical work.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalistai.com/blog/gen-1.5"&gt;Generalist&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3hrjrztzkni"&gt;I know this video is mostly a gimmick, but I would totally rent a moderately heavy lift quadruped for a couple of days to help with a move.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.cn/en"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="4u52yao8g3a"&gt;Is taking two minutes to excellently fold a shirt too long, or do we even care how long it takes, as long as it’s a robot doing it?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://robotics.tokyo/"&gt;Tokyo Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="npovvg-8yoe"&gt;&lt;em&gt;TRON 2 × Wuji Hand 2 handles TCM pharmacy work: picking, weighing, grinding, and packaging. The omnidirectional base frees the hands, while precise gripping and dual-arm force control enable midair operations.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="forsxxxit4i"&gt;Person who genuinely knows things about robots, Christian Hubicki, explains everything about robots smashing into walls.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.christianhubicki.com/"&gt;Christian Hubicki&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-microduck-robot</guid>
       <pubDate>Fri, 28 Aug 2026 16:00:03 +0000</pubDate>
     </item>
@@ -80,13 +59,6 @@
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/08/iranian-backed-iraqi-militias-may-seek-to-delay-disarmament.php"&gt;Iranian-backed Iraqi militias may seek to delay disarmament&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/08/iranian-backed-iraqi-militias-may-seek-to-delay-disarmament.php</guid>
       <pubDate>Fri, 28 Aug 2026 18:08:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Pacific conflict may not look like conventional war, SOCPAC commander says</title>
-      <link>https://www.defenseone.com/threats/2026/08/pacific-conflict-may-not-look-conventional-war-socpac-commander-says/415704/</link>
-      <description>At an irregular-warfare forum in Hawaii, commanders offer warnings and advice.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/08/pacific-conflict-may-not-look-conventional-war-socpac-commander-says/415704/</guid>
-      <pubDate>Fri, 28 Aug 2026 19:01:51 +0000</pubDate>
     </item>
     <item>
       <title>Can AI help the Marines simplify sustainment in the Pacific?</title>
@@ -266,33 +238,11 @@
       <pubDate>Mon, 31 Aug 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>‘Watershed 250’ test program in Texas looks to private sector for water cybersecurity help</title>
-      <link>https://cyberscoop.com/watershed-250-texas-water-cybersecurity-pilot/</link>
-      <description>&lt;p&gt;The six-month program will be overseen by the Office of the National Cyber Director and Texas Cyber Command to “find out what works.”&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/watershed-250-texas-water-cybersecurity-pilot/"&gt;‘Watershed 250’ test program in Texas looks to private sector for water cybersecurity help&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/watershed-250-texas-water-cybersecurity-pilot/</guid>
-      <pubDate>Mon, 31 Aug 2026 18:36:43 +0000</pubDate>
-    </item>
-    <item>
       <title>The Coding-Agent Trap: When a "Free" LLM Endpoint Is the Adversary, (Mon, Aug 31st)</title>
       <link>https://isc.sans.edu/diary/rss/33298</link>
       <description>One of my internet-exposed inference honeypots was discovered, relabeled with sought-after model names, and incorporated into infrastructure apparently used to provide "free" LLM backends. It then received a real coding-agent session &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xe2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x80&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x94&amp;#x3b; history, filesystem output, working paths, and the agent&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s local tool manifest. The honeypot did not request or cause any tool execution&amp;#x3b; what the request exposed is what a malicious operator in that position could do.&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33298</guid>
       <pubDate>Mon, 31 Aug 2026 20:00:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Guardrails Debate: Security Researcher Changes His Mind</title>
-      <link>https://www.darkreading.com/cyber-risk/the-guardrails-debate-security-researcher-changes-his-mind</link>
-      <description>While guardrails are critical, as evidenced by recent high-profile incidents, defenders need help staying ahead of attackers who do not play by the rules.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/the-guardrails-debate-security-researcher-changes-his-mind</guid>
-      <pubDate>Mon, 31 Aug 2026 20:09:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>'TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks</title>
-      <link>https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks</link>
-      <description>The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks</guid>
-      <pubDate>Mon, 31 Aug 2026 20:25:36 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Users Hit by Infostealer Attacks, Session Thefts</title>
@@ -315,14 +265,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/"&gt;McKesson copes with fallout from data theft extortion attack&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/</guid>
       <pubDate>Mon, 31 Aug 2026 21:39:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russia’s Zircon May Not Be A Hypersonic Cruise Missile After All</title>
-      <link>https://www.twz.com/sea/russias-zircon-may-not-be-a-hypersonic-cruise-missile-after-all</link>
-      <description>&lt;p&gt;Ukraine’s intelligence report maps Zircon’s production chain and claims to identify U.S.-origin electronics inside the missile.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/russias-zircon-may-not-be-a-hypersonic-cruise-missile-after-all"&gt;Russia&amp;#8217;s Zircon May Not Be A Hypersonic Cruise Missile After All&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/sea/russias-zircon-may-not-be-a-hypersonic-cruise-missile-after-all</guid>
-      <pubDate>Mon, 31 Aug 2026 21:44:07 +0000</pubDate>
     </item>
     <item>
       <title>Iranian Launchers Struck By U.S. Held Exotic And Highly Concerning Rocket-Delivered Sea Mines</title>
@@ -404,13 +346,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/collective-cyber-defense-letter-vendor-questionnaire-op-ed/"&gt;The Collective Cyber Defense letter wrote your next vendor questionnaire&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/collective-cyber-defense-letter-vendor-questionnaire-op-ed/</guid>
       <pubDate>Tue, 01 Sep 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pageantry And Politics As World Nomad Games Open In Kyrgyzstan</title>
-      <link>https://www.rferl.org/a/world-nomad-games-politics-fireworks-opening-ceremone/33844714.html</link>
-      <description>An unfinished stadium in Bishkek played host to an Olympic-scale opening of the sixth World Nomad Games as world leaders -- barring one notable exception -- networked in the stands.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/world-nomad-games-politics-fireworks-opening-ceremone/33844714.html</guid>
-      <pubDate>Tue, 01 Sep 2026 11:05:55 +0000</pubDate>
     </item>
     <item>
       <title>The Real Risk of a Trade War With Canada</title>
@@ -1575,13 +1510,6 @@
       <pubDate>Tue, 01 Sep 2026 13:00:16 +0000</pubDate>
     </item>
     <item>
-      <title>Why Transformational Leadership Could Save a Divided America</title>
-      <link>https://sofrep.com/news/why-transformational-leadership-could-save-a-divided-america/</link>
-      <description>America needs transformational leaders with the vision and moral courage to rise above short-term political transactions, unite its people, and restore a shared sense of national purpose. #TransformationalLeadership #AmericanLeadership #LeadershipMatters #PoliticalLeadership #UnitedAmerica</description>
-      <guid isPermaLink="false">https://sofrep.com/news/why-transformational-leadership-could-save-a-divided-america/</guid>
-      <pubDate>Tue, 01 Sep 2026 13:00:37 +0000</pubDate>
-    </item>
-    <item>
       <title>US Navy unveils new specs for carrier-based Collaborative Combat Aircraft</title>
       <link>https://www.defensenews.com/industry/techwatch/2026/09/01/us-navy-unveils-new-specs-for-carrier-based-collaborative-combat-aircraft/</link>
       <description>The U.S. Navy has submitted a Request for Information that reveals new specifications for its future carrier-based Combat Collaborative Aircraft.</description>
@@ -1740,25 +1668,11 @@
       <pubDate>Tue, 01 Sep 2026 17:49:08 +0000</pubDate>
     </item>
     <item>
-      <title>Critical Langflow flaw exploited to steal OpenAI and AWS keys</title>
-      <link>https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/</link>
-      <description>Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/</guid>
-      <pubDate>Tue, 01 Sep 2026 17:54:22 +0000</pubDate>
-    </item>
-    <item>
       <title>As the World Nomad Games Come Home, Japarov Expands Kyrgyzstan’s National Story</title>
       <link>https://thediplomat.com/2026/09/as-the-world-nomad-games-come-home-japarov-expands-kyrgyzstans-national-story/</link>
       <description>The opening of the games coincided with Kyrgyzstan's 35th independence anniversary and a major Shanghai Cooperation Organization summit.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/09/as-the-world-nomad-games-come-home-japarov-expands-kyrgyzstans-national-story/</guid>
       <pubDate>Tue, 01 Sep 2026 17:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>House passes funding stopgap, averting government shutdown in October</title>
-      <link>https://breakingdefense.com/2026/09/house-passes-funding-stopgap-averting-government-shutdown-in-october/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/house-passes-funding-stopgap-averting-government-shutdown-in-october/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/03/9448259-scaled-e1788286232971-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The bill, which now heads to the president&amp;#8217;s desk, gives Congress until Dec. 11 to pass full-year appropriations. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/house-passes-funding-stopgap-averting-government-shutdown-in-october/</guid>
-      <pubDate>Tue, 01 Sep 2026 18:10:06 +0000</pubDate>
     </item>
     <item>
       <title>US launches new barrage of strikes on Iran around Strait of Hormuz</title>
@@ -1812,26 +1726,12 @@
       <pubDate>Tue, 01 Sep 2026 19:20:33 +0000</pubDate>
     </item>
     <item>
-      <title>Army seeks tracked howitzer candidates following award for wheeled platforms</title>
-      <link>https://breakingdefense.com/2026/09/army-seeks-tracked-howitzer-candidates-following-award-for-wheeled-platforms/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/army-seeks-tracked-howitzer-candidates-following-award-for-wheeled-platforms/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/9552789-e1788283642164-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The new solicitation comes weeks after the Army awarded Hanwha Defense USA a deal up to $233 million to deliver wheeled K9 mobile howitzer prototypes. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/army-seeks-tracked-howitzer-candidates-following-award-for-wheeled-platforms/</guid>
-      <pubDate>Tue, 01 Sep 2026 19:25:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Where Are The Aircraft Carriers?: USS Abraham Lincoln Escorted To Thailand As The Middle East Heats Up</title>
       <link>https://www.twz.com/sea/where-are-the-aircraft-carriers-uss-abraham-lincoln-escorted-to-thailand-as-the-middle-east-heats-up</link>
       <description>&lt;p&gt;The Navy pulled a cruiser from the George Washington Carrier Strike Group to escort USS Abraham Lincoln into the South China Sea under unclear circumstances.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sea/where-are-the-aircraft-carriers-uss-abraham-lincoln-escorted-to-thailand-as-the-middle-east-heats-up"&gt;Where Are The Aircraft Carriers?: USS Abraham Lincoln Escorted To Thailand As The Middle East Heats Up&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sea/where-are-the-aircraft-carriers-uss-abraham-lincoln-escorted-to-thailand-as-the-middle-east-heats-up</guid>
       <pubDate>Tue, 01 Sep 2026 19:27:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Aesto Health says data breach affects over 9.5 million patients</title>
-      <link>https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/</link>
-      <description>Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/</guid>
-      <pubDate>Tue, 01 Sep 2026 19:28:17 +0000</pubDate>
     </item>
     <item>
       <title>What the US executive order on bulk-power systems gets right—and what’s missing</title>
@@ -2063,6 +1963,13 @@
       <pubDate>Wed, 02 Sep 2026 04:16:40 +0000</pubDate>
     </item>
     <item>
+      <title>2 Filipino Sailors Killed In Attack On Saudi Oil Tanker In Strait Of Hormuz</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Wed, 02 Sep 2026 05:05:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The Limbang Question Lingers On</title>
       <link>https://thediplomat.com/2026/09/the-limbang-question-lingers-on/</link>
       <description>The territory's curious status is the result of an unresolved border dispute between Malaysia and Brunei that dates back to the British colonial era.</description>
@@ -2107,15 +2014,6 @@
       <pubDate>Wed, 02 Sep 2026 07:30:47 +0000</pubDate>
     </item>
     <item>
-      <title>Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another</title>
-      <link>https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html</link>
-      <description>Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware.
-
-The exploit targets&amp;nbsp;CVE-2021-31886, a stack-based buffer overflow in the Nucleus FTP server's handling of the&amp;nbsp;USER&amp;nbsp;command</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html</guid>
-      <pubDate>Wed, 02 Sep 2026 07:47:13 +0000</pubDate>
-    </item>
-    <item>
       <title>How a middling Chinese guided-missile frigate unnerves Japan, Taiwan and the US</title>
       <link>https://www.defensenews.com/global/asia-pacific/2026/09/02/how-a-middling-chinese-guided-missile-frigate-unnerves-japan-taiwan-and-the-us/</link>
       <description>China’s navy has introduced a new guided-missile frigate designed for coastal as well as open-sea attacks.</description>
@@ -2139,16 +2037,16 @@ The exploit targets&amp;nbsp;CVE-2021-31886, a stack-based buffer overflow in th
     </item>
     <item>
       <title>German government blames Russia for Leipzig airport drone attack with explosives</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</link>
+      <link>https://www.c4isrnet.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</link>
       <description>Russia was behind the failed explosive drone attack on Germany’s key Leipzig/Halle Airport last month, the authorities in Berlin have concluded.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</guid>
       <pubDate>Wed, 02 Sep 2026 08:33:53 +0000</pubDate>
     </item>
     <item>
       <title>German government blames Russia for Leipzig airport drone attack with explosives</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</link>
+      <link>https://www.defensenews.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</link>
       <description>Russia was behind the failed explosive drone attack on Germany’s key Leipzig/Halle Airport last month, the authorities in Berlin have concluded.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</guid>
       <pubDate>Wed, 02 Sep 2026 08:33:53 +0000</pubDate>
     </item>
     <item>
@@ -2500,6 +2398,13 @@ The command executes as the user, outside the agent's sandbox and without an app
       <pubDate>Wed, 02 Sep 2026 15:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Congress Is Weighing Two Ways to Protect Special Operators’ Identities</title>
+      <link>https://sofrep.com/news/congress-is-weighing-two-ways-to-protect-special-operators-identities/</link>
+      <description>Congress is weighing two ways to protect special operators’ identities, but only one ties criminal punishment to intent or knowledge connected to violence. #SpecialOperations #MilitaryLaw #PressFreedom #NDAA #Congress</description>
+      <guid isPermaLink="false">https://sofrep.com/news/congress-is-weighing-two-ways-to-protect-special-operators-identities/</guid>
+      <pubDate>Wed, 02 Sep 2026 15:00:23 +0000</pubDate>
+    </item>
+    <item>
       <title>FoundingBully Celebrates America’s 250th With Revolutionary Apparel That Gives Back to Veterans</title>
       <link>https://sofrep.com/?p=230694&amp;preview=true&amp;preview_id=230694</link>
       <description>The British Empire had money and ships behind a trained army. The colonies started from behind. Militiamen carried the muskets, while a different group of men signed a document that might have sent every one of them to the gallows. The colonists won. FoundingBully LLC builds its brand around a blunt reading of the outcome. [&amp;#8230;]</description>
@@ -2614,6 +2519,103 @@ The command executes as the user, outside the agent's sandbox and without an app
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/the-fcc-wants-consumers-to-rate-their-telecoms-anti-robocall-protections/"&gt;The FCC wants consumers to rate their telecom’s anti-robocall protections&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/the-fcc-wants-consumers-to-rate-their-telecoms-anti-robocall-protections/</guid>
       <pubDate>Wed, 02 Sep 2026 17:57:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs</title>
+      <link>https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html</link>
+      <description>Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.
+
+"The Fairwind Program gives high-priority defenders (like governments, healthcare providers, and telecommunications services) early access to advanced models that help them</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html</guid>
+      <pubDate>Wed, 02 Sep 2026 18:27:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>White House, Caracas release details on historic US-Venezuela oil deal</title>
+      <link>https://www.longwarjournal.org/archives/2026/09/white-house-caracas-release-details-on-historic-us-venezuela-oil-deal.php</link>
+      <description>&lt;p&gt;President Donald Trump announced on August 28 that the United States had reached a sweeping oil agreement with Venezuela that grants American interests majority control over more than 65 billion barrels of proven reserves. The US described the agreement as part of a 25-year strategy to expand US access to Venezuelan energy resources while building more secure and resilient supply chains in the Western Hemisphere.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/white-house-caracas-release-details-on-historic-us-venezuela-oil-deal.php"&gt;White House, Caracas release details on historic US-Venezuela oil deal&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/white-house-caracas-release-details-on-historic-us-venezuela-oil-deal.php</guid>
+      <pubDate>Wed, 02 Sep 2026 18:46:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon cyber strategy expected as soon as next week, sources say</title>
+      <link>https://www.defenseone.com/policy/2026/09/pentagon-cyber-strategy-expected-soon-next-week-sources-say/415781/</link>
+      <description>Officials have previewed a blueprint emphasizing offensive operations, AI, and closer industry ties as the military reorganizes its cyber forces.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/09/pentagon-cyber-strategy-expected-soon-next-week-sources-say/415781/</guid>
+      <pubDate>Wed, 02 Sep 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Army awards first-ever laser production contract to AV, with $465M value</title>
+      <link>https://breakingdefense.com/2026/09/army-awards-first-ever-laser-production-contract-to-av-with-465m-value/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/army-awards-first-ever-laser-production-contract-to-av-with-465m-value/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/08/AV_CUA_LOCUST_IMG_6083-scaled-e1786134298187-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“One of the key exciting components of this particular production program is introducing production-directed energy for the first time in the nation&amp;#8217;s history,” AV’s vice president of directed-energy systems told reporters.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/army-awards-first-ever-laser-production-contract-to-av-with-465m-value/</guid>
+      <pubDate>Wed, 02 Sep 2026 19:14:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>WordPress backup plugin flaw exposes millions of sites to takeover attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/</link>
+      <description>An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control of affected websites. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/</guid>
+      <pubDate>Wed, 02 Sep 2026 19:28:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Gives Cybercriminals a Dangerous Time Advantage</title>
+      <link>https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage</link>
+      <description>Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage</guid>
+      <pubDate>Wed, 02 Sep 2026 19:46:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kurdistan Region concerned over US support amid Iran’s continued attacks</title>
+      <link>https://www.longwarjournal.org/archives/2026/09/kurdistan-region-concerned-over-us-support-amid-irans-continued-attacks.php</link>
+      <description>&lt;p&gt;The latest report that the US is cutting funding for the Kurdistan Regional Government (KRG) of Iraq’s Peshmerga military force comes as Washington prepares to withdraw forces from Iraq and Iran continues its campaign of drone and missile attacks against the KRG. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/kurdistan-region-concerned-over-us-support-amid-irans-continued-attacks.php"&gt;Kurdistan Region concerned over US support amid Iran’s continued attacks&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/kurdistan-region-concerned-over-us-support-amid-irans-continued-attacks.php</guid>
+      <pubDate>Wed, 02 Sep 2026 19:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>GE wins deals for F/A-18 engine parts, hypersonic test</title>
+      <link>https://breakingdefense.com/2026/09/ge-wins-deals-for-f-a-18-engine-parts-hypersonic-test/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/ge-wins-deals-for-f-a-18-engine-parts-hypersonic-test/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/03/9556368-scaled-e1773245659409-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The company was separately awarded one deal worth up to $2.9 billion to supply parts for its F414 engine, and another to provide a hypersonic test vehicle for the Defense Innovation Unit. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/ge-wins-deals-for-f-a-18-engine-parts-hypersonic-test/</guid>
+      <pubDate>Wed, 02 Sep 2026 20:23:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE</title>
+      <link>https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce</link>
+      <description>The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce</guid>
+      <pubDate>Wed, 02 Sep 2026 20:43:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iranian Oil Tankers In The Cross Hairs Of New U.S. Campaign</title>
+      <link>https://www.twz.com/news-features/iranian-oil-tankers-in-the-cross-hairs-of-new-u-s-campaign</link>
+      <description>&lt;p&gt;At least two Iranian oil tankers were struck by the U.S. as part of Trump's new tanker-for-a-tanker policy.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/iranian-oil-tankers-in-the-cross-hairs-of-new-u-s-campaign"&gt;Iranian Oil Tankers In The Cross Hairs Of New U.S. Campaign&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/iranian-oil-tankers-in-the-cross-hairs-of-new-u-s-campaign</guid>
+      <pubDate>Wed, 02 Sep 2026 20:47:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>The US may lack the engineers to rebuild space assets in a future war: RAND</title>
+      <link>https://www.defenseone.com/threats/2026/09/us-may-lack-engineers-rebuild-space-assets-future-war-rand/415788/</link>
+      <description>Industry is already short of skilled engineering personnel.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/09/us-may-lack-engineers-rebuild-space-assets-future-war-rand/415788/</guid>
+      <pubDate>Wed, 02 Sep 2026 20:52:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers exploit Sangoma Switchvox flaw to deploy reverse shells</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/</link>
+      <description>Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/</guid>
+      <pubDate>Wed, 02 Sep 2026 21:00:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jail time for Maine child in 764 marks turning point in federal law enforcement</title>
+      <link>https://cyberscoop.com/maine-teenager-first-underage-detained-764/</link>
+      <description>&lt;p&gt;Researcher tracking 764 said the first-of-its-kind case has a wider impact that will cause ripples across the landscape of violent extremist crime.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/maine-teenager-first-underage-detained-764/"&gt;Jail time for Maine child in 764 marks turning point in federal law enforcement&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/maine-teenager-first-underage-detained-764/</guid>
+      <pubDate>Wed, 02 Sep 2026 21:03:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
