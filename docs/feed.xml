@@ -7,898 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 01:27:09 +0000</lastBuildDate>
-    <item>
-      <title>Ebyte NA111-M</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-239-05.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to fully compromise the device.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Ebyte NA111-M are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;NA111-M Firmware 9013-2-17 (CVE-2026-73125, CVE-2026-76179, CVE-2026-75814, CVE-2026-76940, CVE-2026-77966, CVE-2026-73809, CVE-2026-71187, CVE-2026-75548, CVE-2026-69658, CVE-2026-76133, CVE-2026-73819, CVE-2026-77975, CVE-2026-77977)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 9.8&lt;/td&gt;
-&lt;td&gt;Ebyte&lt;/td&gt;
-&lt;td&gt;Ebyte NA111-M&lt;/td&gt;
-&lt;td&gt;Missing Authentication for Critical Function, Use of GET Request Method With Sensitive Query Strings, Cross-Site Request Forgery (CSRF), Improper Restriction of Excessive Authentication Attempts, Missing Authorization, Cleartext Transmission of Sensitive Information, Use of Client-Side Authentication, Improper Restriction of Rendered UI Layers or Frames, Use of a Broken or Risky Cryptographic Algorithm, Weak Authentication, Cleartext Storage of Sensitive Information&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Information Technology&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;China&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-73125&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Ebyte device web management interface does not consistently enforce authentication before granting access to administrative functionality. An unauthenticated remote attacker could access sensitive configuration information, modify device settings, or disrupt availability.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-73125"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-76179&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;An improper protection of authentication tokens vulnerability exists in certain Ebyte gateway products. Authentication tokens used by the web management interface are insufficiently protected during client-side session handling, which may allow an attacker with access to exposed session information to obtain and reuse a valid token. Successful exploitation could allow an attacker to impersonate an authenticated user and gain unauthorized access to device management functionality.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-76179"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/598.html"&gt;CWE-598 Use of GET Request Method With Sensitive Query Strings&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-75814&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Ebyte device does not adequately verify the origin or authenticity of requests submitted to the web management interface. An unauthenticated remote attacker could persuade an authenticated administrator to visit a crafted page, causing unauthorized configuration changes or a disruption of device availability.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-75814"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/352.html"&gt;CWE-352 Cross-Site Request Forgery (CSRF)&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.6&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-76940&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected Ebyte device does not restrict repeated authentication attempts through rate limiting or account lockout mechanisms. This could allow an attacker to perform automated authentication attacks against deployments that rely on password based authentication.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-76940"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/307.html"&gt;CWE-307 Improper Restriction of Excessive Authentication Attempts&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-77966&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected product does not provide separation between limited and administrative management functions. A low privileged authenticated attacker could access security sensitive configuration functions and modify settings that affect the confidentiality, integrity, or availability of the device.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-77966"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/862.html"&gt;CWE-862 Missing Authorization&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-73809&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;A cleartext transmission of sensitive information vulnerability exists in certain Ebyte gateway products. The web management interface does not adequately protect sensitive communications using transport-layer encryption. An attacker with access to network traffic could intercept authentication or session-related information transmitted between a user and the affected device. Successful exploitation could result in disclosure of sensitive information and unauthorized access to device management functionality.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-73809"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/319.html"&gt;CWE-319 Cleartext Transmission of Sensitive Information&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-71187&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Ebyte device relies on client side authentication logic that can be reproduced by unauthenticated users. An attacker may generate valid authentication requests and bypass authentication to obtain administrative access to the device.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-71187"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/603.html"&gt;CWE-603 Use of Client-Side Authentication&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-75548&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected Ebyte device web management interface does not restrict the interface from being rendered within an external frame. An unauthenticated remote attacker could use a crafted webpage to mislead an authenticated administrator into initiating unintended configuration changes or disruptive actions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-75548"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/1021.html"&gt;CWE-1021 Improper Restriction of Rendered UI Layers or Frames&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;5.4&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;5.1&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-69658&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;MQTT credentials and control traffic are transmitted in cleartext, exposing sensitive information to network-level attackers. This may enable unauthorized device impersonation and disruption of messaging functions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-69658"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/319.html"&gt;CWE-319 Cleartext Transmission of Sensitive Information&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-76133&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected product uses a deprecated hashing algorithm in an authentication-related operation. Under conditions where an attacker can manipulate or predict the authentication exchange, the weak construction may reduce the assurance provided by the authentication mechanism and facilitate unauthorized access.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-76133"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/327.html"&gt;CWE-327 Use of a Broken or Risky Cryptographic Algorithm&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-73819&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected product's vendor configuration utility permits access to administrative functions without verifying the operator's identity under certain credential conditions. An unauthenticated attacker on the adjacent network could modify critical settings or change access credentials, potentially preventing legitimate administrators from managing the device.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-73819"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/1390.html"&gt;CWE-1390 Weak Authentication&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-77975&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected product exports administrative credentials and other sensitive configuration information without adequate protection. An unauthenticated attacker on the adjacent network who can obtain an exported configuration file could recover valid credentials and use them to access the device or similarly configured systems.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-77975"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/312.html"&gt;CWE-312 Cleartext Storage of Sensitive Information&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-77977&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The affected product's vendor configuration utility does not require authentication before allowing certain disruptive administrative actions when default credentials remain configured. An unauthenticated attacker on the adjacent network could reboot the device or restore factory settings, resulting in a loss of configuration and service availability.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-77977"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Ebyte NA111-M&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Ebyte&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Ebyte NA111-M Firmware: 9013-2-17&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Ebyte acknowledged receipt of the reported vulnerabilities and indicated that a patch was under development. However, the vendor has not responded to subsequent requests for coordination, and CISA has not been informed of the status or availability of the patch. Users are encouraged to reach out to Ebyte for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"&gt;CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7.2&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Jithin Nambiar J reported these vulnerabilities to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-08-27&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-27&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mitsubishi Electric CNC Series (Update A)</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-078-05.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Mitsubishi Electric CNC Series (Update A) are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mitsubishi Electric M800VW (BND-2051W000) &amp;lt;=BB (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M800VS (BND-2052W000) &amp;lt;=BB (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M80V (BND-2053W000) &amp;lt;=BB (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M80VW (BND-2054W000) &amp;lt;=BB (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M800W (BND-2005W000) &amp;lt;=FM (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M800S (BND-2006W000) &amp;lt;=FM (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M80 (BND-2007W000) &amp;lt;=FM (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M80W (BND-2008W000) &amp;lt;=FM (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric E80 (BND-2009W000) &amp;lt;=FM (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric C80 (BND-2036W000) vers:all/* (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M750VW (BND-1015W002) &amp;lt;=LJ (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M730VW (BND-1015W000) &amp;lt;=LJ (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M720VW (BND-1015W000) &amp;lt;=LJ (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M750VS (BND-1012W002) &amp;lt;=LJ (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M730VS (BND-1012W000) &amp;lt;=LJ (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M720VS (BND-1012W000) &amp;lt;=LJ (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric M70V (BND-1018W000) &amp;lt;=LJ (CVE-2025-2399)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric E70 (BND-1022W000) &amp;lt;=LJ (CVE-2025-2399)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 5.9&lt;/td&gt;
-&lt;td&gt;Mitsubishi Electric&lt;/td&gt;
-&lt;td&gt;Mitsubishi Electric CNC Series (Update A)&lt;/td&gt;
-&lt;td&gt;Improper Validation of Specified Index, Position, or Offset in Input&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Japan&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2025-2399&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Improper Validation of Specified Index, Position, or Offset in Input (CWE-1285) vulnerability in the affected products allows a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products by sending specially crafted packets to TCP port 683.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-2399"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Mitsubishi Electric CNC Series (Update A)&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric M800VW (BND-2051W000): &amp;lt;=BB, Mitsubishi Electric M800VS (BND-2052W000): &amp;lt;=BB, Mitsubishi Electric M80V (BND-2053W000): &amp;lt;=BB, Mitsubishi Electric M80VW (BND-2054W000): &amp;lt;=BB, Mitsubishi Electric M800W (BND-2005W000): &amp;lt;=FM, Mitsubishi Electric M800S (BND-2006W000): &amp;lt;=FM, Mitsubishi Electric M80 (BND-2007W000): &amp;lt;=FM, Mitsubishi Electric M80W (BND-2008W000): &amp;lt;=FM, Mitsubishi Electric E80 (BND-2009W000): &amp;lt;=FM, Mitsubishi Electric C80 (BND-2036W000): vers:all/*, Mitsubishi Electric M750VW (BND-1015W002): &amp;lt;=LJ, Mitsubishi Electric M730VW (BND-1015W000): &amp;lt;=LJ, Mitsubishi Electric M720VW (BND-1015W000): &amp;lt;=LJ, Mitsubishi Electric M750VS (BND-1012W002): &amp;lt;=LJ, Mitsubishi Electric M730VS (BND-1012W000): &amp;lt;=LJ, Mitsubishi Electric M720VS (BND-1012W000): &amp;lt;=LJ, Mitsubishi Electric M70V (BND-1018W000): &amp;lt;=LJ, Mitsubishi Electric E70 (BND-1022W000): &amp;lt;=LJ&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Please apply the fixed version (BC or later) for Mitsubishi Electric M800VW (BND-2051W000), M800VS (BND-2052W000), M80V (BND-2053W000), and M80VW (BND-2054W000). For instructions on how to apply it, please consult your Mitsubishi Electric representative.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Please apply the fixed version (FN or later) for Mitsubishi Electric M800W (BND-2005W000), M800S (BND-2006W000), M80 (BND-2007W000), M80W (BND-2008W000), and E80 (BND-2009W000). For instructions on how to apply it, please consult your Mitsubishi Electric representative.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Please apply the fixed version (LK or later) for Mitsubishi Electric M750VW (BND-1015W002), M730VW (BND-1015W000), M720VW (BND-1015W000), M750VS (BND-1012W002), M730VS (BND-1012W000), M720VS (BND-1012W000), M70V (BND-1018W000), and E70 (BND-1022W000). For instructions on how to apply it, please consult your Mitsubishi Electric representative.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of products that do not have a fixed version or who cannot immediately update the product, Mitsubishi Electric recommends using a firewall or virtual private network (VPN) to prevent unauthorized access, when internet access is required, to minimize the risk of exploiting this vulnerability.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of products that do not have a fixed version or who cannot immediately update the product, Mitsubishi Electric recommends using the product within a LAN and blocking access from untrusted networks and hosts through a firewall, to minimize the risk of exploiting this vulnerability.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of products that do not have a fixed version or who cannot immediately update the product, Mitsubishi Electric recommends using IP filters to prevent unauthorized access, when internet access is required, to minimize the risk of exploiting this vulnerability. IP filter function is available for M800V/M80V Series and M800/M80/E80 Series. For details about the IP filter function, refer to the following manual for each product which can be downloaded from the link "https://www.mitsubishielectric.com/fa/download/index.html ": M800V/M80V Series Instruction Manual "16. Appendix 3 IP Address Filter Setting Function", M800/M80/E80 Series Instruction Manual "15. Appendix 2 IP Address Filter Setting Function".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of products that do not have a fixed version or who cannot immediately update the product, Mitsubishi Electric recommends restricting physical access to the affected product and to all computers and network devices to which the products are connected, to minimize the risk of exploiting this vulnerability.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of products that do not have a fixed version or who cannot immediately update the product, Mitsubishi Electric recommends installing anti-virus software on PCs that can access the affected product, to minimize the risk of exploiting this vulnerability.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/1285.html"&gt;CWE-1285 Improper Validation of Specified Index, Position, or Offset in Input&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;5.9&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Mitsubishi Electric reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of these vulnerabilities.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Mitsubishi Electric 2025-022 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Mitsubishi Electric directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-03-10&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-03-10&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-03-19&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;CISA Republication - Initial CISA Republication of Mitsubishi Electric V20250121-001#02 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-27&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;Removed Software Tools NC Trainer2 and Software Tools NC Trainer2 plus, from affected products. And added M700V/M70V/E70 Series as fixed products.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-27&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;CISA Republication update based on Mitsubishi Electric 2025-022 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>When agents act on their own, governance has to live in the data layer</title>
-      <link>https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer</link>
-      <description>&lt;p&gt;&lt;i&gt;Presented by EDB &lt;/i&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every architecture review: When an agent tries to complete an action that it was never authorized to do, what actually stops it?&lt;/p&gt;&lt;p&gt;These are your agents, running on your models, touching your data in your infrastructure — and the responsibility for what they do sits with you. That responsibility can’t be met in hindsight or with a set of abstract policies that live on paper but not in practice. Agents need rules in the context of the moment, because they don’t exercise overriding judgment of their own actions.&lt;/p&gt;&lt;p&gt;Consider a simple rule: Never open the car door. Followed literally, an agent could never get in or out of the car at all. But if you change the context (the car has just crashed, there’s a fire, someone is hurt and needs to get out), then the rule you actually want is the opposite. Context in the moment is everything. We are asking agents to do intelligent things; that requires intelligent rules.&lt;/p&gt;&lt;p&gt;The instinct is to add guardrails around the agent: instructions, policies, and monitoring layered above the model. Those mechanisms matter, but they share a structural limit: The car-door rule is plausible right up until the moment you actually have to decide whether to open the door. Controls at the agent layer are only as reliable as the agent’s output is predictable, and autonomy is precisely the property that makes that output hard to predict. Governance that depends on reviewing an action before it happens cannot keep pace with a system that acts in milliseconds, across many systems at once.&lt;/p&gt;&lt;p&gt;Governance has to become &lt;i&gt;executable&lt;/i&gt;, and enforced where agents actually do their work: at the operational data layer, in the context, and exactly at the moment it is happening. &lt;/p&gt;&lt;h2&gt;The data layer is the enforcement point&lt;/h2&gt;&lt;p&gt;Agents create value by touching data. They query it, retrieve it, transform it, and increasingly act on it. A policy that says an agent should not reach a certain class of data is meaningful only if the system can deny that access at the moment the agent requests it. Additionally, a principle that says AI must be auditable is meaningful only if the organization can reconstruct what the agent did, what data it touched, which user it acted for, and what resulted. When &lt;a href="https://www.enterprisedb.com/products/data-ai-governance"&gt;governance&lt;/a&gt; lives at the data layer, it holds regardless of how the agent was built or how it behaves, because the control is a property of the database itself, not a promise made by the agent.&lt;/p&gt;&lt;h2&gt;Agent behavior may be probabilistic. Governance cannot be&lt;/h2&gt;&lt;p&gt;The enterprise should not rely on a model choosing to follow policy. The policy has to be enforced by the system. That is the difference between hoping an actor stays in bounds and constructing bounds it cannot cross to begin with.&lt;/p&gt;&lt;p&gt;The controls that make this real are ones many enterprises already run at the data layer: role- and attribute-based access, row- and column-level security, classification and masking, policy as code, and complete audit trails. &lt;/p&gt;&lt;p&gt;What agents change is not the mechanism, but who the mechanism has to recognize. Identity management has to treat the agent as a principal in its own right, with its own identity and a purpose declared when the session opens. &lt;/p&gt;&lt;p&gt;Once purpose is bound to identity, the policy engine can evaluate it the same way it evaluates role or department today, and the record of what happened can capture not just who acted and what they touched, but what they declared they were there to do.&lt;/p&gt;&lt;p&gt;In practice, this resolves into nine controls, grouped under three imperatives:&lt;/p&gt;&lt;h4&gt;&lt;b&gt;Enforce it&lt;/b&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Role- and attribute-based access control enforced at query time, for agents as well as users&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Dynamic column masking driven by the same policy path&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Agent identity as a first-class principal, with declared purpose bound at session start and the acting user preserved&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;&lt;b&gt;See it and prove it&lt;/b&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Classification and tagging that drives policy&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Session-level audit logging that records which agent acted, for which user, and under what declared purpose&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Lineage across pipelines, so a result can be traced back to the request that produced it&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;&lt;b&gt;Unify and harden&lt;/b&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Centralized, portable policy management&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Encryption at rest and in transit&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Consistent enforcement across on-prem, cloud, and sovereign or air-gapped environments&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;“Declared purpose is what makes the difference. It becomes an attribute the access layer already understands, evaluated in the same policy path as role and row-level security. The enforcement mechanism does not change. What changes is that the agent&amp;#x27;s purpose is part of what it evaluates, and part of what the record proves afterward,” says Priyanka Jain, VP, product management, data &amp;amp; AI governance, EDB. &lt;/p&gt;&lt;p&gt;Wherever you are in your AI adoption journey, enforcement at the data layer is what lets you move faster rather than slower. The controls are already in the database. The difference is that agents now have to pass through them.&lt;/p&gt;&lt;h2&gt;A digital leash, not a locked door&lt;/h2&gt;&lt;p&gt;The goal is not to stop agents from doing useful work. It is to define how far an agent can go, what it can touch, what it can change, what requires escalation, and how the organization can reconstruct events if something goes wrong. Governed this way, agents are identified, scoped, monitored, and auditable. The enterprise can adopt them &lt;i&gt;faster&lt;/i&gt;, because security, risk, and leadership teams trust the operating model underneath.&lt;/p&gt;&lt;h2&gt;Open, sovereign, and enforceable at the source&lt;/h2&gt;&lt;p&gt;&lt;a href="https://www.enterprisedb.com/products/edb-postgres-ai"&gt;Built on open source Postgres&lt;/a&gt;, this open foundation keeps enterprises in control of where their data lives, who can reach it, and under what policy, without ceding governance to a layer they don’t own or can’t inspect. For regulated industries, that combination of data &lt;a href="https://www.enterprisedb.com/what-is-sovereign-ai-data-sovereignty"&gt;sovereignty&lt;/a&gt; and source-level enforcement isn’t a nice-to-have; it’s the precondition for putting agents into production at all.&lt;/p&gt;&lt;p&gt;Agentic systems will keep getting more capable and more autonomous. That is a reason to be deliberate about where control lives, not a reason to slow down. The enterprises that enforce governance at the data layer can move aggressively on AI, because the thing protecting their data is more than just wishful thinking. &lt;/p&gt;&lt;hr /&gt;&lt;p&gt;&lt;i&gt;EDB Postgres AI is an open, enterprise-grade sovereign data and AI platform that unifies transactional, analytical, and AI workloads — with governance enforced where the data lives. For the full framework, see EDB’s white paper&lt;/i&gt; &lt;a href="https://www.enterprisedb.com/governing-agentic-ai-enterprise-speed"&gt;&lt;b&gt;Governing Agentic AI at Enterprise Speed&lt;/b&gt;&lt;/a&gt;&lt;i&gt;.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Max Romanenko is Chief Technology Officer at EDB.&lt;/i&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;&lt;i&gt;Sponsored articles are content produced by a company that is either paying for the post or has a business relationship with VentureBeat, and they’re always clearly marked. For more information, contact &lt;/i&gt;&lt;a href="mailto:sales@venturebeat.com"&gt;&lt;i&gt;&lt;u&gt;sales@venturebeat.com&lt;/u&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;
-&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer</guid>
-      <pubDate>Thu, 27 Aug 2026 12:01:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 06:13:18 +0000</lastBuildDate>
     <item>
       <title>The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US</title>
       <link>https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/</link>
@@ -967,13 +76,6 @@
       <description>I knew I’d officially become a “longevity influencer” this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment,&amp;#160;an injectable combination of two existing drugs which they call 1 Generation. This wasn’t just any antiaging treatment, either. A company fact sheet says that&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/</guid>
       <pubDate>Thu, 27 Aug 2026 19:48:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>US military bought commercial satellite images of alleged narco airstrips, Chinese naval fleet</title>
-      <link>https://www.defenseone.com/technology/2026/08/us-military-bought-commercial-satellite-images-alleged-narco-airstrips-chinese-naval-fleet/415684/</link>
-      <description>The Space Force can improve how it embraces commercial intel, a new GAO report says.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/technology/2026/08/us-military-bought-commercial-satellite-images-alleged-narco-airstrips-chinese-naval-fleet/415684/</guid>
-      <pubDate>Thu, 27 Aug 2026 20:54:02 +0000</pubDate>
     </item>
     <item>
       <title>Supporting Thailand’s next generation of AI startups</title>
@@ -1386,13 +488,6 @@ The ongoing insider threat is part of what has been described as the IT worker s
       <pubDate>Mon, 31 Aug 2026 20:09:24 +0000</pubDate>
     </item>
     <item>
-      <title>US Air Force chief of staff discusses ‘regional situation’ with Israeli military officials</title>
-      <link>https://www.defensenews.com/news/your-military/2026/08/31/us-air-force-chief-of-staff-discusses-regional-situation-with-israeli-military-officials/</link>
-      <description>U.S. Air Force Chief of Staff Ken Wilsbach visited Israel recently and met with Israel Defense Forces and Israeli Air Force top officials.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/08/31/us-air-force-chief-of-staff-discusses-regional-situation-with-israeli-military-officials/</guid>
-      <pubDate>Mon, 31 Aug 2026 20:09:41 +0000</pubDate>
-    </item>
-    <item>
       <title>'TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks</title>
       <link>https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks</link>
       <description>The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks.</description>
@@ -1544,7 +639,7 @@ The vulnerabilities in question are listed below -
       <pubDate>Tue, 01 Sep 2026 08:00:28 +0000</pubDate>
     </item>
     <item>
-      <title>Ukraine's Sanctions Czar Lands In Washington As Russia Bill Hits House Wall Over Tariff Fears</title>
+      <title>Ukraine's Sanctions Czar In Washington As Russia Bill Hits House Wall Over Tariff Fears</title>
       <link>https://www.rferl.org/a/ukraine-us-house-sanctions-russia-bill/33844600.html</link>
       <description>Ukraine's top sanctions official arrived in Washington on August 31 seeking to keep alive a sweeping Russia sanctions bill that cleared the Senate with overwhelming bipartisan support but now faces a tougher test in the House of Representatives.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-us-house-sanctions-russia-bill/33844600.html</guid>
@@ -1565,13 +660,6 @@ The vulnerabilities in question are listed below -
 The idea, ESET said in a series of posts on X, is to deliberately trip a large language model's (LLM) safety mechanisms and prevent its</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html</guid>
       <pubDate>Tue, 01 Sep 2026 08:26:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>India, China Take Small Step Forward Toward Border Settlement</title>
-      <link>https://thediplomat.com/2026/09/india-china-take-small-step-forward-toward-border-settlement/</link>
-      <description>At the recent special representatives talks in Beijing, the two sides agreed to work on identifying less contentious sections of their disputed border.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/india-china-take-small-step-forward-toward-border-settlement/</guid>
-      <pubDate>Tue, 01 Sep 2026 08:51:00 +0000</pubDate>
     </item>
     <item>
       <title>How engineered microbes could help feed the world’s crops</title>
@@ -2790,16 +1878,16 @@ A web page tells the visitor to prove they are not a robot. While they read the 
     </item>
     <item>
       <title>Defense startup raises $61 million to put AI into a wrist-worn display</title>
-      <link>https://www.c4isrnet.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</link>
+      <link>https://www.defensenews.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</link>
       <description>A defense startup has raised $61 million to put AI into a wrist-worn display that connects field operators to real-time data.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</guid>
       <pubDate>Tue, 01 Sep 2026 12:24:01 +0000</pubDate>
     </item>
     <item>
       <title>Defense startup raises $61 million to put AI into a wrist-worn display</title>
-      <link>https://www.defensenews.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</link>
+      <link>https://www.c4isrnet.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</link>
       <description>A defense startup has raised $61 million to put AI into a wrist-worn display that connects field operators to real-time data.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</guid>
       <pubDate>Tue, 01 Sep 2026 12:24:01 +0000</pubDate>
     </item>
     <item>
@@ -2815,13 +1903,6 @@ A web page tells the visitor to prove they are not a robot. While they read the 
       <description>Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/</guid>
       <pubDate>Tue, 01 Sep 2026 12:38:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Despite Delays, China Could Gain Ground in the Space Race</title>
-      <link>https://thediplomat.com/2026/09/despite-delays-china-could-gain-ground-in-the-space-race/</link>
-      <description>While the U.S. still holds considerable advantages gained through its earlier lunar explorations, China’s planned mission could provide it with a crucial edge.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/despite-delays-china-could-gain-ground-in-the-space-race/</guid>
-      <pubDate>Tue, 01 Sep 2026 12:42:00 +0000</pubDate>
     </item>
     <item>
       <title>Was Abe Shinzo an Idealist?</title>
@@ -3056,6 +2137,13 @@ Russian cybersecurity company Kaspersky is tracking the</description>
       <pubDate>Tue, 01 Sep 2026 16:34:30 +0000</pubDate>
     </item>
     <item>
+      <title>To Secure the Natuna Sea, Indonesia Needs More Than New Ships</title>
+      <link>https://thediplomat.com/2026/09/to-secure-the-natuna-sea-indonesia-needs-more-than-new-ships/</link>
+      <description>Maritime security is one of Indonesia’s most demanding defense domains. And at its current stage, Indonesia needs significant help.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/to-secure-the-natuna-sea-indonesia-needs-more-than-new-ships/</guid>
+      <pubDate>Tue, 01 Sep 2026 16:52:00 +0000</pubDate>
+    </item>
+    <item>
       <title>How AI-native companies turn workflows into operating capability</title>
       <link>https://openai.com/index/ai-native-company-workflows</link>
       <description>Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.</description>
@@ -3141,6 +2229,13 @@ The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of aut
       <pubDate>Tue, 01 Sep 2026 17:54:22 +0000</pubDate>
     </item>
     <item>
+      <title>As the World Nomad Games Come Home, Japarov Expands Kyrgyzstan’s National Story</title>
+      <link>https://thediplomat.com/2026/09/as-the-world-nomad-games-come-home-japarov-expands-kyrgyzstans-national-story/</link>
+      <description>The opening of the games coincided with Kyrgyzstan's 35th independence anniversary and a major Shanghai Cooperation Organization summit.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/as-the-world-nomad-games-come-home-japarov-expands-kyrgyzstans-national-story/</guid>
+      <pubDate>Tue, 01 Sep 2026 17:58:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Army awards Georgia Tech $33M to be lead weapons integrator for CAML program</title>
       <link>https://breakingdefense.com/2026/09/army-awards-georgia-tech-33m-to-be-lead-weapons-integrator-for-caml-program/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/army-awards-georgia-tech-33m-to-be-lead-weapons-integrator-for-caml-program/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/max1200-2-e1788283642113-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Georgia Tech will lead the integration of the autonomous mobility platform and the modular munitions pallets — the components that make up the CAML system. &lt;/p&gt;</description>
@@ -3189,6 +2284,13 @@ The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of aut
       <description>A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029.&amp;#160; It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to arrive at Alpha Centauri, which is 4.4 light-years away. And the&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/</guid>
       <pubDate>Tue, 01 Sep 2026 19:10:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stopgap funding bill temporarily extends key cyber info-sharing law</title>
+      <link>https://www.defenseone.com/policy/2026/09/stopgap-funding-bill-temporarily-extends-key-cyber-info-sharing-law/415768/</link>
+      <description>The short-term package pushes the sunset date for the bedrock cyber legislation to Dec. 11.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/09/stopgap-funding-bill-temporarily-extends-key-cyber-info-sharing-law/415768/</guid>
+      <pubDate>Tue, 01 Sep 2026 19:12:00 +0000</pubDate>
     </item>
     <item>
       <title>Navy Sounds Like It Now Wants The Air Combat Drone It Notoriously Passed Over A Decade Ago</title>
@@ -3429,6 +2531,33 @@ The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of aut
 &lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/chinese-cargo-ships-clandestinely-gather-signals-intelligence-report"&gt;Chinese Cargo Ships Clandestinely Gather Signals Intelligence: Report&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/chinese-cargo-ships-clandestinely-gather-signals-intelligence-report</guid>
       <pubDate>Wed, 02 Sep 2026 01:05:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Wednesday, September 2nd, 2026 https://isc.sans.edu/podcastdetail/10078, (Wed, Sep 2nd)</title>
+      <link>https://isc.sans.edu/diary/rss/33304</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33304</guid>
+      <pubDate>Wed, 02 Sep 2026 02:00:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Israel End Its Forever Wars?</title>
+      <link>https://www.foreignaffairs.com/israel/can-israel-end-its-forever-wars</link>
+      <description>The Netanyahu doctrine could outlast Netanyahu.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/israel/can-israel-end-its-forever-wars</guid>
+      <pubDate>Wed, 02 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Does the World Really View China?</title>
+      <link>https://www.foreignaffairs.com/china/how-does-world-really-view-china</link>
+      <description>Beijing’s growing soft power Is mostly an illusion.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/how-does-world-really-view-china</guid>
+      <pubDate>Wed, 02 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>After over 200 days at sea, USS Abraham Lincoln arrives in Thailand</title>
+      <link>https://www.defensenews.com/news/your-military/2026/09/02/after-over-200-days-at-sea-uss-abraham-lincoln-arrives-in-thailand/</link>
+      <description>The USS Abraham Lincoln arrived in Thailand on Wednesday morning after more than 200 days at sea.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/02/after-over-200-days-at-sea-uss-abraham-lincoln-arrives-in-thailand/</guid>
+      <pubDate>Wed, 02 Sep 2026 04:16:40 +0000</pubDate>
     </item>
     <item>
       <title>FoundingBully Celebrates America’s 250th With Revolutionary Apparel That Gives Back to Veterans</title>
