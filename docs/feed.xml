@@ -7,37 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 06:13:18 +0000</lastBuildDate>
-    <item>
-      <title>The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US</title>
-      <link>https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/</guid>
-      <pubDate>Thu, 27 Aug 2026 12:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.</title>
-      <link>https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them</link>
-      <description>&lt;p&gt;&lt;i&gt;Presented by Gravitee &lt;/i&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it.&lt;/p&gt;&lt;p&gt;That’s because enterprises don&amp;#x27;t deploy a single agent and watch it run, they deploy fleets, each one calling APIs, calling other agents, reaching into applications that were never built with a machine decision-maker in mind. That&amp;#x27;s the failure mode that should keep you up at night: a windy, complicated system nobody can see clearly enough to govern. But why do things get so opaque so quickly?&lt;/p&gt;&lt;p&gt;Add a second agent to a system, and you&amp;#x27;ve added one connection. Add a tenth, and you haven&amp;#x27;t added ten connections, you&amp;#x27;ve potentially added dozens, because now any agent might call any other, and each of those calls can trigger a call somewhere else. Complexity doesn&amp;#x27;t creep up with agent headcount. It compounds with the number of paths between agents, and nobody&amp;#x27;s job is to draw that graph. A support ticket that used to touch one system might now pass through four agents before a human ever lays eyes on it, and every one of those handoffs is a decision point nobody approved.&lt;/p&gt;&lt;p&gt;Most enterprise AI programs stall when the humans responsible for their agents lose the thread. Ask a security team a simple question: which agents can reach which systems, and watch the silence. Ask which agent triggered which downstream action three hops ago. More silence.&lt;/p&gt;&lt;p&gt;The instinct is to treat this like a checklist. Approve the agent. Log the agent. Move on. I&amp;#x27;d argue this is the wrong instinct. A checklist checks a single point in time. Complexity runs across a chain, and you can&amp;#x27;t govern a chain with a stack of one-time approvals any more than you can call a diet successful because you had a vegetable once.&lt;/p&gt;&lt;p&gt;So where does it actually break down?&lt;/p&gt;&lt;p&gt;Permissions creep first. Somebody builds an agent to summarize support tickets, grants it broad API access because scoping it properly would&amp;#x27;ve taken another sprint, and forgets about it. Six months later, that same agent has a path into the payments system. Nobody remembers signing off on that. Nobody did.&lt;/p&gt;&lt;p&gt;And ownership thins out the further the chain runs. Five agents touch one workflow, something breaks at step four, and now you&amp;#x27;re asking who&amp;#x27;s responsible for a link nobody was ever assigned to own, because the org chart stopped at &amp;quot;deploy the agent&amp;quot; and never got to &amp;quot;name the human who answers for it.&amp;quot;&lt;/p&gt;&lt;p&gt;This is a story about &lt;a href="https://www.gravitee.io/platform/ai-agent-management"&gt;&lt;u&gt;governance infrastructure&lt;/u&gt;&lt;/a&gt; that hasn&amp;#x27;t caught up with how agents actually behave: interconnected, cascading, multiplying faster than the processes built to track them.&lt;/p&gt;&lt;p&gt;Fixing the cluster starts with identity. Every agent needs to exist as its own entity, not a shadow permission borrowed from whoever deployed it. Its own name in the register. Its own scoped authority. A named human sponsor who answers for what it does. That part is necessary.&lt;/p&gt;&lt;p&gt;But it is nowhere near sufficient.&lt;/p&gt;&lt;p&gt;The harder piece is the oversight that holds across the entire chain, not just at each individual link in it. You need to see what an agent did, what it set off downstream, and where that trail ends in real time, not in a report someone pulls together once a quarter. Get agent-level identity right and stop there, and you end up with a filing cabinet full of perfectly documented agents operating inside a system nobody can actually explain.&lt;/p&gt;&lt;p&gt;And oversight by itself only tells you what already happened. Watching a chain isn&amp;#x27;t the same as controlling it. Enforcement is the piece most programs skip: the ability to stop an out-of-policy call before it executes, not just log it for someone to find in a review three weeks later. A dashboard that shows you an agent breached its scope five minutes ago is a monitoring tool. A system that stops the breach from happening in the first place is governance. Enterprises serious about &lt;a href="https://gravitee.io/agent-accountability"&gt;&lt;u&gt;agent accountability&lt;/u&gt;&lt;/a&gt; need both, and most have only built the first.&lt;/p&gt;&lt;p&gt;We&amp;#x27;re all running at blazing speed to ensure we&amp;#x27;re not the ones left behind in the race we&amp;#x27;ve found ourselves in, and we&amp;#x27;re all too aware that there&amp;#x27;s a cost to slowing down. Every enterprise serious about agentic AI hits the complexity wall eventually. The ones that get past it are the ones who built enough visibility and accountability, so their fleet can keep growing without anyone losing the ability to answer one question: what is this system doing right now, and who&amp;#x27;s responsible for it.&lt;/p&gt;&lt;p&gt;But don&amp;#x27;t miss the point. Complexity isn&amp;#x27;t a reason to pump the brakes. The enterprises getting this right aren&amp;#x27;t slowing down. They&amp;#x27;re building toward Human-Agent Harmony, where scale and accountability grow together instead of trading off against each other.&lt;/p&gt;&lt;p&gt;The real risk was never a single agent doing exactly what it was built to do. It&amp;#x27;s a hundred of them doing exactly that, all at once, interacting in combinations nobody designed for. That kind of multiplication is what keeps enterprise AI stuck running pilots forever instead of running production.&lt;/p&gt;&lt;p&gt;Solve for complexity and autonomy stops being the villain. It starts being the whole point.&lt;/p&gt;&lt;p&gt;&lt;i&gt;Rory Blundell is CEO at Gravitee. &lt;/i&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;&lt;i&gt;Sponsored articles are content produced by a company that is either paying for the post or has a business relationship with VentureBeat, and they’re always clearly marked. For more information, contact &lt;/i&gt;&lt;a href="mailto:sales@venturebeat.com"&gt;&lt;i&gt;&lt;u&gt;sales@venturebeat.com&lt;/u&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;
-&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them</guid>
-      <pubDate>Thu, 27 Aug 2026 14:01:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Russian Arctic Threat in the Era of Geoeconomics</title>
-      <link>https://www.geopoliticalmonitor.com/russian-arctic-threat-era-of-geoeconomics/</link>
-      <description>&lt;p&gt;Russia’s Arctic buildup is a five-dimensional threat. Countering it means right-sizing Russia — neither paranoia nor complacency, and never deference.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/russian-arctic-threat-era-of-geoeconomics/"&gt;The Russian Arctic Threat in the Era of Geoeconomics&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/russian-arctic-threat-era-of-geoeconomics/</guid>
-      <pubDate>Thu, 27 Aug 2026 15:41:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nato must figure out how to command and exploit UAS teams</title>
-      <link>https://www.army-technology.com/news/nato-must-figure-out-how-to-command-and-exploit-uas-teams/</link>
-      <description>AVR founder and director Martin Carr points to Ukraine’s UAS integration as a model for Nato militaries' UAS combat teams.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/nato-must-figure-out-how-to-command-and-exploit-uas-teams/</guid>
-      <pubDate>Thu, 27 Aug 2026 16:43:18 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 11:21:17 +0000</lastBuildDate>
     <item>
       <title>In applying AI to military decision-making, the IP4 should learn from NATO</title>
       <link>https://cset.georgetown.edu/article/in-applying-ai-to-military-decision-making-the-ip4-should-learn-from-nato/</link>
@@ -45,14 +15,6 @@
 &lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/in-applying-ai-to-military-decision-making-the-ip4-should-learn-from-nato/"&gt;In applying AI to military decision-making, the IP4 should learn from NATO&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cset.georgetown.edu/article/in-applying-ai-to-military-decision-making-the-ip4-should-learn-from-nato/</guid>
       <pubDate>Thu, 27 Aug 2026 17:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beneath the Surface: Overlooked Cyber Security Threats</title>
-      <link>https://warontherocks.com/beneath-the-surface-overlooked-cyber-security-threats/</link>
-      <description>&lt;p&gt;Cyber security remains a persistent concern for public and private sector organizations alike. Given the potential impact of cyber threats from criminal groups, adversarial states, and extremists, the topic draws substantial attention. Yet, in a field that evolves so quickly, some risks slip through the cracks. We asked four experts to identify and assess a key cyber security threat to U.S. national security that analysts and policymakers often overlook.Read more below.&amp;#160;Emily HardingDirector of the Intelligence, National Security, and Technology Program and Vice President of the Defense and Security Department at the Center for Strategic and International Studies Determining the state&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/beneath-the-surface-overlooked-cyber-security-threats/"&gt;Beneath the Surface: Overlooked Cyber Security Threats&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/beneath-the-surface-overlooked-cyber-security-threats/</guid>
-      <pubDate>Thu, 27 Aug 2026 17:30:16 +0000</pubDate>
     </item>
     <item>
       <title>100-plus companies call for ‘global surge’ in AI-powered cyber defense</title>
@@ -124,14 +86,6 @@
       <description>During my last FOR610 session, a student asked me if I had some statistics in mind about the compilers used to generate malicious PE files&amp;#x3f; A couple of months ago, I shared some stats about the trend in 64bits VS. 32bits malware&amp;#x5b;1&amp;#x5d;. Can we go a bit further&amp;#x3f; I (vibe-)coded a Python script based on the pefile library&amp;#x5b;2&amp;#x5d; to extract some info from the PE headers. Indeed, the PE file format contains a lot of metadata&amp;#x21; They can be accessed using a lot of tools, like Detect It Easy:&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33292</guid>
       <pubDate>Fri, 28 Aug 2026 07:04:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>The (Un)importance of the Battle of Tours</title>
-      <link>https://warontherocks.com/the-unimportance-of-the-battle-of-tours/</link>
-      <description>&lt;p&gt;Editor&amp;#8217;s note: This is the first article in a new occasional series featuring battles that just didn&amp;#8217;t matter, may look important, but in fact had negligible strategic or political effects or were absurd, anticlimactic, or structurally irrelevant to the wars they were part of.Some battles never end. Their impact is debated endlessly, sometimes for centuries, as they take on new life with new generations of historians and swindlers alike. Few battles better exemplify this eternal lifespan than the Battle of Tours &amp;#8212; also known as the Battle of Poitiers &amp;#8212; as it was fought between the two cities in modern-day&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/the-unimportance-of-the-battle-of-tours/"&gt;The (Un)importance of the Battle of Tours&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/the-unimportance-of-the-battle-of-tours/</guid>
-      <pubDate>Fri, 28 Aug 2026 07:30:05 +0000</pubDate>
     </item>
     <item>
       <title>How to sign up for a virtual power plant—and decide whether you should</title>
@@ -392,17 +346,6 @@
       <pubDate>Mon, 31 Aug 2026 13:06:46 +0000</pubDate>
     </item>
     <item>
-      <title>⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More</title>
-      <link>https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html</link>
-      <description>The boring parts caused most of the trouble.
-
-A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task was optional.
-
-Elsewhere, fake apps, helpful support calls, cheap banking kits, exposed systems, and weak defaults kept</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html</guid>
-      <pubDate>Mon, 31 Aug 2026 13:50:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What is the Axis of Aggressors doing in Europe and the Middle East?</title>
       <link>https://www.longwarjournal.org/archives/2026/08/what-is-the-axis-of-aggressors-doing-in-europe-and-the-middle-east.php</link>
       <description>&lt;p&gt;China, Russia, Iran, and North Korea are engaged in “unprecedented” cooperation, empowering Russian aggression in Ukraine and making the regime in Iran more lethal and resilient. Generation Jihad guest host Bradley Bowman, senior director of FDD’s Center on Military and Political Power (CMPP), discusses these relationships and impacts with John Hardie, deputy director of FDD’s Russia program, and Cameron McMillan, senior research analyst at FDD’s CMPP.&lt;/p&gt;
@@ -425,15 +368,6 @@ Elsewhere, fake apps, helpful support calls, cheap banking kits, exposed systems
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/japans-asm-3-kai-supersonic-cruise-missile-may-have-an-air-to-air-capability"&gt;Japan’s ASM-3 Kai Supersonic Cruise Missile May Have An Air-To-Air Capability&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/japans-asm-3-kai-supersonic-cruise-missile-may-have-an-air-to-air-capability</guid>
       <pubDate>Mon, 31 Aug 2026 17:09:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales</title>
-      <link>https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html</link>
-      <description>Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent investigations identifying suspected workers employed in sales and marketing and the medical profession.
-
-The ongoing insider threat is part of what has been described as the IT worker scheme,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html</guid>
-      <pubDate>Mon, 31 Aug 2026 17:24:28 +0000</pubDate>
     </item>
     <item>
       <title>AI Model Rules Are Not Security Controls</title>
@@ -495,25 +429,11 @@ The ongoing insider threat is part of what has been described as the IT worker s
       <pubDate>Mon, 31 Aug 2026 20:25:36 +0000</pubDate>
     </item>
     <item>
-      <title>Cronos blockchain restarts after $74 million Tectonic exploit</title>
-      <link>https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/</link>
-      <description>The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/</guid>
-      <pubDate>Mon, 31 Aug 2026 20:47:54 +0000</pubDate>
-    </item>
-    <item>
       <title>Bodyguard Satellites: Armed Escorts Are Coming to Orbit</title>
       <link>https://sofrep.com/news/bodyguard-satellites-armed-escorts-are-coming-to-orbit/</link>
       <description>A war in space may begin without a shot, when a map starts drifting, a radio dies and an armed satellite pulls alongside something America cannot afford to lose. #BodyguardSatellites #SpaceWarfare #SpaceForce #DefenseTechnology #AntiSatelliteWeapons</description>
       <guid isPermaLink="false">https://sofrep.com/news/bodyguard-satellites-armed-escorts-are-coming-to-orbit/</guid>
       <pubDate>Mon, 31 Aug 2026 21:00:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lockheed Martin, General Dynamics get framework deals to surge Patriot, THAAD production</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/08/31/lockheed-martin-general-dynamics-get-framework-deals-to-surge-patriot-thaad-production/</link>
-      <description>The Pentagon's framework agreements with General Dynamics and Lockheed include tripling Patriot production and quadrupling THAAD interceptor output.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/08/31/lockheed-martin-general-dynamics-get-framework-deals-to-surge-patriot-thaad-production/</guid>
-      <pubDate>Mon, 31 Aug 2026 21:08:08 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Users Hit by Infostealer Attacks, Session Thefts</title>
@@ -596,39 +516,12 @@ The ongoing insider threat is part of what has been described as the IT worker s
       <pubDate>Tue, 01 Sep 2026 07:00:26 +0000</pubDate>
     </item>
     <item>
-      <title>Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity</title>
-      <link>https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html</link>
-      <description>Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.
-
-The vulnerabilities in question are listed below -
-
-
-  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper validation of a user-supplied input vulnerability that could be exploited to execute arbitrary Python code in the context of the root user.
-  CVE-2026-66066 aka</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html</guid>
-      <pubDate>Tue, 01 Sep 2026 07:22:30 +0000</pubDate>
-    </item>
-    <item>
       <title>The Educated Operator: Rethinking Lethality in Special Operations</title>
       <link>https://warontherocks.com/the-educated-operator-rethinking-lethality-in-special-operations/</link>
       <description>&lt;p&gt;Editor&amp;#8217;s Note: While War on the Rocks has a high standard for allowing pseudonyms, this is an unusual case: U.S. Army Special Operations Command requires its uniformed personnel to use pseudonyms when writing for public consumption (Policy 23-16). Meek young men grow up in libraries, believing it their duty to accept the views which Cicero, which Locke, which Bacon, have given; forgetful that Cicero, Locke, and Bacon were only young men in libraries when they wrote these books. &amp;#8211;Ralph Waldo Emerson Over the course of more than a dozen combat deployments, it is undeniably true that being dumb has sometimes&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/the-educated-operator-rethinking-lethality-in-special-operations/"&gt;The Educated Operator: Rethinking Lethality in Special Operations&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/the-educated-operator-rethinking-lethality-in-special-operations/</guid>
       <pubDate>Tue, 01 Sep 2026 07:30:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Recently patched PaperCut zero-days used in data theft attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/</link>
-      <description>Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being abused in data theft attacks. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/</guid>
-      <pubDate>Tue, 01 Sep 2026 07:48:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>EU Foreign Ministers Meet In Ireland To Address Ukraine's Funding Shortfall For 2027</title>
-      <link>https://www.rferl.org/a/eu-foreign-ministers-gymnich-ireland-ukraine/33844642.html</link>
-      <description>EU's foreign ministers gather in Ireland on September 1-2 for the traditional beginning of the autumn-term informal foreign affairs council, known in Brussels corridors as Gymnich after the German castle where the first of such meetings were held over 50 years ago.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/eu-foreign-ministers-gymnich-ireland-ukraine/33844642.html</guid>
-      <pubDate>Tue, 01 Sep 2026 07:55:49 +0000</pubDate>
     </item>
     <item>
       <title>A Rulebook for Surprises: Commanding Autonomous Aircraft</title>
@@ -639,13 +532,6 @@ The vulnerabilities in question are listed below -
       <pubDate>Tue, 01 Sep 2026 08:00:28 +0000</pubDate>
     </item>
     <item>
-      <title>Ukraine's Sanctions Czar In Washington As Russia Bill Hits House Wall Over Tariff Fears</title>
-      <link>https://www.rferl.org/a/ukraine-us-house-sanctions-russia-bill/33844600.html</link>
-      <description>Ukraine's top sanctions official arrived in Washington on August 31 seeking to keep alive a sweeping Russia sanctions bill that cleared the Senate with overwhelming bipartisan support but now faces a tougher test in the House of Representatives.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-us-house-sanctions-russia-bill/33844600.html</guid>
-      <pubDate>Tue, 01 Sep 2026 08:09:52 +0000</pubDate>
-    </item>
-    <item>
       <title>Ratcliffe's Moscow Warning: What We Know A Week Later, According To Ex-CIA Officers</title>
       <link>https://www.rferl.org/a/ratcliffe-cia-moscow-visit-week-later/33844588.html</link>
       <description>How serious does intelligence have to be for a CIA director to personally travel to Moscow to deliver a warning?</description>
@@ -653,43 +539,11 @@ The vulnerabilities in question are listed below -
       <pubDate>Tue, 01 Sep 2026 08:25:17 +0000</pubDate>
     </item>
     <item>
-      <title>Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis</title>
-      <link>https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html</link>
-      <description>Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-assisted analysis.
-
-The idea, ESET said in a series of posts on X, is to deliberately trip a large language model's (LLM) safety mechanisms and prevent its</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html</guid>
-      <pubDate>Tue, 01 Sep 2026 08:26:24 +0000</pubDate>
-    </item>
-    <item>
       <title>How engineered microbes could help feed the world’s crops</title>
       <link>https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/</link>
       <description>Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions. Some companies hope microbes can help. A growing body of research shows that seeding the soil around a crop’s roots with beneficial microbes can help feed the plant, providing crucial nitrogen to help&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/</guid>
       <pubDate>Tue, 01 Sep 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ethanol Issue Has Entered Indian Kitchens, Impacting Household Budgets</title>
-      <link>https://thediplomat.com/2026/09/ethanol-issue-has-entered-indian-kitchens-impacting-household-budgets/</link>
-      <description>What began as an energy policy to reduce crude imports has travelled through the agricultural supply chain and ended up on the dinner table.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/ethanol-issue-has-entered-indian-kitchens-impacting-household-budgets/</guid>
-      <pubDate>Tue, 01 Sep 2026 09:04:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attackers Steal METR API Key and Consume AI Credits Worth About $600,000</title>
-      <link>https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html</link>
-      <description>METR (short for Model Evaluation and Threat Research and pronounced "Meter"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it suffered "two notable security incidents" where external actors attempted to gain unauthorized access to its systems.
-
-No sensitive information is believed to</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html</guid>
-      <pubDate>Tue, 01 Sep 2026 09:05:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Five Venezuelans plead guilty to ATM jackpotting attacks in US</title>
-      <link>https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/</link>
-      <description>Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/</guid>
-      <pubDate>Tue, 01 Sep 2026 09:15:07 +0000</pubDate>
     </item>
     <item>
       <title>Jeremy Douglas on Southeast Asia’s Drug Boom</title>
@@ -726,15 +580,6 @@ No sensitive information is believed to</description>
       <description>America needs its neighbors to counter China.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/real-risk-trade-war-canada</guid>
       <pubDate>Tue, 01 Sep 2026 11:21:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones</title>
-      <link>https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html</link>
-      <description>The most common way into a company last year was to ask.
-
-A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them through opening a terminal and pasting it in. The technique is called ClickFix, and it was the most common initial access method Microsoft’s team observed last year, accounting</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html</guid>
-      <pubDate>Tue, 01 Sep 2026 11:30:00 +0000</pubDate>
     </item>
     <item>
       <title>Healthcare organizations can now connect EHR and additional industry data to ChatGPT</title>
@@ -1878,13 +1723,6 @@ A web page tells the visitor to prove they are not a robot. While they read the 
     </item>
     <item>
       <title>Defense startup raises $61 million to put AI into a wrist-worn display</title>
-      <link>https://www.defensenews.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</link>
-      <description>A defense startup has raised $61 million to put AI into a wrist-worn display that connects field operators to real-time data.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</guid>
-      <pubDate>Tue, 01 Sep 2026 12:24:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Defense startup raises $61 million to put AI into a wrist-worn display</title>
       <link>https://www.c4isrnet.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</link>
       <description>A defense startup has raised $61 million to put AI into a wrist-worn display that connects field operators to real-time data.</description>
       <guid isPermaLink="false">https://www.c4isrnet.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</guid>
@@ -1896,13 +1734,6 @@ A web page tells the visitor to prove they are not a robot. While they read the 
       <description>Poland's sizable defense budget is expected lure a record number of companies to the European nation next week.</description>
       <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/01/poland-readies-for-record-breaking-defense-show-as-opulent-budget-lures-vendors/</guid>
       <pubDate>Tue, 01 Sep 2026 12:26:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/</link>
-      <description>Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/</guid>
-      <pubDate>Tue, 01 Sep 2026 12:38:35 +0000</pubDate>
     </item>
     <item>
       <title>Was Abe Shinzo an Idealist?</title>
@@ -2081,13 +1912,6 @@ Russian cybersecurity company Kaspersky is tracking the</description>
       <pubDate>Tue, 01 Sep 2026 15:08:48 +0000</pubDate>
     </item>
     <item>
-      <title>An Army leadership shakeup, plus lasers on the border</title>
-      <link>https://breakingdefense.com/2026/09/an-army-leadership-shakeup-plus-lasers-on-the-border/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/an-army-leadership-shakeup-plus-lasers-on-the-border/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/BO232-pb-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;US soldiers are demonstrating new systems to shoot down drones while the Army starts the search for a new secretary.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/an-army-leadership-shakeup-plus-lasers-on-the-border/</guid>
-      <pubDate>Tue, 01 Sep 2026 15:37:24 +0000</pubDate>
-    </item>
-    <item>
       <title>Ayesha Siddiqa on the Pakistan Army’s Police State</title>
       <link>https://thediplomat.com/2026/09/ayesha-siddiqa-on-the-pakistan-armys-police-state/</link>
       <description>Siddiqa argues that Pakistan is not a hybrid regime but a case of constitutional militarism, sanctioned by a parliament that has legislated away its own relevance.</description>
@@ -2100,13 +1924,6 @@ Russian cybersecurity company Kaspersky is tracking the</description>
       <description>The two neighbors are reshaping the nuclear politics of Northeast Asia – and doing so increasingly in concert with Washington.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/09/japan-south-korea-and-the-new-logic-of-nuclear-energy-security-in-northeast-asia/</guid>
       <pubDate>Tue, 01 Sep 2026 15:44:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dataminr AI tech to go live on NATO Maven system: CEO</title>
-      <link>https://breakingdefense.com/2026/09/dataminr-ai-tech-to-go-live-on-nato-maven-system-ceo/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/dataminr-ai-tech-to-go-live-on-nato-maven-system-ceo/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2024/03/240320_brit_computer_mod_45169437-scaled-e1710969350247-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The company also recently nabbed a $318 million &amp;#8220;situational awareness&amp;#8221; contract with the Pentagon.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/dataminr-ai-tech-to-go-live-on-nato-maven-system-ceo/</guid>
-      <pubDate>Tue, 01 Sep 2026 15:49:12 +0000</pubDate>
     </item>
     <item>
       <title>What Three Brutal Weeks of SAS Selection Taught Me About Life</title>
@@ -2558,6 +2375,188 @@ The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of aut
       <description>The USS Abraham Lincoln arrived in Thailand on Wednesday morning after more than 200 days at sea.</description>
       <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/02/after-over-200-days-at-sea-uss-abraham-lincoln-arrives-in-thailand/</guid>
       <pubDate>Wed, 02 Sep 2026 04:16:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Limbang Question Lingers On</title>
+      <link>https://thediplomat.com/2026/09/the-limbang-question-lingers-on/</link>
+      <description>The territory's curious status is the result of an unresolved border dispute between Malaysia and Brunei that dates back to the British colonial era.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/the-limbang-question-lingers-on/</guid>
+      <pubDate>Wed, 02 Sep 2026 05:09:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aviation Tactics Recalling 'World War I' Help Ukraine Bring Down Russian Drones</title>
+      <link>https://www.rferl.org/a/ukraine-military-soviet-aircraft-aerial-drones/33845026.html</link>
+      <description>Armed only with an assault rifle in an open cockpit, a Ukrainian gunner is part of an aerial unit that is shooting down Russian drones from Soviet-era Yak-52 propeller planes. Three low-cost planes donated by a Dutch NGO are patrolling the Odesa region, downing multiple Iranian-designed Shahed drones in a single flight.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-military-soviet-aircraft-aerial-drones/33845026.html</guid>
+      <pubDate>Wed, 02 Sep 2026 06:32:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>SonicWall warns of actively exploited SMA1000 zero-day flaws</title>
+      <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/</link>
+      <description>SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/</guid>
+      <pubDate>Wed, 02 Sep 2026 06:39:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads</title>
+      <link>https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html</link>
+      <description>The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.
+
+The effort was undertaken on August 31, 2026, by authorities from the U.S., Bulgaria, Hungary, and Romania, in collaboration with private industry partners CrowdStrike and the Shadowserver Foundation. To that</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html</guid>
+      <pubDate>Wed, 02 Sep 2026 06:56:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials</title>
+      <link>https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html</link>
+      <description>Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution.
+
+The vulnerability in question is CVE-2026-9586 (CVSS score: 9.3), a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox SMB Edition 8.3 (104997) that can allow attackers to remotely execute arbitrary code as</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html</guid>
+      <pubDate>Wed, 02 Sep 2026 07:08:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Are People Talking About a German Reset with Russia?</title>
+      <link>https://warontherocks.com/why-are-people-talking-about-a-german-reset-with-russia/</link>
+      <description>&lt;p&gt;The summer of 2026 has raised questions once again among politicians, diplomats, and academics about whether Germany might be about to dither on Russia. Last month, a drone attack on German soil seemed designed to coerce Germany back into business as usual. Earlier, there had been rumblings about two German ex-chancellors brokering a peace treaty between Kyiv and Moscow. Both Angela Merkel and Gerhard Schr&amp;#246;der are living embodiments of the ill-reputed Ostpolitik, Germany&amp;#8217;s tradition of pragmatic cooperation with the Kremlin over the heads of other Eastern European countries.Is Germany getting ready for a reset with Russia, though? Not really. Berlin&amp;#8217;s&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/why-are-people-talking-about-a-german-reset-with-russia/"&gt;Why Are People Talking About a German Reset with Russia?&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/why-are-people-talking-about-a-german-reset-with-russia/</guid>
+      <pubDate>Wed, 02 Sep 2026 07:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukraine’s Ground Robots and the Economics of Survival</title>
+      <link>https://warontherocks.com/ukraines-ground-robots-and-the-economics-of-survival/</link>
+      <description>&lt;p&gt;In August 2024, special forces from five Ukrainian military intelligence units crossed the Black Sea to raid Russian-held Kinburn Spit. The commandos of these units &amp;#8212; Chimera, Aratta, Stuhna, Paragon, Terror, and the Siberian Battalion &amp;#8212; landed, fought, destroyed equipment, and withdrew. Two years later, in July 2026, Ukraine returned, but left the soldiers behind. Instead, an uncrewed surface vessel carried a ground robot across the water and released it onto the shore. The robot, equipped with a Wolly 7.62 remotely operated combat module, featuring a machine gun and an AI-assisted targeting system, rolled onto shore and engaged targets. A&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/ukraines-ground-robots-and-the-economics-of-survival/"&gt;Ukraine’s Ground Robots and the Economics of Survival&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/ukraines-ground-robots-and-the-economics-of-survival/</guid>
+      <pubDate>Wed, 02 Sep 2026 07:30:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another</title>
+      <link>https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html</link>
+      <description>Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware.
+
+The exploit targets&amp;nbsp;CVE-2021-31886, a stack-based buffer overflow in the Nucleus FTP server's handling of the&amp;nbsp;USER&amp;nbsp;command</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html</guid>
+      <pubDate>Wed, 02 Sep 2026 07:47:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>How a middling Chinese guided-missile frigate unnerves Japan, Taiwan and the US</title>
+      <link>https://www.defensenews.com/global/asia-pacific/2026/09/02/how-a-middling-chinese-guided-missile-frigate-unnerves-japan-taiwan-and-the-us/</link>
+      <description>China’s navy has introduced a new guided-missile frigate designed for coastal as well as open-sea attacks.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/09/02/how-a-middling-chinese-guided-missile-frigate-unnerves-japan-taiwan-and-the-us/</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sality botnet infrastructure dismantled in joint global takedown</title>
+      <link>https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/</link>
+      <description>International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>European Resilience in Digital Infrastructure: The Changing Nature of State-Business Relations</title>
+      <link>https://warontherocks.com/cogs-of-war/european-resilience-in-digital-infrastructure-the-changing-nature-of-state-business-relations/</link>
+      <description>&lt;p&gt;As the war in Ukraine progressed, Russian strikes increasingly degraded Ukraine&amp;#8217;s terrestrial communications infrastructure, steadily deepening Kyiv&amp;#8217;s dependence on SpaceX&amp;#8217;s Starlink. The satellite constellation became indispensable for crucial military functions, including command and control, drone operations, and artillery fire coordination, with no readily available European alternative should access be withdrawn.This reality exemplifies the idea that today, governments rely on critical infrastructure that is privately owned and globally embedded. But these interdependencies can be weaponized, and state-firm relations can become misaligned. Recent controversies over the ability of American and Chinese technology companies to restrict access to critical AI models, alongside NVIDIA&amp;#8217;s&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/european-resilience-in-digital-infrastructure-the-changing-nature-of-state-business-relations/"&gt;European Resilience in Digital Infrastructure: The Changing Nature of State-Business Relations&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/european-resilience-in-digital-infrastructure-the-changing-nature-of-state-business-relations/</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>German government blames Russia for Leipzig airport drone attack with explosives</title>
+      <link>https://www.c4isrnet.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</link>
+      <description>Russia was behind the failed explosive drone attack on Germany’s key Leipzig/Halle Airport last month, the authorities in Berlin have concluded.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</guid>
+      <pubDate>Wed, 02 Sep 2026 08:33:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>German government blames Russia for Leipzig airport drone attack with explosives</title>
+      <link>https://www.defensenews.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</link>
+      <description>Russia was behind the failed explosive drone attack on Germany’s key Leipzig/Halle Airport last month, the authorities in Berlin have concluded.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/02/german-government-blames-russia-for-leipzig-airport-drone-attack-with-explosives/</guid>
+      <pubDate>Wed, 02 Sep 2026 08:33:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Europe’s airpower future is evolving. Here’s what to know.</title>
+      <link>https://breakingdefense.com/2026/09/europes-airpower-future-is-evolving-heres-what-to-know/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/europes-airpower-future-is-evolving-heres-what-to-know/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/RS273269_DP168303-scaled-e1788273246922-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Breaking Defense kicks off a new video series focused on how Europe is modernizing its manned and unmanned aircraft. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/europes-airpower-future-is-evolving-heres-what-to-know/</guid>
+      <pubDate>Wed, 02 Sep 2026 08:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>US charges Russian for infecting 80,000 freelancers with malware</title>
+      <link>https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/</link>
+      <description>A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/</guid>
+      <pubDate>Wed, 02 Sep 2026 09:06:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands</title>
+      <link>https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html</link>
+      <description>The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017.
+
+Searzhudin Tamirlanovich Aktulaev, 40, was arrested in Cyprus in May 2025, the U.S. Attorney's Office for the Northern District of California</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html</guid>
+      <pubDate>Wed, 02 Sep 2026 09:10:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends</title>
+      <link>https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html</link>
+      <description>Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals.
+
+The project shipped fixes in versions 4.4.12 and 4.2.17 on July 8, 2026, and published the vulnerability details on August 31.
+
+GeoNetwork originated at the United Nations Food and</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html</guid>
+      <pubDate>Wed, 02 Sep 2026 09:18:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation</title>
+      <link>https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/</link>
+      <description>&lt;p&gt;Using autonomous AI agents, an attacker breached an enterprise network in a matter of hours. Understand how to address and defend against agentic attacks.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/"&gt;An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/</guid>
+      <pubDate>Wed, 02 Sep 2026 10:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Lawmakers Examine Growing Russia, China Ties To Iran-Backed Houthis</title>
+      <link>https://www.rferl.org/a/iran-backed-houthis-russia-china-ties-us-house-hearing/33845462.html</link>
+      <description>A US House hearing examined the Houthis' growing ties with Russia and China and how they could strengthen the Iran-backed militant group's threat to US interests and Red Sea shipping.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-backed-houthis-russia-china-ties-us-house-hearing/33845462.html</guid>
+      <pubDate>Wed, 02 Sep 2026 10:06:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Defender flags legitimate Google search links as malicious</title>
+      <link>https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/</link>
+      <description>Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/</guid>
+      <pubDate>Wed, 02 Sep 2026 10:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sweden to ‘evaluate’ adding French long-range strike missiles to new frigates</title>
+      <link>https://breakingdefense.com/2026/09/sweden-to-evaluate-adding-french-long-range-strike-missiles-to-new-frigates/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/sweden-to-evaluate-adding-french-long-range-strike-missiles-to-new-frigates/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260901_france_sweden_frigate_signing_JONAS-scaled-e1788281372436-1024x577.jpeg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;After inking a €4.3 billion frigate deal, Sweden’s defense minister told Breaking Defense Stockholm was keeping an “open mind” about additional cruise missiles.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/sweden-to-evaluate-adding-french-long-range-strike-missiles-to-new-frigates/</guid>
+      <pubDate>Wed, 02 Sep 2026 10:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain</title>
+      <link>https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html</link>
+      <description>SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks.
+
+The vulnerabilities, discovered internally by SonicWall's William Perry and Adam Babis, are listed below -
+
+
+  CVE-2026-83548 (CVSS score: 10.0) -&amp;nbsp; A pre-authentication SSRF vulnerability in the Appliance</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html</guid>
+      <pubDate>Wed, 02 Sep 2026 10:53:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forecasts: Finland defence market data (2026-2035)</title>
+      <link>https://www.army-technology.com/features/forecasts-finland-defence-market-data-2026-2035/</link>
+      <description>Finland's defence market will register steady through through the next decade as Helsinki continues its rearmament programme.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/features/forecasts-finland-defence-market-data-2026-2035/</guid>
+      <pubDate>Wed, 02 Sep 2026 11:00:37 +0000</pubDate>
     </item>
     <item>
       <title>FoundingBully Celebrates America’s 250th With Revolutionary Apparel That Gives Back to Veterans</title>
