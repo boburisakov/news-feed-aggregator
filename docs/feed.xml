@@ -7,246 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 23:45:09 +0000</lastBuildDate>
-    <item>
-      <title>Mitsubishi Electric Multiple FA Products (Update D)</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2025/icsa-25-128-03.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition, a timeout error, or a communication delay by sending a specially crafted UDP packet to the product.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Mitsubishi Electric Multiple FA Products (Update D) are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32D &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32T &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32TE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32DT &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32DTE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32D &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32T &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32TE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32DT &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32DTE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GNCF1-32D &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GNCF1-32T &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GNCE3-32D &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GNCE3-32DT &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A4-16D &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A4-16DE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A2-16T &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A2-16TE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A42-16DT &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A42-16DTE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-16D &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-16T &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-16TE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-16D &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-16T &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-16TE &amp;lt;=09 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Analog-Digital Converter module NZ2GN2S-60AD4 &amp;lt;=07 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Analog-Digital Converter module NZ2GN2B-60AD4 &amp;lt;=07 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Digital-Analog Converter module NZ2GN2S-60DA4 &amp;lt;=07 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Digital-Analog Converter module NZ2GN2B-60DA4 &amp;lt;=07 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN FPGA module NZ2GN2S-D41P01 01 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN FPGA module NZ2GN2S-D41D01 01 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN FPGA module NZ2GN2S-D41PD02 01 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote Station Communication LSI CP620 with GbE-PHY NZ2GACP620-300 &amp;lt;=1.08J (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN Remote Station Communication LSI CP620 with GbE-PHY NZ2GACP620-60 &amp;lt;=1.08J (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-T2 &amp;lt;=26 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-EIP &amp;lt;=10 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-SX &amp;lt;=05 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series Ethernet Interface Module RJ71EN71 &amp;lt;=85 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN master/local Station Communication LSI CP610 NZ2GACP610-60 &amp;lt;=05 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric CC-Link IE TSN master/local Station Communication LSI CP610 NZ2KT-NPETNG51 &amp;lt;=05 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-F Series FX5 CC-Link IE TSN Master/Local Module FX5-CCLGN-MS &amp;lt;=1.020 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-F Series FX5 Ethernet Module FX5-ENET &amp;lt;=1.200 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-F Series FX5-ENET/IP Ethernet Module FX5-ENET/IP &amp;lt;=1.106 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series CPU module R04ENCPU (Network Part) &amp;lt;=85 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series CPU module R08ENCPU (Network Part) &amp;lt;=85 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series CPU module R16ENCPU (Network Part) &amp;lt;=85 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series CPU module R32ENCPU (Network Part) &amp;lt;=85 (CVE-2025-3511)&lt;/li&gt;
-&lt;li&gt;Mitsubishi Electric MELSEC iQ-R Series CPU module R120ENCPU (Network Part) &amp;lt;=85 (CVE-2025-3511)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.5&lt;/td&gt;
-&lt;td&gt;Mitsubishi Electric&lt;/td&gt;
-&lt;td&gt;Mitsubishi Electric Multiple FA Products (Update D)&lt;/td&gt;
-&lt;td&gt;Improper Validation of Specified Quantity in Input&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Japan&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2025-3511&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;A denial-of-service (DoS) vulnerability due to Improper Validation of Specified Quantity in Input (CWE-1284) exists in the Ethernet function of multiple FA products. This vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition by sending a specially crafted UDP packet if CC-Link IE TSN Remote I/O modules NZ2GN2S1-32D, NZ2GN2S1-32T, NZ2GN2S1-32TE, NZ2GN2S1-32DT, NZ2GN2S1-32DTE, NZ2GN2B1-32D, NZ2GN2B1-32T, NZ2GN2B1-32TE, NZ2GN2B1-32DT, NZ2GN2B1-32DTE, NZ2GNCF1-32D, NZ2GNCF1-32T, NZ2GNCE3-32D, NZ2GNCE3-32DT, NZ2GN12A4-16D, NZ2GN12A4-16DE, NZ2GN12A2-16T, NZ2GN12A2-16TE, NZ2GN12A42-16DT, NZ2GN12A42-16DTE, NZ2GN2S1-16D, NZ2GN2S1-16T, NZ2GN2S1-16TE, NZ2GN2B1-16D, NZ2GN2B1-16T, NZ2GN2B1-16TE, CC-Link IE TSN Analog-Digital Converter modules NZ2GN2S-60AD4, NZ2GN2B-60AD4, CC-Link IE TSN Digital-Analog Converter modules NZ2GN2S-60DA4 and NZ2GN2B-60DA4, CC-Link IE TSN FPGA modules NZ2GN2S-D41P01, NZ2GN2S-D41D01, NZ2GN2S-D41PD02, CC-Link IE TSN Remote Station Communication LSIs CP620 with GbE-PHY NZ2GACP620-300, and NZ2GACP620-60 does not receive a valid UDP packet within 3 seconds. This vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition on MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-T2, RJ71GN11-EIP, RJ71GN11-SX, MELSEC iQ-R Series Ethernet Interface Module RJ71EN71, CC-Link IE TSN master/local Station Communication LSIs CP610 NZ2GACP610-60, NZ2KT-NPETNG51, MELSEC iQ-F Series FX5 CC-Link IE TSN Master/Local Module FX5-CCLGN-MS, MELSEC iQ-R Series CPU module R04ENCPU (Network part), R08ENCPU (Network part), R16ENCPU (Network part), R32ENCPU (Network part), and R120ENCPU (Network part), by sending a specially crafted UDP packet. Or this vulnerability could allow a remote attacker to cause a communication delay in Simple CPU communication on MELSEC iQ-F Series FX5 Ethernet Module FX5-ENET and FX5-ENET/IP Ethernet Module FX5-ENET/IP, by sending a specially crafted UDP packet. A system reset of the product is required for recovery in all cases above. Additionally, this vulnerability could allow a remote attacker to cause a timeout error in CC-Link IEF Basic communication on MELSEC iQ-F Series FX5 Ethernet Module FX5-ENET and FX5-ENET/IP Ethernet Module FX5-ENET/IP, by sending a specially crafted UDP packet. Even if a timeout error occurs, communication will be restored once the affected product starts receiving valid UDP packets.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-3511"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Mitsubishi Electric Multiple FA Products (Update D)&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32D: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32T: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32TE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32DT: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32DTE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32D: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32T: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32TE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32DT: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32DTE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GNCF1-32D: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GNCF1-32T: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GNCE3-32D: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GNCE3-32DT: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A4-16D: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A4-16DE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A2-16T: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A2-16TE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A42-16DT: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN12A42-16DTE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-16D: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-16T: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-16TE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-16D: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-16T: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-16TE: &amp;lt;=09, Mitsubishi Electric CC-Link IE TSN Analog-Digital Converter module NZ2GN2S-60AD4: &amp;lt;=07, Mitsubishi Electric CC-Link IE TSN Analog-Digital Converter module NZ2GN2B-60AD4: &amp;lt;=07, Mitsubishi Electric CC-Link IE TSN Digital-Analog Converter module NZ2GN2S-60DA4: &amp;lt;=07, Mitsubishi Electric CC-Link IE TSN Digital-Analog Converter module NZ2GN2B-60DA4: &amp;lt;=07, Mitsubishi Electric CC-Link IE TSN FPGA module NZ2GN2S-D41P01: 01, Mitsubishi Electric CC-Link IE TSN FPGA module NZ2GN2S-D41D01: 01, Mitsubishi Electric CC-Link IE TSN FPGA module NZ2GN2S-D41PD02: 01, Mitsubishi Electric CC-Link IE TSN Remote Station Communication LSI CP620 with GbE-PHY NZ2GACP620-300: &amp;lt;=1.08J, Mitsubishi Electric CC-Link IE TSN Remote Station Communication LSI CP620 with GbE-PHY NZ2GACP620-60: &amp;lt;=1.08J, Mitsubishi Electric MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-T2: &amp;lt;=26, Mitsubishi Electric MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-EIP: &amp;lt;=10, Mitsubishi Electric MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-SX: &amp;lt;=05, Mitsubishi Electric MELSEC iQ-R Series Ethernet Interface Module RJ71EN71: &amp;lt;=85, Mitsubishi Electric CC-Link IE TSN master/local Station Communication LSI CP610 NZ2GACP610-60: &amp;lt;=05, Mitsubishi Electric CC-Link IE TSN master/local Station Communication LSI CP610 NZ2KT-NPETNG51: &amp;lt;=05, Mitsubishi Electric MELSEC iQ-F Series FX5 CC-Link IE TSN Master/Local Module FX5-CCLGN-MS: &amp;lt;=1.020, Mitsubishi Electric MELSEC iQ-F Series FX5 Ethernet Module FX5-ENET: &amp;lt;=1.200, Mitsubishi Electric MELSEC iQ-F Series FX5-ENET/IP Ethernet Module FX5-ENET/IP: &amp;lt;=1.106, Mitsubishi Electric MELSEC iQ-R Series CPU module R04ENCPU (Network Part): &amp;lt;=85, Mitsubishi Electric MELSEC iQ-R Series CPU module R08ENCPU (Network Part): &amp;lt;=85, Mitsubishi Electric MELSEC iQ-R Series CPU module R16ENCPU (Network Part): &amp;lt;=85, Mitsubishi Electric MELSEC iQ-R Series CPU module R32ENCPU (Network Part): &amp;lt;=85, Mitsubishi Electric MELSEC iQ-R Series CPU module R120ENCPU (Network Part): &amp;lt;=85&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 10 or later for CC-Link IE TSN Remote I/O modules NZ2GN2S1-32D, NZ2GN2S1-32T, NZ2GN2S1-32TE, NZ2GN2S1-32DT, NZ2GN2S1-32DTE, NZ2GN2B1-32D, NZ2GN2B1-32T, NZ2GN2B1-32TE, NZ2GN2B1-32DT, NZ2GN2B1-32DTE, NZ2GNCF1-32D, NZ2GNCF1-32T, NZ2GNCE3-32D, NZ2GNCE3-32DT, NZ2GN12A4-16D, NZ2GN12A4-16DE, NZ2GN12A2-16T, NZ2GN12A2-16TE, NZ2GN12A42-16DT, NZ2GN12A42-16DTE, NZ2GN2S1-16D, NZ2GN2S1-16T, NZ2GN2S1-16TE, NZ2GN2B1-16D, NZ2GN2B1-16T, and NZ2GN2B1-16TE. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf."&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 08 or later for CC-Link IE TSN Analog-Digital Converter modules NZ2GN2S-60AD4 and NZ2GN2B-60AD4. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 08 or later for CC-Link IE TSN Digital-Analog Converter modules NZ2GN2S-60DA4 and NZ2GN2B-60DA4. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 02 or later for CC-Link IE TSN FPGA modules NZ2GN2S-D41P01, NZ2GN2S-D41D01, and NZ2GN2S-D41PD02. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 1.09K or later for CC-Link IE TSN Remote Station Communication LSIs CP620 with GbE-PHY NZ2GACP620-300 or NZ2GACP620-60. Please download the CP620 sample code from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 28 or later for MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-T2. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 13 or later for MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-EIP. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 07 or later for MELSEC iQ-R Series CC-Link IE TSN Master/Local Module RJ71GN11-SX. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 86 or later for MELSEC iQ-R Series Ethernet Interface Module RJ71EN71. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 06 or later for CC-Link IE TSN master/local Station Communication LSIs CP610 NZ2GACP610-60 and NZ2KT-NPETNG51. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 1.030 or later for MELSEC iQ-F Series FX5 CC-Link IE TSN Master/Local Module FX5-CCLGN-MS. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 1.210 or later for MELSEC iQ-F Series FX5 Ethernet Module FX5-ENET. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed version 1.107 or later for MELSEC iQ-F Series FX5-ENET/IP Ethernet Module FX5-ENET/IP. Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Mitsubishi Electric is releasing fixed network part firmware version 86 or later for MELSEC iQ-R Series CPU module R04ENCPU (Network part), R08ENCPU (Network part), R16ENCPU (Network part), R32ENCPU (Network part), and R120ENCPU (Network part). Please download the fixed update file from the link "https://www.mitsubishielectric.com/fa/download/index.html" and install it. For more information on the fixed version, refer to the Mitsubishi Electric security advisory at "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-001_en.pdf".&lt;br /&gt;&lt;a href="https://www.mitsubishielectric.com/fa/download/index.html"&gt;https://www.mitsubishielectric.com/fa/download/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of the affected products, Mitsubishi Electric recommends using a firewall, virtual private network (VPN), etc. to prevent unauthorized access when internet access is required, to minimize the risk of exploiting this vulnerability.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of the affected products, Mitsubishi Electric recommends using within a LAN and blocking access from untrusted networks and hosts through firewalls, to minimize the risk of exploiting this vulnerability.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of the affected products, Mitsubishi Electric recommends restricting physical access to the products and the LAN to which they are connected, to minimize the risk of exploiting this vulnerability.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For customers of the affected products, Mitsubishi Electric recommends installing anti-virus software on your PC that can access the affected product, to minimize the risk of exploiting this vulnerability.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/1284.html"&gt;CWE-1284 Improper Validation of Specified Quantity in Input&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Mitsubishi Electric discovering this vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of these vulnerabilities.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Mitsubishi Electric 2025-001 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Mitsubishi Electric directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2025-04-25&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2025-04-25&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;CISA Republication - Initial Republication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2025-04-25&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2025-10-09&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;RJ71GN11-T2, RJ71GN11-EIP, RJ71GN11-SX, RJ71EN71, NZ2GACP610-60, and NZ2KT-NPETNG51 have been added as affected products and fixed products, and the "remediations" was revised.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2025-10-09&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;CISA Republication - Update A - Update to Affected products, Impact, Countermeasures for Customers, Countermeasures for Products have been revised. The affected products RJ71GN11-T2, RJ71GN11-EIP, RJ71GN11-SX, RJ71EN71, NZ2GACP610-60 and NZ2KT-NPETNG51 have been added.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-02-03&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;CISA Republication - Update B - Update to Summary, Affected products, and Remediations have been revised. The affected products FX5-CCLGN-MS, FX5-ENET, and FX5-ENET/IP have been added.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-02-03&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;FX5-CCLGN-MS, AFX5-ENET, and AFX5-ENET/IP have been added as affected products and fixed products, and the "remediations" was revised.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-04-23&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;Added FX5-CCLGN-MS and FX5-ENET/IP have been added as fixed products, and the "remediations" was revised.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-04-30&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;CISA Republication - Update C - Added FX5-CCLGN-MS and FX5-ENET/IP that have been fixed to Countermeasures for Products. Affected products, Countermeasures for Customers, and Countermeasures for Products have been revised.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-27&lt;/td&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;R04ENCPU (Network Part), R08RNCPU (Network Part), R16ENCPU (Network Part), R32ENCPU (Network Part), and R12ENCPU (Network Part) have been added as affected products and fixed products, and the "remediations" was revised.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-08-27&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;CISA Republication update based on Mitsubishi Electric 2025-001 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 01:27:09 +0000</lastBuildDate>
     <item>
       <title>Ebyte NA111-M</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05</link>
@@ -1358,13 +1119,6 @@
       <pubDate>Fri, 28 Aug 2026 19:50:49 +0000</pubDate>
     </item>
     <item>
-      <title>Hundreds of OpenAI Agents Invaded Hugging Face Servers</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers</link>
-      <description>The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers</guid>
-      <pubDate>Fri, 28 Aug 2026 20:19:22 +0000</pubDate>
-    </item>
-    <item>
       <title>ATF confirms cyberattack hit system containing info on its investigation targets</title>
       <link>https://cyberscoop.com/atf-doj-cyberattack-qilin-ransomware/</link>
       <description>&lt;p&gt;The prolific ransomware group Qilin claimed responsibility for the attack. ATF insists the incident was limited to a standalone system and hasn’t impacted critical operations. &lt;/p&gt;
@@ -1378,14 +1132,6 @@
       <description>A new source for commissioned officers—but is it needed?</description>
       <guid isPermaLink="false">https://www.defenseone.com/policy/2026/08/heres-what-trumps-new-space-academy-could-mean-us-military/415712/</guid>
       <pubDate>Fri, 28 Aug 2026 20:32:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week</title>
-      <link>https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-205</link>
-      <description>&lt;p&gt;We should have brought more puzzles. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-205"&gt;Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-205</guid>
-      <pubDate>Fri, 28 Aug 2026 20:36:00 +0000</pubDate>
     </item>
     <item>
       <title>Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety</title>
@@ -1571,13 +1317,6 @@ Elsewhere, fake apps, helpful support calls, cheap banking kits, exposed systems
       <pubDate>Mon, 31 Aug 2026 16:35:54 +0000</pubDate>
     </item>
     <item>
-      <title>Sweden signs French warship order to boost defense</title>
-      <link>https://www.defensenews.com/global/europe/2026/08/31/sweden-signs-french-warship-order-to-boost-defense/</link>
-      <description>Sweden signed an order for four Naval Group frigates during a ceremony in Stockholm attended by French President Emmanuel Macron.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/08/31/sweden-signs-french-warship-order-to-boost-defense/</guid>
-      <pubDate>Mon, 31 Aug 2026 16:53:47 +0000</pubDate>
-    </item>
-    <item>
       <title>Japan’s ASM-3 Kai Supersonic Cruise Missile May Have An Air-To-Air Capability</title>
       <link>https://www.twz.com/air/japans-asm-3-kai-supersonic-cruise-missile-may-have-an-air-to-air-capability</link>
       <description>&lt;p&gt;Japan calls the ASM-3 Kai an “air-to-surface/anti-air” weapon, potentially pointing to a new counter to large high-value airborne targets.&lt;/p&gt;
@@ -1718,6 +1457,13 @@ The ongoing insider threat is part of what has been described as the IT worker s
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sea/iranian-launchers-struck-by-u-s-held-exotic-and-highly-concerning-rocket-delivered-sea-mines"&gt;Iranian Launchers Struck By U.S. Held Exotic And Highly Concerning Rocket-Delivered Sea Mines&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sea/iranian-launchers-struck-by-u-s-held-exotic-and-highly-concerning-rocket-delivered-sea-mines</guid>
       <pubDate>Mon, 31 Aug 2026 23:49:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>How law firm Gilbert + Tobin governs and scales AI with OpenAI</title>
+      <link>https://openai.com/index/gilbert-tobin</link>
+      <description>See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.</description>
+      <guid isPermaLink="false">https://openai.com/index/gilbert-tobin</guid>
+      <pubDate>Tue, 01 Sep 2026 01:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ISC Stormcast For Tuesday, September 1st, 2026 https://isc.sans.edu/podcastdetail/10076, (Tue, Sep 1st)</title>
@@ -3123,13 +2869,6 @@ Russian cybersecurity company Kaspersky is tracking the</description>
       <pubDate>Tue, 01 Sep 2026 13:23:27 +0000</pubDate>
     </item>
     <item>
-      <title>US approves potential $800 million helicopter sale to Iraq</title>
-      <link>https://breakingdefense.com/2026/09/us-approves-potential-800-million-helicopter-sale-to-iraq/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/us-approves-potential-800-million-helicopter-sale-to-iraq/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/GettyImages-625733140-scaled-e1788268190818-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The proposed sale “will improve Iraq’s capability to meet current and future threats by improving its rotary wing transport, reconnaissance, and air-to-surface targeting capabilities,&amp;#8221; the State Department said.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/us-approves-potential-800-million-helicopter-sale-to-iraq/</guid>
-      <pubDate>Tue, 01 Sep 2026 13:26:16 +0000</pubDate>
-    </item>
-    <item>
       <title>Tajikistan Taxes Tourism Trips Abroad to Fund Development at Home</title>
       <link>https://thediplomat.com/2026/09/tajikistan-taxes-tourism-trips-abroad-to-fund-development-at-home/</link>
       <description>The new rules would hit Tajikistan’s tourism companies while benefiting an affiliated state body.</description>
@@ -3661,6 +3400,35 @@ The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of aut
 &lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/germany-formally-accuses-russia-of-attempted-drone-strike-on-ukrainian-an-124-cargo-jet"&gt;Germany Formally Accuses Russia Of Attempted Drone Strike On Ukrainian An-124 Cargo Jet&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/germany-formally-accuses-russia-of-attempted-drone-strike-on-ukrainian-an-124-cargo-jet</guid>
       <pubDate>Tue, 01 Sep 2026 22:45:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ousted Ukrainian defense chief lands Palantir CEO as first investor in new venture</title>
+      <link>https://www.defensenews.com/global/europe/2026/09/01/ousted-ukrainian-defense-chief-lands-palantir-ceo-as-first-investor-in-new-venture/</link>
+      <description>Ukraine’s recently ousted defense minister Mykhailo Fedorov is teaming up with Palantir CEO Alex Karp to launch a new defense company.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/01/ousted-ukrainian-defense-chief-lands-palantir-ceo-as-first-investor-in-new-venture/</guid>
+      <pubDate>Tue, 01 Sep 2026 23:42:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump to formally nominate Cao as Navy Secretary</title>
+      <link>https://breakingdefense.com/2026/09/trump-to-formally-nominate-cao-as-navy-secretary/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/trump-to-formally-nominate-cao-as-navy-secretary/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/02/cao-scaled-e1740749286984-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Navy veteran Hung Cao has been the service&amp;#8217;s acting secretary since April. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/trump-to-formally-nominate-cao-as-navy-secretary/</guid>
+      <pubDate>Tue, 01 Sep 2026 23:59:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency</link>
+      <description>Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency</guid>
+      <pubDate>Wed, 02 Sep 2026 01:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chinese Cargo Ships Clandestinely Gather Signals Intelligence: Report</title>
+      <link>https://www.twz.com/news-features/chinese-cargo-ships-clandestinely-gather-signals-intelligence-report</link>
+      <description>&lt;p&gt;It should not come as too much of a surprise that China is using its massive commercial fleet to spy around the globe as they go about their business.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/chinese-cargo-ships-clandestinely-gather-signals-intelligence-report"&gt;Chinese Cargo Ships Clandestinely Gather Signals Intelligence: Report&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/chinese-cargo-ships-clandestinely-gather-signals-intelligence-report</guid>
+      <pubDate>Wed, 02 Sep 2026 01:05:41 +0000</pubDate>
     </item>
     <item>
       <title>FoundingBully Celebrates America’s 250th With Revolutionary Apparel That Gives Back to Veterans</title>
