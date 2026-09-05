@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 19:13:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 21:16:20 +0000</lastBuildDate>
     <item>
       <title>Defense startup raises $61 million to put AI into a wrist-worn display</title>
       <link>https://www.c4isrnet.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/</link>
@@ -2180,17 +2180,6 @@
       <pubDate>Fri, 04 Sep 2026 07:30:39 +0000</pubDate>
     </item>
     <item>
-      <title>Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws</title>
-      <link>https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html</link>
-      <description>Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.
-
-The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those issues are, but said CVE identifiers have been requested for them.
-
-"We recommend all server owners and Desktop users</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html</guid>
-      <pubDate>Fri, 04 Sep 2026 07:35:14 +0000</pubDate>
-    </item>
-    <item>
       <title>Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws</title>
       <link>https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html</link>
       <description>Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.
@@ -2758,7 +2747,7 @@ The activity was concentrated on DSEwiki, a German software developer wiki that 
       <pubDate>Sat, 05 Sep 2026 13:00:04 +0000</pubDate>
     </item>
     <item>
-      <title>US Envoys Begin Moscow Meeting With Putin As Kremlin Cites 'Difficult Situation'</title>
+      <title>US Envoys Conclude Moscow Meeting With Putin As Kremlin Cites 'Difficult Situation'</title>
       <link>https://www.rferl.org/a/witkoff-kushner-land-in-moscow-ukraine-peace-talks-kyiv-strikes/33847598.html</link>
       <description>US special envoys Steve Witkoff and Jared Kushner have begun their meeting in Moscow with President Vladimir Putin as part of a renewed White House effort to end Russia's war against Ukraine, with the pair set to visit Kyiv afterward.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/witkoff-kushner-land-in-moscow-ukraine-peace-talks-kyiv-strikes/33847598.html</guid>
@@ -2802,7 +2791,7 @@ The exposed information includes customer names, email addresses, phone numbers,
       <pubDate>Sat, 05 Sep 2026 15:00:43 +0000</pubDate>
     </item>
     <item>
-      <title>Betty Pack: The WWII intelligence asset who weaponized sex</title>
+      <title>Betty Pack: The WWII Intelligence Asset Who Weaponized Sex</title>
       <link>https://sofrep.com/news/betty-pack-the-wwii-intelligence-asset-who-weaponized-sex/</link>
       <description>More and more stories are coming to light about the operatives who worked in the shadows during the Second World War, and many of them were women. By now most people have heard about Virginia Hall, the famous “Limping Lady” of the OSS, and her exploits, as well as many others. One of the more [&amp;#8230;] #BettyPack, #Cynthia, #WWIISpy, #OSS, #BritishSecurityCoordination, #FemaleSpies, #EspionageHistory, #WWIIIntelligence, #CodeBreakers, #SOFREP</description>
       <guid isPermaLink="false">https://sofrep.com/news/betty-pack-the-wwii-intelligence-asset-who-weaponized-sex/</guid>
@@ -2827,6 +2816,15 @@ The vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-ov
 "Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions," JetBrains said.</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html</guid>
       <pubDate>Sat, 05 Sep 2026 16:52:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores</title>
+      <link>https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html</link>
+      <description>Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an&amp;nbsp;advisory published on September 5.
+
+Sansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. "Sansec is publishing early</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html</guid>
+      <pubDate>Sat, 05 Sep 2026 20:14:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
