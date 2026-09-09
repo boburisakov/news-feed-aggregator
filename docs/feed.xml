@@ -7,296 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 18:35:06 +0000</lastBuildDate>
-    <item>
-      <title>Pyramid Solutions NetStaX EtherNet/IP Stack</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-246-07.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could not be processed.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Pyramid Solutions NetStaX EtherNet/IP Stack are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;EtherNet/IP Adapter DLL Kit (EIPA)&lt;/li&gt;
-&lt;li&gt;EtherNet/IP Adapter DLL Kit with CIP Security (EIPA-SECURE)&lt;/li&gt;
-&lt;li&gt;EtherNet/IP Adapter Development Kit (EADK)&lt;/li&gt;
-&lt;li&gt;EtherNet/IP Adapter Development Kit with CIP Security (EADK-SECURE)&lt;/li&gt;
-&lt;li&gt;EtherNet/IP Scanner DLL Kit (EIPS)&lt;/li&gt;
-&lt;li&gt;EtherNet/IP Scanner DLL Kit with CIP Security (EIPS-SECURE)&lt;/li&gt;
-&lt;li&gt;EtherNet/IP Scanner Development Kit (ESDK)&lt;/li&gt;
-&lt;li&gt;EtherNet/IP Scanner Development Kit with CIP Security (ESDK-SECURE)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 9.8&lt;/td&gt;
-&lt;td&gt;Pyramid Solutions&lt;/td&gt;
-&lt;td&gt;Pyramid Solutions NetStaX EtherNet/IP Stack&lt;/td&gt;
-&lt;td&gt;Stack-based Buffer Overflow&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing, Energy, Water and Wastewater, Chemical&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-78012&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;An issue in the NetStaX EtherNet/IP Stack prior to v5.6.1 could allow a large Class 3 explicit-message request to exceed the application-side receive buffer without generating an error or warning. The result could be memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could not be processed.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-78012"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Pyramid Solutions NetStaX EtherNet/IP Stack&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Pyramid Solutions&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Pyramid Solutions EtherNet/IP Adapter DLL Kit (EIPA): &amp;lt;v5.6.1, Pyramid Solutions EtherNet/IP Adapter DLL Kit with CIP Security (EIPA-SECURE): &amp;lt;v5.6.1, Pyramid Solutions EtherNet/IP Adapter Development Kit (EADK): &amp;lt;v5.6.1, Pyramid Solutions EtherNet/IP Adapter Development Kit with CIP Security (EADK-SECURE): &amp;lt;v5.6.1, Pyramid Solutions EtherNet/IP Scanner DLL Kit (EIPS): &amp;lt;v5.6.1, Pyramid Solutions EtherNet/IP Scanner DLL Kit with CIP Security (EIPS-SECURE): &amp;lt;v5.6.1, Pyramid Solutions EtherNet/IP Scanner Development Kit (ESDK): &amp;lt;v5.6.1, Pyramid Solutions EtherNet/IP Scanner Development Kit with CIP Security (ESDK-SECURE): &amp;lt;v5.6.1&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;NetStaX v5.6.1 addresses this issue with multiple layers of protection, including a compile-time assertion, a runtime payload-size check, and clearer documentation of the relationships between packet and buffer-size constants.&lt;br /&gt;&lt;a href="https://pyramidsolutions.com/my-account/"&gt;https://pyramidsolutions.com/my-account/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information, see the Pyramid Solutions blog post "NetStaX v5.6.1: Protecting Against Silent Buffer Overflow in Ethernet/IP Stack Explicit Messages".&lt;br /&gt;&lt;a href="https://pyramidsolutions.com/netstax-v-5-6-1-protecting-against-silent-buffer-overflow-in-ethernet-ip-stack-explicit-messages/"&gt;https://pyramidsolutions.com/netstax-v-5-6-1-protecting-against-silent-buffer-overflow-in-ethernet-ip-stack-explicit-messages/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/121.html"&gt;CWE-121 Stack-based Buffer Overflow&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Pyramid Solutions reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability. Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet. Locate control system networks and remote devices behind firewalls and isolating them from business networks. When remote access is required, use more secure methods, such as virtual private networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-03&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-09-03&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Republication of Pyramid Solutions blog publication.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07</guid>
-      <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rockwell Automation ControlFLASH</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-246-03.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Rockwell Automation ControlFLASH are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ControlFLASH &amp;lt;=V15.07 (CVE-2026-12663)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.3&lt;/td&gt;
-&lt;td&gt;Rockwell Automation&lt;/td&gt;
-&lt;td&gt;Rockwell Automation ControlFLASH&lt;/td&gt;
-&lt;td&gt;Missing Authentication for Critical Function&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing, Energy, Water and Wastewater&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-12663&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;A security issue exists within ControlFLASH, where the installer grants write permissions to the "Everyone" group on a product installation directory. This could allow arbitrary code execution, resulting in an attacker being given the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-12663"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Rockwell Automation ControlFLASH&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Rockwell Automation&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Rockwell Automation ControlFLASH: &amp;lt;=V15.07&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Rockwell Automation has corrected this issue in software version 15.08, and encourages all users to update to the newest version.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Users of the affected software who are not able to upgrade to one of the corrected versions should implement the following mitigation:&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;To protect the files, do the following steps to remove the Everyone group:&amp;nbsp;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Right-click the C:\Program Files (x86)\ControlFLASH\0001 folder, and then select Properties.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;In the 0001 Properties dialog, select the Security tab, and then select Edit.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;In the Permissions for 0001 dialog, in Group or user names, select Everyone, and then select Remove.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Select OK.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If the mitigation above cannot be implemented, Rockwell Automation recommends following their security best practices.&lt;br /&gt;&lt;a href="https://support.rockwellautomation.com/app/answers/answer_view/a_id/1085012/loc/en_US#__highlight"&gt;https://support.rockwellautomation.com/app/answers/answer_view/a_id/1085012/loc/en_US#__highlight&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information on this issue, see the Rockwell Automation security advisory at: https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html&lt;br /&gt;&lt;a href="https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html"&gt;https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.3&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Rockwell Automation reported this vulnerability to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks: Do not click web links or open attachments in unsolicited email messages. Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams. Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-03&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-09-03&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Republication of Rockwell Automation security advisory.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03</guid>
-      <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Best Way to Explore Lunar Craters Is a Giant Robot Ball</title>
-      <link>https://spectrum.ieee.org/moon-ball-robot</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortlessly over rocks, gravel, and wet clay, his imagination turned the quarry into the lunar surface instead.&lt;/p&gt;&lt;p&gt;Jangale is an upbeat mechanical engineer nearing the end of his Ph.D. at Texas A&amp;amp;M University, in College Station, Texas. He and his labmates have been working on this big tan “RoboBall” for about five years. Their goal: create a vehicle capable of &lt;a href="https://spectrum.ieee.org/a-jumping-robot-for-enceladus" target="_blank"&gt;exploring some of the most inaccessible terrain&lt;/a&gt; in our solar system, such as the 21 km-wide Shackleton crater on the moon’s south pole.&lt;/p&gt;&lt;p&gt;The Shackleton crater is 4 km deep and contains many smaller, deeper craters within. Some parts of the crater never see the sun, and within these perpetually dark, frigid pockets lie mysterious substances that planetary scientists have long struggled to examine, including layers of ancient lunar geology and stores of frozen water that could potentially support a future lunar base.&lt;/p&gt;&lt;p&gt;“The moon is like an archive of what happened to the Earth,” says &lt;a href="https://www.nhm.ac.uk/our-science/people/sara-russell.html" rel="noopener noreferrer" target="_blank"&gt;Sara Russell&lt;/a&gt;, a cosmic mineralogist with London’s Natural History Museum who is not involved with Texas A&amp;amp;M’s work. “Robotic collection works brilliantly well, and it’s great to see that being explored more in this context.”&lt;/p&gt;&lt;p&gt;“NASA is not going to let astronauts get anywhere near these craters, because if someone falls in, you’re not going to be able to get them out,” Jangale says. “So we thought, what better shape to roll down a hill than a ball?” In a &lt;a href="https://ieeexplore.ieee.org/document/11248963" rel="noopener noreferrer" target="_blank"&gt;recent paper&lt;/a&gt; published in &lt;em&gt;&lt;em&gt;IEEE Transactions on Field Robotics&lt;/em&gt;&lt;/em&gt;, Jangale’s team reports on the design of RoboBall, a hypothetical lunar mission, and the results from initial tests in the Texas quarry.&lt;/p&gt;&lt;h2&gt;Getting Rolling&lt;/h2&gt;&lt;p&gt;RoboBall is the brainchild of Jangale’s advisor, &lt;a href="http://link?" rel="noopener noreferrer" target="_blank"&gt;former NASA robotics engineer Robert Ambrose&lt;/a&gt;, who first conceived of the design in 2003.&lt;/p&gt;&lt;p&gt;Ambrose figured that a ball could address a pesky mobility risk that robots face on lunar terrain, especially in low gravity: &lt;a href="https://www.bbc.com/news/science-environment-68388695" rel="noopener noreferrer" target="_blank"&gt;tipping over&lt;/a&gt;. An inflatable sphere can’t tip over, and the form factor also insulates its internal components from sharp rocks, dust, and the huge temperature swings from over 93 °C in sunlit spots to minus 240 °C in the shade inside lunar craters. Ambrose imagined a wheeled rover parking at a crater’s edge and releasing a RoboBall to explore its depths. Unlike &lt;a href="https://www-robotics.jpl.nasa.gov/how-we-do-it/systems/the-axel-rover/" rel="noopener noreferrer" target="_blank"&gt;a small tethered rover&lt;/a&gt;, the RoboBall wouldn’t roll its way back up—but with no strings attached, it would have a far greater range to collect geological samples, and then be able to launch them back to the rover outside the crater with small rockets.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="A wheeled rover carrying a robotic ball up a small hill of dirt and gravel." class="rm-shortcode" id="20656" src="https://spectrum.ieee.org/media-library/a-wheeled-rover-carrying-a-robotic-ball-up-a-small-hill-of-dirt-and-gravel.jpg?id=67694269&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;A robotic rover would ferry RoboBall across the lunar surface to the edge of a crater.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://ieeexplore.ieee.org/document/11248963" target="_blank"&gt;R. Jangale, D. Pravecek, et al.&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;&lt;p&gt;NASA hasn’t brought lunar samples back to Earth in over 50 years. Some morsels of moon geology find their way to Earth as meteorites, but Russell says these lack the “gold standard” field work—context about where that sample actually came from. Even as NASA reboots its crewed moon missions, many lunar sites remain inaccessible.&lt;/p&gt;&lt;p&gt;In 2022, Ambrose’s lab finished a proof of concept, the 0.5-meter-wide RoboBall II. Creating the full-size RoboBall III then took about 11 months. “We were building these robots really quickly,” Jangale says. “Ambrose really encourages us to use and break these robots.” And designs did go awry. Jangale remembers software errors and a drivetrain that proved too weak to roll over soft bumps in initial tests.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://www.youtube.com/watch?v=tnj4BRuprlI" target="_blank"&gt;Texas A&amp;amp;M RAD Lab/YouTube&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;&lt;h2&gt;How to Slow Your Roll&lt;/h2&gt;&lt;p&gt;RoboBall drives by moving a pendulum within its shell, shifting its entire center of mass. On flat ground, if the pendulum’s arm points forward, the shell rolls forward to compensate, and as long as the pendulum keeps the center of mass in front of the center of the ball, RoboBall will keep rolling forward. If the pendulum leans a few degrees to the left or right, RoboBall steers left or right to match. “The robot wants to go where you point the pendulum,” Jangale says. The 340-pound ball is just soft enough to bounce lightly over bumpy obstacles, but its slight overpressure keeps it relatively firm. On steep slopes, this mechanism also lets the ball control its downhill speed by simply angling the pendulum uphill.&lt;/p&gt;&lt;p&gt;“The beauty here is the simplicity,” says Hiro Ono, an aerospace engineer who worked on robot mobility at NASA’s Jet Propulsion Lab for 13 years before joining Georgia Tech. For space robots, Ono describes simplicity in terms of the number of actuators. RoboBall has just two, and both are fully inside of the shell, shielded from environmental risk factors like dust, a feature that Ono describes as “unique.”&lt;/p&gt;&lt;p&gt;After the first quarry tests, it took about seven months for the team to design and build an upgraded RoboBall III with 2.5 times more torque—enough to fling itself over small obstacles and roll up 20 degree slopes.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Close-up of a needle-like rocket protruding from the payload bay of a large robotic ball." class="rm-shortcode" id="0c74a" src="https://spectrum.ieee.org/media-library/close-up-of-a-needle-like-rocket-protruding-from-the-payload-bay-of-a-large-robotic-ball.jpg?id=67694233&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;A small rocket can launch out of the center of the RoboBall to return a sample back to a rover outside the crater.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://ieeexplore.ieee.org/document/11248963" target="_blank"&gt;R. Jangale, D. Pravecek, et al.&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;&lt;h2&gt;Getting Mission Ready&lt;/h2&gt;&lt;p&gt;In the new paper, the remotely operated RoboBall III descended the quarry’s slopes, navigated soft terrain, and launched hypothetical payloads back out of the crater with small rockets. Powered by a large battery, the robot would inflate itself during a lunar mission and charge up from a robotic rover at the edge of a crater before heading out on its own.&lt;/p&gt;&lt;p&gt;RoboBall is probably not the right platform for all kinds of missions—its slightly bumbling nature means that it’s not ideal if you want to collect a sample from a very specific rock, for example. For now, the team hopes to work with scientists designing lunar science instruments to physically fit into RoboBall’s carry-on-luggage-size interior, while also fitting in with how RoboBall operates. “The robot is not the mission,” Jangale says. “The robot is a way for you to complete the mission.”&lt;/p&gt;&lt;p&gt;The current version of RoboBall cost roughly $250,000 to build, but is not quite ready for the moon in its current form. While its gold-treated aluminum parts are appropriate for space missions, its other materials are not. Space-grade electronics will cost more, and the ball’s shell—made from a material tough enough to roll over steel shards and withstand minus 184 °C temperatures—has never been evaluated in lunar extremes. Aside from materials questions, the team plans to engineer the ball to adapt how it drives on varying slopes autonomously. They also hope to collaborate with government agencies or spaceflight contractors to keep refining the robot’s design for a real, &lt;a href="https://spectrum.ieee.org/moon-landing-2025" target="_blank"&gt;eventual mission&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Later this year, Texas A&amp;amp;M will open &lt;a href="https://space.tamu.edu/institute/facility/" target="_blank"&gt;a new facility&lt;/a&gt; in Houston with the world’s largest indoor simulated moon and Mars landscapes. The facility is only 190 km from Jangale’s quarry. It’s still about 370,000 km from the moon, but it’s going to help Jangale get his robot quite a bit closer.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/moon-ball-robot</guid>
-      <pubDate>Thu, 03 Sep 2026 12:00:01 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 09 Sep 2026 21:11:01 +0000</lastBuildDate>
     <item>
       <title>Protecting Dynamic Industrial Robot Cable Carriers</title>
       <link>https://spectrum.ieee.org/industrial-robot-cable-carrier-protection</link>
@@ -337,13 +48,6 @@
       <pubDate>Thu, 03 Sep 2026 18:44:18 +0000</pubDate>
     </item>
     <item>
-      <title>Large Enterprises Targeted in Fake Merger &amp;amp; Acquisition Scams</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams</link>
-      <description>Threat actors behind the &amp;quot;Phantom Deal&amp;quot; campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams</guid>
-      <pubDate>Thu, 03 Sep 2026 20:18:14 +0000</pubDate>
-    </item>
-    <item>
       <title>White House pressure for US firms to skip French space summit is ‘unfortunate,’ insiders say</title>
       <link>https://www.defenseone.com/business/2026/09/white-house-pressure-us-firms-skip-french-space-summit-unfortunate-insiders-say/415820/</link>
       <description>One policy director warned that American companies could be used as a ‘prop’ against their country’s interests.</description>
@@ -369,14 +73,6 @@
       <description>What Washington can do to stop starvation.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/avoiding-next-famine</guid>
       <pubDate>Fri, 04 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why judgment is emerging as cybersecurity’s defining skill</title>
-      <link>https://cyberscoop.com/ai-security-operations-human-context-ciso-op-ed/</link>
-      <description>&lt;p&gt;AI is getting better at much of what security teams have long spent time on: analyzing information, identifying patterns, and providing technically sound recommendations quickly. As those capabilities become more routine, they are changing what security practitioners spend their time on. Reaching a technically sound recommendation is also getting easier, which puts more weight on [&amp;#8230;]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/ai-security-operations-human-context-ciso-op-ed/"&gt;Why judgment is emerging as cybersecurity’s defining skill&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/ai-security-operations-human-context-ciso-op-ed/</guid>
-      <pubDate>Fri, 04 Sep 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Back to life: How Shield AI’s future unmanned fighter made decades-old tech new again</title>
@@ -440,30 +136,6 @@
       <description>Hundreds of AI agents collaborated to escape their containers, disguising their actions and even sacrificing themselves.</description>
       <guid isPermaLink="false">https://www.defenseone.com/threats/2026/09/AI-breakout-openai-complex/415825/</guid>
       <pubDate>Fri, 04 Sep 2026 20:10:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>European parliament members call for slowdown of Serbia’s EU entry over spyware use</title>
-      <link>https://cyberscoop.com/eu-parliament-serbia-accession-spyware-demands/</link>
-      <description>&lt;p&gt;The letter follows revelations about Serbian student activists being infected with Pegasus and NoviSpy, and coincides with other pressures on Belgrade.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/eu-parliament-serbia-accession-spyware-demands/"&gt;European parliament members call for slowdown of Serbia’s EU entry over spyware use&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/eu-parliament-serbia-accession-spyware-demands/</guid>
-      <pubDate>Fri, 04 Sep 2026 21:02:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>USAF Wants MQ-9 Reaper Successor At A Fraction Of The Cost At $10M Each</title>
-      <link>https://www.twz.com/air/usaf-wants-mq-9-reaper-successor-at-a-fraction-of-the-cost-at-10m-each</link>
-      <description>&lt;p&gt;The USAF has aggressive cost and schedule goals for new drones to succeed the MQ-9 fleet that has suffered major losses.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/usaf-wants-mq-9-reaper-successor-at-a-fraction-of-the-cost-at-10m-each"&gt;USAF Wants MQ-9 Reaper Successor At A Fraction Of The Cost At $10M Each&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/usaf-wants-mq-9-reaper-successor-at-a-fraction-of-the-cost-at-10m-each</guid>
-      <pubDate>Fri, 04 Sep 2026 23:43:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bunker Talk: Labor Day Weekend Edition</title>
-      <link>https://www.twz.com/news-features/bunker-talk-labor-day-weekend-edition-4</link>
-      <description>&lt;p&gt;Have a great and relaxing weekend gang!&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/bunker-talk-labor-day-weekend-edition-4"&gt;Bunker Talk: Labor Day Weekend Edition&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/bunker-talk-labor-day-weekend-edition-4</guid>
-      <pubDate>Sat, 05 Sep 2026 00:23:00 +0000</pubDate>
     </item>
     <item>
       <title>numbat - AI agent observability, (Fri, Sep 4th)</title>
@@ -717,23 +389,6 @@
       <link>https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites</link>
       <description>A Chinese-language group is compromising government and education sites to create a reverse-proxy network with gambling-themed sites.</description>
       <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites</guid>
-      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-75650" target="_blank"&gt;CVE-2026-75650&lt;/a&gt; Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81963" target="_blank"&gt;CVE-2026-81963&lt;/a&gt; Microsoft Windows Link Following Vulnerability &amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-85880" target="_blank"&gt;CVE-2026-85880&lt;/a&gt; Microsoft Windows Heap-Based Buffer Overflow Vulnerability&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-86218" target="_blank"&gt;CVE-2026-86218&lt;/a&gt; N-able N-central Static Code Injection Vulnerability&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
       <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1567,6 +1222,23 @@
       <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
+      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-75650" target="_blank"&gt;CVE-2026-75650&lt;/a&gt; Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81963" target="_blank"&gt;CVE-2026-81963&lt;/a&gt; Microsoft Windows Link Following Vulnerability &amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-85880" target="_blank"&gt;CVE-2026-85880&lt;/a&gt; Microsoft Windows Heap-Based Buffer Overflow Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-86218" target="_blank"&gt;CVE-2026-86218&lt;/a&gt; N-able N-central Static Code Injection Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CareCam Pro IP Cameras</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01</link>
       <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-251-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1734,13 +1406,6 @@
       <pubDate>Tue, 08 Sep 2026 13:29:37 +0000</pubDate>
     </item>
     <item>
-      <title>5 Things You Didn’t Know About Tracer Rounds</title>
-      <link>https://sofrep.com/entertainment/tracer-rounds-facts/</link>
-      <description>Tracer rounds look spectacular and certainly serve a purpose, but not all is rainbows and roses when it comes to their use in the battlefield.</description>
-      <guid isPermaLink="false">https://sofrep.com/entertainment/tracer-rounds-facts/</guid>
-      <pubDate>Tue, 08 Sep 2026 15:00:07 +0000</pubDate>
-    </item>
-    <item>
       <title>The Taliban Five Years On: Winning the War, Losing the State</title>
       <link>https://www.geopoliticalmonitor.com/taliban-five-years-winning-the-war-losing-the-state/</link>
       <description>&lt;p&gt;Five years after taking Kabul, the Taliban have proved far more durable than almost anyone predicted. But the qualities that made them formidable insurgents are hollowing out the state they now govern.&lt;/p&gt;
@@ -1802,13 +1467,6 @@
       <pubDate>Tue, 08 Sep 2026 17:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>European missile-maker MBDA opens first industrial facility in Poland</title>
-      <link>https://breakingdefense.com/2026/09/european-missile-maker-mbda-opens-first-industrial-facility-in-poland/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/european-missile-maker-mbda-opens-first-industrial-facility-in-poland/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2024/07/IMG_8695-scaled-e1721930312210-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“At a time when Europe faces its most serious security challenges for generations, the opening of MBDA’s new site demonstrates that the relationship between our two nations has never been more important,&amp;#8221; said UK Minister of State for Defence Readiness and Industry Luke Pollard.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/european-missile-maker-mbda-opens-first-industrial-facility-in-poland/</guid>
-      <pubDate>Tue, 08 Sep 2026 17:05:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Hanwha plans to build armored vehicle carrying a counter-drone laser</title>
       <link>https://www.c4isrnet.com/global/europe/2026/09/08/hanwha-plans-to-build-armored-vehicle-carrying-a-counter-drone-laser/</link>
       <description>Hanwha representatives said the vehicle is fitted with a more powerful version of the stationary Cheongwang laser that protects the presidential compound.</description>
@@ -1853,14 +1511,6 @@
       <pubDate>Tue, 08 Sep 2026 18:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>The IMF’s boost to China’s currency is costing the world, ten years later</title>
-      <link>https://www.atlanticcouncil.org/blogs/econographics/the-imfs-boost-to-chinas-currency-is-costing-the-world-ten-years-later/</link>
-      <description>&lt;p&gt;The renminbi was supposed to become a global currency. Instead, China’s tight controls have helped lay the groundwork for a more fragmented monetary system.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/the-imfs-boost-to-chinas-currency-is-costing-the-world-ten-years-later/"&gt;The IMF’s boost to China’s currency is costing the world, ten years later&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/the-imfs-boost-to-chinas-currency-is-costing-the-world-ten-years-later/</guid>
-      <pubDate>Tue, 08 Sep 2026 18:32:56 +0000</pubDate>
-    </item>
-    <item>
       <title>September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)</title>
       <link>https://isc.sans.edu/diary/rss/33320</link>
       <description>This month, Microsoft released patches for a record-breaking 973 vulnerabilities, including 113 rated critical. It is by far the largest Patch Tuesday to date, well ahead of the previous high of 664 set in July 2026. Two vulnerabilities are listed as exploited in the wild, while none were publicly disclosed before Patch Tuesday. Notable fixes include Windows privilege escalation and critical RCEs in Skype for Business, MSMQ and RRAS.&amp;#xd;</description>
@@ -1884,13 +1534,6 @@
       <pubDate>Tue, 08 Sep 2026 19:50:05 +0000</pubDate>
     </item>
     <item>
-      <title>Defense a key focus for new UK $10.6B, 4-year space spending plan</title>
-      <link>https://breakingdefense.com/2026/09/defense-a-key-focus-for-new-uk-10-6b-4-year-space-spending-plan/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/defense-a-key-focus-for-new-uk-10-6b-4-year-space-spending-plan/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/british-space-creative-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The largest MoD investment detailed in the new strategy is a planned £880 million between 2026/2027 and 2029/2030 for intelligence, surveillance and reconnaissance, and space control &amp;#8220;activities.&amp;#8221; &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/defense-a-key-focus-for-new-uk-10-6b-4-year-space-spending-plan/</guid>
-      <pubDate>Tue, 08 Sep 2026 19:59:02 +0000</pubDate>
-    </item>
-    <item>
       <title>Islamic state plots disrupted and operatives arrested in 4 countries</title>
       <link>https://www.longwarjournal.org/archives/2026/09/islamic-state-plots-disrupted-and-operatives-arrested-in-4-countries.php</link>
       <description>&lt;p&gt;Authorities in Kuwait, Israel, Turkey, and France disrupted suspected Islamic State plots or arrested the organization’s sympathizers over the past month. The incidents demonstrate the jihadist group's continued ability to recruit and radicalize individuals despite more than a decade of sustained counterterrorism pressure.&lt;/p&gt;
@@ -1904,21 +1547,6 @@
       <description>Hundreds of Russian minors are facing terrorism charges or have been added to the state's official registry of terrorists and extremists since Moscow’s full-scale invasion of Ukraine in 2022. What’s behind this trend?</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russian-minors-are-face-terrorism-charges-added-to-terrorists-extremists-registry/33850309.html</guid>
       <pubDate>Tue, 08 Sep 2026 20:08:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Putin welcomes Trump’s peace envoys but has no intention of ending the war</title>
-      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/putin-welcomes-trumps-peace-envoys-but-has-no-intention-of-ending-the-war/</link>
-      <description>&lt;p&gt;Trump’s envoys continue to discuss win-win scenarios, but Putin is playing a zero sum game. His invasion of Ukraine is not a land grab or a geopolitical real estate deal. It is an attempt to reverse the Soviet collapse and revive the Russian Empire, writes Peter Dickinson.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/putin-welcomes-trumps-peace-envoys-but-has-no-intention-of-ending-the-war/"&gt;Putin welcomes Trump’s peace envoys but has no intention of ending the war&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/putin-welcomes-trumps-peace-envoys-but-has-no-intention-of-ending-the-war/</guid>
-      <pubDate>Tue, 08 Sep 2026 20:16:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>The EU CRA's Real Question: What Shipped, and When Did You Know?</title>
-      <link>https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/</link>
-      <description>The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be critical to meeting the new requirements. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/</guid>
-      <pubDate>Tue, 08 Sep 2026 20:24:16 +0000</pubDate>
     </item>
     <item>
       <title>Russian national extradited to US for alleged involvement in bank-account takeover scheme</title>
@@ -1949,6 +1577,14 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/"&gt;Feds accuse China of ‘systematic’ distillation of U.S. AI models&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/</guid>
       <pubDate>Tue, 08 Sep 2026 20:47:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Will China deploy humanoid robots to fight?</title>
+      <link>https://cset.georgetown.edu/article/will-china-deploy-humanoid-robots-to-fight/</link>
+      <description>&lt;p&gt;CSET’s Sam Bresnick spoke with Sky News about China’s growing investment in humanoid robots and what it could mean for the future of warfare. The conversation explored China’s manufacturing advantage, its use of robotics to signal military strength, and whether humanoid robots could appear on the battlefield within the next five to ten years. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/will-china-deploy-humanoid-robots-to-fight/"&gt;Will China deploy humanoid robots to fight?&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cset.georgetown.edu/article/will-china-deploy-humanoid-robots-to-fight/</guid>
+      <pubDate>Tue, 08 Sep 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Army Killed Its Drone Battalion’s Mission. Congress Wants to Know Why</title>
@@ -1989,7 +1625,7 @@
     <item>
       <title>Army sets new biodefense plan to counter pandemic, adversary threats</title>
       <link>https://breakingdefense.com/2026/09/army-sets-new-biodefense-plan-to-counter-pandemic-adversary-threats/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/army-sets-new-biodefense-plan-to-counter-pandemic-adversary-threats/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/10/221025_soldier_gas_mask_3778693-scaled-e1666718952951-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“We have to ensure that a global pandemic or some other health event does not stop us from our ability to project those forces forward, so we can be in the place to fight and win the war and endure through any conflict,” Lt. Col. Dave Kingery, the biological defense integrator for the Army’s headquarters and USANCA, said. &lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/army-sets-new-biodefense-plan-to-counter-pandemic-adversary-threats/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/10/221025_soldier_gas_mask_3778693-scaled-e1666718952951-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“We have to ensure that a global pandemic or some other health event does not stop us from our ability to project those forces forward,” Lt. Col. Dave Kingery said. &lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/09/army-sets-new-biodefense-plan-to-counter-pandemic-adversary-threats/</guid>
       <pubDate>Tue, 08 Sep 2026 21:20:36 +0000</pubDate>
     </item>
@@ -2140,31 +1776,11 @@
       <pubDate>Wed, 09 Sep 2026 05:03:34 +0000</pubDate>
     </item>
     <item>
-      <title>SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution</title>
-      <link>https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html</link>
-      <description>SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application
-
-The vulnerability, tracked as CVE-2026-44756 (CVSS score: 10.0), has been described as a case of memory corruption. Discovered and reported by SAP</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html</guid>
-      <pubDate>Wed, 09 Sep 2026 06:25:45 +0000</pubDate>
-    </item>
-    <item>
       <title>Google warns of new Chrome zero-day bug exploited in attacks</title>
       <link>https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/</link>
       <description>Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/</guid>
       <pubDate>Wed, 09 Sep 2026 06:25:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed</title>
-      <link>https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html</link>
-      <description>The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.
-
-The vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month.
-
-"Microsoft has failed to properly patch ShieldBreak CVE-2026-69414," Chaotic</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html</guid>
-      <pubDate>Wed, 09 Sep 2026 06:47:27 +0000</pubDate>
     </item>
     <item>
       <title>The Mecca Pact’s Credibility Gap</title>
@@ -2383,6 +1999,23 @@ For many security teams, answering that means jumping between vulnerability scan
 As AI accelerates vulnerability discovery and research, that delay matters more</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html</guid>
       <pubDate>Wed, 09 Sep 2026 11:57:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
+      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2025-25249" target="_blank"&gt;CVE-2025-25249&lt;/a&gt; Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-19490" target="_blank"&gt;CVE-2026-19490&lt;/a&gt; Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-87491" target="_blank"&gt;CVE-2026-87491&lt;/a&gt; Google Chromium V8 Out of Bounds Write Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-20079"&gt;CVE-2026-20079&lt;/a&gt; Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based&lt;/a&gt; on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
+      <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>US Air Force seeks ‘rapidly deployable’ drone swarms for base security</title>
@@ -2646,6 +2279,15 @@ Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide 
       <pubDate>Wed, 09 Sep 2026 16:16:06 +0000</pubDate>
     </item>
     <item>
+      <title>Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week</title>
+      <link>https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html</link>
+      <description>Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.
+
+The first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html</guid>
+      <pubDate>Wed, 09 Sep 2026 16:34:05 +0000</pubDate>
+    </item>
+    <item>
       <title>Elbit America rebrands as Twenty-Six Defense</title>
       <link>https://breakingdefense.com/2026/09/elbit-america-rebrands-as-twenty-six-defense/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/elbit-america-rebrands-as-twenty-six-defense/"&gt;&lt;img alt="Elbit America’s SIGMA Mobile Tactical Cannon allows for artillery support that can quickly relocate as needed. (Photo courtesy of Elbit America.)" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/Elbit-1-e1788971430169-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The US arm of the Israeli weapons firm employs 3,300 people across 10 states, the company said on its website.&lt;/p&gt;</description>
@@ -2720,12 +2362,109 @@ Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide 
       <pubDate>Wed, 09 Sep 2026 17:54:42 +0000</pubDate>
     </item>
     <item>
+      <title>U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto</title>
+      <link>https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html</link>
+      <description>The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run the service, confiscating two cryptocurrency wallets, and deploying the Scam Center Strike Force to Madagascar to help disrupt 13 scam compounds run by Chinese organized crime</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html</guid>
+      <pubDate>Wed, 09 Sep 2026 18:26:05 +0000</pubDate>
+    </item>
+    <item>
       <title>The five issues to watch at next month’s IMF-World Bank Annual Meetings</title>
       <link>https://www.atlanticcouncil.org/blogs/econographics/the-five-issues-to-watch-at-next-months-imf-world-bank-annual-meetings/</link>
       <description>&lt;p&gt;From soaring debt to trade fragmentation and AI disruption, the global economy faces no shortage of challenges. Here are the five issues to watch at next month’s fall meetings.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/the-five-issues-to-watch-at-next-months-imf-world-bank-annual-meetings/"&gt;The five issues to watch at next month’s IMF-World Bank Annual Meetings&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/the-five-issues-to-watch-at-next-months-imf-world-bank-annual-meetings/</guid>
       <pubDate>Wed, 09 Sep 2026 18:32:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Poland’s WB Group unveils Warmate 30, latest in drone recon/strike system</title>
+      <link>https://breakingdefense.com/2026/09/polands-wb-group-unveils-warmate-30-latest-in-drone-recon-strike-system/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/polands-wb-group-unveils-warmate-30-latest-in-drone-recon-strike-system/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260909_MSPO_warmate30_BART-scaled-e1788974272519-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The UAV is &amp;#8220;designed to detect and engage high-value, time-sensitive targets at long range,&amp;#8221; the company said.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/polands-wb-group-unveils-warmate-30-latest-in-drone-recon-strike-system/</guid>
+      <pubDate>Wed, 09 Sep 2026 18:43:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lawmakers call on Treasury to sanction hackers-for-hire</title>
+      <link>https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/</link>
+      <description>&lt;p&gt;The groups have allegedly targeted American citizens and companies, including the wife of GOP Senate candidate Mike Rogers, a former representative running in a Michigan swing race. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/"&gt;Lawmakers call on Treasury to sanction hackers-for-hire&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/</guid>
+      <pubDate>Wed, 09 Sep 2026 18:43:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>The most valuable legacy that the 9/11 generation can leave behind</title>
+      <link>https://www.atlanticcouncil.org/dispatches/the-most-valuable-legacy-that-the-9-11-generation-can-leave-behind/</link>
+      <description>&lt;p&gt;The former Pennsylvania governor and Department of Homeland Security secretary reflects on the twenty-fifth anniversary of September 11, 2001.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/the-most-valuable-legacy-that-the-9-11-generation-can-leave-behind/"&gt;The most valuable legacy that the 9/11 generation can leave behind&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/the-most-valuable-legacy-that-the-9-11-generation-can-leave-behind/</guid>
+      <pubDate>Wed, 09 Sep 2026 19:10:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>FTC rescinds policy requiring health apps to notify customers after a breach</title>
+      <link>https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/</link>
+      <description>&lt;p&gt;The policy, passed under the Biden administration, forced health apps to disclose when users’ personal health records were exposed in a breach or shared without authorization.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/"&gt;FTC rescinds policy requiring health apps to notify customers after a breach &lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/</guid>
+      <pubDate>Wed, 09 Sep 2026 19:18:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Maven is becoming the Pentagon’s everything app</title>
+      <link>https://www.defenseone.com/technology/2026/09/maven-becoming-pentagons-everything-app/415882/</link>
+      <description>MSS has replaced “six, eight, ten” systems that the military used to analyze data, AI chief says.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/technology/2026/09/maven-becoming-pentagons-everything-app/415882/</guid>
+      <pubDate>Wed, 09 Sep 2026 19:24:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Army ‘not walking away’ from UAVs despite reverting drone unit back to infantry</title>
+      <link>https://breakingdefense.com/2026/09/army-not-walking-away-from-uavs-despite-reverting-drone-unit-back-to-infantry/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/army-not-walking-away-from-uavs-despite-reverting-drone-unit-back-to-infantry/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/9898290-scaled-e1788979614866-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The move prompted lawmaker concern, but Army CTO Alex Miller downplayed the flap, saying the service just may not have told the &amp;#8220;full story fast enough.&amp;#8221;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/army-not-walking-away-from-uavs-despite-reverting-drone-unit-back-to-infantry/</guid>
+      <pubDate>Wed, 09 Sep 2026 19:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Government Accuses Chinese AI Firms of Distilling Frontier Models</title>
+      <link>https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models</link>
+      <description>US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models</guid>
+      <pubDate>Wed, 09 Sep 2026 19:47:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ten questions (and expert answers) on the final withdrawal of US troops from Iraq</title>
+      <link>https://www.atlanticcouncil.org/blogs/menasource/ten-questions-and-expert-answers-on-the-final-withdrawal-of-us-troops-from-iraq/</link>
+      <description>&lt;p&gt;Atlantic Council experts unpack what the US withdrawal from Iraq means for the Middle East and beyond.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/menasource/ten-questions-and-expert-answers-on-the-final-withdrawal-of-us-troops-from-iraq/"&gt;Ten questions (and expert answers) on the final withdrawal of US troops from Iraq&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/menasource/ten-questions-and-expert-answers-on-the-final-withdrawal-of-us-troops-from-iraq/</guid>
+      <pubDate>Wed, 09 Sep 2026 19:51:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hermeus Unveils Air-Launched Ramjet Test Vehicle for High-Speed Experiments</title>
+      <link>https://www.twz.com/air/hermeus-unveils-air-launched-ramjet-test-vehicle-for-high-speed-experiments</link>
+      <description>&lt;p&gt;The ramjet-powered vehicle could give researchers and developers a new way to put hardware into sustained high-Mach flight environments.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/hermeus-unveils-air-launched-ramjet-test-vehicle-for-high-speed-experiments"&gt;Hermeus Unveils Air-Launched Ramjet Test Vehicle for High-Speed Experiments&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/hermeus-unveils-air-launched-ramjet-test-vehicle-for-high-speed-experiments</guid>
+      <pubDate>Wed, 09 Sep 2026 20:23:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where Are The American Aircraft Carriers?: September 9, 2026</title>
+      <link>https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026</link>
+      <description>&lt;p&gt;The Navy is applying lessons learned from recent marathon carrier cruises to the USS Theodore Roosevelt, which conducted an unreported maintenance availability ahead of deployment.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026"&gt;Where Are The American Aircraft Carriers?: September 9, 2026&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026</guid>
+      <pubDate>Wed, 09 Sep 2026 20:49:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Navy’s $350,000 Underwater Robot Buy Exposes a Dangerous Mine Warfare Gap</title>
+      <link>https://sofrep.com/news/the-navys-350000-underwater-robot-buy-exposes-a-dangerous-mine-warfare-gap/</link>
+      <description>The Navy’s $350,000 underwater robot shopping list reveals a hard truth: when a cheap mine closes the shipping lane, the machine must reach the bomb before the diver does. #DefenseTech #USNavy #UnderwaterRobotics #MineWarfare #VideoRayDefender</description>
+      <guid isPermaLink="false">https://sofrep.com/news/the-navys-350000-underwater-robot-buy-exposes-a-dangerous-mine-warfare-gap/</guid>
+      <pubDate>Wed, 09 Sep 2026 21:00:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking</title>
+      <link>https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/</link>
+      <description>The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/</guid>
+      <pubDate>Wed, 09 Sep 2026 21:02:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
