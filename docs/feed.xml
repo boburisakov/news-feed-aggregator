@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 21:11:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 23:14:14 +0000</lastBuildDate>
     <item>
       <title>Protecting Dynamic Industrial Robot Cable Carriers</title>
       <link>https://spectrum.ieee.org/industrial-robot-cable-carrier-protection</link>
@@ -103,13 +103,6 @@
       <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Insurers Search for Answers to Rein in Rogue AI</title>
-      <link>https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai</link>
-      <description>As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai</guid>
-      <pubDate>Fri, 04 Sep 2026 12:15:03 +0000</pubDate>
-    </item>
-    <item>
       <title>AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?</title>
       <link>https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready</link>
       <description>A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.</description>
@@ -149,21 +142,6 @@
       <description>&lt;img src="https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C62%2C0%2C63" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be unnerving, to say the least, this prototype paramedic cyborg, or “Paraborg,” might one day help deliver lifesaving aid to disaster victims who might be otherwise impossible to reach.&lt;/p&gt;&lt;hr /&gt;&lt;h3&gt;The Hardest Problems in Robotics&lt;/h3&gt;&lt;p&gt;For decades, scientists have sought to develop cyborg insects as “a shortcut around some of the hardest problems in robotics,” says &lt;a href="https://about.uq.edu.au/experts/42152" rel="noopener noreferrer" target="_blank"&gt;T. Thang Vo-Doan&lt;/a&gt;, director of the &lt;a href="https://tthangvodoan.wordpress.com/" rel="noopener noreferrer" target="_blank"&gt;University of Queensland’s Biorobotics Lab&lt;/a&gt; in Brisbane, Australia, which just published a paper on the Paraborgs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;The University of Queensland&lt;/small&gt; &lt;/p&gt;&lt;p&gt;Building an insect-size robot “that can move reliably through rubble, climb over irregular surfaces, recover from falls, carry its own power, and still have room for useful sensors is extraordinarily difficult,” Vo-Doan says. An insect already comes with much of that mobility built in, so instead of trying to create artificial versions of every part of an insect’s body from scratch, researchers can graft an electronic interface onto an insect to make use of its existing capabilities.&lt;/p&gt;&lt;p&gt;Previously, scientists have shown they could steer cyborg insects such as &lt;a href="https://spectrum.ieee.org/the-robot-insect-race" target="_self"&gt;beetles&lt;/a&gt; and &lt;a href="https://spectrum.ieee.org/cyborg-moth-gets-a-new-radio" target="_self"&gt;moths&lt;/a&gt;. This prior work largely focused on controlling their movements to serve as passive sensor platforms.&lt;/p&gt;&lt;p&gt;In 2023, as Vo-Doan and fellow researcher &lt;a href="https://www.unsw.edu.au/staff/thanh-nho-do" rel="noopener noreferrer" target="_blank"&gt;Thanh Nho Do&lt;/a&gt; were talking about search-and-rescue cyborg insects shortly before that year’s IEEE International Conference on Robotics and Automation (ICRA), they asked, “What happens after an insect finds a trapped victim?” Vo-Doan recalls. “Could it go beyond locating someone and actually provide some form of assistance while rescuers are still trying to reach them?”&lt;/p&gt;&lt;h3&gt;Giant Cockroaches to the Rescue&lt;/h3&gt;&lt;p&gt;To answer this question, the roboticists experimented with giant burrowing cockroaches (&lt;a href="https://en.wikipedia.org/wiki/Giant_burrowing_cockroach" rel="noopener noreferrer" target="_blank"&gt;&lt;em&gt;&lt;em&gt;Macropanesthia rhinoceros&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;), which are native to Australia. The researchers needed an insect capable of carrying a large payload (over half their weight), and at roughly 40 grams in size, this species is &lt;a href="https://www.guinnessworldrecords.com/world-records/106442-heaviest-cockroach" rel="noopener noreferrer" target="_blank"&gt;the world’s heaviest species of roach&lt;/a&gt;. A larger insect is also easier to operate on to implant cybernetic interfaces.&lt;/p&gt;&lt;p&gt;The cockroaches were saddled with lightweight electronics that included electrodes implanted into both their antennae and small tail-like appendages known as cerci. Wirelessly activating these electrodes with a handheld gaming controller could steer the roaches left or right, spur them forward, or stop them from moving.&lt;/p&gt;&lt;p&gt;The insects were also equipped with either a wireless camera or a remote-controlled injector, which used a spring to launch a drug-filled syringe at a nearby target. A chemical reaction inside the syringe then generated a puff of carbon dioxide, which exerted pressure within the syringe to inject its payload into a target.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Two large cockroaches each with a set of electronics and sensors on their carapace" class="rm-shortcode" id="1244e" src="https://spectrum.ieee.org/media-library/two-large-cockroaches-each-with-a-set-of-electronics-and-sensors-on-their-carapace.jpg?id=67724308&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Paraborgs are designed to work in teams, with some carrying cameras and others carrying injectors with potentially lifesaving medications.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;The University of Queensland&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The scientists decided not to load both a camera and an injector onto a single roach because the combined weight and bulk could impair their mobility in complex terrains. Having both sets of electronics would also increase energy demands, resulting in reduced operation time. Instead, the researchers envision a &lt;a href="https://spectrum.ieee.org/swarm-of-cyborg-cockroaches" target="_self"&gt;swarm&lt;/a&gt; approach with the Paraborgs, with different specialized cyborgs performing complementary roles.&lt;/p&gt;&lt;p&gt;In proof-of-concept tests, the scientists were able to successfully navigate the Paraborgs over a 2.5-meter course past three checkpoints before launching their needles at an 8-by-10-centimeter silicone target. In 25 trials, the cockroaches completed the course every single time and succeeded at injecting the target 72 percent of the time. “The long-term goal is to combine the insect’s advanced locomotion with sensing and intervention capabilities so we can reach and help more people, more quickly,” Vo-Doan says.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Two large cockroaches with backpack electronics navigate around rocks and over sand." class="rm-shortcode" id="e3858" src="https://spectrum.ieee.org/media-library/two-large-cockroaches-with-backpack-electronics-navigate-around-rocks-and-over-sand.jpg?id=67724312&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;While the Paraborgs can be steered remotely, the cockroaches themselves are still very much alive and able to use their skills as bugs to navigate through complex terrain.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;The University of Queensland&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The researchers acknowledge that “for someone who is already trapped or injured, seeing a cyborg insect approaching could understandably be a little surprising or unsettling at first,” Vo-Doan says. Ways to make it clear these insects were part of rescue efforts might include flashing lights, recognizable emergency markings, “or perhaps a tiny speaker delivering a simple message such as, ‘help is on the way,’” Vo-Doan adds. “Making people feel comfortable with the technology is just as important as making it work.”&lt;/p&gt;&lt;h3&gt;Practical Paraborgs&lt;/h3&gt;&lt;p&gt;In the future, Vo-Doan and his colleagues aim to address practical issues with the Paraborg. These include compensating for the movements of victims, establishing reliable wireless communications inside collapsed structures, and guiding the cyborgs as they climb over and squeeze through complex environments filled with rubble and dust. Autonomy will become increasingly important for these insects, particularly if the scientists want to operate multiple cyborgs at the same time, he says.&lt;/p&gt;&lt;p&gt;In addition, a fundamental challenge when it comes to working with cyborg insects is that they are living creatures with minds of their own. “We are not piloting them like conventional wheeled robots,” Vo-Doan says. “Electrical stimulation influences their direction, but the insect still generates and controls much of its own locomotion.” To deal with this unreliability, the Paraborgs will need better onboard systems to pinpoint their positions and monitor their actions so researchers can recognize when an insect has deviated from its course or become less responsive.&lt;/p&gt;&lt;p&gt;“We are not suggesting that this is a medical device ready to be used on people today,” Vo-Doan says. “Real disaster sites are full of unstable debris, narrow gaps, and communication difficulties, so we need to understand how the insect, electronics, and injector all perform under those conditions. There are also important questions around drug choice and dosage, sterility, needle safety, reliability, and regulation.”&lt;/p&gt;&lt;p&gt;Ultimately, such research into cyborg cockroaches may help inform robot design, explains Vo-Doan. These insects “can give us useful capabilities sooner while, at the same time, helping us develop the fully artificial systems of the future.”&lt;/p&gt;&lt;p&gt;The scientists detailed &lt;a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.76973" target="_blank"&gt;their findings&lt;/a&gt; last month in the journal &lt;em&gt;&lt;em&gt;Advanced Science&lt;/em&gt;&lt;/em&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/cyborg-rescue-roach</guid>
       <pubDate>Sat, 05 Sep 2026 13:00:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>An Alien Mind</title>
-      <link>https://openai.com/index/an-alien-mind</link>
-      <description>Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.</description>
-      <guid isPermaLink="false">https://openai.com/index/an-alien-mind</guid>
-      <pubDate>Sun, 06 Sep 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mysterious Black Jet That Emerged At Long Beach Airport Identified (Updated)</title>
-      <link>https://www.twz.com/space/mysterious-black-jet-that-emerged-at-long-beach-airport-identified</link>
-      <description>&lt;p&gt;With a sleek airframe the size of an A-5 Vigilante, its silhouette drew immediate attention from local aviation photographers who had never seen anything like it there.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/space/mysterious-black-jet-that-emerged-at-long-beach-airport-identified"&gt;Mysterious Black Jet That Emerged At Long Beach Airport Identified (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/space/mysterious-black-jet-that-emerged-at-long-beach-airport-identified</guid>
-      <pubDate>Sun, 06 Sep 2026 18:06:36 +0000</pubDate>
     </item>
     <item>
       <title>Israel claims control of Ali al Taher after weeks of Hezbollah attacks and failed handover efforts</title>
@@ -331,14 +309,6 @@
       <link>https://openai.com/index/navier-stokes-solution</link>
       <description>We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.</description>
       <guid isPermaLink="false">https://openai.com/index/navier-stokes-solution</guid>
-      <pubDate>Tue, 08 Sep 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>In most cities, nobody owns the whole network</title>
-      <link>https://cyberscoop.com/water-utility-cybersecurity-network-segmentation-op-ed/</link>
-      <description>&lt;p&gt;July’s intrusions reached water controllers that sat on a cellular link no city network scan would find. Naming an owner and paying for the fix are decisions a utility can make this fiscal year, out of money it already applies for.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/water-utility-cybersecurity-network-segmentation-op-ed/"&gt;In most cities, nobody owns the whole network&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/water-utility-cybersecurity-network-segmentation-op-ed/</guid>
       <pubDate>Tue, 08 Sep 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1422,15 +1392,6 @@
       <pubDate>Tue, 08 Sep 2026 15:58:44 +0000</pubDate>
     </item>
     <item>
-      <title>Why Did the US Execute Nazi War Criminal Anton Dostler?</title>
-      <link>https://sofrep.com/military-history/anton-dostler-execution/</link>
-      <description>Anton Dostler was the only German general officer executed solely by the US for war crimes, find out what war crime he did to have this fate.  #SOFREP
-#WWII
-#Nazi</description>
-      <guid isPermaLink="false">https://sofrep.com/military-history/anton-dostler-execution/</guid>
-      <pubDate>Tue, 08 Sep 2026 16:00:54 +0000</pubDate>
-    </item>
-    <item>
       <title>Axon Vision wins ForceField C-UAS order from Israeli defence group</title>
       <link>https://www.army-technology.com/news/axon-vision-forcefield-israel/</link>
       <description>Axon Vision has secured a contract worth up to approximately NIS15m ($5m) to supply its ForceField counter-uncrewed aerial system (C-UAS) to an undisclosed Israeli defence organisation.</description>
@@ -1557,13 +1518,6 @@
       <pubDate>Tue, 08 Sep 2026 20:32:03 +0000</pubDate>
     </item>
     <item>
-      <title>DoppelCart fraud network uses 119,000 fake shops to steal credit cards</title>
-      <link>https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/</link>
-      <description>A massive operation dubbed "DoppelCart" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/</guid>
-      <pubDate>Tue, 08 Sep 2026 20:35:14 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenAI Agents Took Over Wiki Site Before Hugging Face Attack</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack</link>
       <description>Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.&amp;quot;</description>
@@ -1621,13 +1575,6 @@
       <description>The family of 20-year-old Iranian twins Taraneh and Romina Rahimi says they have been tortured in prison and forced to confess to charges they deny. The two are among 16 defendants jailed in Isfahan over mass protests that erupted nationwide in January. Relatives say Taraneh has now been sentenced to death and Romina to 25 years in prison. Their cousin, Masud Nurmohammadi, told RFE/RL’s Radio Farda that there is no evidence against the sisters and that they have endured horrific abuse.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-sisters-prison-protests-death-sentence/33850383.html</guid>
       <pubDate>Tue, 08 Sep 2026 21:20:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Army sets new biodefense plan to counter pandemic, adversary threats</title>
-      <link>https://breakingdefense.com/2026/09/army-sets-new-biodefense-plan-to-counter-pandemic-adversary-threats/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/army-sets-new-biodefense-plan-to-counter-pandemic-adversary-threats/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/10/221025_soldier_gas_mask_3778693-scaled-e1666718952951-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“We have to ensure that a global pandemic or some other health event does not stop us from our ability to project those forces forward,” Lt. Col. Dave Kingery said. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/army-sets-new-biodefense-plan-to-counter-pandemic-adversary-threats/</guid>
-      <pubDate>Tue, 08 Sep 2026 21:20:36 +0000</pubDate>
     </item>
     <item>
       <title>This Is Poland’s New Heavy Infantry Fighting Vehicle</title>
@@ -1705,13 +1652,6 @@
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sea/everything-we-know-about-the-u-s-navys-submersible-drone-iran-just-captured"&gt;Everything We Know About The U.S. Navy&amp;#8217;s Submersible Drone Iran Just Captured&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sea/everything-we-know-about-the-u-s-navys-submersible-drone-iran-just-captured</guid>
       <pubDate>Wed, 09 Sep 2026 00:26:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/</link>
-      <description>Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/</guid>
-      <pubDate>Wed, 09 Sep 2026 01:16:27 +0000</pubDate>
     </item>
     <item>
       <title>China is trying to steal US AI models' secrets, intel agencies warn</title>
@@ -1958,6 +1898,13 @@ Alby Hub is a self-hosted Lightning wallet, meaning the owner runs it on their o
       <description>&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-jerusalem-strategic-tribune-the-courage-to-build-peace/"&gt;Charai for The Jerusalem Strategic Tribune: The Courage to Build Peace&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-jerusalem-strategic-tribune-the-courage-to-build-peace/</guid>
       <pubDate>Wed, 09 Sep 2026 10:47:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-6 Astra: The next generation in intelligence for work</title>
+      <link>https://openai.com/index/gpt-6-astra-next-generation-work</link>
+      <description>Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.</description>
+      <guid isPermaLink="false">https://openai.com/index/gpt-6-astra-next-generation-work</guid>
+      <pubDate>Wed, 09 Sep 2026 11:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Defense startup’s AI aims to make every munition count</title>
@@ -2258,9 +2205,9 @@ Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide 
     </item>
     <item>
       <title>How Green Berets Rigged Enemy Ammunition During the Vietnam War</title>
-      <link>https://sofrep.com/?p=94851&amp;preview=true&amp;preview_id=94851</link>
+      <link>https://sofrep.com/news/think-like-green-beret-subtle-3/</link>
       <description>Project Eldest Son proved that a handful of Green Berets, some doctored ammunition, and a ruthless understanding of human nature could make an entire enemy army afraid to pull the trigger. #ProjectEldestSon #GreenBerets #VietnamWar #PsychologicalWarfare #MilitaryHistory</description>
-      <guid isPermaLink="false">https://sofrep.com/?p=94851&amp;preview=true&amp;preview_id=94851</guid>
+      <guid isPermaLink="false">https://sofrep.com/news/think-like-green-beret-subtle-3/</guid>
       <pubDate>Wed, 09 Sep 2026 16:00:02 +0000</pubDate>
     </item>
     <item>
@@ -2445,10 +2392,10 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Wed, 09 Sep 2026 20:23:34 +0000</pubDate>
     </item>
     <item>
-      <title>Where Are The American Aircraft Carriers?: September 9, 2026</title>
+      <title>Where Are The Aircraft Carriers?: September 9, 2026</title>
       <link>https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026</link>
       <description>&lt;p&gt;The Navy is applying lessons learned from recent marathon carrier cruises to the USS Theodore Roosevelt, which conducted an unreported maintenance availability ahead of deployment.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026"&gt;Where Are The American Aircraft Carriers?: September 9, 2026&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026"&gt;Where Are The Aircraft Carriers?: September 9, 2026&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026</guid>
       <pubDate>Wed, 09 Sep 2026 20:49:19 +0000</pubDate>
     </item>
@@ -2465,6 +2412,57 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <description>The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/</guid>
       <pubDate>Wed, 09 Sep 2026 21:02:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI-powered biowarfare is coming; the Army lays plans to ‘fight through’ it</title>
+      <link>https://www.defenseone.com/technology/2026/09/ai-powered-biowarfare-looms-army-lays-plans-fight-through-it/415886/</link>
+      <description>A new strategy aims to prepare to “deploy, fight, and win decisively in a bio-contested environment” by 2035.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/technology/2026/09/ai-powered-biowarfare-looms-army-lays-plans-fight-through-it/415886/</guid>
+      <pubDate>Wed, 09 Sep 2026 21:12:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chinese espionage groups swarm to exploit triple-link chain of zero-days</title>
+      <link>https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/</link>
+      <description>&lt;p&gt;Multiple China-aligned threat groups exploited the defects quickly to target various organizations. Proofpoint said the activity is ongoing and expects it to widen.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/"&gt;Chinese espionage groups swarm to exploit triple-link chain of zero-days&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/</guid>
+      <pubDate>Wed, 09 Sep 2026 21:17:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mythos Vulnerability Firehose Hits a Human Bottleneck</title>
+      <link>https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck</link>
+      <description>An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck</guid>
+      <pubDate>Wed, 09 Sep 2026 21:19:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>AdaptHealth confirms 4.1 million people exposed in July cyberattack</title>
+      <link>https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/</link>
+      <description>Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/</guid>
+      <pubDate>Wed, 09 Sep 2026 21:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukraine Carried Out Its Deepest Drone Strike On Russia Ever</title>
+      <link>https://www.twz.com/news-features/ukraine-carried-out-its-deepest-drone-strike-on-russia-ever</link>
+      <description>&lt;p&gt;The strike hit an energy processing plant 1,700 miles from the Ukrainian border in Russia's gas-rich Arctic region.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/ukraine-carried-out-its-deepest-drone-strike-on-russia-ever"&gt;Ukraine Carried Out Its Deepest Drone Strike On Russia Ever&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/ukraine-carried-out-its-deepest-drone-strike-on-russia-ever</guid>
+      <pubDate>Wed, 09 Sep 2026 21:32:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/</link>
+      <description>Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/</guid>
+      <pubDate>Wed, 09 Sep 2026 21:40:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘Truly concerns me’: DAWG director warns funding lapse could kill ‘momentum’</title>
+      <link>https://breakingdefense.com/2026/09/truly-concerns-me-dawg-director-warns-funding-lapse-could-kill-momentum/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/truly-concerns-me-dawg-director-warns-funding-lapse-could-kill-momentum/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260909_DVIDS_soldier_drone_9918644-scaled-e1788991336218-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DAWG is Trump administration initiative that essentially absorbed the Biden-era Replicator initiative designed to acquire thousands of low-cost “attritable” drones, particularly for use in the Pacific.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/truly-concerns-me-dawg-director-warns-funding-lapse-could-kill-momentum/</guid>
+      <pubDate>Wed, 09 Sep 2026 22:02:35 +0000</pubDate>
     </item>
   </channel>
 </rss>
