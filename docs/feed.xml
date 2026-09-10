@@ -7,63 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 14:46:16 +0000</lastBuildDate>
-    <item>
-      <title>Video Friday: Digit Redecorates</title>
-      <link>https://spectrum.ieee.org/video-friday-agility-robotics-digit</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ozpzi8vhgsg"&gt;I know these videos from &lt;a href="https://spectrum.ieee.org/digit-agility-robotics" target="_blank"&gt;Agility&lt;/a&gt; can be a little bit silly, but the couch drag in this one is impressive.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.agilityrobotics.com/"&gt;Agility Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="hbynm1gcxbu"&gt;&lt;em&gt;Stabilizing unsecured payloads against the inherent oscillations of dynamic bipedal locomotion remains a critical engineering bottleneck for humanoids in unstructured environments. To solve this, we introduce ReST-RL, a hierarchical reinforcement-learning architecture that explicitly decouples locomotion from payload stabilization. Successfully deployed on the Unitree G1 humanoid hardware, this modular approach demonstrates highly reliable zero-shot sim-to-real generalization across various objects and external force disturbances.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://steadytray.github.io/"&gt;SteadyTray&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Ioana!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="qbuixdvviv4"&gt;&lt;a href="https://spectrum.ieee.org/figure-new-humanoid-robot" target="_blank"&gt;Figure&lt;/a&gt; is scaling compute so that its robots can...uh...have their compute scaled, I guess?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Solving for a robot in every home is not a data-and-compute problem, it’s a safety-and-cost problem.&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.figure.ai/"&gt;Figure&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="lg0lq7s69g4"&gt;The most important thing to know about this gripper is that koalas have two thumbs on each hand.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rai-inst.com/resources/blog/handheld-robotic-data-collection/"&gt;RAI Institute&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="frfad-zunfy"&gt;DARPA Triage Challenge Finals are in November!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.darpa.mil/research/challenges/darpa-triage-challenge"&gt;DARPA&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ezcbwdvd_ya"&gt;&lt;em&gt;Online, humanoid robots are very impressive to watch, but behind the scenes, most of those movements are carefully choreographed. Researchers in Carnegie Mellon University’s Safe AI Lab are instead teaching robots how to adapt. Their system, called APEX, allows a humanoid robot to navigate obstacles using adaptive, full-body maneuvers.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://engineering.cmu.edu/news-events/news/2026/09/02-robot-human-collaboration.html"&gt;CMU&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="7dl-f9sbnek"&gt;&lt;em&gt;Researchers from North Carolina State University have created teardrop-shaped soft robots that leap upward or forward when exposed to infrared light—and will keep jumping as long as the light is present. &lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;The robots are made of a liquid-crystal elastomer ribbon shaped like a teardrop, with a thin aluminum tube shaped like a V at one end. When exposed to light from an infrared lamp, the surface of the ribbon contracts, causing the ribbon to rotate. The stiff V at one end of the robot prevents the ribbon from simply rolling in place, causing the ribbon to twist tighter and tighter. This stores energy until the twist reaches a critical point when the ribbon releases that energy, causing the V at one end of the teardrop to snap downward and strike the surface. This launches the teardrop into the air.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://news.ncsu.edu/2026/08/soft-robots-jumping-forever/"&gt;NC State&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Ship!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ws6boq4yeaq"&gt;I’ll be honest—I was prepared to be underwhelmed by the DARPA Lift Challenge, but there was such creativity in the heavy-lift drone designs that I’m excited for it to come back in 2028.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.darpaliftchallenge.com/"&gt;DARPA Lift Challenge&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="nh47n7cbx7s"&gt;Thank you, Christian, for attempting to talk some sense into the internet.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.christianhubicki.com/"&gt;Christian Hubicki&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="l9xu2wmkrrg"&gt;&lt;em&gt;Humans use not only muscle signals but also stretched skin around joints as a cue for proprioception. To mimic this biological mechanism, we developed a three-layer joint-covering skin with 44 pressure- and stretch-sensitive elements for the musculoskeletal humanoid Musashi-W.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;It’s not a replicant, but one day, it will be.&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://poyotamu000.github.io/musashiw-joint-covering-skin/"&gt;University of Tokyo&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Akihiro!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="8kdxnt-4zl0"&gt;Having mobility issues with your robot? Just staple it to the end of an industrial robotic arm. Problem solved!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en/products/tron2"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="_kytnzqoe4k"&gt;But what if I am the sort of person who needs to speak to a manager?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/pages/north-at-work"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="gzxkmyjh5py"&gt;&lt;em&gt;In Turpan, China—known as the City of Fire—summer ground temperatures can exceed 50 °C. During the grape harvest, farmers traditionally carry heavy baskets back and forth under the intense heat, while every extra minute in the sun can affect the freshness of the fruit. This year, the DEEP Robotics Lynx M20S joined the harvest. &lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.cn/en"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="_uav5s18cwq"&gt;&lt;em&gt;This video showcases the achievements of the first OH! GYM! Project cohort, a group of university and graduate students who explored, developed, and deployed their own humanoid behaviors using the open-source AI Sapiens K1 platform. Over the course of one month, the students experienced the complete process of humanoid development—from creating motions in simulation to transferring them onto a physical robot through repeated Sim2Real experiments.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://docs.robotis.com/docs/common/oh_project/"&gt;ROBOTIS&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-agility-robotics-digit</guid>
-      <pubDate>Fri, 04 Sep 2026 16:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>July’s breakout at OpenAI was far more complex than initially realized</title>
-      <link>https://www.defenseone.com/threats/2026/09/AI-breakout-openai-complex/415825/</link>
-      <description>Hundreds of AI agents collaborated to escape their containers, disguising their actions and even sacrificing themselves.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/09/AI-breakout-openai-complex/415825/</guid>
-      <pubDate>Fri, 04 Sep 2026 20:10:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>numbat - AI agent observability, (Fri, Sep 4th)</title>
-      <link>https://isc.sans.edu/diary/rss/33312</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33312</guid>
-      <pubDate>Sat, 05 Sep 2026 03:39:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cyborg Roaches Can Stab You With Needles</title>
-      <link>https://spectrum.ieee.org/cyborg-rescue-roach</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C62%2C0%2C63" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be unnerving, to say the least, this prototype paramedic cyborg, or “Paraborg,” might one day help deliver lifesaving aid to disaster victims who might be otherwise impossible to reach.&lt;/p&gt;&lt;hr /&gt;&lt;h3&gt;The Hardest Problems in Robotics&lt;/h3&gt;&lt;p&gt;For decades, scientists have sought to develop cyborg insects as “a shortcut around some of the hardest problems in robotics,” says &lt;a href="https://about.uq.edu.au/experts/42152" rel="noopener noreferrer" target="_blank"&gt;T. Thang Vo-Doan&lt;/a&gt;, director of the &lt;a href="https://tthangvodoan.wordpress.com/" rel="noopener noreferrer" target="_blank"&gt;University of Queensland’s Biorobotics Lab&lt;/a&gt; in Brisbane, Australia, which just published a paper on the Paraborgs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;The University of Queensland&lt;/small&gt; &lt;/p&gt;&lt;p&gt;Building an insect-size robot “that can move reliably through rubble, climb over irregular surfaces, recover from falls, carry its own power, and still have room for useful sensors is extraordinarily difficult,” Vo-Doan says. An insect already comes with much of that mobility built in, so instead of trying to create artificial versions of every part of an insect’s body from scratch, researchers can graft an electronic interface onto an insect to make use of its existing capabilities.&lt;/p&gt;&lt;p&gt;Previously, scientists have shown they could steer cyborg insects such as &lt;a href="https://spectrum.ieee.org/the-robot-insect-race" target="_self"&gt;beetles&lt;/a&gt; and &lt;a href="https://spectrum.ieee.org/cyborg-moth-gets-a-new-radio" target="_self"&gt;moths&lt;/a&gt;. This prior work largely focused on controlling their movements to serve as passive sensor platforms.&lt;/p&gt;&lt;p&gt;In 2023, as Vo-Doan and fellow researcher &lt;a href="https://www.unsw.edu.au/staff/thanh-nho-do" rel="noopener noreferrer" target="_blank"&gt;Thanh Nho Do&lt;/a&gt; were talking about search-and-rescue cyborg insects shortly before that year’s IEEE International Conference on Robotics and Automation (ICRA), they asked, “What happens after an insect finds a trapped victim?” Vo-Doan recalls. “Could it go beyond locating someone and actually provide some form of assistance while rescuers are still trying to reach them?”&lt;/p&gt;&lt;h3&gt;Giant Cockroaches to the Rescue&lt;/h3&gt;&lt;p&gt;To answer this question, the roboticists experimented with giant burrowing cockroaches (&lt;a href="https://en.wikipedia.org/wiki/Giant_burrowing_cockroach" rel="noopener noreferrer" target="_blank"&gt;&lt;em&gt;&lt;em&gt;Macropanesthia rhinoceros&lt;/em&gt;&lt;/em&gt;&lt;/a&gt;), which are native to Australia. The researchers needed an insect capable of carrying a large payload (over half their weight), and at roughly 40 grams in size, this species is &lt;a href="https://www.guinnessworldrecords.com/world-records/106442-heaviest-cockroach" rel="noopener noreferrer" target="_blank"&gt;the world’s heaviest species of roach&lt;/a&gt;. A larger insect is also easier to operate on to implant cybernetic interfaces.&lt;/p&gt;&lt;p&gt;The cockroaches were saddled with lightweight electronics that included electrodes implanted into both their antennae and small tail-like appendages known as cerci. Wirelessly activating these electrodes with a handheld gaming controller could steer the roaches left or right, spur them forward, or stop them from moving.&lt;/p&gt;&lt;p&gt;The insects were also equipped with either a wireless camera or a remote-controlled injector, which used a spring to launch a drug-filled syringe at a nearby target. A chemical reaction inside the syringe then generated a puff of carbon dioxide, which exerted pressure within the syringe to inject its payload into a target.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Two large cockroaches each with a set of electronics and sensors on their carapace" class="rm-shortcode" id="1244e" src="https://spectrum.ieee.org/media-library/two-large-cockroaches-each-with-a-set-of-electronics-and-sensors-on-their-carapace.jpg?id=67724308&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Paraborgs are designed to work in teams, with some carrying cameras and others carrying injectors with potentially lifesaving medications.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;The University of Queensland&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The scientists decided not to load both a camera and an injector onto a single roach because the combined weight and bulk could impair their mobility in complex terrains. Having both sets of electronics would also increase energy demands, resulting in reduced operation time. Instead, the researchers envision a &lt;a href="https://spectrum.ieee.org/swarm-of-cyborg-cockroaches" target="_self"&gt;swarm&lt;/a&gt; approach with the Paraborgs, with different specialized cyborgs performing complementary roles.&lt;/p&gt;&lt;p&gt;In proof-of-concept tests, the scientists were able to successfully navigate the Paraborgs over a 2.5-meter course past three checkpoints before launching their needles at an 8-by-10-centimeter silicone target. In 25 trials, the cockroaches completed the course every single time and succeeded at injecting the target 72 percent of the time. “The long-term goal is to combine the insect’s advanced locomotion with sensing and intervention capabilities so we can reach and help more people, more quickly,” Vo-Doan says.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Two large cockroaches with backpack electronics navigate around rocks and over sand." class="rm-shortcode" id="e3858" src="https://spectrum.ieee.org/media-library/two-large-cockroaches-with-backpack-electronics-navigate-around-rocks-and-over-sand.jpg?id=67724312&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;While the Paraborgs can be steered remotely, the cockroaches themselves are still very much alive and able to use their skills as bugs to navigate through complex terrain.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;The University of Queensland&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The researchers acknowledge that “for someone who is already trapped or injured, seeing a cyborg insect approaching could understandably be a little surprising or unsettling at first,” Vo-Doan says. Ways to make it clear these insects were part of rescue efforts might include flashing lights, recognizable emergency markings, “or perhaps a tiny speaker delivering a simple message such as, ‘help is on the way,’” Vo-Doan adds. “Making people feel comfortable with the technology is just as important as making it work.”&lt;/p&gt;&lt;h3&gt;Practical Paraborgs&lt;/h3&gt;&lt;p&gt;In the future, Vo-Doan and his colleagues aim to address practical issues with the Paraborg. These include compensating for the movements of victims, establishing reliable wireless communications inside collapsed structures, and guiding the cyborgs as they climb over and squeeze through complex environments filled with rubble and dust. Autonomy will become increasingly important for these insects, particularly if the scientists want to operate multiple cyborgs at the same time, he says.&lt;/p&gt;&lt;p&gt;In addition, a fundamental challenge when it comes to working with cyborg insects is that they are living creatures with minds of their own. “We are not piloting them like conventional wheeled robots,” Vo-Doan says. “Electrical stimulation influences their direction, but the insect still generates and controls much of its own locomotion.” To deal with this unreliability, the Paraborgs will need better onboard systems to pinpoint their positions and monitor their actions so researchers can recognize when an insect has deviated from its course or become less responsive.&lt;/p&gt;&lt;p&gt;“We are not suggesting that this is a medical device ready to be used on people today,” Vo-Doan says. “Real disaster sites are full of unstable debris, narrow gaps, and communication difficulties, so we need to understand how the insect, electronics, and injector all perform under those conditions. There are also important questions around drug choice and dosage, sterility, needle safety, reliability, and regulation.”&lt;/p&gt;&lt;p&gt;Ultimately, such research into cyborg cockroaches may help inform robot design, explains Vo-Doan. These insects “can give us useful capabilities sooner while, at the same time, helping us develop the fully artificial systems of the future.”&lt;/p&gt;&lt;p&gt;The scientists detailed &lt;a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.76973" target="_blank"&gt;their findings&lt;/a&gt; last month in the journal &lt;em&gt;&lt;em&gt;Advanced Science&lt;/em&gt;&lt;/em&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/cyborg-rescue-roach</guid>
-      <pubDate>Sat, 05 Sep 2026 13:00:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Israel claims control of Ali al Taher after weeks of Hezbollah attacks and failed handover efforts</title>
-      <link>https://www.longwarjournal.org/archives/2026/09/israel-claims-control-of-ali-al-taher-after-weeks-of-hezbollah-attacks-and-failed-handover-efforts.php</link>
-      <description>&lt;p&gt;The IDF says it cleared Hezbollah fighters from underground infrastructure in south Lebanon’s Ali al Taher Ridge and achieved operational control above and below ground. Hezbollah denied losing the strategic position. The battle exposed the limits of Lebanese government efforts to secure the site through negotiation and prompted an Iranian threat of direct retaliation.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/israel-claims-control-of-ali-al-taher-after-weeks-of-hezbollah-attacks-and-failed-handover-efforts.php"&gt;Israel claims control of Ali al Taher after weeks of Hezbollah attacks and failed handover efforts&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/israel-claims-control-of-ali-al-taher-after-weeks-of-hezbollah-attacks-and-failed-handover-efforts.php</guid>
-      <pubDate>Sun, 06 Sep 2026 20:26:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)</title>
-      <link>https://isc.sans.edu/diary/rss/33314</link>
-      <description>Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33314</guid>
-      <pubDate>Sun, 06 Sep 2026 21:43:17 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 10 Sep 2026 18:02:23 +0000</lastBuildDate>
     <item>
       <title>The Emerging U.S.-China Détente</title>
       <link>https://www.foreignaffairs.com/united-states/emerging-us-china-detente</link>
       <description>A confident Beijing and a pragmatic Washington can get along.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/emerging-us-china-detente</guid>
       <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Strategic Fiber of America: Kevlar’s Impact on Warfighters</title>
-      <link>https://warontherocks.com/cogs-of-war/the-strategic-fiber-of-america-kevlars-impact-on-warfighters/</link>
-      <description>&lt;p&gt;Editor&amp;#8217;s note: This is the tenth article in a limited series celebrating American defense technologies born from wartime and their effects on broader national security, politics, and society. This series will run for several weeks to commemorate America&amp;#8217;s 250th anniversary, and winners will be selected by a reader vote undertaken through our newsletter&amp;#160;later this summer. Prior installments can be found at the&amp;#160;Arsenal of Innovation&amp;#160;page.I was fortunate enough to do something that would be a benefit to mankind. It&amp;#8217;s been an extremely satisfying discovery. I don&amp;#8217;t think there&amp;#8217;s anything like saving someone&amp;#8217;s life to bring you satisfaction and happiness.&amp;#8211; Stephanie Kwolek,&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/the-strategic-fiber-of-america-kevlars-impact-on-warfighters/"&gt;The Strategic Fiber of America: Kevlar’s Impact on Warfighters&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/the-strategic-fiber-of-america-kevlars-impact-on-warfighters/</guid>
-      <pubDate>Mon, 07 Sep 2026 08:00:53 +0000</pubDate>
     </item>
     <item>
       <title>The Geopolitics of Machine Authority: Who Makes the Rules for Autonomous Power?</title>
@@ -76,16 +26,9 @@
     <item>
       <title>This Robot Will Draw Your Blood Now</title>
       <link>https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;You sit down and put your arm in the cradle. You press a button. The machine takes it from there.&lt;/p&gt;&lt;p&gt;A &lt;a href="https://spectrum.ieee.org/tag/near-infrared-light" target="_self"&gt;near-infrared light&lt;/a&gt; sweeps your inner elbow, hunting for a vein. A puff of alcohol hits your skin. An &lt;a href="https://spectrum.ieee.org/tag/ultrasound" target="_self"&gt;ultrasound&lt;/a&gt; probe glides across your arm, mapping how deep the vessel runs and which way it bends. Doppler captures the direction of blood flow to rule out the artery.&lt;/p&gt;&lt;p&gt;The cuff tightens around your upper arm. The needle comes down and pierces the skin. Your blood flows into the collection tubes, each one tipped end over end nine times—no more, no less. The needle withdraws. You get a bandage. No human ever touched you.&lt;/p&gt;&lt;p&gt;This is what it’s like to have blood taken by &lt;a href="https://vitestro.com/aletta/" rel="noopener noreferrer" target="_blank"&gt;Aletta&lt;/a&gt;, the first &lt;a href="https://spectrum.ieee.org/profile-veebot" target="_self"&gt;autonomous blood-draw device&lt;/a&gt; authorized for use in the United States. Developed by the Dutch medical robotics firm &lt;a href="https://vitestro.com/" rel="noopener noreferrer" target="_blank"&gt;Vitestro&lt;/a&gt;, the system combines imaging technologies with advanced robotics and AI to do by algorithm what a human phlebotomist—a trained health care professional who finds veins and draws blood by hand—does by feel.&lt;/p&gt;&lt;p&gt;The U.S. Food and Drug Administration &lt;a href="https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-its-kind-robotic-blood-draw-device" rel="noopener noreferrer" target="_blank"&gt;gave Aletta the go-ahead&lt;/a&gt; on 19 August for use on adults in nonhospitalized settings. The decision follows the lead of European regulators, who &lt;a href="https://www.prnewswire.com/news-releases/vitestro-achieves-ce-marking-for-autonomous-blood-drawing-device-302231939.html" rel="noopener noreferrer" target="_blank"&gt;authorized the device two years earlier&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;“You have to tip your cap to them,” says &lt;a href="https://www.linkedin.com/in/maxbalter/" rel="noopener noreferrer" target="_blank"&gt;Max Balter&lt;/a&gt;, a surgical-robotics specialist at Medtronic who &lt;a href="https://ieeexplore.ieee.org/document/7169572" rel="noopener noreferrer" target="_blank"&gt;worked&lt;/a&gt; on &lt;a href="https://ieeexplore.ieee.org/document/7457657" rel="noopener noreferrer" target="_blank"&gt;autonomous&lt;/a&gt; blood-draw &lt;a href="https://www.worldscientific.com/doi/10.1142/S2339547819500067" rel="noopener noreferrer" target="_blank"&gt;systems&lt;/a&gt; during grad school in the mid-2010s. “The engineering that they have is incredible…and with their FDA clearance, it moves the whole industry forward.”&lt;/p&gt;&lt;h2&gt;Aletta Boosts Lab Capacity Amid Shortages&lt;/h2&gt;&lt;p&gt;In a clinical trial involving more than 1,600 people in the Netherlands, Aletta successfully drew blood on the first attempt in &lt;a href="https://doi.org/10.1093/clinchem/hvag029" rel="noopener noreferrer" target="_blank"&gt;94.5 percent of cases&lt;/a&gt;, even among those with hard-to-access veins, people with obesity, and the elderly. When Aletta failed to identify a suitable vein, the patient was referred for conventional phlebotomy.&lt;/p&gt;&lt;p&gt;“It’s exceptional performance,” says &lt;a href="https://medicine.yale.edu/profile/joe-el-khoury/" rel="noopener noreferrer" target="_blank"&gt;Joe El-Khoury&lt;/a&gt;, a clinical chemist at Yale who was not involved in the Dutch trial. “It’s definitely as good if not better” than a typical professional phlebotomist.&lt;/p&gt;&lt;p&gt;Complications were minimal, with multiple built-in safeguards to detect problems, such as sensors that track arm movement and needle position, and to halt the process should something go awry. And for those whose veins proved too challenging, a phlebotomist remains on hand to take over when needed.&lt;/p&gt;&lt;p&gt;Notably, because a single phlebotomist can supervise up to three Aletta machines, the system should go a long way toward “helping clinical labs address the critical operational challenges related to the staffing shortages of phlebotomists,” says &lt;a href="https://www.linkedin.com/in/luuk-giesen/" rel="noopener noreferrer" target="_blank"&gt;Luuk Giesen&lt;/a&gt;, chief medical officer of Vitestro.&lt;/p&gt;&lt;p&gt;That’s no small challenge in a profession with a &lt;a href="https://aplm.kglmeridian.com/doi/10.5858/arpa.2019-0140-CP" rel="noopener noreferrer" target="_blank"&gt;median annual turnover rate of nearly 25 percent&lt;/a&gt; and a &lt;a href="https://academic.oup.com/ajcp/article/164/5/759/8267738" rel="noopener noreferrer" target="_blank"&gt;vacancy rate of close to 10 percent&lt;/a&gt;, according to surveys of medical laboratories that draw mostly from U.S. institutions. The resulting staffing shortages can limit labs’ capacity to meet demand for routine diagnostic testing of blood counts, cholesterol, metabolic markers, and more. Aletta could address that bottleneck.&lt;/p&gt;&lt;h2&gt;Addressing Skin Tone Bias in Blood Draw AI&lt;/h2&gt;&lt;p&gt;The promise of greater capacity, however, comes with a caveat: Aletta still fails in roughly one case out of 20. Who are those people?&lt;/p&gt;&lt;p&gt;Some may simply have elusive or unusually deep veins. But a more significant obstacle could be skin pigmentation. In particular, the melanin in darker skin can interfere with the near-infrared light Aletta uses to first map the veins near the skin’s surface and identify promising puncture sites. The technique relies on hemoglobin absorbing the light differently from surrounding tissue, and darker skin tones can absorb more of that light before it reaches the camera, thereby reducing the contrast.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A smiling dark skinned woman holds a bandaid onto her arm while sitting next to a large machine." class="rm-shortcode" id="9138e" src="https://spectrum.ieee.org/media-library/a-smiling-dark-skinned-woman-holds-a-bandaid-onto-her-arm-while-sitting-next-to-a-large-machine.jpg?id=67726420&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Some experts have raised concerns that Aletta’s infrared sensors will perform poorly for people with darker skin tones, but Vitestro says that its machine also includes an ultrasound sensor, in part to mitigate that risk.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Vitestro&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Giesen recognizes that the issue could affect first-pass imaging, but notes that the main determinant of vein selection and needle placement is the ultrasound system, which relies on sound rather than light and should not be affected by skin pigmentation in the same way. “Ultrasound is skin-tone agnostic,” he says, adding that Vitestro has unpublished data showing no effect of skin tone on the system’s performance.&lt;/p&gt;&lt;p&gt;The company thus &lt;a href="https://vitestro.com/aletta/patients/" target="_blank"&gt;claims on its website&lt;/a&gt; that the “technology works well for all skin tones,” an assertion &lt;a href="https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-its-kind-robotic-blood-draw-device" rel="noopener noreferrer" target="_blank"&gt;echoed in the FDA press release&lt;/a&gt; announcing the authorization of Vitestro’s device.&lt;/p&gt;&lt;p&gt;But given the history of racial disparities in medical devices—particularly optical technologies such as pulse oximeters, which can be &lt;a href="https://spectrum.ieee.org/pulse-oximeters-encode-racial-bias-with-clear-consequences-for-covid-19-patients" target="_self"&gt;less accurate in people with darker skin&lt;/a&gt; and went largely unrecognized as a problem for decades—such claims warrant evidence, says El-Khoury, who has &lt;a href="https://academic.oup.com/clinchem/article-lookup/doi/10.1093/clinchem/hvag045" rel="noopener noreferrer" target="_blank"&gt;written about the issue&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.mayoclinic.org/biographies/katzman-brooke-m-ph-d/bio-20514695" rel="noopener noreferrer" target="_blank"&gt;Brooke Katzman&lt;/a&gt;, a clinical chemist at the Mayo Clinic who is collaborating with Vitestro, also wants more evidence that samples collected by the robot are as suitable for testing as those drawn by hand.&lt;/p&gt;&lt;p&gt;The Dutch trial reported little damage to red blood cells, but other measures of sample quality, including clotted tubes, insufficient blood, and proper tube filling, still need to be assessed, as do the results of routine laboratory tests themselves. Katzman plans to launch a U.S.-based trial next year to collect just that sort of data.&lt;/p&gt;&lt;p&gt;“We’re going to do our due diligence,” she says. “Like any instrument we would bring into the lab, we’re going to put it through its paces before using it clinically.”&lt;/p&gt;&lt;h2&gt;The Future of Automated Blood Testing&lt;/h2&gt;&lt;p&gt;Aletta takes its name from the 19th-century physician &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11151697/" rel="noopener noreferrer" target="_blank"&gt;Aletta Jacobs&lt;/a&gt;, the first female doctor in the Netherlands and founder of what is widely considered the world’s first birth-control clinic.&lt;/p&gt;&lt;p&gt;That nod to history is fitting for a technology that builds on decades of research in robotic phlebotomy by groups in &lt;a href="https://ieeexplore.ieee.org/document/826854/" rel="noopener noreferrer" target="_blank"&gt;Europe&lt;/a&gt;, the &lt;a href="https://www.researchgate.net/publication/309480332_Robotic_Assistive_Device_for_Phlebotomy" rel="noopener noreferrer" target="_blank"&gt;United States&lt;/a&gt;, and &lt;a href="https://haoyangli16.github.io/pdf/venibot.pdf" rel="noopener noreferrer" target="_blank"&gt;China&lt;/a&gt;, and &lt;a href="https://doi.org/10.3389/fmed.2023.1251963" rel="noopener noreferrer" target="_blank"&gt;MagicNurse&lt;/a&gt;. Yet few pushed the concept as far as biomedical engineer &lt;a href="https://bme.rutgers.edu/martin-l-yarmush" rel="noopener noreferrer" target="_blank"&gt;Martin Yarmush&lt;/a&gt; of Rutgers University in New Jersey, in whose lab Medtronic’s Balter completed his Ph.D.&lt;/p&gt;&lt;p&gt;In one version of their platform, the Rutgers team even &lt;a href="https://ieeexplore.ieee.org/document/7759102/" rel="noopener noreferrer" target="_blank"&gt;coupled their robot to a benchtop blood analyzer&lt;/a&gt;, allowing it to draw samples and then measure levels of infection-fighting immune cells and oxygen-carrying red blood cells—all within minutes.&lt;/p&gt;&lt;p&gt;That all-in system never made it out of laboratory testing. And VascuLogic, the company spun out to commercialize the platform, is long defunct—though others, including &lt;a href="https://rophai.net/" rel="noopener noreferrer" target="_blank"&gt;ROPHAI&lt;/a&gt;, &lt;a href="https://bhealthcare.com/" rel="noopener noreferrer" target="_blank"&gt;BHealthCare&lt;/a&gt;, and &lt;a href="https://doi.org/10.3389/fmed.2023.1251963" rel="noopener noreferrer" target="_blank"&gt;MagicNurse&lt;/a&gt;, continue to work in the space. But the Rutgers proof-of-concept demonstration points toward the tantalizing possibility of fully automated blood testing at the point of care, with robots handling everything from the needle stick to the analysis.&lt;/p&gt;&lt;p&gt;It is, in some ways, the promise that Theranos made—but built on conventional, validated laboratory technology rather than the &lt;a href="https://www.goodreads.com/en/book/show/37976541-bad-blood" rel="noopener noreferrer" target="_blank"&gt;dubious science and deception&lt;/a&gt; that brought that particular company down.&lt;/p&gt;&lt;p&gt;“I have no doubt that is the future,” says &lt;a href="https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=22300" rel="noopener noreferrer" target="_blank"&gt;Gregory Retzinger&lt;/a&gt;, a clinical pathologist at the Northwestern University Feinberg School of Medicine, in Chicago, who &lt;a href="https://vitestro.com/news/northwestern-medicine-and-vitestro-collaborate-to-advance-autonomous-robotic-phlebotomy/" rel="noopener noreferrer" target="_blank"&gt;collaborates with Vitestro&lt;/a&gt; and has tried the Aletta device himself. (“It was painless, it was fast,” he says.)&lt;/p&gt;&lt;p&gt;For now, Giesen says Vitestro is keeping its ambitions—and its machine—focused on the blood-collection process itself, though he believes Aletta could ultimately do far more. The company plans to launch Aletta in Europe next year, with the U.S. market to follow. &lt;/p&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&amp;amp;width=2000&amp;amp;height=1500&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;You sit down and put your arm in the cradle. You press a button. The machine takes it from there.&lt;/p&gt;&lt;p&gt;A &lt;a href="https://spectrum.ieee.org/tag/near-infrared-light" target="_self"&gt;near-infrared light&lt;/a&gt; sweeps your inner elbow, hunting for a vein. A puff of alcohol hits your skin. An &lt;a href="https://spectrum.ieee.org/tag/ultrasound" target="_self"&gt;ultrasound&lt;/a&gt; probe glides across your arm, mapping how deep the vessel runs and which way it bends. Doppler captures the direction of blood flow to rule out the artery.&lt;/p&gt;&lt;p&gt;The cuff tightens around your upper arm. The needle comes down and pierces the skin. Your blood flows into the collection tubes, each one tipped end over end nine times—no more, no less. The needle withdraws. You get a bandage. No human ever touched you.&lt;/p&gt;&lt;p&gt;This is what it’s like to have blood taken by &lt;a href="https://vitestro.com/aletta/" rel="noopener noreferrer" target="_blank"&gt;Aletta&lt;/a&gt;, the first &lt;a href="https://spectrum.ieee.org/profile-veebot" target="_self"&gt;autonomous blood-draw device&lt;/a&gt; authorized for use in the United States. Developed by the Dutch medical robotics firm &lt;a href="https://vitestro.com/" rel="noopener noreferrer" target="_blank"&gt;Vitestro&lt;/a&gt;, the system combines imaging technologies with advanced robotics and AI to do by algorithm what a human phlebotomist—a trained health care professional who finds veins and draws blood by hand—does by feel.&lt;/p&gt;&lt;p&gt;The U.S. Food and Drug Administration &lt;a href="https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-its-kind-robotic-blood-draw-device" rel="noopener noreferrer" target="_blank"&gt;gave Aletta the go-ahead&lt;/a&gt; on 19 August for use on adults in nonhospitalized settings. The decision follows the lead of European regulators, who &lt;a href="https://www.prnewswire.com/news-releases/vitestro-achieves-ce-marking-for-autonomous-blood-drawing-device-302231939.html" rel="noopener noreferrer" target="_blank"&gt;authorized the device two years earlier&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;“You have to tip your cap to them,” says &lt;a href="https://www.linkedin.com/in/maxbalter/" rel="noopener noreferrer" target="_blank"&gt;Max Balter&lt;/a&gt;, a surgical-robotics specialist at Medtronic who &lt;a href="https://ieeexplore.ieee.org/document/7169572" rel="noopener noreferrer" target="_blank"&gt;worked&lt;/a&gt; on &lt;a href="https://ieeexplore.ieee.org/document/7457657" rel="noopener noreferrer" target="_blank"&gt;autonomous&lt;/a&gt; blood-draw &lt;a href="https://www.worldscientific.com/doi/10.1142/S2339547819500067" rel="noopener noreferrer" target="_blank"&gt;systems&lt;/a&gt; during grad school in the mid-2010s. “The engineering that they have is incredible…and with their FDA clearance, it moves the whole industry forward.”&lt;/p&gt;&lt;h2&gt;Aletta Boosts Lab Capacity Amid Shortages&lt;/h2&gt;&lt;p&gt;In a clinical trial involving more than 1,600 people in the Netherlands, Aletta successfully drew blood on the first attempt in &lt;a href="https://doi.org/10.1093/clinchem/hvag029" rel="noopener noreferrer" target="_blank"&gt;94.5 percent of cases&lt;/a&gt;, even among those with hard-to-access veins, people with obesity, and the elderly. When Aletta failed to identify a suitable vein, the patient was referred for conventional phlebotomy.&lt;/p&gt;&lt;p&gt;“It’s exceptional performance,” says &lt;a href="https://medicine.yale.edu/profile/joe-el-khoury/" rel="noopener noreferrer" target="_blank"&gt;Joe El-Khoury&lt;/a&gt;, a clinical chemist at Yale who was not involved in the Dutch trial. “It’s definitely as good if not better” than a typical professional phlebotomist.&lt;/p&gt;&lt;p&gt;Complications were minimal, with multiple built-in safeguards to detect problems, such as sensors that track arm movement and needle position, and to halt the process should something go awry. And for those whose veins proved too challenging, a phlebotomist remains on hand to take over when needed.&lt;/p&gt;&lt;p&gt;Notably, because a single phlebotomist can supervise up to three Aletta machines, the system should go a long way toward “helping clinical labs address the critical operational challenges related to the staffing shortages of phlebotomists,” says &lt;a href="https://www.linkedin.com/in/luuk-giesen/" rel="noopener noreferrer" target="_blank"&gt;Luuk Giesen&lt;/a&gt;, chief medical officer of Vitestro.&lt;/p&gt;&lt;p&gt;That’s no small challenge in a profession with a &lt;a href="https://aplm.kglmeridian.com/doi/10.5858/arpa.2019-0140-CP" rel="noopener noreferrer" target="_blank"&gt;median annual turnover rate of nearly 25 percent&lt;/a&gt; and a &lt;a href="https://academic.oup.com/ajcp/article/164/5/759/8267738" rel="noopener noreferrer" target="_blank"&gt;vacancy rate of close to 10 percent&lt;/a&gt;, according to surveys of medical laboratories that draw mostly from U.S. institutions. The resulting staffing shortages can limit labs’ capacity to meet demand for routine diagnostic testing of blood counts, cholesterol, metabolic markers, and more. Aletta could address that bottleneck.&lt;/p&gt;&lt;h2&gt;Addressing Skin Tone Bias in Blood Draw AI&lt;/h2&gt;&lt;p&gt;The promise of greater capacity, however, comes with a caveat: Aletta still fails in roughly one case out of 20. Who are those people?&lt;/p&gt;&lt;p&gt;Some may simply have elusive or unusually deep veins. But a more significant obstacle could be skin pigmentation. In particular, the melanin in darker skin can interfere with the near-infrared light Aletta uses to first map the veins near the skin’s surface and identify promising puncture sites. The technique relies on hemoglobin absorbing the light differently from surrounding tissue, and darker skin tones can absorb more of that light before it reaches the camera, thereby reducing the contrast.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A smiling dark skinned woman holds a bandaid onto her arm while sitting next to a large machine." class="rm-shortcode" id="9138e" src="https://spectrum.ieee.org/media-library/a-smiling-dark-skinned-woman-holds-a-bandaid-onto-her-arm-while-sitting-next-to-a-large-machine.jpg?id=67726420&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Some experts have raised concerns that Aletta’s infrared sensors will perform poorly for people with darker skin tones, but Vitestro says that its machine also includes an ultrasound sensor, in part to mitigate that risk.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Vitestro&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Giesen recognizes that the issue could affect first-pass imaging, but notes that the main determinant of vein selection and needle placement is the ultrasound system, which relies on sound rather than light and should not be affected by skin pigmentation in the same way. “Ultrasound is skin-tone agnostic,” he says, adding that Vitestro has unpublished data showing no effect of skin tone on the system’s performance.&lt;/p&gt;&lt;p&gt;The company thus &lt;a href="https://vitestro.com/aletta/patients/" target="_blank"&gt;claims on its website&lt;/a&gt; that the “technology works well for all skin tones,” an assertion &lt;a href="https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-its-kind-robotic-blood-draw-device" rel="noopener noreferrer" target="_blank"&gt;echoed in the FDA press release&lt;/a&gt; announcing the authorization of Vitestro’s device.&lt;/p&gt;&lt;p&gt;But given the history of racial disparities in medical devices—particularly optical technologies such as pulse oximeters, which can be &lt;a href="https://spectrum.ieee.org/pulse-oximeters-encode-racial-bias-with-clear-consequences-for-covid-19-patients" target="_self"&gt;less accurate in people with darker skin&lt;/a&gt; and went largely unrecognized as a problem for decades—such claims warrant evidence, says El-Khoury, who has &lt;a href="https://academic.oup.com/clinchem/article-lookup/doi/10.1093/clinchem/hvag045" rel="noopener noreferrer" target="_blank"&gt;written about the issue&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.mayoclinic.org/biographies/katzman-brooke-m-ph-d/bio-20514695" rel="noopener noreferrer" target="_blank"&gt;Brooke Katzman&lt;/a&gt;, a clinical chemist at the Mayo Clinic who is collaborating with Vitestro, also wants more evidence that samples collected by the robot are as suitable for testing as those drawn by hand.&lt;/p&gt;&lt;p&gt;The Dutch trial reported little damage to red blood cells, but other measures of sample quality, including clotted tubes, insufficient blood, and proper tube filling, still need to be assessed, as do the results of routine laboratory tests themselves. Katzman plans to launch a U.S.-based trial next year to collect just that sort of data.&lt;/p&gt;&lt;p&gt;“We’re going to do our due diligence,” she says. “Like any instrument we would bring into the lab, we’re going to put it through its paces before using it clinically.”&lt;/p&gt;&lt;h2&gt;The Future of Automated Blood Testing&lt;/h2&gt;&lt;p&gt;Aletta takes its name from the 19th-century physician &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11151697/" rel="noopener noreferrer" target="_blank"&gt;Aletta Jacobs&lt;/a&gt;, the first female doctor in the Netherlands and founder of what is widely considered the world’s first birth-control clinic.&lt;/p&gt;&lt;p&gt;That nod to history is fitting for a technology that builds on decades of research in robotic phlebotomy by groups in &lt;a href="https://ieeexplore.ieee.org/document/826854/" rel="noopener noreferrer" target="_blank"&gt;Europe&lt;/a&gt;, the &lt;a href="https://www.researchgate.net/publication/309480332_Robotic_Assistive_Device_for_Phlebotomy" rel="noopener noreferrer" target="_blank"&gt;United States&lt;/a&gt;, and &lt;a href="https://haoyangli16.github.io/pdf/venibot.pdf" rel="noopener noreferrer" target="_blank"&gt;China&lt;/a&gt;, and &lt;a href="https://doi.org/10.3389/fmed.2023.1251963" rel="noopener noreferrer" target="_blank"&gt;MagicNurse&lt;/a&gt;. Yet few pushed the concept as far as biomedical engineer &lt;a href="https://bme.rutgers.edu/martin-l-yarmush" rel="noopener noreferrer" target="_blank"&gt;Martin Yarmush&lt;/a&gt; of Rutgers University in New Jersey, in whose lab Medtronic’s Balter completed his Ph.D.&lt;/p&gt;&lt;p&gt;In one version of their platform, the Rutgers team even &lt;a href="https://ieeexplore.ieee.org/document/7759102/" rel="noopener noreferrer" target="_blank"&gt;coupled their robot to a benchtop blood analyzer&lt;/a&gt;, allowing it to draw samples and then measure levels of infection-fighting immune cells and oxygen-carrying red blood cells—all within minutes.&lt;/p&gt;&lt;p&gt;That all-in system never made it out of laboratory testing. And VascuLogic, the company spun out to commercialize the platform, is long defunct—though others, including &lt;a href="https://rophai.net/" rel="noopener noreferrer" target="_blank"&gt;ROPHAI&lt;/a&gt;, &lt;a href="https://bhealthcare.com/" rel="noopener noreferrer" target="_blank"&gt;BHealthCare&lt;/a&gt;, and &lt;a href="https://doi.org/10.3389/fmed.2023.1251963" rel="noopener noreferrer" target="_blank"&gt;MagicNurse&lt;/a&gt;, continue to work in the space. But the Rutgers proof-of-concept demonstration points toward the tantalizing possibility of fully automated blood testing at the point of care, with robots handling everything from the needle stick to the analysis.&lt;/p&gt;&lt;p&gt;It is, in some ways, the promise that Theranos made—but built on conventional, validated laboratory technology rather than the &lt;a href="https://www.goodreads.com/en/book/show/37976541-bad-blood" rel="noopener noreferrer" target="_blank"&gt;dubious science and deception&lt;/a&gt; that brought that particular company down.&lt;/p&gt;&lt;p&gt;“I have no doubt that is the future,” says &lt;a href="https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=22300" rel="noopener noreferrer" target="_blank"&gt;Gregory Retzinger&lt;/a&gt;, a clinical pathologist at the Northwestern University Feinberg School of Medicine, in Chicago, who &lt;a href="https://vitestro.com/news/northwestern-medicine-and-vitestro-collaborate-to-advance-autonomous-robotic-phlebotomy/" rel="noopener noreferrer" target="_blank"&gt;collaborates with Vitestro&lt;/a&gt; and has tried the Aletta device himself. (“It was painless, it was fast,” he says.)&lt;/p&gt;&lt;p&gt;For now, Giesen says Vitestro is keeping its ambitions—and its machine—focused on the blood-collection process itself, though he believes Aletta could ultimately do far more. The company plans to launch Aletta in Europe next year, with the U.S. market to follow. &lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta</guid>
       <pubDate>Mon, 07 Sep 2026 13:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Thales and KSSL to build India’s indigenous 70mm rocket systems</title>
-      <link>https://www.army-technology.com/news/thales-kssl-79mm-rocket/</link>
-      <description>Thales and Kalyani Strategic Systems Limited have agreed to collaborate on the development and local production of 70mm rockets in India.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/thales-kssl-79mm-rocket/</guid>
-      <pubDate>Mon, 07 Sep 2026 13:12:54 +0000</pubDate>
     </item>
     <item>
       <title>Canada’s Port of Churchill Shows Signs of Life | Geopolitics Weekly</title>
@@ -94,27 +37,6 @@
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/signs-of-life-at-canadas-arctic-port-geopolitics-weekly/"&gt;Canada’s Port of Churchill Shows Signs of Life | Geopolitics Weekly&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/signs-of-life-at-canadas-arctic-port-geopolitics-weekly/</guid>
       <pubDate>Mon, 07 Sep 2026 15:37:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hanwha unveils K9 howitzer concept with VTOL drone integration</title>
-      <link>https://www.army-technology.com/news/hanwha-k9-howitzer-concept/</link>
-      <description>Hanwha Aerospace has presented a new operating concept for its K9 self-propelled howitzer that integrates VTOL drones.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/hanwha-k9-howitzer-concept/</guid>
-      <pubDate>Mon, 07 Sep 2026 15:42:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>1Password increases engineering productivity 21% with Codex</title>
-      <link>https://openai.com/index/1password</link>
-      <description>Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.</description>
-      <guid isPermaLink="false">https://openai.com/index/1password</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI expands initiatives to support journalism from classrooms to newsrooms</title>
-      <link>https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms</link>
-      <description>OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.</description>
-      <guid isPermaLink="false">https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ISC Stormcast For Tuesday, September 8th, 2026 https://isc.sans.edu/podcastdetail/10084, (Tue, Sep 8th)</title>
@@ -153,20 +75,6 @@
       <pubDate>Tue, 08 Sep 2026 07:30:45 +0000</pubDate>
     </item>
     <item>
-      <title>Funding grants for new research into AI and teen development</title>
-      <link>https://openai.com/index/teen-development-research-grants</link>
-      <description>Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.</description>
-      <guid isPermaLink="false">https://openai.com/index/teen-development-research-grants</guid>
-      <pubDate>Tue, 08 Sep 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On the Navier–Stokes Millennium Prize Problem</title>
-      <link>https://openai.com/index/navier-stokes-solution</link>
-      <description>We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.</description>
-      <guid isPermaLink="false">https://openai.com/index/navier-stokes-solution</guid>
-      <pubDate>Tue, 08 Sep 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>India’s Bid to Build the Magnets the West Needs</title>
       <link>https://www.geopoliticalmonitor.com/indias-bid-to-build-the-magnets-the-west-needs/</link>
       <description>&lt;p&gt;India has built a four-layer policy stack aimed at the narrowest chokepoint in critical minerals: the sintered neodymium magnet. Twenty bidders are chasing five slots, and the binding constraint is process knowledge China controls.&lt;/p&gt;
@@ -186,6 +94,23 @@
       <link>https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites</link>
       <description>A Chinese-language group is compromising government and education sites to create a reverse-proxy network with gambling-themed sites.</description>
       <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites</guid>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
+      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-75650" target="_blank"&gt;CVE-2026-75650&lt;/a&gt; Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81963" target="_blank"&gt;CVE-2026-81963&lt;/a&gt; Microsoft Windows Link Following Vulnerability &amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-85880" target="_blank"&gt;CVE-2026-85880&lt;/a&gt; Microsoft Windows Heap-Based Buffer Overflow Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-86218" target="_blank"&gt;CVE-2026-86218&lt;/a&gt; N-able N-central Static Code Injection Vulnerability&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
       <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1019,23 +944,6 @@
       <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-75650" target="_blank"&gt;CVE-2026-75650&lt;/a&gt; Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81963" target="_blank"&gt;CVE-2026-81963&lt;/a&gt; Microsoft Windows Link Following Vulnerability &amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-85880" target="_blank"&gt;CVE-2026-85880&lt;/a&gt; Microsoft Windows Heap-Based Buffer Overflow Vulnerability&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-86218" target="_blank"&gt;CVE-2026-86218&lt;/a&gt; N-able N-central Static Code Injection Vulnerability&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CareCam Pro IP Cameras</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01</link>
       <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-251-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1233,14 +1141,6 @@
       <pubDate>Tue, 08 Sep 2026 16:21:13 +0000</pubDate>
     </item>
     <item>
-      <title>Russia’s New Stealthy Lower-Cost Air-Launched Standoff Weapons On Display In Egypt</title>
-      <link>https://www.twz.com/air/russias-new-stealthy-lower-cost-air-launched-standoff-weapons-on-display-in-egypt</link>
-      <description>&lt;p&gt;Moscow is pitching a new generation of precision weapons abroad, even as the war that produced them complicates their export prospects.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/russias-new-stealthy-lower-cost-air-launched-standoff-weapons-on-display-in-egypt"&gt;Russia’s New Stealthy Lower-Cost Air-Launched Standoff Weapons On Display In Egypt&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/russias-new-stealthy-lower-cost-air-launched-standoff-weapons-on-display-in-egypt</guid>
-      <pubDate>Tue, 08 Sep 2026 16:52:56 +0000</pubDate>
-    </item>
-    <item>
       <title>How GPT-5.6 Sol helps run quantum computing experiments</title>
       <link>https://openai.com/index/codex-quantum-computing-experiments</link>
       <description>See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.</description>
@@ -1260,14 +1160,6 @@
       <description>Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.</description>
       <guid isPermaLink="false">https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access</guid>
       <pubDate>Tue, 08 Sep 2026 17:25:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump Threatens Canadian Jets At The Center Of Army Aerial Surveillance Plans</title>
-      <link>https://www.twz.com/air/trump-threatens-canadian-jets-at-the-center-of-army-aerial-surveillance-plans</link>
-      <description>&lt;p&gt;Threatening to block Bombardier sales in the U.S. is different than actually following through with it, but Canada also has a vote.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/trump-threatens-canadian-jets-at-the-center-of-army-aerial-surveillance-plans"&gt;Trump Threatens Canadian Jets At The Center Of Army Aerial Surveillance Plans&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/trump-threatens-canadian-jets-at-the-center-of-army-aerial-surveillance-plans</guid>
-      <pubDate>Tue, 08 Sep 2026 18:29:08 +0000</pubDate>
     </item>
     <item>
       <title>September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)</title>
@@ -1311,7 +1203,7 @@
     <item>
       <title>OpenAI Agents Took Over Wiki Site Before Hugging Face Attack</title>
       <link>https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack</link>
-      <description>Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.&amp;quot;</description>
+      <description>Researchers and OpenAI disagree on whether an earlier incident involving DseWiki, which the company did not disclose, was a “hack.&amp;quot;</description>
       <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack</guid>
       <pubDate>Tue, 08 Sep 2026 20:36:15 +0000</pubDate>
     </item>
@@ -1356,7 +1248,7 @@
     <item>
       <title>Patch Tuesday Sets Another Record With 974 CVEs</title>
       <link>https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves</link>
-      <description>Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.</description>
+      <description>Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.</description>
       <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves</guid>
       <pubDate>Tue, 08 Sep 2026 21:26:02 +0000</pubDate>
     </item>
@@ -1494,13 +1386,6 @@
       <pubDate>Wed, 09 Sep 2026 10:00:55 +0000</pubDate>
     </item>
     <item>
-      <title>Which Document Proves Indian Citizenship? There Isn’t 1 Answer</title>
-      <link>https://thediplomat.com/2026/09/which-document-proves-indian-citizenship-there-isnt-1-answer/</link>
-      <description>Indian laws never specified any single document as proof of citizenship, but the Modi government’s citizenship screening drive has turned it into a big question.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/which-document-proves-indian-citizenship-there-isnt-1-answer/</guid>
-      <pubDate>Wed, 09 Sep 2026 10:02:00 +0000</pubDate>
-    </item>
-    <item>
       <title>GPT-6 Astra: The next generation in intelligence for work</title>
       <link>https://openai.com/index/gpt-6-astra-next-generation-work</link>
       <description>Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.</description>
@@ -1560,20 +1445,6 @@
       <pubDate>Wed, 09 Sep 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lee and Macron Pledge Deeper Security Ties After Paris Summit</title>
-      <link>https://thediplomat.com/2026/09/lee-and-macron-pledge-deeper-security-ties-after-paris-summit/</link>
-      <description>South Korea and France agreed to advance defense cooperation and coordinate on Hormuz Strait security following a summit in Paris.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/lee-and-macron-pledge-deeper-security-ties-after-paris-summit/</guid>
-      <pubDate>Wed, 09 Sep 2026 12:22:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking Russia, Re-evaluating Risk: The Changing Face of Kyrgyz Migration</title>
-      <link>https://thediplomat.com/2026/09/rethinking-russia-re-evaluating-risk-the-changing-face-of-kyrgyz-migration/</link>
-      <description>The war in Ukraine has produced a much longer-term transformation of the institutional and political environment in which migration takes place.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/rethinking-russia-re-evaluating-risk-the-changing-face-of-kyrgyz-migration/</guid>
-      <pubDate>Wed, 09 Sep 2026 12:24:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Iran War Is Borrowing from the Next One</title>
       <link>https://www.geopoliticalmonitor.com/iran-war-borrowing-from-the-next-one/</link>
       <description>&lt;p&gt;A leaked Pentagon assessment suggests the Iran campaign is consuming the ships, interceptors, and time Beijing would most like the United States to waste.&lt;/p&gt;
@@ -1588,13 +1459,6 @@
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/industrial-test-indonesias-multi-aligned-arsenal/"&gt;The Industrial Test for Indonesia’s Multi-Aligned Arsenal&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/industrial-test-indonesias-multi-aligned-arsenal/</guid>
       <pubDate>Wed, 09 Sep 2026 12:48:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why the South Korea-US Alliance Needs the Dark Eagle</title>
-      <link>https://thediplomat.com/2026/09/why-the-south-korea-us-alliance-needs-the-dark-eagle/</link>
-      <description>Focusing strictly on China’s anxieties misses a far more urgent reality: South Korea faces an existential threat from North Korea.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/why-the-south-korea-us-alliance-needs-the-dark-eagle/</guid>
-      <pubDate>Wed, 09 Sep 2026 12:58:00 +0000</pubDate>
     </item>
     <item>
       <title>The AI policy window is open. We need to act.</title>
@@ -1633,33 +1497,12 @@
       <pubDate>Wed, 09 Sep 2026 13:38:38 +0000</pubDate>
     </item>
     <item>
-      <title>Turkish, Kazakh, and Malaysian Companies Hit With New US Sanctions Over Iran</title>
-      <link>https://thediplomat.com/2026/09/turkish-kazakh-and-malaysian-companies-hit-with-new-us-sanctions-over-iran/</link>
-      <description>In addition to sanctioning 27 Iranian airlines, the U.S. designated Turkish, Kazakh, and Malaysian companies for serving as general sales agents for long-sanctioned Iranian airline Mahan Air.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/turkish-kazakh-and-malaysian-companies-hit-with-new-us-sanctions-over-iran/</guid>
-      <pubDate>Wed, 09 Sep 2026 13:39:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russia Is Helping Supercharge North Korea’s Military Drones</title>
-      <link>https://thediplomat.com/2026/09/russia-is-helping-supercharge-north-koreas-military-drones/</link>
-      <description>North Korea, already receiving Russian drone technology, could eventually gain access to more advanced capabilities like autonomous AI‑enabled and jet‑powered drones.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/russia-is-helping-supercharge-north-koreas-military-drones/</guid>
-      <pubDate>Wed, 09 Sep 2026 13:39:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Syria’s SDF Folds into the National Army</title>
       <link>https://www.geopoliticalmonitor.com/syria-sdf-folds-into-national-army/</link>
       <description>&lt;p&gt;The SDF has dissolved into the Syrian army, and with it the territorial autonomy of Rojava. What Syria’s Kurds hold instead is a set of guarantees written into the security forces rather than the map.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/syria-sdf-folds-into-national-army/"&gt;Syria’s SDF Folds into the National Army&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/syria-sdf-folds-into-national-army/</guid>
       <pubDate>Wed, 09 Sep 2026 13:55:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Cartel Drone War: Mexican Narcos Are Bringing Ukraine’s Deadliest FPV Tactics Home</title>
-      <link>https://sofrep.com/news/the-cartel-drone-war-mexican-narcos-are-bringing-ukraines-deadliest-fpv-tactics-home/</link>
-      <description>Mexican cartels may be turning Ukraine’s battlefield into a training ground for the next generation of drone warfare along America’s southern border. #DroneWarfare #MexicanCartels #FPVDrones #UkraineWar #CounterNarcotics</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-cartel-drone-war-mexican-narcos-are-bringing-ukraines-deadliest-fpv-tactics-home/</guid>
-      <pubDate>Wed, 09 Sep 2026 14:00:27 +0000</pubDate>
     </item>
     <item>
       <title>Ukraine Strikes Russian Warships And Oil Terminal In Novorossiisk</title>
@@ -1678,32 +1521,11 @@ Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide 
       <pubDate>Wed, 09 Sep 2026 14:23:55 +0000</pubDate>
     </item>
     <item>
-      <title>The Ultimate Hedger: Why Vietnam Is Thriving Amid Global Disorder</title>
-      <link>https://thediplomat.com/2026/09/the-ultimate-hedger-why-vietnam-is-thriving-amid-global-disorder/</link>
-      <description>Vietnam is deeply committed, for strategic and historic reasons, to respond to uncertainty and global geopolitical tensions by hedging. And it's working.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/the-ultimate-hedger-why-vietnam-is-thriving-amid-global-disorder/</guid>
-      <pubDate>Wed, 09 Sep 2026 14:34:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Identity-Based AI Attack Threatens Security of Enterprise Data</title>
       <link>https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data</link>
       <description>&amp;quot;Workflow identity hijacking&amp;quot; can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.</description>
       <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data</guid>
       <pubDate>Wed, 09 Sep 2026 14:39:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>North Korean Elites and Regime Weakness</title>
-      <link>https://thediplomat.com/2026/09/north-korean-elites-and-regime-weakness/</link>
-      <description>Insights from Jieun Baek.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/north-korean-elites-and-regime-weakness/</guid>
-      <pubDate>Wed, 09 Sep 2026 14:51:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>“This Unspeakable Act”: The Korean Air Lines 007 Shootdown</title>
-      <link>https://sofrep.com/news/this-unspeakable-act-the-korean-air-lines-007-shootdown/</link>
-      <description>A navigational error sent Korean Air Lines Flight 007 deep into Soviet airspace, where one cold-blooded command condemned 269 innocent people to a horrifying death. #KAL007 #ColdWarHistory #MilitaryAviation #SovietUnion #AviationHistory</description>
-      <guid isPermaLink="false">https://sofrep.com/news/this-unspeakable-act-the-korean-air-lines-007-shootdown/</guid>
-      <pubDate>Wed, 09 Sep 2026 15:00:27 +0000</pubDate>
     </item>
     <item>
       <title>FBI cyber chief worries private sector not sharing enough cyber threat information</title>
@@ -1773,27 +1595,6 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Wed, 09 Sep 2026 16:34:05 +0000</pubDate>
     </item>
     <item>
-      <title>Elbit America rebrands as Twenty-Six Defense</title>
-      <link>https://breakingdefense.com/2026/09/elbit-america-rebrands-as-twenty-six-defense/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/elbit-america-rebrands-as-twenty-six-defense/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/TwentySixDefense_Skystriker_dusk_1920x1080-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The US arm of the Israeli weapons firm employs 3,300 people across 10 states, the company said on its website.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/elbit-america-rebrands-as-twenty-six-defense/</guid>
-      <pubDate>Wed, 09 Sep 2026 16:36:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pentagon’s $1.5B reprogramming would shift money to AI center, MV-75 tiltrotor</title>
-      <link>https://breakingdefense.com/2026/09/pentagons-1-5b-reprogramming-would-shift-money-to-ai-center-mv-75-tiltrotor/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/pentagons-1-5b-reprogramming-would-shift-money-to-ai-center-mv-75-tiltrotor/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="361" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1776442851693.jpg" style="height: auto!important;" width="640" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The request would also reroute money destined for an international counter-ISIS training program.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/pentagons-1-5b-reprogramming-would-shift-money-to-ai-center-mv-75-tiltrotor/</guid>
-      <pubDate>Wed, 09 Sep 2026 16:45:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>US says Chinese firms extracted billions of tokens from frontier AI models</title>
-      <link>https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/</link>
-      <description>U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/</guid>
-      <pubDate>Wed, 09 Sep 2026 16:48:33 +0000</pubDate>
-    </item>
-    <item>
       <title>North Korea’s Nicaragua Courtship</title>
       <link>https://thediplomat.com/2026/09/north-koreas-nicaragua-courtship/</link>
       <description>At a time when Pyongyang is restructuring its foreign relationships, its diplomatic focus on the Central American nation stands out.</description>
@@ -1831,13 +1632,6 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Wed, 09 Sep 2026 17:26:31 +0000</pubDate>
     </item>
     <item>
-      <title>Lockheed Martin secures $950M Australian air battle management contract</title>
-      <link>https://breakingdefense.com/2026/09/lockheed-martin-secures-950m-australian-air-battle-management-contract/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/lockheed-martin-secures-950m-australian-air-battle-management-contract/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/20260617raaf8700656_0003-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Lockheed Martin says the enhancements under Australia’s Project AIR6500 Tranche 2B will establish a “scalable path” for future improvements and integration of future technological advances.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/lockheed-martin-secures-950m-australian-air-battle-management-contract/</guid>
-      <pubDate>Wed, 09 Sep 2026 17:30:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Forced Into the Right Decision? A Look at U.S. Land-Based Deterrence Posture</title>
       <link>https://warontherocks.com/forced-into-the-right-decision-a-look-at-u-s-land-based-deterrence-posture/</link>
       <description>&lt;p&gt;In 2019, Steve Fetter wrote &amp;#8220;A Cheaper Nuclear Sponge,&amp;#8221; in which he argued that building a new intercontinental ballistic missile (ICBM) was unnecessary for strengthening U.S. land-based deterrence. After several years of changing defense budgets and strategic priorities, we asked Steve to revisit his arguments.Image: U.S. Air Force (John Ingle)In your 2019 article, you argued that building an entirely new ICBM was unnecessary and that the Pentagon could save tens of billions by extending the life of the Minuteman III instead. Nearly seven years on, how has that argument held up? What has the new ballistic missile program&amp;#8217;s trajectory looked&lt;/p&gt;
@@ -1861,13 +1655,6 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Wed, 09 Sep 2026 17:54:42 +0000</pubDate>
     </item>
     <item>
-      <title>Shifting Poles and Power 35 Years After the End of the Soviet Union</title>
-      <link>https://thediplomat.com/2026/09/shifting-poles-and-power-35-years-after-the-end-of-the-soviet-union/</link>
-      <description>For many post-Soviet states, multipolarity is nothing new. Navigating between competing powers has been an important part of their security strategy since independence.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/shifting-poles-and-power-35-years-after-the-end-of-the-soviet-union/</guid>
-      <pubDate>Wed, 09 Sep 2026 18:04:00 +0000</pubDate>
-    </item>
-    <item>
       <title>U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto</title>
       <link>https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html</link>
       <description>The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run the service, confiscating two cryptocurrency wallets, and deploying the Scam Center Strike Force to Madagascar to help disrupt 13 scam compounds run by Chinese organized crime</description>
@@ -1883,17 +1670,10 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Wed, 09 Sep 2026 18:32:38 +0000</pubDate>
     </item>
     <item>
-      <title>Poland’s WB Group unveils Warmate 30, latest in drone recon/strike system</title>
-      <link>https://breakingdefense.com/2026/09/polands-wb-group-unveils-warmate-30-latest-in-drone-recon-strike-system/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/polands-wb-group-unveils-warmate-30-latest-in-drone-recon-strike-system/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260909_MSPO_warmate30_BART-scaled-e1788974272519-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The UAV is &amp;#8220;designed to detect and engage high-value, time-sensitive targets at long range,&amp;#8221; the company said.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/polands-wb-group-unveils-warmate-30-latest-in-drone-recon-strike-system/</guid>
-      <pubDate>Wed, 09 Sep 2026 18:43:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lawmakers call on Treasury to sanction hackers-for-hire</title>
+      <title>Lawmakers call on Commerce to sanction hackers-for-hire</title>
       <link>https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/</link>
       <description>&lt;p&gt;The groups have allegedly targeted American citizens and companies, including the wife of GOP Senate candidate Mike Rogers, a former representative running in a Michigan swing race. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/"&gt;Lawmakers call on Treasury to sanction hackers-for-hire&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/"&gt;Lawmakers call on Commerce to sanction hackers-for-hire&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/</guid>
       <pubDate>Wed, 09 Sep 2026 18:43:58 +0000</pubDate>
     </item>
@@ -1966,13 +1746,6 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Wed, 09 Sep 2026 21:00:17 +0000</pubDate>
     </item>
     <item>
-      <title>Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking</title>
-      <link>https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/</link>
-      <description>The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/</guid>
-      <pubDate>Wed, 09 Sep 2026 21:02:14 +0000</pubDate>
-    </item>
-    <item>
       <title>AI-powered biowarfare is coming; the Army lays plans to ‘fight through’ it</title>
       <link>https://www.defenseone.com/technology/2026/09/ai-powered-biowarfare-looms-army-lays-plans-fight-through-it/415886/</link>
       <description>A new strategy aims to prepare to “deploy, fight, and win decisively in a bio-contested environment” by 2035.</description>
@@ -1990,16 +1763,9 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
     <item>
       <title>Mythos Vulnerability Firehose Hits a Human Bottleneck</title>
       <link>https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck</link>
-      <description>An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.</description>
+      <description>An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.</description>
       <guid isPermaLink="false">https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck</guid>
       <pubDate>Wed, 09 Sep 2026 21:19:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>AdaptHealth confirms 4.1 million people exposed in July cyberattack</title>
-      <link>https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/</link>
-      <description>Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/</guid>
-      <pubDate>Wed, 09 Sep 2026 21:30:36 +0000</pubDate>
     </item>
     <item>
       <title>Ukraine Carried Out Its Deepest Drone Strike On Russia Ever</title>
@@ -2024,6 +1790,13 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Wed, 09 Sep 2026 22:02:35 +0000</pubDate>
     </item>
     <item>
+      <title>El Niño, Climate Catastrophe, and the Coming Financial Showdown</title>
+      <link>https://thediplomat.com/2026/09/el-nino-climate-catastrophe-and-the-coming-financial-showdown/</link>
+      <description>Pablo Berrutti discusses Nepal’s glacial collapse, Indonesia’s wildfires, and why efforts at climate mitigation are falling short.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/el-nino-climate-catastrophe-and-the-coming-financial-showdown/</guid>
+      <pubDate>Wed, 09 Sep 2026 22:34:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Former US ambassador Khalilzad visits Kabul, attends Taliban oil deal signing</title>
       <link>https://www.longwarjournal.org/archives/2026/09/former-us-ambassador-khalilzad-visits-kabul-attends-taliban-oil-deal-signing.php</link>
       <description>&lt;p&gt;Former US Ambassador to Afghanistan Zalmay Khalilzad met with senior Taliban officials and attended the signing of a major oil and gas agreement with a Saudi company, despite the US State Department insisting that he was acting solely “in a personal capacity.” Whatever his intentions, Khalilzad gave the Taliban something it has sought since returning to power: an appearance of American validation.&lt;/p&gt;
@@ -2039,6 +1812,20 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Wed, 09 Sep 2026 23:32:12 +0000</pubDate>
     </item>
     <item>
+      <title>Build more natural voice experiences with GPT‑Live‑1 in the API</title>
+      <link>https://openai.com/index/introducing-gpt-live-1-in-the-api</link>
+      <description>GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-gpt-live-1-in-the-api</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Philippine Court Acquits Former First Lady Imelda Marcos of Corruption</title>
+      <link>https://thediplomat.com/2026/09/philippine-court-acquits-former-first-lady-imelda-marcos-of-corruption/</link>
+      <description>In 2018, the mother of the current president was accused of using Swiss foundations to transfer at least $200 million abroad during her 1975-1986 term as Manila governor.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/philippine-court-acquits-former-first-lady-imelda-marcos-of-corruption/</guid>
+      <pubDate>Thu, 10 Sep 2026 01:06:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The Coming Risks to Russian Power</title>
       <link>https://www.foreignaffairs.com/russia/coming-risks-russian-power</link>
       <description>Can Moscow adjust its foreign policy for a changing world?</description>
@@ -2047,10 +1834,24 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
     </item>
     <item>
       <title>The Case for Letting China In</title>
-      <link>https://www.foreignaffairs.com/china/case-letting-china</link>
+      <link>https://www.foreignaffairs.com/china/case-letting-china-american-businesses-brian-deese</link>
       <description>American businesses need more foreign capital and know-how.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/china/case-letting-china</guid>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/case-letting-china-american-businesses-brian-deese</guid>
       <pubDate>Thu, 10 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vietnam’s To Lam Concludes State Visit to Russia, Departs For France</title>
+      <link>https://thediplomat.com/2026/09/vietnams-to-lam-concludes-state-visit-to-russia-departs-for-france/</link>
+      <description>The Vietnamese leader and his counterpart Vladimir Putin identified trade and energy as important areas of future bilateral cooperation.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/vietnams-to-lam-concludes-state-visit-to-russia-departs-for-france/</guid>
+      <pubDate>Thu, 10 Sep 2026 04:56:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is Indonesia’s 100 GW Solar Plan Realistic?</title>
+      <link>https://thediplomat.com/2026/09/is-indonesias-100-gw-solar-plan-realistic/</link>
+      <description>Whether or not the goal is achievable, it sends a strong signal that Jakarta is serious about putting more resources toward clean energy.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/is-indonesias-100-gw-solar-plan-realistic/</guid>
+      <pubDate>Thu, 10 Sep 2026 05:04:00 +0000</pubDate>
     </item>
     <item>
       <title>Iran Using Executions To Deter Dissent, Rights Groups Say</title>
@@ -2080,9 +1881,23 @@ The first in-the-wild use of BlueMoon has been attributed to the China-aligned s
       <pubDate>Thu, 10 Sep 2026 06:56:33 +0000</pubDate>
     </item>
     <item>
+      <title>Why Have Indians Become a Regular Target of Hate in Singapore?</title>
+      <link>https://thediplomat.com/2026/09/why-have-indians-become-a-regular-target-of-hate-in-singapore/</link>
+      <description>Popular resentment toward the city-state's Indian community and Indian nationals has been building for some time.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/why-have-indians-become-a-regular-target-of-hate-in-singapore/</guid>
+      <pubDate>Thu, 10 Sep 2026 06:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Expanding AI access and cyber defense for federal, state, local, and tribal governments</title>
+      <link>https://openai.com/index/expanding-ai-access-us-government</link>
+      <description>OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.</description>
+      <guid isPermaLink="false">https://openai.com/index/expanding-ai-access-us-government</guid>
+      <pubDate>Thu, 10 Sep 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>EU Cyber Resilience Act to Enforce New Reporting Requirements</title>
       <link>https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements</link>
-      <description>Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.</description>
+      <description>Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements</guid>
       <pubDate>Thu, 10 Sep 2026 07:00:00 +0000</pubDate>
     </item>
@@ -2151,6 +1966,13 @@ Anyone who holds it can read every</description>
       <pubDate>Thu, 10 Sep 2026 09:10:20 +0000</pubDate>
     </item>
     <item>
+      <title>Al-Qaida: 25 Years After 9/11</title>
+      <link>https://thediplomat.com/2026/09/al-qaida-25-years-after-9-11/</link>
+      <description>The current threat from al-Qaida is diffused. It relies on homegrown, lone-actor terrorists to carry out low-end attacks, such as stabbing and vehicle ramming.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/al-qaida-25-years-after-9-11/</guid>
+      <pubDate>Thu, 10 Sep 2026 09:41:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Can the US battery market untangle from China?</title>
       <link>https://www.technologyreview.com/2026/09/10/1143791/us-china-batteries/</link>
       <description>The US is hitting records for the rapid growth of its energy storage market. That’ll go a long way to shoring up the grid, increasing reliability and also cutting emissions, since batteries can help store energy from intermittent renewables like wind and solar. Crucially, this is all happening with the help of cheap Chinese batteries,&amp;#8230;</description>
@@ -2201,7 +2023,7 @@ The vulnerabilities are listed below -
     <item>
       <title>Zelenskyy In Canada Seeking Support Amid Destructive Russian Attacks</title>
       <link>https://www.rferl.org/a/zelenskyy-canada-support-russian-missile-attacks/33851650.html</link>
-      <description>President Volodymyr Zelenskyy has arrived in Canada in an attempt to shore up  support from Ukraine's allies amid destructive Russian drone and missile attacks on Kyiv and other major cities.</description>
+      <description>PAVLOHRAD, Ukraine -- President Volodymyr Zelenskyy said Ottawa will provide Ukraine with air defense support as he visited Canada in an attempt to shore up support from the country's allies amid deadly Russian drone and missile attacks.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/zelenskyy-canada-support-russian-missile-attacks/33851650.html</guid>
       <pubDate>Thu, 10 Sep 2026 10:47:46 +0000</pubDate>
     </item>
@@ -2299,6 +2121,1009 @@ One flaw affects Check Point's Security Gateways, its firewall appliances. The o
       <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>AVEVA Pipeline Integrity Monitor</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-253-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of AVEVA Pipeline Integrity Monitor are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AVEVA Pipeline Integrity Monitor &amp;lt;=2025_SP1_P1_build_7.1.9580.8513 (CVE-2026-81821, CVE-2026-81822, CVE-2026-81823, CVE-2026-81824)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 8.4&lt;/td&gt;
+&lt;td&gt;AVEVA&lt;/td&gt;
+&lt;td&gt;AVEVA Pipeline Integrity Monitor&lt;/td&gt;
+&lt;td&gt;Use of Hard-coded Cryptographic Key, Use of a Broken or Risky Cryptographic Algorithm, Missing Authorization, Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United Kingdom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-81821&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The vulnerability, if exploited, could allow a miscreant with read access to PIMBoards project files to decrypt and view sensitive information.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81821"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;AVEVA Pipeline Integrity Monitor&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;AVEVA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;AVEVA Pipeline Integrity Monitor: &amp;lt;=2025_SP1_P1_build_7.1.9580.8513&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;AVEVA recommends that organizations evaluate the impact of these vulnerabilities based on their operational environment, architecture, and product implementation. Customers using affected product versions or affected PIMBoards project files should take the following actions to mitigate the risk of exploit:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply AVEVA Pipeline Integrity Monitor 2025 SP1 P2 Security Update and migrate old project files.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;For project files that cannot be migrated (e.g. backups or transient copies), evaluate the risk of potential password leakage from these files and implement stricter read access controls to protect these unsafe files.&lt;/li&gt;
+&lt;li&gt;Require AVEVA Pipeline Integrity Monitor PIMBoards users to change their passwords.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Important: PIMBoards Project Files migration from older versions to AVEVA Pipeline Integrity Monitor 2025 SP1 P2 is one-way due to the changes in password hashing algorithms and end-user managed encryption keys.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information, see AVEVA security bulletin AVEVA-2026-006.&amp;nbsp;&lt;br /&gt;&lt;a href="https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2026-006.pdf"&gt;https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2026-006.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/321.html"&gt;CWE-321 Use of Hard-coded Cryptographic Key&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.4&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N"&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;8.3&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:H/SI:H/SA:N"&gt;CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:H/SI:H/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-81822&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The vulnerability, if exploited, could allow a miscreant with read access to PIMBoards project files to reverse engineer PIMBoards users' app-native passwords through computational brute-forcing of weak hashes, potentially allowing elevation to a PIMBoards administrator user.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81822"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;AVEVA Pipeline Integrity Monitor&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;AVEVA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;AVEVA Pipeline Integrity Monitor: &amp;lt;=2025_SP1_P1_build_7.1.9580.8513&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;AVEVA recommends that organizations evaluate the impact of these vulnerabilities based on their operational environment, architecture, and product implementation. Customers using affected product versions or affected PIMBoards project files should take the following actions to mitigate the risk of exploit:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply AVEVA Pipeline Integrity Monitor 2025 SP1 P2 Security Update and migrate old project files.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;For project files that cannot be migrated (e.g. backups or transient copies), evaluate the risk of potential password leakage from these files and implement stricter read access controls to protect these unsafe files.&lt;/li&gt;
+&lt;li&gt;Require AVEVA Pipeline Integrity Monitor PIMBoards users to change their passwords.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Important: PIMBoards Project Files migration from older versions to AVEVA Pipeline Integrity Monitor 2025 SP1 P2 is one-way due to the changes in password hashing algorithms and end-user managed encryption keys.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information, see AVEVA security bulletin AVEVA-2026-006.&amp;nbsp;&lt;br /&gt;&lt;a href="https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2026-006.pdf"&gt;https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2026-006.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/327.html"&gt;CWE-327 Use of a Broken or Risky Cryptographic Algorithm&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.4&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N"&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;8.3&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:H/SI:H/SA:N"&gt;CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:H/SI:H/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-81823&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The vulnerability, if exploited, could allow an unauthenticated miscreant to perform read operations intended only for PIMBoards users, resulting in information disclosure. Write operations are not impacted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81823"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;AVEVA Pipeline Integrity Monitor&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;AVEVA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;AVEVA Pipeline Integrity Monitor: &amp;lt;=2025_SP1_P1_build_7.1.9580.8513&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;AVEVA recommends that organizations evaluate the impact of these vulnerabilities based on their operational environment, architecture, and product implementation. Customers using affected product versions or affected PIMBoards project files should take the following actions to mitigate the risk of exploit:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply AVEVA Pipeline Integrity Monitor 2025 SP1 P2 Security Update and migrate old project files.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;For project files that cannot be migrated (e.g. backups or transient copies), evaluate the risk of potential password leakage from these files and implement stricter read access controls to protect these unsafe files.&lt;/li&gt;
+&lt;li&gt;Require AVEVA Pipeline Integrity Monitor PIMBoards users to change their passwords.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Important: PIMBoards Project Files migration from older versions to AVEVA Pipeline Integrity Monitor 2025 SP1 P2 is one-way due to the changes in password hashing algorithms and end-user managed encryption keys.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information, see AVEVA security bulletin AVEVA-2026-006.&amp;nbsp;&lt;br /&gt;&lt;a href="https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2026-006.pdf"&gt;https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2026-006.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/862.html"&gt;CWE-862 Missing Authorization&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;5.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;6.9&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-81824&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The vulnerability, if exploited, could allow a miscreant to run arbitrary JavaScript code in a browser session of a PIMBoards user who was socially engineered to click on a malicious link.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81824"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;AVEVA Pipeline Integrity Monitor&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;AVEVA&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;AVEVA Pipeline Integrity Monitor: &amp;lt;=2025_SP1_P1_build_7.1.9580.8513&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;AVEVA recommends that organizations evaluate the impact of these vulnerabilities based on their operational environment, architecture, and product implementation. Customers using affected product versions or affected PIMBoards project files should take the following actions to mitigate the risk of exploit:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply AVEVA Pipeline Integrity Monitor 2025 SP1 P2 Security Update and migrate old project files.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;For project files that cannot be migrated (e.g. backups or transient copies), evaluate the risk of potential password leakage from these files and implement stricter read access controls to protect these unsafe files.&lt;/li&gt;
+&lt;li&gt;Require AVEVA Pipeline Integrity Monitor PIMBoards users to change their passwords.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Important: PIMBoards Project Files migration from older versions to AVEVA Pipeline Integrity Monitor 2025 SP1 P2 is one-way due to the changes in password hashing algorithms and end-user managed encryption keys.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more information, see AVEVA security bulletin AVEVA-2026-006.&amp;nbsp;&lt;br /&gt;&lt;a href="https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2026-006.pdf"&gt;https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2026-006.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/79.html"&gt;CWE-79 Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;4.7&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;6.3&lt;/td&gt;
+&lt;td&gt;MEDIUM&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:N/SC:L/SI:H/SA:H"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:N/SC:L/SI:H/SA:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AVEVA reported vulnerabilities CVE-2026-81821 and CVE-2026-81822 to CISA.&lt;/li&gt;
+&lt;li&gt;Adham Khairy Ramadan (0xadham) reported vulnerabilities CVE-2026-81823 and CVE-2026-81824 to AVEVA through HackerOne.&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (&lt;a href="https://www.cisa.gov/notification"&gt;https://www.cisa.gov/notification&lt;/a&gt;) and this Privacy &amp;amp; Use policy (&lt;a href="https://www.cisa.gov/privacy-policy"&gt;https://www.cisa.gov/privacy-policy&lt;/a&gt;).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
+&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
+&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
+&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
+&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
+&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-09-10&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Republication of AVEVA security bulletin AVEVA-2026-006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01</guid>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ST Engineering iDirect iQ-Series Terminals (Update A)</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of ST Engineering iDirect iQ-Series Terminals (Update A) are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evolution iQ‑Series terminals &amp;lt;=4.5.2.1 (CVE-2026-38059, CVE-2026-38057, CVE-2026-38056, CVE-2026-38058)&lt;/li&gt;
+&lt;li&gt;3315‑Series terminals &amp;lt;=4.5.2.1 (CVE-2026-38059, CVE-2026-38057, CVE-2026-38056, CVE-2026-38058)&lt;/li&gt;
+&lt;li&gt;9‑Series terminals &amp;lt;=4.5.2.1 (CVE-2026-38059, CVE-2026-38057, CVE-2026-38056, CVE-2026-38058)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 8.8&lt;/td&gt;
+&lt;td&gt;ST Engineering iDirect&lt;/td&gt;
+&lt;td&gt;ST Engineering iDirect iQ-Series Terminals&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;Missing Authentication for Critical Function, Cross-Site Request Forgery (CSRF), Missing Authorization, Exposure of Sensitive System Information to an Unauthorized Control Sphere&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Communications, Defense Industrial Base, Energy, Government Services and Facilities, Transportation Systems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-38059&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The iDirect iQ200 exposes the /api/identity and /api/ REST API endpoints without authentication. An unauthenticated attacker with network access can retrieve sensitive device information including the serial number, Device ID (DID), Terminal Private Key identifier (TPK), MAC address, and exact firmware version. The DID and TPK are used for satellite network authentication in the iDirect platform, potentially enabling terminal impersonation and network reconnaissance.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-38059"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;ST Engineering iDirect iQ-Series Terminals (Update A)&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect Evolution iQ‑Series terminals: &amp;lt;=4.5.2.1, ST Engineering iDirect 3315‑Series terminals: &amp;lt;=4.5.2.1, ST Engineering iDirect 9‑Series terminals: &amp;lt;=4.5.2.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect has fixed the vulnerabilities and recommend users update the software to version 4.5.3.0 or newer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Registered users are able to download patches from the iDirect Support Portal https://support.idirect.net.&lt;br /&gt;&lt;a href="https://support.idirect.net"&gt;https://support.idirect.net&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Restrict management interfaces to trusted networks (e.g., VPN, ACLs).&lt;/li&gt;
+&lt;li&gt;Avoid exposing administrative APIs to the public internet.&lt;/li&gt;
+&lt;li&gt;Enforce strong authentication practices.&lt;/li&gt;
+&lt;li&gt;Monitor for anomalous API activity and unexpected device reboots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;7.5&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;8.7&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-38057&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The iDirect iQ200 does not validate CSRF tokens on state-changing API endpoints after authentication. The /api/reboot endpoint accepts POST requests authenticated solely by a session cookie that lacks the SameSite attribute. A remote attacker can host a malicious web page that, when visited by an authenticated administrator, automatically submits a cross-site POST request causing an immediate device reboot and satellite link loss. Repeated attacks can sustain a denial-of-service condition.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-38057"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;ST Engineering iDirect iQ-Series Terminals (Update A)&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect Evolution iQ‑Series terminals: &amp;lt;=4.5.2.1, ST Engineering iDirect 3315‑Series terminals: &amp;lt;=4.5.2.1, ST Engineering iDirect 9‑Series terminals: &amp;lt;=4.5.2.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect has fixed the vulnerabilities and recommend users update the software to version 4.5.3.0 or newer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Registered users are able to download patches from the iDirect Support Portal https://support.idirect.net.&lt;br /&gt;&lt;a href="https://support.idirect.net"&gt;https://support.idirect.net&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Restrict management interfaces to trusted networks (e.g., VPN, ACLs).&lt;/li&gt;
+&lt;li&gt;Avoid exposing administrative APIs to the public internet.&lt;/li&gt;
+&lt;li&gt;Enforce strong authentication practices.&lt;/li&gt;
+&lt;li&gt;Monitor for anomalous API activity and unexpected device reboots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/352.html"&gt;CWE-352 Cross-Site Request Forgery (CSRF)&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-38056&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;A local privilege escalation vulnerability exists in the iDirect iQ200 VSAT terminal running firmware 23.0.1.0. The iQ200 is a rackmount satellite modem deployed across oil and gas, maritime, defense, and remote infrastructure as the primary, and often sole communications link for offshore rigs, vessels, and remote sites. Important context: the device ships from the factory with a pre-configured low-privilege local user account. This account is intended for field technicians who need shell access for maintenance and diagnostics but should not have full administrative control over the device. This built-in account provides the initial access required to exploit this vulnerability. No additional credentials need to be obtained or brute-forced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-38056"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;ST Engineering iDirect iQ-Series Terminals (Update A)&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect Evolution iQ‑Series terminals: &amp;lt;=4.5.2.1, ST Engineering iDirect 3315‑Series terminals: &amp;lt;=4.5.2.1, ST Engineering iDirect 9‑Series terminals: &amp;lt;=4.5.2.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect has fixed the vulnerabilities and recommend users update the software to version 4.5.3.0 or newer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Registered users are able to download patches from the iDirect Support Portal https://support.idirect.net.&lt;br /&gt;&lt;a href="https://support.idirect.net"&gt;https://support.idirect.net&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Restrict management interfaces to trusted networks (e.g., VPN, ACLs).&lt;/li&gt;
+&lt;li&gt;Avoid exposing administrative APIs to the public internet.&lt;/li&gt;
+&lt;li&gt;Enforce strong authentication practices.&lt;/li&gt;
+&lt;li&gt;Monitor for anomalous API activity and unexpected device reboots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/862.html"&gt;CWE-862 Missing Authorization&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.8&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;9.4&lt;/td&gt;
+&lt;td&gt;CRITICAL&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H"&gt;CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-38058&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The endpoint on the iDirect iQ200 VSAT terminal returns the complete device configuration as JSON, including the SECURITY section which contains MD5-crypt password hashes for the root SSH and web administration accounts. Any user with valid web credentials can extract these hashes and crack them offline using commodity hardware.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-38058"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;ST Engineering iDirect iQ-Series Terminals (Update A)&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect Evolution iQ‑Series terminals: &amp;lt;=4.5.2.1, ST Engineering iDirect 3315‑Series terminals: &amp;lt;=4.5.2.1, ST Engineering iDirect 9‑Series terminals: &amp;lt;=4.5.2.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;ST Engineering iDirect has fixed the vulnerabilities and recommend users update the software to version 4.5.3.0 or newer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Registered users are able to download patches from the iDirect Support Portal https://support.idirect.net.&lt;br /&gt;&lt;a href="https://support.idirect.net"&gt;https://support.idirect.net&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Restrict management interfaces to trusted networks (e.g., VPN, ACLs).&lt;/li&gt;
+&lt;li&gt;Avoid exposing administrative APIs to the public internet.&lt;/li&gt;
+&lt;li&gt;Enforce strong authentication practices.&lt;/li&gt;
+&lt;li&gt;Monitor for anomalous API activity and unexpected device reboots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/497.html"&gt;CWE-497 Exposure of Sensitive System Information to an Unauthorized Control Sphere&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;8.6&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ahmed Alqahtani of Aramco reported these vulnerabilities to CISA.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (&lt;a href="https://www.cisa.gov/notification"&gt;https://www.cisa.gov/notification&lt;/a&gt;) and this Privacy &amp;amp; Use policy (&lt;a href="https://www.cisa.gov/privacy-policy"&gt;https://www.cisa.gov/privacy-policy&lt;/a&gt;).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
+&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
+&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
+&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
+&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-07-02&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-07-02&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-09-10&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Update A - Updated Vulnerabilities and CVSS 4.0 score in Executive Summary. Added CVE-2026-38056 and CVE-2026-38058. Updated Mitigation section with newest product version.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01</guid>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NextGen Healthcare Mirth Connect</title>
+      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-253-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of NextGen Healthcare Mirth Connect are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mirth Connect &amp;lt;=v4.7.1 (CVE-2026-82583, CVE-2026-78224, CVE-2026-82578)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 8.3&lt;/td&gt;
+&lt;td&gt;NextGen Healthcare&lt;/td&gt;
+&lt;td&gt;NextGen Healthcare Mirth Connect&lt;/td&gt;
+&lt;td&gt;Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'), Improper Restriction of XML External Entity Reference&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Healthcare and Public Health&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;United States&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-82583&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;NextGen Connect (Mirth Connect) versions 4.7.1 and earlier allow an authenticated user to execute arbitrary SQL through a Database Connector API, which could result in disclosure of stored credentials for connected systems, arbitrary file write, and a denial-of-service condition.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-82583"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;NextGen Healthcare Mirth Connect&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;NextGen Healthcare&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;NextGen Healthcare Mirth Connect: &amp;lt;=v4.7.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;NextGen recommends users update Mirth Connect v4.7.2 or later. Users can download the latest version from the NextGen Healthcare customer portal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/89.html"&gt;CWE-89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.3&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.2&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-78224&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;The XSLT Transformer Step builds a bare TransformerFactory without the proper security options set, so XXE injection can allow data exfiltration and denial-of-service attacks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-78224"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;NextGen Healthcare Mirth Connect&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;NextGen Healthcare&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;NextGen Healthcare Mirth Connect: &amp;lt;=v4.7.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;NextGen recommends users update Mirth Connect v4.7.2 or later. Users can download the latest version from the NextGen Healthcare customer portal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/611.html"&gt;CWE-611 Improper Restriction of XML External Entity Reference&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.2&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;8.8&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-82578&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;When XML batch processing is turned on and the XPath option is selected, the raw batch input goes through a default XPath/JAXP setup with no entity restrictions, so XXE injection can allow data exfiltration and denial-of-service attacks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-82578"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;NextGen Healthcare Mirth Connect&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;NextGen Healthcare&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;NextGen Healthcare Mirth Connect: &amp;lt;=v4.7.1&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;NextGen recommends users update Mirth Connect v4.7.2 or later. Users can download the latest version from the NextGen Healthcare customer portal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/611.html"&gt;CWE-611 Improper Restriction of XML External Entity Reference&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;7.5&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;8.7&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Abhinav Agarwal reported these vulnerabilities to CISA.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (&lt;a href="https://www.cisa.gov/notification"&gt;https://www.cisa.gov/notification&lt;/a&gt;) and this Privacy &amp;amp; Use policy (&lt;a href="https://www.cisa.gov/privacy-policy"&gt;https://www.cisa.gov/privacy-policy&lt;/a&gt;).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
+&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
+&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
+&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
+&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
+&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-09-10&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01</guid>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Orthanc DICOM Server</title>
+      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02</link>
+      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-253-02.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an attacker-supplied PNG or JPEG image, resulting in a crash of the Orthanc process and a denial-of-service condition.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following versions of Orthanc DICOM Server are affected:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Orthanc DICOM Server &amp;lt;1.13.0. (CVE-2026-87020)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="csaf-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS&lt;/th&gt;
+&lt;th&gt;Vendor&lt;/th&gt;
+&lt;th&gt;Equipment&lt;/th&gt;
+&lt;th&gt;Vulnerabilities&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v3 8.1&lt;/td&gt;
+&lt;td&gt;Orthanc&lt;/td&gt;
+&lt;td&gt;Orthanc DICOM Server&lt;/td&gt;
+&lt;td&gt;Integer Overflow or Wraparound&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Healthcare and Public Health&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Belgium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
+&lt;div class="csaf-accordion"&gt;
+&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
+&lt;div class="csaf-accordion-item"&gt;
+&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-87020&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="csaf-accordion-content"&gt;
+&lt;p&gt;An integer overflow in a specified pitch and buffer-size computation leads to a heap out-of-bounds write when Orthanc decodes an attacker-supplied PNG.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-87020"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Affected Products&lt;/h4&gt;
+&lt;h5&gt;Orthanc DICOM Server&lt;/h5&gt;
+&lt;div class="ics-vendor-version-status"&gt;
+&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Orthanc&lt;/div&gt;
+&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Orthanc DICOM Server: &amp;lt;1.13.0.&lt;/div&gt;
+&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ics-remediations"&gt;
+&lt;h6&gt;Remediations&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Orthanc recommends users update to v1.13.0.&amp;nbsp;&lt;br /&gt;&lt;a href="https://orthanc.uclouvain.be/downloads/index.html"&gt;https://orthanc.uclouvain.be/downloads/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/190.html"&gt;CWE-190 Integer Overflow or Wraparound&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4&gt;Metrics&lt;/h4&gt;
+&lt;div class="csaf-table csaf-metrics-table"&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CVSS Version&lt;/th&gt;
+&lt;th&gt;Base Score&lt;/th&gt;
+&lt;th&gt;Base Severity&lt;/th&gt;
+&lt;th&gt;Vector String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3.1&lt;/td&gt;
+&lt;td&gt;8.1&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;7.2&lt;/td&gt;
+&lt;td&gt;HIGH&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Andrej Tomci reported this vulnerability to CISA.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
+&lt;p&gt;This product is provided subject to this Notification (&lt;a href="https://www.cisa.gov/notification"&gt;https://www.cisa.gov/notification&lt;/a&gt;) and this Privacy &amp;amp; Use policy (&lt;a href="https://www.cisa.gov/privacy-policy"&gt;https://www.cisa.gov/privacy-policy&lt;/a&gt;).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Recommended Practices&lt;/h2&gt;
+&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
+&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
+&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
+&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
+&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
+&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
+&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
+&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
+&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
+&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
+&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
+&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
+&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
+&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Revision History&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table class="tablesaw tablesaw-stack"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Revision&lt;/th&gt;
+&lt;th&gt;Summary&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2026-09-10&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Initial Publication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02</guid>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>How the AK-47 Became the World’s Most Iconic Assault Rifle</title>
       <link>https://sofrep.com/gear/how-the-ak-47-became-the-worlds-most-iconic-assault-rifle/</link>
       <description>Discover how the AK-47 became the symbol of revolution and insurgency, its unmatched durability making it a staple in conflicts worldwide. #AK47History
@@ -2320,6 +3145,20 @@ One flaw affects Check Point's Security Gateways, its firewall appliances. The o
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. God told them to sell crypto. Their investors lost everything. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinating. According to Eli and his wife,&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/</guid>
       <pubDate>Thu, 10 Sep 2026 12:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Is China Less Active in the 2026 Ebola Epidemic?</title>
+      <link>https://thediplomat.com/2026/09/why-is-china-less-active-in-the-2026-ebola-epidemic/</link>
+      <description>Ten years ago, China was a prominent source of Ebola aid. Today, China’s more powerful but its response is less than many expected – especially as the U.S. steps back.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/why-is-china-less-active-in-the-2026-ebola-epidemic/</guid>
+      <pubDate>Thu, 10 Sep 2026 12:34:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Kazakhstan’s New Unicameral Parliament Means for Its Foreign Policy</title>
+      <link>https://thediplomat.com/2026/09/what-kazakhstans-new-unicameral-parliament-means-for-its-foreign-policy/</link>
+      <description>Although Kazakhstan’s Senate rarely exercised its influence over the country’s foreign policy, its abolishment has left the country without the diplomatic expertise and sequential vetting that the upper chamber once provided.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/what-kazakhstans-new-unicameral-parliament-means-for-its-foreign-policy/</guid>
+      <pubDate>Thu, 10 Sep 2026 12:43:00 +0000</pubDate>
     </item>
     <item>
       <title>Redtail Payload Analysis &amp;#x5b;Guest Diary&amp;#x5d;, (Wed, Sep 9th)</title>
@@ -2349,6 +3188,13 @@ One flaw affects Check Point's Security Gateways, its firewall appliances. The o
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/netherlands-to-purchase-its-own-globaleye-aircraft-on-top-of-natos-order/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/06/globaleye-scaled-e1750268534637-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The plane, which would be delivered in 2031, would be owned directly by the Netherlands. &lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/09/netherlands-to-purchase-its-own-globaleye-aircraft-on-top-of-natos-order/</guid>
       <pubDate>Thu, 10 Sep 2026 13:09:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>East Asia’s Quiet Race to Find the Universe’s Missing Mass</title>
+      <link>https://thediplomat.com/2026/09/east-asias-quiet-race-to-find-the-universes-missing-mass/</link>
+      <description>China, South Korea, and Japan all run their own programs to detect dark matter, some of them world-leading in sensitivity.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/east-asias-quiet-race-to-find-the-universes-missing-mass/</guid>
+      <pubDate>Thu, 10 Sep 2026 13:13:00 +0000</pubDate>
     </item>
     <item>
       <title>Ukrainian Armor eyes German industry partnership for newly unveiled land vehicles</title>
@@ -2403,10 +3249,10 @@ One flaw affects Check Point's Security Gateways, its firewall appliances. The o
       <pubDate>Thu, 10 Sep 2026 14:00:10 +0000</pubDate>
     </item>
     <item>
-      <title>Can America Keep Its Navy Fighting? The Industrial Capacity Behind American Naval Power</title>
-      <link>https://sofrep.com/?p=230837&amp;preview=true&amp;preview_id=230837</link>
-      <description>America still has a formidable Navy, but unless it rebuilds the shipyards, workforce, and suppliers behind that fleet, it may lack the industrial endurance to keep fighting when the next war runs long.</description>
-      <guid isPermaLink="false">https://sofrep.com/?p=230837&amp;preview=true&amp;preview_id=230837</guid>
+      <title>Can America Keep Its Navy Fighting? Inside the Shipbuilding Crisis Threatening American Naval Power</title>
+      <link>https://sofrep.com/news/can-america-keep-its-navy-fighting-inside-the-shipbuilding-crisis-threatening-american-naval-power/</link>
+      <description>America still has a formidable Navy, but unless it rebuilds the shipyards, workforce, and suppliers behind that fleet, it may lack the industrial endurance to keep fighting when the next war runs long. #USNavy #NavalPower #Shipbuilding #DefenseIndustry #MilitaryReadiness</description>
+      <guid isPermaLink="false">https://sofrep.com/news/can-america-keep-its-navy-fighting-inside-the-shipbuilding-crisis-threatening-american-naval-power/</guid>
       <pubDate>Thu, 10 Sep 2026 14:00:11 +0000</pubDate>
     </item>
     <item>
@@ -2467,6 +3313,136 @@ Early Access apps are apps that haven't been released on the official Android ap
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/russias-escalating-bombing-campaign-is-terrorizing-ukrainian-schoolchildren/"&gt;Russia’s escalating bombing campaign is terrorizing Ukrainian schoolchildren&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/russias-escalating-bombing-campaign-is-terrorizing-ukrainian-schoolchildren/</guid>
       <pubDate>Thu, 10 Sep 2026 14:40:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>IDScan confirms breach tied to 153 million stolen driver’s licenses</title>
+      <link>https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/</link>
+      <description>Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's license scans. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/</guid>
+      <pubDate>Thu, 10 Sep 2026 14:55:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Now everyone can put data to work</title>
+      <link>https://openai.com/index/put-data-to-work</link>
+      <description>Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.</description>
+      <guid isPermaLink="false">https://openai.com/index/put-data-to-work</guid>
+      <pubDate>Thu, 10 Sep 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gonorrhea Derails a CIA Covert Project</title>
+      <link>https://sofrep.com/news/gonorrhea-disrupts-cia-covert-project/</link>
+      <description>A declassified CIA memo proves that even in the shadowy world of covert operations, gonorrhea and a bad lie can still kill your career. #CIA #Declassified #Espionage #SpyHistory #JamesBond</description>
+      <guid isPermaLink="false">https://sofrep.com/news/gonorrhea-disrupts-cia-covert-project/</guid>
+      <pubDate>Thu, 10 Sep 2026 15:00:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>General Atomics unveils ‘Wildfire’ drone to replace Reaper</title>
+      <link>https://breakingdefense.com/2026/09/general-atomics-unveils-wildfire-drone-to-replace-reaper/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/general-atomics-unveils-wildfire-drone-to-replace-reaper/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Wildfire-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Pitched for the Massed Modular Aircraft program run by the Air Force and Defense Innovation Unit, General Atomics says its new drone design can exceed requirements set by the Pentagon to succeed the MQ-9A Reaper.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/general-atomics-unveils-wildfire-drone-to-replace-reaper/</guid>
+      <pubDate>Thu, 10 Sep 2026 15:17:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit</title>
+      <link>https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit</link>
+      <description>The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit</guid>
+      <pubDate>Thu, 10 Sep 2026 15:29:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/</link>
+      <description>Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/</guid>
+      <pubDate>Thu, 10 Sep 2026 15:43:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI-powered attack exploited PaperCut flaws to hack 395 organizations</title>
+      <link>https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/</link>
+      <description>A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/</guid>
+      <pubDate>Thu, 10 Sep 2026 15:55:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</title>
+      <link>https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</link>
+      <description>César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.</description>
+      <guid isPermaLink="false">https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</guid>
+      <pubDate>Thu, 10 Sep 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navy Destroyer Packs New ‘Piggy-Backed’ Point Defense System That Combines 30mm And .50 Cal Guns</title>
+      <link>https://www.twz.com/sea/navy-destroyer-packs-new-piggy-backed-point-defense-system-that-combines-30mm-and-50-cal-guns</link>
+      <description>&lt;p&gt;The Mk 38 Mod 4 offers a major capability boost, especially against drones, and is now installed on at least one destroyer. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/navy-destroyer-packs-new-piggy-backed-point-defense-system-that-combines-30mm-and-50-cal-guns"&gt;Navy Destroyer Packs New &amp;#8216;Piggy-Backed&amp;#8217; Point Defense System That Combines 30mm And .50 Cal Guns&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/sea/navy-destroyer-packs-new-piggy-backed-point-defense-system-that-combines-30mm-and-50-cal-guns</guid>
+      <pubDate>Thu, 10 Sep 2026 16:12:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>The truth about America’s munitions crisis</title>
+      <link>https://www.longwarjournal.org/archives/2026/09/the-truth-about-americas-munitions-crisis.php</link>
+      <description>&lt;p&gt;What is the true nature of America’s munitions crisis? What are the consequences of the current challenges? How did we get into this position? And what must we do to build the defense industrial base production capacity and munitions arsenals that the US needs? Generation Jihad guest host Bradley Bowman is joined by Colonel (Ret.) Mark Cancian, a senior adviser with the Defense and Security Department at the Center for Strategic and International Studies, to discuss the true state of America’s defense industrial base and arsenal.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/the-truth-about-americas-munitions-crisis.php"&gt;The truth about America’s munitions crisis&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/the-truth-about-americas-munitions-crisis.php</guid>
+      <pubDate>Thu, 10 Sep 2026 16:15:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>With reconciliation uncertain, Pentagon eyeing plan to retool   FY27 priorities with Congress</title>
+      <link>https://breakingdefense.com/2026/09/with-reconciliation-uncertain-pentagon-eyeing-plan-to-retool-fy27-priorities-with-congress/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/with-reconciliation-uncertain-pentagon-eyeing-plan-to-retool-fy27-priorities-with-congress/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/jules-hurst-april-29-scaled-e1777486646940-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In exclusive comments to Breaking Defense, the Pentagon&amp;#8217;s comptroller acknowledged that some efforts may need to be pushed from FY27 into FY28 with help from lawmakers. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/with-reconciliation-uncertain-pentagon-eyeing-plan-to-retool-fy27-priorities-with-congress/</guid>
+      <pubDate>Thu, 10 Sep 2026 16:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Northrop Grumman, SandboxAQ test quantum navigation on Lumberjack UAS</title>
+      <link>https://www.army-technology.com/news/northrop-grumman-sandboxaq-lumberjack/</link>
+      <description>Northrop Grumman has teamed up with SandboxAQ to demonstrate quantum sensing magnetic navigation on its Lumberjack UAS.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/northrop-grumman-sandboxaq-lumberjack/</guid>
+      <pubDate>Thu, 10 Sep 2026 16:35:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>AeroVironment bags first international order for LOCUST laser system</title>
+      <link>https://www.army-technology.com/news/aerovironment-locust-laser-order/</link>
+      <description>AeroVironment has received the first international purchase order for its LOCUST laser weapon system, designed to counter smaller drones.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/aerovironment-locust-laser-order/</guid>
+      <pubDate>Thu, 10 Sep 2026 16:43:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Operational F-15EXs Drop Live Bombs For The First Time</title>
+      <link>https://www.twz.com/air/operational-f-15exs-drop-live-bombs-for-the-first-time</link>
+      <description>&lt;p&gt;The first unit to get the F-15EX is already moving away from its exclusive air-to-air mission roots.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/operational-f-15exs-drop-live-bombs-for-the-first-time"&gt;Operational F-15EXs Drop Live Bombs For The First Time&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/operational-f-15exs-drop-live-bombs-for-the-first-time</guid>
+      <pubDate>Thu, 10 Sep 2026 16:49:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Overlooking the obvious: The most likely way AI can enable terror attacks</title>
+      <link>https://breakingdefense.com/2026/09/overlooking-the-obvious-the-most-likely-way-ai-can-enable-terror-attacks/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/overlooking-the-obvious-the-most-likely-way-ai-can-enable-terror-attacks/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/ai-terorist-scaled-e1788447525594-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Nightmare scenarios of AI-engineered super-plagues or nuclear bombs have, understandably, attracted the most attention. But there is lots of lower-hanging fruit for terrorists.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/overlooking-the-obvious-the-most-likely-way-ai-can-enable-terror-attacks/</guid>
+      <pubDate>Thu, 10 Sep 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DoD cyber strategy aims for ‘something big, something muscular’ in offensive ops</title>
+      <link>https://breakingdefense.com/2026/09/dod-cyber-strategy-aims-for-something-big-something-muscular-in-offensive-ops/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/dod-cyber-strategy-aims-for-something-big-something-muscular-in-offensive-ops/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/6762559-scaled-e1782151740819-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&amp;#8220;It&amp;#8217;s about driving big outcomes and giving the secretary and the president options, more options. We want to move away from things that look like persistent engagement,&amp;#8221; according to Brig. Gen. William Wilburn, deputy principal cyber advisor for the DoD.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/dod-cyber-strategy-aims-for-something-big-something-muscular-in-offensive-ops/</guid>
+      <pubDate>Thu, 10 Sep 2026 17:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What America’s Adversaries and Allies Hope to Gain at the U.N. General Assembly</title>
+      <link>https://warontherocks.com/what-americas-adversaries-and-allies-hope-to-gain-at-the-u-n-general-assembly/</link>
+      <description>&lt;p&gt;This year&amp;#8217;s U.N. General Assembly officially opened on Tuesday, Sept. 8. The annual gathering gives diplomats and leaders a valuable opportunity to press their foreign policy priorities and engage &amp;#8212; formally and informally &amp;#8212; with both partners and adversaries. Most heads of state will arrive later this month for the General Debate that begins on Sept. 22. The General Assembly will wrap up on Sept. 28.U.S. President Donald Trump and his senior officials have strongly criticized the United Nations, withdrawn from multiple U.N. organizations, and reduced funding. More broadly, the Trump administration&amp;#8217;s moves to withdraw some U.S. troops, shift more&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/what-americas-adversaries-and-allies-hope-to-gain-at-the-u-n-general-assembly/"&gt;What America’s Adversaries and Allies Hope to Gain at the U.N. General Assembly&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/what-americas-adversaries-and-allies-hope-to-gain-at-the-u-n-general-assembly/</guid>
+      <pubDate>Thu, 10 Sep 2026 17:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Airborne Reinforcements: How NATO Would Defend the Baltics From Russia</title>
+      <link>https://sofrep.com/news/airborne-reinforcements-how-nato-would-defend-the-baltics-from-russia/</link>
+      <description>If Russia invades Estonia, NATO paratroopers may have only hours to slow the advance, hold the line, and prove that the alliance still means what it says. #NATO #Estonia #Russia #AirborneForces #BalticSecurity</description>
+      <guid isPermaLink="false">https://sofrep.com/news/airborne-reinforcements-how-nato-would-defend-the-baltics-from-russia/</guid>
+      <pubDate>Thu, 10 Sep 2026 17:54:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
