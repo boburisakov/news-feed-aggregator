@@ -7,1016 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 10:00:19 +0000</lastBuildDate>
-    <item>
-      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation. &amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-75650" target="_blank"&gt;CVE-2026-75650&lt;/a&gt; Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-81963" target="_blank"&gt;CVE-2026-81963&lt;/a&gt; Microsoft Windows Link Following Vulnerability &amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-85880" target="_blank"&gt;CVE-2026-85880&lt;/a&gt; Microsoft Windows Heap-Based Buffer Overflow Vulnerability&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-86218" target="_blank"&gt;CVE-2026-86218&lt;/a&gt; N-able N-central Static Code Injection Vulnerability&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CareCam Pro IP Cameras</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-251-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to take full control of the device.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of CareCam Pro IP Cameras are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ANJIA AJL33PC0801 Firmware linux_linux_202008261138_svn13796_/_Bootloader_U-Boot_2010.06_compiled_2020-08-26 (CVE-2026-85083)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 6.8&lt;/td&gt;
-&lt;td&gt;CareCam&lt;/td&gt;
-&lt;td&gt;CareCam Pro IP Cameras&lt;/td&gt;
-&lt;td&gt;Use of Hard-coded Credentials&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Commercial Facilities&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;China&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-85083&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;The ANJIA AJL33PC0801 IP camera uses a hard-coded credential for bootloader authentication. An attacker with physical access to the device may leverage this weakness to gain privileged bootloader access, allowing unauthorized modification of firmware and system configuration and potentially resulting in complete device compromise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-85083"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;CareCam Pro IP Cameras&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;CareCam&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;CareCam ANJIA AJL33PC0801 Firmware: linux_linux_202008261138_svn13796_/_Bootloader_U-Boot_2010.06_compiled_2020-08-26&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;CareCam has not responded to CISA's attempts for coordination. Users are encouraged to reach out to CareCam.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/798.html"&gt;CWE-798 Use of Hard-coded Credentials&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.8&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:P/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:P/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Omkar Mali reported this vulnerability to CISA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;p&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/p&gt;
-&lt;p&gt;Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.&lt;/p&gt;
-&lt;p&gt;Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-08&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-09-08&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01</guid>
-      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies</title>
-      <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a</link>
-      <description>&lt;h2&gt;&lt;strong&gt;Executive summary&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;China-based artificial intelligence (AI) companies are conducting systematic extraction of proprietary functionalities and capabilities of U.S. AI companies’ models through industrial-scale knowledge distillation campaigns that form the core—not merely a supplement—of their AI development strategy. While “distillation” is recognized as a legitimate and useful technique in AI research, China-based AI companies are engaging in aggressive, malicious, and targeted distillation activities at an industrial scale that extract restricted proprietary functionalities and capabilities of U.S. frontier AI models. The National Security Agency (NSA), Cybersecurity and Infrastructure Security Agency (CISA), and Federal Bureau of Investigation (FBI) (hereafter referred to as the authoring agencies) are releasing this joint Cybersecurity Advisory to alert organizations about these malicious activities and techniques and recommend mitigations to reduce their potential impact.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Likely with Chinese government awareness, DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI extracted billions of tokens across millions of exchanges/requests from U.S. frontier AI models, including variants of Claude, GPT, Gemini, and Grok, since at least late 2024. DeepSeek has conducted organized campaigns since at least 2024 targeting reasoning capabilities, specialized optimizations, and domain-specific functions to train its R1 and V3 models. Alibaba leveraged industrial-scale distillation to improve the company’s Qwen family of AI models. Moonshot AI, MiniMax, Stepfun, and Z.AI also engaged in malicious knowledge distillation of U.S. AI companies’ models.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;China-based AI companies route distillation requests through multiple pathways to gain unauthorized access, consequently violating U.S. AI companies’ terms of use. These pathways include native application programming interfaces (APIs), remote cloud providers, and third-party aggregators that automatically obfuscate user metadata to avoid detection. Further, China-based AI companies use a gray market of proxies known as “transfer stations” to bypass U.S. AI companies’ geographic restrictions, breach terms of use, evade safeguards, and undermine traceability. China-based AI companies achieve cost savings for their industrial-scale distillation campaigns through bulk procurement of the U.S. AI companies’ premium subscriptions shared across teams of developers. Advanced industrial-scale distillation tactics include chain-of-thought (CoT) reasoning extraction, automated failover between pathways during blocking attempts, and sophisticated quality evaluation frameworks to detect defensive countermeasures. China-based AI companies that conduct industrial-scale distillation against U.S. AI models see significantly shorter AI development timelines and reduced financial expenditures in training a frontier model.&lt;/p&gt;
-&lt;p&gt;China-based AI companies deliberately distribute operations across multiple providers, platforms, and pathways to avoid single-point detection. They also attempt to distill the best capabilities and proprietary features of each U.S. frontier model to train their China-based AI models. This represents systematic extraction of proprietary functionalities and capabilities threatening U.S. technological leadership. Addressing industrial-scale distillation merits a coordinated response across the AI ecosystem, including effective information-sharing, spanning the U.S. Government, private industry, and allied nations.&lt;/p&gt;
-&lt;p&gt;The authoring agencies recommend U.S. AI companies take three immediate actions:&amp;nbsp;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Implement comprehensive detection and mitigation: &lt;/strong&gt;Detect anomalous and malicious prompts, accounts, networks, and behaviors. Additionally, monitor subscription-to-usage ratios, immediate maximum usage from new accounts, and enterprise-scale throughput patterns.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Deploy targeted response changes:&lt;/strong&gt; Subtly alter responses for suspected malicious distillation attempts to attenuate the payoffs to companies conducting industrial-scale distillation campaigns.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Establish cross-organization intelligence sharing: &lt;/strong&gt;Correlate activity across model providers, cloud platforms, and API aggregators to reveal distributed campaigns.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;&lt;strong&gt;Attribution&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Since at least late 2024, China-based AI companies, including DeepSeek (DeepSeek Artificial Intelligence Technology Research Co., Ltd.), Moonshot AI (Beijing Moonshot Technology Co., Ltd.), Alibaba Group, MiniMax (Shanghai MiniMax Co., Ltd.), StepFun (Shanghai Jieyue Xingchen Intelligence Technology Co., Ltd.), and Z.AI, have conducted high-volume knowledge distillation campaigns against several U.S. AI companies. The sheer scale of these campaigns and their sophistication indicate that distillation is not a supplement to these companies’ AI model development, but the critical core of it.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Likely with the knowledge of the Chinese government, the China-based AI sector has turned to a comprehensive distillation strategy in an attempt to bridge the technological and performance gaps between their AI models and U.S. frontier AI models. To access U.S. AI companies’ application programming interfaces (APIs), China-based AI companies use a gray market of API proxies known as “transfer stations” to bypass U.S. AI companies’ regional restrictions, breach terms of use, evade safeguards, and undermine traceability.&amp;nbsp;&lt;/p&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;DeepSeek&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;DeepSeek has been conducting an organized distillation campaign against U.S. AI companies’ frontier AI models since at least late 2024 to generate synthetic training data for its models, including R1, released in early 2025. The company targeted specific knowledge domains to extract proprietary functionality and reasoning capabilities to reduce their compute and research costs. DeepSeek’s publicly quoted training costs of $5.6M are misleading as it does not include the true cost of the data acquired through extensive malicious distillation.&lt;a href="https://www.cisa.gov/#note1"&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Between late 2024 and mid-2025, DeepSeek distilled specialized training data and capabilities from the following U.S. frontier AI company models to train their R1 and V3 models:&amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude 3.7&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4.5&lt;/li&gt;
-&lt;li&gt;Claude Opus 4.1&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Pro Preview&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Flash Preview&lt;/li&gt;
-&lt;li&gt;GPT-4&lt;/li&gt;
-&lt;li&gt;GPT-4o&lt;/li&gt;
-&lt;li&gt;GPT-4 Mini&lt;/li&gt;
-&lt;li&gt;GPT-4 Nano&lt;/li&gt;
-&lt;li&gt;GPT-5&lt;/li&gt;
-&lt;li&gt;Grok 4&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The specific knowledge and capabilities distilled included:&amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Legal specialization optimization&lt;/li&gt;
-&lt;li&gt;API rule-driven tasks&lt;/li&gt;
-&lt;li&gt;Writing using CoT drafts&lt;/li&gt;
-&lt;li&gt;Agentic functions&lt;/li&gt;
-&lt;li&gt;Question and answer optimization&lt;/li&gt;
-&lt;li&gt;Coach/assistant capabilities&lt;/li&gt;
-&lt;li&gt;Functional creation optimization&lt;/li&gt;
-&lt;li&gt;Supervised fine-tuning (SFT) optimization&lt;/li&gt;
-&lt;li&gt;Creative and occupational writing optimization&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;Moonshot AI&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Moonshot AI has conducted a widespread distillation campaign against U.S. frontier AI companies since at least mid-2025. Notably, Moonshot AI extracted significant Claude Fable 5 data to train its Kimi-K3 model and GPT-4o data to train its Kimi-K2 model. The company has used the following models to distill SFT optimization, reinforcement learning (RL), software engineering, and math capabilities:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Opus 4.1&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 3.7&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4.5&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4.5 Thinking&lt;/li&gt;
-&lt;li&gt;Claude Fable 5&lt;/li&gt;
-&lt;li&gt;GPT-oss-20b&lt;/li&gt;
-&lt;li&gt;GPT-3&lt;/li&gt;
-&lt;li&gt;GPT-4o&lt;/li&gt;
-&lt;li&gt;GPT-4o mini&lt;/li&gt;
-&lt;li&gt;GPT-5&lt;/li&gt;
-&lt;li&gt;GPT-5 Codex&lt;/li&gt;
-&lt;li&gt;GPT-5 Pro&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Flash&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Flash-Image&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Pro&lt;/li&gt;
-&lt;li&gt;Nano Banana&lt;/li&gt;
-&lt;li&gt;Grok Code Fast-1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;Other companies&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Several other China-based AI companies, including Alibaba, MiniMax, StepFun, and Z.AI have also leveraged distillation techniques to build their AI models. In late 2025, Alibaba distilled Claude-4, Claude Opus, Claude Sonnet, and GPT-5 to improve their AI models’ software engineering skills, customer service dialogue functionality, image/character creation, and integration of RL, SFT, and distillation capabilities.&lt;/p&gt;
-&lt;p&gt;In late 2025, MiniMax distilled CoT reasoning, RL, SFT, and software engineering capabilities to improve its M2 model from Claude Code, Claude Sonnet 4, Claude Opus, Gemini 1, Gemini 2.5 Pro, and Gemini 3 Pro. MiniMax used Claude Code for internal software development tasks, including code generation, analysis, and refinement. MiniMax even used prompt injections to try to trick Claude Code into believing it was a MiniMax product.&lt;/p&gt;
-&lt;p&gt;Between late 2025 and early 2026, StepFun distilled data from Claude Opus 4.1 and 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, GPT-5 Mini, GPT-5 Pro, GPT-5.1, GPT-5.1 Codex, and GPT-5.2 to improve its Step 4 model’s coding and agentic functions. By mid-2026, Z.AI had distilled billions of tokens of GPT-5.5 data and Claude Opus 4.8 data to develop the CoT reasoning capabilities of its model.&lt;/p&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;table class="tablesaw tablesaw-stack" dir="ltr"&gt;
-&lt;caption&gt;&lt;strong&gt;Table 1: China-based AI Companies Engaged in Knowledge Distillation Against U.S. AI Companies&lt;/strong&gt; (From at least 2024-2026)&amp;nbsp;&lt;/caption&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;China-based AI Company&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;U.S. AI Models Distilled&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;Functionalities and Domains Distilled&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;DeepSeek&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;(DeepSeek Artificial Intelligence&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;Technology Research Co., Ltd.)&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;深度求索AI基􀀀技􀀀研究有限公司&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Claude Sonnet 3.7&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4.5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Opus 4.1&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 2&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Pro Preview&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Flash Preview&amp;nbsp;&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-4&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-4o&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-4 Mini&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-4 Nano&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Grok 3 Mini&amp;nbsp;&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Grok 4&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Legal specialization optimization&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;API rule-driven tasks&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Writing using CoT drafts&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Question and answer optimization&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Coach/assistant capabilities&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Functional creation optimization&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;SFT optimization&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Agentic capabilities&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Creative and occupational writing optimization&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;Moonshot AI&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;(Beijing Moonshot Technology Co., Ltd.)&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;北京􀀀月星辰科技有限公司&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Claude Opus 4.1&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 3.7&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4.5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4.5 Thinking&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Fable 5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-oss-20b;&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-3&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-4o mini&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5 Codex&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5 Pro&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Flash&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Flash-Image&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Pro&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Nano Banana&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;xAI Grok Code Fast-1&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;SFT&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;RL&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Software engineering&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Math capabilities&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;Alibaba&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;阿里集团&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Claude 4&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Customer service dialogue&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Virtual character creation&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;SFT, RL, and distillation training&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Evaluating and training datasets&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;End-to-end agentic workflows&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Software engineering&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;MiniMax&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;(Shanghai MiniMax Co., Ltd.)&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;上海稀宇极智科技有限公司&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Claude Code&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Opus 4.5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 1&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 2.5 Pro&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Gemini 3 Pro&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;CoT reasoning&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Agentic functionality&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Code review&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;SFT dataset refinement&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Software engineering tasks&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;StepFun&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;(Shanghai Jieyue Xingchen&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;Intelligence Technology Co., Ltd.)&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;上海􀀀􀀀星辰智能科技有限公司&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Claude Opus 4.1&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Opus 4.5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Sonnet 4.5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Haiku 4.5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5 Mini&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5 Pro&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5.1&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5.1 Codex&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5.1 Codex Mini&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;GPT-5.2&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Code development&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Agentic functions&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW188854275 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;Z.AI&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;GPT-5.5&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Claude Opus 4.8&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW188854275 BCX8"&gt;
-&lt;div class="ListContainerWrapper SCXW188854275 BCX8"&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;CoT reasoning&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;&lt;strong&gt;Tactics, techniques, and procedures&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;China-based AI companies employ sophisticated tactics, techniques, and procedures (TTPs). These TTPs map to the &lt;a href="https://atlas.mitre.org/" target="_blank"&gt;MITRE® ATLAS™&lt;/a&gt;&lt;a href="https://www.cisa.gov/#note2"&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; framework, progressing through multiple adversary lifecycle phases from initial access through exfiltration. The China-based AI companies using these techniques include DeepSeek, Moonshot AI, MiniMax, StepFun, Z.AI, and other China-based AI companies targeting U.S. frontier AI models.&lt;/p&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;table class="tablesaw tablesaw-stack" dir="ltr"&gt;
-&lt;caption&gt;&lt;strong&gt;Table 2: MITRE ATLAS Mappings&lt;/strong&gt;&amp;nbsp;&lt;/caption&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;TTP Title&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;ID&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/th&gt;
-&lt;th&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;strong&gt;Description&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td colspan="3"&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;em&gt;&lt;strong&gt;Resource Development&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;Acquire Infrastructure&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/techniques/AML.T0008" target="_blank"&gt;&lt;u&gt;AML.T0008&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities establish and maintain sophisticated infrastructure supporting sustained extraction operations through tiered budget management and diverse supplier relationships.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities circumvent both Chinese and U.S. AI access controls through a large gray market of API proxies, or “transfer stations,” which resell access to frontier models at a fraction of the official price. In doing so, they create a scalable mechanism for evading provider safeguards and eroding traceability.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan="3"&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;em&gt;&lt;strong&gt;AI Model Access&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;AI Model Inference API Access&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/techniques/AML.T0040" target="_blank"&gt;&lt;u&gt;AML.T0040&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities have been exploiting AI model inference APIs through the creation of fraudulent accounts that are not registered to legitimate users. These actors leverage multiple accounts with similar registration details and payment methods, frequently switch between various AI models, and utilize third-party API aggregator services. Additionally, they execute highly coordinated queries featuring identical or similar prompt texts, demonstrating a sophistication indicative of advanced AI research. The sheer volume of requests, ranging from thousands to millions on similar topics, far exceeds legitimate use, raising significant concerns about potential misuse and compromising the integrity of AI systems.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan="3"&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;em&gt;&lt;strong&gt;Execution / Privilege Escalation / Defense Evasion&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;LLM Prompt Injection&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;LLM Jailbreak&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/techniques/AML.T0051" target="_blank"&gt;&lt;u&gt;AML.T0051&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/techniques/AML.T0054" target="_blank"&gt;&lt;u&gt;AML.T0054&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities have conducted prompt injection techniques against large language models (LLMs) by inserting prompts specifically designed for jailbreaking.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities craft prompts forcing models to reveal their hidden CoT reasoning (CoT or step-by-step internal reasoning that enables greater capabilities) despite U.S. models restricting CoT output visibility to users. DeepSeek employed prompts instructing models to imagine and articulate the internal reasoning behind completed responses and write it out step by step. This CoT data teaches student models, not just factual knowledge, but reasoning methodologies for complex agentic tasks, coding challenges, and logical proofs.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan="3"&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;em&gt;&lt;strong&gt;Discovery&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;Discovery&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/tactics/AML.TA0008" target="_blank"&gt;&lt;u&gt;AML.TA0008&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities employ aggressive, adaptive discovery to systematically identify valuable extractable data.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities demonstrate rapid operational adaptation. MiniMax redirected exchanges to a new Claude model within 24 hours of release, demonstrating real-time provider monitoring and pre-positioned infrastructure for immediate retargeting.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan="3"&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;em&gt;&lt;strong&gt;AI Attack Staging&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;Verify Attack&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/techniques/AML.T0042" target="_blank"&gt;&lt;u&gt;AML.T0042&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities deploy production-grade automated quality assurance pipelines with multi-modal validation, enabling rapid detection of degraded outputs and differentiation of service issues from defensive data degradation.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan="3"&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;em&gt;&lt;strong&gt;Collection&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;Collection&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/tactics/AML.TA0009" target="_blank"&gt;&lt;u&gt;AML.TA0009&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities systematically collect outputs to generate synthetic training datasets through continuous API querying, targeting specific knowledge domains rather than indiscriminate gathering.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;Moonshot AI used millions of exchanges targeting agentic reasoning/tool use, coding/data analysis, computer-use agent development, and computer vision, evolving from text-based distillation to extracting logical frameworks, enabling tool interaction and visual processing.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;DeepSeek used queries targeting reasoning capabilities, rubric-based grading tasks (reward model function), and censorship-safe query rewriting, extracting how U.S. models evaluate response quality.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;Campaigns span days to months with query volumes in the thousands to millions per domain, far exceeding legitimate research or development use cases.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan="3"&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;em&gt;&lt;strong&gt;Exfiltration&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;Exfiltration via AI&amp;nbsp;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;Inference API: Extract AI Model&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/techniques/AML.T0024.002" target="_blank"&gt;&lt;u&gt;AML.T0024.002&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities have been collecting U.S. frontier LLMs’ inferences into datasets, which can be used to train their models to mimic the behavior and performance of these LLMs.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan="3"&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p class="text-align-center"&gt;&lt;em&gt;&lt;strong&gt;Impact&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;External Harms&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;&lt;a href="https://atlas.mitre.org/techniques/AML.T0048" target="_blank"&gt;&lt;u&gt;AML.T0048&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;div class="TableCellContent SCXW198784767 BCX8"&gt;
-&lt;div class="OutlineElement Ltr SCXW198784767 BCX8"&gt;
-&lt;p&gt;China-based entities inflict financial harm through systematic extraction of proprietary functionality and capabilities, causing significant economic losses. Extracting capabilities worth billions in development costs while undermining competitive advantages represents a strategic economic threat to fair technological competition and U.S. technological leadership.&amp;nbsp;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;Novel TTPs&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;China-based AI companies leverage techniques not in MITRE ATLAS, demonstrating significant organizational investment, operational maturity, and adaptive capability development distinguishing these campaigns from opportunistic exploitation.&lt;/p&gt;
-&lt;h4&gt;&lt;strong&gt;Novel TTP 1: Regional restriction evasion and subscription exploitation&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Some U.S. frontier AI models are restricted for use; however, China-based AI companies access U.S. frontier AI models by employing various means to bypass the regional restrictions.&lt;/p&gt;
-&lt;p&gt;After bypassing the restriction, China-based AI companies create user accounts obfuscating their country of origin and subsequentially procure bulk premium AI subscription services.&lt;/p&gt;
-&lt;p&gt;StepFun structured access around pools of accounts with employees running multiple concurrent sessions, implementing load distribution to prevent quota depletion. Daily budget allocations per automated agent started at moderate levels, scaling significantly as operations matured.&lt;/p&gt;
-&lt;p&gt;Detection indicators include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;shared accounts from multiple IPs/user agents,&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;24/7 sustained usage without human variation/idle periods,&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;anomalous subscription-to-API usage ratios, and&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;new subscriptions immediately at maximum usage as opposed to gradual AI adoption.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;&lt;strong&gt;Novel TTP 2: Centralized request routing infrastructure&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;China-based AI companies deploy sophisticated tools that enable unified control and scalable implementation for evasion at scale. This provides model/provider abstraction, real-time health monitoring, centralized quota enforcement, and automated sanitization.&lt;/p&gt;
-&lt;p&gt;China-based AI companies manage routing systems to external AI models for distillation. These routing systems direct requests through multiple pathways: native APIs, cloud providers, third-party aggregators, third-party relays, and vendor account pools.&lt;/p&gt;
-&lt;p&gt;Detection indicators include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;consistent operational patterns across diverse account pools and&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;correlated timing/behavior across different pathways indicating unified orchestration.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;&lt;strong&gt;Novel TTP 3: Automated request metadata sanitization&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;China-based AI companies implement automated sanitization to systematically remove organizational identifiers. This differs from &lt;a href="https://atlas.mitre.org/techniques/AML.T0065" target="_blank"&gt;AML.T0065&lt;/a&gt; (LLM Prompt Crafting) by operating at an infrastructure layer with automated enforcement instead of manual modification.&lt;/p&gt;
-&lt;p&gt;Detection indicators include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;sudden behavioral changes following disclosures/sharing, especially abrupt disappearance of previously consistent metadata;&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;absence of expected markers in high-volume campaigns where scale suggests institutional activity; and&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;generic/randomized patterns replacing consistent organizational indicators.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;&lt;strong&gt;Novel TTP 4: Systematic quota and cost optimization&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;China-based AI companies systematically minimize API costs through pathway selection prioritizing cost-efficiency, centralized quota allocation/budget alignment, and account segmentation by purpose.&lt;/p&gt;
-&lt;p&gt;Detection indicators include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;new accounts with anomalously high immediate hit rates suggesting bulk deployment with pre-engineered templates,&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;usage optimized for cache maximization versus task diversity, and&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;coordinated pathway switching responding to pricing/rate changes indicating centralized decision-making.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;strong&gt;Mitigations&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Coordinated, ecosystem-wide responses extending beyond individual company measures can help address knowledge distillation campaigns. The mitigations below incorporate mitigations from the MITRE ATLAS and National Institute of Standards and Technology (NIST) AI frameworks. Collaboration across the broader AI ecosystem, including cloud providers, API aggregators, and infrastructure providers, can enable a coordinated defense against malicious knowledge distillation campaigns.&lt;/p&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;Behavioral detection and monitoring&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;China-based AI companies leverage premium subscriptions to U.S. frontier models for knowledge distillation campaigns and code development. U.S. companies should strengthen identity verification for accounts and track individual subscriptions with enterprise-scale throughput, accounts deviating from legitimate patterns, and new accounts immediately at maximum usage versus a gradual ramp-up or with consistent quota exhaustion.&amp;nbsp;&lt;/p&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;Response alteration for suspected distillation activity&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Employing targeted changes in response to high-confidence malicious distillation requests can impose meaningful costs on knowledge distillation campaigns. Response changes, such as including differential privacy or using less sophisticated “downgraded” models to respond to distillation requests, can help protect U.S. proprietary functionalities and capabilities and reduce payoffs from distillation attempts.&amp;nbsp;&lt;/p&gt;
-&lt;h4&gt;&lt;strong&gt;Implementation strategies&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;When suspecting a malicious distillation campaign, consider varying changes to responses across requests to complicate response quality evaluations, such that the subtle changes avoid triggering obvious alerts. Reducing reasoning depth, presenting correct information with different reasoning, or stylistic inconsistencies may evade detection while reducing training usefulness.&lt;/p&gt;
-&lt;p&gt;Avoid informing China-based AI company users suspected of distillation campaigns of a switch to a downgraded model. Informing malicious distillers would enable them to improve their defense evasions and indicate when to roll back training. Instead, alter responses to users confirmed to be querying frontier models specifically for malicious knowledge distillation campaigns without informing them. In contrast, AI safety researchers and third-party evaluators should be informed of model changes while still applying strong distillation mitigations.&lt;/p&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;Cross-organization information sharing and ecosystem coordination&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Sharing information about distillation campaigns, such as indicators of infrastructure distributing operations across multiple providers, platforms, and pathways, can improve individual companies’ detection efforts. Industry disclosures document proxy networks managing tens of thousands of fraudulent accounts simultaneously, mixing distillation with unrelated customer requests across multiple providers. Community collaboration could provide defenders with more comprehensive visibility across the native APIs, cloud endpoints, and aggregators.&lt;/p&gt;
-&lt;p&gt;Sharing information about distillation enables and enhances correlation otherwise unachievable by individual organizations, through sharing infrastructure indicators (IPs, domains, third-party service providers) and behavioral indicators (timing correlations, query volume patterns).&lt;/p&gt;
-&lt;p&gt;Multi-source correlated activity enables more confident attribution of malicious knowledge distillation campaigns, justifying response degradation with lower-to-no legitimate user risk.&lt;/p&gt;
-&lt;p&gt;Sharing infrastructure and behavioral indicators between cloud providers, model aggregators, and model providers can make distributed infrastructure visible as coordinated campaigns versus isolated anomalies. Additionally, sharing can provide cloud and routing companies with actionable indicators for identifying and mitigating malicious activity.&lt;/p&gt;
-&lt;div class="OutlineElement Ltr SCXW94261203 BCX8"&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;MITRE ATLAS mitigations&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0015" target="_blank"&gt;&lt;u&gt;AML.M0015&lt;/u&gt;&lt;/a&gt; - Predictive AI Adversarial Input Detection: Detect/block atypical queries deviating from benign patterns, exhibiting previous adversary technique characteristics, or originating from malicious IPs.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0004" target="_blank"&gt;&lt;u&gt;AML.M0004&lt;/u&gt;&lt;/a&gt; - Limit AI Service Query Volume and Rate: Per-key/IP quotas, rate limits, progressive throttling. Adversaries seem to be sensitive to rate limits since they implement sophisticated strategies to work within constraints.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0019" target="_blank"&gt;&lt;u&gt;AML.M0019&lt;/u&gt;&lt;/a&gt; - Control Access to AI Models and Data in Production: User verification, authenticated API access, policy monitoring. This addresses fraudulent account pool exploitation.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0024" target="_blank"&gt;&lt;u&gt;AML.M0024&lt;/u&gt;&lt;/a&gt; - AI Telemetry Logging: Log inputs/outputs for threat detection/forensics. This is foundational for behavioral detection and enables correlation with intelligence.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0002" target="_blank"&gt;&lt;u&gt;AML.M0002&lt;/u&gt;&lt;/a&gt; - Predictive AI Output Obfuscation: Reduce fidelity of responses (withhold logits/confidences, shorten responses, targeted redaction). Balance security with user experience.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0035" target="_blank"&gt;&lt;u&gt;AML.M0035&lt;/u&gt;&lt;/a&gt; – AI Red Team: Adversarial testing, extraction simulation, telemetry monitoring. Validates detection efficacy.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0015" target="_blank"&gt;&lt;u&gt;AML.M0015&lt;/u&gt;&lt;/a&gt; - Predictive AI Adversarial Input Detection: Sanitize/validate inputs preventing prompt injections. This addresses jailbreak and injection attempts to elicit reasoning traces and system prompts.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0000" target="_blank"&gt;&lt;u&gt;AML.M0000&lt;/u&gt;&lt;/a&gt; - Limit Public Information Release: Limit disclosure of architecture, prompt templates, and system instructions.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0001" target="_blank"&gt;&lt;u&gt;AML.M0001&lt;/u&gt;&lt;/a&gt; - Limit Model Artifact Release: Limit release of data, algorithms, architectures, and model checkpoints.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0003" target="_blank"&gt;&lt;u&gt;AML.M0003&lt;/u&gt;&lt;/a&gt; - Predictive AI Model Hardening: Use adversarial training and defensive distillation to increase jailbreak difficulty.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://atlas.mitre.org/mitigations/AML.M0006" target="_blank"&gt;&lt;u&gt;AML.M0006&lt;/u&gt;&lt;/a&gt; - Predictive AI Ensembles: Use multiple models so extracting one yields a less usable clone.&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;em&gt;&lt;strong&gt;NIST AI 100-2e2025: Adversarial machine learning mitigations&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;Mitigations in NIST’s “&lt;a href="https://csrc.nist.gov/pubs/ai/100/2/e2025/final" target="_blank"&gt;Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations&lt;/a&gt;” (NIST AI 100-2e2025) also apply to malicious distillation, including differential privacy, pre- and post-training interventions, and prompt instruction/formatting.&lt;/p&gt;
-&lt;h4&gt;&lt;strong&gt;Differential privacy&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Differential Privacy (DP) provides mathematically rigorous protection against inference and distillation techniques by adding calibrated noise to model outputs and preventing malicious actors from extracting training data membership information and other sensitive model information, such as decision boundaries or signals that could help reconstruct private data. This protection is governed by privacy parameters that define a finite privacy budget, where each query consumes part of the model's available privacy protection and repeated querying steadily reduces the remaining privacy reserve.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;As that budget is consumed through accumulated queries, the model must either add more noise to preserve privacy, restrict further queries, or accept reduced privacy protection. This creates a fundamental noise-versus-utility tradeoff, where stronger privacy protection requires more noise, which can lower prediction precision and business usefulness, while less noise improves utility but increases vulnerability to compromise techniques, such as membership inference, model extraction, or inversion.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;In practice, the right balance requires careful tuning and empirical auditing, because theoretical privacy settings do not always predict real-world accuracy impact, particularly for complex models or high-dimensional outputs that require substantially more noise to achieve equivalent protection, or when facing adaptive actors. As a result, DP is often strengthened with complementary controls such as query rate limiting, response aggregation, and monitoring.&lt;/p&gt;
-&lt;h4&gt;&lt;strong&gt;Pre/post-training interventions&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;A range of training strategies have been proposed to increase the difficulty of accessing harmful capabilities through prompt injection, including safety training during pre-training or post training, adversarial training methods, and other methods to make jailbreak techniques more difficult.&lt;/p&gt;
-&lt;h4&gt;&lt;strong&gt;Prompt instruction/formatting&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Model instructions can cue the model to treat user input carefully, such as by wrapping user input in XML tags, appending specific instructions to the prompt, or otherwise attempting to clearly separate instructions from user prompts to mitigate distillation and make prompt injection or jailbreaking less effective.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Footnotes&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; &lt;a class="ck-anchor" id="note1"&gt;&lt;/a&gt;Publicly quoted training costs are from “&lt;a href="https://arxiv.org/pdf/2412.19437" target="_blank"&gt;DeepSeek-V3 Technical Report&lt;/a&gt;”&lt;/p&gt;
-&lt;p&gt;&lt;a class="ck-anchor" id="note2"&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;a class="ck-anchor" id="note2"&gt;&lt;/a&gt; MITRE is a registered trademark of The MITRE Corporation. MITRE ATLAS is a trademark of The MITRE Corporation.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks" target="_blank"&gt;Anthropic: Detecting and preventing distillation attacks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use" target="_blank"&gt;Google: GTIG AI Threat Tracker: Distillation, Experimentation, and (Continued) Integration of AI for Adversarial Use&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf" target="_blank"&gt;NIST AI 100-2e2025: Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/rRmql_jJcxb4/v0" target="_blank"&gt;OpenAI: RE: Updated Stakes for American-Led, Democratic AI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/" target="_blank"&gt;The Decoder: How China's gray market sells Claude tokens at a fraction of the price&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/" target="_blank"&gt;White House National Security Presidential Memorandum 11 (NSPM-11): Artificial Intelligence in the National Security Enterprise&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf" target="_blank"&gt;White House National Science and Technology Memorandum 4 (NSTM-4): Adversarial Distillation of American AI Models&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://x.com/mkratsios47/status/2079933645888880708" target="_blank"&gt;White House Office of Science and Technology Policy post on X&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;&lt;em&gt;&lt;strong&gt;Disclaimer of endorsement&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;The information and opinions contained in this document are provided "as is" and without any warranties or guarantees. Reference herein to any specific commercial products, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement, recommendation, or favoring by the United States Government, and this guidance shall not be used for advertising or product endorsement purposes.&lt;/p&gt;
-&lt;h4&gt;&lt;em&gt;&lt;strong&gt;Purpose&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;This document was developed in furtherance of the authoring agencies’ cybersecurity missions, including their responsibilities to identify and disseminate threats and to develop and issue cybersecurity specifications and mitigations. This information may be shared broadly to reach all appropriate stakeholders.&lt;/p&gt;
-&lt;h4&gt;&lt;em&gt;&lt;strong&gt;Contact&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;National Security Agency&lt;/strong&gt;&lt;br /&gt;Cybersecurity Report Feedback: &lt;a href="mailto:CybersecurityReports@nsa.gov" target="_blank"&gt;CybersecurityReports@nsa.gov&lt;/a&gt;&lt;br /&gt;Defense Industrial Base Inquiries and Cybersecurity Services: &lt;a href="mailto:DIB_Defense@cyber.nsa.gov" target="_blank"&gt;DIB_Defense@cyber.nsa.gov&lt;/a&gt;&lt;br /&gt;Media Inquiries / Press Desk: NSA Media Relations: 443-634-0721, &lt;a href="mailto:MediaRelations@nsa.gov" target="_blank"&gt;MediaRelations@nsa.gov&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cybersecurity and Infrastructure Security Agency&lt;/strong&gt;&lt;br /&gt;CISA’s 24/7 Operations Center (&lt;a href="mailto:contact@cisa.dhs.gov" target="_blank"&gt;contact@cisa.dhs.gov&lt;/a&gt;), or by calling 1-844-Say-CISA (1-844-729-2472).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Federal Bureau of Investigation&lt;/strong&gt;&lt;br /&gt;If you or someone you know has fallen victim to this campaign, file a complaint with &lt;a href="https://www.ic3.gov/" target="_blank"&gt;IC3&lt;/a&gt;.&lt;br /&gt;&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a</guid>
-      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sweden opt for US HIMARS as a ‘rapidly available’ long-range system</title>
-      <link>https://www.army-technology.com/news/sweden-opt-for-us-himars-as-a-rapidly-available-long-range-system/</link>
-      <description>Sweden will acquire the US-made HIMARS MLRS from Lockheed Martin for $733m, with initial deliveries expected next year.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/sweden-opt-for-us-himars-as-a-rapidly-available-long-range-system/</guid>
-      <pubDate>Tue, 08 Sep 2026 13:29:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Taliban Five Years On: Winning the War, Losing the State</title>
-      <link>https://www.geopoliticalmonitor.com/taliban-five-years-winning-the-war-losing-the-state/</link>
-      <description>&lt;p&gt;Five years after taking Kabul, the Taliban have proved far more durable than almost anyone predicted. But the qualities that made them formidable insurgents are hollowing out the state they now govern.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/taliban-five-years-winning-the-war-losing-the-state/"&gt;The Taliban Five Years On: Winning the War, Losing the State&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/taliban-five-years-winning-the-war-losing-the-state/</guid>
-      <pubDate>Tue, 08 Sep 2026 15:25:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iran continues attacks on Kurdish opposition group in northern Iraq</title>
-      <link>https://www.longwarjournal.org/archives/2026/09/iran-continues-attacks-on-kurdish-opposition-group-in-northern-iraq.php</link>
-      <description>&lt;p&gt;Iran has maintained its campaign against Kurdish Iranian opposition groups in the Kurdistan Region of northern Iraq, carrying out another drone strike on September 2 amid a US military withdrawal. The latest attack underscores the growing security challenges facing the Kurdistan Region as Iran intensifies pressure on Kurdish dissidents, and Iraq has yet to disarm Iran-backed militias.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/iran-continues-attacks-on-kurdish-opposition-group-in-northern-iraq.php"&gt;Iran continues attacks on Kurdish opposition group in northern Iraq&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/iran-continues-attacks-on-kurdish-opposition-group-in-northern-iraq.php</guid>
-      <pubDate>Tue, 08 Sep 2026 15:58:44 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 11 Sep 2026 14:16:38 +0000</lastBuildDate>
     <item>
       <title>Axon Vision wins ForceField C-UAS order from Israeli defence group</title>
       <link>https://www.army-technology.com/news/axon-vision-forcefield-israel/</link>
@@ -1193,13 +184,6 @@
       <pubDate>Wed, 09 Sep 2026 08:00:38 +0000</pubDate>
     </item>
     <item>
-      <title>Understanding the thermal ceiling in portable power</title>
-      <link>https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/</link>
-      <description>Plug a phone into a modern charger and the first 10 minutes are impressive. The next 20 are not. This is not a defect. It’s the connected device protecting itself. As temperature rises during charging, a smartphone&amp;#8217;s battery management system reduces the current it will accept, because heat accelerates the chemical degradation that permanently reduces&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/</guid>
-      <pubDate>Wed, 09 Sep 2026 08:18:13 +0000</pubDate>
-    </item>
-    <item>
       <title>Batteries just broke another record in the US</title>
       <link>https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/</link>
       <description>Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the daily electricity needs of about 700,000 homes. The surge is putting the country on a trajectory to see 71 gigawatt-hours of&amp;#8230;</description>
@@ -1239,13 +223,6 @@
       <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Russian Drone Attack Kills 2 Near Moldova As Norway Says Zelenskyy's Plane Nearly Struck</title>
-      <link>https://www.rferl.org/a/russia-attack-ukraine-moldova-checkpoint/33850936.html</link>
-      <description>A Russian drone attack targeted a border crossing between Ukraine and Moldova, killing two people and injuring three others, while another drone struck a residential building in Kyiv, as Moscow continues its campaign of near-continuous strikes across Ukraine.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-attack-ukraine-moldova-checkpoint/33850936.html</guid>
-      <pubDate>Wed, 09 Sep 2026 12:06:19 +0000</pubDate>
-    </item>
-    <item>
       <title>The Download: OpenAI’s turning point for math and a battery record</title>
       <link>https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/</link>
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathematics. Under normal circumstances, that would&amp;#8230;</description>
@@ -1269,14 +246,6 @@
       <pubDate>Wed, 09 Sep 2026 12:48:32 +0000</pubDate>
     </item>
     <item>
-      <title>FBI officials say AI is bolstering adversaries, emphasizing need to focus on cyber basics, patching</title>
-      <link>https://cyberscoop.com/fbi-cyber-strategy-ai-threats-patching/</link>
-      <description>&lt;p&gt;The remarks, to both CyberScoop and at the Billington CyberSecurity Summit, dovetail with the release of a new bureau cyber strategy.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/fbi-cyber-strategy-ai-threats-patching/"&gt;FBI officials say AI is bolstering adversaries, emphasizing need to focus on cyber basics, patching&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/fbi-cyber-strategy-ai-threats-patching/</guid>
-      <pubDate>Wed, 09 Sep 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The AI policy window is open. We need to act.</title>
       <link>https://openai.com/index/ai-policy-window</link>
       <description>Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.</description>
@@ -1284,18 +253,12 @@
       <pubDate>Wed, 09 Sep 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>US Navy’s next-generation fighter decision to be unveiled soon, sources say</title>
-      <link>https://www.defensenews.com/news/your-military/2026/09/09/us-navys-next-generation-fighter-decision-to-be-unveiled-soon-sources-say/</link>
-      <description>The program, currently unnamed but designated F/A-XX, has been buffeted by delays and funding disputes for years.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/09/us-navys-next-generation-fighter-decision-to-be-unveiled-soon-sources-say/</guid>
-      <pubDate>Wed, 09 Sep 2026 13:30:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anduril doubles down on Poland with autonomous aircraft pitch for F-35, Apache</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/09/anduril-doubles-down-on-poland-with-autonomous-aircraft-pitch-for-f-35-apache/</link>
-      <description>U.S. tech company Anduril is pitching two drone types to accompany Poland's envisioned fleets of F-35 fighter jets and Apache attack helicopters.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/09/anduril-doubles-down-on-poland-with-autonomous-aircraft-pitch-for-f-35-apache/</guid>
-      <pubDate>Wed, 09 Sep 2026 13:38:38 +0000</pubDate>
+      <title>FBI officials say AI is bolstering adversaries, emphasizing need to focus on cyber basics, patching</title>
+      <link>https://cyberscoop.com/fbi-cyber-strategy-ai-threats-patching/</link>
+      <description>&lt;p&gt;The remarks, to both CyberScoop and at the Billington CyberSecurity Summit, dovetail with the release of a new bureau cyber strategy.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/fbi-cyber-strategy-ai-threats-patching/"&gt;FBI officials say AI is bolstering adversaries, emphasizing need to focus on cyber basics, patching&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/fbi-cyber-strategy-ai-threats-patching/</guid>
+      <pubDate>Wed, 09 Sep 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anduril doubles down on Poland with autonomous aircraft pitch for F-35, Apache</title>
@@ -1311,13 +274,6 @@
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/syria-sdf-folds-into-national-army/"&gt;Syria’s SDF Folds into the National Army&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/syria-sdf-folds-into-national-army/</guid>
       <pubDate>Wed, 09 Sep 2026 13:55:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine Strikes Russian Warships And Oil Terminal In Novorossiisk</title>
-      <link>https://www.rferl.org/a/ukraine-strikes-russian-warships-and-oil-terminal-in-novorossiisk/33851072.html</link>
-      <description>Ukrainian drones struck a naval base and oil terminal in Russia's southern port city of Novorossiisk, with Kyiv saying several warships were hit, including a Kalibr missile carrier. Local officials reported 4 dead and at least 29 injured.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-strikes-russian-warships-and-oil-terminal-in-novorossiisk/33851072.html</guid>
-      <pubDate>Wed, 09 Sep 2026 14:04:53 +0000</pubDate>
     </item>
     <item>
       <title>Identity-Based AI Attack Threatens Security of Enterprise Data</title>
@@ -1370,13 +326,6 @@
       <pubDate>Wed, 09 Sep 2026 15:52:02 +0000</pubDate>
     </item>
     <item>
-      <title>How Green Berets Rigged Enemy Ammunition During the Vietnam War</title>
-      <link>https://sofrep.com/news/think-like-green-beret-subtle-3/</link>
-      <description>Project Eldest Son proved that a handful of Green Berets, some doctored ammunition, and a ruthless understanding of human nature could make an entire enemy army afraid to pull the trigger. #ProjectEldestSon #GreenBerets #VietnamWar #PsychologicalWarfare #MilitaryHistory</description>
-      <guid isPermaLink="false">https://sofrep.com/news/think-like-green-beret-subtle-3/</guid>
-      <pubDate>Wed, 09 Sep 2026 16:00:02 +0000</pubDate>
-    </item>
-    <item>
       <title>Paul Christiano joins OpenAI Foundation Board</title>
       <link>https://openai.com/index/paul-christiano-joins-openai-foundation-board</link>
       <description>Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.</description>
@@ -1422,36 +371,12 @@
       <pubDate>Wed, 09 Sep 2026 17:46:24 +0000</pubDate>
     </item>
     <item>
-      <title>Woolf in Orbis on the role of nuclear norms in an era of renewed competition</title>
-      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/woolf-on-nuclear-norms-in-era-of-renewed-competition/</link>
-      <description>&lt;p&gt;On July 20, Forward Defense nonresident senior fellow Amy Woolf published an article in Orbis titled “Nuclear Norms in an Era of Renewed Nuclear Competition.” She highlights that the expiration of the New Strategic Arms Reduction Treaty (New START) in February 2026 has left nuclear weapons states without formal systems that reduce the risk of [&amp;#8230;]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/woolf-on-nuclear-norms-in-era-of-renewed-competition/"&gt;Woolf in Orbis on the role of nuclear norms in an era of renewed competition&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/woolf-on-nuclear-norms-in-era-of-renewed-competition/</guid>
-      <pubDate>Wed, 09 Sep 2026 17:54:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>The five issues to watch at next month’s IMF-World Bank Annual Meetings</title>
-      <link>https://www.atlanticcouncil.org/blogs/econographics/the-five-issues-to-watch-at-next-months-imf-world-bank-annual-meetings/</link>
-      <description>&lt;p&gt;From soaring debt to trade fragmentation and AI disruption, the global economy faces no shortage of challenges. Here are the five issues to watch at next month’s fall meetings.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/the-five-issues-to-watch-at-next-months-imf-world-bank-annual-meetings/"&gt;The five issues to watch at next month’s IMF-World Bank Annual Meetings&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/the-five-issues-to-watch-at-next-months-imf-world-bank-annual-meetings/</guid>
-      <pubDate>Wed, 09 Sep 2026 18:32:38 +0000</pubDate>
-    </item>
-    <item>
       <title>Lawmakers call on Commerce to sanction hackers-for-hire</title>
       <link>https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/</link>
       <description>&lt;p&gt;The groups have allegedly targeted American citizens and companies, including the wife of GOP Senate candidate Mike Rogers, a former representative running in a Michigan swing race. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/"&gt;Lawmakers call on Commerce to sanction hackers-for-hire&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/</guid>
       <pubDate>Wed, 09 Sep 2026 18:43:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>The most valuable legacy that the 9/11 generation can leave behind</title>
-      <link>https://www.atlanticcouncil.org/dispatches/the-most-valuable-legacy-that-the-9-11-generation-can-leave-behind/</link>
-      <description>&lt;p&gt;The former Pennsylvania governor and Department of Homeland Security secretary reflects on the twenty-fifth anniversary of September 11, 2001.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/the-most-valuable-legacy-that-the-9-11-generation-can-leave-behind/"&gt;The most valuable legacy that the 9/11 generation can leave behind&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/the-most-valuable-legacy-that-the-9-11-generation-can-leave-behind/</guid>
-      <pubDate>Wed, 09 Sep 2026 19:10:25 +0000</pubDate>
     </item>
     <item>
       <title>FTC rescinds policy requiring health apps to notify customers after a breach</title>
@@ -1498,13 +423,6 @@
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026"&gt;Where Are The Aircraft Carriers?: September 9, 2026&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026</guid>
       <pubDate>Wed, 09 Sep 2026 20:49:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Navy’s $350,000 Underwater Robot Buy Exposes a Dangerous Mine Warfare Gap</title>
-      <link>https://sofrep.com/news/the-navys-350000-underwater-robot-buy-exposes-a-dangerous-mine-warfare-gap/</link>
-      <description>The Navy’s $350,000 underwater robot shopping list reveals a hard truth: when a cheap mine closes the shipping lane, the machine must reach the bomb before the diver does. #DefenseTech #USNavy #UnderwaterRobotics #MineWarfare #VideoRayDefender</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-navys-350000-underwater-robot-buy-exposes-a-dangerous-mine-warfare-gap/</guid>
-      <pubDate>Wed, 09 Sep 2026 21:00:17 +0000</pubDate>
     </item>
     <item>
       <title>AI-powered biowarfare is coming; the Army lays plans to ‘fight through’ it</title>
@@ -1680,18 +598,6 @@
       <pubDate>Thu, 10 Sep 2026 10:30:56 +0000</pubDate>
     </item>
     <item>
-      <title>CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline</title>
-      <link>https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the patches by September 12, 2026.
-
-The vulnerabilities are listed below -
-
-
-  CVE-2026-20079 (CVSS score: 10.0) - An authentication</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html</guid>
-      <pubDate>Thu, 10 Sep 2026 10:36:46 +0000</pubDate>
-    </item>
-    <item>
       <title>Zelenskyy In Canada Seeking Support Amid Deadly Russian Attacks</title>
       <link>https://www.rferl.org/a/zelenskyy-canada-support-russian-missile-attacks/33851650.html</link>
       <description>PAVLOHRAD, Ukraine -- President Volodymyr Zelenskyy said Ottawa will provide Ukraine with air defense support as he visited Canada in an attempt to shore up support from the country's allies amid deadly Russian drone and missile attacks.</description>
@@ -1714,16 +620,16 @@ The vulnerabilities are listed below -
     </item>
     <item>
       <title>US radar maker Echodyne mulls European production as drone warfare fuels demand</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/10/us-radar-maker-echodyne-mulls-european-production-as-drone-warfare-fuels-demand/</link>
+      <link>https://www.c4isrnet.com/global/europe/2026/09/10/us-radar-maker-echodyne-mulls-european-production-as-drone-warfare-fuels-demand/</link>
       <description>The U.S. radar specialist said it's sensing new business opportunities in Europe, where governments are scrambling to up their counter-drone capabilities.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/10/us-radar-maker-echodyne-mulls-european-production-as-drone-warfare-fuels-demand/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/10/us-radar-maker-echodyne-mulls-european-production-as-drone-warfare-fuels-demand/</guid>
       <pubDate>Thu, 10 Sep 2026 11:14:42 +0000</pubDate>
     </item>
     <item>
       <title>US radar maker Echodyne mulls European production as drone warfare fuels demand</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/09/10/us-radar-maker-echodyne-mulls-european-production-as-drone-warfare-fuels-demand/</link>
+      <link>https://www.defensenews.com/global/europe/2026/09/10/us-radar-maker-echodyne-mulls-european-production-as-drone-warfare-fuels-demand/</link>
       <description>The U.S. radar specialist said it's sensing new business opportunities in Europe, where governments are scrambling to up their counter-drone capabilities.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/10/us-radar-maker-echodyne-mulls-european-production-as-drone-warfare-fuels-demand/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/10/us-radar-maker-echodyne-mulls-european-production-as-drone-warfare-fuels-demand/</guid>
       <pubDate>Thu, 10 Sep 2026 11:14:42 +0000</pubDate>
     </item>
     <item>
@@ -2862,13 +1768,6 @@ One flaw affects Check Point's Security Gateways, its firewall appliances. The o
       <pubDate>Thu, 10 Sep 2026 13:01:46 +0000</pubDate>
     </item>
     <item>
-      <title>Netherlands to purchase its own GlobalEye aircraft, on top of NATO’s order</title>
-      <link>https://breakingdefense.com/2026/09/netherlands-to-purchase-its-own-globaleye-aircraft-on-top-of-natos-order/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/netherlands-to-purchase-its-own-globaleye-aircraft-on-top-of-natos-order/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/06/globaleye-scaled-e1750268534637-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The plane, which would be delivered in 2031, would be owned directly by the Netherlands. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/netherlands-to-purchase-its-own-globaleye-aircraft-on-top-of-natos-order/</guid>
-      <pubDate>Thu, 10 Sep 2026 13:09:19 +0000</pubDate>
-    </item>
-    <item>
       <title>East Asia’s Quiet Race to Find the Universe’s Missing Mass</title>
       <link>https://thediplomat.com/2026/09/east-asias-quiet-race-to-find-the-universes-missing-mass/</link>
       <description>China, South Korea, and Japan all run their own programs to detect dark matter, some of them world-leading in sensitivity.</description>
@@ -2876,11 +1775,12 @@ One flaw affects Check Point's Security Gateways, its firewall appliances. The o
       <pubDate>Thu, 10 Sep 2026 13:13:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ukrainian Armor eyes German industry partnership for newly unveiled land vehicles</title>
-      <link>https://breakingdefense.com/2026/09/ukrainian-armor-eyes-german-industry-partnership-for-newly-unveiled-land-vehicles/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/ukrainian-armor-eyes-german-industry-partnership-for-newly-unveiled-land-vehicles/"&gt;&lt;img alt="Ukrainian Armor unveiled its Varta 3 Mine Resistant Ambush Protected (MRAP) vehicle at the MSPO trade show (Breaking Defense)" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/IMG_20260909_151632721_HDR-scaled-e1789035199684-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Saigak APC features an active protection system that the company says can defeat up to 20 First Person View (FPV) drones, amid a proliferation of the aircraft dominating the war in Ukraine.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/ukrainian-armor-eyes-german-industry-partnership-for-newly-unveiled-land-vehicles/</guid>
-      <pubDate>Thu, 10 Sep 2026 13:29:15 +0000</pubDate>
+      <title>Lipsky quoted in MSNow on the use of tariff revenue to fund “Trump Dividends”</title>
+      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-quoted-in-msnow-on-the-use-of-tariff-revenue-to-fund-trump-dividends/</link>
+      <description>&lt;p&gt;Read the full article here&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-quoted-in-msnow-on-the-use-of-tariff-revenue-to-fund-trump-dividends/"&gt;Lipsky quoted in MSNow on the use of tariff revenue to fund &amp;#8220;Trump Dividends&amp;#8221;&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-quoted-in-msnow-on-the-use-of-tariff-revenue-to-fund-trump-dividends/</guid>
+      <pubDate>Thu, 10 Sep 2026 13:22:11 +0000</pubDate>
     </item>
     <item>
       <title>Nearly two decades after the global financial crisis, a new regulatory era is dawning</title>
@@ -2928,25 +1828,11 @@ One flaw affects Check Point's Security Gateways, its firewall appliances. The o
       <pubDate>Thu, 10 Sep 2026 14:00:11 +0000</pubDate>
     </item>
     <item>
-      <title>Emirati EDGE Group delivers six unmanned helicopters to Angolan navy</title>
-      <link>https://breakingdefense.com/2026/09/emirati-edge-group-delivers-six-unmanned-helicopters-to-angolan-navy/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/emirati-edge-group-delivers-six-unmanned-helicopters-to-angolan-navy/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260910_EDGE_unmanned_helo_Handout_sized-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The unmanned helos will be integrated on three corvettes that Angola purchased for over $1 billion in 2023.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/emirati-edge-group-delivers-six-unmanned-helicopters-to-angolan-navy/</guid>
-      <pubDate>Thu, 10 Sep 2026 14:09:55 +0000</pubDate>
-    </item>
-    <item>
       <title>Can Southeast Asia Benefit From the China-US AI Race?</title>
       <link>https://thediplomat.com/2026/09/can-southeast-asia-benefit-from-the-china-us-ai-race/</link>
       <description>As Washington and Beijing compete to turn technology into influence, the region needs to negotiate what it gains and what it is expected to give up.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/09/can-southeast-asia-benefit-from-the-china-us-ai-race/</guid>
       <pubDate>Thu, 10 Sep 2026 14:11:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russia sends bones of medieval warrior prince to Ukraine front to boost morale</title>
-      <link>https://www.defensenews.com/global/2026/09/10/russia-sends-bones-of-medieval-warrior-prince-to-ukraine-front-to-boost-morale/</link>
-      <description>Bone fragments from the sword hand of a medieval Russian prince who won a famous victory over the Mongols have been sent to the front in Ukraine.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/2026/09/10/russia-sends-bones-of-medieval-warrior-prince-to-ukraine-front-to-boost-morale/</guid>
-      <pubDate>Thu, 10 Sep 2026 14:16:04 +0000</pubDate>
     </item>
     <item>
       <title>Russia sends bones of medieval warrior prince to Ukraine front to boost morale</title>
@@ -2956,17 +1842,24 @@ One flaw affects Check Point's Security Gateways, its firewall appliances. The o
       <pubDate>Thu, 10 Sep 2026 14:16:04 +0000</pubDate>
     </item>
     <item>
-      <title>Iran likely to reverse-engineer captured US underwater drone</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/</link>
-      <description>Iran will almost certainly try to pry open the captured drone’s hardware, but the platform's software does carry built-in defenses, analysts say.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/</guid>
-      <pubDate>Thu, 10 Sep 2026 14:26:04 +0000</pubDate>
+      <title>Russia sends bones of medieval warrior prince to Ukraine front to boost morale</title>
+      <link>https://www.defensenews.com/global/2026/09/10/russia-sends-bones-of-medieval-warrior-prince-to-ukraine-front-to-boost-morale/</link>
+      <description>Bone fragments from the sword hand of a medieval Russian prince who won a famous victory over the Mongols have been sent to the front in Ukraine.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/2026/09/10/russia-sends-bones-of-medieval-warrior-prince-to-ukraine-front-to-boost-morale/</guid>
+      <pubDate>Thu, 10 Sep 2026 14:16:04 +0000</pubDate>
     </item>
     <item>
       <title>Iran likely to reverse-engineer captured US underwater drone</title>
       <link>https://www.c4isrnet.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/</link>
       <description>Iran will almost certainly try to pry open the captured drone’s hardware, but the platform's software does carry built-in defenses, analysts say.</description>
       <guid isPermaLink="false">https://www.c4isrnet.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/</guid>
+      <pubDate>Thu, 10 Sep 2026 14:26:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran likely to reverse-engineer captured US underwater drone</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/</link>
+      <description>Iran will almost certainly try to pry open the captured drone’s hardware, but the platform's software does carry built-in defenses, analysts say.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/</guid>
       <pubDate>Thu, 10 Sep 2026 14:26:04 +0000</pubDate>
     </item>
     <item>
@@ -2994,13 +1887,6 @@ Early Access apps are apps that haven't been released on the official Android ap
       <pubDate>Thu, 10 Sep 2026 14:40:02 +0000</pubDate>
     </item>
     <item>
-      <title>IDScan confirms breach tied to 153 million stolen driver’s licenses</title>
-      <link>https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/</link>
-      <description>Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's license scans. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/</guid>
-      <pubDate>Thu, 10 Sep 2026 14:55:33 +0000</pubDate>
-    </item>
-    <item>
       <title>Now everyone can put data to work</title>
       <link>https://openai.com/index/put-data-to-work</link>
       <description>Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.</description>
@@ -3015,13 +1901,6 @@ Early Access apps are apps that haven't been released on the official Android ap
       <pubDate>Thu, 10 Sep 2026 15:00:41 +0000</pubDate>
     </item>
     <item>
-      <title>General Atomics unveils ‘Wildfire’ drone to replace Reaper</title>
-      <link>https://breakingdefense.com/2026/09/general-atomics-unveils-wildfire-drone-to-replace-reaper/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/general-atomics-unveils-wildfire-drone-to-replace-reaper/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Wildfire-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Pitched for the Massed Modular Aircraft program run by the Air Force and Defense Innovation Unit, General Atomics says its new drone design can exceed requirements set by the Pentagon to succeed the MQ-9A Reaper.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/general-atomics-unveils-wildfire-drone-to-replace-reaper/</guid>
-      <pubDate>Thu, 10 Sep 2026 15:17:03 +0000</pubDate>
-    </item>
-    <item>
       <title>Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit</title>
       <link>https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit</link>
       <description>The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.</description>
@@ -3034,13 +1913,6 @@ Early Access apps are apps that haven't been released on the official Android ap
       <description>China’s economic success is bringing industrial disruption that empowers populist groups in Europe. That could lead to significant long-term challenges for the Chinese government and businesses.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/09/what-the-afds-rise-in-germany-means-for-china-eu-relations/</guid>
       <pubDate>Thu, 10 Sep 2026 15:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/</link>
-      <description>Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/</guid>
-      <pubDate>Thu, 10 Sep 2026 15:43:58 +0000</pubDate>
     </item>
     <item>
       <title>AI-powered attack exploited PaperCut flaws to hack 395 organizations</title>
@@ -3451,6 +2323,167 @@ Wiz saw the attacks between August 15 and September 8. JFrog had fixed both flaw
       <description>Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/</guid>
       <pubDate>Fri, 11 Sep 2026 09:39:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>India puts domestic industry at heart of new military equipment orders</title>
+      <link>https://www.defensenews.com/global/asia-pacific/2026/09/11/india-puts-domestic-industry-at-heart-of-new-military-equipment-orders/</link>
+      <description>India will source nearly all of $11.6 billion worth of recently approved military hardware from domestic manufacturers, the government said.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/09/11/india-puts-domestic-industry-at-heart-of-new-military-equipment-orders/</guid>
+      <pubDate>Fri, 11 Sep 2026 10:40:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Analysis: Croatia signs deal for South Korean Chunmoo MLRS</title>
+      <link>https://www.army-technology.com/news/analysis-croatia-signs-deal-for-south-korean-chunmoo-mlrs/</link>
+      <description>The Chunmoo MLRS has been developed by Hanwha Aerospace and in currently in service with South Korea and international militaries.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/analysis-croatia-signs-deal-for-south-korean-chunmoo-mlrs/</guid>
+      <pubDate>Fri, 11 Sep 2026 11:08:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitLab urges users to patch max severity path traversal flaw</title>
+      <link>https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/</link>
+      <description>GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/</guid>
+      <pubDate>Fri, 11 Sep 2026 11:15:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Save Him!' RFE/RL Captures Chaos After Russian Strike On Ukrainian Shops</title>
+      <link>https://www.rferl.org/a/rfe-rl-captures-chaos-after-russian-strike-on-ukrainian-shops-in-pavlohrad/33852377.html</link>
+      <description>Ukraine’s foreign minister is urging allies to provide more air defenses after a Russian drone strike on Pavlohrad killed at least five people and injured dozens. RFE/RL correspondent Roman Pahulych arrived as emergency crews treated the wounded and battled fires.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/rfe-rl-captures-chaos-after-russian-strike-on-ukrainian-shops-in-pavlohrad/33852377.html</guid>
+      <pubDate>Fri, 11 Sep 2026 11:21:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your Critical Vulnerabilities Might Not Be Your Biggest Risk</title>
+      <link>https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html</link>
+      <description>Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.
+
+A critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html</guid>
+      <pubDate>Fri, 11 Sep 2026 11:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond prototypes: Army readies operational NGC2 tech for I Corps</title>
+      <link>https://breakingdefense.com/2026/09/beyond-prototypes-army-readies-operational-ngc2-tech-for-i-corps/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/beyond-prototypes-army-readies-operational-ngc2-tech-for-i-corps/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/9902227-scaled-e1788895571601-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;As the Army begins fielding NGC2 to I Corps, software tools will be critical to enable interoperability and getting new capabilities to units faster.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/beyond-prototypes-army-readies-operational-ngc2-tech-for-i-corps/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From 9/11 to Afghanistan: A Delta Force Operator’s Story</title>
+      <link>https://sofrep.com/news/book-excerpt-a-warriors-path-lessons-in-leadership-from-an-army-special-missions-unit-operator/</link>
+      <description>The following excerpt is courtesy of Robert A. Trivino&amp;#8217;s book A Warrior&amp;#8217;s Path: Lessons in Leadership. Robert is a former member of the US Army&amp;#8217;s 18th Airborne Corps, 75th Ranger Regiment, and an operational member of the Army&amp;#8217;s elite special missions unit. The book humbly highlights Trivino&amp;#8217;s own successes &amp;#8211; and particularly his failures &amp;#8211; [&amp;#8230;] #DeltaForce #SpecialOperations #AfghanistanWar #September11 #MilitaryLeadership</description>
+      <guid isPermaLink="false">https://sofrep.com/news/book-excerpt-a-warriors-path-lessons-in-leadership-from-an-army-special-missions-unit-operator/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Putin’s Visit to the Kuril Islands: A New Setback for Japan–Russia Relations</title>
+      <link>https://www.geopoliticalmonitor.com/putin-kuril-islands-visit-japan-russia/</link>
+      <description>&lt;p&gt;Putin’s visit to Iturup underscores how fundamentally Japan–Russia relations have changed since the outbreak of the war in Eastern Europe.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/putin-kuril-islands-visit-japan-russia/"&gt;Putin’s Visit to the Kuril Islands: A New Setback for Japan–Russia Relations&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/putin-kuril-islands-visit-japan-russia/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:02:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trade Diversification Has a Credit Problem</title>
+      <link>https://www.geopoliticalmonitor.com/canada-trade-diversification-credit-problem/</link>
+      <description>&lt;p&gt;Diversification can reduce exposure to a country’s trade policy, but new markets are only viable if both sides can afford to keep trading.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/canada-trade-diversification-credit-problem/"&gt;Trade Diversification Has a Credit Problem&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/canada-trade-diversification-credit-problem/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:06:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Download: biotech’s future and cheaper, cleaner steel</title>
+      <link>https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the brightest and best young minds&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why propulsion could be the critical piece in Golden Dome’s architecture</title>
+      <link>https://breakingdefense.com/2026/09/why-propulsion-could-be-the-critical-piece-in-golden-domes-architecture/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/why-propulsion-could-be-the-critical-piece-in-golden-domes-architecture/"&gt;&lt;img alt="A test fire of Voyager Technologies&amp;#039; propulsion system." class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/static-fire-2-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] Throttleable systems, boost-phase interception, and new manufacturing capacity expand missile defense options.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/why-propulsion-could-be-the-critical-piece-in-golden-domes-architecture/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:28:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukrainian police are preventing Russia from turning civilians into saboteurs</title>
+      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/ukrainian-police-are-preventing-russia-from-turning-civilians-into-saboteurs/</link>
+      <description>&lt;p&gt;Since spring 2024, Russia has been waging a campaign far behind the front lines featuring arson, sabotage, and terrorist attacks using Ukrainians who are recruited online, deceived, and discarded, write Andrii Niebytov and Clara Kaluderovic.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/ukrainian-police-are-preventing-russia-from-turning-civilians-into-saboteurs/"&gt;Ukrainian police are preventing Russia from turning civilians into saboteurs&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/ukrainian-police-are-preventing-russia-from-turning-civilians-into-saboteurs/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:37:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>The US must become Africa’s partner on technology and AI. It can do so with soft power.</title>
+      <link>https://www.atlanticcouncil.org/blogs/africasource/the-us-must-become-africas-partner-on-technology-and-ai-it-can-do-so-with-soft-power/</link>
+      <description>&lt;p&gt;The United States’ chief adversary has a soft power strategy. Why doesn’t Washington?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/africasource/the-us-must-become-africas-partner-on-technology-and-ai-it-can-do-so-with-soft-power/"&gt;The US must become Africa’s partner on technology and AI. It can do so with soft power.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/africasource/the-us-must-become-africas-partner-on-technology-and-ai-it-can-do-so-with-soft-power/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:39:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Horses, Bombers and Parachute Cord: The First 38 Days After 9/11</title>
+      <link>https://sofrep.com/news/horses-bombers-and-parachute-cord-the-first-38-days-after-9-11/</link>
+      <description>America entered Afghanistan with satellites and stealth bombers, but it was 12 Green Berets on borrowed horses who closed the gear gap and carried the war to the Taliban. #HorseSoldiers #GreenBerets #SpecialOperations #AfghanistanWar #September11</description>
+      <guid isPermaLink="false">https://sofrep.com/news/horses-bombers-and-parachute-cord-the-first-38-days-after-9-11/</guid>
+      <pubDate>Fri, 11 Sep 2026 13:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Space Force picks Texas as US home for trinational DARC space radar network</title>
+      <link>https://breakingdefense.com/2026/09/space-force-picks-texas-as-us-home-for-trinational-darc-space-radar-network/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/space-force-picks-texas-as-us-home-for-trinational-darc-space-radar-network/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/06/220614_darc_radar_northrop-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Space Force expects the US site, the third and final one in the multi-nation DARC network, to complete civil construction in 2029, and begin operations in 2030.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/space-force-picks-texas-as-us-home-for-trinational-darc-space-radar-network/</guid>
+      <pubDate>Fri, 11 Sep 2026 13:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding the US-Venezuela Oil Deal</title>
+      <link>https://www.geopoliticalmonitor.com/us-venezuela-oil-deal-explained/</link>
+      <description>&lt;p&gt;A 100-year concession over 17 fields, a Chevron expansion, and a silent Caracas: what the US-Venezuela oil deal changes, and what it leaves to China and Russia.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/us-venezuela-oil-deal-explained/"&gt;Understanding the US-Venezuela Oil Deal&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/us-venezuela-oil-deal-explained/</guid>
+      <pubDate>Fri, 11 Sep 2026 13:13:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Houthi Gains In Yemen Mean For The Iran War</title>
+      <link>https://www.rferl.org/a/iran-war-houthis-advance-us-bab-mandab/33852386.html</link>
+      <description>Iran may be losing its grip on Hormuz, but its Houthi allies are threatening to give Tehran another lever over global energy and shipping through Bab al-Mandab.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-war-houthis-advance-us-bab-mandab/33852386.html</guid>
+      <pubDate>Fri, 11 Sep 2026 13:16:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>German military eyes cruise missiles from Covenant, a surprise vendor setting up shop</title>
+      <link>https://www.defensenews.com/global/europe/2026/09/11/german-military-eyes-cruise-missiles-from-covenant-a-surprise-vendor-setting-up-shop/</link>
+      <description>The German military is in talks with Covenant over the company's Anthem cruise missile, the country’s defense ministry said on Friday.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/11/german-military-eyes-cruise-missiles-from-covenant-a-surprise-vendor-setting-up-shop/</guid>
+      <pubDate>Fri, 11 Sep 2026 13:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navy SEALs Hunted Iranian Mines in the Black Waters of Hormuz</title>
+      <link>https://sofrep.com/news/navy-seals-hunted-iranian-mines-in-the-black-waters-of-hormuz/</link>
+      <description>Navy SEALs hunted Iranian mines in the black waters of Hormuz while unmanned systems and airpower compensated for a mine-warfare fleet caught on the wrong oceans. #NavySEALs #StraitOfHormuz #MineWarfare #USNavy #IranWar</description>
+      <guid isPermaLink="false">https://sofrep.com/news/navy-seals-hunted-iranian-mines-in-the-black-waters-of-hormuz/</guid>
+      <pubDate>Fri, 11 Sep 2026 14:00:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>What we’re watching for at AFA 2026</title>
+      <link>https://breakingdefense.com/2026/09/what-were-watching-for-at-afa-2026/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/what-were-watching-for-at-afa-2026/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/AFA2026-preview-pb-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Breaking Defense&amp;#8217;s Aaron Mehta and Michael Marrow preview anticipated developments at this year&amp;#8217;s AFA conference. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/what-were-watching-for-at-afa-2026/</guid>
+      <pubDate>Fri, 11 Sep 2026 14:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface</title>
+      <link>https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/</link>
+      <description>Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/</guid>
+      <pubDate>Fri, 11 Sep 2026 14:01:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japan’s Autonomous Defense Buildup: Countering China With AI and Unmanned Systems</title>
+      <link>https://sofrep.com/?p=230699&amp;preview=true&amp;preview_id=230699</link>
+      <description>Japan is spending money it hasn&amp;#8217;t spent since the Second World War, on capabilities it was constitutionally forbidden to develop for most of the postwar era, to deter a threat that Prime Minister Sanae Takaichi&amp;#8217;s government now describes in terms that would have been unthinkable a decade ago. The numbers require some untangling, because they [&amp;#8230;]</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=230699&amp;preview=true&amp;preview_id=230699</guid>
+      <pubDate>Fri, 11 Sep 2026 16:00:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
