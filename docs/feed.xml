@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 05:22:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 10:27:29 +0000</lastBuildDate>
     <item>
       <title>ISC Stormcast For Wednesday, September 9th, 2026 https://isc.sans.edu/podcastdetail/10086, (Wed, Sep 9th)</title>
       <link>https://isc.sans.edu/diary/rss/33322</link>
@@ -239,6 +239,13 @@
       <pubDate>Thu, 10 Sep 2026 06:31:22 +0000</pubDate>
     </item>
     <item>
+      <title>EU Cyber Resilience Act to Enforce New Reporting Requirements</title>
+      <link>https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements</link>
+      <description>Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements</guid>
+      <pubDate>Thu, 10 Sep 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Expanding AI access and cyber defense for federal, state, local, and tribal governments</title>
       <link>https://openai.com/index/expanding-ai-access-us-government</link>
       <description>OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.</description>
@@ -250,13 +257,6 @@
       <link>https://openai.com/index/introducing-chatgpt-financial-services</link>
       <description>Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.</description>
       <guid isPermaLink="false">https://openai.com/index/introducing-chatgpt-financial-services</guid>
-      <pubDate>Thu, 10 Sep 2026 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EU Cyber Resilience Act to Enforce New Reporting Requirements</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements</link>
-      <description>Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements</guid>
       <pubDate>Thu, 10 Sep 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1692,15 +1692,6 @@
       <pubDate>Fri, 11 Sep 2026 06:48:37 +0000</pubDate>
     </item>
     <item>
-      <title>China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor</title>
-      <link>https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html</link>
-      <description>A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in&amp;nbsp;research published Thursday.
-
-The attack started with a crafted link and ended with the attacker able to do anything the logged-in user could do. Tencent, which owns</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html</guid>
-      <pubDate>Fri, 11 Sep 2026 07:14:09 +0000</pubDate>
-    </item>
-    <item>
       <title>The War’s Last Generation Is Still Holding America’s Moral Debt</title>
       <link>https://warontherocks.com/the-wars-last-generation-is-still-holding-americas-moral-debt/</link>
       <description>&lt;p&gt;On the first night of the evacuation of Kabul, Aug. 15, 2021, a young mother found me in the crowd at Hamid Karzai International Airport. She had marked me, correctly, as someone who spoke her language. By the end of the night, she was pressing the body of her dead child into my chest and telling me, &amp;#8220;You did this.&amp;#8221; I have spent five years with that sentence.In a way, she was wrong about me. I had done nothing to her son. But the decisions that delivered her to that night were made an ocean away, and their consequences needed&lt;/p&gt;
@@ -1779,13 +1770,6 @@ Wiz saw the attacks between August 15 and September 8. JFrog had fixed both flaw
       <description>GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/</guid>
       <pubDate>Fri, 11 Sep 2026 11:15:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>'Save Him!' RFE/RL Captures Chaos After Russian Strike On Ukrainian Shops</title>
-      <link>https://www.rferl.org/a/rfe-rl-captures-chaos-after-russian-strike-on-ukrainian-shops-in-pavlohrad/33852377.html</link>
-      <description>Ukraine’s foreign minister is urging allies to provide more air defenses after a Russian drone strike on Pavlohrad killed at least five people and injured dozens. RFE/RL correspondent Roman Pahulych arrived as emergency crews treated the wounded and battled fires.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/rfe-rl-captures-chaos-after-russian-strike-on-ukrainian-shops-in-pavlohrad/33852377.html</guid>
-      <pubDate>Fri, 11 Sep 2026 11:21:57 +0000</pubDate>
     </item>
     <item>
       <title>Your Critical Vulnerabilities Might Not Be Your Biggest Risk</title>
@@ -1918,13 +1902,6 @@ A critical vulnerability may look alarming on a scanner report, but if it sits b
       <pubDate>Fri, 11 Sep 2026 13:13:54 +0000</pubDate>
     </item>
     <item>
-      <title>What Houthi Gains In Yemen Mean For The Iran War</title>
-      <link>https://www.rferl.org/a/iran-war-houthis-advance-us-bab-mandab/33852386.html</link>
-      <description>Iran may be losing its grip on Hormuz, but its Houthi allies are threatening to give Tehran another lever over global energy and shipping through Bab al-Mandab.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-war-houthis-advance-us-bab-mandab/33852386.html</guid>
-      <pubDate>Fri, 11 Sep 2026 13:16:24 +0000</pubDate>
-    </item>
-    <item>
       <title>Can India Exploit China’s ‘Malacca Dilemma’?</title>
       <link>https://thediplomat.com/2026/09/can-india-exploit-chinas-malacca-dilemma/</link>
       <description>New Delhi need not match Beijing militarily to impose disproportionate strategic costs.</description>
@@ -2054,13 +2031,6 @@ The threat actors, which the artificial intelligence (AI) company has branded Ge
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/now-is-the-wrong-time-for-the-pentagon-to-pull-back-from-europe/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2024/11/GettyImages-2184728824-scaled-e1732052343476-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Hudson Institute&amp;#8217;s Daniel Kochis argues in this op-ed that Russia must remain convinced that America’s presence, combined with European NATO members’ firepower, is enough not to risk a direct confrontation.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/09/now-is-the-wrong-time-for-the-pentagon-to-pull-back-from-europe/</guid>
       <pubDate>Fri, 11 Sep 2026 15:12:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Photo Exclusive: Russia Returns To Syria Bases, Contradicting 'Transfer' Claims</title>
-      <link>https://www.rferl.org/a/russia-syria-return-to-bases-photo-exclusive-tartus/33852491.html</link>
-      <description>One month after the announcement that Russia’s bases in Syria would be “transferred” to Damascus, Russian military vessels have returned to the port of Tartus, exclusive images sourced by RFE/RL confirm.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-syria-return-to-bases-photo-exclusive-tartus/33852491.html</guid>
-      <pubDate>Fri, 11 Sep 2026 15:14:04 +0000</pubDate>
     </item>
     <item>
       <title>Polish prime minister: Poland to develop its own Starlink</title>
@@ -2492,6 +2462,36 @@ Details of the vulnerabilities are as follows -
       <description>Russia continued to pound the Ukrainian civilian population, killing at least nine people in attacks throughout the country, while Ukrainian President Volodymyr Zelenskyy repeated he'd be willing to meet Russia’s Vladimir Putin at the upcoming G20 summit -- something the Kremlin called “impossible.”</description>
       <guid isPermaLink="false">https://www.rferl.org/a/zelenskyy-putin-trump-miami-g20-war-talks/33853066.html</guid>
       <pubDate>Sat, 12 Sep 2026 22:06:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukrainian Soldier Honored For Rescue In 'Kill Zone'</title>
+      <link>https://www.rferl.org/a/ukraine-front-lines-rescue-military-honors/33851926.html</link>
+      <description>Two Ukrainian soldiers were wounded near the front lines in the Kharkiv region, then were left stranded when another strike took out the ground drone sent to evacuate them. Their company commander, Vladyslav Polskiy, rushed to the site in a pickup truck without combat armor and brought the wounded men to safety. The dangerous mission earned him Ukraine's highest military honor, presented to Polskiy by President Volodymyr Zelenskyy.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-front-lines-rescue-military-honors/33851926.html</guid>
+      <pubDate>Sun, 13 Sep 2026 07:03:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukrainian Soldier Honored For Rescue In 'Kill Zone' (vertical)</title>
+      <link>https://www.rferl.org/a/ukraine-front-lines-military-rescue/33851941.html</link>
+      <description>Two Ukrainian soldiers were wounded near the front lines in the Kharkiv region -- then were left stranded when another strike took out the ground drone sent to evacuate them. Their company commander, Vladyslav Polskiy, rushed to the site in a pickup truck without combat armor and brought the wounded men to safety. The dangerous mission earned him Ukraine's highest military honor, presented to Polskiy by President Volodymyr Zelenskyy.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-front-lines-military-rescue/33851941.html</guid>
+      <pubDate>Sun, 13 Sep 2026 07:03:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Reportedly Killed After Iranian Commercial Vessel Hit Near Qeshm</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Sun, 13 Sep 2026 07:09:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data</title>
+      <link>https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html</link>
+      <description>Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.
+
+The first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html</guid>
+      <pubDate>Sun, 13 Sep 2026 10:11:48 +0000</pubDate>
     </item>
     <item>
       <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
