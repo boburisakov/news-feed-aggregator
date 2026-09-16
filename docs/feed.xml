@@ -7,61 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 11:21:57 +0000</lastBuildDate>
-    <item>
-      <title>AeroVironment bags first international order for LOCUST laser system</title>
-      <link>https://www.army-technology.com/news/aerovironment-locust-laser-order/</link>
-      <description>AeroVironment has received the first international purchase order for its LOCUST laser weapon system, designed to counter smaller drones.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/aerovironment-locust-laser-order/</guid>
-      <pubDate>Thu, 10 Sep 2026 16:43:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>What America’s Adversaries and Allies Hope to Gain at the U.N. General Assembly</title>
-      <link>https://warontherocks.com/what-americas-adversaries-and-allies-hope-to-gain-at-the-u-n-general-assembly/</link>
-      <description>&lt;p&gt;This year&amp;#8217;s U.N. General Assembly officially opened on Tuesday, Sept. 8. The annual gathering gives diplomats and leaders a valuable opportunity to press their foreign policy priorities and engage &amp;#8212; formally and informally &amp;#8212; with both partners and adversaries. Most heads of state will arrive later this month for the General Debate that begins on Sept. 22. The General Assembly will wrap up on Sept. 28.U.S. President Donald Trump and his senior officials have strongly criticized the United Nations, withdrawn from multiple U.N. organizations, and reduced funding. More broadly, the Trump administration&amp;#8217;s moves to withdraw some U.S. troops, shift more&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/what-americas-adversaries-and-allies-hope-to-gain-at-the-u-n-general-assembly/"&gt;What America’s Adversaries and Allies Hope to Gain at the U.N. General Assembly&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/what-americas-adversaries-and-allies-hope-to-gain-at-the-u-n-general-assembly/</guid>
-      <pubDate>Thu, 10 Sep 2026 17:30:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>UK deprioritises tank live-fire exercises</title>
-      <link>https://www.army-technology.com/news/uk-deprioritises-tank-live-fire-exercises/</link>
-      <description>The UK Government appears to have decided that live-fire exercises for the British Army's premier tank regiment is not a leading priority.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/uk-deprioritises-tank-live-fire-exercises/</guid>
-      <pubDate>Thu, 10 Sep 2026 18:22:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Robots Are Learning to Feel</title>
-      <link>https://spectrum.ieee.org/tactile-data-robots</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/image.jpg?id=67745231&amp;amp;width=980" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to change as academic labs and startups race to build new tactile datasets and techniques to put them to use.&lt;/p&gt;&lt;p&gt;Over the last few years, &lt;a href="https://spectrum.ieee.org/gemini-robotics" target="_self"&gt;vision-language-action (VLA) models&lt;/a&gt; have significantly improved the ability of robots to carry out complex tasks involving objects and environments they’ve never encountered before. Pretrained on huge amounts of images, video, and text, and then fine-tuned on a smaller number of teleoperated robot demonstrations, these VLAs can guide robots through a growing range of everyday jobs—&lt;a href="https://www.pi.website/blog/pistar06" rel="noopener noreferrer" target="_blank"&gt;like folding laundry, tidying living rooms, and even operating kitchen gadgets&lt;/a&gt;—using just a video feed and natural language instructions.&lt;/p&gt;&lt;p&gt;But robots still struggle with tasks that require fine-grained hand control, such as handling deformable materials or manipulating small objects—plugging in a USB cable or turning a key in a lock, for example. That’s partly because VLAs ignore one of the primary sources of information humans rely on in these situations: tactile feedback.&lt;/p&gt;&lt;h2&gt;Manipulating Like Humans&lt;/h2&gt;&lt;p&gt;“Most dexterous manipulation can be done by humans with their eyes closed,” says &lt;a href="https://people.eecs.berkeley.edu/~trevor/" rel="noopener noreferrer" target="_blank"&gt;Trevor Darrell&lt;/a&gt;, professor of computer science at the University of California, Berkeley. “Understanding force, slip, and precise grasping is not something that can be done well with traditional vision sensors.”&lt;/p&gt;&lt;p&gt;However, making effective use of tactile sensors is difficult. Tactile sensor data has very different characteristics to the image data VLAs are normally trained on, and tactile datasets lag far behind the internet-scale of many vision and language datasets. To get around this, Darrell’s team devised a way to first pretrain a model on existing datasets before giving it a sense of touch by training a specialist submodel on &lt;a href="https://arxiv.org/abs/2606.17055" rel="noopener noreferrer" target="_blank"&gt;100 hours of specially collected, high-quality tactile data&lt;/a&gt;, including demonstrations of common actions like wiping, grasping, twisting, or pouring using more than 200 different household objects.&lt;/p&gt;&lt;h3&gt;&lt;/h3&gt;&lt;br /&gt;
-&lt;p class="caption"&gt;Explore an interactive visualizer of a small portion of the T-Rex dataset. &lt;span class="image-media media-photo-credit"&gt;&lt;a href="https://tactile-reactive-dexterous.github.io/#citation" target="_blank"&gt;T-Rex&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Putting the tactile data to use was not straightforward. The goal was for a robot to be able to use the tactile signal to correct its grip in real time as it manipulated objects. But this requires reaction times faster than most vision-language models operate at. This mismatch is a significant challenge, Darrell says, so the team used separate submodels, known as “experts,” to handle high-level actions and low-level tactile control in a way that’s quick enough for the tactile feedback to be useful.&lt;/p&gt;&lt;p&gt;The action expert produces motion plans, while the tactile expert, which operates four times faster, uses tactile feedback to adjust the motion plan in real time based on what the robot is feeling as it goes. The model was then fine-tuned on about 100 teleoperated demonstrations of relatively complex manipulation tasks, such as screwing in a light bulb, applying toothpaste to a toothbrush, or transferring an egg between trays, where it averaged a success rate of 65 percent across 12 tasks—nearly double the best VLA model.&lt;/p&gt;&lt;h2&gt;Data Diversity&lt;/h2&gt;&lt;p&gt;One limitation, admits Darrell, is that his data comes from a single instance of robotic hardware. Robot hands range from fully articulated five-finger designs to simple pincer grippers, and tactile sensors can rely on fundamentally different physics, from measuring changes in resistance to recording images of a soft gel pad deforming. That makes most tactile AI research sensor-specific, says &lt;a href="https://michaelyuancb.github.io/" target="_blank"&gt;Chengbo Yuan&lt;/a&gt;, a master’s student at Tsinghua University in Beijing, and makes it hard to share data and transfer learnings between groups.&lt;/p&gt;&lt;p&gt;Yuan recently set out to tackle this problem by &lt;a href="https://arxiv.org/pdf/2606.13102" rel="noopener noreferrer" target="_blank"&gt;aggregating more than 3,000 hours&lt;/a&gt; of tactile robotic data from publicly available datasets, covering 21 sensor types and a variety of robot embodiments. Yuan says they were inspired by efforts like the &lt;a href="https://spectrum.ieee.org/global-robotic-brain" target="_self"&gt;Open X-Embodiment collaboration&lt;/a&gt;, which pooled data from many robots and led to models that generalize to hardware not used in training. Yuan’s team then designed a hardware-agnostic model that can train on this diverse data by converting each sensor’s output into a shared format and mapping it onto labeled positions on a template of a human hand. This model was much more successful than a baseline model, even on hardware it had never encountered before. Yuan puts that down to it acquiring “some kind of common sense of tactile knowledge,” by training on such diverse setups.&lt;/p&gt;&lt;h2&gt;Chasing Scale&lt;/h2&gt;&lt;p&gt;Despite the promising results, Yuan thinks more tactile data is needed, and his group is now leading an 80-institution collaboration to collate a larger set of teleoperated demonstrations using a standardized approach to tactile data collection and processing. In the meantime, Fudan University in Shanghai and its spin-out &lt;a href="https://baike.baidu.com/en/item/NeoteAI/1682418" rel="noopener noreferrer" target="_blank"&gt;NeoteAI&lt;/a&gt; have already produced &lt;a href="https://research.neoteai.com/assets/n0-foundation-report.pdf" rel="noopener noreferrer" target="_blank"&gt;a tactile dataset&lt;/a&gt; an order of magnitude larger than previous efforts. Using &lt;a href="https://neoteai.com/" rel="noopener noreferrer" target="_blank"&gt;a proprietary sensor&lt;/a&gt; attached to a variety of robotic arms and a handheld gripper operated by humans, they have collected more than 30,000 hours of demonstrations with synchronized visual and tactile data.&lt;/p&gt;&lt;p&gt;The researchers used this data to &lt;a href="https://research.neoteai.com/n0-twam/" rel="noopener noreferrer" target="_blank"&gt;train a model&lt;/a&gt; that doesn’t just react to touch, but also proactively predicts what the robot should be feeling to help guide and assess actions, significantly improving performance. &lt;a href="https://shunlinlu.github.io/" rel="noopener noreferrer" target="_blank"&gt;Shunlin Lu&lt;/a&gt;, a postdoc researcher at Fudan University and CTO of NeoteAI, says the results are clear evidence that access to large-scale and diverse tactile data leads to significant performance gains.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;small class="image-media media-caption"&gt;Robot manipulation policies with a tactile component offer improved performance on a variety of real-world tasks.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;NeoteAI&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another approach to scaling tactile data could be to piggyback on the vast quantities of visual robotics data already collected. Researchers at the University of Southern California, in Los Angeles, recently &lt;a href="https://arxiv.org/pdf/2607.20683" rel="noopener noreferrer" target="_blank"&gt;released a model&lt;/a&gt; that learned to infer tactile information from visual data, by training it on more than 2,700 demonstrations of everyday manipulation using a handheld gripper that records both tactile data and images from a camera on the device. The model learned associations between images of the gripper coming into contact with objects and the amount of pressure felt by the tactile sensors at that moment, giving even robots without tactile sensors a rudimentary sense of touch that the researchers showed to be particularly useful for contact-rich manipulation tasks. But their broader ambition is to use the generator to add tactile data to existing vision datasets.&lt;/p&gt;&lt;p&gt;How much tactile data will be required for breakthroughs in dexterous tasks remains unclear. So far, tactile training’s main contribution has been to make robots more efficient learners at tasks already within reach like picking and placing objects, says Yuan, and he suspects new algorithms may be required to tackle problems truly impossible without touch.&lt;/p&gt;&lt;p&gt;&lt;a href="https://people.ucas.ac.cn/~chenglong?language=en" rel="noopener noreferrer" target="_blank"&gt;Long Cheng&lt;/a&gt; of the Chinese Academy of Sciences in Beijing also thinks raw data is no panacea. “Data is good,” he says. “But how to use them correctly is another issue.” The problem, he notes, is that vision provides a continuous, high-bandwidth stream of pixels, while tactile signals are sparse and intermittent, so models learn to ignore them. His solution, being presented at &lt;a href="https://2026.ieee-iros.org/" rel="noopener noreferrer" target="_blank"&gt;IROS 2026&lt;/a&gt; later this month, is a model that predicts what a robot will feel from vision alone and then compares it against real tactile input. A large gap between the two means the sensor is detecting something the robot would otherwise miss, so these surprising signals are amplified while predictable ones are dampened. Across five contact-rich tasks, the approach averaged 62.8 percent success against 28.2 percent for the same model without touch.&lt;/p&gt;&lt;p&gt;Lu is more confident that data scaling could have similar benefits to those seen in areas like language and vision. He guesses closer to 100,000 hours, collected in varied, real-world settings rather than in the lab, could unlock new capabilities. Either way, the field now has some early signs that larger tactile datasets and smarter ways to use them can give robots a significant boost on some of the most challenging tasks. “I think tactile intelligence is actually the next step for physical AI,” Lu says.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/tactile-data-robots</guid>
-      <pubDate>Thu, 10 Sep 2026 18:22:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI lets small actors run state-level hacking campaigns, Anthropic report finds</title>
-      <link>https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/</link>
-      <description>&lt;p&gt;The report details a Russian-aligned espionage campaign against more than 20 organizations, an exploit foundry run by Chinese undergraduates and ShinyHunters-affiliated breaches, among other disrupted operations.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/"&gt;AI lets small actors run state-level hacking campaigns, Anthropic report finds&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/</guid>
-      <pubDate>Thu, 10 Sep 2026 19:45:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hawley probes OpenAI over Hugging Face breach</title>
-      <link>https://cyberscoop.com/openai-hugging-face-probe-senate-hawley/</link>
-      <description>&lt;p&gt;The Republican lawmaker called OpenAI’s leadership decisions “reckless,” and used recent warnings about the existential risk of AI to bolster his inquiry.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/openai-hugging-face-probe-senate-hawley/"&gt;Hawley probes OpenAI over Hugging Face breach&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/openai-hugging-face-probe-senate-hawley/</guid>
-      <pubDate>Thu, 10 Sep 2026 19:54:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Conti ransomware crew member sentenced to four years in prison</title>
-      <link>https://cyberscoop.com/conti-ransomware-developer-sentenced/</link>
-      <description>&lt;p&gt;Oleksii Lytvynenko joined the notorious group in 2021 and was directly involved in attacks on at least 12 companies.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/conti-ransomware-developer-sentenced/"&gt;Conti ransomware crew member sentenced to four years in prison&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/conti-ransomware-developer-sentenced/</guid>
-      <pubDate>Thu, 10 Sep 2026 20:31:35 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 16 Sep 2026 15:28:47 +0000</lastBuildDate>
     <item>
       <title>Lebanese Army details pilot zone arms seizures, claims operational control</title>
       <link>https://www.longwarjournal.org/archives/2026/09/lebanese-army-details-pilot-zone-arms-seizures-claims-operational-control.php</link>
@@ -92,13 +38,6 @@
       <pubDate>Fri, 11 Sep 2026 07:30:36 +0000</pubDate>
     </item>
     <item>
-      <title>Meet the under-35s shaping the future of biotech</title>
-      <link>https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/</link>
-      <description>Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and technical work stands to shape the future of their fields. This year, the list includes nine people who are&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/</guid>
-      <pubDate>Fri, 11 Sep 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users</title>
       <link>https://openai.com/index/scaling-storage-one-billion-users-part-one</link>
       <description>Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</description>
@@ -111,14 +50,6 @@
       <description>The Chunmoo MLRS has been developed by Hanwha Aerospace and in currently in service with South Korea and international militaries.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/analysis-croatia-signs-deal-for-south-korean-chunmoo-mlrs/</guid>
       <pubDate>Fri, 11 Sep 2026 11:08:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Pledge to Planning: Can the Makkah Defence Pact Become an Operational Deterrent?</title>
-      <link>https://www.geopoliticalmonitor.com/makkah-defence-pact-secretariat-deterrence/</link>
-      <description>&lt;p&gt;Institutional capacity, along with collective defense language, will determine whether the new Makkah Defence Pact succeeds in deterring gray zone warfare.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/makkah-defence-pact-secretariat-deterrence/"&gt;From Pledge to Planning: Can the Makkah Defence Pact Become an Operational Deterrent?&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/makkah-defence-pact-secretariat-deterrence/</guid>
-      <pubDate>Fri, 11 Sep 2026 11:53:09 +0000</pubDate>
     </item>
     <item>
       <title>Putin’s Visit to the Kuril Islands: A New Setback for Japan–Russia Relations</title>
@@ -135,13 +66,6 @@
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/canada-trade-diversification-credit-problem/"&gt;Trade Diversification Has a Credit Problem&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/canada-trade-diversification-credit-problem/</guid>
       <pubDate>Fri, 11 Sep 2026 12:06:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Download: biotech’s future and cheaper, cleaner steel</title>
-      <link>https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the brightest and best young minds&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/</guid>
-      <pubDate>Fri, 11 Sep 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
       <title>US approves $140m Black Hawk helicopter sale to Argentina</title>
@@ -197,7 +121,7 @@
     <item>
       <title>Video Friday: Humanoid Robot Takes On Monkey Bars</title>
       <link>https://spectrum.ieee.org/video-friday-disaster-response-robots</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-moves-across-scaffolding-rigged-as-playground-monkey-bars-in-a-lab-while-trying-to-keep-its-balance.gif?id=67756707&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C105%2C0%2C106" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ky2mqam4lq8"&gt;&lt;em&gt;Traversing sparse 3D structures requires humanoid robots to perceive thin, overhanging geometry while executing agile, accurate whole-body motions. We study this problem through monkey-bar traversal, where the robot must jump to the structure, traverse it through sparse bar interactions, and land safely.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The list of obstacles that you can traverse to escape a robot is getting shorter.&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://nemantor.github.io/sparse-3d-traversal-website/"&gt;ETH Zurich Robotic Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="tkmazhql58o"&gt;YES GIVE ROBOTS TWO HEADS I LOVE IT!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalroboticslab.com/DukeHumanoidv2"&gt;General Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="wpg0va81l7g"&gt;&lt;em&gt;9/11 was the first documented use of &lt;a href="https://spectrum.ieee.org/japan-earthquake-more-robots-to-the-rescue" target="_blank"&gt;robots for urban search and rescue&lt;/a&gt; and helped create the field of disaster robotics. Personnel began assembling on the afternoon of September 11 and worked the pile from late on  September 11 through October 2, when the last available robot failed. The robots found no survivors, but they located remains and helped search for routes through the rubble toward basements and stairwells where trapped firefighters might have gone.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="http://crasar.org/"&gt;CRASAR&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ghysqmmria4"&gt;&lt;em&gt;Unitree majorly fully open-sources the UnifoLM-WLA-1.0 embodied foundation model, achieving new SOTA results across multiple benchmarks among open-source models worldwide. A single model coordinates desktop and whole-body mobile manipulation, supporting cross-task and cross-end-effector generalization, driven by one model, whole-body coordination.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://unigen-x.github.io/unifolm-wla.github.io/"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="bsvwmcv60xo"&gt;&lt;em&gt;Compliance is very important in physical interaction. In this work, we show how a multi-lined aerial robot uses its centroid and joint motion to achieve hybrid impedance—admittance control in contact-rich aerial manipulation tasks such as surface sliding. This work will be presented in IEEE IROS 2026.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.dragon.t.u-tokyo.ac.jp/"&gt;DRAGON Lab&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Moju!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="xvuwficd5g0"&gt;Remind me not to get too close to this.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://railab.kaist.ac.kr/"&gt;RaiLab Kaist&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ypkcijt_nuw"&gt;Welcome to this edition of Things That Really Seem Like They Should Not Fly.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://avfl.engr.tamu.edu/"&gt;Texas A&amp;amp;M University Advanced Vertical Flight Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="fna1crvtbls"&gt;&lt;em&gt;Achieving agile and generalized &lt;a href="https://spectrum.ieee.org/quadruped-robot-benchmark-barkour" target="_blank"&gt;legged locomotion&lt;/a&gt; across terrains requires tight integration of perception and control, especially under occlusions and sparse footholds. Existing methods have demonstrated agility on parkour courses but often rely on end-to-end sensorimotor models with limited generalization and interpretability. By contrast, methods targeting generalized locomotion typically exhibit limited agility and struggle with visual occlusions. We introduce a unified reinforcement learning (RL) framework for agile and generalized locomotion that incorporates a novel attention-based map encoder in the control policy.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://sites.google.com/leggedrobotics.com/ame-2"&gt;ETH Zurich Robotic Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="qkijeldgula"&gt;Finally, the killer app for humanoid robots! But we probably shouldn’t call it that.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.unitree.com/"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="p3bftreqwks"&gt;I suspect that this demo avoids many of the things that are actually difficult about doing dishes. Not just the water and the slippery soapiness, but also identifying when a dish is dirty as well as when it is actually clean.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.flexiv.com/"&gt;Flexiv&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="broo89hfta4"&gt;Sure, I guess I might want a robot to deliver a burrito to me while I’m hiking to the top of a mountain in the rain...?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.cn/en"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="k9uhqymng9i"&gt;&lt;em&gt;AI has transformed the digital world. It writes our code, generates our images, reasons in our language. But the physical world—the plants that make our power, our fuel, our steel, and chemicals—it has barely touched. ANYbotics CEO and co-founder Péter Fankhauser on the bet behind the company: Why legged robots turned out to be the way into the world’s most demanding industrial plants, what it took to certify one for explosive atmospheres after experts called it impossible, and where autonomous industrial work goes next.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.anybotics.com/"&gt;ANYbotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-moves-across-scaffolding-rigged-as-playground-monkey-bars-in-a-lab-while-trying-to-keep-its-balance.gif?id=67756707&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=0%2C67%2C0%2C68" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ky2mqam4lq8"&gt;&lt;em&gt;Traversing sparse 3D structures requires humanoid robots to perceive thin, overhanging geometry while executing agile, accurate whole-body motions. We study this problem through monkey-bar traversal, where the robot must jump to the structure, traverse it through sparse bar interactions, and land safely.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The list of obstacles that you can traverse to escape a robot is getting shorter.&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://nemantor.github.io/sparse-3d-traversal-website/"&gt;ETH Zurich Robotic Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="tkmazhql58o"&gt;YES GIVE ROBOTS TWO HEADS I LOVE IT!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalroboticslab.com/DukeHumanoidv2"&gt;General Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="wpg0va81l7g"&gt;&lt;em&gt;9/11 was the first documented use of &lt;a href="https://spectrum.ieee.org/japan-earthquake-more-robots-to-the-rescue" target="_blank"&gt;robots for urban search and rescue&lt;/a&gt; and helped create the field of disaster robotics. Personnel began assembling on the afternoon of September 11 and worked the pile from late on  September 11 through October 2, when the last available robot failed. The robots found no survivors, but they located remains and helped search for routes through the rubble toward basements and stairwells where trapped firefighters might have gone.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="http://crasar.org/"&gt;CRASAR&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ghysqmmria4"&gt;&lt;em&gt;Unitree majorly fully open-sources the UnifoLM-WLA-1.0 embodied foundation model, achieving new SOTA results across multiple benchmarks among open-source models worldwide. A single model coordinates desktop and whole-body mobile manipulation, supporting cross-task and cross-end-effector generalization, driven by one model, whole-body coordination.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://unigen-x.github.io/unifolm-wla.github.io/"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="bsvwmcv60xo"&gt;&lt;em&gt;Compliance is very important in physical interaction. In this work, we show how a multi-lined aerial robot uses its centroid and joint motion to achieve hybrid impedance—admittance control in contact-rich aerial manipulation tasks such as surface sliding. This work will be presented in IEEE IROS 2026.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.dragon.t.u-tokyo.ac.jp/"&gt;DRAGON Lab&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Moju!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="xvuwficd5g0"&gt;Remind me not to get too close to this.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://railab.kaist.ac.kr/"&gt;RaiLab Kaist&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ypkcijt_nuw"&gt;Welcome to this edition of Things That Really Seem Like They Should Not Fly.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://avfl.engr.tamu.edu/"&gt;Texas A&amp;amp;M University Advanced Vertical Flight Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="fna1crvtbls"&gt;&lt;em&gt;Achieving agile and generalized &lt;a href="https://spectrum.ieee.org/quadruped-robot-benchmark-barkour" target="_blank"&gt;legged locomotion&lt;/a&gt; across terrains requires tight integration of perception and control, especially under occlusions and sparse footholds. Existing methods have demonstrated agility on parkour courses but often rely on end-to-end sensorimotor models with limited generalization and interpretability. By contrast, methods targeting generalized locomotion typically exhibit limited agility and struggle with visual occlusions. We introduce a unified reinforcement learning (RL) framework for agile and generalized locomotion that incorporates a novel attention-based map encoder in the control policy.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://sites.google.com/leggedrobotics.com/ame-2"&gt;ETH Zurich Robotic Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="qkijeldgula"&gt;Finally, the killer app for humanoid robots! But we probably shouldn’t call it that.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.unitree.com/"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="p3bftreqwks"&gt;I suspect that this demo avoids many of the things that are actually difficult about doing dishes. Not just the water and the slippery soapiness, but also identifying when a dish is dirty as well as when it is actually clean.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.flexiv.com/"&gt;Flexiv&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="broo89hfta4"&gt;Sure, I guess I might want a robot to deliver a burrito to me while I’m hiking to the top of a mountain in the rain...?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.cn/en"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="k9uhqymng9i"&gt;&lt;em&gt;AI has transformed the digital world. It writes our code, generates our images, reasons in our language. But the physical world—the plants that make our power, our fuel, our steel, and chemicals—it has barely touched. ANYbotics CEO and co-founder Péter Fankhauser on the bet behind the company: Why legged robots turned out to be the way into the world’s most demanding industrial plants, what it took to certify one for explosive atmospheres after experts called it impossible, and where autonomous industrial work goes next.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.anybotics.com/"&gt;ANYbotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-disaster-response-robots</guid>
       <pubDate>Fri, 11 Sep 2026 15:30:04 +0000</pubDate>
     </item>
@@ -378,13 +302,6 @@
       <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Download: AI’s real extinction threat and age-reversal tech for eyes</title>
-      <link>https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Roundtables: could AI really kill us all? Employees at the world&amp;#8217;s leading AI labs are saying there&amp;#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/</guid>
-      <pubDate>Mon, 14 Sep 2026 12:10:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Putin Will Not Yield</title>
       <link>https://www.foreignaffairs.com/united-states/putin-will-not-yield</link>
       <description>Pressure and pain won’t sap Russia’s resolve in Ukraine.</description>
@@ -438,13 +355,6 @@
       <pubDate>Mon, 14 Sep 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Upgunning the A-Team: How Special Operations Command Is Adding Cyber and Electronic-Warfare Capabilities</title>
-      <link>https://sofrep.com/news/upgunning-the-a-team-how-special-operations-command-is-adding-cyber-and-electronic-warfare-capabilities/</link>
-      <description>America’s Green Beret A-Team has survived largely intact since 1952, but shrinking budgets, rising demand, and the digital battlefield are forcing SOCOM to decide what belongs inside those 12 coveted slots. #GreenBerets #SpecialForces #USSOCOM #DroneWarfare #GreatPowerCompetition</description>
-      <guid isPermaLink="false">https://sofrep.com/news/upgunning-the-a-team-how-special-operations-command-is-adding-cyber-and-electronic-warfare-capabilities/</guid>
-      <pubDate>Mon, 14 Sep 2026 16:00:26 +0000</pubDate>
-    </item>
-    <item>
       <title>Donated livers can be made biologically younger</title>
       <link>https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/</link>
       <description>Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matter of hours to get it into a recipient’s body. There’s another option—one that has been growing&amp;#8230;</description>
@@ -479,14 +389,6 @@
       <description>This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&amp;#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/</guid>
       <pubDate>Mon, 14 Sep 2026 17:54:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Saudi Arabia Appears To Have Used Its Secretive Stash Of Ballistic Missiles For The First Time</title>
-      <link>https://www.twz.com/news-features/saudi-arabia-appears-to-have-used-its-secretive-stash-of-ballistic-missiles-for-the-first-time</link>
-      <description>&lt;p&gt;The use of a Chinese-made DF-15A missile in Yemen would mark a major development for Riyadh’s shy ballistic missile arsenal.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/saudi-arabia-appears-to-have-used-its-secretive-stash-of-ballistic-missiles-for-the-first-time"&gt;Saudi Arabia Appears To Have Used Its Secretive Stash Of Ballistic Missiles For The First Time&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/saudi-arabia-appears-to-have-used-its-secretive-stash-of-ballistic-missiles-for-the-first-time</guid>
-      <pubDate>Mon, 14 Sep 2026 18:33:07 +0000</pubDate>
     </item>
     <item>
       <title>Apple Updates Everything, (Mon, Sep 14th)</title>
@@ -533,13 +435,6 @@
 &lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/chinas-rocket-achievements-threaten-us-space-superiority/"&gt;China&amp;#8217;s rocket achievements threaten US space superiority&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cset.georgetown.edu/article/chinas-rocket-achievements-threaten-us-space-superiority/</guid>
       <pubDate>Mon, 14 Sep 2026 21:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Israeli Defense Force Is Building a New Branch for Robotic Warfare</title>
-      <link>https://sofrep.com/news/the-israeli-defense-force-is-building-a-new-branch-for-robotic-warfare/</link>
-      <description>Israel is giving robots and artificial intelligence their own military branch, but the real test begins when the shooting starts and the link drops. #IDF #ArtificialIntelligence #UnmannedSystems #DroneWarfare #DefenseTechnology</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-israeli-defense-force-is-building-a-new-branch-for-robotic-warfare/</guid>
-      <pubDate>Mon, 14 Sep 2026 21:00:01 +0000</pubDate>
     </item>
     <item>
       <title>'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink</title>
@@ -608,24 +503,6 @@
       <pubDate>Tue, 15 Sep 2026 05:11:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution</title>
-      <link>https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html</link>
-      <description>Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.
-
-The vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html</guid>
-      <pubDate>Tue, 15 Sep 2026 06:11:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server</title>
-      <link>https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html</link>
-      <description>A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&amp;nbsp;advisory published on September 14.
-
-On such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html</guid>
-      <pubDate>Tue, 15 Sep 2026 06:52:16 +0000</pubDate>
-    </item>
-    <item>
       <title>Three Patrons, Three Clients: The Mecca Alliance No One Owns</title>
       <link>https://warontherocks.com/three-patrons-three-clients-the-mecca-alliance-no-one-owns/</link>
       <description>&lt;p&gt;Every alliance contains a struggle over who gets to decide what the alliance is for. The unusual thing about the Mecca Alliance, formally known as the &amp;#8220;Mecca Joint Defence Agreement,&amp;#8221; is that all three of its members appear to believe they possess something that should give them that privilege: Saudi Arabia has the capital, Turkey has the defense industrial base, and Pakistan has the manpower and nuclear arsenal. Each can therefore imagine itself as the patron and the other two as clients. None of them, however, holds enough leverage to make that hierarchy stick.That unresolved competition for patronage may prove&lt;/p&gt;
@@ -663,56 +540,11 @@ On such servers, many customers' sites run on a single machine, and an attacker 
       <pubDate>Tue, 15 Sep 2026 11:00:43 +0000</pubDate>
     </item>
     <item>
-      <title>Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers</title>
-      <link>https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html</link>
-      <description>Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.
-
-The first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and Microsoft Azure instances, and infrastructure state files, per F5 Labs.
-
-The</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html</guid>
-      <pubDate>Tue, 15 Sep 2026 11:12:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Former Afghan Soldiers Recruited For Pakistan's Balochistan Fight, Sources Say</title>
-      <link>https://www.rferl.org/a/former-afghan-soldiers-recruited-pakistan-balochistan/33853984.html</link>
-      <description>As militancy surges in Pakistan's Balochistan Province, former Afghan security personnel are reportedly being recruited for pro-government armed groups -- allegations that could add a dangerous new dimension to tensions between Pakistan and Afghanistan.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/former-afghan-soldiers-recruited-pakistan-balochistan/33853984.html</guid>
-      <pubDate>Tue, 15 Sep 2026 11:19:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point</title>
-      <link>https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html</link>
-      <description>Introduction
-
-Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as a one-off exercise.
-
-But no matter how much you validate against these</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html</guid>
-      <pubDate>Tue, 15 Sep 2026 11:26:36 +0000</pubDate>
-    </item>
-    <item>
       <title>Denmark expands fleet of Leopard 2 tank transporters</title>
       <link>https://www.army-technology.com/news/denmark-expands-fleet-of-leopard-2-tank-transporters/</link>
       <description>Denmark will add a further 15 tank transporters to its current fleet in 2026, improving its own armoured mobility as well as that of Nato.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/denmark-expands-fleet-of-leopard-2-tank-transporters/</guid>
       <pubDate>Tue, 15 Sep 2026 11:46:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds</title>
-      <link>https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html</link>
-      <description>With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access.
-
-In one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html</guid>
-      <pubDate>Tue, 15 Sep 2026 11:52:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wider Europe Briefing: The EU's Black Sea Diplomacy And A New Attempt To Ban Russian Ex-Soldiers</title>
-      <link>https://www.rferl.org/a/eu-black-sea-grain-russia-ukraine-ex-russian-soldiers-jozwiak-europe-briefing/33855946.html</link>
-      <description>In this week's briefing, FE/RL Europe Editor Rikard Jozwiak is drilling down on two issues: The EU's game plan in the Black Sea and whether the bloc can succeed in its second attempt to ban Russian ex-soldiers from entering the EU.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/eu-black-sea-grain-russia-ukraine-ex-russian-soldiers-jozwiak-europe-briefing/33855946.html</guid>
-      <pubDate>Tue, 15 Sep 2026 11:54:43 +0000</pubDate>
     </item>
     <item>
       <title>AI models need more data about biology, and OpenAI is paying to create it</title>
@@ -3119,26 +2951,12 @@ In one instance highlighted by the cloud security company, the threat actor pivo
       <pubDate>Tue, 15 Sep 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>CISA: Critical VMware RCE flaw now exploited by ransomware gangs</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/</guid>
-      <pubDate>Tue, 15 Sep 2026 12:16:32 +0000</pubDate>
-    </item>
-    <item>
       <title>The Outer Space Paradox: Reconciling the Global Commons with Geostrategic Competition</title>
       <link>https://www.geopoliticalmonitor.com/outer-space-paradox-global-commons-geostrategic-competition/</link>
       <description>&lt;p&gt;Outer space was imagined as a sanctuary and has become a contested military domain. Why every power still depends on keeping orbit open, and what that asks of rivals.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/outer-space-paradox-global-commons-geostrategic-competition/"&gt;The Outer Space Paradox: Reconciling the Global Commons with Geostrategic Competition&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/outer-space-paradox-global-commons-geostrategic-competition/</guid>
       <pubDate>Tue, 15 Sep 2026 12:17:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukrainian Olympian Urges US To Bar Russian Athletes From 2028 Games</title>
-      <link>https://www.rferl.org/a/ukraine-heraskevych-russian-athletes-us-visa-ban-los-angeles-olympics/33855970.html</link>
-      <description>Ukrainian skeleton racer and Olympian Vladyslav Heraskevych is urging US lawmakers and the State Department to deny visas to Russian athletes who seek to compete under the Russian flag at the 2028 Olympic Games in LA, arguing that Moscow has turned sport into an instrument of war propaganda.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-heraskevych-russian-athletes-us-visa-ban-los-angeles-olympics/33855970.html</guid>
-      <pubDate>Tue, 15 Sep 2026 12:20:21 +0000</pubDate>
     </item>
     <item>
       <title>In Turkmenistan’s Data Desert, the Golden Age Is a Mirage</title>
@@ -3191,13 +3009,6 @@ In one instance highlighted by the cloud security company, the threat actor pivo
       <pubDate>Tue, 15 Sep 2026 13:39:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Zero-Day Response Should Be in the Post-Mythos Era</title>
-      <link>https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/</link>
-      <description>AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/</guid>
-      <pubDate>Tue, 15 Sep 2026 13:45:54 +0000</pubDate>
-    </item>
-    <item>
       <title>Inside Beijing’s Chipmaking Offensive, One Year On</title>
       <link>https://cset.georgetown.edu/article/inside-beijings-chipmaking-offensive-one-year-on/</link>
       <description>&lt;p&gt;One year after CSET first published an analysis of China’s progress in the global semiconductor manufacturing equipment market, we provide a new analysis based on updated 2025 data. We find that Chinese toolmakers continue to steadily gain market share in fabrication tools, particularly in ion implanters, deposition, and etch and clean tools. Lithography remains one of China’s weakest fabrication segments. At the same time, China lost some market share in all major assembly, test, and packaging tool categories.&lt;/p&gt;
@@ -3235,13 +3046,6 @@ In one instance highlighted by the cloud security company, the threat actor pivo
       <pubDate>Tue, 15 Sep 2026 14:39:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hackers target WordPress sites via third-party WooCommerce plugin</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/</link>
-      <description>Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/</guid>
-      <pubDate>Tue, 15 Sep 2026 14:45:10 +0000</pubDate>
-    </item>
-    <item>
       <title>BambooToken malware controls Windows and Linux systems via MQTT</title>
       <link>https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/</link>
       <description>A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]</description>
@@ -3265,7 +3069,7 @@ In one instance highlighted by the cloud security company, the threat actor pivo
     <item>
       <title>Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe</title>
       <link>https://spectrum.ieee.org/humanoid-robot-safety</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit plodding. There are &lt;/span&gt;&lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;some good reasons for this&lt;/a&gt;&lt;span&gt;: a humanoid robot needs to be powerful enough to do useful work, safe enough for humans to walk past, and have enough battery life to limit how much of the day it’s hooked to a charger. But all three of those necessary features actively work against each other.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;With its new Digit 5 robot, announced today, Agility Robotics may have found the sweet spot. Digit 5 is a humanoid worker that can lift 23 kilograms up 2.1 meters, can work in close proximity to people without relying on physical barriers, and can operate for more than 20 hours a day. This combination of power, safety, and battery life has resulted in a 1.8 m tall, 129 kg robot that prioritizes functionality over style and pretty much everything else, but this is exactly what it’s going to take to get humanoids a job.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;/p&gt;&lt;p&gt;Humanoid robot companies have been reluctant to talk about safety, because there are no easy answers to “what happens if your fundamentally unstable bipedal robot falls over onto me/my pet/my baby?” And there are still no easy answers, but Agility does have &lt;em&gt;&lt;em&gt;an&lt;/em&gt;&lt;/em&gt; answer that allows Digit to be verifiably safe. That answer is to make sure that it’s physically impossible for Digit to fall over on anyone, ever, by “autonomously avoiding, stopping or assuming a seated position,” according to today’s press release. In other words, as a person approaches Digit, Digit will put down whatever it’s carrying and then if necessary make sure that it’s stably seated on the ground before that person gets near. It may not be elegant, but it works, which is more than can be said for any other commercial humanoid that I’m aware of.&lt;/p&gt;&lt;p&gt;The other big change is Digit’s legs. Somewhat famously, Agility Robotics introduced first Cassie and then a whole series of Digit robots featuring bird-like ‘backwards’ legs. In &lt;a href="https://spectrum.ieee.org/building-robots-that-can-go-where-we-go" target="_self"&gt;his 2019 article for IEEE Spectrum&lt;/a&gt;, Agility co-founder Jonathan Hurst explained that this leg configuration was the result of a careful analysis of the physics of animal locomotion, rather than for the leg to look like any sort of animal in particular. The unfortunate reality for those of us who were fans of Cassie is that bird legs are optimal for dynamic motion, while human legs are better for squats and lifts, which will make sense to anyone who has seen an ostrich trying to lift a heavy box up off the floor and also anyone who has tried to outrun a cassowary.&lt;/p&gt;&lt;h2&gt;How much will Digit 5 cost?&lt;/h2&gt;&lt;p&gt;We also know a couple of things about Digit 5 that weren’t included in today’s announcement, thanks to Agility’s June &lt;a href="https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401ex99-2.htm" rel="noopener noreferrer" target="_blank"&gt;SEC filing&lt;/a&gt; in advance of their &lt;a href="https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi" rel="noopener noreferrer" target="_blank"&gt;plan to go public by the end of 2026&lt;/a&gt;. For example, at launch, &lt;a href="https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401_ex99-2img46.jpg" rel="noopener noreferrer" target="_blank"&gt;Digit 5’s BOM (bill of materials) cost&lt;/a&gt; is likely to be somewhere between $150,000 and $200,000. This is just the cost of the parts that make up a Digit robot, not what it costs for Agility to actually build one. Based on real production data, Agility is anticipating that with some near-term optimizing and at a volume of 10,000 units per year, that cost should drop to under $50,000 per robot. &lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="An illustration of humanoid robots working in a warehouse with humans in the distance." class="rm-shortcode" id="a6c5f" src="https://spectrum.ieee.org/media-library/an-illustration-of-humanoid-robots-working-in-a-warehouse-with-humans-in-the-distance.jpg?id=67776745&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;In this rendering, Digit 5 robots work in a factory with humans nearby, no safety barriers needed. When a human approaches, the robot puts down what it’s carrying and squats down so it can’t fall on anybody.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Agility&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Arguably less important than the per-robot cost is how Agility (and its customers) will profit from Digit 5. In the filing, &lt;a href="https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401_ex99-2img41.jpg" target="_blank"&gt;Agility estimates&lt;/a&gt; (using “rounded estimates” which are “purely illustrative”) that Digit 5 robots will be offered to customers as a service at something like $8,500 per month. Based on 20 hours per day of work, and assuming that the total cost of a human worker to their employer is $30.50/hr, Digit 5 as a service could save employers $100,000 per year, per robot. &lt;/p&gt;&lt;p&gt;It’s important to note that all of these numbers are just estimates, and that all kinds of things (many of them not under Agility’s control) could cause them to change. They’re most useful as an illustration of Agility’s broad approach to making Digit 5 profitable. It’s also important to note the assumption here with such a direct comparison is that Digit 5 will be a more or less effortless drop-in replacement for human labor, which is not something that I’m entirely sure has ever happened with any robot, anywhere.&lt;/p&gt;&lt;p&gt;Where does Digit 5 go from here? Today’s press release says that “as of May 2026, Agility had more than $300 million in multi-year customer orders for Digit 5, with a sales pipeline of prospective customers across manufacturing, warehousing, and logistics.” That works out to comfortably under 1,000 robots, one-tenth of the full capacity of &lt;a href="https://spectrum.ieee.org/agility-humanoid-robotics-factory" target="_self"&gt;Agility’s RoboFab factory&lt;/a&gt; in Oregon.&lt;/p&gt;&lt;p&gt;Between now and all those robots, however, lies an unpredictable entry into the stock market through what’s called a &lt;a href="https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi" rel="noopener noreferrer" target="_blank"&gt;SPAC merger&lt;/a&gt;. That’s expected to close within the next few months. Agility hopes to raise more than $620 million through the merger, and it will primarily spend the money to scale production of Digit 5, and get it to customers. Those in the EU and the UK should be able to buy the bots in 2027.&lt;/p&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=0%2C83%2C0%2C84" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit plodding. There are &lt;/span&gt;&lt;a href="https://spectrum.ieee.org/humanoid-robot-scaling" target="_self"&gt;some good reasons for this&lt;/a&gt;&lt;span&gt;: a humanoid robot needs to be powerful enough to do useful work, safe enough for humans to walk past, and have enough battery life to limit how much of the day it’s hooked to a charger. But all three of those necessary features actively work against each other.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;With its new Digit 5 robot, announced today, Agility Robotics may have found the sweet spot. Digit 5 is a humanoid worker that can lift 23 kilograms up 2.1 meters, can work in close proximity to people without relying on physical barriers, and can operate for more than 20 hours a day. This combination of power, safety, and battery life has resulted in a 1.8 m tall, 129 kg robot that prioritizes functionality over style and pretty much everything else, but this is exactly what it’s going to take to get humanoids a job.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;/p&gt;&lt;p&gt;Humanoid robot companies have been reluctant to talk about safety, because there are no easy answers to “what happens if your fundamentally unstable bipedal robot falls over onto me/my pet/my baby?” And there are still no easy answers, but Agility does have &lt;em&gt;&lt;em&gt;an&lt;/em&gt;&lt;/em&gt; answer that allows Digit to be verifiably safe. That answer is to make sure that it’s physically impossible for Digit to fall over on anyone, ever, by “autonomously avoiding, stopping or assuming a seated position,” according to today’s press release. In other words, as a person approaches Digit, Digit will put down whatever it’s carrying and then if necessary make sure that it’s stably seated on the ground before that person gets near. It may not be elegant, but it works, which is more than can be said for any other commercial humanoid that I’m aware of.&lt;/p&gt;&lt;p&gt;The other big change is Digit’s legs. Somewhat famously, Agility Robotics introduced first Cassie and then a whole series of Digit robots featuring bird-like ‘backwards’ legs. In &lt;a href="https://spectrum.ieee.org/building-robots-that-can-go-where-we-go" target="_self"&gt;his 2019 article for IEEE Spectrum&lt;/a&gt;, Agility co-founder Jonathan Hurst explained that this leg configuration was the result of a careful analysis of the physics of animal locomotion, rather than for the leg to look like any sort of animal in particular. The unfortunate reality for those of us who were fans of Cassie is that bird legs are optimal for dynamic motion, while human legs are better for squats and lifts, which will make sense to anyone who has seen an ostrich trying to lift a heavy box up off the floor and also anyone who has tried to outrun a cassowary.&lt;/p&gt;&lt;h2&gt;How much will Digit 5 cost?&lt;/h2&gt;&lt;p&gt;We also know a couple of things about Digit 5 that weren’t included in today’s announcement, thanks to Agility’s June &lt;a href="https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401ex99-2.htm" rel="noopener noreferrer" target="_blank"&gt;SEC filing&lt;/a&gt; in advance of their &lt;a href="https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi" rel="noopener noreferrer" target="_blank"&gt;plan to go public by the end of 2026&lt;/a&gt;. For example, at launch, &lt;a href="https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401_ex99-2img46.jpg" rel="noopener noreferrer" target="_blank"&gt;Digit 5’s BOM (bill of materials) cost&lt;/a&gt; is likely to be somewhere between $150,000 and $200,000. This is just the cost of the parts that make up a Digit robot, not what it costs for Agility to actually build one. Based on real production data, Agility is anticipating that with some near-term optimizing and at a volume of 10,000 units per year, that cost should drop to under $50,000 per robot. &lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="An illustration of humanoid robots working in a warehouse with humans in the distance." class="rm-shortcode" id="a6c5f" src="https://spectrum.ieee.org/media-library/an-illustration-of-humanoid-robots-working-in-a-warehouse-with-humans-in-the-distance.jpg?id=67776745&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;In this rendering, Digit 5 robots work in a factory with humans nearby, no safety barriers needed. When a human approaches, the robot puts down what it’s carrying and squats down so it can’t fall on anybody.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Agility&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Arguably less important than the per-robot cost is how Agility (and its customers) will profit from Digit 5. In the filing, &lt;a href="https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401_ex99-2img41.jpg" target="_blank"&gt;Agility estimates&lt;/a&gt; (using “rounded estimates” which are “purely illustrative”) that Digit 5 robots will be offered to customers as a service at something like $8,500 per month. Based on 20 hours per day of work, and assuming that the total cost of a human worker to their employer is $30.50/hr, Digit 5 as a service could save employers $100,000 per year, per robot. &lt;/p&gt;&lt;p&gt;It’s important to note that all of these numbers are just estimates, and that all kinds of things (many of them not under Agility’s control) could cause them to change. They’re most useful as an illustration of Agility’s broad approach to making Digit 5 profitable. It’s also important to note the assumption here with such a direct comparison is that Digit 5 will be a more or less effortless drop-in replacement for human labor, which is not something that I’m entirely sure has ever happened with any robot, anywhere.&lt;/p&gt;&lt;p&gt;Where does Digit 5 go from here? Today’s press release says that “as of May 2026, Agility had more than $300 million in multi-year customer orders for Digit 5, with a sales pipeline of prospective customers across manufacturing, warehousing, and logistics.” That works out to comfortably under 1,000 robots, one-tenth of the full capacity of &lt;a href="https://spectrum.ieee.org/agility-humanoid-robotics-factory" target="_self"&gt;Agility’s RoboFab factory&lt;/a&gt; in Oregon.&lt;/p&gt;&lt;p&gt;Between now and all those robots, however, lies an unpredictable entry into the stock market through what’s called a &lt;a href="https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi" rel="noopener noreferrer" target="_blank"&gt;SPAC merger&lt;/a&gt;. That’s expected to close within the next few months. Agility hopes to raise more than $620 million through the merger, and it will primarily spend the money to scale production of Digit 5, and get it to customers. Those in the EU and the UK should be able to buy the bots in 2027.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/humanoid-robot-safety</guid>
       <pubDate>Tue, 15 Sep 2026 15:22:30 +0000</pubDate>
     </item>
@@ -3277,41 +3081,11 @@ In one instance highlighted by the cloud security company, the threat actor pivo
       <pubDate>Tue, 15 Sep 2026 15:23:12 +0000</pubDate>
     </item>
     <item>
-      <title>BambooToken Malware Uses MQTT to Control Windows and Linux Systems</title>
-      <link>https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html</link>
-      <description>Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.
-
-The emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html</guid>
-      <pubDate>Tue, 15 Sep 2026 15:23:19 +0000</pubDate>
-    </item>
-    <item>
       <title>MacOS 27 - First Boot, (Tue, Sep 15th)</title>
       <link>https://isc.sans.edu/diary/rss/33340</link>
       <description>I have not done this type of diary in a while: What traffic will you see from a system on boot, before a user logs in&amp;#x3f; I just took a quick look at macOS 27 "Golden Gate" to see what traffic you should expect. Here are some of the highlights:&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33340</guid>
       <pubDate>Tue, 15 Sep 2026 15:23:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russian frigate fires flares towards Danish military helicopter</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/15/russian-frigate-fires-flares-towards-danish-military-helicopter/</link>
-      <description>A Russian frigate fired two flares towards a Danish military helicopter sent to photograph it in international waters off Denmark on Monday.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/15/russian-frigate-fires-flares-towards-danish-military-helicopter/</guid>
-      <pubDate>Tue, 15 Sep 2026 15:26:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Quiet Ukrainian Counteroffensive, A 'Rout' For Russian Forces</title>
-      <link>https://www.rferl.org/a/ukraine-russia-counteroffensive-lyman/33856852.html</link>
-      <description>By most accounts, the Ukrainian counteroffensive is shaping up to be one of the largest shifts on the battlefield in months, possibly in a year.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-counteroffensive-lyman/33856852.html</guid>
-      <pubDate>Tue, 15 Sep 2026 15:30:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Italian NATO jet downs drone in Lithuania, minister says it probably came from Russia</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia/</link>
-      <description>An Italian NATO fighter jet shot down a drone in Lithuanian airspace on Tuesday that “most probably” came from Russia, Italy's defense minister said.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia/</guid>
-      <pubDate>Tue, 15 Sep 2026 15:35:13 +0000</pubDate>
     </item>
     <item>
       <title>Italian NATO jet downs drone in Lithuania, minister says it probably came from Russia</title>
@@ -3329,13 +3103,6 @@ The emerging malware family, codenamed BambooToken, is assessed to be active sin
       <pubDate>Tue, 15 Sep 2026 15:44:41 +0000</pubDate>
     </item>
     <item>
-      <title>Budget impasse imperils 1 in 10 Space Force programs, new chief says</title>
-      <link>https://breakingdefense.com/2026/09/budget-impasse-imperils-1-in-10-space-force-programs-new-chief-says/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/budget-impasse-imperils-1-in-10-space-force-programs-new-chief-says/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/9911766-scaled-e1789486341827-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“We’re thankful that we have a [continuing resolution] going into October [1], but I would really be more thankful if we had a budget,” said Chief of Space Operations Gen. Doug Schiess.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/budget-impasse-imperils-1-in-10-space-force-programs-new-chief-says/</guid>
-      <pubDate>Tue, 15 Sep 2026 15:53:11 +0000</pubDate>
-    </item>
-    <item>
       <title>What a Belgian Malinois Taught a Navy SEAL About Leadership</title>
       <link>https://sofrep.com/news/59383/</link>
       <description>A Belgian Malinois taught me that leadership has nothing to do with what you say and everything to do with what you consistently reinforce. #BelgianMalinois #WorkingDogs #K9Training #LeadershipLessons #PersonalProtectionDog</description>
@@ -3349,13 +3116,6 @@ The emerging malware family, codenamed BambooToken, is assessed to be active sin
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/serbia-jadar-lithium-project-eu-minerals-strategy/"&gt;The Cost of Paydirt: Serbia&amp;#8217;s Jadar Project and Europe&amp;#8217;s Minerals Strategy&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/serbia-jadar-lithium-project-eu-minerals-strategy/</guid>
       <pubDate>Tue, 15 Sep 2026 16:16:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine launches offensive push in north of Donetsk region, senior commander says</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/15/ukraine-launches-offensive-push-in-north-of-donetsk-region-senior-commander-says/</link>
-      <description>Ukrainian forces have launched an offensive operation in the north of the eastern Donetsk region.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/15/ukraine-launches-offensive-push-in-north-of-donetsk-region-senior-commander-says/</guid>
-      <pubDate>Tue, 15 Sep 2026 16:17:46 +0000</pubDate>
     </item>
     <item>
       <title>Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists</title>
@@ -3373,13 +3133,6 @@ The malware is controlled via the Telegram messaging app and can copy a target's
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/yfq-44a-fury-has-been-fit-checked-with-air-to-ground-munitions"&gt;YFQ-44A Fury Has Been Fit Checked With Air-To-Ground Munitions&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/yfq-44a-fury-has-been-fit-checked-with-air-to-ground-munitions</guid>
       <pubDate>Tue, 15 Sep 2026 16:33:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Space Force to add 10,000 guardians in next 5 years</title>
-      <link>https://www.defensenews.com/news/your-military/2026/09/15/us-space-force-to-add-10000-guardians-in-next-5-years/</link>
-      <description>The U.S. Space Force wants to double its uniformed ranks in the next five years.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/15/us-space-force-to-add-10000-guardians-in-next-5-years/</guid>
-      <pubDate>Tue, 15 Sep 2026 16:34:54 +0000</pubDate>
     </item>
     <item>
       <title>CenterPoint Energy confirms customer data stolen in cyberattack</title>
@@ -3404,13 +3157,6 @@ The malware is controlled via the Telegram messaging app and can copy a target's
       <pubDate>Tue, 15 Sep 2026 16:45:37 +0000</pubDate>
     </item>
     <item>
-      <title>BAE unveils Shadow EW, compact solutions for small aerial platforms</title>
-      <link>https://breakingdefense.com/2026/09/bae-unveils-shadow-ew-compact-solutions-for-small-aerial-platforms/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/bae-unveils-shadow-ew-compact-solutions-for-small-aerial-platforms/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/26-A04-08_Shadow500_r2-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The company says the family of small solutions can be produced in high quantities at low cost. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/bae-unveils-shadow-ew-compact-solutions-for-small-aerial-platforms/</guid>
-      <pubDate>Tue, 15 Sep 2026 17:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>UN weighs moving Ukraine aid supplies underground after warehouse hits</title>
       <link>https://www.defensenews.com/global/europe/2026/09/15/un-weighs-moving-ukraine-aid-supplies-underground-after-warehouse-hits/</link>
       <description>The United Nations is considering moving Ukraine aid supplies underground to dodge Russian strikes.</description>
@@ -3424,13 +3170,6 @@ The malware is controlled via the Telegram messaging app and can copy a target's
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/the-philippines-needs-to-turn-fast-growth-into-productive-growth/"&gt;The Philippines needs to turn fast growth into productive growth&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/the-philippines-needs-to-turn-fast-growth-into-productive-growth/</guid>
       <pubDate>Tue, 15 Sep 2026 17:36:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Missiles, drones and counter-drone systems: A look at day 2 of AFA</title>
-      <link>https://breakingdefense.com/2026/09/missiles-drones-and-counter-drone-systems-a-look-at-day-2-of-afa/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/missiles-drones-and-counter-drone-systems-a-look-at-day-2-of-afa/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/AFA2026-SEPT14-W-1-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;From counter-drone lasers to cutaway engine blocks, here are some of the sights from around the trade show floor.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/missiles-drones-and-counter-drone-systems-a-look-at-day-2-of-afa/</guid>
-      <pubDate>Tue, 15 Sep 2026 17:42:00 +0000</pubDate>
     </item>
     <item>
       <title>Roundtables: Could AI really kill us all?</title>
@@ -3460,13 +3199,6 @@ The malware is controlled via the Telegram messaging app and can copy a target's
       <description>The Marine Corps' plan to reorganize for small-unit expeditionary warfare has sparked concern among some Chinese naval officers, a recent report details.</description>
       <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/15/us-marine-stand-in-forces-in-the-pacific-a-concern-to-china-report-details/</guid>
       <pubDate>Tue, 15 Sep 2026 18:12:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rafael integrating SPICE 1000 stand-off munition on Israeli F-35s</title>
-      <link>https://breakingdefense.com/2026/09/rafael-integrating-spice-1000-stand-off-munition-on-israeli-f-35s/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/rafael-integrating-spice-1000-stand-off-munition-on-israeli-f-35s/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260915_DVIDS_F35i_flying_7707075-scaled-e1789495710672-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Israeli firm said integrating the weapon on Israeli F-35s was a step towards them being equipped on other countries&amp;#8217; fleets.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/rafael-integrating-spice-1000-stand-off-munition-on-israeli-f-35s/</guid>
-      <pubDate>Tue, 15 Sep 2026 18:19:20 +0000</pubDate>
     </item>
     <item>
       <title>Lockheed Flexes To Modular AGM-158 JASSM Missile Concept</title>
@@ -3714,7 +3446,7 @@ Elastic Security Labs is tracking the activity under the moniker REF9334. Active
       <pubDate>Wed, 16 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>At Least 100 Iran Protesters Sentenced To Death, Rights Group Says</title>
+      <title>Amnesty Says Iran Committed 'Crimes Against Humanity' During 2022 Protests</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -3781,7 +3513,7 @@ The WordPress security company said it has blocked over</description>
     <item>
       <title>US Charges 5 In Russian Intelligence Sabotage And Assassination Plot</title>
       <link>https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html</link>
-      <description>The US Justice Department has released a declassified indictment against five people, including two Russian citizens, who, allegedly on orders from Russian intelligence services, plotted assassinations and sabotage around the world, including in the United States.</description>
+      <description>The US indictment targets five people, including two men linked to Russia's main intelligence agency, who plotted assassinations and sabotage in the United States and Europe.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/us-charges-five-russian-intelligence-sabotage-assassination-plot/33857324.html</guid>
       <pubDate>Wed, 16 Sep 2026 09:15:32 +0000</pubDate>
     </item>
@@ -3801,13 +3533,6 @@ The WordPress security company said it has blocked over</description>
       <pubDate>Wed, 16 Sep 2026 10:00:06 +0000</pubDate>
     </item>
     <item>
-      <title>NightEagle targets Russian companies</title>
-      <link>https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/</link>
-      <description>Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.</description>
-      <guid isPermaLink="false">https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/</guid>
-      <pubDate>Wed, 16 Sep 2026 10:00:11 +0000</pubDate>
-    </item>
-    <item>
       <title>Could the GCC and Iran collaborate to solve the Strait of Hormuz crisis?</title>
       <link>https://www.atlanticcouncil.org/blogs/menasource/could-the-gcc-and-iran-collaborate-to-solve-the-strait-of-hormuz-crisis/</link>
       <description>&lt;p&gt;A Gulf-led maritime cooperation could break the Hormuz stalemate by offering Iran an off-ramp while preventing unilateral control.&lt;/p&gt;
@@ -3816,11 +3541,288 @@ The WordPress security company said it has blocked over</description>
       <pubDate>Wed, 16 Sep 2026 11:00:10 +0000</pubDate>
     </item>
     <item>
+      <title>Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks</title>
+      <link>https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html</link>
+      <description>Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.
+
+The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -
+
+
+  Acronis Backup plugin for cPanel &amp;amp; WHM (Linux</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html</guid>
+      <pubDate>Wed, 16 Sep 2026 11:08:54 +0000</pubDate>
+    </item>
+    <item>
       <title>Critical ScreenConnect flaw now actively exploited in attacks</title>
       <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/</link>
       <description>Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/</guid>
       <pubDate>Wed, 16 Sep 2026 11:14:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Threat Intelligence Alone Won't Close the Exploitation Gap</title>
+      <link>https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html</link>
+      <description>A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers are combining that kind of intelligence with AI-assisted exploitation to accelerate the path from exposure to breach faster than most security programs are built to react.</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html</guid>
+      <pubDate>Wed, 16 Sep 2026 11:15:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation</title>
+      <link>https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html</link>
+      <description>Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.
+
+The vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw.
+
+"In Cellular Modem, there is a possible permission bypass due to a logic error in the code," according to a description of the bug in the NIST National Vulnerability Database</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html</guid>
+      <pubDate>Wed, 16 Sep 2026 11:15:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hidden Strategic Codes of Corporate Power in the Cryptocurrency Realm</title>
+      <link>https://www.geopoliticalmonitor.com/corporate-power-cryptocurrency-geopolitics-statecraft/</link>
+      <description>&lt;p&gt;Palantir-grade analytics, Monero payments to mercenaries, and a stablecoin headquartered in El Salvador. How corporate power entered the political economy of money.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/corporate-power-cryptocurrency-geopolitics-statecraft/"&gt;The Hidden Strategic Codes of Corporate Power in the Cryptocurrency Realm&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/corporate-power-cryptocurrency-geopolitics-statecraft/</guid>
+      <pubDate>Wed, 16 Sep 2026 11:37:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Belarus Releases 25 Prisoners After Lukashenko's Latest Talks With US Envoy Coale</title>
+      <link>https://www.rferl.org/a/belarus-us-prisoners-release-sanctions/33857455.html</link>
+      <description>US special envoy John Coale announced that 25 people were released from Belarusian prisons in exchange for the lifting of US sanctions on two Belarusian companies following his talks with the country’s longtime authoritarian leader, Aleksandr Lukashenko.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/belarus-us-prisoners-release-sanctions/33857455.html</guid>
+      <pubDate>Wed, 16 Sep 2026 11:55:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security</title>
+      <link>https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html</link>
+      <description>N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to valid accounts without relying on obvious malware activity.
+
+From there, a single compromised identity can open the door to sensitive data, business systems, and additional cloud</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html</guid>
+      <pubDate>Wed, 16 Sep 2026 11:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Denmark’s Jaeger Corps: Inside the Brutal Selection of an Elite Special Operations Unit</title>
+      <link>https://sofrep.com/news/danish-special-forces-the-jaeger-corps-aka-the-huntsmen-corps/</link>
+      <description>Selection for these modern-day Vikings lasts 18 months and is highly competitive. The attrition rate for the Jaeger Corps is 90 percent.  #JaegerCorps #DanishSpecialForces #SpecialOperations #MilitaryTraining #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/news/danish-special-forces-the-jaeger-corps-aka-the-huntsmen-corps/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid</title>
+      <link>https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess AI’s impact on the economy over the next few years,&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Webinar: What happens in the first hours of a Google Workspace breach</title>
+      <link>https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/</link>
+      <description>The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches to show which early response decisions can limit the impact and which can make matters worse. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:11:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft says Copilot buttons still missing in classic Outlook</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/</link>
+      <description>Microsoft says it's still investigating a known issue that causes the Copilot and Copilot Chat buttons in Classic Outlook to disappear for some Windows users. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:16:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Does China Cooperate on Some Rivers but not the Mekong?</title>
+      <link>https://www.geopoliticalmonitor.com/china-mekong-water-cooperation-kazakhstan-precedent/</link>
+      <description>&lt;p&gt;Beijing signed binding water agreements with Kazakhstan, Mongolia, and Russia, and offers the Mekong none. Thailand has more leverage to change that than the current debate suggests.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/china-mekong-water-cooperation-kazakhstan-precedent/"&gt;Why Does China Cooperate on Some Rivers but not the Mekong?&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/china-mekong-water-cooperation-kazakhstan-precedent/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:27:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the industrial base is responding to Air Force, Space Force needs</title>
+      <link>https://breakingdefense.com/2026/09/how-the-industrial-base-is-responding-to-air-force-space-force-needs/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/how-the-industrial-base-is-responding-to-air-force-space-force-needs/"&gt;&lt;img alt="How the industrial base is responding to Air Force, Space Force needs Demand signals from leadership are shaping investments in design, engineering and manufacturing. Air Force and Space Force depend upon the industrial base to deliver more capability and capacity. At AFA, Breaking Defense spoke with Ursa Major CEO Chris Spagnoletti about what demand signals military leadership are sending to the industrial base." class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/ursa_major_copy_04_v4-1080p-frame-at-0m52s-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] Demand signals from leadership are shaping investments in design, engineering and manufacturing.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/how-the-industrial-base-is-responding-to-air-force-space-force-needs/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:34:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kaga and the F-35: Japan’s Naval Turn</title>
+      <link>https://www.geopoliticalmonitor.com/japan-kaga-f-35b-carrier-naval-turn/</link>
+      <description>&lt;p&gt;Kaga now flies F-35Bs and Izumo is next. Why Japan’s carrier turn is less about the name on the hull than about flexibility, survivability, and the US alliance.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/japan-kaga-f-35b-carrier-naval-turn/"&gt;Kaga and the F-35: Japan’s Naval Turn&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/japan-kaga-f-35b-carrier-naval-turn/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:34:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building the materials foundation for AI</title>
+      <link>https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/</link>
+      <description>The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:47:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reimagining advertising with AI</title>
+      <link>https://openai.com/index/reimagining-advertising-with-ai</link>
+      <description>Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</description>
+      <guid isPermaLink="false">https://openai.com/index/reimagining-advertising-with-ai</guid>
+      <pubDate>Wed, 16 Sep 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FQ-42 Vengeance Fighter Drone Program Update</title>
+      <link>https://www.twz.com/sponsored-content/fq-42-vengeance-fighter-drone-program-update</link>
+      <description>&lt;p&gt;Sponsored Content: The latest from General Atomics on FQ-42 Vengeance and the company's new Wildfire MQ-9 replacement platform.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/sponsored-content/fq-42-vengeance-fighter-drone-program-update"&gt;FQ-42 Vengeance Fighter Drone Program Update&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/sponsored-content/fq-42-vengeance-fighter-drone-program-update</guid>
+      <pubDate>Wed, 16 Sep 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gamera Is Swarm Aero’s Sub-$10 Million Answer to the MQ-9 Reaper</title>
+      <link>https://sofrep.com/news/gamera-is-swarm-aeros-sub-10-million-answer-to-the-mq-9-reaper/</link>
+      <description>Swarm Aero’s Gamera is a slow, non-stealthy missile truck built around a savage new calculation: some aircraft will be lost, so America had better be able to afford replacements. #GameraDrone #SwarmAero #DefenseTechnology #UnmannedAircraft #MilitaryAviation</description>
+      <guid isPermaLink="false">https://sofrep.com/news/gamera-is-swarm-aeros-sub-10-million-answer-to-the-mq-9-reaper/</guid>
+      <pubDate>Wed, 16 Sep 2026 13:00:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Four Years On, Iranian Woman Seeks Justice For Brother Killed In Women, Life, Freedom Protests</title>
+      <link>https://www.rferl.org/a/iran-women-life-freedom-protests-crackdown/33857477.html</link>
+      <description>In an interview with RFE/RL, Asrin Mohammadi recalls how her brother was killed during the brutal state crackdown on the Women, Life, Freedom protests that began four years ago.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-women-life-freedom-protests-crackdown/33857477.html</guid>
+      <pubDate>Wed, 16 Sep 2026 13:01:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>GDLS-UK and ARX partner on autonomous ‘wingman’ tech for British Army</title>
+      <link>https://www.army-technology.com/news/gdls-uk-arx-british-army/</link>
+      <description>General Dynamics Land Systems-UK (GDLS-UK) and ARX Robotics have formed a new collaboration aimed at advancing the integration of autonomous systems with British Army crewed vehicles.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/gdls-uk-arx-british-army/</guid>
+      <pubDate>Wed, 16 Sep 2026 13:03:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix</title>
+      <link>https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html</link>
+      <description>Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.
+
+The attack needs code already running on the machine as a normal user, so it does not work over the network. JFrog says the fix is in Parallels Desktop 27, a version that Intel Macs cannot install.
+
+Yuval Moravchick, who leads</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html</guid>
+      <pubDate>Wed, 16 Sep 2026 13:14:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>EU chief calls for new hybrid response protocol, increased defense ties to non-members</title>
+      <link>https://breakingdefense.com/2026/09/eu-chief-calls-for-new-hybrid-response-protocol-increased-defense-ties-to-non-members/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/eu-chief-calls-for-new-hybrid-response-protocol-increased-defense-ties-to-non-members/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/ursulua-eu-scaled-e1789565012748-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The security protocol could offer a solution when a state faces a significant security threat that is not clearly armed aggression, including cyberattacks, the severing of undersea cables, or the protection of critical infrastructure.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/eu-chief-calls-for-new-hybrid-response-protocol-increased-defense-ties-to-non-members/</guid>
+      <pubDate>Wed, 16 Sep 2026 13:32:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories</title>
+      <link>https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html</link>
+      <description>Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&amp;nbsp;Shai-Hulud&amp;nbsp;across about 100 internal code repositories.
+
+Before the repository spread, the assistant recommended software that the attacker had poisoned, and the recommendation was accepted. The worm stole repository secrets and source code for the</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html</guid>
+      <pubDate>Wed, 16 Sep 2026 13:37:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>SDA misses self-imposed deadline on orbital mesh network</title>
+      <link>https://breakingdefense.com/2026/09/sda-misses-self-imposed-deadline-on-orbital-mesh-network/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/sda-misses-self-imposed-deadline-on-orbital-mesh-network/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/260916_satellite_network_GettyImages-1648725322-e1789566263668-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“We are behind on that. We should be there already,” Space Development Agency Director G.P. Sandhoo said bluntly.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/sda-misses-self-imposed-deadline-on-orbital-mesh-network/</guid>
+      <pubDate>Wed, 16 Sep 2026 13:44:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Former Kosovo President Hashim Thaci Sentenced To 25 Years For War Crimes</title>
+      <link>https://www.rferl.org/a/thaci-war-crimes-kosovo/33857531.html</link>
+      <description>The 58-year-old Thaci, and three other former leaders of the Kosovo Liberation Army who fought Serb forces in the 1998-99 war, was convicted on four counts of war crimes: illegal and arbitrary arrest and detention, cruel treatment, torture, and murder.
+
+Judge Charles Smith said the men, widely regarded as national heroes in Kosovo, had been engaged in a "common criminal purpose" that involved arbitrary detention of at least 385 people at locations in Kosovo and northern Albania...</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/thaci-war-crimes-kosovo/33857531.html</guid>
+      <pubDate>Wed, 16 Sep 2026 13:45:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump’s Iran War Is Draining America’s Ammunition Stockpiles</title>
+      <link>https://sofrep.com/news/trumps-iran-war-is-draining-americas-ammunition-stockpiles/</link>
+      <description>Congress has a constitutional duty to hold the administration accountable for defense decisions that have compromised national security and undermined the nation's founding principles. #NationalSecurity #MilitaryReadiness #DefensePolicy #CongressionalOversight #USForeignPolicy</description>
+      <guid isPermaLink="false">https://sofrep.com/news/trumps-iran-war-is-draining-americas-ammunition-stockpiles/</guid>
+      <pubDate>Wed, 16 Sep 2026 14:00:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>The true cost of a ransomware attack, with and without BCDR</title>
+      <link>https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/</link>
+      <description>The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can reduce downtime and provide a faster, more predictable path to recovery. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/</guid>
+      <pubDate>Wed, 16 Sep 2026 14:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russian Drones Hit Ukrainian Passenger Train And Bus, Killing 5</title>
+      <link>https://www.rferl.org/a/russian-drones-hit-ukrainian-passenger-train-and-bus-killing-5/33857562.html</link>
+      <description>Russian drones hit a passenger train in southern Ukraine on September 16, setting a train ablaze. No causalities were reported. Another Russian drone strike killed five people on a bus near the frontline city of Nikopol, according to officials. The strikes follow an uptick in attacks on civilian transport in recent days.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/russian-drones-hit-ukrainian-passenger-train-and-bus-killing-5/33857562.html</guid>
+      <pubDate>Wed, 16 Sep 2026 14:04:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Treasury’s Scott Bessent says no liability exemptions for AI labs</title>
+      <link>https://fedscoop.com/treasury-scott-bessent-ai-labs-liability-exemptions/</link>
+      <description>&lt;p&gt;The secretary told House Financial Services Committee lawmakers that the “best way to guarantee safety” is for AI creators to be held “liable for what they build and generate.”&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://fedscoop.com/treasury-scott-bessent-ai-labs-liability-exemptions/"&gt;Treasury’s Scott Bessent says no liability exemptions for AI labs&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://fedscoop.com/treasury-scott-bessent-ai-labs-liability-exemptions/</guid>
+      <pubDate>Wed, 16 Sep 2026 14:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukraine’s Zelenskyy says new anti-drone weapon being tested</title>
+      <link>https://www.defensenews.com/global/2026/09/16/ukraines-zelenskyy-says-new-anti-drone-weapon-being-tested/</link>
+      <description>Zelenskyy said on Tuesday that Ukraine was carrying out tests on a new weapon to intercept drones and had recorded a successful hit overnight.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/2026/09/16/ukraines-zelenskyy-says-new-anti-drone-weapon-being-tested/</guid>
+      <pubDate>Wed, 16 Sep 2026 14:19:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spain’s Indra proffers ‘Squall’ for Europe’s emerging strike missile mix</title>
+      <link>https://www.defensenews.com/global/europe/2026/09/16/spains-indra-proffers-squall-for-europes-emerging-strike-missile-mix/</link>
+      <description>Spain’s Indra has launched a low-cost cruise missile it claims will cost a tenth of top-of-the line current missiles, enabling swarm tactics.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/16/spains-indra-proffers-squall-for-europes-emerging-strike-missile-mix/</guid>
+      <pubDate>Wed, 16 Sep 2026 14:37:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>China warns US space weapons could fuel arms race</title>
+      <link>https://www.defensenews.com/global/2026/09/16/china-warns-us-space-weapons-could-fuel-arms-race/</link>
+      <description>China urged the United States to halt its military build-up in outer space after Washington acknowledged it has weapons deployed in orbit.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/2026/09/16/china-warns-us-space-weapons-could-fuel-arms-race/</guid>
+      <pubDate>Wed, 16 Sep 2026 14:39:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Germany, US to expand shared production of Patriot interceptors, strike missiles</title>
+      <link>https://www.defensenews.com/global/europe/2026/09/16/germany-us-to-expand-shared-production-of-patriot-interceptors-strike-missiles/</link>
+      <description>German and U.S. defense leaders have signed an agreement positioning Germany as an additional production hub for scarce American defense equipment.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/16/germany-us-to-expand-shared-production-of-patriot-interceptors-strike-missiles/</guid>
+      <pubDate>Wed, 16 Sep 2026 14:47:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coast Guard, FBI board US-bound foreign ships in order to probe for cyberattacks</title>
+      <link>https://cyberscoop.com/coast-guard-fbi-investigate-tanker-cyberattacks/</link>
+      <description>&lt;p&gt;The agencies issued a joint statement saying the “joint security boardings” came in response to “indications that the networks of both vessels were compromised.”&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/coast-guard-fbi-investigate-tanker-cyberattacks/"&gt;Coast Guard, FBI board US-bound foreign ships in order to probe for cyberattacks&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/coast-guard-fbi-investigate-tanker-cyberattacks/</guid>
+      <pubDate>Wed, 16 Sep 2026 14:48:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meet a mouse whose brain cortex is made up of human cells</title>
+      <link>https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/</link>
+      <description>Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed, leaving Pong-like traces on a monitor.&amp;#160; The reason to watch this rodent so carefully? Nearly half its brain volume had been replaced with human cells. The effort to mix the brain tissues of distant species is&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/</guid>
+      <pubDate>Wed, 16 Sep 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>This 500-Pound Army Robot Just Pulled a 53,000-Pound Truck</title>
+      <link>https://sofrep.com/news/this-500-pound-army-robot-just-pulled-a-53000-pound-truck/</link>
+      <description>The S26 could change how soldiers move and repair unmanned vehicles, once the Army proves it can do more than pose for photographs and pull trucks through company videos. #AZAKS26 #MilitaryRobotics #UnmannedGroundVehicles #ArmyModernization #DefenseTechnology</description>
+      <guid isPermaLink="false">https://sofrep.com/news/this-500-pound-army-robot-just-pulled-a-53000-pound-truck/</guid>
+      <pubDate>Wed, 16 Sep 2026 15:00:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spain’s Indra unveils Squall, a new low-cost cruise missile for ‘mass attacks’</title>
+      <link>https://breakingdefense.com/2026/09/spains-indra-unveils-squall-a-new-low-cost-cruise-missile-for-mass-attacks/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/spains-indra-unveils-squall-a-new-low-cost-cruise-missile-for-mass-attacks/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="533" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Capture-decran-le-2026-09-16-a-16.35.33-1024x533.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Indra&amp;#8217;s Squall becomes the latest small cruise missile to head to market, as militaries around the globe look to replenish their stocks.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/spains-indra-unveils-squall-a-new-low-cost-cruise-missile-for-mass-attacks/</guid>
+      <pubDate>Wed, 16 Sep 2026 15:12:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
