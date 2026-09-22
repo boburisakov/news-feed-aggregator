@@ -7,50 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 03:06:31 +0000</lastBuildDate>
-    <item>
-      <title>HII wins five-year US Army contract for advanced airdrop technologies</title>
-      <link>https://www.army-technology.com/news/hii-us-army-airdrop-technologies/</link>
-      <description>HII’s mission technologies division secured a five-year task order to advance research on airdrop and combat feeding techniques for the US Army.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/hii-us-army-airdrop-technologies/</guid>
-      <pubDate>Wed, 16 Sep 2026 15:37:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Helping older adults use AI in everyday life</title>
-      <link>https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</link>
-      <description>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</description>
-      <guid isPermaLink="false">https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</guid>
-      <pubDate>Wed, 16 Sep 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking Robot Safety in the Age of AI</title>
-      <link>https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robots-and-people-walking-through-a-modern-city-street-with-glass-buildings.jpg?id=67745861&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;em&gt;This article is brought to you by &lt;a href="https://vicone.com?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-09" target="_blank"&gt;VicOne&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed?&lt;/p&gt;&lt;p&gt;As AI and robotics continue to advance at an unprecedented pace, modern robots perceive through multimodal sensors, interpret context using AI models, and translate those interpretations into physical action. As they move into dynamic environments, their safety increasingly depends on the integrity of the data guiding their decisions.&lt;/p&gt;&lt;p&gt;That dependence creates risks that conventional safety assessments may not fully capture. Recent research has demonstrated that manipulating what a robot sees, hears, or interprets can influence its behavior without requiring direct control.&lt;/p&gt;&lt;p&gt;Such manipulation can occur anywhere across its complex sensing and decision-making system — a layered attack surface encompassing training pipelines, system infrastructure, and runtime perception.&lt;/p&gt;&lt;h2&gt;Layer One: Corrupting intelligence at its source&lt;/h2&gt;&lt;p&gt;In 2017, &lt;a href="https://arxiv.org/abs/1708.06733" rel="noopener noreferrer" target="_blank"&gt;BadNets&lt;/a&gt; demonstrated that a model could behave normally under most conditions, yet fail in the presence of a specific hidden trigger. In one example, a subtle pattern caused a stop sign to be misclassified as a speed limit sign without affecting the model’s behavior on other inputs.&lt;/p&gt;&lt;p&gt;What began as a classification vulnerability has since evolved into action manipulation.&lt;/p&gt;&lt;p&gt;At NeurIPS 2025, researchers introduced &lt;a href="https://arxiv.org/abs/2505.16640" rel="noopener noreferrer" target="_blank"&gt;BadVLA&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;a backdoor attack targeting Vision-Language-Action (VLA) models that allow robots to see, interpret instructions, and produce coordinated physical movement. Rather than altering a single label, the attack caused conditional deviations in the robot’s action trajectory when a trigger was present. Without the trigger, the model largely preserved normal task performance, while the backdoor remained effective under task transfers and model fine-tuning.&lt;/p&gt;&lt;p&gt;A related study in 2025, &lt;a href="https://arxiv.org/abs/2510.09269" rel="noopener noreferrer" target="_blank"&gt;GoBA&lt;/a&gt;, showed that ordinary objects such as a coffee mug could serve as a reliable trigger. The researchers reported a 97 percent attack success rate without degrading performance on clean inputs.&lt;/p&gt;&lt;p class="pull-quote"&gt;A critical safety question today is whether Physical AI models remain within their task and safety boundaries under adversarial conditions.&lt;/p&gt;&lt;p&gt;These studies expose a blind spot in model validation: A model may pass testing yet produce corrupted behavior when a hidden trigger appears in operation.&lt;/p&gt;&lt;p&gt;So a critical safety question today is whether Physical AI models remain within their task and safety boundaries under adversarial conditions. &lt;a href="https://vicone.com/company/press-releases/vicone-turns-def-con-34-robot-hacking-research-into-free-nvidia-isaac-sim-extension?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-09" rel="noopener noreferrer" target="_blank"&gt;Simulation tools&lt;/a&gt; such as NVIDIA Isaac Sim, when paired with &lt;a href="https://vicone.com/products/radeis?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-09" target="_blank"&gt;VicOne Radeis&lt;/a&gt;, can test the effects of manipulated inputs before deployment.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-caption"&gt;VicOne LAB R7 demonstrates Radeis, a Physical AI safety validator for NVIDIA Isaac Sim that tests how adversarial visual inputs affect robot behavior before deployment.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;VicOne&lt;/small&gt;&lt;/p&gt;&lt;h2&gt;Layer Two: System vulnerabilities as gateways to AI control&lt;/h2&gt;&lt;p&gt;Even a securely trained model can be subverted if the surrounding system stack is vulnerable.&lt;/p&gt;&lt;p&gt;In September 2025, researchers disclosed &lt;a href="https://github.com/Bin4ry/UniPwn" rel="noopener noreferrer" target="_blank"&gt;UniPwn&lt;/a&gt;, a Bluetooth &lt;a href="https://spectrum.ieee.org/unitree-robot-exploit" target="_blank"&gt;exploit chain affecting quadruped and humanoid robots&lt;/a&gt; from a major manufacturer. Hardcoded cryptographic keys allowed traffic decryption, authentication checks were bypassed, and command injection enabled root-level execution. The exploit is also described as “wormable.” A compromised robot could scan nearby units and potentially affect an entire fleet.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-caption"&gt;VicOne Lab R7’s demo shows how chaining three wireless exploits can trigger uncontrolled robot behavior within 60 seconds, resulting in operational disruption.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;VicOne&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Middleware creates another exposure point. Vulnerabilities in &lt;a href="https://www.ros.org/" target="_blank"&gt;ROS 2&lt;/a&gt; and DDS-based systems can enable arbitrary code execution or abuse unauthenticated topics to deliver malicious commands. With sufficient access, an attacker could override motor commands or replace AI model weights without directly attacking the model architecture.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;In this case, the components may still function as designed. What has changed is the trustworthiness of the commands flowing through the system. Vulnerability management can help teams identify known risks before deployment, while continuous monitoring can surface emerging threats.&lt;/p&gt;&lt;h2&gt;Layer Three: Manipulating perception and reasoning at runtime&lt;/h2&gt;&lt;p&gt;At runtime, manipulating inputs that shape perception or reasoning may require neither firmware modification nor a network breach.&lt;/p&gt;&lt;p&gt;In 2024, &lt;a href="https://robopair.org/" target="_blank"&gt;RoboPAIR&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;demonstrated how carefully structured prompts could redirect LLM-controlled robots into unsafe trajectories. &lt;a href="https://arxiv.org/abs/2407.20242" target="_blank"&gt;BadRobot&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;exposed a deeper architectural weakness: in several cases, a robot verbally refused a dangerous command while its motion controller executed the action anyway.&lt;/p&gt;&lt;p&gt;Vision-based manipulation is equally powerful. &lt;a href="https://arxiv.org/abs/2411.13587" target="_blank"&gt;VLAttack&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;showed that an adversarial patch within the camera’s view could reduce a VLA model’s task success rate to zero. &lt;a href="https://arxiv.org/abs/2509.19870" target="_blank"&gt;FreezeVLA&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;showed that a single adversarial image could freeze a robot’s decision-making loop, making it unresponsive to subsequent instructions.&lt;/p&gt;&lt;p class="pull-quote"&gt;Runtime assurance must therefore look beyond whether individual components remain available and assess whether cyber events are beginning to affect physical behavior.&lt;/p&gt;&lt;p&gt;In each case, the camera may still work, the model may still run, and the controller may still respond. Yet the resulting behavior can be unsafe because the robot is acting on manipulated perception or reasoning.&lt;/p&gt;&lt;p&gt;Runtime assurance must therefore look beyond whether individual components remain available and assess whether cyber events are beginning to affect physical behavior. Security event correlation, behavioral-impact assessment, and policy-bounded response supported by edge AI, can help contain the affected path without unnecessarily stopping the entire robot fleet.&lt;/p&gt;&lt;h2&gt;From point-in-time safety to lifecycle assurance&lt;/h2&gt;&lt;p&gt;The risks across these three layers reveal the missing layer in robot safety assurance: cybersecurity. Functional safety addresses failures and unexpected operating conditions; cybersecurity extends that assurance to deliberate manipulation, including attacks that may leave the underlying system apparently functional.&lt;/p&gt;&lt;p&gt;This requires assurance across the robot’s lifecycle. During design, teams need to understand which cyber risks could invalidate assumptions behind intended behavior. Before deployment, they should test whether realistic attacks can cause a robot to deviate from its task or safety boundaries. In operation, monitoring should identify whether cyber events are beginning to affect behavior, contain the affected path, and preserve safe operation where possible.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Diagram of end\u2011to\u2011end AI robot security from development to operation monitoring" class="rm-shortcode" id="097ea" src="https://spectrum.ieee.org/media-library/diagram-of-end-u2011to-u2011end-ai-robot-security-from-development-to-operation-monitoring.jpg?id=67745953&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;VicOne’s lifecycle approach combines AI model and vulnerability scanning, simulation-based validation, and continuous monitoring to help secure robots from development through operation.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;VicOne&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;While cybersecurity does not replace functional safety, it helps ensure that Physical AI remains within acceptable boundaries even when what it sees, decides, or does is under attack.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;For a deeper look at the cybersecurity risks and defense strategies shaping autonomous robotics, download our whitepaper “&lt;a href="https://info.vicone.com/ai-robotics-security-risk-whitepaper?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-09" target="_blank"&gt;Securing the Rise of AI Robots: Cyber Risks, Real-World Threats, and Defense Strategies&lt;/a&gt;.”&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone</guid>
-      <pubDate>Wed, 16 Sep 2026 16:51:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Pentagon must prepare for battles around the moon: Joint Chiefs chair</title>
-      <link>https://www.defenseone.com/threats/2026/09/pentagon-battles-moon-joint-chiefs-chairman/416021/</link>
-      <description>Days after orbital weapons were revealed, Gen. Dan Caine ups the scope of the military’s desired reach.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/09/pentagon-battles-moon-joint-chiefs-chairman/416021/</guid>
-      <pubDate>Wed, 16 Sep 2026 17:11:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>UK produce engine family in 30 to 2,000N thrust range</title>
-      <link>https://www.army-technology.com/news/uk-produce-engine-family-in-30-to-2000n-thrust-range/</link>
-      <description>The UK Ministry of Defence is working with a British metals start-up, Alloyed, to develop a family of turbojet engines.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/uk-produce-engine-family-in-30-to-2000n-thrust-range/</guid>
-      <pubDate>Wed, 16 Sep 2026 17:19:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Would NATO Membership for Ukraine Undermine Article 5 Itself?</title>
-      <link>https://warontherocks.com/would-nato-membership-for-ukraine-undermine-article-5-itself/</link>
-      <description>&lt;p&gt;In 2025, Jennifer Kavanaugh and Christopher McCallion wrote, &amp;#8220;Armed Neutrality for Ukraine Is NATO&amp;#8217;s Least Poor Option,&amp;#8221; where they made the case for armed neutrality over full NATO membership as the wiser course for both Ukraine and NATO. A year later, we asked them to revisit their arguments.&amp;#160;Image: MidjourneyIn your 2025 article, you argued that NATO membership and binding U.S. or European security guarantees for Ukraine were effectively unworkable, and that armed neutrality was the option best suited to protecting both Ukraine&amp;#8217;s security and NATO&amp;#8217;s credibility. As the debate has evolved to include talk of &amp;#8220;Article 5-like&amp;#8221; assurances short of&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/would-nato-membership-for-ukraine-undermine-article-5-itself/"&gt;Would NATO Membership for Ukraine Undermine Article 5 Itself?&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/would-nato-membership-for-ukraine-undermine-article-5-itself/</guid>
-      <pubDate>Wed, 16 Sep 2026 17:30:17 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 22 Sep 2026 08:31:05 +0000</lastBuildDate>
     <item>
       <title>Data Broker Radaris Loses Domains in Privacy Fight</title>
       <link>https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/</link>
@@ -2100,48 +2057,12 @@
       <pubDate>Sat, 19 Sep 2026 11:31:36 +0000</pubDate>
     </item>
     <item>
-      <title>Kyrgyz Families Plead For Return Of Islamic State Fighters' Wives, Relatives From Iraqi Prisons</title>
-      <link>https://www.rferl.org/a/kyrgyzstan-iraq-syria-islamic-state-rusafa-terrorism/33859396.html</link>
-      <description>Families of dozens of Kyrgyz women imprisoned in Iraq are calling on the government to bring them home. The women -- mostly wives and relatives of Islamic State fighters -- traveled to Iraq and Syria more than a decade ago as the extremist group seized swaths of territory.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/kyrgyzstan-iraq-syria-islamic-state-rusafa-terrorism/33859396.html</guid>
-      <pubDate>Sat, 19 Sep 2026 13:17:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Identity Visibility in 2026: The Foundation of Identity Security</title>
-      <link>https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html</link>
-      <description>Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html</guid>
-      <pubDate>Sat, 19 Sep 2026 13:28:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar</title>
-      <link>https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html</link>
-      <description>A new CVE drops. Your scanner finds it. The severity score looks ugly.
-
-But that still does not answer the question that matters: Can it actually be exploited in your environment?
-
-Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html</guid>
-      <pubDate>Sat, 19 Sep 2026 13:28:48 +0000</pubDate>
-    </item>
-    <item>
       <title>What the Greenland deal means for the transatlantic alliance</title>
       <link>https://www.atlanticcouncil.org/content-series/fastthinking/what-the-greenland-deal-means-for-the-transatlantic-alliance/</link>
       <description>&lt;p&gt;Our experts unpack what we know and what to expect from the announced security deal involving the US, Denmark, and Greenland.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/content-series/fastthinking/what-the-greenland-deal-means-for-the-transatlantic-alliance/"&gt;What the Greenland deal means for the transatlantic alliance&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/content-series/fastthinking/what-the-greenland-deal-means-for-the-transatlantic-alliance/</guid>
       <pubDate>Sat, 19 Sep 2026 14:36:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws</title>
-      <link>https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html</link>
-      <description>Three researchers at the security firm&amp;nbsp;Hacktron&amp;nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.
-
-The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.
-
-This was security research,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html</guid>
-      <pubDate>Sat, 19 Sep 2026 18:36:53 +0000</pubDate>
     </item>
     <item>
       <title>Russia's Starlink Rival Faces Problems In Orbit And Threats On The Ground</title>
@@ -2227,13 +2148,6 @@ This was security research,</description>
       <description>The next secretary-general must get back to basics</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/united-nations-general-assembly-secretary-general</guid>
       <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tanker Hit By 'Unknown Projectile' In Strait Of Hormuz</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Mon, 21 Sep 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ISC Stormcast For Monday, September 21st, 2026 https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)</title>
@@ -2608,6 +2522,13 @@ The trouble keeps showing up inside things people already trust: code that takes
       <pubDate>Mon, 21 Sep 2026 15:17:00 +0000</pubDate>
     </item>
     <item>
+      <title>Thales opens Connectivity Lab in Denmark for defence communications</title>
+      <link>https://www.army-technology.com/news/thales-denmark-connectivity-lab/</link>
+      <description>Thales has inaugurated Connectivity Lab, a facility to provide critical communications technology for the Danish Army and partner nations.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/thales-denmark-connectivity-lab/</guid>
+      <pubDate>Mon, 21 Sep 2026 15:28:22 +0000</pubDate>
+    </item>
+    <item>
       <title>The Syria policy the US got wrong—and the bittersweet moment Washington finally got right</title>
       <link>https://www.atlanticcouncil.org/blogs/menasource/the-syria-policy-the-us-got-wrong-and-the-bittersweet-moment-washington-finally-got-right/</link>
       <description>&lt;p&gt;A former State Department official dissects how the US helped defeat ISIS but didn't protect the Syrian people.&lt;/p&gt;
@@ -2650,6 +2571,13 @@ The trouble keeps showing up inside things people already trust: code that takes
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/house-democrats-cisa-force-structure-assessment-act/"&gt;Dems seek top-to-bottom assessment of CISA workforce&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/house-democrats-cisa-force-structure-assessment-act/</guid>
       <pubDate>Mon, 21 Sep 2026 16:05:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forecasts: Global body armour market (2026-2036)</title>
+      <link>https://www.army-technology.com/features/forecasts-global-body-armour-market-2026-2036/</link>
+      <description>Body armour is split into three distinct market areas, including hard protection, soft protection, and ballistic helmets.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/features/forecasts-global-body-armour-market-2026-2036/</guid>
+      <pubDate>Mon, 21 Sep 2026 16:07:07 +0000</pubDate>
     </item>
     <item>
       <title>Air Force bids adieu to EC-130H electronic attack plane</title>
@@ -2869,6 +2797,77 @@ Microsoft's own hardware-compatibility program signs the driver, scored zero det
       <description>He posted on social media that "we will cherish it, help it, and watch over it, as it grows! However, we will also be looking for BAD, and we can do that..."</description>
       <guid isPermaLink="false">https://www.defenseone.com/policy/2026/09/trump-ai-force/416125/</guid>
       <pubDate>Tue, 22 Sep 2026 01:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vance Says Iran Could Not Build A Nuclear Weapon Tomorrow Or Even In A Year</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Tue, 22 Sep 2026 02:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Tuesday, September 22nd, 2026 https://isc.sans.edu/podcastdetail/10104, (Tue, Sep 22nd)</title>
+      <link>https://isc.sans.edu/diary/rss/33356</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33356</guid>
+      <pubDate>Tue, 22 Sep 2026 03:50:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Trouble With the Nuclear-AI Analogy</title>
+      <link>https://www.foreignaffairs.com/united-states/trouble-nuclear-ai-analogy</link>
+      <description>In humanity’s quest to constrain the dangers from fast-advancing artificial intelligence, many have looked to the most revolutionary technology that preceded it: nuclear weapons. SpaceX CEO Elon Musk has called artificial intelligence “far more dangerous than nukes.” Anthropic CEO Dario Amodei, who assigns The Making of the Atomic Bomb to employees and has likened himself to the Manhattan Project scientist Leo Szilard, describes the most powerful AI models as “weaponizable nuclear materials.” When asked how a technology such as AI can be regulated, OpenAI CEO Sam Altman often references the world’s nuclear materials watchdog, the International Atomic Energy Agency. Even the director of the CIA, John Ratcliffe, has made the same comparison.These comparisons capture real parallels. Like nuclear weapons, frontier AI is powerful and hard to control. Like nuclear technology, it can be used for good or for ill. And like the Cold War arms race, the race for AI breakthroughs may reorder the global balance of power. The nuclear analogy, then, seems to offer a blueprint for how to effectively govern a promising but potentially dangerous technology such as AI.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/trouble-nuclear-ai-analogy</guid>
+      <pubDate>Tue, 22 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Syria’s Imperiled Transition</title>
+      <link>https://www.foreignaffairs.com/syria/syrias-imperiled-transition</link>
+      <description>How shock therapy threatens the post-Assad peace.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/syria/syrias-imperiled-transition</guid>
+      <pubDate>Tue, 22 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access</title>
+      <link>https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+
+The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html</guid>
+      <pubDate>Tue, 22 Sep 2026 05:31:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session</title>
+      <link>https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html</link>
+      <description>A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.
+
+WordPress fixed the flaw, tracked as&amp;nbsp;CVE-2026-93485&amp;nbsp;and dubbed "Comment2Shell," on September 17 in&amp;nbsp;version 7.1.1&amp;nbsp;and told site owners to update right away. There is</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html</guid>
+      <pubDate>Tue, 22 Sep 2026 06:03:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor</title>
+      <link>https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html</link>
+      <description>Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&amp;nbsp;proof-of-concept&amp;nbsp;released on September 21.
+
+It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.
+
+The flaw is in</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html</guid>
+      <pubDate>Tue, 22 Sep 2026 06:33:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Missed the Marque: Cyber Privateers Wanted, Compensation to Be Determined</title>
+      <link>https://warontherocks.com/missed-the-marque-cyber-privateers-wanted-compensation-to-be-determined/</link>
+      <description>&lt;p&gt;Coverage of the new White House memorandum on combating cybercrime quickly reached the privateer label. CNN called the participants &amp;#8220;cyber privateers,&amp;#8221; invoking the image of government-sanctioned raiders working the high seas of cyberspace, hauling in digital booty. The reality is considerably less romantic. The administration has tried to create a private offensive cyber program using an exception buried in outdated legislation, and that has shaped how the program must be constructed. For this reason and others, the proposed framework will likely not attract the talent needed to address transnational cybercrime meaningfully.Within a single month, Congress and the White House each&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/missed-the-marque-cyber-privateers-wanted-compensation-to-be-determined/"&gt;Missed the Marque: Cyber Privateers Wanted, Compensation to Be Determined&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/missed-the-marque-cyber-privateers-wanted-compensation-to-be-determined/</guid>
+      <pubDate>Tue, 22 Sep 2026 07:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Former RFE/RL Journalist Reza Valizadeh Marks Two Years In Iranian Prison</title>
+      <link>https://www.rferl.org/a/iran-prison-journalist-reza-valizadeh/33860591.html</link>
+      <description>Reza Valizadeh, a former journalist for RFE/RL's Radio Farda, has been incarcerated in Tehran's Evin prison for two years. The dual US-Iranian citizen is serving a 10-year sentence for “collaborating with a hostile government,” a conviction his supporters and press-freedom groups reject.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-prison-journalist-reza-valizadeh/33860591.html</guid>
+      <pubDate>Tue, 22 Sep 2026 08:24:06 +0000</pubDate>
     </item>
     <item>
       <title>The Warning Lights Are Blinking: Banks, Debt, and Why Gold Is Back in the Conversation</title>
