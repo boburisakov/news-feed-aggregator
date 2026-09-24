@@ -7,67 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 06:09:58 +0000</lastBuildDate>
-    <item>
-      <title>Video Friday: Two Birotors Make a Quadrotor</title>
-      <link>https://spectrum.ieee.org/video-friday-quadrotor-from-birotor</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-small-dual-propeller-robots-facing-each-other-connected-by-a-loose-green-cord.png?id=67790149&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=237%2C0%2C237%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit Seoul&lt;/a&gt;: 22–23 September 2026, SEOUL&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="2o41k1nlo1y"&gt;A &lt;a href="https://spectrum.ieee.org/flying-quadrotors-with-your-mind" target="_blank"&gt;quadrotor&lt;/a&gt; is really just two birotors that love each other very much.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://climb.mie.utoronto.ca/"&gt;CLIMB Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="hsnniqsk2vu"&gt;The last 30 seconds of this video are fantastic.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://tolomeis.github.io/contact-guided-exp/"&gt;ETH Zurich Robotic Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ljpm_2a1zre"&gt;This is great! But if you really want to impress me, convince me that it’s a) safe to be in my home and 2) a realistic alternative to a human.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"&gt;Figure&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="2dbyg67etua"&gt;I doubt anyone would call Digit 5 pretty, but here is what serious &lt;a href="https://spectrum.ieee.org/humanoid-robot-safety" target="_blank"&gt;humanoid safety&lt;/a&gt; looks like.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.agilityrobotics.com/"&gt;Agility&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="setzfvdtc7i"&gt;&lt;em&gt;NYU Tandon researchers built an undulatory robot that pumps water between its head and tail to climb slopes, clear steps, and swim, all while keeping the same basic gait.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;On an incline, shifting water toward the head increases the force pressing the robot’s front contact points against the surface, giving them more traction. Head-biased placement was the only configuration that successfully carried WorMa up the steepest incline tested, 19.5 degrees; every other configuration slid back down. It also reduced the robot’s cost of transport by at least 33 percent compared with the other configurations.&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Steps required something different. Neither a fixed head-heavy nor tail-heavy robot could clear a step on its own. The researchers instead had WorMa approach the step with water in its head for traction, then shifted the water to the tail and raised the head and neck so the tail could push the robot closer. Once the head anchored on the step’s edge, the water shifted back to the head, and the robot continued. That sequence got WorMa over steps as high as 15 centimeters.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://engineering.nyu.edu/news/robot-shifts-its-own-weight-cross-land-steps-and-water"&gt;NYU Tandon School of Engineering&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="n3obxr3law0"&gt;&lt;em&gt;Kubi 2.0 is a desktop telepresence AI robot that allows remote users to look around and interact as if they were physically present. It is also a Physical AI device enabling AI agents to interact with people in the physical environment. For over the past 10 years in Japan, we have successfully implemented our telepresence solutions to help hospitalized and homebound students attend classes, interact with friends, and participate in school events. Now, we are expanding this initiative globally through Kickstarter.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.kickstarter.com/projects/kubi-2/kubi-20-be-present-from-anywhere"&gt;Kubi 2.0 Telepresence Kickstarter&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="baelsmhwmni"&gt;I am oddly impressed by this use case for a wheeled quadruped.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/technology-empowers-desertification-control-deep-robotics-robotic-dog-1221078"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="rpkqzo1vshu"&gt;&lt;em&gt;Legged robots are versatile on land, but their use in underwater environments remains limited. Extending quadruped locomotion to water enables amphibious mobility with applications in inspection, environmental monitoring, and disaster response. This paper presents the design, modeling, and experimental validation of a reproducible underwater quadruped robot. The robot is built around custom waterproof motor housings machined from polyoxymethylene plastic, which use off-the-shelf O-rings and dynamic shaft seals. A simplified model is derived to describe the dynamics of this underwater legged system, capturing how drag forces on spherical end effectors transmit torque to the floating base. Building on this model, a closed-loop attitude controller is developed using an error formulation defined on the special orthogonal group SO(3). The controller is evaluated both in simulation and experimentally in a water tank, where the robot tracks desired orientation setpoints in roll, pitch, and yaw.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://ntnu-arl.github.io/underwater-quadruped-robot/"&gt;Norwegian University of Science &amp; Technology Autonomous Robots Lab&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Kostas!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="4ehrwhjw5ha"&gt;&lt;em&gt;Ugo Nova, a domestically produced [in Japan] semi-humanoid robot, accelerates the social implementation of physical AI, from research and development to operation in industrial settings.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://ugo.plus/ai/ugo-nova/"&gt;Ugo&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="tpj1xtgl1nc"&gt;I appreciate how much manipulation you can actually do with a good &lt;a href="https://spectrum.ieee.org/robots-getting-a-grip-on-general-manipulation" target="_blank"&gt;two-finger gripper&lt;/a&gt; and a clever robot.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.dmrobot.com/en/"&gt;Daimon Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="hulfqorvpxa"&gt;&lt;em&gt;One humanoid robot rolls off the line every 10 minutes. UBTECH’s benchmark humanoid robot smart factory just goes live—from 1,000 to 10,000 units, we made the leap in less than 9 months.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;This is great! But what are they all going to do?&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.ubtrobot.com/en/humanoid/products/walker-s2"&gt;UBTECH&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ao1u9joxlpk"&gt;&lt;em&gt;MIT engineers have built a robotic optics lab that builds, runs, and dismantles an optics experiment on demand. The setup centers on a robotic arm that physically arranges mirrors, lenses, and other optical components that are each set in custom-designed, QR-encoded housings. The robot arranges each component in precise alignments to direct and focus a beam of light (red laser). The autonomous system could speed up testing of high-tech materials, from solar cells and sensors to video displays and quantum technologies. This video is sped up 2x.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://news.mit.edu/2026/robotic-lab-runs-optics-experiments-on-demand-0917"&gt;MIT&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="nlbijwhuqx4"&gt;&lt;em&gt;Student-built rovers. Lunar terrain. High-stakes competition at NASA’s Kennedy Space Center. See the energy, engineering, and excitement of Lunabotics as university teams put their robotic systems to the test in a simulated lunar environment. These are highlights from the previous competition, as well as a look ahead as teams get ready for Lunabotics 2027.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.nasa.gov/learning-resources/lunabotics-challenge/"&gt;Lunabotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="gsoci0alw6g"&gt;This CMU Robotics Institute Seminar is by Erol Şahin from METU, on “Augmenting Bee Colonies with Robotics and AI Technologies for Ecosystem Support.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;Earth’s ecosystems are facing a rapid decline in biodiversity, with honeybees—keystone pollinators critical to ecosystem stability—being among the most affected. The EU-funded RoboRoyale project addresses this crisis by integrating advanced robotics and AI to augment the beehive, enabling observation at unprecedented resolutions and scales. Featured on the cover of Science Robotics&lt;/em&gt;&lt;em&gt; and receiving the 6th Edge of Government Award at the World Government Summit in 2024, our system tracks the Queen’s behaviors, colony efficiency, comb states, and long-term foraging activities, while advancing microrobotic intervention capabilities to support hive health. In this talk, I will discuss the challenges of developing this system, share key findings regarding complex social interactions, and explore the future potential of bio-hybrid research.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://www.ri.cmu.edu/event/augmenting-bee-colonies-with-robotics-and-ai-technologies-for-ecosystem-support/"&gt;Carnegie Mellon University Robotics Institute&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-quadrotor-from-birotor</guid>
-      <pubDate>Fri, 18 Sep 2026 16:01:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>NATO’s Arctic Surveillance Claims</title>
-      <link>https://www.geopoliticalmonitor.com/natos-arctic-surveillance-claims/</link>
-      <description>&lt;p&gt;NATO says it never loses Russia's submarines. Its own spokesman is more careful, and two severed Norwegian cables remain unexplained.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/natos-arctic-surveillance-claims/"&gt;NATO&amp;#8217;s Arctic Surveillance Claims&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/natos-arctic-surveillance-claims/</guid>
-      <pubDate>Fri, 18 Sep 2026 16:18:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Babcock, DCE partner to develop and support UGVs</title>
-      <link>https://www.army-technology.com/news/babcock-dce-uncrewed-ground-vehicles/</link>
-      <description>Babcock International has entered into an MoU with Digital Concepts Engineering aimed at advancing development of UGVs for defence customers.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/babcock-dce-uncrewed-ground-vehicles/</guid>
-      <pubDate>Fri, 18 Sep 2026 16:33:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Canada in Europe, Act Two: From Academic Hypothesis to Associate Member</title>
-      <link>https://www.geopoliticalmonitor.com/canada-eu-associate-member/</link>
-      <description>&lt;p&gt;Von der Leyen has offered Canada a status that does not legally exist. Inventing it is Brussels' problem, not Ottawa's.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/canada-eu-associate-member/"&gt;Canada in Europe, Act Two: From Academic Hypothesis to Associate Member&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/canada-eu-associate-member/</guid>
-      <pubDate>Fri, 18 Sep 2026 16:51:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Yazidi armed group YBS to disarm, integrate into Iraqi security forces</title>
-      <link>https://www.longwarjournal.org/archives/2026/09/yazidi-armed-group-ybs-to-disarm-integrate-into-iraqi-security-forces.php</link>
-      <description>&lt;p&gt;The Sinjar Resistance Units (YBS), a Yazidi armed group with links to the Kurdistan Workers’ Party (PKK), has agreed to disarm and integrate eligible members into Iraq’s security forces as Baghdad seeks to stabilize Sinjar and facilitate the return of displaced Yazidis. The agreement comes amid broader efforts to disarm Iranian-backed militias in Iraq and parallels integration processes involving the Syrian Democratic Forces in Syria.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/yazidi-armed-group-ybs-to-disarm-integrate-into-iraqi-security-forces.php"&gt;Yazidi armed group YBS to disarm, integrate into Iraqi security forces&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/yazidi-armed-group-ybs-to-disarm-integrate-into-iraqi-security-forces.php</guid>
-      <pubDate>Fri, 18 Sep 2026 17:26:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pete Hegseth is rebuilding the military's ‘brass ceiling’</title>
-      <link>https://www.defenseone.com/ideas/2026/09/pete-hegseth-military-brass-ceiling/416082/</link>
-      <description>The SecDef says his ideological approach to promotion is helping recruiting. Surveys don't back that up.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/ideas/2026/09/pete-hegseth-military-brass-ceiling/416082/</guid>
-      <pubDate>Fri, 18 Sep 2026 17:48:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pressure Points</title>
-      <link>https://warontherocks.com/pressure-points/</link>
-      <description>&lt;p&gt;Welcome to The Adversarial.&amp;#160;Every other week, we&amp;#8217;ll provide you with expert analysis on America&amp;#8217;s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranSenior officials from Iran, Oman, and neighboring Gulf states were scheduled to meet in Salalah on Monday to unveil the provisions of a deal for managing the Strait of Hormuz. Those plans unraveled before the meeting could take place, and Oman&amp;#8217;s foreign minister announced a postponement.For Tehran, securing buy-in from U.S. allies in the Gulf was potentially a step toward resuming negotiations with Washington &amp;#8212; presenting the Trump administration with a fix, even if temporary,&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/pressure-points/"&gt;Pressure Points&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/pressure-points/</guid>
-      <pubDate>Fri, 18 Sep 2026 18:30:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cape Canaveral is building up its counter-drone defenses, Space Force says</title>
-      <link>https://www.defenseone.com/defense-systems/2026/09/cape-canaveral-building-its-counter-drone-defenses-space-force-says/416096/</link>
-      <description>The Florida facility is key to the Pentagon’s plans to launch a thousand rockets a year.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/defense-systems/2026/09/cape-canaveral-building-its-counter-drone-defenses-space-force-says/416096/</guid>
-      <pubDate>Fri, 18 Sep 2026 22:51:54 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 24 Sep 2026 11:43:37 +0000</lastBuildDate>
     <item>
       <title>HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)</title>
       <link>https://isc.sans.edu/diary/rss/33352</link>
@@ -139,13 +79,6 @@
       <description>Microsoft Security Research published an interesting blog post "TerminalFix campaign deploys a reverse tunnel through multistage intrusion" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for the PNG files with me.&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33318</guid>
       <pubDate>Mon, 21 Sep 2026 10:33:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>4 ways to address the failures we found along the US border’s “virtual wall”</title>
-      <link>https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/</link>
-      <description>MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled towers and later died nearby, where their bodies remained unnoticed for&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/</guid>
-      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How we made the first comprehensive map of deaths along the US border’s “virtual wall”</title>
@@ -1684,14 +1617,6 @@
       <pubDate>Tue, 22 Sep 2026 15:00:49 +0000</pubDate>
     </item>
     <item>
-      <title>Citing China, President Trump doubles down on hands-off approach to AI regulation</title>
-      <link>https://cyberscoop.com/trump-hands-off-ai-regulation-china-race/</link>
-      <description>&lt;p&gt;Following a series of chaotic agentic hacks, Trump and administration officials have consistently expressed fears of Chinese AI dominance in pushing for fewer regulations.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/trump-hands-off-ai-regulation-china-race/"&gt;Citing China, President Trump doubles down on hands-off approach to AI regulation&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/trump-hands-off-ai-regulation-china-race/</guid>
-      <pubDate>Tue, 22 Sep 2026 15:16:35 +0000</pubDate>
-    </item>
-    <item>
       <title>NATO’s thumbs-up for AWS shows Europe still needs America</title>
       <link>https://www.defenseone.com/technology/2026/09/nato-aws-europe-america/416131/</link>
       <description>The company has become the first cloud provider to win approval to handle sensitive data for all alliance members.</description>
@@ -1732,13 +1657,6 @@
       <description>A CEO told agents about funneling money to U.S. lawmakers in return for Pentagon contracts worth millions of dollars. Then the probe was killed.</description>
       <guid isPermaLink="false">https://www.defenseone.com/threats/2026/09/fbi-defense-bribery-investigation/416138/</guid>
       <pubDate>Tue, 22 Sep 2026 17:38:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Italian Navy plots race of two local machines: an F-35B against a Ferrari</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/22/italian-navy-plots-race-of-two-local-machines-an-f-35b-against-a-ferrari/</link>
-      <description>The Italian Navy wants to find out if one of its F-35B fighter jets can outrace a Ferrari SF90 on the ground.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/22/italian-navy-plots-race-of-two-local-machines-an-f-35b-against-a-ferrari/</guid>
-      <pubDate>Tue, 22 Sep 2026 18:09:49 +0000</pubDate>
     </item>
     <item>
       <title>Royal Navy successfully launches US Mk 48 torpedo from uncrewed submersible</title>
@@ -1977,29 +1895,6 @@
       <pubDate>Wed, 23 Sep 2026 08:02:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ryuk ransomware member sentenced to 24 months in prison</title>
-      <link>https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/</link>
-      <description>An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/</guid>
-      <pubDate>Wed, 23 Sep 2026 08:20:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers</title>
-      <link>https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html</link>
-      <description>Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.
-
-The flaw,&amp;nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&amp;nbsp;an advisory&amp;nbsp;on September 22 and has released engineering hotfixes.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html</guid>
-      <pubDate>Wed, 23 Sep 2026 08:29:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Investigation: Amid Setbacks In The Sahel, Russia Quietly Builds Ties In Madagascar</title>
-      <link>https://www.rferl.org/a/russia-gru-madagascar-africa-corps/33861111.html</link>
-      <description>Russia’s efforts to cultivate clout in Africa’s Sahel have been a mixed bag of successes and setbacks. Across the continent, however, on the Indian Ocean island of Madagascar, Moscow is making another quiet push for influence.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-gru-madagascar-africa-corps/33861111.html</guid>
-      <pubDate>Wed, 23 Sep 2026 08:51:49 +0000</pubDate>
-    </item>
-    <item>
       <title>Smart glasses are already causing havoc in India</title>
       <link>https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/</link>
       <description>Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bill that would have narrowed the legal recognition for transgender people in&amp;#8230;</description>
@@ -2019,52 +1914,6 @@ The flaw,&amp;nbsp;CVE-2026-94127, affects only systems in which APM serves as a
       <description>MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.</description>
       <guid isPermaLink="false">https://openai.com/index/introducing-mentalhealthbench</guid>
       <pubDate>Wed, 23 Sep 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iranian Hard-Liners Up In Arms After Araqchi-Witkoff Meeting In New York</title>
-      <link>https://www.rferl.org/a/iran-us-meeting-araqchi-witkoff-hardliners/33862712.html</link>
-      <description>US special envoy Steve Witkoff and Iranian Foreign Minister Abbas Araqchi met in New York on September 22 following days of signals that US-Iranian talks would take place on the sidelines of the UN General Assembly. The meeting sparked a backlash from Iranian hard-liners.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-us-meeting-araqchi-witkoff-hardliners/33862712.html</guid>
-      <pubDate>Wed, 23 Sep 2026 10:03:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape</title>
-      <link>https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html</link>
-      <description>A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&amp;nbsp;said in research published September 22.
-
-The flaw, tracked as&amp;nbsp;CVE-2026-80521&amp;nbsp;(CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst&amp;nbsp;</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html</guid>
-      <pubDate>Wed, 23 Sep 2026 11:12:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft: September Windows updates break Always On VPN connections</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/</link>
-      <description>Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/</guid>
-      <pubDate>Wed, 23 Sep 2026 11:18:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests</title>
-      <link>https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html</link>
-      <description>Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.
-
-Opus 5.5, per Anthropic, is a "major step up from Opus 5," and "achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html</guid>
-      <pubDate>Wed, 23 Sep 2026 11:47:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent</title>
-      <link>https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html</link>
-      <description>Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html</guid>
-      <pubDate>Wed, 23 Sep 2026 11:47:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Set To Unveil Next Steps for Trump-Backed Armenia-Azerbaijan Transit Corridor</title>
-      <link>https://www.rferl.org/a/tripp-azerbaijan-armenia-transit-corridor-trump/33862805.html</link>
-      <description>The United States is set to unveil the next stage of TRIPP, a planned transport corridor through southern Armenia that Washington says could open new trade routes linking the South Caucasus and Central Asia with Western markets.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/tripp-azerbaijan-armenia-transit-corridor-trump/33862805.html</guid>
-      <pubDate>Wed, 23 Sep 2026 11:58:11 +0000</pubDate>
     </item>
     <item>
       <title>Ringg’s AI agents resolve up to 65% of customer calls with OpenAI</title>
@@ -2212,20 +2061,6 @@ cPanel has released fixed versions for both,</description>
       <pubDate>Wed, 23 Sep 2026 12:29:00 +0000</pubDate>
     </item>
     <item>
-      <title>Arista patches actively exploited VeloCloud Orchestrator zero-day</title>
-      <link>https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/</link>
-      <description>Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/</guid>
-      <pubDate>Wed, 23 Sep 2026 12:29:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>An Afghan Mother And Her Daughters Left Their Homeland In Search Of A Better Life. They Died Of Thirst</title>
-      <link>https://www.rferl.org/a/afghanistan-iran-migrants-thirst-deaths/33862797.html</link>
-      <description>At least 17 Afghans died of extreme dehydration in mid-September after crossing Iran through Pakistan, according to a human rights organization. Among them were a mother and her four daughters.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/afghanistan-iran-migrants-thirst-deaths/33862797.html</guid>
-      <pubDate>Wed, 23 Sep 2026 12:30:32 +0000</pubDate>
-    </item>
-    <item>
       <title>The Arakan Army Expands Influence along the Bangladesh Border</title>
       <link>https://www.geopoliticalmonitor.com/arakan-army-bangladesh-border-bandarban-influence/</link>
       <description>&lt;p&gt;The Arakan Army now controls all 271km of Myanmar's border with Bangladesh — and is crossing it.&lt;/p&gt;
@@ -2285,16 +2120,16 @@ cPanel has released fixed versions for both,</description>
     </item>
     <item>
       <title>Europe’s push to reduce US reliance is reshaping the defense space market</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</link>
+      <link>https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</link>
       <description>Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</guid>
       <pubDate>Wed, 23 Sep 2026 13:15:09 +0000</pubDate>
     </item>
     <item>
       <title>Europe’s push to reduce US reliance is reshaping the defense space market</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</link>
+      <link>https://www.defensenews.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</link>
       <description>Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</guid>
       <pubDate>Wed, 23 Sep 2026 13:15:09 +0000</pubDate>
     </item>
     <item>
@@ -2782,6 +2617,13 @@ According to Aikido, the list of Terraform providers and Go modules is below -
       <pubDate>Thu, 24 Sep 2026 00:58:17 +0000</pubDate>
     </item>
     <item>
+      <title>GenAI.mil saw more than 2 million users in one week, top DOD official says</title>
+      <link>https://www.defenseone.com/technology/2026/09/genaimil-saw-more-2-million-users-one-week-top-dod-official-says/416186/</link>
+      <description>The Pentagon's top AI officer also said that “unilateral disarmament is the wrong approach” when it comes to calls for a slowdown in AI development.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/technology/2026/09/genaimil-saw-more-2-million-users-one-week-top-dod-official-says/416186/</guid>
+      <pubDate>Thu, 24 Sep 2026 02:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The 2026 Global Citizen Awards: Celebrating leadership that builds what comes next</title>
       <link>https://www.atlanticcouncil.org/commentary/event-recap/the-2026-global-citizen-awards-celebrating-leadership-that-builds-what-comes-next/</link>
       <description>&lt;p&gt;The Atlantic Council honored the Finnish president, the Australian prime minister, the president and CEO of Formula 1, and a celebrated actress, singer, and producer.&lt;/p&gt;
@@ -2798,6 +2640,13 @@ According to Aikido, the list of Terraform providers and Go modules is below -
       <pubDate>Thu, 24 Sep 2026 03:04:02 +0000</pubDate>
     </item>
     <item>
+      <title>Stolen FBI data reveals employees’ roles in intelligence and surveillance</title>
+      <link>https://www.defenseone.com/threats/2026/09/stolen-fbi-data-reveals-employees-roles-intelligence-and-surveillance/416185/</link>
+      <description>Exposed analysts work on areas including China, Russia, and electronic surveillance. ShinyHunters claimed responsibility for the breach this week. The FBI said it’s investigating.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/09/stolen-fbi-data-reveals-employees-roles-intelligence-and-surveillance/416185/</guid>
+      <pubDate>Thu, 24 Sep 2026 03:33:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ISC Stormcast For Thursday, September 24th, 2026 https://isc.sans.edu/podcastdetail/10108, (Thu, Sep 24th)</title>
       <link>https://isc.sans.edu/diary/rss/33364</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33364</guid>
@@ -2811,11 +2660,165 @@ According to Aikido, the list of Terraform providers and Go modules is below -
       <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Clashes Reported In Iran’s Southeastern City Of Saravan</title>
+      <title>Iran, US Remain Far Apart Despite Renewed Talks</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
       <pubDate>Thu, 24 Sep 2026 05:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure</title>
+      <link>https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html</link>
+      <description>Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.
+
+The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).
+
+"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html</guid>
+      <pubDate>Thu, 24 Sep 2026 05:36:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>One URL, Three Different Tricks, (Thu, Sep 24th)</title>
+      <link>https://isc.sans.edu/diary/rss/33366</link>
+      <description>Yesterday, we received a phishing email with an interesting link. At first sight, it looks like garbage, but every piece of it has been carefully crafted to confuse basic security controls. Here is the defanged link:&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33366</guid>
+      <pubDate>Thu, 24 Sep 2026 06:25:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords</title>
+      <link>https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html</link>
+      <description>Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.
+
+According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses.
+
+"The campaign compromised 7 accounts –</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html</guid>
+      <pubDate>Thu, 24 Sep 2026 06:32:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files</title>
+      <link>https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html</link>
+      <description>An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&amp;nbsp;Anthony Albanese said.
+
+The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html</guid>
+      <pubDate>Thu, 24 Sep 2026 07:07:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>The New Signature Wounds: How Drone Warfare Is Reshaping the Injuries Veterans Bring Home</title>
+      <link>https://warontherocks.com/the-new-signature-wounds-how-drone-warfare-is-reshaping-the-injuries-veterans-bring-home/</link>
+      <description>&lt;p&gt;Traumatic brain injury became the signature wound of the post-9/11 wars because the battlefield changed. Improvised explosive devices changed the nature of American combat injuries. But the medical and legal systems that followed &amp;#8212; including the Department of Veterans Affairs&amp;#8217; own adjudication frameworks &amp;#8212; took years to catch up.Drone warfare is doing it again. And the gap between battlefield reality and the systems meant to support veterans may be widening faster than the last time.As a veterans disability appellate law firm, Chisholm Chisholm &amp;#38; Kilpatrick has represented tens of thousands of veterans in situations like this &amp;#8212; instances where the&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/the-new-signature-wounds-how-drone-warfare-is-reshaping-the-injuries-veterans-bring-home/"&gt;The New Signature Wounds: How Drone Warfare Is Reshaping the Injuries Veterans Bring Home&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/the-new-signature-wounds-how-drone-warfare-is-reshaping-the-injuries-veterans-bring-home/</guid>
+      <pubDate>Thu, 24 Sep 2026 07:15:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Power, Prudence, and Restraint in Fénelon’s Telemachus</title>
+      <link>https://warontherocks.com/power-prudence-and-restraint-in-fenelons-telemachus/</link>
+      <description>&lt;p&gt;&amp;#8220;If one is to judge by the fire and ardor with which this book is sought after, it is the most excellent of all books. Never were so many copies printed of any work; never were so many editions made of a single book; never has any writing been read by so many people.&amp;#8221; -Pierre-Valentin Faydit in La T&amp;#233;l&amp;#233;macomanie (1700), snidely critiquing the &amp;#8220;mania&amp;#8221; surrounding the initial publication of The Adventures of Telemachus.A sprawling epic that thrills the public, mesmerizes it with its aesthetic qualities and technical prowess, and reignites collective interest in some of the most foundational texts of&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/power-prudence-and-restraint-in-fenelons-telemachus/"&gt;Power, Prudence, and Restraint in Fénelon’s Telemachus&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/power-prudence-and-restraint-in-fenelons-telemachus/</guid>
+      <pubDate>Thu, 24 Sep 2026 07:30:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft fixes bug that broke Windows File History backup feature</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/</link>
+      <description>Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/</guid>
+      <pubDate>Thu, 24 Sep 2026 08:14:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Company That Sold Software To Pentagon, Secret Service Lied About Russian Ownership, Officials Say</title>
+      <link>https://www.rferl.org/a/us-russia-software-hacker-cyber-oxygen-forensics/33863370.html</link>
+      <description>US authorities say a US company that provided surveillance and data-mining software to the Pentagon and other government agencies was in fact owned by a Russian company that also sold software to Russian spy agencies.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/us-russia-software-hacker-cyber-oxygen-forensics/33863370.html</guid>
+      <pubDate>Thu, 24 Sep 2026 08:45:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360</title>
+      <link>https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html</link>
+      <description>ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base, and explains why blocking malicious domains is no longer a useful defense.
+
+Read</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html</guid>
+      <pubDate>Thu, 24 Sep 2026 09:14:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Two Killed In Russian Ballistic Missile, Drone Attack On Kyiv</title>
+      <link>https://www.rferl.org/a/two-killed-in-russian-ballistic-missile-drone-attack-on-kyiv-/33863440.html</link>
+      <description>Russia hit the Ukrainian capital, Kyiv, with ballistic missiles ⁠and drones early ⁠on September 24, killing at least two people, according to authorities. In recent months, Russian has ramped up its aerial assault on Ukraine, hitting it with more jet-powered drones and missile barrages.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/two-killed-in-russian-ballistic-missile-drone-attack-on-kyiv-/33863440.html</guid>
+      <pubDate>Thu, 24 Sep 2026 09:19:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI hacked Australian Medicare govt site, probed data providers</title>
+      <link>https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/</link>
+      <description>OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/</guid>
+      <pubDate>Thu, 24 Sep 2026 09:38:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI is dominating the conversation at Climate Week</title>
+      <link>https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/</link>
+      <description>This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than usual. This year, the unavoidable topic is artificial intelligence.&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/</guid>
+      <pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How tax policy can stop threat actors from breaching US water systems</title>
+      <link>https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/</link>
+      <description>&lt;p&gt;New federal programs take years to launch and fund. State and local governments need cybersecurity software now. The One Big Beautiful Bill already enables tax incentives. Congress should clarify and deploy them.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/"&gt;How tax policy can stop threat actors from breaching US water systems&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/</guid>
+      <pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MacSync under the microscope: new delivery methods and a new payload</title>
+      <link>https://securelist.com/macsync-new-version/121383/</link>
+      <description>We look at a new version of the MacSync macOS stealer with a backdoor module that targets crypto enthusiasts and developers.</description>
+      <guid isPermaLink="false">https://securelist.com/macsync-new-version/121383/</guid>
+      <pubDate>Thu, 24 Sep 2026 10:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russia Launches Deadly Attacks On Ukraine; Zelenskyy Calls For Pressure On Putin</title>
+      <link>https://www.rferl.org/a/ukraine-russia-attacks-diplomacy-un-sanctions/33863366.html</link>
+      <description>Russia attacked Ukrainian with missiles and drones, killing at least nine people in Kyiv and the Kharkiv region, Ukrainian officials said.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-attacks-diplomacy-un-sanctions/33863366.html</guid>
+      <pubDate>Thu, 24 Sep 2026 10:04:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Defense Business Brief: Here comes the quantum boom; GDIT’s perspective; and Sec. 889</title>
+      <link>https://www.defenseone.com/business/2026/09/defense-business-brief-here-comes-quantum-boom-gdits-perspective-and-sec-889/416184/</link>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/09/defense-business-brief-here-comes-quantum-boom-gdits-perspective-and-sec-889/416184/</guid>
+      <pubDate>Thu, 24 Sep 2026 10:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA: Ransomware gangs now exploiting critical TeamCity flaw</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/</link>
+      <description>​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/</guid>
+      <pubDate>Thu, 24 Sep 2026 10:42:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean</title>
+      <link>https://www.c4isrnet.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/</link>
+      <description>The CIA reportedly warned European nations of a suspected Russian plot to launch explosive drones from aboard commercial vessels in the Mediterranean.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/</guid>
+      <pubDate>Thu, 24 Sep 2026 11:19:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean</title>
+      <link>https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/</link>
+      <description>The CIA reportedly warned European nations of a suspected Russian plot to launch explosive drones from aboard commercial vessels in the Mediterranean.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/</guid>
+      <pubDate>Thu, 24 Sep 2026 11:19:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Pushes To Turn Armenia-Azerbaijan Transit Deal Into Investment Opportunity</title>
+      <link>https://www.rferl.org/a/tripp-armenia-azerbaijan-us-investment-transit-corridor/33863442.html</link>
+      <description>The Trump administration is trying to turn a US-brokered opening between Armenia and Azerbaijan into something more tangible: a transport corridor linking Central Asia and the South Caucasus with Western markets -- and an investment opportunity for American companies.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/tripp-armenia-azerbaijan-us-investment-transit-corridor/33863442.html</guid>
+      <pubDate>Thu, 24 Sep 2026 11:26:54 +0000</pubDate>
     </item>
   </channel>
 </rss>
