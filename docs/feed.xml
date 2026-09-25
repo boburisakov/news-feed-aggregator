@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 17:09:24 +0000</lastBuildDate>
-    <item>
-      <title>The Trouble With the Nuclear-AI Analogy</title>
-      <link>https://www.foreignaffairs.com/united-states/trouble-nuclear-ai-analogy</link>
-      <description>In humanity’s quest to constrain the dangers from fast-advancing artificial intelligence, many have looked to the most revolutionary technology that preceded it: nuclear weapons. SpaceX CEO Elon Musk has called artificial intelligence “far more dangerous than nukes.” Anthropic CEO Dario Amodei, who assigns The Making of the Atomic Bomb to employees and has likened himself to the Manhattan Project scientist Leo Szilard, describes the most powerful AI models as “weaponizable nuclear materials.” When asked how a technology such as AI can be regulated, OpenAI CEO Sam Altman often references the world’s nuclear materials watchdog, the International Atomic Energy Agency. Even the director of the CIA, John Ratcliffe, has made the same comparison.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/trouble-nuclear-ai-analogy</guid>
-      <pubDate>Tue, 22 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Syria’s Imperiled Transition</title>
-      <link>https://www.foreignaffairs.com/syria/syrias-imperiled-transition</link>
-      <description>How shock therapy threatens the post-Assad peace.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/syria/syrias-imperiled-transition</guid>
-      <pubDate>Tue, 22 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 25 Sep 2026 20:29:00 +0000</lastBuildDate>
     <item>
       <title>Missed the Marque: Cyber Privateers Wanted, Compensation to Be Determined</title>
       <link>https://warontherocks.com/missed-the-marque-cyber-privateers-wanted-compensation-to-be-determined/</link>
@@ -29,280 +15,6 @@
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/missed-the-marque-cyber-privateers-wanted-compensation-to-be-determined/"&gt;Missed the Marque: Cyber Privateers Wanted, Compensation to Be Determined&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/missed-the-marque-cyber-privateers-wanted-compensation-to-be-determined/</guid>
       <pubDate>Tue, 22 Sep 2026 07:30:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Siemens SIPLUS and SIMATIC Products</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-265-04.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Multiple Siemens products are vulnerable to the "Copy Fail" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Siemens SIPLUS and SIMATIC Products are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SIMATIC AX Runtime Core Linux Common Debian vers:all/* (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC AX Runtime Core Linux Common Debian arm64 vers:all/* (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC AX Runtime Core Linux Platform Container Common Debian Development vers:all/* (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC AX Runtime Core Linux VMWare Development vers:all/* (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC CN 4100 vers:intdot/&amp;lt;6.0 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1000 Unified Basic (6AV2123-3KB32-0AW0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1000 Unified Comfort Panel (6AV2128-3KB06-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1000 Unified Comfort Panel hygienic (6AV2128-3KB40-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1000 Unified Comfort Panel hygienic neutral design (6AV2128-3KB70-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1000, Unified Comfort Panel neutral (6AV2128-3KB36-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Comfort Pro for stand (expandable, flange at the bottom) (6AV2128-3MB27-1BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Comfort Pro for support arm (expandable, round tube) and extension unit (6AV2128-3MB27-0BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Comfort Pro for support arm (not extendable, flange on top) (6AV2128-3MB27-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Comfort Pro neutral design for stand (expandable, flange at the bottom) (6AV2128-3MB57-1BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Comfort Pro neutral design for support arm (expandable, round tube) and extension (6AV2128-3MB57-0BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Comfort Pro neutral design for support arm (not extendable, flange on top) (6AV2128-3MB57-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Unified Basic (6AV2123-3MB32-0AW0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Unified Comfort Panel (6AV2128-3MB06-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Unified Comfort Panel hygienic (6AV2128-3MB40-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Unified Comfort Panel hygienic neutral design (6AV2128-3MB70-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1200 Unified Comfort Panel neutral design (6AV2128-3MB36-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Comfort Pro for stand (expandable, flange at the bottom) (6AV2128-3QB27-1BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Comfort Pro for support arm (expandable, round tube) and extension unit (6AV2128-3QB27-0BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Comfort Pro for support arm (not extendable, flange on top) (6AV2128-3QB27-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Comfort Pro neutral design for stand (expandable, flange at the bottom) (6AV2128-3QB57-1BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Comfort Pro neutral design for support arm (expandable, round tube) and extension (6AV2128-3QB57-0BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Comfort Pro neutral design for support arm (not extendable, flange on top) (6AV2128-3QB57-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Unified Comfort Panel (6AV2128-3QB06-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Unified Comfort Panel hygienic (6AV2128-3QB40-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Unified Comfort Panel hygienic neutral design (6AV2128-3QB70-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1500 Unified Comfort Panel neutral design (6AV2128-3QB36-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Comfort Pro for stand (expandable, flange at the bottom) (6AV2128-3UB27-1BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Comfort Pro for support arm (expandable, round tube) and extension unit (6AV2128-3UB27-0BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Comfort Pro for support arm (not extendable, flange on top) (6AV2128-3UB27-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Comfort Pro neutral design for stand (expandable, flange at the bottom) (6AV2128-3UB57-1BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Comfort Pro neutral design for support arm (expandable, round tube) and extension (6AV2128-3UB57-0BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Comfort Pro neutral design for support arm (not extendable, flange on top) (6AV2128-3UB57-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Unified Comfort Panel (6AV2128-3UB06-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Unified Comfort Panel hygienic (6AV2128-3UB40-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Unified Comfort Panel hygienic neutral design (6AV2128-3UB70-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP1900 Unified Comfort Panel neutral design (6AV2128-3UB36-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Comfort Pro for stand (expandable, flange at the bottom) (6AV2128-3XB27-1BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Comfort Pro for support arm (expandable, round tube) and extension unit (6AV2128-3XB27-0BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Comfort Pro for support arm (not extendable, flange on top) (6AV2128-3XB27-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Comfort Pro neutral design for stand (expandable, flange at the bottom) (6AV2128-3XB57-1BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Comfort Pro neutral design for support arm (expandable, round tube) and extension (6AV2128-3XB57-0BX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Comfort Pro neutral design for support arm (not extendable, flange on top) (6AV2128-3XB57-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Unified Comfort Hygienic (6AV2128-3XB40-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Unified Comfort Hygienic neutral design (6AV2128-3XB70-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Unified Comfort Panel (6AV2128-3XB06-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP2200 Unified Comfort Panel neutral design (6AV2128-3XB36-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP400 Unified Basic (6AV2123-3DB32-0AW0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP700 Unified Basic (6AV2123-3GB32-0AW0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP700&amp;nbsp;Unified Comfort Panel (6AV2128-3GB06-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP700 Unified Comfort Panel hygienic neutral design (6AV2128-3GB40-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP700 Unified Comfort Panel hygienic neutral design (6AV2128-3GB70-0AX0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC HMI MTP700, Unified Comfort Panel neutral design (6AV2128-3GB36-0AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) vers:all/* (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC IPC Industrial Edge Device OS (IED-OS) vers:all/* (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIMATIC S7-1500 TM MFP (6ES7558-1AA00-0AB0) vers:all/* (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIPLUS HMI MTP1000 Unified Basic (6AG1123-3KB32-2AW0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIPLUS HMI MTP1000 Unified Comfort (6AG1128-3KB06-4AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIPLUS HMI MTP1200 Unified Basic (6AG1123-3MB32-2AW0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIPLUS HMI MTP1200 Unified Comfort (6AG1128-3MB06-4AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIPLUS HMI MTP400 Unified Basic (6AG1123-3DB32-2AW0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIPLUS HMI MTP700 Unified Basic (6AG1123-3GB32-2AW0) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;li&gt;SIPLUS HMI MTP700 Unified Comfort (6AG1128-3GB06-4AX1) vers:intdot/&amp;lt;21.0.2.1 (CVE-2026-31431)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.8&lt;/td&gt;
-&lt;td&gt;Siemens&lt;/td&gt;
-&lt;td&gt;Siemens SIPLUS and SIMATIC Products&lt;/td&gt;
-&lt;td&gt;Incorrect Resource Transfer Between Spheres&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing, Energy, Water and Wastewater Systems, Chemical, Food and Agriculture, Commercial Facilities&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-31431&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;In the Linux kernel, the following vulnerability has been resolved: crypto: algif_aead - Revert to operating out-of-place This mostly reverts commit 72548b093ee3 except for the copying of the associated data. There is no benefit in operating in-place in algif_aead since the source and destination come from different mappings. Get rid of all the complexity added for in-place operation and just copy the AD directly.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-31431"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Siemens SIPLUS and SIMATIC Products&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Siemens&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;SIMATIC AX Runtime Core Linux Common Debian, SIMATIC HMI MTP1000, Unified Comfort Panel neutral (6AV2128-3KB36-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Comfort Pro for stand (expandable, flange at the bottom) (6AV2128-3MB27-1BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Comfort Pro for support arm (expandable, round tube) and extension unit (6AV2128-3MB27-0BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Comfort Pro for support arm (not extendable, flange on top) (6AV2128-3MB27-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Comfort Pro neutral design for stand (expandable, flange at the bottom) (6AV2128-3MB57-1BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Comfort Pro neutral design for support arm (expandable, round tube) and extension (6AV2128-3MB57-0BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Comfort Pro neutral design for support arm (not extendable, flange on top) (6AV2128-3MB57-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Unified Basic (6AV2123-3MB32-0AW0) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Unified Comfort Panel (6AV2128-3MB06-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Unified Comfort Panel hygienic (6AV2128-3MB40-0AX0) &amp;lt; V21.2.1, SIMATIC AX Runtime Core Linux Common Debian arm64, SIMATIC HMI MTP1200 Unified Comfort Panel hygienic neutral design (6AV2128-3MB70-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1200 Unified Comfort Panel neutral design (6AV2128-3MB36-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Comfort Pro for stand (expandable, flange at the bottom) (6AV2128-3QB27-1BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Comfort Pro for support arm (expandable, round tube) and extension unit (6AV2128-3QB27-0BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Comfort Pro for support arm (not extendable, flange on top) (6AV2128-3QB27-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Comfort Pro neutral design for stand (expandable, flange at the bottom) (6AV2128-3QB57-1BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Comfort Pro neutral design for support arm (expandable, round tube) and extension (6AV2128-3QB57-0BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Comfort Pro neutral design for support arm (not extendable, flange on top) (6AV2128-3QB57-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Unified Comfort Panel (6AV2128-3QB06-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Unified Comfort Panel hygienic (6AV2128-3QB40-0AX0) &amp;lt; V21.2.1, SIMATIC AX Runtime Core Linux Platform Container Common Debian Development, SIMATIC HMI MTP1500 Unified Comfort Panel hygienic neutral design (6AV2128-3QB70-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1500 Unified Comfort Panel neutral design (6AV2128-3QB36-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Comfort Pro for stand (expandable, flange at the bottom) (6AV2128-3UB27-1BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Comfort Pro for support arm (expandable, round tube) and extension unit (6AV2128-3UB27-0BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Comfort Pro for support arm (not extendable, flange on top) (6AV2128-3UB27-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Comfort Pro neutral design for stand (expandable, flange at the bottom) (6AV2128-3UB57-1BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Comfort Pro neutral design for support arm (expandable, round tube) and extension (6AV2128-3UB57-0BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Comfort Pro neutral design for support arm (not extendable, flange on top) (6AV2128-3UB57-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Unified Comfort Panel (6AV2128-3UB06-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Unified Comfort Panel hygienic (6AV2128-3UB40-0AX0) &amp;lt; V21.2.1, SIMATIC AX Runtime Core Linux VMWare Development, SIMATIC HMI MTP1900 Unified Comfort Panel hygienic neutral design (6AV2128-3UB70-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1900 Unified Comfort Panel neutral design (6AV2128-3UB36-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Comfort Pro for stand (expandable, flange at the bottom) (6AV2128-3XB27-1BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Comfort Pro for support arm (expandable, round tube) and extension unit (6AV2128-3XB27-0BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Comfort Pro for support arm (not extendable, flange on top) (6AV2128-3XB27-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Comfort Pro neutral design for stand (expandable, flange at the bottom) (6AV2128-3XB57-1BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Comfort Pro neutral design for support arm (expandable, round tube) and extension (6AV2128-3XB57-0BX0) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Comfort Pro neutral design for support arm (not extendable, flange on top) (6AV2128-3XB57-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Unified Comfort Hygienic (6AV2128-3XB40-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Unified Comfort Hygienic neutral design (6AV2128-3XB70-0AX0) &amp;lt; V21.2.1, SIMATIC CN 4100 &amp;lt; V6.0, SIMATIC HMI MTP2200 Unified Comfort Panel (6AV2128-3XB06-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP2200 Unified Comfort Panel neutral design (6AV2128-3XB36-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP400 Unified Basic (6AV2123-3DB32-0AW0) &amp;lt; V21.2.1, SIMATIC HMI MTP700 Unified Basic (6AV2123-3GB32-0AW0) &amp;lt; V21.2.1, SIMATIC HMI MTP700&amp;nbsp;Unified Comfort Panel (6AV2128-3GB06-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP700 Unified Comfort Panel hygienic neutral design (6AV2128-3GB40-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP700 Unified Comfort Panel hygienic neutral design (6AV2128-3GB70-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP700, Unified Comfort Panel neutral design (6AV2128-3GB36-0AX1) &amp;lt; V21.2.1, SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2), SIMATIC IPC Industrial Edge Device OS (IED-OS), SIMATIC HMI MTP1000 Unified Basic (6AV2123-3KB32-0AW0) &amp;lt; V21.2.1, SIMATIC S7-1500 TM MFP (6ES7558-1AA00-0AB0), SIPLUS HMI MTP1000 Unified Basic (6AG1123-3KB32-2AW0) &amp;lt; V21.2.1, SIPLUS HMI MTP1000 Unified Comfort (6AG1128-3KB06-4AX1) &amp;lt; V21.2.1, SIPLUS HMI MTP1200 Unified Basic (6AG1123-3MB32-2AW0) &amp;lt; V21.2.1, SIPLUS HMI MTP1200 Unified Comfort (6AG1128-3MB06-4AX1) &amp;lt; V21.2.1, SIPLUS HMI MTP400 Unified Basic (6AG1123-3DB32-2AW0) &amp;lt; V21.2.1, SIPLUS HMI MTP700 Unified Basic (6AG1123-3GB32-2AW0) &amp;lt; V21.2.1, SIPLUS HMI MTP700 Unified Comfort (6AG1128-3GB06-4AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP1000 Unified Comfort Panel (6AV2128-3KB06-0AX1) &amp;lt; V21.2.1, SIMATIC HMI MTP1000 Unified Comfort Panel hygienic (6AV2128-3KB40-0AX0) &amp;lt; V21.2.1, SIMATIC HMI MTP1000 Unified Comfort Panel hygienic neutral design (6AV2128-3KB70-0AX0) &amp;lt; V21.2.1&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Limit access to the interactive shell of the additional GNU/Linux subsystem to trusted personnel only.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Only build and run applications from trusted sources.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;None available&lt;/strong&gt;&lt;br /&gt;Currently no fix is available&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825897/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825897/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825897/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825897/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825897/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825897/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825897/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825897/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 SP2 Update 1 or later version TODO: download link missing&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V21 Update 2 SR1 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109825605/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109825605/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V6.0 or later version&lt;br /&gt;&lt;a href="https://support.industry.siemens.com/cs/ww/en/view/109814144/"&gt;https://support.industry.siemens.com/cs/ww/en/view/109814144/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;For more information see the associated Siemens security advisory &lt;a href="https://cert-portal.siemens.com/productcert/csaf/ssa-328642.json"&gt;SSA-328642: "Copy Fail" Vulnerability in Multiple Industrial Products - CSAF Version&lt;/a&gt;, &lt;a href="https://cert-portal.siemens.com/productcert/html/ssa-328642.html"&gt;SSA-328642: "Copy Fail" Vulnerability in Multiple Industrial Products - HTML Version&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/669.html"&gt;CWE-669 Incorrect Resource Transfer Between Spheres&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Siemens ProductCERT reported this vulnerability to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Recommendations&lt;/h2&gt;
-&lt;p&gt;As a general security measure, Siemens strongly recommends protecting network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends configuring the environment according to Siemens' operational guidelines for Industrial Security (Download: &lt;a href="https://www.siemens.com/cert/operational-guidelines-industrial-security"&gt;https://www.siemens.com/cert/operational-guidelines-industrial-security&lt;/a&gt;), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: &lt;a href="https://www.siemens.com/industrialsecurity"&gt;https://www.siemens.com/industrialsecurity&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Additional Resources&lt;/h2&gt;
-&lt;p&gt;For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: &lt;a href="https://www.siemens.com/cert/advisories"&gt;https://www.siemens.com/cert/advisories&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Terms of Use&lt;/h2&gt;
-&lt;p&gt;The use of Siemens Security Advisories is subject to the terms and conditions listed on: &lt;a href="https://www.siemens.com/productcert/terms-of-use"&gt;https://www.siemens.com/productcert/terms-of-use&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (&lt;a href="https://www.cisa.gov/notification"&gt;https://www.cisa.gov/notification&lt;/a&gt;) and this Privacy &amp;amp; Use policy (&lt;a href="https://www.cisa.gov/privacy-policy"&gt;https://www.cisa.gov/privacy-policy&lt;/a&gt;).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of these vulnerabilities.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/li&gt;
-&lt;li&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/li&gt;
-&lt;li&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Siemens ProductCERT &lt;a href="https://cert-portal.siemens.com/productcert/html/ssa-328642.html"&gt;SSA-328642 &lt;/a&gt;from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-08&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-09-08&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Publication Date&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-09-22&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Siemens ProductCERT SSA-328642 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04</guid>
-      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
@@ -729,14 +441,6 @@
       <pubDate>Wed, 23 Sep 2026 01:16:27 +0000</pubDate>
     </item>
     <item>
-      <title>A diesel export ban could disrupt US supply chains</title>
-      <link>https://www.atlanticcouncil.org/dispatches/a-diesel-export-ban-could-disrupt-us-supply-chains/</link>
-      <description>&lt;p&gt;There are second- and third-order consequences of a ban to consider, including what it would mean for Latin American countries.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/a-diesel-export-ban-could-disrupt-us-supply-chains/"&gt;A diesel export ban could disrupt US supply chains&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/a-diesel-export-ban-could-disrupt-us-supply-chains/</guid>
-      <pubDate>Wed, 23 Sep 2026 01:40:04 +0000</pubDate>
-    </item>
-    <item>
       <title>ChatGPT Ads expands to Southeast Asia and Taiwan</title>
       <link>https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan</link>
       <description>ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.</description>
@@ -968,14 +672,6 @@
       <pubDate>Wed, 23 Sep 2026 15:29:55 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI, Ukraine partner on ‘Daybreak’ program to protect power grids and water systems</title>
-      <link>https://cyberscoop.com/openai-ukraine-cybersecurity-critical-infrastructure/</link>
-      <description>&lt;p&gt;A Ukrainian official said the government will use the tools to automate cybersecurity functions in critical infrastructure as the war with Russia continues.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/openai-ukraine-cybersecurity-critical-infrastructure/"&gt;OpenAI, Ukraine partner on ‘Daybreak’ program to protect power grids and water systems &lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/openai-ukraine-cybersecurity-critical-infrastructure/</guid>
-      <pubDate>Wed, 23 Sep 2026 15:37:18 +0000</pubDate>
-    </item>
-    <item>
       <title>Two years of OpenAI Academy</title>
       <link>https://openai.com/index/two-years-of-openai-academy</link>
       <description>Marking two years of OpenAI Academy and bringing AI skills to even more communities.</description>
@@ -1028,28 +724,6 @@
       <pubDate>Wed, 23 Sep 2026 18:10:42 +0000</pubDate>
     </item>
     <item>
-      <title>EXCLUSIVE: SpaceX given unique access to classified DoD space tracking data, sources say</title>
-      <link>https://breakingdefense.com/2026/09/exclusive-spacex-given-unique-access-to-classified-dod-space-tracking-data-sources-say/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/exclusive-spacex-given-unique-access-to-classified-dod-space-tracking-data-sources-say/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="570" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Screenshot-2026-09-21-at-4.43.46-PM-e1790176841723.png" style="height: auto!important;" width="1010" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Commercial space monitoring firms are concerned SpaceX&amp;#8217;s ability to use the best DoD data could threaten the market, sources tell Breaking Defense.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/exclusive-spacex-given-unique-access-to-classified-dod-space-tracking-data-sources-say/</guid>
-      <pubDate>Wed, 23 Sep 2026 18:30:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>The still-formidable F-16 will be even more capable with better electronic warfare</title>
-      <link>https://breakingdefense.com/2026/09/the-still-formidable-f-16-will-be-even-more-capable-with-better-electronic-warfare/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/the-still-formidable-f-16-will-be-even-more-capable-with-better-electronic-warfare/"&gt;&lt;img alt="The F-16 remains a frontline fighter for the US and a primary combat plane for many others. It can be overmatched, however, when it comes to electronic warfare. At AFA, Breaking Defense spoke with Northrop Grumman’s Shalini Gupta about EW modernization that keeps the F-16 relevant and survivable." class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Northrop-Grumman-AFA-2026-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] A Viper modernization that includes EW, radar, EO/IR, and navigation.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/the-still-formidable-f-16-will-be-even-more-capable-with-better-electronic-warfare/</guid>
-      <pubDate>Wed, 23 Sep 2026 19:09:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Where Are The Aircraft Carriers?: September 23, 2026</title>
-      <link>https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026</link>
-      <description>&lt;p&gt;USS Abraham Lincoln's crew spent its first day on American soil after 307 days into a marathon deployment, approaching the record set by USS Gerald R. Ford.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026"&gt;Where Are The Aircraft Carriers?: September 23, 2026&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/sea/where-are-the-aircraft-carriers-september-23-2026</guid>
-      <pubDate>Wed, 23 Sep 2026 19:14:35 +0000</pubDate>
-    </item>
-    <item>
       <title>Watchdog finds most agencies failed to meet CISA cloud security orders, heightening risk of attack</title>
       <link>https://cyberscoop.com/dhs-ig-report-federal-agencies-fail-cisa-cloud-security-directives/</link>
       <description>&lt;p&gt;The DHS inspector general said CISA lacks the power to compel agencies to implement its Binding Operational Directives.&lt;/p&gt;
@@ -1066,34 +740,12 @@
       <pubDate>Wed, 23 Sep 2026 19:55:18 +0000</pubDate>
     </item>
     <item>
-      <title>The Evolving Role Of Ukraine’s Artillery In The Age Of Drones</title>
-      <link>https://www.twz.com/news-features/the-evolving-role-of-ukraines-artillery-in-the-age-of-drones</link>
-      <description>&lt;p&gt;Artillery, once the 'king of battle' along the front lines has been dethroned by drones, but it still has a critical job to do. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/the-evolving-role-of-ukraines-artillery-in-the-age-of-drones"&gt;The Evolving Role Of Ukraine&amp;#8217;s Artillery In The Age Of Drones&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/the-evolving-role-of-ukraines-artillery-in-the-age-of-drones</guid>
-      <pubDate>Wed, 23 Sep 2026 20:20:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>EDR Evasion Stack Helps Process Injection Slip Past Defenses</title>
-      <link>https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses</link>
-      <description>A process parameter-poisoning technique evades EDR by injecting code into process initialization structures without using the Windows APIs that EDR tools typically watch out for.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses</guid>
-      <pubDate>Wed, 23 Sep 2026 21:03:01 +0000</pubDate>
-    </item>
-    <item>
       <title>China’s Recent J-36 Heavy Stealth Tactical Jet Testing Offers New Insights Into Its Evolving Design</title>
       <link>https://www.twz.com/air/chinas-recent-j-36-heavy-stealth-tactical-jet-testing-offers-new-insights-into-its-evolving-design</link>
       <description>&lt;p&gt;Recent video footage of the J-36 undergoing flight testing shows continued refinement of its design and new features.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/chinas-recent-j-36-heavy-stealth-tactical-jet-testing-offers-new-insights-into-its-evolving-design"&gt;China&amp;#8217;s Recent J-36 Heavy Stealth Tactical Jet Testing Offers New Insights Into Its Evolving Design&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/chinas-recent-j-36-heavy-stealth-tactical-jet-testing-offers-new-insights-into-its-evolving-design</guid>
       <pubDate>Wed, 23 Sep 2026 21:36:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>SASE Converges Network &amp;amp; Security Into One Cloud Solution</title>
-      <link>https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud</link>
-      <description>Enterprise computing is moving to the edge. Keeping it secure requires tactics far beyond putting up firewalls.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud</guid>
-      <pubDate>Wed, 23 Sep 2026 22:29:10 +0000</pubDate>
     </item>
     <item>
       <title>This Is Taiwan’s New 105mm 8×8 Mobile Gun System</title>
@@ -1118,13 +770,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/cisa-cve-data-quality-white-paper-expert-reaction/"&gt;CISA outlines improvement plan for CVE program&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/cisa-cve-data-quality-white-paper-expert-reaction/</guid>
       <pubDate>Thu, 24 Sep 2026 00:31:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Army awards Palantir $48.1M to modernize ammo management</title>
-      <link>https://www.defensenews.com/news/your-army/2026/09/24/army-awards-palantir-481m-to-modernize-ammo-management/</link>
-      <description>The tech company has built AI software designed to process data for targeting and decision-making, and now, managing ammo.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-army/2026/09/24/army-awards-palantir-481m-to-modernize-ammo-management/</guid>
-      <pubDate>Thu, 24 Sep 2026 00:37:21 +0000</pubDate>
     </item>
     <item>
       <title>Putin’s Ukraine invasion has made Russia China’s junior partner</title>
@@ -1244,13 +889,6 @@
     </item>
     <item>
       <title>Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/</link>
-      <description>The CIA reportedly warned European nations of a suspected Russian plot to launch explosive drones from aboard commercial vessels in the Mediterranean.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/</guid>
-      <pubDate>Thu, 24 Sep 2026 11:19:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean</title>
       <link>https://www.c4isrnet.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/</link>
       <description>The CIA reportedly warned European nations of a suspected Russian plot to launch explosive drones from aboard commercial vessels in the Mediterranean.</description>
       <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/</guid>
@@ -1262,21 +900,6 @@
       <description>The Trump administration is trying to turn a US-brokered opening between Armenia and Azerbaijan into something more tangible: a transport corridor linking Central Asia and the South Caucasus with Western markets -- and an investment opportunity for American companies.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/tripp-armenia-azerbaijan-us-investment-transit-corridor/33863442.html</guid>
       <pubDate>Thu, 24 Sep 2026 11:26:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;&amp;nbsp;CISA has added two new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-5430" target="_blank"&gt;CVE-2026-5430&lt;/a&gt; WSO2 Multiple Products Path Traversal Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-71362" target="_blank"&gt;CVE-2026-71362&lt;/a&gt; Adobe Commerce and Magento Incorrect Authorization Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Siemens Mendix Runtime (Update A)</title>
@@ -1438,6 +1061,21 @@
 &lt;hr /&gt;
 &lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
       <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02</guid>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+      <description>&lt;p&gt;&amp;nbsp;CISA has added two new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-5430" target="_blank"&gt;CVE-2026-5430&lt;/a&gt; WSO2 Multiple Products Path Traversal Vulnerability&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-71362" target="_blank"&gt;CVE-2026-71362&lt;/a&gt; Adobe Commerce and Magento Incorrect Authorization Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
       <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2443,16 +2081,6 @@
       <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Who Fired the Mortars at the CIA Annex in Benghazi? Sarah Adams Names the Attackers.</title>
-      <link>https://sofrep.com/news/sofrep-world-exclusive-the-benghazi-mortar-teams-identities-revealed-for-the-first-time/</link>
-      <description>Sarah Adams and Dave ‘Boon’ Benton identify ten men who carried out the mortar strike on the CIA Annex in Benghazi, and reconstruct the minutes before the attack. #SOFREP
-#Benghazi
-#September12
-#BenghaziAttack #KnowThyEnemy #Counterterrorism #CIAAnnexAttack #JusticeForBenghazi #UnveilingTerrorists #SarahAdams #BenghaziMortarTeam #TerroristReveal #RafallahAlSahatiBrigade #JusticeForDohertyAndWoods</description>
-      <guid isPermaLink="false">https://sofrep.com/news/sofrep-world-exclusive-the-benghazi-mortar-teams-identities-revealed-for-the-first-time/</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:06 +0000</pubDate>
-    </item>
-    <item>
       <title>The Download: a bid to scrap the virtual wall and AI hits Climate Week</title>
       <link>https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/</link>
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US representative from Illinois, has announced plans to introduce legislation to terminate the surveillance tower program along&amp;#8230;</description>
@@ -2465,13 +2093,6 @@
       <description>Milrem Robotics aspire to lead integration of nations’ disparate uncrewed systems along the border with Russia and Belarus through the UDL.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/milrem-aspire-to-lead-allied-uxs-integration-bordering-russia/</guid>
       <pubDate>Thu, 24 Sep 2026 12:18:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Navy wants more offensive, ‘expeditionary’ cyber capabilities</title>
-      <link>https://breakingdefense.com/2026/09/navy-wants-more-offensive-expeditionary-cyber-capabilities/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/navy-wants-more-offensive-expeditionary-cyber-capabilities/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/04/220419_navy_cybersecurity_sub_3221220-scaled-e1650390902670-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“What I would offer to industry … if you are interested in talking about expeditionary cyber, cyber at the tactical edge, particularly offensive or capabilities that support offense, please come talk to me,&amp;#8221; the Navy&amp;#8217;s principal cyber advisor said.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/navy-wants-more-offensive-expeditionary-cyber-capabilities/</guid>
-      <pubDate>Thu, 24 Sep 2026 12:34:00 +0000</pubDate>
     </item>
     <item>
       <title>Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'</title>
@@ -2509,13 +2130,6 @@
       <pubDate>Thu, 24 Sep 2026 13:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hawk trainer crash prompts UK to ground fleet</title>
-      <link>https://breakingdefense.com/2026/09/hawk-trainer-crash-prompts-uk-to-ground-fleet/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/hawk-trainer-crash-prompts-uk-to-ground-fleet/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/VAL-20240705-0292-IOM-Fly-Past-0578-scaled-e1790252212664-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“Both pilots are doing well … and expected to make a full recovery,” said the UK Royal Air Force.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/hawk-trainer-crash-prompts-uk-to-ground-fleet/</guid>
-      <pubDate>Thu, 24 Sep 2026 13:32:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Bipartisan Senate leaders introduce bill to bolster telecom cybersecurity in response to Salt Typhoon hacks</title>
       <link>https://cyberscoop.com/senate-telecom-cybersecurity-resilience-act-salt-typhoon/</link>
       <description>&lt;p&gt;The legislation from Senate Intelligence Vice-Chairman. Mark Warner, D-Va., and Senate Commerce Chairman Ted Cruz, R-Tex., would create a government-industry group to write voluntary best practices.&lt;/p&gt;
@@ -2533,16 +2147,9 @@
     <item>
       <title>How to Build a SASE Framework for Modern Cybersecurity</title>
       <link>https://www.darkreading.com/cloud-security/how-to-build-sase-framework</link>
-      <description>Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward.</description>
+      <description>Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward. (Third in a three-part series.)</description>
       <guid isPermaLink="false">https://www.darkreading.com/cloud-security/how-to-build-sase-framework</guid>
       <pubDate>Thu, 24 Sep 2026 14:02:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>With Denmark, Saildrone logs first flag registration for naval surveillance drone</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/24/with-denmark-saildrone-logs-first-flag-registration-for-naval-surveillance-drone/</link>
-      <description>U.S. naval drone maker Saildrone seeks to expand its footprint in Europe, with Denmark a key customer in the contested Baltic and North seas.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/24/with-denmark-saildrone-logs-first-flag-registration-for-naval-surveillance-drone/</guid>
-      <pubDate>Thu, 24 Sep 2026 14:25:19 +0000</pubDate>
     </item>
     <item>
       <title>China and Taiwan Battle for Influence at the PIF Summit</title>
@@ -2663,13 +2270,6 @@
       <pubDate>Thu, 24 Sep 2026 17:07:31 +0000</pubDate>
     </item>
     <item>
-      <title>Exposed GitLab project email addresses let attackers push code</title>
-      <link>https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/</link>
-      <description>Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/</guid>
-      <pubDate>Thu, 24 Sep 2026 17:47:44 +0000</pubDate>
-    </item>
-    <item>
       <title>ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories</title>
       <link>https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html</link>
       <description>This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.
@@ -2754,13 +2354,6 @@ OnePlus told him the same flaws affect many more of its own devices and those of
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/f-35-canopy-and-weapons-bay-door-loss-to-china-separating-fact-from-fiction"&gt;F-35 Canopy And Weapons-Bay Door Loss To China: Separating Fact From Fiction&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/f-35-canopy-and-weapons-bay-door-loss-to-china-separating-fact-from-fiction</guid>
       <pubDate>Thu, 24 Sep 2026 19:39:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Carbonato malware uses AI agents to hijack exposed Docker hosts</title>
-      <link>https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/</link>
-      <description>A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/</guid>
-      <pubDate>Thu, 24 Sep 2026 20:10:48 +0000</pubDate>
     </item>
     <item>
       <title>SectopRAT Returns, Hiding Inside a Legitimate Application</title>
@@ -3035,6 +2628,20 @@ The routine version looks like this. An attacker lands on a low-privilege cloud 
       <pubDate>Fri, 25 Sep 2026 11:39:59 +0000</pubDate>
     </item>
     <item>
+      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-87902" target="_blank"&gt;CVE-2026-87902&lt;/a&gt; WordPress Core Remote File Inclusion Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
       <link>https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
       <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
@@ -3204,6 +2811,13 @@ Visiting either of the repositories now shows the message: "Access to this</desc
       <pubDate>Fri, 25 Sep 2026 14:54:33 +0000</pubDate>
     </item>
     <item>
+      <title>The Ones Who Go First: Shark Marine and the Divers Who Lead the Way</title>
+      <link>https://sofrep.com/news/the-ones-who-go-first-shark-marine-and-the-divers-who-lead-the-way/</link>
+      <description>Long before the landing craft hit the beach, a handful of divers slipped into black water they couldn't see through, carrying the weight of the whole mission and trusting their gear to tell them exactly where they were. #SharkMarine #CombatDivers #TheOnesWhoGoFirst #SpecialOperations #Sponsored</description>
+      <guid isPermaLink="false">https://sofrep.com/news/the-ones-who-go-first-shark-marine-and-the-divers-who-lead-the-way/</guid>
+      <pubDate>Fri, 25 Sep 2026 15:00:25 +0000</pubDate>
+    </item>
+    <item>
       <title>Estonian military, Archangel sign three-year defence pact</title>
       <link>https://www.army-technology.com/news/estonia-archangel-defence-pact/</link>
       <description>The Estonian Defence Forces have signed a three-year agreement with defence-focused investment fund Archangel to connect military requirements with technology companies and investors in Estonia and the wider Baltic region.</description>
@@ -3241,7 +2855,7 @@ Visiting either of the repositories now shows the message: "Access to this</desc
     <item>
       <title>Video Friday: Life’s Better With a Little Robot Goose</title>
       <link>https://spectrum.ieee.org/video-friday-goose-household-robots</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-humanoids.org/"&gt;Humanoids 2026&lt;/a&gt;: 6–9 December 2026, SANTA CLARA, CA&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="e502xyw7e1g"&gt;&lt;em&gt;Life’s better with a little Goose.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.therobotworks.ai/"&gt;The Robot Works&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Dave!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="mai4evtj4dm"&gt;Skydio has introduced the F10, a charmingly lopsided &lt;a href="https://spectrum.ieee.org/skydio-camera-drone-autonomous-flying" target="_blank"&gt;fixed-wing drone&lt;/a&gt;, that uses a robot arm for autonomous launch and capture.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Unfortunately, based on the frequency of that flashing LED on the drone, this video appears to have sped up the capture (and likely the launch) by a substantial amount.&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.skydio.com/f10"&gt;Skydio&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="lqdeoreu6bi"&gt;I want a bunch of these little guys. I don’t know what I’d do with them. But I want them.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://freeformrobotics.org/publications/"&gt;Freeform Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="lfkoi0mvwos"&gt;&lt;em&gt;Walking robots are everywhere now… But 30 years ago, they were brand new. The first ever robot that could walk by itself was the &lt;a href="https://spectrum.ieee.org/honda-p2-robot-ieee-milestone" target="_blank"&gt;Honda P2&lt;/a&gt;. The P2 featured motors and hydraulics in the hips, knees, and ankles to walk around, and weighed over 300 pounds.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://spectrum.ieee.org/honda-p2-robot-ieee-milestone"&gt;IEEE Spectrum&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="lat2rikjhto"&gt;&lt;em&gt;Precision biomimetic dexterous hand, priced from US $6,500.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.unitree.com/Dex2-5"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="jimw_ligkvq"&gt;What if all it took to train a drone to do acrobatics was to tell it whether you like the way it flies?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rpg.ifi.uzh.ch/docs/IROS26_Geles_PbRL.pdf"&gt;UZH Robotics and Perception Group&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ktncpptpsqe"&gt;Why build a &lt;a href="https://spectrum.ieee.org/video-friday-robotic-hands-2674168909" target="_blank"&gt;humanoid hand&lt;/a&gt; when a &lt;a href="https://spectrum.ieee.org/aussies-win-amazon-robotics-challenge" target="_blank"&gt;robot hand&lt;/a&gt; can do stuff like this?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalroboticslab.com/cartesian_handv1"&gt;General Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="etzdogql56c"&gt;&lt;em&gt;Diane Heinle, a mechanical engineer at Boston Dynamics, answers questions about endurance testing for Stretch, how her team simulates years of wear on robot parts over a brief time in the lab, and why there are bird heads on them.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://bostondynamics.com/blog/ask-a-roboticist-meet-diane/"&gt;Boston Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="0qus7bzzkas"&gt;&lt;em&gt;ULOHA brings learning from demonstrations to two robot arms working underwater. We developed custom leader–follower hardware and software extending LeRobot to connect teleoperation, demonstration collection, and autonomous manipulation. The video shows the robots lifting objects together, passing objects between arms, opening a container, and catching a sponge as it rises through the water. We also explore how bubbles and action-execution timing affect learned behaviors.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://mertcookimg.github.io/uloha/"&gt;ULOHA&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Masato!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="n6cl5gi0c0u"&gt;Usually, ballbots rely on an internal pendulum, but here’s a different approach.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalroboticslab.com/MARBLE"&gt;General Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="hnlfompekgk"&gt;&lt;em&gt;From long-horizon manipulation to tactile-guided actions, this video highlights selected collaborations that explore what Astribot robots can do.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.astribot.com/en/product"&gt;Astribot&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vu5w9_nmet4"&gt;This is one of those tasks that looks a little boring but is actually both very tricky and very useful.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://arxiv.org/abs/2509.10979"&gt;HiPeR Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="5u0rzdl7jvi"&gt;That tiny little excavator playing in flour is adorbs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://arxiv.org/abs/2609.12677v1"&gt;ETH Zurich Robotic Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vh9ucogdwcm"&gt;How do you fit a humanoid robot into a box?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en/products/luna"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="bykyz9qwqcw"&gt;And now, this.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;At the Opening Ceremony of WorldSkills Shanghai 2026 on 22 September, 19 Unitree humanoid robots performed alongside 120 dancers, presenting the world’s largest-scale performance featuring full-size general-purpose humanoid robots before an audience of more than 10,000 people, with a fully AI-driven autonomous robot cluster performance live-streamed worldwide in real time.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://unitree.com/"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="fd9mleerkpg"&gt;&lt;em&gt;A microwave box creates a surprisingly tricky vision system challenge: there’s a picture of a microwave on the side of the box, and that microwave has a window. From the camera’s perspective, it’s a box inside a box inside a box.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.picklerobot.com/"&gt;Pickle Robot Company&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="l6bsqc5cccw"&gt;What exactly is Physical AI? Personally I think it’s just what robotics has always been, more or less, except that everything has to have “AI” in it now so here we are.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.csail.mit.edu/news/"&gt;MIT CSAIL&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="dx_dlmrlh60"&gt;&lt;em&gt;As the evolution of the UR Series, the g‑Series is designed to accelerate how robots are integrated into complete automation systems. It connects more directly with cameras, higher power EOATs, and control systems, eliminating external cabling and hardware to streamline integration. This enables cleaner and faster deployment of advanced automation.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.universal-robots.com/news-and-media/news-center/universal-robots-unveils-gen-7-new-platform-industrial-automation-physical-ai/"&gt;Universal Robots&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-iros.org/"&gt;IROS 2026&lt;/a&gt;: 27 September–1 October 2026, PITTSBURGH&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN, TEXAS&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-humanoids.org/"&gt;Humanoids 2026&lt;/a&gt;: 6–9 December 2026, SANTA CLARA, CALIF.&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="e502xyw7e1g"&gt;&lt;em&gt;Life’s better with a little Goose.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.therobotworks.ai/"&gt;The Robot Works&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Dave!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="mai4evtj4dm"&gt;Skydio has introduced the F10, a charmingly lopsided &lt;a href="https://spectrum.ieee.org/skydio-camera-drone-autonomous-flying" target="_blank"&gt;fixed-wing drone&lt;/a&gt;, that uses a robot arm for autonomous launch and capture.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Unfortunately, based on the frequency of that flashing LED on the drone, this video appears to have sped up the capture (and likely the launch) by a substantial amount.&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.skydio.com/f10"&gt;Skydio&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="lqdeoreu6bi"&gt;I want a bunch of these little guys. I don’t know what I’d do with them. But I want them.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://freeformrobotics.org/publications/"&gt;Freeform Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="lfkoi0mvwos"&gt;&lt;em&gt;Walking robots are everywhere now…. But 30 years ago, they were brand new. The first ever robot that could walk by itself was the &lt;a href="https://spectrum.ieee.org/honda-p2-robot-ieee-milestone" target="_blank"&gt;Honda P2&lt;/a&gt;. The P2 featured motors and hydraulics in the hips, knees, and ankles to walk around, and weighed over 300 pounds.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://spectrum.ieee.org/honda-p2-robot-ieee-milestone"&gt;IEEE Spectrum&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="lat2rikjhto"&gt;&lt;em&gt;Precision biomimetic dexterous hand, priced from US $6,500.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.unitree.com/Dex2-5"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="jimw_ligkvq"&gt;What if all it took to train a drone to do acrobatics was to tell it whether you like the way it flies?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rpg.ifi.uzh.ch/docs/IROS26_Geles_PbRL.pdf"&gt;UZH Robotics and Perception Group&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ktncpptpsqe"&gt;Why build a &lt;a href="https://spectrum.ieee.org/video-friday-robotic-hands-2674168909" target="_blank"&gt;humanoid hand&lt;/a&gt; when a &lt;a href="https://spectrum.ieee.org/aussies-win-amazon-robotics-challenge" target="_blank"&gt;robot hand&lt;/a&gt; can do stuff like this?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalroboticslab.com/cartesian_handv1"&gt;General Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="etzdogql56c"&gt;&lt;em&gt;Diane Heinle, a mechanical engineer at Boston Dynamics, answers questions about endurance testing for Stretch, how her team simulates years of wear on robot parts over a brief time in the lab, and why there are bird heads on them.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://bostondynamics.com/blog/ask-a-roboticist-meet-diane/"&gt;Boston Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="0qus7bzzkas"&gt;&lt;em&gt;ULOHA brings learning from demonstrations to two robot arms working underwater. We developed custom leader–follower hardware and software extending LeRobot to connect teleoperation, demonstration collection, and autonomous manipulation. The video shows the robots lifting objects together, passing objects between arms, opening a container, and catching a sponge as it rises through the water. We also explore how bubbles and action-execution timing affect learned behaviors.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://mertcookimg.github.io/uloha/"&gt;ULOHA&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Masato!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="n6cl5gi0c0u"&gt;Usually, ballbots rely on an internal pendulum, but here’s a different approach.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://generalroboticslab.com/MARBLE"&gt;General Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="hnlfompekgk"&gt;&lt;em&gt;From long-horizon manipulation to tactile-guided actions, this video highlights selected collaborations that explore what Astribot robots can do.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.astribot.com/en/product"&gt;Astribot&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vu5w9_nmet4"&gt;This is one of those tasks that looks a little boring but is actually both very tricky and very useful.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://arxiv.org/abs/2509.10979"&gt;HiPeR Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="5u0rzdl7jvi"&gt;That tiny little excavator playing in flour is adorbs.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://arxiv.org/abs/2609.12677v1"&gt;ETH Zurich Robotic Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="vh9ucogdwcm"&gt;How do you fit a humanoid robot into a box?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.limxdynamics.com/en/products/luna"&gt;LimX Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="bykyz9qwqcw"&gt;And now, this.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;At the Opening Ceremony of WorldSkills Shanghai 2026 on 22 September, 19 Unitree humanoid robots performed alongside 120 dancers, presenting the world’s largest-scale performance featuring full-size general-purpose humanoid robots before an audience of more than 10,000 people, with a fully AI-driven autonomous robot cluster performance live-streamed worldwide in real time.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://unitree.com/"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="fd9mleerkpg"&gt;&lt;em&gt;A microwave box creates a surprisingly tricky vision system challenge: there’s a picture of a microwave on the side of the box, and that microwave has a window. From the camera’s perspective, it’s a box inside a box inside a box.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.picklerobot.com/"&gt;Pickle Robot Company&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="l6bsqc5cccw"&gt;What exactly is Physical AI? Personally I think it’s just what robotics has always been, more or less, except that everything has to have “AI” in it now, so here we are.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.csail.mit.edu/news/"&gt;MIT CSAIL&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="dx_dlmrlh60"&gt;&lt;em&gt;As the evolution of the UR Series, the g‑Series is designed to accelerate how robots are integrated into complete automation systems. It connects more directly with cameras, higher power EOATs, and control systems, eliminating external cabling and hardware to streamline integration. This enables cleaner and faster deployment of advanced automation.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.universal-robots.com/news-and-media/news-center/universal-robots-unveils-gen-7-new-platform-industrial-automation-physical-ai/"&gt;Universal Robots&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-goose-household-robots</guid>
       <pubDate>Fri, 25 Sep 2026 16:00:04 +0000</pubDate>
     </item>
@@ -3253,11 +2867,135 @@ Visiting either of the repositories now shows the message: "Access to this</desc
       <pubDate>Fri, 25 Sep 2026 16:51:54 +0000</pubDate>
     </item>
     <item>
+      <title>CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/</link>
+      <description>The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/</guid>
+      <pubDate>Fri, 25 Sep 2026 17:24:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supreme Court permits states to use SAVE database for citizenship checks</title>
+      <link>https://cyberscoop.com/supreme-court-save-database-voter-citizenship/</link>
+      <description>&lt;p&gt;Three justices wrote in a dissent that longstanding privacy laws protecting sensitive personal data held by the government should prevent the use of the database.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/supreme-court-save-database-voter-citizenship/"&gt;Supreme Court permits states to use SAVE database for citizenship checks&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/supreme-court-save-database-voter-citizenship/</guid>
+      <pubDate>Fri, 25 Sep 2026 17:41:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Marines Rushing To Equip Amphibious Combat Vehicles With New Anti-Drone Jammers</title>
+      <link>https://www.twz.com/land/marines-rushing-to-equip-amphibious-combat-vehicles-with-new-anti-drone-jammers</link>
+      <description>&lt;p&gt;The USMC says an urgent need for Anduril Pulsar-L systems ties in with larger plans to boost the ACV's defenses against drones.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/land/marines-rushing-to-equip-amphibious-combat-vehicles-with-new-anti-drone-jammers"&gt;Marines Rushing To Equip Amphibious Combat Vehicles With New Anti-Drone Jammers&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/land/marines-rushing-to-equip-amphibious-combat-vehicles-with-new-anti-drone-jammers</guid>
+      <pubDate>Fri, 25 Sep 2026 17:56:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>What We Missed: Google Gemini Joins the AI Escape Party</title>
+      <link>https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party</link>
+      <description>In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party</guid>
+      <pubDate>Fri, 25 Sep 2026 17:56:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>South Korea inducts first locally developed fighter jet into air force</title>
+      <link>https://breakingdefense.com/2026/09/south-korea-inducts-first-locally-developed-fighter-jet-into-air-force/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/south-korea-inducts-first-locally-developed-fighter-jet-into-air-force/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/03/KAI_KF-21-prototype_004_1st_flight-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Introduction of KF-21 into South Korea&amp;#8217;s military marks a significant milestone for country&amp;#8217;s defense industry&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/south-korea-inducts-first-locally-developed-fighter-jet-into-air-force/</guid>
+      <pubDate>Fri, 25 Sep 2026 17:58:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>What did (and didn’t) happen at the Trump-Xi summit</title>
+      <link>https://www.atlanticcouncil.org/content-series/fastthinking/what-did-and-didnt-happen-at-the-trump-xi-summit/</link>
+      <description>&lt;p&gt;What the latest Trump-Xi summit changed, left unresolved, and what to watch before they meet again.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/content-series/fastthinking/what-did-and-didnt-happen-at-the-trump-xi-summit/"&gt;What did (and didn’t) happen at the Trump-Xi summit&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/content-series/fastthinking/what-did-and-didnt-happen-at-the-trump-xi-summit/</guid>
+      <pubDate>Fri, 25 Sep 2026 18:06:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elementor WordPress flaw lets attackers create admin accounts</title>
+      <link>https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/</link>
+      <description>A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/</guid>
+      <pubDate>Fri, 25 Sep 2026 18:13:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Navy stands up hub to prepare unmanned systems for combat</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/09/25/us-navy-stands-up-hub-to-prepare-unmanned-systems-for-combat/</link>
+      <description>U.S. Chief of Naval Operations Adm. Daryl Caudle announced a new autonomous development center to train sailors and test new technology.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/09/25/us-navy-stands-up-hub-to-prepare-unmanned-systems-for-combat/</guid>
+      <pubDate>Fri, 25 Sep 2026 18:13:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness</link>
+      <description>When autonomous AI agents &amp;quot;escape the sandbox,&amp;quot; the real story isn't rogue machines — it's the same access-control failures we've seen for decades.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness</guid>
+      <pubDate>Fri, 25 Sep 2026 18:39:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Latvia To Order Anduril’s Barracuda Cruise Missile For Long-Range Strike Capability</title>
+      <link>https://www.twz.com/news-features/latvia-to-order-andurils-barracuda-cruise-missile-for-long-range-strike-capability</link>
+      <description>&lt;p&gt;The missile deal would drastically expand Riga’s precision-fire reach as NATO’s eastern flank races to build up its conventional long-range strike capabilities.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/latvia-to-order-andurils-barracuda-cruise-missile-for-long-range-strike-capability"&gt;Latvia To Order Anduril’s Barracuda Cruise Missile For Long-Range Strike Capability&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/latvia-to-order-andurils-barracuda-cruise-missile-for-long-range-strike-capability</guid>
+      <pubDate>Fri, 25 Sep 2026 18:49:40 +0000</pubDate>
+    </item>
+    <item>
       <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
       <link>https://openai.com/index/proaction</link>
       <description>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</description>
       <guid isPermaLink="false">https://openai.com/index/proaction</guid>
       <pubDate>Fri, 25 Sep 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘Cyber magazine’ can run out ‘pretty damn quick’ in modern conflict: Admiral</title>
+      <link>https://breakingdefense.com/2026/09/cyber-magazine-can-run-out-pretty-damn-quick-in-modern-conflict-admiral/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/cyber-magazine-can-run-out-pretty-damn-quick-in-modern-conflict-admiral/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/6762559-scaled-e1782151740819-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In the wake of public debates about the health of physical US munitions, a senior Navy official said the &amp;#8220;cyber magazine&amp;#8221; isn&amp;#8217;t infinite either.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/cyber-magazine-can-run-out-pretty-damn-quick-in-modern-conflict-admiral/</guid>
+      <pubDate>Fri, 25 Sep 2026 19:12:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>US appeals court upholds Pentagon’s blacklisting of Anthropic</title>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</link>
+      <description>A federal appeals court upheld the Pentagon’s blacklisting of Anthropic from military contracts, handing a victory to President Trump and the Pentagon.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</guid>
+      <pubDate>Fri, 25 Sep 2026 19:19:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>US appeals court upholds Pentagon’s blacklisting of Anthropic</title>
+      <link>https://www.c4isrnet.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</link>
+      <description>A federal appeals court upheld the Pentagon’s blacklisting of Anthropic from military contracts, handing a victory to President Trump and the Pentagon.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</guid>
+      <pubDate>Fri, 25 Sep 2026 19:19:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navy’s shipyard revamp could cost more than $200 billion: GAO</title>
+      <link>https://breakingdefense.com/2026/09/navys-shipyard-revamp-could-cost-more-than-200-billion-gao/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/navys-shipyard-revamp-could-cost-more-than-200-billion-gao/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/08/210512-N-LX838-1230-scaled-e1659707922643-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Navy originally estimated that the Shipyard Infrastructure Optimization Program (SIOP) would cost approximately $21 billion. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/navys-shipyard-revamp-could-cost-more-than-200-billion-gao/</guid>
+      <pubDate>Fri, 25 Sep 2026 19:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump administration obligates $307M for military aid to Ukraine</title>
+      <link>https://www.defensenews.com/global/europe/2026/09/25/trump-administration-obligates-307m-for-military-aid-to-ukraine/</link>
+      <description>The Trump administration has made legally binding commitments to spend almost all of the $400 million Congress approved for military aid to Ukraine.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/25/trump-administration-obligates-307m-for-military-aid-to-ukraine/</guid>
+      <pubDate>Fri, 25 Sep 2026 19:49:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>DC Circuit panel upholds Pentagon’s ban on Anthropic – so what comes next?</title>
+      <link>https://breakingdefense.com/2026/09/dc-circuit-panel-upholds-pentagons-ban-on-anthropic-so-what-comes-next/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/dc-circuit-panel-upholds-pentagons-ban-on-anthropic-so-what-comes-next/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/03/anthropic-1-scaled-e1773078524623-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Pentagon CTO Emil Michael crowed “The hammer of justice has smashed AnthropicAI[’s] arguments.” The AI titan hinted at an appeal — but they may not be allowed one.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/dc-circuit-panel-upholds-pentagons-ban-on-anthropic-so-what-comes-next/</guid>
+      <pubDate>Fri, 25 Sep 2026 19:50:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>BAE Systems Spent $17 Million Building a Combat Vehicle the Army Never Ordered</title>
+      <link>https://sofrep.com/?p=231124&amp;preview=true&amp;preview_id=231124</link>
+      <description>After losing the XM30 cut, BAE spent $17 million, built two counter-drone fighting vehicles, and drove its hedge straight through Fort Hood’s front gate. 
+#DefenseTechnology #AMPV30 #CounterDrone #USArmy #MilitaryModernization</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=231124&amp;preview=true&amp;preview_id=231124</guid>
+      <pubDate>Fri, 25 Sep 2026 21:00:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
