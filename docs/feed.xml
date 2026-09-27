@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 15:44:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 19:18:30 +0000</lastBuildDate>
     <item>
       <title>Prabowo’s BRICS Diplomacy Risks Becoming Global Theatre Without Domestic Strategy</title>
       <link>https://www.geopoliticalmonitor.com/indonesia-brics-strategy-prabowo-domestic-agenda/</link>
@@ -1778,13 +1778,6 @@
       <pubDate>Thu, 24 Sep 2026 15:30:38 +0000</pubDate>
     </item>
     <item>
-      <title>US to provide critical but more limited capabilities to NATO, top commander says</title>
-      <link>https://www.defensenews.com/global/2026/09/24/us-to-provide-critical-but-more-limited-capabilities-to-nato-top-commander-says/</link>
-      <description>NATO’s top commander said on Thursday the United States would continue to provide “critical but more limited capabilities” to the alliance.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/2026/09/24/us-to-provide-critical-but-more-limited-capabilities-to-nato-top-commander-says/</guid>
-      <pubDate>Thu, 24 Sep 2026 16:24:32 +0000</pubDate>
-    </item>
-    <item>
       <title>Italy taps state-owned firms to build two naval destroyers in $4.2 billion deal</title>
       <link>https://www.defensenews.com/global/europe/2026/09/24/italy-taps-state-owned-firms-to-build-two-naval-destroyers-in-42-billion-deal/</link>
       <description>Italy has signed to buy two new naval destroyers that will mark a quantum leap in capabilities for the Italian navy, the ships’ builders have promised.</description>
@@ -2270,13 +2263,6 @@ Visiting either of the repositories now shows the message: "Access to this</desc
       <pubDate>Fri, 25 Sep 2026 18:06:29 +0000</pubDate>
     </item>
     <item>
-      <title>Elementor WordPress flaw lets attackers create admin accounts</title>
-      <link>https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/</link>
-      <description>A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/</guid>
-      <pubDate>Fri, 25 Sep 2026 18:13:33 +0000</pubDate>
-    </item>
-    <item>
       <title>US Navy stands up hub to prepare unmanned systems for combat</title>
       <link>https://www.defensenews.com/industry/techwatch/2026/09/25/us-navy-stands-up-hub-to-prepare-unmanned-systems-for-combat/</link>
       <description>U.S. Chief of Naval Operations Adm. Daryl Caudle announced a new autonomous development center to train sailors and test new technology.</description>
@@ -2626,11 +2612,9 @@ The new findings come from Ontinue, which described the activity as a four-stage
     <item>
       <title>Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation</title>
       <link>https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html</link>
-      <description>Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26.
+      <description>Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration.
 
-Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available.
-
-NetScaler ADC and</description>
+The bulletin came a day after security firm watchTowr</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html</guid>
       <pubDate>Sun, 27 Sep 2026 07:47:57 +0000</pubDate>
     </item>
@@ -2706,12 +2690,25 @@ NetScaler ADC and</description>
       <pubDate>Sun, 27 Sep 2026 15:04:49 +0000</pubDate>
     </item>
     <item>
-      <title>Marines Are Adding Anti-Drone Jammers to the Vehicles That Carry Them Ashore</title>
-      <link>https://sofrep.com/?p=231157&amp;preview=true&amp;preview_id=231157</link>
-      <description>The Marines are bolting electronic armor onto the ACV because the modern battlefield now belongs to any cheap bastard with a drone and a clean view of the roof. 
-#MarineCorps #DroneWarfare #CounterUAS #ElectronicWarfare #DefenseTechnology</description>
-      <guid isPermaLink="false">https://sofrep.com/?p=231157&amp;preview=true&amp;preview_id=231157</guid>
-      <pubDate>Mon, 28 Sep 2026 21:00:30 +0000</pubDate>
+      <title>The Hub-and-Spoke Alliance Is Dead. Nobody Announced the Funeral</title>
+      <link>https://sofrep.com/news/the-hub-and-spoke-alliance-is-dead-nobody-announced-the-funeral/</link>
+      <description>For decades, American security in the Pacific operated like a wheel, with Washington at the hub and its allies on separate spokes. Exercises like Super Garuda Shield and Freedom Edge show that system evolving into a web. The challenge now is making sure those militaries can actually fight together when it matters. #IndoPacific #FreedomEdge #SuperGarudaShield #PacificSecurity #MilitaryExercises #Interoperability #USMilitary #Japan #SouthKorea #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/news/the-hub-and-spoke-alliance-is-dead-nobody-announced-the-funeral/</guid>
+      <pubDate>Sun, 27 Sep 2026 16:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Citrix confirms two NetScaler RCE zero-days exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/</link>
+      <description>Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/</guid>
+      <pubDate>Sun, 27 Sep 2026 16:02:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terror suspects wanted to do ‘big damage’ to air base used by US, Trump says</title>
+      <link>https://www.defensenews.com/news/your-military/2026/09/27/terror-suspects-wanted-to-do-big-damage-to-air-base-used-by-us-trump-says/</link>
+      <description>British police on Sunday arrested five men on suspicion of explosive and terrorism offenses near an air base that hosts U.S. Air Force personnel.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/27/terror-suspects-wanted-to-do-big-damage-to-air-base-used-by-us-trump-says/</guid>
+      <pubDate>Sun, 27 Sep 2026 16:19:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
