@@ -7,37 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 18:47:03 +0000</lastBuildDate>
-    <item>
-      <title>India’s Infrastructure Boom: The Money Is There But Can India Deliver?</title>
-      <link>https://www.geopoliticalmonitor.com/india-infrastructure-boom-delivery-2047/</link>
-      <description>&lt;p&gt;The money is committed and the targets are set. India's problem is delivery: awards are falling and 1,775 projects run over budget.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/india-infrastructure-boom-delivery-2047/"&gt;India&amp;#8217;s Infrastructure Boom: The Money Is There But Can India Deliver?&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/india-infrastructure-boom-delivery-2047/</guid>
-      <pubDate>Thu, 24 Sep 2026 15:30:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Phone-hacking company that won U.S. security agency contracts hid Russian ownership, DOJ alleges</title>
-      <link>https://cyberscoop.com/oxygen-forensics-ceo-arrested-russian-ownership-fraud/</link>
-      <description>&lt;p&gt;The Justice Department said two leaders of the company have been arrested and face conspiracy to commit wire fraud.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/oxygen-forensics-ceo-arrested-russian-ownership-fraud/"&gt;Phone-hacking company that won U.S. security agency contracts hid Russian ownership, DOJ alleges&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/oxygen-forensics-ceo-arrested-russian-ownership-fraud/</guid>
-      <pubDate>Thu, 24 Sep 2026 17:07:31 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 29 Sep 2026 22:49:01 +0000</lastBuildDate>
     <item>
       <title>Mexican EPICS in IEEE Team Builds Portable Educational Platform</title>
       <link>https://spectrum.ieee.org/epics-in-ieee-portable-educational</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/four-young-adult-students-laugh-together-while-one-of-them-holds-a-robot-shaped-like-a-hexagonal-cylinder.jpg?id=67845427&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C156%2C0%2C157" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, but they lack access to advanced tools such as robotics laboratories. The resources shortfall limits the students’ opportunities for hands-on learning on cutting-edge applications.&lt;/p&gt;&lt;p&gt;A team from &lt;a href="https://apps.iteso.mx/web/iteso/inicio" rel="noopener noreferrer" target="_blank"&gt;ITESO, Universidad Jesuita de Guadalajara&lt;/a&gt;, is working to change that. Through the &lt;a href="https://epics.ieee.org" rel="noopener noreferrer" target="_blank"&gt;EPICS in IEEE&lt;/a&gt; initiative, a multidisciplinary group of 15 engineering students, faculty advisors, and &lt;a href="https://www.ieeegdl.org/" rel="noopener noreferrer" target="_blank"&gt;IEEE Guadalajara Section&lt;/a&gt; volunteers developed RoboMeshA. The portable, self-contained educational platform brings robotics and AI experiences into classrooms.&lt;/p&gt;&lt;p&gt;&lt;a href="https://spectrum.ieee.org/epics-in-ieee-15th-anniversary" target="_self"&gt;EPICS&lt;/a&gt; is administered by &lt;a href="https://ea.ieee.org" rel="noopener noreferrer" target="_blank"&gt;IEEE Educational Activities&lt;/a&gt; and funded by the &lt;a href="https://www.ieee-ras.org/" rel="noopener noreferrer" target="_blank"&gt;IEEE Robotics and Automation Society&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;A mobile laboratory&lt;/h2&gt;&lt;p&gt;Rather than requiring a school to build a dedicated computer lab or install complex software, RoboMeshA&lt;em&gt; &lt;/em&gt;operates as an all-in-one mobile learning network.&lt;/p&gt;&lt;p&gt;“RoboMeshA brings robotics and AI to students who don’t have access to specialized facilities or preinstalled software,” says team member Fernando Vidal Luna, an IEEE student member and a mechatronics engineering major at ITESO.&lt;/p&gt;&lt;p&gt;Students connect directly to the platform from a user-friendly web browser. They can interact with the robot manually or use its control modes to watch it move and detect and avoid obstacles.&lt;/p&gt;&lt;p&gt;“The project combines mechanical design, embedded systems, control engineering, computer vision, and AI into a single robotic system that functions as a mobile learning laboratory,” says faculty advisor &lt;a href="https://www.linkedin.com/in/jorgealizarraga/" rel="noopener noreferrer" target="_blank"&gt;Jorge A. Lizarraga&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;The team says young students are interested in technology, programming, and robotics but don’t have an opportunity to work with systems that combine mechanics, electronics, software, and control.&lt;/p&gt;&lt;p&gt;“RoboMeshA allows students to see how all these disciplines work together in a tangible and understandable way,” says team member José S. González, who also is studying mechatronics engineering.&lt;/p&gt;&lt;p&gt;The team has built two units and is developing a modular coupling framework to expand the system’s capabilities for research and classroom demonstrations. The structured system design approach connects independent software components while minimizing internal dependencies, enabling four RobotMeshA robots to operate together.&lt;/p&gt;&lt;h2&gt;Overcoming design challenges&lt;/h2&gt;&lt;p&gt;The team faced significant hurdles while designing the project.&lt;/p&gt;&lt;p&gt;“One key challenge involved the robot’s structural design,” Luna says. “It wasn’t only about making a chassis where all the components fit and the design had sufficient stability, rigidity, and weight distribution. It was also about ensuring that the electronics were protected while still being accessible for maintenance, testing, and modifications.”&lt;/p&gt;&lt;p&gt;“It was also challenging to design a platform that could be used by students with different levels of experience,” González adds.&lt;/p&gt;&lt;p class="pull-quote"&gt;“When students realize the technology they develop can inspire others and improve lives, engineering becomes far more meaningful.” &lt;strong&gt;—Luis Fernando Luque-Vega&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The team partnered with the &lt;a href="https://www.colomos.ceti.mx/" target="_blank"&gt;CETI Colomos&lt;/a&gt; and &lt;a href="https://prepa.iteso.mx/" rel="noopener noreferrer" target="_blank"&gt;Prepa ITESO&lt;/a&gt; high schools to validate the platform in classroom settings.&lt;/p&gt;&lt;p&gt;“We wanted the first interactions with the robot to be simple and intuitive,” González says, “such that students could simply power the robot, connect to its network, and begin interacting with it, rather than having to deal with software installation, extensive configuration, or troubleshooting.”&lt;/p&gt;&lt;h2&gt;Engineering with social impact&lt;/h2&gt;&lt;p&gt;Many of the students who participated were from ITESO’s applied professional projects program. The experience offered them &lt;a href="https://spectrum.ieee.org/hands-on-projects-career-advice" target="_self"&gt;practical training&lt;/a&gt; in project management, system integration, and user-centered design.&lt;/p&gt;&lt;p&gt;The team also presented a research paper and a project poster in May at the &lt;a href="https://congresossuj.mx/congresos/3er-congreso-de-ingenierias-suj/" rel="noopener noreferrer" target="_blank"&gt;Engineering Congress of the Jesuit University System&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;“Seeing a design move from a digital model to a physical system was invaluable,” González says. “Working with students from different backgrounds taught us to listen to end users and design for their actual needs.”&lt;/p&gt;&lt;p&gt;Project lead &lt;a href="https://www.linkedin.com/in/luis-fernando-luque-vega-289aa348/" rel="noopener noreferrer" target="_blank"&gt;Luis Fernando Luque-Vega&lt;/a&gt;, an IEEE member, says he’d like the venture to serve as a blueprint for engineering education.&lt;/p&gt;&lt;p&gt;“I hope RoboMeshA&lt;em&gt; &lt;/em&gt;is adopted by schools, universities, and IEEE student branches across Mexico and internationally as a model for integrating technical innovation with community engagement,” Luque-Vega says.&lt;/p&gt;&lt;p&gt;By pairing engineering talent with community service, initiatives such as EPICS in IEEE demonstrate how targeted support can turn academic concepts into real-world solutions.&lt;/p&gt;&lt;p&gt;“When students realize the technology they develop can inspire others and improve lives, engineering becomes far more meaningful,” Luque-Vega says.&lt;/p&gt;&lt;p&gt;For more information on service-learning opportunities, visit the &lt;a href="https://epics.ieee.org/" rel="noopener noreferrer" target="_blank"&gt;EPICS website&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/epics-in-ieee-portable-educational</guid>
       <pubDate>Thu, 24 Sep 2026 18:00:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>New bill would create federal investigative body for AI-driven hacks</title>
-      <link>https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/</link>
-      <description>&lt;p&gt;A new Democratic bill in Congress would establish a federal Cybersecurity and AI Board of Investigations to provide independent government oversight of cyberattacks carried out by AI agents, following recent hacks by models run at companies like Anthropic, OpenAI, Meta and others. The bill, introduced by Sen. Ed Markey, D-Mass., would attempt to establish a [&amp;#8230;]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/"&gt;New bill would create federal investigative body for AI-driven hacks &lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/</guid>
-      <pubDate>Thu, 24 Sep 2026 18:07:31 +0000</pubDate>
     </item>
     <item>
       <title>Who’s Who In The Fight Over Whether AI Will Kill Us</title>
@@ -56,31 +32,23 @@
       <pubDate>Thu, 24 Sep 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>House and Senate members propose legislation for CISA to step up cyber defenses for biotech</title>
-      <link>https://cyberscoop.com/biotech-critical-infrastructure-cybersecurity-legislation/</link>
-      <description>&lt;p&gt;Biotechnology doesn’t have its own critical infrastructure designation, so the bipartisan group of lawmakers wants to make sure it’s protected like it.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/biotech-critical-infrastructure-cybersecurity-legislation/"&gt;House and Senate members propose legislation for CISA to step up cyber defenses for biotech&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/biotech-critical-infrastructure-cybersecurity-legislation/</guid>
-      <pubDate>Thu, 24 Sep 2026 21:23:40 +0000</pubDate>
-    </item>
-    <item>
       <title>ISC Stormcast For Friday, September 25th, 2026 https://isc.sans.edu/podcastdetail/10110, (Fri, Sep 25th)</title>
       <link>https://isc.sans.edu/diary/rss/33370</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33370</guid>
       <pubDate>Fri, 25 Sep 2026 03:45:12 +0000</pubDate>
     </item>
     <item>
-      <title>How Iran Changed War</title>
-      <link>https://www.foreignaffairs.com/iran/how-iran-changed-war-united-states-michael-horowitz</link>
-      <description>The lessons of Tehran’s use of precise mass.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/iran/how-iran-changed-war-united-states-michael-horowitz</guid>
-      <pubDate>Fri, 25 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Coming Taiwan Crisis</title>
       <link>https://www.foreignaffairs.com/taiwan/coming-taiwan-crisis-china-jonathan-czin</link>
       <description>Use today’s calm to prepare for the next perfect storm.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/taiwan/coming-taiwan-crisis-china-jonathan-czin</guid>
+      <pubDate>Fri, 25 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Iran Changed War</title>
+      <link>https://www.foreignaffairs.com/iran/how-iran-changed-war-united-states-michael-horowitz</link>
+      <description>The lessons of Tehran’s use of precise mass.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/iran/how-iran-changed-war-united-states-michael-horowitz</guid>
       <pubDate>Fri, 25 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -112,21 +80,6 @@
       <description>The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/</guid>
       <pubDate>Fri, 25 Sep 2026 09:16:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-65660" target="_blank"&gt;CVE-2026-65660&lt;/a&gt; Microsoft SharePoint Code Injection Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-67279" target="_blank"&gt;CVE-2026-67279&lt;/a&gt; Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Download: the Pentagon’s AI-powered lie detector and young organ limits</title>
@@ -216,21 +169,6 @@
       <pubDate>Fri, 25 Sep 2026 19:19:29 +0000</pubDate>
     </item>
     <item>
-      <title>Why the CISO-CFO Relationship Is a Key to Cybersecurity Success</title>
-      <link>https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success</link>
-      <description>Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success</guid>
-      <pubDate>Fri, 25 Sep 2026 20:28:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Blackbeard Hypersonic Missile Seen Flying On F/A-18 Super Hornet For The First Time</title>
-      <link>https://www.twz.com/air/blackbeard-hypersonic-missile-seen-flying-on-f-a-18-super-hornet-for-the-first-time</link>
-      <description>&lt;p&gt;The Navy is pushing to get Blackbeard, a lower-cost and fast-to-produce standoff weapon, into operational service by 2028 at the latest.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/blackbeard-hypersonic-missile-seen-flying-on-f-a-18-super-hornet-for-the-first-time"&gt;Blackbeard Hypersonic Missile Seen Flying On F/A-18 Super Hornet For The First Time&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/blackbeard-hypersonic-missile-seen-flying-on-f-a-18-super-hornet-for-the-first-time</guid>
-      <pubDate>Fri, 25 Sep 2026 20:37:08 +0000</pubDate>
-    </item>
-    <item>
       <title>Security expert weighs in on Trump, Xi state dinner with tech CEOs</title>
       <link>https://cset.georgetown.edu/article/security-expert-weighs-in-on-trump-xi-state-dinner-with-tech-ceos/</link>
       <description>&lt;p&gt;CSET’s Sam Bresnick joined ABC News for an interview discussing U.S.-China competition in artificial intelligence.&lt;/p&gt;
@@ -261,14 +199,6 @@
       <pubDate>Fri, 25 Sep 2026 21:51:52 +0000</pubDate>
     </item>
     <item>
-      <title>Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week</title>
-      <link>https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-208</link>
-      <description>&lt;p&gt;I wonder if the leaves are changing color out there?&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-208"&gt;Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-208</guid>
-      <pubDate>Fri, 25 Sep 2026 21:54:37 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic loses legal fight to shed DOD's designation as a 'supply-chain risk'</title>
       <link>https://www.defenseone.com/threats/2026/09/anthropic-lawsuit-supply-chain-risk/416252/</link>
       <description>The label is more typically assigned to companies suspected of ties to adversarial governments.</description>
@@ -297,14 +227,6 @@
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/canada-crude-oil-exports-us-chokepoints/"&gt;Dire Straits: How the United States Could Break Canada to Own It&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/canada-crude-oil-exports-us-chokepoints/</guid>
       <pubDate>Sat, 26 Sep 2026 12:01:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Laser Weapons Will Be Deployed At Cape Canaveral Spaceport To Take Down Drones</title>
-      <link>https://www.twz.com/news-features/space-force-getting-lasers-to-kill-drones-over-cape-canaveral-spaceport</link>
-      <description>&lt;p&gt;With the job of launching giant tubes packed with explosives and extremely expensive national security payloads on top, if anywhere could use lasers, it's the Cape.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/space-force-getting-lasers-to-kill-drones-over-cape-canaveral-spaceport"&gt;Laser Weapons Will Be Deployed At Cape Canaveral Spaceport To Take Down Drones&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/space-force-getting-lasers-to-kill-drones-over-cape-canaveral-spaceport</guid>
-      <pubDate>Sat, 26 Sep 2026 18:50:08 +0000</pubDate>
     </item>
     <item>
       <title>Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway</title>
@@ -349,13 +271,6 @@
       <description>Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33372</guid>
       <pubDate>Sun, 27 Sep 2026 15:04:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Terror suspects wanted to do ‘big damage’ to air base used by US, Trump says</title>
-      <link>https://www.defensenews.com/news/your-military/2026/09/27/terror-suspects-wanted-to-do-big-damage-to-air-base-used-by-us-trump-says/</link>
-      <description>British police on Sunday arrested five men on suspicion of explosive and terrorism offenses near an air base that hosts U.S. Air Force personnel.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/27/terror-suspects-wanted-to-do-big-damage-to-air-base-used-by-us-trump-says/</guid>
-      <pubDate>Sun, 27 Sep 2026 16:19:38 +0000</pubDate>
     </item>
     <item>
       <title>Basis completes a tax workbook 2x faster with GPT-6 Astra</title>
@@ -429,25 +344,11 @@
       <pubDate>Mon, 28 Sep 2026 11:13:11 +0000</pubDate>
     </item>
     <item>
-      <title>Inside the Daring German Commando Rescue of Lufthansa Flight 181</title>
-      <link>https://sofrep.com/news/gsg-9-saves-flight-181/</link>
-      <description>After four days of terror, murder, and a desperate flight across three continents, Germany’s GSG 9 stormed Lufthansa Flight 181 and ended the nightmare in five violent minutes. #LufthansaFlight181 #OperationFireMagic #MogadishuRescue #GermanCommandos #CounterterrorismHistory</description>
-      <guid isPermaLink="false">https://sofrep.com/news/gsg-9-saves-flight-181/</guid>
-      <pubDate>Mon, 28 Sep 2026 12:00:49 +0000</pubDate>
-    </item>
-    <item>
       <title>The Download: rogue agent liability and the AI Hype Index</title>
       <link>https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/</link>
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Who&amp;#8217;s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/</guid>
       <pubDate>Mon, 28 Sep 2026 12:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Southern Spear Is Hitting Its Targets. That Does Not Mean It Is Winning.</title>
-      <link>https://sofrep.com/news/southern-spear-is-hitting-its-targets-that-does-not-mean-it-is-winning/</link>
-      <description>We can count the boats we struck and the routes we closed, but victory means proving that cartels have lost their grip on territory and fewer drugs are reaching American streets. #OperationSouthernSpear #Counterinsurgency #DrugTrafficking #MilitaryReadiness #SOUTHCOM</description>
-      <guid isPermaLink="false">https://sofrep.com/news/southern-spear-is-hitting-its-targets-that-does-not-mean-it-is-winning/</guid>
-      <pubDate>Mon, 28 Sep 2026 13:00:31 +0000</pubDate>
     </item>
     <item>
       <title>Netherlands and EOS sign letter of intent for Apollo counter-drone laser</title>
@@ -518,13 +419,6 @@
       <pubDate>Mon, 28 Sep 2026 15:08:57 +0000</pubDate>
     </item>
     <item>
-      <title>JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack</title>
-      <link>https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack</link>
-      <description>The &amp;quot;agentic threat actor&amp;quot; may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack</guid>
-      <pubDate>Mon, 28 Sep 2026 15:33:21 +0000</pubDate>
-    </item>
-    <item>
       <title>Interview With a Navy SEAL: What Inspired Eric Davis to Join the Teams</title>
       <link>https://sofrep.com/news/interview-with-a-navy-seal-eric-davis-reflects-on-what-inspired-him-to-become-a-navy-seal/</link>
       <description>In this portion of an interview with Eric Davis, he reflects on how Richard Marcinko was instrumental in his becoming a SEAL. Eric said he read all of Marcinko’s books when he was younger, and they encouraged him to view becoming a SEAL as a real possibility. Some modern military movies will have the same [&amp;#8230;]</description>
@@ -545,21 +439,6 @@
       <description>Modern CASEVAC operations in Ukraine are hampered by new types of battlefield lethality, particularly massed use of drones.</description>
       <guid isPermaLink="false">https://www.army-technology.com/features/casevac-on-the-frontline-ukraines-maul-ugv/</guid>
       <pubDate>Mon, 28 Sep 2026 16:19:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>UK to gather defense CEOs for ‘closed-door’ Russian security briefing</title>
-      <link>https://breakingdefense.com/2026/09/uk-to-gather-defense-ceos-for-closed-door-russian-security-briefing/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/uk-to-gather-defense-ceos-for-closed-door-russian-security-briefing/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/FLEET-20260612-XN0416-138-scaled-e1781631004261-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The government warned the Russian &amp;#8220;state and its proxies knowingly seek to disrupt businesses and organisations that underpin the British way of life or are vital to the defence of Ukraine.&amp;#8221;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/uk-to-gather-defense-ceos-for-closed-door-russian-security-briefing/</guid>
-      <pubDate>Mon, 28 Sep 2026 16:22:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Technology and the Global South: A US strategy for competitiveness</title>
-      <link>https://www.atlanticcouncil.org/in-depth-research-reports/report/technology-and-the-global-south-a-us-strategy-for-competitiveness/</link>
-      <description>&lt;p&gt;The United States and China are engaged in a strategic competition for scientific and technological leadership. To prevail, the United States must strengthen its tech-centric engagement with countries across the Global South.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/technology-and-the-global-south-a-us-strategy-for-competitiveness/"&gt;Technology and the Global South: A US strategy for competitiveness&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/report/technology-and-the-global-south-a-us-strategy-for-competitiveness/</guid>
-      <pubDate>Mon, 28 Sep 2026 16:30:00 +0000</pubDate>
     </item>
     <item>
       <title>Mystery Shoulder-Fired Surface-To-Air Missile Appears In Russian Service</title>
@@ -677,14 +556,6 @@ The iPhone maker said the</description>
       <pubDate>Mon, 28 Sep 2026 19:20:31 +0000</pubDate>
     </item>
     <item>
-      <title>What’s behind the Algeria-UAE rupture</title>
-      <link>https://www.atlanticcouncil.org/blogs/menasource/whats-behind-the-algeria-uae-rupture/</link>
-      <description>&lt;p&gt;Algeria's severing of diplomatic ties with the UAE reflects a broader struggle over regional influence and sovereignty.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/menasource/whats-behind-the-algeria-uae-rupture/"&gt;What’s behind the Algeria-UAE rupture&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/menasource/whats-behind-the-algeria-uae-rupture/</guid>
-      <pubDate>Mon, 28 Sep 2026 19:54:42 +0000</pubDate>
-    </item>
-    <item>
       <title>Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts</title>
       <link>https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts</link>
       <description>The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.</description>
@@ -705,13 +576,6 @@ The iPhone maker said the</description>
       <description>And view software as a continuously developing capability, rather than a completed product.</description>
       <guid isPermaLink="false">https://www.defenseone.com/business/2026/09/treat-operational-feedback-strategic-resource-new-paper-argues/416284/</guid>
       <pubDate>Mon, 28 Sep 2026 20:56:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Japan's Keio confirms ransomware attack disrupted business systems</title>
-      <link>https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/</link>
-      <description>Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting  some of its business systems. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/</guid>
-      <pubDate>Mon, 28 Sep 2026 20:56:47 +0000</pubDate>
     </item>
     <item>
       <title>Marines Are Adding Anti-Drone Jammers to the Vehicles That Carry Them Ashore</title>
@@ -743,26 +607,11 @@ The iPhone maker said the</description>
       <pubDate>Mon, 28 Sep 2026 21:48:56 +0000</pubDate>
     </item>
     <item>
-      <title>US, UK test SM-6, other missiles on SINKEX target frigate</title>
-      <link>https://breakingdefense.com/2026/09/us-uk-test-sm-6-other-missiles-on-sinkex-target-frigate/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/us-uk-test-sm-6-other-missiles-on-sinkex-target-frigate/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/8087683-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The joint exercise saw the test of several muntions but the final blow was delivered by an Mk 48 Advanced Capability Torpedo, a Navy official said.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/09/us-uk-test-sm-6-other-missiles-on-sinkex-target-frigate/</guid>
-      <pubDate>Mon, 28 Sep 2026 22:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Nvidia Launches AI Agent Safety Platform to Prevent Rogue Activities</title>
       <link>https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities</link>
       <description>The Open Agent Safety Platform relies on both hardware and software components to monitor agent activities and quarantine unruly agents before they cause harm.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities</guid>
       <pubDate>Mon, 28 Sep 2026 22:02:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>For better or for worse, NATO’s future could define Trump’s foreign policy legacy</title>
-      <link>https://www.atlanticcouncil.org/dispatches/for-better-or-for-worse-natos-future-could-define-trumps-foreign-policy-legacy/</link>
-      <description>&lt;p&gt;The Pentagon’s review of US force posture in Europe have high stakes for the United States and the president himself.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/for-better-or-for-worse-natos-future-could-define-trumps-foreign-policy-legacy/"&gt;For better or for worse, NATO’s future could define Trump’s foreign policy legacy&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/for-better-or-for-worse-natos-future-could-define-trumps-foreign-policy-legacy/</guid>
-      <pubDate>Mon, 28 Sep 2026 22:06:05 +0000</pubDate>
     </item>
     <item>
       <title>Hegseth orders cyber, intelligence agencies to prioritize election defense</title>
@@ -914,13 +763,6 @@ Affected versions sent the client secret, the authorization code, and the PKCE p
       <pubDate>Tue, 29 Sep 2026 07:30:47 +0000</pubDate>
     </item>
     <item>
-      <title>Apple patches CoreGraphics zero-day flaw exploited in attacks</title>
-      <link>https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/</link>
-      <description>Apple released security updates to fix a zero-day vulnerability exploited in "extremely sophisticated" targeted attacks on iOS devices. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/</guid>
-      <pubDate>Tue, 29 Sep 2026 07:33:12 +0000</pubDate>
-    </item>
-    <item>
       <title>The Unhedgeable Bet: What the Future Combat Systems Can Teach Us About Acquisition</title>
       <link>https://warontherocks.com/cogs-of-war/the-unhedgeable-bet-what-the-future-combat-systems-can-teach-us-about-acquisition/</link>
       <description>&lt;p&gt;The Pentagon describes Golden Dome for America as a&amp;#160;&amp;#8220;system of systems,&amp;#8221; an integrated air and missile defense architecture that combines space-based sensors, orbital interceptors, ground systems, and a command network designed to defeat any aerial attack. Eighteen months after its founding executive order, the program broke ground on its first operational site. Its architecture remains so closely held that the Congressional Budget Office cannot fully price it, and cost estimates span from $252 billion to $3.6 trillion. The program also carries significant risk of failure, depending on how many tightly coupled, interdependent systems it attempts to integrate.One of the last&lt;/p&gt;
@@ -940,13 +782,6 @@ Police said the individual is expected to appear before the</description>
       <pubDate>Tue, 29 Sep 2026 08:35:10 +0000</pubDate>
     </item>
     <item>
-      <title>Kiteworks patches critical flaw, brings customer systems online</title>
-      <link>https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/</link>
-      <description>American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/</guid>
-      <pubDate>Tue, 29 Sep 2026 09:04:06 +0000</pubDate>
-    </item>
-    <item>
       <title>Tehran Students Protest Compulsory Hijab, Demand Release Of Jailed Classmates</title>
       <link>https://www.rferl.org/a/iran-university-students-protest-hijab/33866436.html</link>
       <description>Students at Tehran's Allameh Tabatabaei University protested against the mandatory dress code for women that make the wearing of head scarves, or hijabs, compulsory. Video posted on social media on September 28 also showed students calling for the release of classmates who have been imprisoned and decrying poor living conditions on campus. Protests in Iran have been relatively rare amid the ongoing war with the United States and Israel and since January's bloody crackdown on...</description>
@@ -954,17 +789,17 @@ Police said the individual is expected to appear before the</description>
       <pubDate>Tue, 29 Sep 2026 09:50:34 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing GPT-6.1 Sol</title>
-      <link>https://openai.com/index/introducing-gpt-6-1-sol</link>
-      <description>Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.</description>
-      <guid isPermaLink="false">https://openai.com/index/introducing-gpt-6-1-sol</guid>
-      <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DevDay 2026 Recap</title>
       <link>https://openai.com/index/devday-2026-recap</link>
       <description>Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.</description>
       <guid isPermaLink="false">https://openai.com/index/devday-2026-recap</guid>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing GPT-6.1 Sol</title>
+      <link>https://openai.com/index/introducing-gpt-6-1-sol</link>
+      <description>Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.</description>
+      <guid isPermaLink="false">https://openai.com/index/introducing-gpt-6-1-sol</guid>
       <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1018,14 +853,6 @@ Police said the individual is expected to appear before the</description>
       <pubDate>Tue, 29 Sep 2026 11:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Don’t ignore the ‘dead rats’ of global disorder</title>
-      <link>https://www.atlanticcouncil.org/content-series/inflection-points/dont-ignore-the-dead-rats-of-global-disorder/</link>
-      <description>&lt;p&gt;A war historian’s recent essay underscores the urgency of addressing the issues increasing strife around the world today. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/content-series/inflection-points/dont-ignore-the-dead-rats-of-global-disorder/"&gt;Don’t ignore the ‘dead rats’ of global disorder&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/content-series/inflection-points/dont-ignore-the-dead-rats-of-global-disorder/</guid>
-      <pubDate>Tue, 29 Sep 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Shield Stops Working: Russia’s Jet Gerans over Ukraine</title>
       <link>https://www.geopoliticalmonitor.com/the-shield-stops-working-russias-jet-gerans-over-ukraine/</link>
       <description>&lt;p&gt;Ukraine shot down 90% of Russia’s propeller drones. Against the jet-powered Gerans, that number collapses to 60%.&lt;/p&gt;
@@ -1039,6 +866,20 @@ Police said the individual is expected to appear before the</description>
       <description>A Vietnamese national was charged with money laundering for his role in a massive "pig butchering" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/</guid>
       <pubDate>Tue, 29 Sep 2026 11:41:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-86950" target="_blank"&gt;CVE-2026-86950&lt;/a&gt; Apple Multiple Products Out-of-Bounds Write Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Lantronix G520 Series Cellular Gateway</title>
@@ -3216,6 +3057,13 @@ Police said the individual is expected to appear before the</description>
       <pubDate>Tue, 29 Sep 2026 16:00:11 +0000</pubDate>
     </item>
     <item>
+      <title>The Knife That Earns Its Place in My Airgun Kit: The SOG SEAL Pup</title>
+      <link>https://sofrep.com/news/the-knife-that-earns-its-place-in-my-airgun-kit-the-sog-seal-pup/</link>
+      <description>The SOG SEAL Pup handles the small to medium sized cutting jobs that can bring an otherwise good afternoon at the range to a grinding halt. #SOGSealPup #SOGKnives #PyramydAIR #AirgunGear #OutdoorGear</description>
+      <guid isPermaLink="false">https://sofrep.com/news/the-knife-that-earns-its-place-in-my-airgun-kit-the-sog-seal-pup/</guid>
+      <pubDate>Tue, 29 Sep 2026 16:00:44 +0000</pubDate>
+    </item>
+    <item>
       <title>USS Klakring sent to the bottom of the Atlantic in joint US-UK SINKEX</title>
       <link>https://www.defensenews.com/news/your-military/2026/09/29/uss-klakring-sent-to-the-bottom-of-the-atlantic-in-joint-us-uk-sinkex/</link>
       <description>A decommissioned U.S. guided-missile frigate was sent to the bottom of the Atlantic on Sept. 25 during a joint U.S.-U.K. naval exercise.</description>
@@ -3406,6 +3254,162 @@ Neither the tax administration nor France's national cybersecurity agency saw th
       <description>Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/</guid>
       <pubDate>Tue, 29 Sep 2026 18:37:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukraine’s innovative robot offensive just reversed a year of Russian gains</title>
+      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-innovative-robot-offensive-just-reversed-a-year-of-russian-gains/</link>
+      <description>&lt;p&gt;Russian President Vladimir Putin’s hopes of capturing eastern Ukraine’s Donbas region have been dealt a major blow in recent months by an innovative Ukrainian offensive that has reversed over a year of Russian territorial gains, writes David Kirichenko.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-innovative-robot-offensive-just-reversed-a-year-of-russian-gains/"&gt;Ukraine&amp;#8217;s innovative robot offensive just reversed a year of Russian gains&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/ukraines-innovative-robot-offensive-just-reversed-a-year-of-russian-gains/</guid>
+      <pubDate>Tue, 29 Sep 2026 19:06:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says</title>
+      <link>https://cyberscoop.com/national-cyber-director-ai-critical-infrastructure-cybersecurity/</link>
+      <description>&lt;p&gt;Sean Cairncross said CEOs need to be cognizant of how it’s being used, however.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/national-cyber-director-ai-critical-infrastructure-cybersecurity/"&gt;US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/national-cyber-director-ai-critical-infrastructure-cybersecurity/</guid>
+      <pubDate>Tue, 29 Sep 2026 19:35:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russia’s Jet-Powered Shahed Drones Are Quickly Evolving As Ukraine Scrambles To Blunt Their Damage</title>
+      <link>https://www.twz.com/news-features/russias-jet-powered-shahed-drones-are-quickly-evolving-as-ukraine-scrambles-to-blunt-their-damage</link>
+      <description>&lt;p&gt;The Geran-4 one-way attack drone uses speed and altitude to evade low-cost interceptors Ukraine depends heavily upon. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/russias-jet-powered-shahed-drones-are-quickly-evolving-as-ukraine-scrambles-to-blunt-their-damage"&gt;Russia&amp;#8217;s Jet-Powered Shahed Drones Are Quickly Evolving As Ukraine Scrambles To Blunt Their Damage&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/russias-jet-powered-shahed-drones-are-quickly-evolving-as-ukraine-scrambles-to-blunt-their-damage</guid>
+      <pubDate>Tue, 29 Sep 2026 19:50:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russian hackers Star Blizzard expand targeting, change up tactics to reach Ukraine and beyond</title>
+      <link>https://cyberscoop.com/microsoft-star-blizzard-redflick-phishing-campaigns/</link>
+      <description>&lt;p&gt;Microsoft says the cyberespionage campaign has hit U.S. and U.K. targets, relying on sheer volume and requiring only a single victim interaction.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/microsoft-star-blizzard-redflick-phishing-campaigns/"&gt;Russian hackers Star Blizzard expand targeting, change up tactics to reach Ukraine and beyond&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/microsoft-star-blizzard-redflick-phishing-campaigns/</guid>
+      <pubDate>Tue, 29 Sep 2026 20:01:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Board of Peace unveils Gaza recovery plan, Israel reports 18 ceasefire violations Sept. 15–29</title>
+      <link>https://www.longwarjournal.org/archives/2026/09/board-of-peace-unveils-gaza-recovery-plan-israel-reports-18-ceasefire-violations-sept-15-29.php</link>
+      <description>&lt;p&gt;The US-backed Board of Peace announced a $2.45 billion plan to rebuild Gaza over six months, but disagreements over Hamas’s disarmament and an Israeli withdrawal continue to obstruct its implementation. A day later, Israeli Prime Minister Benjamin Netanyahu spoke before the United Nations General Assembly. Meanwhile, Israeli forces continued operations against Hamas members working to rebuild the terror group.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/board-of-peace-unveils-gaza-recovery-plan-israel-reports-18-ceasefire-violations-sept-15-29.php"&gt;Board of Peace unveils Gaza recovery plan, Israel reports 18 ceasefire violations Sept. 15–29&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/board-of-peace-unveils-gaza-recovery-plan-israel-reports-18-ceasefire-violations-sept-15-29.php</guid>
+      <pubDate>Tue, 29 Sep 2026 20:04:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Europe needs a new strategy for Russian grey zone aggression</title>
+      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/europe-needs-a-new-strategy-for-russian-grey-zone-aggression/</link>
+      <description>&lt;p&gt;Europe needs a new counter-hybrid playbook, but an approach that focuses on coordinating responses after Russian attacks have already taken place is not an effective deterrent, write Maksym Beznosiuk and William Dixon.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/europe-needs-a-new-strategy-for-russian-grey-zone-aggression/"&gt;Europe needs a new strategy for Russian grey zone aggression&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/europe-needs-a-new-strategy-for-russian-grey-zone-aggression/</guid>
+      <pubDate>Tue, 29 Sep 2026 20:07:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>FBI tells ShinyHunters members to turn themselves in after recent arrest</title>
+      <link>https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/</link>
+      <description>The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/</guid>
+      <pubDate>Tue, 29 Sep 2026 20:09:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yes, transmission is dull. Read this article anyway.</title>
+      <link>https://www.atlanticcouncil.org/blogs/energysource/yes-transmission-is-dull-read-this-article-anyway/</link>
+      <description>&lt;p&gt;Policymakers should prioritize electric power transmission to ensure the success of the US energy system.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/energysource/yes-transmission-is-dull-read-this-article-anyway/"&gt;Yes, transmission is dull. Read this article anyway.&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/energysource/yes-transmission-is-dull-read-this-article-anyway/</guid>
+      <pubDate>Tue, 29 Sep 2026 20:53:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>President Ahmed Al-Sharaa on Syria’s next chapter</title>
+      <link>https://www.atlanticcouncil.org/commentary/podcast/president-ahmed-al-sharaa-on-syrias-next-chapter/</link>
+      <description>&lt;p&gt;Syrian President Ahmed Al-Sharaa joins the Atlantic Council to discuss Syria’s future and his government’s priorities for reconstruction, economic recovery, and institutional reform. This episode also explores the evolving relationship between the United States and Syria, the country’s role in regional conflicts, and Al-Sharaa's vision for Syria's path forward.&lt;/p&gt;
+&lt;p&gt;This conversation was recorded during the Atlantic Council’s #ACinNY programming on the sidelines of the United Nations General Assembly.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/commentary/podcast/president-ahmed-al-sharaa-on-syrias-next-chapter/"&gt;President Ahmed Al-Sharaa on Syria’s next chapter&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/commentary/podcast/president-ahmed-al-sharaa-on-syrias-next-chapter/</guid>
+      <pubDate>Tue, 29 Sep 2026 20:55:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Custom ChatGPTs push ClickFix attacks to deploy RAT malware</title>
+      <link>https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/</link>
+      <description>Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/</guid>
+      <pubDate>Tue, 29 Sep 2026 20:59:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>America’s $20.7 Billion Plan to Refill Its Air-to-Air Missile Racks</title>
+      <link>https://sofrep.com/news/americas-20-7-billion-plan-to-refill-its-air-to-air-missile-racks/</link>
+      <description>A fighter without missiles is a very expensive observation aircraft, and America is betting $20.7 billion that Raytheon can refill the racks before the next war starts. #AMRAAM
+#Raytheon
+#AirPower
+#DefenseTechnology
+#MilitaryReadiness</description>
+      <guid isPermaLink="false">https://sofrep.com/news/americas-20-7-billion-plan-to-refill-its-air-to-air-missile-racks/</guid>
+      <pubDate>Tue, 29 Sep 2026 21:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution</title>
+      <link>https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution</link>
+      <description>A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution</guid>
+      <pubDate>Tue, 29 Sep 2026 21:08:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boeing wins Navy next-gen fighter F/A-XX competition</title>
+      <link>https://breakingdefense.com/2026/09/boeing-navy-ngad-faxx-next-gen-fighter-competition-northrop/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/boeing-navy-ngad-faxx-next-gen-fighter-competition-northrop/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="612" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Boeing-faax-BIG-1024x612.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Boeing&amp;#8217;s win gives it a monopoly on American sixth-gen fighters, following its 2025 selection to build the F-47.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/boeing-navy-ngad-faxx-next-gen-fighter-competition-northrop/</guid>
+      <pubDate>Tue, 29 Sep 2026 21:26:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Signal adds encypted local backup support to iOS, desktop apps</title>
+      <link>https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/</link>
+      <description>Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/</guid>
+      <pubDate>Tue, 29 Sep 2026 21:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected</title>
+      <link>https://cyberscoop.com/citrix-netscaler-zero-day-attacks-three-weeks-undetected/</link>
+      <description>&lt;p&gt;Mandiant researchers said dozens of organizations have been impacted by attacks attributed to advanced and suspected state-sponsored threat groups. They expect more attacks to come.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/citrix-netscaler-zero-day-attacks-three-weeks-undetected/"&gt;Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/citrix-netscaler-zero-day-attacks-three-weeks-undetected/</guid>
+      <pubDate>Tue, 29 Sep 2026 21:30:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple Zero-Day Vulnerability Weaponized in Targeted Attacks</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks</link>
+      <description>Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks</guid>
+      <pubDate>Tue, 29 Sep 2026 21:31:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boeing Wins F/A-XX Next Generation Navy Stealth Fighter Contract (Updated)</title>
+      <link>https://www.twz.com/air/boeing-wins-f-a-xx-next-generation-navy-stealth-fighter-contract</link>
+      <description>&lt;p&gt;F/A-XX has been a very highly anticipated contract award, especially after the Pentagon previously tried to freeze the program.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/boeing-wins-f-a-xx-next-generation-navy-stealth-fighter-contract"&gt;Boeing Wins F/A-XX Next Generation Navy Stealth Fighter Contract (Updated)&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/boeing-wins-f-a-xx-next-generation-navy-stealth-fighter-contract</guid>
+      <pubDate>Tue, 29 Sep 2026 21:40:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navy Orders 30 Drone Ships To Finally Advance Its ‘Medium’ Uncrewed Vessel Ambitions</title>
+      <link>https://www.twz.com/sea/navy-orders-30-drone-ships-to-finally-advance-its-medium-uncrewed-vessel-ambitions</link>
+      <description>&lt;p&gt;The Navy has taken an important step toward to fielding larger USV fleets, an area where it has persistently struggled in the past.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/navy-orders-30-drone-ships-to-finally-advance-its-medium-uncrewed-vessel-ambitions"&gt;Navy Orders 30 Drone Ships To Finally Advance Its &amp;#8216;Medium&amp;#8217; Uncrewed Vessel Ambitions&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/sea/navy-orders-30-drone-ships-to-finally-advance-its-medium-uncrewed-vessel-ambitions</guid>
+      <pubDate>Tue, 29 Sep 2026 22:14:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Navy selects Boeing to build next-generation F/A-XX fighter</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/09/29/us-navy-selects-boeing-to-build-next-generation-fa-xx-fighter/</link>
+      <description>Boeing has officially been selected to build the Navy’s sixth-generation carrier-based strike fighter, dubbed F/A-XX.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/09/29/us-navy-selects-boeing-to-build-next-generation-fa-xx-fighter/</guid>
+      <pubDate>Tue, 29 Sep 2026 22:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navy to purchase 30 MUSVs following at-sea testing</title>
+      <link>https://breakingdefense.com/2026/09/navy-to-purchase-30-musvs-following-at-sea-testing/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/navy-to-purchase-30-musvs-following-at-sea-testing/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/05/220513-N-OA516-1038-scaled-e1653508351355-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The contracts come as the Navy expands its marketplace for unmanned systems and moves into the second phase of the MUSV program.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/09/navy-to-purchase-30-musvs-following-at-sea-testing/</guid>
+      <pubDate>Tue, 29 Sep 2026 22:25:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
