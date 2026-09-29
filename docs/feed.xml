@@ -7,107 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 00:58:36 +0000</lastBuildDate>
-    <item>
-      <title>Sam Altman’s remarks at the United Nations Security Council</title>
-      <link>https://openai.com/index/sam-altman-un-security-council-remarks</link>
-      <description>OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.</description>
-      <guid isPermaLink="false">https://openai.com/index/sam-altman-un-security-council-remarks</guid>
-      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators</title>
-      <link>https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators</link>
-      <description>&lt;h2&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to highlight considerations for critical infrastructure entities to reduce risk and minimize vulnerabilities when working with third-party industrial control system (ICS) integrators.&lt;/p&gt;
-&lt;p&gt;ICS is an umbrella term referring to integrated networks of hardware and software designed to monitor and automate physical processes, encompassing specialized control systems and devices, such as supervisory control and data acquisition (SCADA) systems and programmable logic controllers. Third-party integrators provide varying types of services for ICS, such as control system design, installation, operational data analysis, device support and service, and daily operational control.&lt;/p&gt;
-&lt;p&gt;Critical infrastructure owners and operators should maintain caution when granting third-party ICS integrators high levels of access or control over industrial processes, ensuring the&amp;nbsp;principle of least privilege (PoLP), is applied. PoLP&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;within OT environments lends itself to granting users, processes, and systems&amp;nbsp;only the minimum access necessary&amp;nbsp;to perform their assigned tasks, and no more. PoLP is designed to protect owners and operators. Not adopting principles such as PoLP could expose owners and operators to malicious cyber actors seeking to compromise critical infrastructure, possibly providing sensitive access to pathways that actors can exploit to cause disruptive and destructive effects to equipment and critical functions.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Critical infrastructure owners and operators should action the recommendations in this fact sheet to work with integrators to ensure secure practices and frameworks are put in place to reduce the risk of malicious actors exploiting third-party accesses to compromise critical infrastructure operational environments.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Examples of Risk and Exploitation&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Much like IT systems, using third-party ICS integrators in critical infrastructure may inadvertently introduce security issues to a customer environment by exposing systems and services not pre-configured to the customer’s security requirements. Critical infrastructure owners and operators that rely on third-party integrators for system design face supply chain risks if integrators and owners and operators do not collectively enforce clear requirements for the secure procurement and handling of system components. Furthermore, third-party integrators that operate and host data outside of the United States may pose additional risks, as they may be subject to different data storage and management laws that do not meet the security needs of U.S. critical infrastructure entities.&lt;/p&gt;
-&lt;p&gt;According to FBI technical analysis, between March and April 2025, malicious foreign cyber actors gained access to the network of a U.S. industrial automation solutions company that offered services—such as system integration, engineering consulting, and SCADA programming—for industrial customers, including power utilities and transportation entities. While on the network, threat actors searched terms, including “customers” and “SCADA,” and created nine &lt;code&gt;.zip&lt;/code&gt; files consisting of approximately 800 files for presumed exfiltration, including customer SCADA information, ICS device details, and other schematics. Malicious cyber actors could leverage the exfiltrated information to later conduct disruptive attacks against operational environments and disrupt critical services.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Recommendations to Assess Risk&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Critical infrastructure owners and operators should make risk-informed decisions when considering introducing third-party integrators into their networks and operations, guided by a robust understanding of the organizational risks posed by providing sensitive access to their systems.&lt;/p&gt;
-&lt;p&gt;Organizations should routinely conduct risk assessments to evaluate contracts that involve access to industrial systems, to determine impacts to the organization’s data autonomy and process controls. Risk assessments should address hardware and software supply chain vulnerabilities introduced by integrator equipment, as well as the IT and OT security of these devices and their associated networks. When considering implementing foreign-owned integrators, critical infrastructure owners and operators should also include geopolitical considerations in their risk assessments, such as how the critical infrastructure entity may be directly or indirectly targeted based on the geopolitical climate.&lt;/p&gt;
-&lt;p&gt;Critical infrastructure owners and operators should consider the following questions in their risk assessments to safeguard the security of their operational systems when working with third-party ICS integrators:&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;What organizational data does the integrator store or have access to?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Critical infrastructure network designs, device specifications, logs, and other data can all be useful information for malicious cyber actors. When evaluating the risk of enabling integrators to store or access this data, consider the potential for a malicious cyber actor to access this data through the integrator’s network.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Where is the data stored?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;If the integrator is foreign-owned, consider whether the utility data is stored within the United States or internationally. If data is stored internationally, the laws of that respective country may govern it and may apply even if the integrator is a U.S. subsidiary.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Does the integrator have remote access for operational support?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;If the integrator has remote access to the organization’s ICS network, then there is a potential risk that a malicious cyber actor could gain access to the integrator’s network and pivot into the utility’s network to gain control of their systems. Consider the security of the organization’s remote connections when evaluating the risk these potential access points pose to the organization’s network.&amp;nbsp;&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Can the organization operate independently if the integrator is compromised?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Having redundancies in place and the ability to recover the system and operate without the integrator, especially for operationally critical processes, can reduce risk in the event of integrator compromise. Operators should maintain secure, offline backups of all software required to operate equipment to facilitate system recovery.&amp;nbsp;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Recommendations to Reduce Risk&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The authoring agencies recommend critical infrastructure owners and operators implement the following steps to reduce the risks associated with using third-party ICS integrators:&lt;/p&gt;
-&lt;ul type="square"&gt;
-&lt;li&gt;&lt;strong&gt;Include cybersecurity and supply chain cybersecurity in contracts and service agreements.&amp;nbsp;&lt;/strong&gt;When preparing service agreements, include requirements on areas such as:&lt;br /&gt;
-&lt;ul type="circle"&gt;
-&lt;li&gt;Data storage locations, information protection agreements, and protection of ICS data and design documentation,&lt;/li&gt;
-&lt;li&gt;Remote access capabilities,&lt;/li&gt;
-&lt;li&gt;Basics of the integrator’s cybersecurity program,&lt;/li&gt;
-&lt;li&gt;Change management and patch management policies,&lt;/li&gt;
-&lt;li&gt;Actions taken to secure deployed components (e.g., changing default passwords, disabling unused ports),&lt;/li&gt;
-&lt;li&gt;Listing authorized personnel with access to systems, and&lt;/li&gt;
-&lt;li&gt;Processes that enable local engineering support when necessary, limiting required integrator intervention.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Evaluate devices with external internet exposure.&lt;/strong&gt; Organizations should work with integrators to understand where devices are hosted and minimize exposure by disconnecting devices from the public-facing internet.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Monitor and log remote access. &lt;/strong&gt;Ensure integrators access equipment using routes you are able to monitor. Use on-demand remote access if possible, so operators have to proactively allow remote access.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Request an inventory of all software and hardware supplied by the integrator&lt;/strong&gt;, as well as documentation for how it connects to your infrastructure and how it will be updated.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Practice procedures and maintain capabilities for manual operations&lt;/strong&gt;, keeping in mind, and accounting for, where third parties fit into the environment and recovery procedures.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul type="square"&gt;
-&lt;li&gt;For guidance on asset inventories, see CISA’s &lt;a href="https://www.cisa.gov/resources-tools/resources/foundations-ot-cybersecurity-asset-inventory-guidance-owners-and-operators" title="Foundations for OT Cybersecurity: Asset Inventory Guidance for Owners and Operators"&gt;Foundations for OT Cybersecurity: Asset Inventory Guidance for Owners and Operators&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;For additional information on SBOMs, see CISA’s &lt;a href="https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom" title="2026 Minimum Elements for a Software Bill of Materials (SBOM)"&gt;2026 Minimum Elements for a Software Bill of Materials (SBOM)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;For guidance on supply chain risk management, see the Communications Sector Coordinating Council (CSCC) and IT Sector Coordinating Council’s (SCC)&amp;nbsp;&lt;a href="https://www.comms-scc.org/wp-content/uploads/2025/07/ICTSCRMTaskForce_SupplierProductsandServicesThreatEvaluationReport_July2025.pdf" target="_blank" title="Supplier, Products, and Services Threat Evaluation (to include Impact Analysis and Mitigation)"&gt;Supplier, Products, and Services Threat Evaluation (to include Artificial Intelligence Risks and Mitigations)&lt;/a&gt;, and NIST’s&amp;nbsp;&lt;a href="https://csrc.nist.gov/Projects/cyber-supply-chain-risk-management" target="_blank" title="Cybersecurity Supply Chain Risk Management"&gt;Cybersecurity Supply Chain Risk Management&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;For additional information and resources concerning cyber threats to ICS, visit &lt;a href="https://www.cisa.gov/ics" title="Industrial Control Systems"&gt;Industrial Control Systems&lt;/a&gt; for Cybersecurity Advisories and other cybersecurity guidance and best practices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;strong&gt;Contact Information&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The authoring agencies strongly urge critical infrastructure operators to report suspicious cyber activity to the following entities:&lt;/p&gt;
-&lt;ul type="square"&gt;
-&lt;li&gt;Report cyber activity to &lt;a href="https://www.fbi.gov/contact-us/field-offices" target="_blank" title="your local FBI field office"&gt;your local FBI field office&lt;/a&gt; or &lt;a href="http://www.ic3.gov/" target="_blank" title="IC3"&gt;IC3&lt;/a&gt;, or contact CISA via CISA’s 24/7 Operations Center at &lt;a href="mailto:contact@cisa.dhs.gov" title="contact@cisa.dhs.gov"&gt;contact@cisa.dhs.gov&lt;/a&gt; or 1-844-Say-CISA (1-844-729-2472).&lt;/li&gt;
-&lt;li&gt;Report any leads, threats, and suspected criminal activity by submitting an &lt;a href="https://tips.fbi.gov/" target="_blank" title="electronic tip"&gt;electronic tip&lt;/a&gt;, calling 1-800-CALL-FBI (1-800-225-5324), or contacting &lt;a href="https://www.fbi.gov/contact-us/field-offices" target="_blank" title="your local FBI field office"&gt;your local FBI field office&lt;/a&gt;.&lt;br /&gt;&lt;strong&gt;Note:&lt;/strong&gt; This website cannot be used to report emergencies or immediate threat to life. For emergencies or immediate threat to life, please call 911.&lt;/li&gt;
-&lt;li&gt;If you are a law enforcement entity, use the unclassified information-sharing system eGuardian (accessible via the &lt;a href="https://www.cjis.gov/" target="_blank" title="Law Enforcement Enterprise Portal"&gt;Law Enforcement Enterprise Portal&lt;/a&gt;) for reporting suspicious activity reports to the FBI. &lt;strong&gt;Note: &lt;/strong&gt;If the information is urgent, then contact &lt;a href="https://www.fbi.gov/contact-us/field-offices" target="_blank" title="your local FBI field office"&gt;your local FBI&amp;nbsp;field office&lt;/a&gt; directly and follow up with an eGuardian report.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;CISA and the authoring agencies do not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA and the authoring agencies.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Version History&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;September 23, 2026&lt;/strong&gt;: Initial version.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators</guid>
-      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Arakan Army Expands Influence along the Bangladesh Border</title>
-      <link>https://www.geopoliticalmonitor.com/arakan-army-bangladesh-border-bandarban-influence/</link>
-      <description>&lt;p&gt;The Arakan Army now controls all 271km of Myanmar's border with Bangladesh — and is crossing it.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/arakan-army-bangladesh-border-bandarban-influence/"&gt;The Arakan Army Expands Influence along the Bangladesh Border&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/arakan-army-bangladesh-border-bandarban-influence/</guid>
-      <pubDate>Wed, 23 Sep 2026 12:49:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI extends cyber access to Ukraine for civilian defense</title>
-      <link>https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense</link>
-      <description>OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.</description>
-      <guid isPermaLink="false">https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense</guid>
-      <pubDate>Wed, 23 Sep 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Europe’s push to reduce US reliance is reshaping the defense space market</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</link>
-      <description>Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/</guid>
-      <pubDate>Wed, 23 Sep 2026 13:15:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Canada Is Uniquely Qualified to Lead the Western Alliance in Unmanned Systems</title>
-      <link>https://www.geopoliticalmonitor.com/canada-unmanned-systems-western-alliance/</link>
-      <description>&lt;p&gt;Tariffs are hollowing out Canadian auto plants. Defense drones could refill them if Ottawa hits its 2035 targets.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/canada-unmanned-systems-western-alliance/"&gt;Canada Is Uniquely Qualified to Lead the Western Alliance in Unmanned Systems&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/canada-unmanned-systems-western-alliance/</guid>
-      <pubDate>Wed, 23 Sep 2026 13:35:07 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 29 Sep 2026 06:42:06 +0000</lastBuildDate>
     <item>
       <title>Afghanistan Reduced Opium Production. What Was the Impact on Drug Trafficking?</title>
       <link>https://www.geopoliticalmonitor.com/afghanistan-opium-ban-drug-trafficking-impact/</link>
@@ -219,18 +119,18 @@
       <pubDate>Thu, 24 Sep 2026 07:30:45 +0000</pubDate>
     </item>
     <item>
+      <title>AI is dominating the conversation at Climate Week</title>
+      <link>https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/</link>
+      <description>This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than usual. This year, the unavoidable topic is artificial intelligence.&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/</guid>
+      <pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>How tax policy can stop threat actors from breaching US water systems</title>
       <link>https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/</link>
       <description>&lt;p&gt;New federal programs take years to launch and fund. State and local governments need cybersecurity software now. The One Big Beautiful Bill already enables tax incentives. Congress should clarify and deploy them.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/"&gt;How tax policy can stop threat actors from breaching US water systems&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/how-federal-tax-incentives-can-protect-state-local-cybersecurity-op-ed/</guid>
-      <pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI is dominating the conversation at Climate Week</title>
-      <link>https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/</link>
-      <description>This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than usual. This year, the unavoidable topic is artificial intelligence.&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/</guid>
       <pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1656,6 +1556,14 @@
       <pubDate>Fri, 25 Sep 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
+      <title>Islamic State suspects extradited or arrested in Lebanon, Canada, Australia, and the US</title>
+      <link>https://www.longwarjournal.org/archives/2026/09/islamic-state-suspects-extradited-or-arrested-in-lebanon-canada-australia-and-the-us.php</link>
+      <description>&lt;p&gt;Over the past 72 hours, authorities in four countries announced arrests, charges, and an extradition involving alleged Islamic State activity, including an assassination plot, a chemical attack, propaganda distribution, and financing travel to Syria. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/islamic-state-suspects-extradited-or-arrested-in-lebanon-canada-australia-and-the-us.php"&gt;Islamic State suspects extradited or arrested in Lebanon, Canada, Australia, and the US&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/islamic-state-suspects-extradited-or-arrested-in-lebanon-canada-australia-and-the-us.php</guid>
+      <pubDate>Fri, 25 Sep 2026 12:31:20 +0000</pubDate>
+    </item>
+    <item>
       <title>A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)</title>
       <link>https://isc.sans.edu/diary/rss/33368</link>
       <description>Introduction&amp;#xd;</description>
@@ -1668,6 +1576,14 @@
       <description>Under a U.S. agreement signed this week, a small outpost at Mestersvig, Greenland, could soon become a key American military foothold in the Arctic.</description>
       <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/09/25/desolate-arctic-outpost-likely-to-host-us-troops-under-new-greenland-deal/</guid>
       <pubDate>Fri, 25 Sep 2026 13:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iraq agrees to Turkish base deal as militia disarmament timeline debated</title>
+      <link>https://www.longwarjournal.org/archives/2026/09/iraq-agrees-to-turkish-base-deal-as-militia-disarmament-timeline-debated.php</link>
+      <description>&lt;p&gt;Iraqi Prime Minister Ali al Zaidi has outlined a plan to disarm Iran-backed militias by June 2027 as Baghdad prepares for the withdrawal of US forces. The proposed disarmament timeline coincides with an agreement for Turkey to gradually hand over its Bashiqa-Zilkan military base to Iraq, part of wider efforts to bring armed groups and military facilities under Iraqi state control.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/iraq-agrees-to-turkish-base-deal-as-militia-disarmament-timeline-debated.php"&gt;Iraq agrees to Turkish base deal as militia disarmament timeline debated&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/iraq-agrees-to-turkish-base-deal-as-militia-disarmament-timeline-debated.php</guid>
+      <pubDate>Fri, 25 Sep 2026 13:24:55 +0000</pubDate>
     </item>
     <item>
       <title>Stopping IT Worker Scams Requires Revamped HR Process</title>
@@ -1692,16 +1608,16 @@
     </item>
     <item>
       <title>Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/</link>
+      <link>https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/</link>
       <description>French firm Thales is “quite advanced” in discussions with a number of NATO countries about using its artificial intelligence-powered C2 system.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/</guid>
       <pubDate>Fri, 25 Sep 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/</link>
+      <link>https://www.c4isrnet.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/</link>
       <description>French firm Thales is “quite advanced” in discussions with a number of NATO countries about using its artificial intelligence-powered C2 system.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/</guid>
       <pubDate>Fri, 25 Sep 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
@@ -1794,16 +1710,16 @@
     </item>
     <item>
       <title>US appeals court upholds Pentagon’s blacklisting of Anthropic</title>
-      <link>https://www.c4isrnet.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</link>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</link>
       <description>A federal appeals court upheld the Pentagon’s blacklisting of Anthropic from military contracts, handing a victory to President Trump and the Pentagon.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</guid>
       <pubDate>Fri, 25 Sep 2026 19:19:29 +0000</pubDate>
     </item>
     <item>
       <title>US appeals court upholds Pentagon’s blacklisting of Anthropic</title>
-      <link>https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</link>
+      <link>https://www.c4isrnet.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</link>
       <description>A federal appeals court upheld the Pentagon’s blacklisting of Anthropic from military contracts, handing a victory to President Trump and the Pentagon.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/</guid>
       <pubDate>Fri, 25 Sep 2026 19:19:29 +0000</pubDate>
     </item>
     <item>
@@ -2109,13 +2025,6 @@
       <description>The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/</guid>
       <pubDate>Mon, 28 Sep 2026 06:24:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump Denies Offering Iran Sanctions Relief, Frozen Funds Amid Renewed Indirect Talks</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Mon, 28 Sep 2026 06:26:20 +0000</pubDate>
     </item>
     <item>
       <title>The Lenfest Institute grows landmark program with expanded OpenAI support</title>
@@ -2576,6 +2485,13 @@ The malware has been seen in a small number of targeted intrusions at telecommun
       <pubDate>Mon, 28 Sep 2026 18:50:59 +0000</pubDate>
     </item>
     <item>
+      <title>How we will do better for Australia</title>
+      <link>https://openai.com/index/how-we-will-do-better-for-australia</link>
+      <description>OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.</description>
+      <guid isPermaLink="false">https://openai.com/index/how-we-will-do-better-for-australia</guid>
+      <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Shipbuilder Behind Failed Constellation Class Wants Back Into The U.S. Navy Frigate Business</title>
       <link>https://www.twz.com/sea/shipbuilder-behind-failed-constellation-class-wants-back-into-the-u-s-navy-frigate-game</link>
       <description>&lt;p&gt;Fincantieri wants to leverage its U.S. infrastructure for another new frigate as the Navy is once again looking for foreign 'production ready' designs.&lt;/p&gt;
@@ -2601,6 +2517,14 @@ The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write i
 The iPhone maker said the</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html</guid>
       <pubDate>Mon, 28 Sep 2026 19:18:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fighting between Pakistan and the Taliban persists into second week</title>
+      <link>https://www.longwarjournal.org/archives/2026/09/fighting-between-pakistan-and-the-taliban-persists-into-second-week.php</link>
+      <description>&lt;p&gt;The latest round of conflict between Pakistan and the Taliban continued this past week, including airstrikes, cross-border attacks, targeted operations, and a car bombing. The renewed direct clashes that began on September 18 ended a nearly three-month lull in fighting between the former allies.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/09/fighting-between-pakistan-and-the-taliban-persists-into-second-week.php"&gt;Fighting between Pakistan and the Taliban persists into second week&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/09/fighting-between-pakistan-and-the-taliban-persists-into-second-week.php</guid>
+      <pubDate>Mon, 28 Sep 2026 19:20:31 +0000</pubDate>
     </item>
     <item>
       <title>Dutch police confirm arrest in ShinyHunters hacking investigation</title>
@@ -2712,7 +2636,7 @@ The iPhone maker said the</description>
       <pubDate>Mon, 28 Sep 2026 22:35:35 +0000</pubDate>
     </item>
     <item>
-      <title>Zelenskyy Warns of New Russian Mobilization and 10,000 North Korean Troop Deployment</title>
+      <title>Zelenskyy Warns Of New Russian Mobilization, 10,000 North Korean Troop Deployment</title>
       <link>https://www.rferl.org/a/zelenskyy-ukraine-drone-russian-mobilization-north-korea/33865993.html</link>
       <description>The death toll from Russia’s jet-powered drone attacks mounted in Ukraine while Ukrainian President Volodymyr Zelenskyy warned that the Kremlin is preparing for a new mobilization at home and a fresh deployment of 10,000 North Korean troops.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/zelenskyy-ukraine-drone-russian-mobilization-north-korea/33865993.html</guid>
@@ -2733,6 +2657,26 @@ The iPhone maker said the</description>
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/citrix-zero-days-delayed-disclosure/"&gt;Citrix patches actively exploited NetScaler zero-days after a weekend of unofficial warnings&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/citrix-zero-days-delayed-disclosure/</guid>
       <pubDate>Tue, 29 Sep 2026 00:58:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)</title>
+      <link>https://isc.sans.edu/diary/rss/33378</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33378</guid>
+      <pubDate>Tue, 29 Sep 2026 02:00:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>The New Forever War</title>
+      <link>https://www.foreignaffairs.com/iran/new-forever-war</link>
+      <description>Why America and Iran fight on without victory.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/iran/new-forever-war</guid>
+      <pubDate>Tue, 29 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UK Police Release On Bail 5 Men Held Over Airbase Incident</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Tue, 29 Sep 2026 05:23:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
