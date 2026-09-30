@@ -7,22 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 22:49:01 +0000</lastBuildDate>
-    <item>
-      <title>Mexican EPICS in IEEE Team Builds Portable Educational Platform</title>
-      <link>https://spectrum.ieee.org/epics-in-ieee-portable-educational</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/four-young-adult-students-laugh-together-while-one-of-them-holds-a-robot-shaped-like-a-hexagonal-cylinder.jpg?id=67845427&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C156%2C0%2C157" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, but they lack access to advanced tools such as robotics laboratories. The resources shortfall limits the students’ opportunities for hands-on learning on cutting-edge applications.&lt;/p&gt;&lt;p&gt;A team from &lt;a href="https://apps.iteso.mx/web/iteso/inicio" rel="noopener noreferrer" target="_blank"&gt;ITESO, Universidad Jesuita de Guadalajara&lt;/a&gt;, is working to change that. Through the &lt;a href="https://epics.ieee.org" rel="noopener noreferrer" target="_blank"&gt;EPICS in IEEE&lt;/a&gt; initiative, a multidisciplinary group of 15 engineering students, faculty advisors, and &lt;a href="https://www.ieeegdl.org/" rel="noopener noreferrer" target="_blank"&gt;IEEE Guadalajara Section&lt;/a&gt; volunteers developed RoboMeshA. The portable, self-contained educational platform brings robotics and AI experiences into classrooms.&lt;/p&gt;&lt;p&gt;&lt;a href="https://spectrum.ieee.org/epics-in-ieee-15th-anniversary" target="_self"&gt;EPICS&lt;/a&gt; is administered by &lt;a href="https://ea.ieee.org" rel="noopener noreferrer" target="_blank"&gt;IEEE Educational Activities&lt;/a&gt; and funded by the &lt;a href="https://www.ieee-ras.org/" rel="noopener noreferrer" target="_blank"&gt;IEEE Robotics and Automation Society&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;A mobile laboratory&lt;/h2&gt;&lt;p&gt;Rather than requiring a school to build a dedicated computer lab or install complex software, RoboMeshA&lt;em&gt; &lt;/em&gt;operates as an all-in-one mobile learning network.&lt;/p&gt;&lt;p&gt;“RoboMeshA brings robotics and AI to students who don’t have access to specialized facilities or preinstalled software,” says team member Fernando Vidal Luna, an IEEE student member and a mechatronics engineering major at ITESO.&lt;/p&gt;&lt;p&gt;Students connect directly to the platform from a user-friendly web browser. They can interact with the robot manually or use its control modes to watch it move and detect and avoid obstacles.&lt;/p&gt;&lt;p&gt;“The project combines mechanical design, embedded systems, control engineering, computer vision, and AI into a single robotic system that functions as a mobile learning laboratory,” says faculty advisor &lt;a href="https://www.linkedin.com/in/jorgealizarraga/" rel="noopener noreferrer" target="_blank"&gt;Jorge A. Lizarraga&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;The team says young students are interested in technology, programming, and robotics but don’t have an opportunity to work with systems that combine mechanics, electronics, software, and control.&lt;/p&gt;&lt;p&gt;“RoboMeshA allows students to see how all these disciplines work together in a tangible and understandable way,” says team member José S. González, who also is studying mechatronics engineering.&lt;/p&gt;&lt;p&gt;The team has built two units and is developing a modular coupling framework to expand the system’s capabilities for research and classroom demonstrations. The structured system design approach connects independent software components while minimizing internal dependencies, enabling four RobotMeshA robots to operate together.&lt;/p&gt;&lt;h2&gt;Overcoming design challenges&lt;/h2&gt;&lt;p&gt;The team faced significant hurdles while designing the project.&lt;/p&gt;&lt;p&gt;“One key challenge involved the robot’s structural design,” Luna says. “It wasn’t only about making a chassis where all the components fit and the design had sufficient stability, rigidity, and weight distribution. It was also about ensuring that the electronics were protected while still being accessible for maintenance, testing, and modifications.”&lt;/p&gt;&lt;p&gt;“It was also challenging to design a platform that could be used by students with different levels of experience,” González adds.&lt;/p&gt;&lt;p class="pull-quote"&gt;“When students realize the technology they develop can inspire others and improve lives, engineering becomes far more meaningful.” &lt;strong&gt;—Luis Fernando Luque-Vega&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The team partnered with the &lt;a href="https://www.colomos.ceti.mx/" target="_blank"&gt;CETI Colomos&lt;/a&gt; and &lt;a href="https://prepa.iteso.mx/" rel="noopener noreferrer" target="_blank"&gt;Prepa ITESO&lt;/a&gt; high schools to validate the platform in classroom settings.&lt;/p&gt;&lt;p&gt;“We wanted the first interactions with the robot to be simple and intuitive,” González says, “such that students could simply power the robot, connect to its network, and begin interacting with it, rather than having to deal with software installation, extensive configuration, or troubleshooting.”&lt;/p&gt;&lt;h2&gt;Engineering with social impact&lt;/h2&gt;&lt;p&gt;Many of the students who participated were from ITESO’s applied professional projects program. The experience offered them &lt;a href="https://spectrum.ieee.org/hands-on-projects-career-advice" target="_self"&gt;practical training&lt;/a&gt; in project management, system integration, and user-centered design.&lt;/p&gt;&lt;p&gt;The team also presented a research paper and a project poster in May at the &lt;a href="https://congresossuj.mx/congresos/3er-congreso-de-ingenierias-suj/" rel="noopener noreferrer" target="_blank"&gt;Engineering Congress of the Jesuit University System&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;“Seeing a design move from a digital model to a physical system was invaluable,” González says. “Working with students from different backgrounds taught us to listen to end users and design for their actual needs.”&lt;/p&gt;&lt;p&gt;Project lead &lt;a href="https://www.linkedin.com/in/luis-fernando-luque-vega-289aa348/" rel="noopener noreferrer" target="_blank"&gt;Luis Fernando Luque-Vega&lt;/a&gt;, an IEEE member, says he’d like the venture to serve as a blueprint for engineering education.&lt;/p&gt;&lt;p&gt;“I hope RoboMeshA&lt;em&gt; &lt;/em&gt;is adopted by schools, universities, and IEEE student branches across Mexico and internationally as a model for integrating technical innovation with community engagement,” Luque-Vega says.&lt;/p&gt;&lt;p&gt;By pairing engineering talent with community service, initiatives such as EPICS in IEEE demonstrate how targeted support can turn academic concepts into real-world solutions.&lt;/p&gt;&lt;p&gt;“When students realize the technology they develop can inspire others and improve lives, engineering becomes far more meaningful,” Luque-Vega says.&lt;/p&gt;&lt;p&gt;For more information on service-learning opportunities, visit the &lt;a href="https://epics.ieee.org/" rel="noopener noreferrer" target="_blank"&gt;EPICS website&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/epics-in-ieee-portable-educational</guid>
-      <pubDate>Thu, 24 Sep 2026 18:00:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Who’s Who In The Fight Over Whether AI Will Kill Us</title>
-      <link>https://cset.georgetown.edu/article/whos-who-in-the-fight-over-whether-ai-will-kill-us/</link>
-      <description>&lt;p&gt;CSET’s Helen Toner was featured in an article published by Forbes. The article compiles the views of more than 100 AI researchers, executives, and technologists on whether advanced artificial intelligence poses a catastrophic or existential risk to humanity.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/whos-who-in-the-fight-over-whether-ai-will-kill-us/"&gt;Who’s Who In The Fight Over Whether AI Will Kill Us&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cset.georgetown.edu/article/whos-who-in-the-fight-over-whether-ai-will-kill-us/</guid>
-      <pubDate>Thu, 24 Sep 2026 21:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 30 Sep 2026 01:48:18 +0000</lastBuildDate>
     <item>
       <title>America Is Behind on Memory Chips—and Tariffs Threaten to Make Things Harder</title>
       <link>https://cset.georgetown.edu/article/america-is-behind-on-memory-chips-and-tariffs-threaten-to-make-things-harder/</link>
@@ -258,14 +243,6 @@
       <pubDate>Sun, 27 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>British Police Arrest Men Driving Toward U.S. Bomber Base In The U.K. With Suspected Explosives</title>
-      <link>https://www.twz.com/air/british-police-arrest-men-driving-toward-u-s-bomber-base-in-the-u-k-with-suspected-explosives</link>
-      <description>&lt;p&gt;RAF Fairford is a key hub for U.S. bomber and other operations, and was a major launch point for strikes on Iran earlier this year.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/british-police-arrest-men-driving-toward-u-s-bomber-base-in-the-u-k-with-suspected-explosives"&gt;British Police Arrest Men Driving Toward U.S. Bomber Base In The U.K. With Suspected Explosives&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/british-police-arrest-men-driving-toward-u-s-bomber-base-in-the-u-k-with-suspected-explosives</guid>
-      <pubDate>Sun, 27 Sep 2026 14:36:26 +0000</pubDate>
-    </item>
-    <item>
       <title>Wireshark 4.6.9 Released, (Sun, Sep 27th)</title>
       <link>https://isc.sans.edu/diary/rss/33372</link>
       <description>Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.&amp;#xd;</description>
@@ -335,13 +312,6 @@
       <description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/</guid>
       <pubDate>Mon, 28 Sep 2026 08:06:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>UK’s Healey puts defense in focus for reindustrialization push</title>
-      <link>https://www.defensenews.com/global/europe/2026/09/28/uks-healey-puts-defense-in-focus-for-reindustrialization-push/</link>
-      <description>British government leaders are converging around the message that the defense sector will be key in energizing the nation's anemic growth.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/09/28/uks-healey-puts-defense-in-focus-for-reindustrialization-push/</guid>
-      <pubDate>Mon, 28 Sep 2026 11:13:11 +0000</pubDate>
     </item>
     <item>
       <title>The Download: rogue agent liability and the AI Hype Index</title>
@@ -652,7 +622,7 @@ The iPhone maker said the</description>
     <item>
       <title>Introducing dots</title>
       <link>https://openai.com/index/introducing-dots</link>
-      <description>Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.</description>
+      <description>Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.</description>
       <guid isPermaLink="false">https://openai.com/index/introducing-dots</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -671,32 +641,11 @@ The iPhone maker said the</description>
       <pubDate>Tue, 29 Sep 2026 02:00:02 +0000</pubDate>
     </item>
     <item>
-      <title>Thailand’s Constitutional Court Dismisses Petition Seeking Annulment of General Election</title>
-      <link>https://thediplomat.com/2026/09/thailands-constitutional-court-dismisses-petition-seeking-annulment-of-general-election/</link>
-      <description>The petition concerned the use of barcodes and QR codes on ballot papers, which some claimed could breach constitutional requirements for secret voting.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/thailands-constitutional-court-dismisses-petition-seeking-annulment-of-general-election/</guid>
-      <pubDate>Tue, 29 Sep 2026 02:28:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The New Forever War</title>
       <link>https://www.foreignaffairs.com/iran/new-forever-war-america-ali-vaez</link>
       <description>Why America and Iran fight on without victory.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/iran/new-forever-war-america-ali-vaez</guid>
       <pubDate>Tue, 29 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Global Data Center Boom Has Arrived in Southeast Asia</title>
-      <link>https://thediplomat.com/2026/09/the-global-data-center-boom-has-arrived-in-southeast-asia/</link>
-      <description>Will the region's demand for artificial intelligence services justify the enormous outlays of money and resources?</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/the-global-data-center-boom-has-arrived-in-southeast-asia/</guid>
-      <pubDate>Tue, 29 Sep 2026 04:31:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vietnam Confirms Arrest of Viet Tan Activists Reported Missing in Cambodia</title>
-      <link>https://thediplomat.com/2026/09/vietnam-confirms-arrest-of-viet-tan-activists-reported-missing-in-cambodia/</link>
-      <description>Rights groups claim that Nguyen Duc Thuan and Tran Hiep were abducted in Cambodia, in line with a pattern of growing transnational repression by the Vietnamese state.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/vietnam-confirms-arrest-of-viet-tan-activists-reported-missing-in-cambodia/</guid>
-      <pubDate>Tue, 29 Sep 2026 04:41:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot</title>
@@ -715,13 +664,6 @@ The iPhone maker said the</description>
 The development was first reported by The Wall Street Journal. The move "marks a rare case of a major AI developer ditching a new release because of safety concerns," the news publication said.</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html</guid>
       <pubDate>Tue, 29 Sep 2026 05:12:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>South Korean Submarines Could Save Australia From the AUKUS Shambles</title>
-      <link>https://thediplomat.com/2026/09/south-korean-submarines-could-save-australia-from-the-aukus-shambles/</link>
-      <description>Could the conventionally-powered KSS-III sub offer a more affordable and timely alternative to the planned nuclear-powered fleet?</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/south-korean-submarines-could-save-australia-from-the-aukus-shambles/</guid>
-      <pubDate>Tue, 29 Sep 2026 05:19:00 +0000</pubDate>
     </item>
     <item>
       <title>Iran Warns Of Possible Winter Gas Shortages</title>
@@ -745,6 +687,13 @@ Affected versions sent the client secret, the authorization code, and the PKCE p
       <description>A new wave of deadly Russian attacks on Ukrainian cities is fueling bipartisan calls in Washington for US President Donald Trump to use sweeping new sanctions powers against Moscow, with lawmakers arguing that greater economic pressure could strengthen efforts to end the war.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-graham-legislation-russia-sanctions-congress/33866211.html</guid>
       <pubDate>Tue, 29 Sep 2026 06:41:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Living Under a Lethal Sky: Myanmar’s Arakan on Edge as Military Airstrikes on Civilians Grow</title>
+      <link>https://thediplomat.com/2026/09/living-under-a-lethal-sky-myanmars-arakan-on-edge-as-military-airstrikes-on-civilians-grow/</link>
+      <description>Airstrikes are no longer intermittent dangers as they were two years ago, but a constant hazard. They are part of the people’s daily lives, woven into their collective consciousness.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/living-under-a-lethal-sky-myanmars-arakan-on-edge-as-military-airstrikes-on-civilians-grow/</guid>
+      <pubDate>Tue, 29 Sep 2026 07:02:00 +0000</pubDate>
     </item>
     <item>
       <title>The Manhattan Project Mindset: How Nuclear Analogies Are Steering AI Policy Off Course</title>
@@ -859,13 +808,6 @@ Police said the individual is expected to appear before the</description>
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/the-shield-stops-working-russias-jet-gerans-over-ukraine/"&gt;The Shield Stops Working: Russia’s Jet Gerans over Ukraine&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/the-shield-stops-working-russias-jet-gerans-over-ukraine/</guid>
       <pubDate>Tue, 29 Sep 2026 11:23:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vietnamese man charged in $16 million 'pig butchering' crypto scam</title>
-      <link>https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/</link>
-      <description>A Vietnamese national was charged with money laundering for his role in a massive "pig butchering" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/</guid>
-      <pubDate>Tue, 29 Sep 2026 11:41:53 +0000</pubDate>
     </item>
     <item>
       <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
@@ -2838,25 +2780,11 @@ Police said the individual is expected to appear before the</description>
       <pubDate>Tue, 29 Sep 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Pakistan and Terrorism: When the Tables Turn</title>
-      <link>https://thediplomat.com/2026/09/pakistan-and-terrorism-when-the-tables-turn/</link>
-      <description>Islamabad cannot use its own people’s suffering to erase its record of supporting forces that have devastated lives in other countries.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/pakistan-and-terrorism-when-the-tables-turn/</guid>
-      <pubDate>Tue, 29 Sep 2026 12:12:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How readiness stays ready: The F110 delivers power, reliability and scale for the F-15EX</title>
       <link>https://breakingdefense.com/2026/09/how-readiness-stays-ready-the-f110-delivers-power-reliability-and-scale-for-the-f-15ex/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/how-readiness-stays-ready-the-f110-delivers-power-reliability-and-scale-for-the-f-15ex/"&gt;&lt;img alt="F-15EX GE Aerospace" class="attachment-large size-large wp-post-image" height="600" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Military_F-15EX_LeftBank_16.5in_Public_2021.jpg" style="height: auto!important;" width="1000" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] GE Aerospace’s investments in the F110 are paying off in both production and delivery performance.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/09/how-readiness-stays-ready-the-f110-delivers-power-reliability-and-scale-for-the-f-15ex/</guid>
       <pubDate>Tue, 29 Sep 2026 12:29:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Republicans Weren’t Happy With Trump’s Hosting of Xi</title>
-      <link>https://thediplomat.com/2026/09/us-republicans-werent-happy-with-trumps-hosting-of-xi/</link>
-      <description>A spate of Republican senators took umbrage at Trump's reception of “a brutal, unelected, and oppressive dictator.”</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/09/us-republicans-werent-happy-with-trumps-hosting-of-xi/</guid>
-      <pubDate>Tue, 29 Sep 2026 12:30:00 +0000</pubDate>
     </item>
     <item>
       <title>Why Has the Maldives Inserted Itself Into the Chagos Sovereignty Dispute?</title>
@@ -2948,6 +2876,13 @@ Police said the individual is expected to appear before the</description>
       <pubDate>Tue, 29 Sep 2026 14:13:20 +0000</pubDate>
     </item>
     <item>
+      <title>Pakistan’s Escalating Response to Cross-Border Terrorism</title>
+      <link>https://thediplomat.com/2026/09/pakistans-escalating-response-to-cross-border-terrorism/</link>
+      <description>The recurring clashes represent the failure of months of diplomacy and external mediation. Where does the Afghanistan-Pakistan relationship go from here?</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/pakistans-escalating-response-to-cross-border-terrorism/</guid>
+      <pubDate>Tue, 29 Sep 2026 14:14:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers</title>
       <link>https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix</link>
       <description>The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.</description>
@@ -2960,6 +2895,13 @@ Police said the individual is expected to appear before the</description>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/drone-hunting-on-the-border-plus-turmoil-at-an-air-force-think-tank/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/Bo235-pb-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;NORTHCOM is testing ways to counter drone incursions, while an Air Force institute focused on China faces questions about its future.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/09/drone-hunting-on-the-border-plus-turmoil-at-an-air-force-think-tank/</guid>
       <pubDate>Tue, 29 Sep 2026 14:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>After the Flood, Can China, Nepal, and India Move From Earth Observation to Regional Preparedness?</title>
+      <link>https://thediplomat.com/2026/09/after-the-flood-can-china-nepal-and-india-move-from-earth-observation-to-regional-preparedness/</link>
+      <description>A blueprint for building resilience in the Hindu Kush Himalaya.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/after-the-flood-can-china-nepal-and-india-move-from-earth-observation-to-regional-preparedness/</guid>
+      <pubDate>Tue, 29 Sep 2026 14:28:00 +0000</pubDate>
     </item>
     <item>
       <title>Tracking AI Chips: What Does It Cost?</title>
@@ -3005,6 +2947,13 @@ Police said the individual is expected to appear before the</description>
       <pubDate>Tue, 29 Sep 2026 15:00:24 +0000</pubDate>
     </item>
     <item>
+      <title>Why Are China and Japan Still So Focused on the ‘Enemy State Clauses’ of the UN Charter?</title>
+      <link>https://thediplomat.com/2026/09/why-are-china-and-japan-still-so-focused-on-the-enemy-state-clauses-of-the-un-charter/</link>
+      <description>The UNGA voted to delete those sections 20 years ago. But the issue has acquired renewed political significance as Sino-Japanese relations have deteriorated.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/why-are-china-and-japan-still-so-focused-on-the-enemy-state-clauses-of-the-un-charter/</guid>
+      <pubDate>Tue, 29 Sep 2026 15:10:00 +0000</pubDate>
+    </item>
+    <item>
       <title>'NeedyMantis' Provides Long-Term Access to Compromised Networks</title>
       <link>https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks</link>
       <description>Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.</description>
@@ -3027,9 +2976,16 @@ Police said the individual is expected to appear before the</description>
       <pubDate>Tue, 29 Sep 2026 15:20:54 +0000</pubDate>
     </item>
     <item>
+      <title>Taiwan Should Be Kept Off the Negotiating Table</title>
+      <link>https://thediplomat.com/2026/09/taiwan-should-be-kept-off-the-negotiating-table/</link>
+      <description>The fact that Trump didn’t give anything new away on Taiwan shouldn’t obscure how much ground he has already conceded to Xi.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/taiwan-should-be-kept-off-the-negotiating-table/</guid>
+      <pubDate>Tue, 29 Sep 2026 15:26:00 +0000</pubDate>
+    </item>
+    <item>
       <title>GDIT secures $510m US Army task order for global C5ISR-M support</title>
       <link>https://www.army-technology.com/news/gdit-us-army-task-order/</link>
-      <description>General Dynamics Information Technology (GDIT) has been awarded a $510m task order by the US Army Communications Electronics Command (CECOM) to deliver worldwide logistics, sustainment, and maintenance services.</description>
+      <description>General Dynamics Information Technology has been awarded a $510m task order by the US Army Communications Electronics Command to deliver worldwide logistics, sustainment, and maintenance services.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/gdit-us-army-task-order/</guid>
       <pubDate>Tue, 29 Sep 2026 15:29:27 +0000</pubDate>
     </item>
@@ -3272,6 +3228,13 @@ Neither the tax administration nor France's national cybersecurity agency saw th
       <pubDate>Tue, 29 Sep 2026 19:35:45 +0000</pubDate>
     </item>
     <item>
+      <title>Uzbekistan’s Death Penalty Debate Returns After Child Abuse Case</title>
+      <link>https://thediplomat.com/2026/09/uzbekistans-death-penalty-debate-returns-after-child-abuse-case/</link>
+      <description>The debate over the death penalty is back in Uzbekistan, this time involving the country’s most senior officials.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/09/uzbekistans-death-penalty-debate-returns-after-child-abuse-case/</guid>
+      <pubDate>Tue, 29 Sep 2026 19:39:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Russia’s Jet-Powered Shahed Drones Are Quickly Evolving As Ukraine Scrambles To Blunt Their Damage</title>
       <link>https://www.twz.com/news-features/russias-jet-powered-shahed-drones-are-quickly-evolving-as-ukraine-scrambles-to-blunt-their-damage</link>
       <description>&lt;p&gt;The Geran-4 one-way attack drone uses speed and altitude to evade low-cost interceptors Ukraine depends heavily upon. &lt;/p&gt;
@@ -3392,7 +3355,7 @@ Neither the tax administration nor France's national cybersecurity agency saw th
     <item>
       <title>Navy Orders 30 Drone Ships To Finally Advance Its ‘Medium’ Uncrewed Vessel Ambitions</title>
       <link>https://www.twz.com/sea/navy-orders-30-drone-ships-to-finally-advance-its-medium-uncrewed-vessel-ambitions</link>
-      <description>&lt;p&gt;The Navy has taken an important step toward to fielding larger USV fleets, an area where it has persistently struggled in the past.&lt;/p&gt;
+      <description>&lt;p&gt;The Navy has taken an important step toward fielding larger USV fleets, an area where it has persistently struggled in the past.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sea/navy-orders-30-drone-ships-to-finally-advance-its-medium-uncrewed-vessel-ambitions"&gt;Navy Orders 30 Drone Ships To Finally Advance Its &amp;#8216;Medium&amp;#8217; Uncrewed Vessel Ambitions&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sea/navy-orders-30-drone-ships-to-finally-advance-its-medium-uncrewed-vessel-ambitions</guid>
       <pubDate>Tue, 29 Sep 2026 22:14:04 +0000</pubDate>
@@ -3410,6 +3373,42 @@ Neither the tax administration nor France's national cybersecurity agency saw th
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/09/navy-to-purchase-30-musvs-following-at-sea-testing/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2022/05/220513-N-OA516-1038-scaled-e1653508351355-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The contracts come as the Navy expands its marketplace for unmanned systems and moves into the second phase of the MUSV program.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/09/navy-to-purchase-30-musvs-following-at-sea-testing/</guid>
       <pubDate>Tue, 29 Sep 2026 22:25:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why the Pentagon just dropped $450M on tungsten mining</title>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/09/30/why-the-pentagon-just-dropped-450m-on-tungsten-mining/</link>
+      <description>The Pentagon recently announced a $450 million investment in The Elmet Group to strengthen the U.S. supply chain for the critical mineral tungsten.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/09/30/why-the-pentagon-just-dropped-450m-on-tungsten-mining/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:03:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Boeing’s New Rendering Of Its Winning F/A-XX Fighter Tells Us</title>
+      <link>https://www.twz.com/air/what-boeings-new-render-of-its-winning-f-a-xx-fighter-tells-us</link>
+      <description>&lt;p&gt;With new F/A-XX art and Boeing having now won both the USAF and Navy's next-gen fighter contracts, we can compare concepts.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/what-boeings-new-render-of-its-winning-f-a-xx-fighter-tells-us"&gt;What Boeing&amp;#8217;s New Rendering Of Its Winning F/A-XX Fighter Tells Us&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/what-boeings-new-render-of-its-winning-f-a-xx-fighter-tells-us</guid>
+      <pubDate>Wed, 30 Sep 2026 00:22:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>The military may be top-heavy. Don't make things worse with hasty cuts.</title>
+      <link>https://www.defenseone.com/ideas/2026/09/hegseth-military-cut-generals-admirals/416326/</link>
+      <description>Congress should closely monitor Hegseth’s latest effort to reduce the number of generals and admirals.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/ideas/2026/09/hegseth-military-cut-generals-admirals/416326/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft is rolling out Linux container support to WSL</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/</link>
+      <description>Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>$4B in Army counterdrone contracts as drone marketplace</title>
+      <link>https://www.defenseone.com/business/2026/09/army-awards-more-4-billion-counterdrone-contracts-putting-pentagons-new-drone-marketplace-test/416327/</link>
+      <description>The Defense Department launched drones.mil earlier this year following an Army-led effort.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/09/army-awards-more-4-billion-counterdrone-contracts-putting-pentagons-new-drone-marketplace-test/416327/</guid>
+      <pubDate>Wed, 30 Sep 2026 01:10:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
