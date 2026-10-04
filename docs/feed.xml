@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 01:47:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 07:42:58 +0000</lastBuildDate>
     <item>
       <title>OperTraitors: How Kubernetes Operators Betray Your Security Posture</title>
       <link>https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/</link>
@@ -2872,17 +2872,6 @@
       <pubDate>Fri, 02 Oct 2026 05:33:00 +0000</pubDate>
     </item>
     <item>
-      <title>Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes</title>
-      <link>https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.
-
-The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthenticated attackers to write arbitrary files on the underlying system.
-
-"An improper</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html</guid>
-      <pubDate>Fri, 02 Oct 2026 05:49:50 +0000</pubDate>
-    </item>
-    <item>
       <title>Cyber Operators Are Deployed in Place. The Pentagon Should Treat Them That Way</title>
       <link>https://warontherocks.com/cyber-operators-are-deployed-in-place-the-pentagon-should-treat-them-that-way/</link>
       <description>&lt;p&gt;A cyber operator can spend a shift tracking an adversary halfway around the world, walk to the parking lot, and be home in time for dinner. There is no flight home, no demobilization, and no transition from an operational mission back to ordinary life. The war zone is a commute away. That arrangement looks like one of the advantages of cyber warfare. It is also becoming one of its human costs.Bloomberg reported in August that as many as five people working at or alongside U.S. Cyber Command took their own lives in a five-week period in June and July this&lt;/p&gt;
@@ -2904,15 +2893,6 @@ The vulnerability, tracked as CVE-2026-104286 (CVSS score: 9.8), allows unauthen
       <description>On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/</guid>
       <pubDate>Fri, 02 Oct 2026 08:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools</title>
-      <link>https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html</link>
-      <description>Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.
-
-With malicious Android applications abusing the API serving as the main conduit for malware and financial fraud, the tech giant said the move would block a major attack pathway. Advanced Protection is a</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html</guid>
-      <pubDate>Fri, 02 Oct 2026 08:01:30 +0000</pubDate>
     </item>
     <item>
       <title>After Russia's Elections, An Expert On Fraud Is Arrested And Reportedly Beaten</title>
@@ -3617,6 +3597,24 @@ In a "Security Service Espionage Alert" issued on September 30, 2026, MI5 said t
       <description>Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/</guid>
       <pubDate>Sat, 03 Oct 2026 23:12:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing</title>
+      <link>https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html</link>
+      <description>A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations.
+
+The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html</guid>
+      <pubDate>Sun, 04 Oct 2026 07:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members</title>
+      <link>https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html</link>
+      <description>A suspected member of the ShinyHunters digital extortion group, who goes by the online alias "Rey," has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter.
+
+Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, cooperating with the U.S. Federal Bureau of Investigation (FBI) and</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html</guid>
+      <pubDate>Sun, 04 Oct 2026 07:22:05 +0000</pubDate>
     </item>
     <item>
       <title>The Concerns Surrounding Project Meridian: A Call for Military Expertise in Future Warfare</title>
