@@ -7,30 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 17:47:04 +0000</lastBuildDate>
-    <item>
-      <title>OperTraitors: How Kubernetes Operators Betray Your Security Posture</title>
-      <link>https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/</link>
-      <description>&lt;p&gt;We introduce OperTraitor, a tool to audit privileges of Kubernetes operators, identify excessive RBAC risks, and secure non-human identities.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/"&gt;OperTraitors: How Kubernetes Operators Betray Your Security Posture&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/</guid>
-      <pubDate>Tue, 29 Sep 2026 10:00:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Shield Stops Working: Russia’s Jet Gerans over Ukraine</title>
-      <link>https://www.geopoliticalmonitor.com/the-shield-stops-working-russias-jet-gerans-over-ukraine/</link>
-      <description>&lt;p&gt;Ukraine shot down 90% of Russia’s propeller drones. Against the jet-powered Gerans, that number collapses to 60%.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/the-shield-stops-working-russias-jet-gerans-over-ukraine/"&gt;The Shield Stops Working: Russia’s Jet Gerans over Ukraine&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/the-shield-stops-working-russias-jet-gerans-over-ukraine/</guid>
-      <pubDate>Tue, 29 Sep 2026 11:23:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Download: climate tech companies to watch and AI’s discovery problem</title>
-      <link>https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tech backpedaling on its climate ambitions,&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/</guid>
-      <pubDate>Tue, 29 Sep 2026 12:10:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 04 Oct 2026 20:49:29 +0000</lastBuildDate>
     <item>
       <title>EU Council approves five joint defence projects for EDIP funding</title>
       <link>https://www.army-technology.com/news/eu-council-edip-funding-approval/</link>
@@ -239,20 +216,6 @@
       <pubDate>Wed, 30 Sep 2026 10:40:30 +0000</pubDate>
     </item>
     <item>
-      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog</link>
-      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-76504" target="_blank"&gt;CVE-2026-76504&lt;/a&gt; Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog/reducing-significant-risk-known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a class="Hyperlink SCXW60755416 BCX8" href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" rel="noreferrer noopener" target="_blank"&gt;&lt;u&gt;KEV Nomination Form&lt;/u&gt;&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
-      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What the EU’s 2026 State of the Union Reveals About Europe’s Limits</title>
       <link>https://www.geopoliticalmonitor.com/eu-2026-state-of-the-union-strategic-limits/</link>
       <description>&lt;p&gt;Von der Leyen named Europe's vulnerabilities precisely. The harder question is who pays to fix them.&lt;/p&gt;
@@ -336,6 +299,22 @@
 &lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/"&gt;Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/</guid>
       <pubDate>Wed, 30 Sep 2026 20:00:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Triumph or Procrastination? Experts Split on the Trump-Xi Summit</title>
+      <link>https://cset.georgetown.edu/article/triumph-or-procrastination-experts-split-on-the-trump-xi-summit/</link>
+      <description>&lt;p&gt;CSET’s Sam Bresnick shared his expert insight in an op-ed published by War on the Rocks. The article examines President Donald Trump’s three-day summit with Chinese President Xi Jinping in Washington, focusing on high-stakes issues including trade, artificial intelligence, and Taiwan.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/triumph-or-procrastination-experts-split-on-the-trump-xi-summit/"&gt;Triumph or Procrastination? Experts Split on the Trump-Xi Summit&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cset.georgetown.edu/article/triumph-or-procrastination-experts-split-on-the-trump-xi-summit/</guid>
+      <pubDate>Wed, 30 Sep 2026 21:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Will the AI accord have any meaningful impact? Panel weighs in</title>
+      <link>https://cset.georgetown.edu/article/will-the-ai-accord-have-any-meaningful-impact-panel-weighs-in/</link>
+      <description>&lt;p&gt;CSET’s Helen Toner shared her expert insight in an interview with NewsNation’s On Balance. The interview discussed a new binding agreement between President Trump and AI developers to regulate the development and use of artificial intelligence.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cset.georgetown.edu/article/will-the-ai-accord-have-any-meaningful-impact-panel-weighs-in/"&gt;Will the AI accord have any meaningful impact? Panel weighs in&lt;/a&gt; appeared first on &lt;a href="https://cset.georgetown.edu"&gt;Center for Security and Emerging Technology&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cset.georgetown.edu/article/will-the-ai-accord-have-any-meaningful-impact-panel-weighs-in/</guid>
+      <pubDate>Wed, 30 Sep 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure</title>
@@ -2640,13 +2619,6 @@
       <pubDate>Thu, 01 Oct 2026 14:06:19 +0000</pubDate>
     </item>
     <item>
-      <title>Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion</title>
-      <link>https://www.defensenews.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/</link>
-      <description>Taiwan leaders are working to embed resistance against an occupying force into civilian life.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/</guid>
-      <pubDate>Thu, 01 Oct 2026 14:13:06 +0000</pubDate>
-    </item>
-    <item>
       <title>Atlas Robot’s New Hand May Outperform Humanlike Designs</title>
       <link>https://spectrum.ieee.org/robust-robot-hand</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/close-up-of-a-robotic-hand-with-three-fingers-and-a-thumb-making-a-gesture-similar-to-the-sign-of-the-horns.jpg?id=67879402&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C260%2C0%2C261" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Today, &lt;/span&gt;&lt;a href="https://bostondynamics.com/" target="_blank"&gt;Boston Dynamics&lt;/a&gt;&lt;span&gt; is &lt;a href="https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/" target="_blank"&gt;announcing&lt;/a&gt; a redesigned hand for its &lt;/span&gt;&lt;a href="https://spectrum.ieee.org/atlas-humanoid-robot" target="_self"&gt;Atlas robot&lt;/a&gt;&lt;span&gt;. The previous generation could do some &lt;/span&gt;&lt;a href="https://spectrum.ieee.org/robots-ces-2026" target="_self"&gt;crazy superhuman&lt;/a&gt;&lt;span&gt; things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware to a scalable product makes previously ignorable questions suddenly paramount: How can you make a hand that does everything you need it to do but is also rugged and reliable and cost-effective? It’s questions like these that drove the design of the new Atlas hand, and while it doesn’t look much like a human hand, it might be a hand that makes it out into the real world.&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-caption"&gt;- YouTube&lt;/small&gt; &lt;small class="image-media media-photo-credit"&gt; &lt;a href="https://www.youtube.com/watch?v=4whgw2gLBS8" target="_blank"&gt;www.youtube.com&lt;/a&gt; &lt;/small&gt; &lt;/p&gt;&lt;p&gt;Compared to the almost &lt;a href="https://clonerobotics.com/hand" target="_blank"&gt;eerily humanlike hands&lt;/a&gt; designed by a litany of other &lt;a href="https://www.1x.tech/discover/neos-hands" target="_blank"&gt;humanoid&lt;/a&gt; &lt;a href="https://www.unitree.com/Dex5-S" rel="noopener noreferrer" target="_blank"&gt;robotics&lt;/a&gt; &lt;a href="https://www.figure.ai/" rel="noopener noreferrer" target="_blank"&gt;companies&lt;/a&gt;, Atlas’s new hand does look awfully clunky. We’ve certainly seen some of those robots with much more humanlike hands perform dexterous manipulation tasks that are, speaking as someone who has personally witnessed robots haplessly fumble their way through the world for nearly two decades now, nothing short of incredible. And it’s not just what these hands can do—it’s how they look while doing it, as slim, graceful mechanical copies of our own hands. They seem like science fiction, and to some extent, that’s exactly what they are.&lt;/p&gt;&lt;p&gt;“Hands are a ruthless design trade-off,” &lt;a href="https://www.linkedin.com/in/alberto-rodriguez-5457661a8/" rel="noopener noreferrer" target="_blank"&gt;Alberto Rodriguez&lt;/a&gt;, director of robot behavior at Boston Dynamics, tells &lt;em&gt;IEEE Spectrum&lt;/em&gt;. “There’s no way around it, you’re always giving up on something. And many of the current designs are giving up on things like reliability and manufacturability.” This is what invariably happens when you try and cram everything necessary to make a robotic hand function within the form factor of a human hand: It’s going to be either very fragile or very expensive, and likely both at the same time. The unfortunate reality is that for now, and likely for the immediate future, all that these sorts of hands are good for are research and demos.&lt;/p&gt;&lt;p&gt;With Atlas’s new hand, Boston Dynamics is making the design trade-offs necessary to achieve a hand that, according to the press release, is capable of a vast array of useful tasks, including using tools; is strong and rugged; can be cleanly simulated; can be mass-manufactured and repaired at reliably low cost; and is close enough in form factor to a human hand that human demonstrations can be used to train it.&lt;/p&gt;&lt;p&gt;You’ll notice that “looks cosmetically like a human hand” is nowhere on that list, and this new hand doesn’t. Rodriguez explains that getting rid of the pinky was a straightforward decision, agreed on after his team spent a day with their pinkies taped to their ring fingers. But why even add a fourth finger, when the previous generation of Atlas’ hand seemed to do well with only three? It’s not just the extra finger, but a complete redesign that almost doubled the degrees of freedom between the old hand and the new, going from 7 to 13. &lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Close-up of a splayed robotic hand with three fingers and a thumb." class="rm-shortcode" id="8b02e" src="https://spectrum.ieee.org/media-library/close-up-of-a-splayed-robotic-hand-with-three-fingers-and-a-thumb.jpg?id=67879501&amp;amp;width=980" /&gt; &lt;small class="image-media media-photo-credit"&gt;Boston Dynamics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;“We also added the ability for the fingers to splay open because we knew that it was important for one finger to be able to move against another, and we also knew that we needed to be able to hold the handle of a tool with a trigger,” Rodriguez says, which includes many common tools like drills or welding torches. “We’re convinced that from a product perspective, this hand should be able to do everything we need it to do for the foreseeable horizon.” And that ability to finger splay goes beyond what human hands are capable of. According to Rodriguez, “With reinforcement learning, we can discover uses for these superhuman extra motions and exploit them.”&lt;/p&gt;&lt;p&gt;Reliability, manufacturability, and cost are all closely related. By reducing the degrees of freedom relative to other more anthropomorphic hand designs down to just 13, Boston Dynamics can use fewer, larger, and more powerful actuators. The actuators are embedded directly into the joints themselves in a direct-drive configuration, with a transmission that allows the motors to be back-driven and react to force and contact. Each actuator pack is a single unit that can be easily replaced, and there are no delicate tendons or cables across joints to stretch and break. “What we’re working on right now is figuring out what needs to change in the fine details of our design if we want to make 100,000 of these hands a year,” Rodriguez says.&lt;/p&gt;&lt;p&gt;Not every humanoid company will make the trade-offs that Boston Dynamics has done here, and there’s still plenty of room for creativity when it comes to hand design. But if humanoids with hands are going to scale, some difficult decisions will have to be made, and it’ll take some compromise to deliver on the promises that the humanoid industry has committed to.&lt;/p&gt;</description>
@@ -3042,16 +3014,16 @@ Then a board member asks three questions:
     </item>
     <item>
       <title>French Air Force plans loyal wingman flight in 2028 in sovereign AI push</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/</link>
+      <link>https://www.defensenews.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/</link>
       <description>The French Air Force plans to fly crewed fighter jets in collaboration with AI-powered combat drones in 2028, under project Hypairion.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/</guid>
       <pubDate>Fri, 02 Oct 2026 13:59:10 +0000</pubDate>
     </item>
     <item>
       <title>French Air Force plans loyal wingman flight in 2028 in sovereign AI push</title>
-      <link>https://www.defensenews.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/</link>
+      <link>https://www.c4isrnet.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/</link>
       <description>The French Air Force plans to fly crewed fighter jets in collaboration with AI-powered combat drones in 2028, under project Hypairion.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/</guid>
       <pubDate>Fri, 02 Oct 2026 13:59:10 +0000</pubDate>
     </item>
     <item>
@@ -3445,6 +3417,13 @@ This report examines how core areas of</description>
       <pubDate>Sat, 03 Oct 2026 13:48:40 +0000</pubDate>
     </item>
     <item>
+      <title>October 3, 1993: Gothic Serpent Revisited</title>
+      <link>https://sofrep.com/fightersweep/october-3-1993-gothic-serpent-revisited/</link>
+      <description>On October 3, 1993, Task Force Ranger launched a daylight raid in Mogadishu to grab top lieutenants of warlord Mohamed Farrah Aidid. The mission was planned to take about an hour. It became an 18-hour fight through the city, the battle Mark Bowden later immortalized in Black Hawk Down. #BattleOfMogadishu #GothicSerpent #BlackHawkDown #TaskForceRanger #ArmyRangers #DeltaForce #NightStalkers #SpecialOperations #MilitaryHistory #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/fightersweep/october-3-1993-gothic-serpent-revisited/</guid>
+      <pubDate>Sat, 03 Oct 2026 14:00:19 +0000</pubDate>
+    </item>
+    <item>
       <title>Danish university DTU breach exposes data of up to 200,000 people</title>
       <link>https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/</link>
       <description>The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]</description>
@@ -3477,6 +3456,20 @@ In a "Security Service Espionage Alert" issued on September 30, 2026, MI5 said t
       <description>YARA-X&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s 1.21.0 release brings 5 improvements and 4 bugfixes.&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33392</guid>
       <pubDate>Sat, 03 Oct 2026 14:40:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Resurrecting the Selous Scouts to Destroy ISIS</title>
+      <link>https://sofrep.com/news/resurrecting-the-selous-scouts-to-destroy-isis/</link>
+      <description>Rhodesia's Selous Scouts posed as guerrillas, turned captured insurgents into their own operators, and lured the enemy into ambushes. This piece argues those pseudo-operations still hold lessons for the fight against ISIS: turn former fighters against the group, force it into a two-front war, and build American volunteers steeped in local language and culture. #SelousScouts #Rhodesia #RhodesianBushWar #Counterinsurgency #PseudoOperations #ISIS #SpecialOperations #UnconventionalWarfare #MilitaryHistory #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/news/resurrecting-the-selous-scouts-to-destroy-isis/</guid>
+      <pubDate>Sat, 03 Oct 2026 15:00:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Detachment A: the Cold War Sabotage Experts of Special Forces</title>
+      <link>https://sofrep.com/news/detachment-cold-war-sabotage-experts-special-forces/</link>
+      <description>From 1956 to 1984, about 90 Green Berets of Detachment A lived undercover in West Berlin, ready to wage guerrilla war if the Soviets rolled west. They maintained CIA arms caches and planned sabotage of Soviet infrastructure. So effective were they that Moscow believed 600 to 700 Det A operators waited inside the city. #DetachmentA #GreenBerets #SpecialForces #ColdWar #Berlin #UnconventionalWarfare #StayBehind #SpecialOperations #MilitaryHistory #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/news/detachment-cold-war-sabotage-experts-special-forces/</guid>
+      <pubDate>Sat, 03 Oct 2026 16:00:12 +0000</pubDate>
     </item>
     <item>
       <title>Northrop Grumman’s Talon Blue Collaborative Combat Aircraft Has Flown</title>
@@ -3554,7 +3547,7 @@ Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into
       <pubDate>Sun, 04 Oct 2026 09:20:59 +0000</pubDate>
     </item>
     <item>
-      <title>Bosnians Vote In Elections Pitting Pro-Western Against Nationalist Forces</title>
+      <title>Bosnian Elections Pitted Pro-Western Against Nationalist Forces</title>
       <link>https://www.rferl.org/a/bosnians-vote-in-elections-pitting-pro-western-nationalist-forces/33870029.html</link>
       <description>Citizens in Bosnia-Herzegovina are casting their votes in elections to various bodies in the country’s multi-layered political system on October 4, with some candidates pushing for increased efforts at joining the European Union and NATO.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/bosnians-vote-in-elections-pitting-pro-western-nationalist-forces/33870029.html</guid>
@@ -3566,6 +3559,20 @@ Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into
       <description>Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/</guid>
       <pubDate>Sun, 04 Oct 2026 10:53:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+      <description>&lt;p class="text-align-justify"&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
+&lt;ul type="disc"&gt;
+&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-88779"&gt;CVE-2026-88779&lt;/a&gt; Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
+&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s&amp;nbsp;&lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Operating Concept 2040: Green Berets in the Next Great War</title>
@@ -3610,19 +3617,11 @@ Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into
       <pubDate>Sun, 04 Oct 2026 16:00:12 +0000</pubDate>
     </item>
     <item>
-      <title>The Concerns Surrounding Project Meridian: A Call for Military Expertise in Future Warfare</title>
-      <link>https://sofrep.com/?p=231342&amp;preview=true&amp;preview_id=231342</link>
-      <description>The recent announcement surrounding Project Meridian under the auspices of the Secretary of Defense has stirred considerable debate within military and civilian circles alike. The initiative, which seeks to redefine the trajectory of future warfare through the insights of tech magnates like Elon Musk and Palmer Luckey, raises serious questions regarding qualifications, priorities, and ultimately [&amp;#8230;]</description>
-      <guid isPermaLink="false">https://sofrep.com/?p=231342&amp;preview=true&amp;preview_id=231342</guid>
-      <pubDate>Mon, 05 Oct 2026 14:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Does the 12-Man Green Beret Team Survive 2040?</title>
-      <link>https://sofrep.com/?p=231349&amp;preview=true&amp;preview_id=231349</link>
-      <description>A Green Beret team that gets new drones without the training to fight with them has gained nothing but weight in the rucksack. 
-#GreenBerets #SpecialForces #MilitaryRobotics #FutureWarfare #SOFREP</description>
-      <guid isPermaLink="false">https://sofrep.com/?p=231349&amp;preview=true&amp;preview_id=231349</guid>
-      <pubDate>Mon, 05 Oct 2026 16:00:34 +0000</pubDate>
+      <title>Yemeni government launches offensive to seize all areas from Iran-backed Houthis</title>
+      <link>https://www.defensenews.com/global/mideast-africa/2026/10/04/yemeni-government-launches-offensive-to-seize-all-areas-from-iran-backed-houthis/</link>
+      <description>Yemen’s Saudi-backed government said on Sunday it was launching a major military campaign to recapture all areas controlled by the Iran-backed Houthis.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/mideast-africa/2026/10/04/yemeni-government-launches-offensive-to-seize-all-areas-from-iran-backed-houthis/</guid>
+      <pubDate>Sun, 04 Oct 2026 19:50:12 +0000</pubDate>
     </item>
   </channel>
 </rss>
