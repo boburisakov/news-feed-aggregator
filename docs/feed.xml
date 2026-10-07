@@ -7,191 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 02:34:27 +0000</lastBuildDate>
-    <item>
-      <title>Johnson Controls EasyIO Neo Series EC and CW Controllers</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-274-04.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Johnson Controls EasyIO Neo Series EC and CW Controllers are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;EasyIO Neo Series EC Controllers V3.3b63 (CVE-2026-64892)&lt;/li&gt;
-&lt;li&gt;EasyIO Neo Series EC Controllers V3.3b62 (CVE-2026-64892)&lt;/li&gt;
-&lt;li&gt;EasyIO Neo Series CW Controllers V3.3b25 (CVE-2026-64892)&lt;/li&gt;
-&lt;li&gt;EasyIO Neo Series CW Controllers V3.3b24 (CVE-2026-64892)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;th&gt;Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 3.5&lt;/td&gt;
-&lt;td&gt;Johnson Controls&lt;/td&gt;
-&lt;td&gt;Johnson Controls EasyIO Neo Series EC and CW Controllers&lt;/td&gt;
-&lt;td&gt;Exposure of Sensitive Information to an Unauthorized Actor&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing, Commercial Facilities, Government Services and Facilities, Transportation Systems, Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Ireland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="csaf-accordion"&gt;
-&lt;p&gt;&lt;a class="csaf-accordion-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-accordion-item"&gt;
-&lt;h3&gt;&lt;a class="csaf-accordion-toggle" href="https://www.cisa.gov/"&gt;CVE-2026-64892&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="csaf-accordion-content"&gt;
-&lt;p&gt;Johnson Controls is aware of a vulnerability in EasyIO Neo Series EC and CW Controllers relating to an attacker gaining access to sensitive information that could be used to conduct further attacks against the system. The EC and CW are programmable edge controllers designed for building automation and control systems, used to manage and automate various building functions including HVAC, lighting, and energy management, supporting open protocols such as BACnet and Modbus for adaptable system connections.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-64892"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Affected Products&lt;/h4&gt;
-&lt;h5&gt;Johnson Controls EasyIO Neo Series EC and CW Controllers&lt;/h5&gt;
-&lt;div class="ics-vendor-version-status"&gt;
-&lt;div class="ics-vendor"&gt;&lt;strong&gt;Vendor:&lt;/strong&gt;&lt;br /&gt;Johnson Controls&lt;/div&gt;
-&lt;div class="ics-version"&gt;&lt;strong&gt;Product Version:&lt;/strong&gt;&lt;br /&gt;Johnson Controls EasyIO Neo Series EC Controllers: V3.3b63, Johnson Controls EasyIO Neo Series EC Controllers: V3.3b62, Johnson Controls EasyIO Neo Series CW Controllers: V3.3b25, Johnson Controls EasyIO Neo Series CW Controllers: V3.3b24&lt;/div&gt;
-&lt;div class="ics-status"&gt;&lt;strong&gt;Product Status:&lt;/strong&gt;&lt;br /&gt;known_affected&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="ics-remediations"&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Johnson Controls released fixed versions for EasyIO Neo Series EC and CW Controllers. Users should upgrade to the fixed version or later as soon as operationally feasible. The fix is available in EC firmware V3.3b64 and CW firmware V3.3b26. Contact your Johnson Controls representative or authorized EasyIO distributor.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Before applying updates in production ICS/OT environments, users should review operational impact, backup relevant configurations, test updates in a non-production environment where feasible, and follow applicable change-management and safety procedures.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;If immediate update is not possible, Johnson Controls recommends the following mitigations:&amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Implement physical access controls to prevent unauthorized personnel from reaching device debug ports.&lt;/li&gt;
-&lt;li&gt;Monitor network traffic to and from affected devices for unusual or unauthorized access attempts.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Apply the principle of least privilege to all accounts and services that interact with the affected devices.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Where possible, apply firmware updates that disable debug interfaces or require authentication before granting debug access.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Implement intrusion detection/prevention systems to monitor for exploitation attempts.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Refer to and follow all steps in the product hardening guide or the JCI universal hardening guide found here: &lt;a href="https://www.johnsoncontrols.com/trust-center/cybersecurity/resources"&gt;https://www.johnsoncontrols.com/trust-center/cybersecurity/resources&lt;/a&gt; .&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These mitigations reduce risk but may not fully remediate the vulnerability. Users should update to the fixed versions when operationally feasible.&lt;br /&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;For more detailed mitigation instructions, please see Johnson Controls Product Security Advisory JCI-PSA-2026-20.&amp;nbsp;&lt;br /&gt;&lt;a href="https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"&gt;https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/200.html"&gt;CWE-200 Exposure of Sensitive Information to an Unauthorized Actor&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;Metrics&lt;/h4&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;3.5&lt;/td&gt;
-&lt;td&gt;LOW&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:L"&gt;CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;4.8&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:P/VC:L/VI:N/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:P/VC:L/VI:N/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Gabriele Gardois reported this vulnerability to Johnson Controls&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (&lt;a href="https://www.cisa.gov/notification"&gt;https://www.cisa.gov/notification&lt;/a&gt;) and this Privacy &amp;amp; Use policy (&lt;a href="https://www.cisa.gov/privacy-policy"&gt;https://www.cisa.gov/privacy-policy&lt;/a&gt;).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;The recommendations provided within Johnson Controls Hardening Guide should always be applied to minimize security risk. Visit the Johnson Controls Trust Center Cybersecurity website to access the latest Hardening Guidelines and cybersecurity best practices - &lt;a href="https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"&gt;https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories&lt;/a&gt; .&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-10-01&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-10-01&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Republication of Johnson Controls Product Security Advisory JCI-PSA-2026-20&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04</guid>
-      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog</link>
-      <description>&lt;p&gt;CISA has added one new vulnerability to its &lt;a href="https://edit.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-104286"&gt;CVE-2026-104286&lt;/a&gt; Fortinet FortiMail Path Traversal Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://edit.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://edit.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://edit.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a class="ext" href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
-      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Neros, Perennial Autonomy lead in Pentagon’s drone competition</title>
-      <link>https://www.c4isrnet.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/</link>
-      <description>Two companies scored highest during the second phase of a Pentagon competition to find companies that can produce high-quality, low-cost commercial drones.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/</guid>
-      <pubDate>Thu, 01 Oct 2026 14:02:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cobalt’s Silent Cartel: China, Kinshasa and the DRC Export Quota</title>
-      <link>https://www.geopoliticalmonitor.com/drc-cobalt-export-quota-china-cartel/</link>
-      <description>&lt;p&gt;A production problem at one Congolese mine now moves the copper price. That concentration is the story.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/drc-cobalt-export-quota-china-cartel/"&gt;Cobalt&amp;#8217;s Silent Cartel: China, Kinshasa and the DRC Export Quota&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/drc-cobalt-export-quota-china-cartel/</guid>
-      <pubDate>Thu, 01 Oct 2026 14:04:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI policy circles targeted in China-linked phishing operation</title>
-      <link>https://cyberscoop.com/china-cyber-espionage-ta419-phishing-us-ai-policy-experts/</link>
-      <description>&lt;p&gt;Cybersecurity firm Proofpoint said TA419 impersonated officials and AI industry figures in an effort to gain access to cloud accounts held by U.S. think tank, university and legal-sector experts.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/china-cyber-espionage-ta419-phishing-us-ai-policy-experts/"&gt;AI policy circles targeted in China-linked phishing operation&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/china-cyber-espionage-ta419-phishing-us-ai-policy-experts/</guid>
-      <pubDate>Thu, 01 Oct 2026 14:06:19 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 07 Oct 2026 09:16:21 +0000</lastBuildDate>
     <item>
       <title>Atlas Robot’s New Hand May Outperform Humanlike Designs</title>
       <link>https://spectrum.ieee.org/robust-robot-hand</link>
@@ -697,13 +513,6 @@
       <pubDate>Mon, 05 Oct 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>From Central Asia To Russia For Work -- And Into The Military</title>
-      <link>https://www.rferl.org/a/russia-mobilization-enlistment-ukraine-kazakhstan-uzbekistan-tajikistan/33870821.html</link>
-      <description>Kazakhstan has asked Moscow to help bring home citizens who say they were pressured into signing military contracts to fight in Ukraine. The request puts a fresh spotlight on the vulnerability of Central Asian migrants to Russia’s military enlistment efforts.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-mobilization-enlistment-ukraine-kazakhstan-uzbekistan-tajikistan/33870821.html</guid>
-      <pubDate>Mon, 05 Oct 2026 19:29:22 +0000</pubDate>
-    </item>
-    <item>
       <title>US OKs missile guidance kits, Patriot repairs, Javelins for Middle East partners</title>
       <link>https://breakingdefense.com/2026/10/us-oks-missile-guidance-kits-patriot-repairs-javelins-to-middle-east-partners/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/us-oks-missile-guidance-kits-patriot-repairs-javelins-to-middle-east-partners/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261005_DVIDS_kuwait_patriot_9438856-scaled-e1791226918344-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;One proposed deal would allow the United Arab Emirates to purchase $1 billion-worth of Advanced Precision Kill System-II Guidance Sections.&lt;/p&gt;</description>
@@ -770,13 +579,6 @@
       <pubDate>Mon, 05 Oct 2026 22:46:33 +0000</pubDate>
     </item>
     <item>
-      <title>Police, Protesters Clash In Pristina As Lawmakers Debate Bill On War Crimes Court</title>
-      <link>https://www.rferl.org/a/kosovo-protests-parliament-war-crimes-tribunal/33870857.html</link>
-      <description>Police fired tear gas at protesters outside the parliament building in Kosovo's capital, Pristina, on October 5. The protesters were demanding that lawmakers pass legislation that would limit the decisions of a special war crimes tribunal by imposing caps on prison terms for convicted criminals, among other changes. The unrest follows last month's war crimes convictions of four former guerrilla leaders, including ex-President Hashim Thaci.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/kosovo-protests-parliament-war-crimes-tribunal/33870857.html</guid>
-      <pubDate>Mon, 05 Oct 2026 22:46:35 +0000</pubDate>
-    </item>
-    <item>
       <title>Citrix discloses third actively exploited NetScaler zero-day in less than a week</title>
       <link>https://cyberscoop.com/citrix-netscaler-third-exploited-zero-day-vulnerability/</link>
       <description>&lt;p&gt;The vendor was much quicker and consistent in its response to the latest defect, and researchers consider the impact relatively low compared to the previous pair of zero-days.&lt;/p&gt;
@@ -814,13 +616,6 @@
       <pubDate>Tue, 06 Oct 2026 00:19:22 +0000</pubDate>
     </item>
     <item>
-      <title>China’s AI Governance Push and the Race to Shape Global AI Rules</title>
-      <link>https://thediplomat.com/2026/10/chinas-ai-governance-push-and-the-race-to-shape-global-ai-rules/</link>
-      <description>In contrast to Washington's fragmented approach, Beijing is showing an impressive ability to enact and coordinate regulations, policies, technical standards, and enforcement.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/chinas-ai-governance-push-and-the-race-to-shape-global-ai-rules/</guid>
-      <pubDate>Tue, 06 Oct 2026 00:28:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Laos Replaces Prime Minister in Major Leadership Reshuffle</title>
       <link>https://thediplomat.com/2026/10/laos-replaces-prime-minister-in-major-leadership-reshuffle/</link>
       <description>Saleumxay Kommasith, a former foreign minister and permanent representative to the UN, has been appointed to the top job.</description>
@@ -835,27 +630,11 @@
       <pubDate>Tue, 06 Oct 2026 04:34:00 +0000</pubDate>
     </item>
     <item>
-      <title>3 Iranians Accused Of Spying On UK Journalists For Iran</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Tue, 06 Oct 2026 05:03:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Iranian Ships Test Sri Lanka’s Sovereignty Again</title>
       <link>https://thediplomat.com/2026/10/iranian-ships-test-sri-lankas-sovereignty-again/</link>
       <description>The U.S. has threatened Sri Lanka with sanctions if it provides supplies to Iranian vessels stranded off its coasts.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/10/iranian-ships-test-sri-lankas-sovereignty-again/</guid>
       <pubDate>Tue, 06 Oct 2026 05:18:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits</title>
-      <link>https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html</link>
-      <description>A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.
-
-"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file," the Microsoft Threat Intelligence team said in a post on X.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html</guid>
-      <pubDate>Tue, 06 Oct 2026 05:22:55 +0000</pubDate>
     </item>
     <item>
       <title>October 2024 Oxygen Forensics Presentation Video</title>
@@ -1076,7 +855,7 @@ The ecosystem around it fell short. Earlier this year, our team at OX Security,&
       <pubDate>Tue, 06 Oct 2026 11:45:11 +0000</pubDate>
     </item>
     <item>
-      <title>Suspected Russian Plague Death: How Much Should We Worry?</title>
+      <title>Death At Russian Plague Lab: How Much Should We Worry?</title>
       <link>https://www.rferl.org/a/plague-russia-global-alarm-answers/33871315.html</link>
       <description>A suspected case of pneumonic plague killing a laboratory technician in Russia has sparked global alarm about the possibility of wider transmission. RFE/RL spoke to Brendan Wren, a professor of microbial pathogenesis, about the situation and Russia's moves to deal with it.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/plague-russia-global-alarm-answers/33871315.html</guid>
@@ -2988,6 +2767,13 @@ The attack works only when the program's Java support is enabled. So far, it has
       <pubDate>Tue, 06 Oct 2026 17:41:45 +0000</pubDate>
     </item>
     <item>
+      <title>Missing the Forest for the Trees in Taiwan’s Defense Preparations</title>
+      <link>https://thediplomat.com/2026/10/missing-the-forest-for-the-trees-in-taiwans-defense-preparations/</link>
+      <description>Beyond exercises and equipment, strategic developments in Taiwan’s military preparedness are being overlooked.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/missing-the-forest-for-the-trees-in-taiwans-defense-preparations/</guid>
+      <pubDate>Tue, 06 Oct 2026 17:52:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Former NSA chief Nakasone says agency overhaul is ‘probably needed’</title>
       <link>https://cyberscoop.com/nsa-reorganization-paul-nakasone-ai-cyberthreats/</link>
       <description>&lt;p&gt;Paul Nakasone said the reported reorganization is likely necessary to meet faster-moving cyberthreats and competition in AI, but warned its success will rest on execution and a workforce facing mounting retirement pressure.&lt;/p&gt;
@@ -3191,6 +2977,73 @@ The products, which claim to offer campaign optimization, spend audits, and busi
       <link>https://isc.sans.edu/diary/rss/33404</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33404</guid>
       <pubDate>Wed, 07 Oct 2026 02:00:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran-Backed Houthi Target Riyadh, Aden Airports</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Wed, 07 Oct 2026 05:03:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer</title>
+      <link>https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html</link>
+      <description>The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer).
+
+The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html</guid>
+      <pubDate>Wed, 07 Oct 2026 06:57:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>20 Years Since The Death Of Russian Journalist Anna Politkovskaya</title>
+      <link>https://www.rferl.org/a/years-since-the-death-of-russian-journalist-anna-politkovskaya/33871536.html</link>
+      <description>October 7 marks the 20th anniversary of the murder of prominent Kremlin critic Anna Politkovskaya, a tenacious investigative reporter who exposed the brutality of Russia's war in Chechnya and documented how President Vladimir Putin curtailed democracy in Russia. Her daughter, Vera, tells RFE/RL how warning signs were ignored. Two decades later, Chechen leader Ramzan Kadyrov -- a frequent subject of Politkovskaya’s reporting -- remains in power amid continuing allegations of torture,...</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/years-since-the-death-of-russian-journalist-anna-politkovskaya/33871536.html</guid>
+      <pubDate>Wed, 07 Oct 2026 07:27:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Defend Against AI-Designed Viruses</title>
+      <link>https://warontherocks.com/how-to-defend-against-ai-designed-viruses/</link>
+      <description>&lt;p&gt;Anthropic recently disclosed five cases in which users hid their countries while asking Claude for help enhancing pathogens or toxins. This added fuel to the ongoing debate over whether progress in AI should be slowed. Insider warnings of threats to human lives from artificial intelligence have been received as everything from prescient humility to a hoax or marketing stunt. But in a world where AI-designed biological viruses have already been grown in the lab, the threats should be reckoned with in any biodefense strategy.The &amp;#8220;AI doomer&amp;#8221; model of biological risks is that AI will develop intelligence beyond that of any&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/how-to-defend-against-ai-designed-viruses/"&gt;How to Defend Against AI-Designed Viruses&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/how-to-defend-against-ai-designed-viruses/</guid>
+      <pubDate>Wed, 07 Oct 2026 07:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Two Africas</title>
+      <link>https://www.foreignaffairs.com/africa/two-africas</link>
+      <description>Who will benefit from the continent's investment boom?</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/africa/two-africas</guid>
+      <pubDate>Wed, 07 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russia’s Hybrid War Has Entered a Dangerous New Phase</title>
+      <link>https://www.foreignaffairs.com/russia/russias-hybrid-war-has-entered-dangerous-new-phase</link>
+      <description>Julianne Smith, who represented the United States at NATO during the Biden administration, argues that Russian hybrid warfare in Europe is escalating quickly, and NATO is not doing enough to deter it. Putin is attempting to discourage support for Ukraine and undermine faith in Article 5, and NATO is responding with an outdated playbook.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/russia/russias-hybrid-war-has-entered-dangerous-new-phase</guid>
+      <pubDate>Wed, 07 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Navy’s Missing Welders Are Stocking Shelves</title>
+      <link>https://warontherocks.com/cogs-of-war/the-navys-missing-welders-are-stocking-shelves/</link>
+      <description>&lt;p&gt;The U.S. Navy&amp;#8217;s May 2026 shipbuilding plan, signed by Acting Secretary of the Navy Hung Cao, uses the word &amp;#8220;innovative&amp;#8221; eight times. The plan applies that word, among other things, to the Columbia-class submarine, an acquisition strategy for the medium landing ship, and new approaches to running the public shipyards. Elsewhere, the shipbuilding plan notes that recent increases in wages at Electric Boat and Newport News Shipbuilding got both yards to their required 2025 hiring rate and cut attrition by two to five percent.While added funding is a welcome salve to the Navy&amp;#8217;s well-known problem of shipyard worker shortages, it&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/the-navys-missing-welders-are-stocking-shelves/"&gt;The Navy&amp;#8217;s Missing Welders Are Stocking Shelves&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/the-navys-missing-welders-are-stocking-shelves/</guid>
+      <pubDate>Wed, 07 Oct 2026 08:00:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anduril wades into traditional shipbuilding arena with major submarine play</title>
+      <link>https://www.defenseone.com/business/2026/10/anduril-wades-traditional-shipbuilding-arena-major-submarine-play/416459/</link>
+      <description>The defense tech company plans to build submarine components at a shipyard outside of Baltimore in which the government will have an approximate 40 percent stake, President Donald Trump said Tuesday.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/10/anduril-wades-traditional-shipbuilding-arena-major-submarine-play/416459/</guid>
+      <pubDate>Wed, 07 Oct 2026 08:41:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rubio In Iceland Signals Deeper NATO Push As Russia, China Challenge Arctic Security</title>
+      <link>https://www.rferl.org/a/rubio-nato-russia-china-arctic-security/33871932.html</link>
+      <description>US Secretary of State Marco Rubio has signaled a renewed American push to strengthen security in the Arctic, warning that US adversaries and competitors are already acting in a region of growing strategic importance.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/rubio-nato-russia-china-arctic-security/33871932.html</guid>
+      <pubDate>Wed, 07 Oct 2026 08:55:02 +0000</pubDate>
     </item>
     <item>
       <title>Northrop’s Talon Blue Drone Flew Itself. Now It Has to Prove It Can Fight.</title>
