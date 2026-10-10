@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 19:25:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 22:48:10 +0000</lastBuildDate>
     <item>
       <title>Savannah lwIP SMTP client</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02</link>
@@ -1981,13 +1981,6 @@
       <link>https://openai.com/index/pollo-ai</link>
       <description>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.</description>
       <guid isPermaLink="false">https://openai.com/index/pollo-ai</guid>
-      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Writing the Next Chapter</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</link>
-      <description>Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</guid>
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -25091,6 +25084,13 @@
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Writing the Next Chapter</title>
+      <link>https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</link>
+      <description>Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>This Disembodied Hand Is All the Robot You Need</title>
       <link>https://spectrum.ieee.org/walking-robotic-hand</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/a-detached-robotic-hand-using-its-five-fingers-to-walk.jpg?id=68383398&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;a href="https://spectrum.ieee.org/biomimetic-anthropomorphic-robot-hand" target="_blank"&gt;A hand&lt;/a&gt; attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into &lt;a href="https://srl-ethz.github.io/website-fingers-as-legs/" rel="noopener noreferrer" target="_blank"&gt;a completely self-contained robot&lt;/a&gt; that walks on its fingertips while using those same fingers to manipulate its environment.&lt;/p&gt;&lt;p&gt;Besides making the perfect Halloween accessory for anyone planning to dress up as a member of the Addams Family—who were famously accompanied by a disembodied walking hand &lt;a href="https://en.wikipedia.org/wiki/Thing_(The_Addams_Family)" rel="noopener noreferrer" target="_blank"&gt;called Thing&lt;/a&gt;—this robotic hand could make it possible to operate controls and handle objects in places a traditional robot arm can’t reach, the researchers say.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://www.youtube.com/watch?v=93BLyBPAfYs" target="_blank"&gt;Soft Robotics Lab, ETH Zurich/YouTube&lt;/a&gt;&lt;/small&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://srl.ethz.ch/the-group/people/amirhossein-kazemipour.html" rel="noopener noreferrer" target="_blank"&gt;Amirhossein Kazemipour&lt;/a&gt;, a Ph.D. candidate in the &lt;a href="https://srl.ethz.ch/" rel="noopener noreferrer" target="_blank"&gt;Soft Robotics Lab at ETH Zurich&lt;/a&gt; who led the project, believes this hand could prove useful in contexts like fiddly maintenance tasks in industrial settings, or in search and rescue, where a robot could detach its hand to explore confined spaces too tight for the rest of its body. More broadly, he says, the work is a step toward a new approach to robotics in which body parts are not confined to a single role.&lt;/p&gt;&lt;p&gt;“I wanted to see how much a robotic hand could do without the rest of the robot,” Kazemipour told &lt;em&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;/em&gt;. “Instead of having this traditional view of robotic parts, what if we could use those parts to do other tasks that they are not designed to do?”&lt;/p&gt;&lt;p&gt;This is &lt;a href="https://spectrum.ieee.org/epfl-lasa" target="_blank"&gt;not the first attempt&lt;/a&gt; to &lt;a href="https://www.nature.com/articles/s41467-025-67675-8" rel="noopener noreferrer" target="_blank"&gt;get a robot hand to walk&lt;/a&gt;, but previous work has typically relied on specially designed hands. The ETH team instead decided to use off-the-shelf hardware from &lt;a href="https://www.wuji.tech/en/" rel="noopener noreferrer" target="_blank"&gt;Wuji Technology&lt;/a&gt;, augmented with an 80-gram backpack containing a battery, an inertial measurement unit (IMU), and a Raspberry Pi Zero. Kazemipour says they decided to go with a commercial robot hand because they didn’t want to compromise on the hand’s manipulation capabilities. This introduced significant challenges, he adds, because a hand’s shape is optimized for grasping rather than crawling.&lt;/p&gt;&lt;h2&gt;How to Walk With Fingers&lt;/h2&gt;&lt;p&gt;To teach the hand to walk, the researchers trained a model in simulation using reinforcement learning—an approach in which models learn skills through many rounds of trial and error, receiving rewards for getting closer to the desired behavior along with penalties when they diverge from it. But Kazemipour says the unusual geometry of a hand meant they couldn’t just reuse methods used to train other kinds of legged robots. Standard quadrupeds or bipeds tend to be symmetrical on their left and right sides, which simplifies walking and balance, he says. Hands, in contrast, are not at all symmetrical, with fingers of different lengths and an opposable thumb.&lt;/p&gt;&lt;p&gt;In addition to rewards for moving at the right speed and in the right direction and penalties for things like wobbling or jerky movement, the team introduced a novel way to keep the hand in a crawling stance during the simulated training. To account for unequal digit length, they gave each finger its own target position relative to the palm, based on where it naturally sits when in the crawling posture. They then penalized the fingers for straying too far from that reference point, creating what they describe as “virtual springs” that pull the fingers back to the crawling stance. Crucially, the penalties for fingers moving forward and backward are significantly less than those for moving side to side, so taking steps in that way costs the hand very little compared with the rewards it receives for moving.&lt;/p&gt;&lt;p&gt;The team also trained separate models for skills like righting the hand when it falls over, pressing keys on a keyboard, and pushing objects to a target. All four models fit on the onboard computer, says Kazemipour, and the controller can switch between them as necessary. In real-world tests, the hand crawled across 14 different surfaces including smooth floors, metal grates, grass, and gravel. Other experiments confirmed that it could make both right and left turns, and hit an average speed of 9 centimeters per second. The hand was able to right itself in 21 of 25 trials. When given a video feed from an overhead camera, it even managed to autonomously push a 41-gram cube to targets up to 40 cm away 15 times in a row.&lt;/p&gt;&lt;p&gt;“What interests me most about this work is that the same fingers can move the hand, support its weight, and interact with its surroundings,” says &lt;a href="https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-inami_masahiko.html" rel="noopener noreferrer" target="_blank"&gt;Masahiko Inami&lt;/a&gt;, a professor at the University of Tokyo whose group has developed &lt;a href="https://dl.acm.org/doi/10.1145/3745900.3746081" rel="noopener noreferrer" target="_blank"&gt;hand-shaped walking robots&lt;/a&gt;. He agrees that a mobile hand could be useful for reaching confined spaces and operating controls that an entire arm could not easily access, though he says practical deployment would require onboard perception and more robust navigation. &lt;a href="https://smbys.github.io/#:~:text=Hideki%20Shimobayashi%20explores%20the%20Physical,of%20Tokyo%20(advised%20by%20Dr." rel="noopener noreferrer" target="_blank"&gt;Hideki Shimobayashi&lt;/a&gt;, a Ph.D. student in Inami’s lab, also points out that walking puts very different loads on a hand compared to grasping, so durability may be a challenge.&lt;/p&gt;&lt;p&gt;However, &lt;a href="https://www.me.columbia.edu/faculty/matei-ciocarlie" rel="noopener noreferrer" target="_blank"&gt;Matei Ciocarlie&lt;/a&gt;, an associate professor of mechanical engineering at Columbia University, says it’s a “cool result” that suggests robot hands don’t have to be restricted to the same capabilities as their human counterparts. “One can imagine an entirely new class of mobile manipulators that are simultaneously dexterous, able to traverse complex terrain, and able to manipulate payloads comparable in size to themselves,” he says.&lt;/p&gt;&lt;p&gt;Kazemipour sees his work as part of a longer-term vision for robots made up of parts that are not tied to a single job or even a single body plan, something he calls “autonomous modular embodiments.” “Robotic body parts should not be permanently assigned to a single function,” he says. “They can dynamically transition between roles, between being components of one embodiment system and autonomous agents, according to the task.”&lt;/p&gt;</description>
@@ -25584,13 +25584,6 @@ AnyDesk patched the flaw in version 8.0.3 in June, but its&amp;nbsp;changelog&am
       <pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Back to Tal Afar: A Ranger Sniper’s Night of Vengeance</title>
-      <link>https://sofrep.com/news/two-nights-tal-afar-p2/</link>
-      <description>We went back into Tal Afar looking for a fight, and the city gave us one before we could clear the first rooftop. #ArmyRangers #RangerSniper #TalAfar #IraqWar #75thRangerRegiment</description>
-      <guid isPermaLink="false">https://sofrep.com/news/two-nights-tal-afar-p2/</guid>
-      <pubDate>Fri, 09 Oct 2026 13:00:46 +0000</pubDate>
-    </item>
-    <item>
       <title>Official poster depicts the US Army’s newest threat: The Iranian soldier</title>
       <link>https://www.defensenews.com/news/your-military/2026/10/09/official-poster-depicts-the-us-armys-newest-threat-the-iranian-soldier/</link>
       <description>The U.S. Army recently published a quick-recognition guide to help soldiers identify members of the Iranian army.</description>
@@ -25912,17 +25905,17 @@ The</description>
       <pubDate>Fri, 09 Oct 2026 19:45:39 +0000</pubDate>
     </item>
     <item>
-      <title>The Pentagon awarded $350M to a firm tied to a senior DOD official</title>
-      <link>https://www.defenseone.com/policy/2026/10/pentagon-350-million-contracts-official/416543/</link>
-      <description>Experts expressed shock at a $281 million contract that was no-bid, enormous for consulting work, and set up as an OTA deal.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/10/pentagon-350-million-contracts-official/416543/</guid>
-      <pubDate>Fri, 09 Oct 2026 20:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>One year in, Army’s FUZE leader eyes ‘bigger’ acquisition challenges</title>
       <link>https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/9945010-e1791406636796-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Army innovation hub&amp;#8217;s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense. &lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/</guid>
+      <pubDate>Fri, 09 Oct 2026 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Pentagon awarded $350M to a firm tied to a senior DOD official</title>
+      <link>https://www.defenseone.com/policy/2026/10/pentagon-350-million-contracts-official/416543/</link>
+      <description>Experts expressed shock at a $281 million contract that was no-bid, enormous for consulting work, and set up as an OTA deal.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/10/pentagon-350-million-contracts-official/416543/</guid>
       <pubDate>Fri, 09 Oct 2026 20:00:00 +0000</pubDate>
     </item>
     <item>
@@ -25999,7 +25992,7 @@ The</description>
       <pubDate>Sat, 10 Oct 2026 00:17:42 +0000</pubDate>
     </item>
     <item>
-      <title>US Sanctions 17 Vessels Linked To Iran's Shadow Fleet</title>
+      <title>Trump May Join Saudis' Fight Against Houthis After 12 Killed In Airport Attack</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -26013,9 +26006,9 @@ The</description>
       <pubDate>Sat, 10 Oct 2026 07:13:26 +0000</pubDate>
     </item>
     <item>
-      <title>Russian Strikes Kill At Least 20 In Zaporizhzhya, Disrupt Power In Kyiv, Officials Say</title>
+      <title>Trump Says Ukraine Should 'Get A New President' As Russia Kills At Least 20 In Air Strikes</title>
       <link>https://www.rferl.org/a/ukraine-russia-drone-attack-zaporizhzhya-kyiv/33874079.html</link>
-      <description>Russian strikes on Ukraine killed at least 17 people, including three children, in the southeastern city of Zaporizhzhya and disrupted electricity and water supplies in Kyiv on October 10, Ukrainian authorities said.</description>
+      <description>US President Donald Trump blamed Ukrainian President Volodymyr Zelenskyy for a stalemate in negotiations with Moscow, as Russian strikes on Ukraine killed at least 20 people, damaging apartment buildings and energy sites.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-drone-attack-zaporizhzhya-kyiv/33874079.html</guid>
       <pubDate>Sat, 10 Oct 2026 08:21:10 +0000</pubDate>
     </item>
@@ -26129,6 +26122,13 @@ South African National Defence Force, Combat Readiness, Military Leadership, Inf
       <description>Tim Kennedy survived the ambush, but the blood on a South Kivu road exposed Erik Prince’s tax brigade for what it had been all along: a war contract wearing an accountant’s visor. #TimKennedy #ErikPrince #VectusGlobal #Congo #PrivateMilitaryContractors</description>
       <guid isPermaLink="false">https://sofrep.com/news/tim-kennedy-was-shot-in-congo-inside-erik-princes-shadow-war/</guid>
       <pubDate>Sat, 10 Oct 2026 16:00:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russia’s Africa Corps Retakes Kidal: Moscow Wins Back a City It Walked Away From</title>
+      <link>https://sofrep.com/news/russias-africa-corps-retakes-kidal-moscow-wins-back-a-city-it-walked-away-from/</link>
+      <description>Six months after Russian troops left Kidal under rebel escort, Africa Corps and Mali's army are back. Tuareg separatists withdrew ahead of the advance rather than fight. Bamako has its symbolic win. Whether Moscow can hold northern Mali's most contested city against insurgents who kept their guns is another question. #AfricaCorps #Mali #Kidal #RussiaInAfrica #Counterinsurgency #TuaregRebels #JNIM #SahelConflict #IrregularWarfare #MilitaryOperations</description>
+      <guid isPermaLink="false">https://sofrep.com/news/russias-africa-corps-retakes-kidal-moscow-wins-back-a-city-it-walked-away-from/</guid>
+      <pubDate>Sat, 10 Oct 2026 21:00:59 +0000</pubDate>
     </item>
   </channel>
 </rss>
