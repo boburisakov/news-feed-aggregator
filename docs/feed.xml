@@ -7,58 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 09:01:10 +0000</lastBuildDate>
-    <item>
-      <title>Pentagon, FBI personnel-data breaches raise questions</title>
-      <link>https://www.defenseone.com/threats/2026/10/pentagon-personnel-data-breach-went-undetected-months/416421/</link>
-      <description>The defense breach, which exposed about 3 million people, went undetected for months.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/10/pentagon-personnel-data-breach-went-undetected-months/416421/</guid>
-      <pubDate>Mon, 05 Oct 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Has the Pentagon given up on AI polygraph analysis of loyalty?</title>
-      <link>https://www.c4isrnet.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/</link>
-      <description>AI-aided scanning of speech patterns, vocal stress or facial expressions to read minds lacks scientific backing and will compound errors, critics argue.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/</guid>
-      <pubDate>Mon, 05 Oct 2026 23:43:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iran Faces Severe Challenges to Rebuild Missile and Drone Production</title>
-      <link>https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production/</link>
-      <description>&lt;p&gt;With the significant Israeli and U.S. military attacks against Iran in 2025 and early 2026, analysts have discussed and debated Iran&amp;#8217;s ability to replenish its missile and drone arsenal. Since 2024, Iran has burned through thousands of ballistic missiles, cruise missiles, and one-way attack drones in its retaliatory attacks against Israel, U.S. military bases, and other targets in the region. In addition, air and missile strikes destroyed many more Iranian missiles and drones along with their launchers. Importantly, Israeli and U.S. attacks in 2024, 2025, and especially 2026 cumulatively caused severe damage to Iran&amp;#8217;s missile and drone industry as well&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production/"&gt;Iran Faces Severe Challenges to Rebuild Missile and Drone Production&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production/</guid>
-      <pubDate>Tue, 06 Oct 2026 07:30:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Myth of Military Victory</title>
-      <link>https://www.foreignaffairs.com/united-states/myth-military-victory</link>
-      <description>The dangerous idea driving today’s wars of choice.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/myth-military-victory</guid>
-      <pubDate>Tue, 06 Oct 2026 08:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The New Red Sea Wars</title>
-      <link>https://www.foreignaffairs.com/middle-east/new-red-sea-wars</link>
-      <description>Conflicts in the Middle East and the Horn of Africa have become inseparable.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/middle-east/new-red-sea-wars</guid>
-      <pubDate>Tue, 06 Oct 2026 08:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Blinder Tunnel Campaign Targets Iraqi Infrastructure</title>
-      <link>https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/</link>
-      <description>&lt;p&gt;Analysis of Blinder Tunnel, an Iran-nexus campaign using fake Dubai Airports recruitment lures and GitHub C2 malware to target critical infrastructure.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/"&gt;Blinder Tunnel Campaign Targets Iraqi Infrastructure&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/</guid>
-      <pubDate>Tue, 06 Oct 2026 10:00:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Jump Trading is scaling quant research with ChatGPT</title>
-      <link>https://openai.com/index/jump-trading</link>
-      <description>Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.</description>
-      <guid isPermaLink="false">https://openai.com/index/jump-trading</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 10 Oct 2026 15:22:14 +0000</lastBuildDate>
     <item>
       <title>Savannah lwIP SMTP client</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02</link>
@@ -1661,6 +1610,13 @@
       <pubDate>Tue, 06 Oct 2026 12:24:29 +0000</pubDate>
     </item>
     <item>
+      <title>More RMM Tools In the Wild, (Tue, Oct 6th)</title>
+      <link>https://isc.sans.edu/diary/rss/33400</link>
+      <description>It seems that a trend started&amp;#x26;#xe2;&amp;#x26;#x80;&amp;#x26;#xa6; I continue my journey discovering more RMM ("Remote Management &amp;#x26; Monitoring") tools abused by threat actors&amp;#x21; A few days ago, I wrote a diary&amp;#x5b;1&amp;#x5d; about ScreenConnect used in the wild. Today, I found another one.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33400</guid>
+      <pubDate>Tue, 06 Oct 2026 13:16:02 +0000</pubDate>
+    </item>
+    <item>
       <title>Should We Track AI Chips?</title>
       <link>https://cset.georgetown.edu/article/should-we-track-ai-chips/</link>
       <description>&lt;p&gt;CSET’s Jacob Feldgoise, Kyle Miller, and Hanna Dohmen dove deep into investigating how location verification methods can—and cannot—improve enforcement of export controls on powerful AI chips, culminating in their report. I sat down with Jacob to learn more about the issue, their findings, and what those findings mean for mitigating AI chip smuggling.&lt;/p&gt;
@@ -1723,14 +1679,6 @@
       <pubDate>Tue, 06 Oct 2026 20:25:37 +0000</pubDate>
     </item>
     <item>
-      <title>Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks</title>
-      <link>https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/</link>
-      <description>&lt;p&gt;The FBI and Secret Service warned Fortinet users that FortiBleed, uncovered this summer, is a continuing threat.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/"&gt;Alert: FortiBleed remains active campaign, can lock out users or lead to ransomware attacks&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/</guid>
-      <pubDate>Tue, 06 Oct 2026 21:03:58 +0000</pubDate>
-    </item>
-    <item>
       <title>GPT-6 and Intelligent UI for everyone</title>
       <link>https://openai.com/index/gpt-6-for-everyone</link>
       <description>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</description>
@@ -1743,6 +1691,12 @@
       <description>AUTOWARCOM will have a big task. Luckily, it’s not starting from scratch.</description>
       <guid isPermaLink="false">https://www.defenseone.com/policy/2026/10/pentagon-autonomy-command-patriot-maven/416444/</guid>
       <pubDate>Wed, 07 Oct 2026 01:48:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Wednesday, October 7th, 2026 https://isc.sans.edu/podcastdetail/10126, (Wed, Oct 7th)</title>
+      <link>https://isc.sans.edu/diary/rss/33404</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33404</guid>
+      <pubDate>Wed, 07 Oct 2026 02:00:02 +0000</pubDate>
     </item>
     <item>
       <title>Radisson Hotel Group brings hotel discovery into ChatGPT</title>
@@ -1840,6 +1794,13 @@
       <pubDate>Wed, 07 Oct 2026 13:49:48 +0000</pubDate>
     </item>
     <item>
+      <title>Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)</title>
+      <link>https://isc.sans.edu/diary/rss/33406</link>
+      <description>On October 5th, Atlassian published patches&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;for multiple products to fix an "Arbitrary File Access" vulnerability &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x5b&amp;#x3b;CVE-2026-21589&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x5d&amp;#x3b;. An attacker can read arbitrary files in the web application&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s directory, potentially exposing sensitive information such as configuration files.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33406</guid>
+      <pubDate>Wed, 07 Oct 2026 14:59:33 +0000</pubDate>
+    </item>
+    <item>
       <title>PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem</title>
       <link>https://cyberscoop.com/poellm-malware-botnet-poem-lumen-black-lotus-labs/</link>
       <description>&lt;p&gt;More than 3,400 servers have been compromised by malware that hides its infrastructure coordinates in a poem.&lt;/p&gt;
@@ -1922,6 +1883,12 @@
       <description>OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.</description>
       <guid isPermaLink="false">https://openai.com/index/disrupting-ai-enabled-false-front-operations</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Thursday, October 8th, 2026 https://isc.sans.edu/podcastdetail/10128, (Thu, Oct 8th)</title>
+      <link>https://isc.sans.edu/diary/rss/33408</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33408</guid>
+      <pubDate>Thu, 08 Oct 2026 02:00:02 +0000</pubDate>
     </item>
     <item>
       <title>Army activates sustainment brigade as part of Pacific restructuring</title>
@@ -2014,6 +1981,13 @@
       <link>https://openai.com/index/pollo-ai</link>
       <description>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.</description>
       <guid isPermaLink="false">https://openai.com/index/pollo-ai</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing the Next Chapter</title>
+      <link>https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</link>
+      <description>Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</guid>
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -25117,13 +25091,6 @@
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Writing the Next Chapter</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</link>
-      <description>Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</guid>
-      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>This Disembodied Hand Is All the Robot You Need</title>
       <link>https://spectrum.ieee.org/walking-robotic-hand</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/a-detached-robotic-hand-using-its-five-fingers-to-walk.jpg?id=68383398&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;a href="https://spectrum.ieee.org/biomimetic-anthropomorphic-robot-hand" target="_blank"&gt;A hand&lt;/a&gt; attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into &lt;a href="https://srl-ethz.github.io/website-fingers-as-legs/" rel="noopener noreferrer" target="_blank"&gt;a completely self-contained robot&lt;/a&gt; that walks on its fingertips while using those same fingers to manipulate its environment.&lt;/p&gt;&lt;p&gt;Besides making the perfect Halloween accessory for anyone planning to dress up as a member of the Addams Family—who were famously accompanied by a disembodied walking hand &lt;a href="https://en.wikipedia.org/wiki/Thing_(The_Addams_Family)" rel="noopener noreferrer" target="_blank"&gt;called Thing&lt;/a&gt;—this robotic hand could make it possible to operate controls and handle objects in places a traditional robot arm can’t reach, the researchers say.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://www.youtube.com/watch?v=93BLyBPAfYs" target="_blank"&gt;Soft Robotics Lab, ETH Zurich/YouTube&lt;/a&gt;&lt;/small&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://srl.ethz.ch/the-group/people/amirhossein-kazemipour.html" rel="noopener noreferrer" target="_blank"&gt;Amirhossein Kazemipour&lt;/a&gt;, a Ph.D. candidate in the &lt;a href="https://srl.ethz.ch/" rel="noopener noreferrer" target="_blank"&gt;Soft Robotics Lab at ETH Zurich&lt;/a&gt; who led the project, believes this hand could prove useful in contexts like fiddly maintenance tasks in industrial settings, or in search and rescue, where a robot could detach its hand to explore confined spaces too tight for the rest of its body. More broadly, he says, the work is a step toward a new approach to robotics in which body parts are not confined to a single role.&lt;/p&gt;&lt;p&gt;“I wanted to see how much a robotic hand could do without the rest of the robot,” Kazemipour told &lt;em&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;/em&gt;. “Instead of having this traditional view of robotic parts, what if we could use those parts to do other tasks that they are not designed to do?”&lt;/p&gt;&lt;p&gt;This is &lt;a href="https://spectrum.ieee.org/epfl-lasa" target="_blank"&gt;not the first attempt&lt;/a&gt; to &lt;a href="https://www.nature.com/articles/s41467-025-67675-8" rel="noopener noreferrer" target="_blank"&gt;get a robot hand to walk&lt;/a&gt;, but previous work has typically relied on specially designed hands. The ETH team instead decided to use off-the-shelf hardware from &lt;a href="https://www.wuji.tech/en/" rel="noopener noreferrer" target="_blank"&gt;Wuji Technology&lt;/a&gt;, augmented with an 80-gram backpack containing a battery, an inertial measurement unit (IMU), and a Raspberry Pi Zero. Kazemipour says they decided to go with a commercial robot hand because they didn’t want to compromise on the hand’s manipulation capabilities. This introduced significant challenges, he adds, because a hand’s shape is optimized for grasping rather than crawling.&lt;/p&gt;&lt;h2&gt;How to Walk With Fingers&lt;/h2&gt;&lt;p&gt;To teach the hand to walk, the researchers trained a model in simulation using reinforcement learning—an approach in which models learn skills through many rounds of trial and error, receiving rewards for getting closer to the desired behavior along with penalties when they diverge from it. But Kazemipour says the unusual geometry of a hand meant they couldn’t just reuse methods used to train other kinds of legged robots. Standard quadrupeds or bipeds tend to be symmetrical on their left and right sides, which simplifies walking and balance, he says. Hands, in contrast, are not at all symmetrical, with fingers of different lengths and an opposable thumb.&lt;/p&gt;&lt;p&gt;In addition to rewards for moving at the right speed and in the right direction and penalties for things like wobbling or jerky movement, the team introduced a novel way to keep the hand in a crawling stance during the simulated training. To account for unequal digit length, they gave each finger its own target position relative to the palm, based on where it naturally sits when in the crawling posture. They then penalized the fingers for straying too far from that reference point, creating what they describe as “virtual springs” that pull the fingers back to the crawling stance. Crucially, the penalties for fingers moving forward and backward are significantly less than those for moving side to side, so taking steps in that way costs the hand very little compared with the rewards it receives for moving.&lt;/p&gt;&lt;p&gt;The team also trained separate models for skills like righting the hand when it falls over, pressing keys on a keyboard, and pushing objects to a target. All four models fit on the onboard computer, says Kazemipour, and the controller can switch between them as necessary. In real-world tests, the hand crawled across 14 different surfaces including smooth floors, metal grates, grass, and gravel. Other experiments confirmed that it could make both right and left turns, and hit an average speed of 9 centimeters per second. The hand was able to right itself in 21 of 25 trials. When given a video feed from an overhead camera, it even managed to autonomously push a 41-gram cube to targets up to 40 cm away 15 times in a row.&lt;/p&gt;&lt;p&gt;“What interests me most about this work is that the same fingers can move the hand, support its weight, and interact with its surroundings,” says &lt;a href="https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-inami_masahiko.html" rel="noopener noreferrer" target="_blank"&gt;Masahiko Inami&lt;/a&gt;, a professor at the University of Tokyo whose group has developed &lt;a href="https://dl.acm.org/doi/10.1145/3745900.3746081" rel="noopener noreferrer" target="_blank"&gt;hand-shaped walking robots&lt;/a&gt;. He agrees that a mobile hand could be useful for reaching confined spaces and operating controls that an entire arm could not easily access, though he says practical deployment would require onboard perception and more robust navigation. &lt;a href="https://smbys.github.io/#:~:text=Hideki%20Shimobayashi%20explores%20the%20Physical,of%20Tokyo%20(advised%20by%20Dr." rel="noopener noreferrer" target="_blank"&gt;Hideki Shimobayashi&lt;/a&gt;, a Ph.D. student in Inami’s lab, also points out that walking puts very different loads on a hand compared to grasping, so durability may be a challenge.&lt;/p&gt;&lt;p&gt;However, &lt;a href="https://www.me.columbia.edu/faculty/matei-ciocarlie" rel="noopener noreferrer" target="_blank"&gt;Matei Ciocarlie&lt;/a&gt;, an associate professor of mechanical engineering at Columbia University, says it’s a “cool result” that suggests robot hands don’t have to be restricted to the same capabilities as their human counterparts. “One can imagine an entirely new class of mobile manipulators that are simultaneously dexterous, able to traverse complex terrain, and able to manipulate payloads comparable in size to themselves,” he says.&lt;/p&gt;&lt;p&gt;Kazemipour sees his work as part of a longer-term vision for robots made up of parts that are not tied to a single job or even a single body plan, something he calls “autonomous modular embodiments.” “Robotic body parts should not be permanently assigned to a single function,” he says. “They can dynamically transition between roles, between being components of one embodiment system and autonomous agents, according to the task.”&lt;/p&gt;</description>
@@ -25154,13 +25121,6 @@
       <pubDate>Thu, 08 Oct 2026 13:17:38 +0000</pubDate>
     </item>
     <item>
-      <title>Mamdani Booed as “Traitor” at October 7 Vigil by His Own Base</title>
-      <link>https://sofrep.com/news/mamdani-booed-as-traitor-at-october-7-vigil-by-his-own-base/</link>
-      <description>You don’t attach a policy footnote to a funeral, and New York’s mayor should have known enough to give grieving families one clean day of mourning. #Mamdani #October7th #NYCMayor</description>
-      <guid isPermaLink="false">https://sofrep.com/news/mamdani-booed-as-traitor-at-october-7-vigil-by-his-own-base/</guid>
-      <pubDate>Thu, 08 Oct 2026 14:00:04 +0000</pubDate>
-    </item>
-    <item>
       <title>Upstream Battle: Ethiopia’s Civil War Draws in Regional Rivalries</title>
       <link>https://www.geopoliticalmonitor.com/ethiopia-civil-war-regional-rivalries/</link>
       <description>&lt;p&gt;Ethiopia's new war in Tigray now runs through three disputes: the Nile, the Red Sea, and Sudan's war.&lt;/p&gt;
@@ -25169,32 +25129,11 @@
       <pubDate>Thu, 08 Oct 2026 14:37:29 +0000</pubDate>
     </item>
     <item>
-      <title>“Sniper Ace”: Bruno Sutkus at War, 209 Kills in Six Months</title>
-      <link>https://sofrep.com/news/sniper-ace-bruno-sutkus-at-war-209-kills-in-six-months/</link>
-      <description>Captured by the Soviets in 1945, deserter to the Lithuanian Forest Brothers, and later a prisoner in Siberian gulags for decades, Bruno Sutkus survived not only the brutal Eastern Front but also the long shadow of Soviet repression, after recording 209 confirmed kills as one of Germany's top six snipers of World War II. #BrunoSutkus #WW2History #SniperHistory #EasternFront #MilitaryHistory</description>
-      <guid isPermaLink="false">https://sofrep.com/news/sniper-ace-bruno-sutkus-at-war-209-kills-in-six-months/</guid>
-      <pubDate>Thu, 08 Oct 2026 15:00:21 +0000</pubDate>
-    </item>
-    <item>
       <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
       <link>https://openai.com/index/oracle</link>
       <description>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</description>
       <guid isPermaLink="false">https://openai.com/index/oracle</guid>
       <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Troops Will Run Anti-Drone Lasers at U.S. Bases for a Year. Fort Bliss Has Already Seen What Can Go Wrong.</title>
-      <link>https://sofrep.com/news/troops-will-run-anti-drone-lasers-at-u-s-bases-for-a-year-fort-bliss-has-already-seen-what-can-go-wrong/</link>
-      <description>Four directed-energy systems made the cut months after the legal deadline, but the troops who will stand the watch still lack public answers on where the weapons go and what keeping them ready will cost. #DirectedEnergy #CounterDrone #DroneWarfare #MilitaryTechnology #AirDefense</description>
-      <guid isPermaLink="false">https://sofrep.com/news/troops-will-run-anti-drone-lasers-at-u-s-bases-for-a-year-fort-bliss-has-already-seen-what-can-go-wrong/</guid>
-      <pubDate>Thu, 08 Oct 2026 16:00:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Air Force, Army eye industry access on test ranges</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/10/08/us-air-force-army-eye-industry-access-on-test-ranges/</link>
-      <description>The U.S. Air Force is partnering with the U.S. Army to open its test ranges to approved defense firms.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/10/08/us-air-force-army-eye-industry-access-on-test-ranges/</guid>
-      <pubDate>Thu, 08 Oct 2026 16:27:32 +0000</pubDate>
     </item>
     <item>
       <title>Rheinmetall and Praetorian deliver AERIE counter-drone prototype</title>
@@ -25225,6 +25164,13 @@
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sponsored-content/sikorskys-black-hawk-2070-strategy-includes-drones-new-engines-and-flying-the-pilotless-u-hawk-this-year"&gt;Sikorsky’s “Black Hawk 2070” Strategy Includes Drones, New Engines, And Flying The Pilotless U-Hawk This Year&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sponsored-content/sikorskys-black-hawk-2070-strategy-includes-drones-new-engines-and-flying-the-pilotless-u-hawk-this-year</guid>
       <pubDate>Thu, 08 Oct 2026 16:41:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)</title>
+      <link>https://isc.sans.edu/diary/rss/33410</link>
+      <description>We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;of the most popular AI coding assistants and&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;agents including Claude Code, Codex, Gemini CLI, Cursor, Copilot, Warp, Windsurf, and Qwen Code. I&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;ve been using Claude Code and a little bit of Codex, but I also have recently been playing with OpenCode and am setting up Hermes. I decided to figure out where the chat history was in OpenCode and where any Hermes evidence might be located.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33410</guid>
+      <pubDate>Thu, 08 Oct 2026 16:52:53 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI says Iran, Russia used AI journalists, think tanks to influence Western media</title>
@@ -25342,13 +25288,6 @@
       <pubDate>Thu, 08 Oct 2026 20:49:49 +0000</pubDate>
     </item>
     <item>
-      <title>BAE’s Counter-Drone System Worked in Scotland. Washington’s First Contract List Passed It By.</title>
-      <link>https://sofrep.com/news/baes-counter-drone-system-worked-in-scotland-washingtons-first-contract-list-passed-it-by/</link>
-      <description>BAE proved its counter-drone brain can connect sensors, jammers, and guns, but the real test begins when an exhausted soldier must decide whether the machine has found an enemy or a friendly drone. #CounterDrone #DroneWarfare #BAESystems #MilitaryTechnology #ElectronicWarfare</description>
-      <guid isPermaLink="false">https://sofrep.com/news/baes-counter-drone-system-worked-in-scotland-washingtons-first-contract-list-passed-it-by/</guid>
-      <pubDate>Thu, 08 Oct 2026 21:00:02 +0000</pubDate>
-    </item>
-    <item>
       <title>Pentagon barred Qatar base access to hide Iran war damage, US senator claims</title>
       <link>https://www.defensenews.com/news/pentagon-congress/2026/10/08/pentagon-barred-qatar-base-access-to-hide-iran-war-damage-us-senator-claims/</link>
       <description>Sen. Chris Murphy, D-Conn., was denied access to Al Udeid Air Base, Qatar, during a recent Congressional Delegation trip in what he calls a "cover-up."</description>
@@ -25410,13 +25349,6 @@
       <pubDate>Fri, 09 Oct 2026 00:08:24 +0000</pubDate>
     </item>
     <item>
-      <title>Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/</link>
-      <description>The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/</guid>
-      <pubDate>Fri, 09 Oct 2026 05:41:04 +0000</pubDate>
-    </item>
-    <item>
       <title>Islamic State-linked suspects detained or charged in 6 countries since late September</title>
       <link>https://www.longwarjournal.org/archives/2026/10/islamic-state-linked-suspects-detained-or-charged-in-6-countries-since-late-september.php</link>
       <description>&lt;p&gt;Authorities detained suspected Islamic State fighters, dismantled an alleged criminal network, and disrupted a suspected poison-and-explosives plot between September 25 and October 8 in eight distinct cases spanning Europe, Turkey, Georgia, and Israel.&lt;/p&gt;
@@ -25454,17 +25386,23 @@
       <pubDate>Fri, 09 Oct 2026 07:30:11 +0000</pubDate>
     </item>
     <item>
-      <title>Trump Is Gutting America’s Core Geopolitical Advantage</title>
-      <link>https://www.foreignaffairs.com/united-states/trump-gutting-americas-core-geopolitical-advantage</link>
-      <description>Robert Zoellick, an expert on the global economy who served as U.S. trade representative and World Bank president, makes the authoritative case that President Donald Trump’s antagonism toward Canada and Mexico is destroying an economic and security partnership that that enables the United States to project power globally.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/trump-gutting-americas-core-geopolitical-advantage</guid>
-      <pubDate>Fri, 09 Oct 2026 08:00:00 +0000</pubDate>
+      <title>ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)</title>
+      <link>https://isc.sans.edu/diary/rss/33412</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33412</guid>
+      <pubDate>Fri, 09 Oct 2026 07:52:03 +0000</pubDate>
     </item>
     <item>
       <title>Iran’s Theory of Victory</title>
       <link>https://www.foreignaffairs.com/iran/irans-theory-victory</link>
       <description>Tehran’s fight for great-power status in the post-American Middle East.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/iran/irans-theory-victory</guid>
+      <pubDate>Fri, 09 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump Is Gutting America’s Core Geopolitical Advantage</title>
+      <link>https://www.foreignaffairs.com/united-states/trump-gutting-americas-core-geopolitical-advantage</link>
+      <description>Robert Zoellick, an expert on the global economy who served as U.S. trade representative and World Bank president, makes the authoritative case that President Donald Trump’s antagonism toward Canada and Mexico is destroying an economic and security partnership that that enables the United States to project power globally.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/trump-gutting-americas-core-geopolitical-advantage</guid>
       <pubDate>Fri, 09 Oct 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
@@ -25481,13 +25419,6 @@
       <description>Operationally, it would make little sense for Pakistan to send in large conventional ground forces to Yemen simply to put the brakes on Houthi advances.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/10/what-pakistan-will-and-wont-do-in-yemen/</guid>
       <pubDate>Fri, 09 Oct 2026 08:18:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Citrix warns admins to patch new NetScaler RCE flaw immediately</title>
-      <link>https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/</link>
-      <description>Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/</guid>
-      <pubDate>Fri, 09 Oct 2026 08:27:42 +0000</pubDate>
     </item>
     <item>
       <title>We’re still figuring out the side effects of GLP-1 weight-loss drugs</title>
@@ -25509,15 +25440,6 @@
       <description>Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary.&amp;#160; But recently, the idea that AI shouldn’t&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/</guid>
       <pubDate>Fri, 09 Oct 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys</title>
-      <link>https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html</link>
-      <description>A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over.
-
-Searchlight Cyber, which&amp;nbsp;disclosed the flaw&amp;nbsp;on October 8, says an attacker who recovers the key can redirect the site's visitors to a copy of the site they control.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html</guid>
-      <pubDate>Fri, 09 Oct 2026 09:03:24 +0000</pubDate>
     </item>
     <item>
       <title>Too Soon? Swathes Of Chernobyl-Affected Land In Belarus To Lose 'Contaminated' Status</title>
@@ -25548,25 +25470,11 @@ Searchlight Cyber, which&amp;nbsp;disclosed the flaw&amp;nbsp;on October 8, says
       <pubDate>Fri, 09 Oct 2026 10:11:46 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft: Outdated Windows devices will stop receiving security updates</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/</link>
-      <description>Microsoft says devices running unsupported versions of Windows will stop receiving security updates after next year's Windows Update certificate rotation. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/</guid>
-      <pubDate>Fri, 09 Oct 2026 10:12:24 +0000</pubDate>
-    </item>
-    <item>
       <title>Man admits to running network of 15,000 money mules for cybercriminals</title>
       <link>https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/</link>
       <description>​A Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/</guid>
       <pubDate>Fri, 09 Oct 2026 11:14:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition</title>
-      <link>https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html</link>
-      <description>As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The "Horizons of Identity Security" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html</guid>
-      <pubDate>Fri, 09 Oct 2026 11:30:00 +0000</pubDate>
     </item>
     <item>
       <title>Global War Party: The Boogeyman of Georgian Politics</title>
@@ -25575,13 +25483,6 @@ Searchlight Cyber, which&amp;nbsp;disclosed the flaw&amp;nbsp;on October 8, says
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/georgian-dream-global-war-party/"&gt;Global War Party: The Boogeyman of Georgian Politics&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/georgian-dream-global-war-party/</guid>
       <pubDate>Fri, 09 Oct 2026 11:41:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Operating Concept 2040: Green Berets in the Next Great War</title>
-      <link>https://sofrep.com/news/operating-concept-2040-green-berets-in-the-next-great-war-3/</link>
-      <description>From Malaya to the Bush War, Rhodesia's SAS and Selous Scouts became two of the most effective—and controversial—special operations units of the 20th century. Deep penetration patrols, pseudo-operations, and turned guerrillas devastated ZANLA and ZIPRA before both units slipped south into South Africa's elite Recces. #RhodesianSAS, #SelousScouts, #RhodesianBushWar, #SpecialForces, #SpecialOperations, #MilitaryHistory, #Counterinsurgency, #Rhodesia, #SAS, #SOFREP</description>
-      <guid isPermaLink="false">https://sofrep.com/news/operating-concept-2040-green-berets-in-the-next-great-war-3/</guid>
-      <pubDate>Fri, 09 Oct 2026 12:00:06 +0000</pubDate>
     </item>
     <item>
       <title>Montenegro To Expel Head Of Russian Pro-War Blog Rybar</title>
@@ -26091,7 +25992,7 @@ The</description>
       <pubDate>Fri, 09 Oct 2026 23:03:17 +0000</pubDate>
     </item>
     <item>
-      <title>FBI Arrests Founder of Ransomware Negotiation Firm</title>
+      <title>FBI Arrests Executive at Ransomware Negotiation Firm</title>
       <link>https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/</link>
       <description>Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.</description>
       <guid isPermaLink="false">https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/</guid>
@@ -26112,11 +26013,122 @@ The</description>
       <pubDate>Sat, 10 Oct 2026 07:13:26 +0000</pubDate>
     </item>
     <item>
-      <title>Russian Strike Kills At Least 8, Including 3 Children, In Ukraine's Zaporizhzhya, Kyiv Says</title>
+      <title>Russian Strikes Kill At Least 17 In Zaporizhzhya, Disrupt Power In Kyiv, Officials Say</title>
       <link>https://www.rferl.org/a/ukraine-russia-drone-attack-zaporizhzhya-kyiv/33874079.html</link>
-      <description>A Russian strike on the southeastern Ukrainian city of Zaporizhzhya killed at least eight people, including three children, and wounded 16 on October 10, local authorities said, as Russia launched a large-scale overnight drone attack across Ukraine.</description>
+      <description>Russian strikes on Ukraine killed at least 17 people, including three children, in the southeastern city of Zaporizhzhya and disrupted electricity and water supplies in Kyiv on October 10, Ukrainian authorities said.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-drone-attack-zaporizhzhya-kyiv/33874079.html</guid>
       <pubDate>Sat, 10 Oct 2026 08:21:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why TLP should not replace your internal information classification, (Sat, Oct 10th)</title>
+      <link>https://isc.sans.edu/diary/rss/33414</link>
+      <description>The Traffic Light Protocol (TLP)&amp;#x5b;1&amp;#x5d;, which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33414</guid>
+      <pubDate>Sat, 10 Oct 2026 09:11:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws</title>
+      <link>https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html</link>
+      <description>Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.
+
+The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude -
+
+
+  Claude Mythos</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html</guid>
+      <pubDate>Sat, 10 Oct 2026 09:18:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't</title>
+      <link>https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html</link>
+      <description>In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do.
+
+That gap is the clearest</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html</guid>
+      <pubDate>Sat, 10 Oct 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Operating Concept 2040: Green Berets in the Next Great War</title>
+      <link>https://sofrep.com/news/operating-concept-2040-green-berets-in-the-next-great-war-4/</link>
+      <description>Built to paralyze Western governments on the eve of war, the KGB's Vympel was designed to attack systems, not individuals. Today, Ukraine's SSO and the shadowy 140th Regiment offer a modern counterpoint: reconnaissance woven into drones, fires, and intelligence networks that compress the find–fix–strike–assess cycle. #Vympel, #KGB, #UkrainianSSO, #SpecialOperations, #SpecialForces, #RussoUkrainianWar, #DroneWarfare, #ColdWar, #UnconventionalWarfare, #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/news/operating-concept-2040-green-berets-in-the-next-great-war-4/</guid>
+      <pubDate>Sat, 10 Oct 2026 12:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</title>
+      <link>https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/</link>
+      <description>Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/</guid>
+      <pubDate>Sat, 10 Oct 2026 12:30:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thoughts on Combat Readiness From a South African National Defense Forces Officer</title>
+      <link>https://sofrep.com/news/thoughts-on-combat-readiness-from-a-south-african-national-defense-forces-officer/</link>
+      <description>South African military veteran John Dovey delivers a firsthand critique of combat readiness in the South African National Defence Force. Drawing on 27 years of military experience, he describes a training exercise in which supposedly combat-ready platoons suffered catastrophic simulated casualties, exposing serious failures in junior leadership, tactical judgment, and the ability to adapt when battlefield conditions depart from the training manual. ## SOFREP Special
+
+Excerpt:
+
+South African military veteran John Dovey delivers a firsthand critique of combat readiness in the South African National Defence Force. Drawing on 27 years of military experience, he describes a training exercise in which supposedly combat-ready platoons suffered catastrophic simulated casualties, exposing serious failures in junior leadership, tactical judgment, and the ability to adapt when battlefield conditions depart from the training manual.
+
+5 Tags:
+
+South African National Defence Force, Combat Readiness, Military Leadership, Infantry Training, South African Military
+
+10 Hashtags:
+
+\#SANDF #SouthAfricanMilitary #CombatReadiness #MilitaryLeadership #InfantryTactics #MilitaryTraining #LessonsLearned #BattlefieldLeadership #MilitaryDoctrine #TrainAsYouFight</description>
+      <guid isPermaLink="false">https://sofrep.com/news/thoughts-on-combat-readiness-from-a-south-african-national-defense-forces-officer/</guid>
+      <pubDate>Sat, 10 Oct 2026 13:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lockheed Martin unveils PAC-3 Edge interceptor designed to counter hypersonic threats</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/10/10/lockheed-martin-unveils-pac-3-edge-interceptor-designed-to-counter-hypersonic-threats/</link>
+      <description>Lockheed Martin said PAC-3 Edge incorporates a new seeker, upgraded flight controls and a multi-pulse rocket motor supplied by Northrop Grumman.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/10/10/lockheed-martin-unveils-pac-3-edge-interceptor-designed-to-counter-hypersonic-threats/</guid>
+      <pubDate>Sat, 10 Oct 2026 13:18:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canadian cybersecurity executive arrested in federal extortion case</title>
+      <link>https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/</link>
+      <description>&lt;p&gt;Details of the case align with the investigation into ShinyHunters’ attack on FBI IT systems. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/"&gt;Canadian cybersecurity executive arrested in federal extortion case&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/edward-dubrovsky-cypfer-arrested-fbi-extortion-charges/</guid>
+      <pubDate>Sat, 10 Oct 2026 13:35:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>George Washington’s Secret War: The Spy Ring That Helped Beat the British</title>
+      <link>https://sofrep.com/specialoperations/general-george-washington-sets-espionage-ring-long-island/</link>
+      <description>George Washington’s Culper Spy Ring turned ordinary citizens into an intelligence network whose clandestine tradecraft helped outmaneuver the British and shape the outcome of the American Revolution. #CulperSpyRing #GeorgeWashington #AmericanRevolution #MilitaryHistory #Espionage</description>
+      <guid isPermaLink="false">https://sofrep.com/specialoperations/general-george-washington-sets-espionage-ring-long-island/</guid>
+      <pubDate>Sat, 10 Oct 2026 14:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ARTEX AI, Claude agents used in cyberattacks on South Korean banks</title>
+      <link>https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/</link>
+      <description>The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/</guid>
+      <pubDate>Sat, 10 Oct 2026 14:16:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Looking Back at the First Gulf War Air Campaign</title>
+      <link>https://sofrep.com/specialoperations/first-gulf-war-air-campaign-begins-january-17-1991/</link>
+      <description>On January 17, 1991, Operation Desert Shield became Operation Desert Storm as the US along with other coalition countries began a massive bombing campaign against the Iraqi forces of Saddam Hussein. The Iraqis had invaded the country of Kuwait during the summer of 1990 and the coalition began forming up to force Iraq to withdraw. [&amp;#8230;] #DesertStorm #GulfWar1991 #OperationDesertStorm #AirCampaign #CoalitionAirPower #AirSuperiority #F117Nighthawk #PrecisionAirstrikes #MilitaryAviation #ModernAirWarfare</description>
+      <guid isPermaLink="false">https://sofrep.com/specialoperations/first-gulf-war-air-campaign-begins-january-17-1991/</guid>
+      <pubDate>Sat, 10 Oct 2026 15:00:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cyber exec arrested in case allegedly tied to ShinyHunters hackers</title>
+      <link>https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/</link>
+      <description>Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/</guid>
+      <pubDate>Sat, 10 Oct 2026 15:07:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tim Kennedy Was Shot in Congo. Inside Erik Prince’s Shadow War</title>
+      <link>https://sofrep.com/?p=231463&amp;preview=true&amp;preview_id=231463</link>
+      <description>Tim Kennedy survived the ambush, but the blood on a South Kivu road exposed Erik Prince’s tax brigade for what it had been all along: a war contract wearing an accountant’s visor. #TimKennedy #ErikPrince #VectusGlobal #Congo #PrivateMilitaryContractors</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=231463&amp;preview=true&amp;preview_id=231463</guid>
+      <pubDate>Sat, 10 Oct 2026 16:00:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
