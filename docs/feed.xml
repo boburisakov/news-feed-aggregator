@@ -7,12 +7,50 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 02:32:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 09:01:10 +0000</lastBuildDate>
     <item>
-      <title>ISC Stormcast For Tuesday, October 6th, 2026 https://isc.sans.edu/podcastdetail/10124, (Tue, Oct 6th)</title>
-      <link>https://isc.sans.edu/diary/rss/33402</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33402</guid>
-      <pubDate>Tue, 06 Oct 2026 11:45:11 +0000</pubDate>
+      <title>Pentagon, FBI personnel-data breaches raise questions</title>
+      <link>https://www.defenseone.com/threats/2026/10/pentagon-personnel-data-breach-went-undetected-months/416421/</link>
+      <description>The defense breach, which exposed about 3 million people, went undetected for months.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/10/pentagon-personnel-data-breach-went-undetected-months/416421/</guid>
+      <pubDate>Mon, 05 Oct 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Has the Pentagon given up on AI polygraph analysis of loyalty?</title>
+      <link>https://www.c4isrnet.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/</link>
+      <description>AI-aided scanning of speech patterns, vocal stress or facial expressions to read minds lacks scientific backing and will compound errors, critics argue.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/</guid>
+      <pubDate>Mon, 05 Oct 2026 23:43:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran Faces Severe Challenges to Rebuild Missile and Drone Production</title>
+      <link>https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production/</link>
+      <description>&lt;p&gt;With the significant Israeli and U.S. military attacks against Iran in 2025 and early 2026, analysts have discussed and debated Iran&amp;#8217;s ability to replenish its missile and drone arsenal. Since 2024, Iran has burned through thousands of ballistic missiles, cruise missiles, and one-way attack drones in its retaliatory attacks against Israel, U.S. military bases, and other targets in the region. In addition, air and missile strikes destroyed many more Iranian missiles and drones along with their launchers. Importantly, Israeli and U.S. attacks in 2024, 2025, and especially 2026 cumulatively caused severe damage to Iran&amp;#8217;s missile and drone industry as well&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production/"&gt;Iran Faces Severe Challenges to Rebuild Missile and Drone Production&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production/</guid>
+      <pubDate>Tue, 06 Oct 2026 07:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Myth of Military Victory</title>
+      <link>https://www.foreignaffairs.com/united-states/myth-military-victory</link>
+      <description>The dangerous idea driving today’s wars of choice.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/myth-military-victory</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The New Red Sea Wars</title>
+      <link>https://www.foreignaffairs.com/middle-east/new-red-sea-wars</link>
+      <description>Conflicts in the Middle East and the Horn of Africa have become inseparable.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/middle-east/new-red-sea-wars</guid>
+      <pubDate>Tue, 06 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blinder Tunnel Campaign Targets Iraqi Infrastructure</title>
+      <link>https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/</link>
+      <description>&lt;p&gt;Analysis of Blinder Tunnel, an Iran-nexus campaign using fake Dubai Airports recruitment lures and GitHub C2 malware to target critical infrastructure.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/"&gt;Blinder Tunnel Campaign Targets Iraqi Infrastructure&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/</guid>
+      <pubDate>Tue, 06 Oct 2026 10:00:33 +0000</pubDate>
     </item>
     <item>
       <title>How Jump Trading is scaling quant research with ChatGPT</title>
@@ -1623,13 +1661,6 @@
       <pubDate>Tue, 06 Oct 2026 12:24:29 +0000</pubDate>
     </item>
     <item>
-      <title>More RMM Tools In the Wild, (Tue, Oct 6th)</title>
-      <link>https://isc.sans.edu/diary/rss/33400</link>
-      <description>It seems that a trend started&amp;#x26;#xe2;&amp;#x26;#x80;&amp;#x26;#xa6; I continue my journey discovering more RMM ("Remote Management &amp;#x26; Monitoring") tools abused by threat actors&amp;#x21; A few days ago, I wrote a diary&amp;#x5b;1&amp;#x5d; about ScreenConnect used in the wild. Today, I found another one.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33400</guid>
-      <pubDate>Tue, 06 Oct 2026 13:16:02 +0000</pubDate>
-    </item>
-    <item>
       <title>Should We Track AI Chips?</title>
       <link>https://cset.georgetown.edu/article/should-we-track-ai-chips/</link>
       <description>&lt;p&gt;CSET’s Jacob Feldgoise, Kyle Miller, and Hanna Dohmen dove deep into investigating how location verification methods can—and cannot—improve enforcement of export controls on powerful AI chips, culminating in their report. I sat down with Jacob to learn more about the issue, their findings, and what those findings mean for mitigating AI chip smuggling.&lt;/p&gt;
@@ -1712,12 +1743,6 @@
       <description>AUTOWARCOM will have a big task. Luckily, it’s not starting from scratch.</description>
       <guid isPermaLink="false">https://www.defenseone.com/policy/2026/10/pentagon-autonomy-command-patriot-maven/416444/</guid>
       <pubDate>Wed, 07 Oct 2026 01:48:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Wednesday, October 7th, 2026 https://isc.sans.edu/podcastdetail/10126, (Wed, Oct 7th)</title>
-      <link>https://isc.sans.edu/diary/rss/33404</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33404</guid>
-      <pubDate>Wed, 07 Oct 2026 02:00:02 +0000</pubDate>
     </item>
     <item>
       <title>Radisson Hotel Group brings hotel discovery into ChatGPT</title>
@@ -1815,13 +1840,6 @@
       <pubDate>Wed, 07 Oct 2026 13:49:48 +0000</pubDate>
     </item>
     <item>
-      <title>Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)</title>
-      <link>https://isc.sans.edu/diary/rss/33406</link>
-      <description>On October 5th, Atlassian published patches&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;for multiple products to fix an "Arbitrary File Access" vulnerability &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x5b&amp;#x3b;CVE-2026-21589&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x5d&amp;#x3b;. An attacker can read arbitrary files in the web application&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s directory, potentially exposing sensitive information such as configuration files.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33406</guid>
-      <pubDate>Wed, 07 Oct 2026 14:59:33 +0000</pubDate>
-    </item>
-    <item>
       <title>PoeLLM malware has assembled a sweeping botnet, taking technical cues from a poem</title>
       <link>https://cyberscoop.com/poellm-malware-botnet-poem-lumen-black-lotus-labs/</link>
       <description>&lt;p&gt;More than 3,400 servers have been compromised by malware that hides its infrastructure coordinates in a poem.&lt;/p&gt;
@@ -1904,12 +1922,6 @@
       <description>OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.</description>
       <guid isPermaLink="false">https://openai.com/index/disrupting-ai-enabled-false-front-operations</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Thursday, October 8th, 2026 https://isc.sans.edu/podcastdetail/10128, (Thu, Oct 8th)</title>
-      <link>https://isc.sans.edu/diary/rss/33408</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33408</guid>
-      <pubDate>Thu, 08 Oct 2026 02:00:02 +0000</pubDate>
     </item>
     <item>
       <title>Army activates sustainment brigade as part of Pacific restructuring</title>
@@ -2002,13 +2014,6 @@
       <link>https://openai.com/index/pollo-ai</link>
       <description>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.</description>
       <guid isPermaLink="false">https://openai.com/index/pollo-ai</guid>
-      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Writing the Next Chapter</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</link>
-      <description>Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</guid>
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -25112,6 +25117,13 @@
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Writing the Next Chapter</title>
+      <link>https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</link>
+      <description>Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/writing-next-chapter</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>This Disembodied Hand Is All the Robot You Need</title>
       <link>https://spectrum.ieee.org/walking-robotic-hand</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/a-detached-robotic-hand-using-its-five-fingers-to-walk.jpg?id=68383398&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C187%2C0%2C188" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;a href="https://spectrum.ieee.org/biomimetic-anthropomorphic-robot-hand" target="_blank"&gt;A hand&lt;/a&gt; attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into &lt;a href="https://srl-ethz.github.io/website-fingers-as-legs/" rel="noopener noreferrer" target="_blank"&gt;a completely self-contained robot&lt;/a&gt; that walks on its fingertips while using those same fingers to manipulate its environment.&lt;/p&gt;&lt;p&gt;Besides making the perfect Halloween accessory for anyone planning to dress up as a member of the Addams Family—who were famously accompanied by a disembodied walking hand &lt;a href="https://en.wikipedia.org/wiki/Thing_(The_Addams_Family)" rel="noopener noreferrer" target="_blank"&gt;called Thing&lt;/a&gt;—this robotic hand could make it possible to operate controls and handle objects in places a traditional robot arm can’t reach, the researchers say.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://www.youtube.com/watch?v=93BLyBPAfYs" target="_blank"&gt;Soft Robotics Lab, ETH Zurich/YouTube&lt;/a&gt;&lt;/small&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://srl.ethz.ch/the-group/people/amirhossein-kazemipour.html" rel="noopener noreferrer" target="_blank"&gt;Amirhossein Kazemipour&lt;/a&gt;, a Ph.D. candidate in the &lt;a href="https://srl.ethz.ch/" rel="noopener noreferrer" target="_blank"&gt;Soft Robotics Lab at ETH Zurich&lt;/a&gt; who led the project, believes this hand could prove useful in contexts like fiddly maintenance tasks in industrial settings, or in search and rescue, where a robot could detach its hand to explore confined spaces too tight for the rest of its body. More broadly, he says, the work is a step toward a new approach to robotics in which body parts are not confined to a single role.&lt;/p&gt;&lt;p&gt;“I wanted to see how much a robotic hand could do without the rest of the robot,” Kazemipour told &lt;em&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;/em&gt;. “Instead of having this traditional view of robotic parts, what if we could use those parts to do other tasks that they are not designed to do?”&lt;/p&gt;&lt;p&gt;This is &lt;a href="https://spectrum.ieee.org/epfl-lasa" target="_blank"&gt;not the first attempt&lt;/a&gt; to &lt;a href="https://www.nature.com/articles/s41467-025-67675-8" rel="noopener noreferrer" target="_blank"&gt;get a robot hand to walk&lt;/a&gt;, but previous work has typically relied on specially designed hands. The ETH team instead decided to use off-the-shelf hardware from &lt;a href="https://www.wuji.tech/en/" rel="noopener noreferrer" target="_blank"&gt;Wuji Technology&lt;/a&gt;, augmented with an 80-gram backpack containing a battery, an inertial measurement unit (IMU), and a Raspberry Pi Zero. Kazemipour says they decided to go with a commercial robot hand because they didn’t want to compromise on the hand’s manipulation capabilities. This introduced significant challenges, he adds, because a hand’s shape is optimized for grasping rather than crawling.&lt;/p&gt;&lt;h2&gt;How to Walk With Fingers&lt;/h2&gt;&lt;p&gt;To teach the hand to walk, the researchers trained a model in simulation using reinforcement learning—an approach in which models learn skills through many rounds of trial and error, receiving rewards for getting closer to the desired behavior along with penalties when they diverge from it. But Kazemipour says the unusual geometry of a hand meant they couldn’t just reuse methods used to train other kinds of legged robots. Standard quadrupeds or bipeds tend to be symmetrical on their left and right sides, which simplifies walking and balance, he says. Hands, in contrast, are not at all symmetrical, with fingers of different lengths and an opposable thumb.&lt;/p&gt;&lt;p&gt;In addition to rewards for moving at the right speed and in the right direction and penalties for things like wobbling or jerky movement, the team introduced a novel way to keep the hand in a crawling stance during the simulated training. To account for unequal digit length, they gave each finger its own target position relative to the palm, based on where it naturally sits when in the crawling posture. They then penalized the fingers for straying too far from that reference point, creating what they describe as “virtual springs” that pull the fingers back to the crawling stance. Crucially, the penalties for fingers moving forward and backward are significantly less than those for moving side to side, so taking steps in that way costs the hand very little compared with the rewards it receives for moving.&lt;/p&gt;&lt;p&gt;The team also trained separate models for skills like righting the hand when it falls over, pressing keys on a keyboard, and pushing objects to a target. All four models fit on the onboard computer, says Kazemipour, and the controller can switch between them as necessary. In real-world tests, the hand crawled across 14 different surfaces including smooth floors, metal grates, grass, and gravel. Other experiments confirmed that it could make both right and left turns, and hit an average speed of 9 centimeters per second. The hand was able to right itself in 21 of 25 trials. When given a video feed from an overhead camera, it even managed to autonomously push a 41-gram cube to targets up to 40 cm away 15 times in a row.&lt;/p&gt;&lt;p&gt;“What interests me most about this work is that the same fingers can move the hand, support its weight, and interact with its surroundings,” says &lt;a href="https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-inami_masahiko.html" rel="noopener noreferrer" target="_blank"&gt;Masahiko Inami&lt;/a&gt;, a professor at the University of Tokyo whose group has developed &lt;a href="https://dl.acm.org/doi/10.1145/3745900.3746081" rel="noopener noreferrer" target="_blank"&gt;hand-shaped walking robots&lt;/a&gt;. He agrees that a mobile hand could be useful for reaching confined spaces and operating controls that an entire arm could not easily access, though he says practical deployment would require onboard perception and more robust navigation. &lt;a href="https://smbys.github.io/#:~:text=Hideki%20Shimobayashi%20explores%20the%20Physical,of%20Tokyo%20(advised%20by%20Dr." rel="noopener noreferrer" target="_blank"&gt;Hideki Shimobayashi&lt;/a&gt;, a Ph.D. student in Inami’s lab, also points out that walking puts very different loads on a hand compared to grasping, so durability may be a challenge.&lt;/p&gt;&lt;p&gt;However, &lt;a href="https://www.me.columbia.edu/faculty/matei-ciocarlie" rel="noopener noreferrer" target="_blank"&gt;Matei Ciocarlie&lt;/a&gt;, an associate professor of mechanical engineering at Columbia University, says it’s a “cool result” that suggests robot hands don’t have to be restricted to the same capabilities as their human counterparts. “One can imagine an entirely new class of mobile manipulators that are simultaneously dexterous, able to traverse complex terrain, and able to manipulate payloads comparable in size to themselves,” he says.&lt;/p&gt;&lt;p&gt;Kazemipour sees his work as part of a longer-term vision for robots made up of parts that are not tied to a single job or even a single body plan, something he calls “autonomous modular embodiments.” “Robotic body parts should not be permanently assigned to a single function,” he says. “They can dynamically transition between roles, between being components of one embodiment system and autonomous agents, according to the task.”&lt;/p&gt;</description>
@@ -25178,13 +25190,6 @@
       <pubDate>Thu, 08 Oct 2026 16:00:59 +0000</pubDate>
     </item>
     <item>
-      <title>Rubio Warns Russia's War Could Spill Beyond Ukraine's Borders</title>
-      <link>https://www.rferl.org/a/rubio-russia-war-spill-beyond-ukraine-borders/33872989.html</link>
-      <description>US Secretary of State Marco Rubio warned that Russia's war against Ukraine is at a stalemate but could escalate into a broader regional conflict if the deadlock pushes either side toward increasingly dangerous actions.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/rubio-russia-war-spill-beyond-ukraine-borders/33872989.html</guid>
-      <pubDate>Thu, 08 Oct 2026 16:06:52 +0000</pubDate>
-    </item>
-    <item>
       <title>US Air Force, Army eye industry access on test ranges</title>
       <link>https://www.defensenews.com/industry/techwatch/2026/10/08/us-air-force-army-eye-industry-access-on-test-ranges/</link>
       <description>The U.S. Air Force is partnering with the U.S. Army to open its test ranges to approved defense firms.</description>
@@ -25220,13 +25225,6 @@
 &lt;p&gt;The post &lt;a href="https://www.twz.com/sponsored-content/sikorskys-black-hawk-2070-strategy-includes-drones-new-engines-and-flying-the-pilotless-u-hawk-this-year"&gt;Sikorsky’s “Black Hawk 2070” Strategy Includes Drones, New Engines, And Flying The Pilotless U-Hawk This Year&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/sponsored-content/sikorskys-black-hawk-2070-strategy-includes-drones-new-engines-and-flying-the-pilotless-u-hawk-this-year</guid>
       <pubDate>Thu, 08 Oct 2026 16:41:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)</title>
-      <link>https://isc.sans.edu/diary/rss/33410</link>
-      <description>We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;of the most popular AI coding assistants and&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;agents including Claude Code, Codex, Gemini CLI, Cursor, Copilot, Warp, Windsurf, and Qwen Code. I&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;ve been using Claude Code and a little bit of Codex, but I also have recently been playing with OpenCode and am setting up Hermes. I decided to figure out where the chat history was in OpenCode and where any Hermes evidence might be located.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33410</guid>
-      <pubDate>Thu, 08 Oct 2026 16:52:53 +0000</pubDate>
     </item>
     <item>
       <title>OpenAI says Iran, Russia used AI journalists, think tanks to influence Western media</title>
@@ -25412,13 +25410,6 @@
       <pubDate>Fri, 09 Oct 2026 00:08:24 +0000</pubDate>
     </item>
     <item>
-      <title>US Sanctions 17 Vessels Linked To Iran's Shadow Fleet</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Fri, 09 Oct 2026 04:49:25 +0000</pubDate>
-    </item>
-    <item>
       <title>Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland</title>
       <link>https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/</link>
       <description>The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]</description>
@@ -25455,25 +25446,12 @@
       <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>US, Ukraine Set For Talks In Miami Amid Onslaught Of Russian Air Strikes</title>
-      <link>https://www.rferl.org/a/us-ukraine-talks-miami-russian-air-strikes/33873365.html</link>
-      <description>The US and Ukraine will hold talks in Miami on October 9 to discuss proposals aimed at ending Russia’s war vital pieces of infrastructure in Kyiv and other citiies ahead of winter.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/us-ukraine-talks-miami-russian-air-strikes/33873365.html</guid>
-      <pubDate>Fri, 09 Oct 2026 07:14:17 +0000</pubDate>
-    </item>
-    <item>
       <title>Fornication in America: Trump’s Arch, Rome’s Emperors, and the Meaning of Victory</title>
       <link>https://warontherocks.com/fornication-in-america-trumps-arch-romes-emperors-and-the-meaning-of-victory/</link>
       <description>&lt;p&gt;In 79 A.D., Gaius Plinius Secundus, known today as Pliny the Elder, was the supreme commander of the Roman imperial fleet, permanently stationed at Misenum near Naples. He died during the eruption of Vesuvius, after sailing across the bay on a valiant but unsuccessful rescue mission. Amid such heavy responsibilities, Pliny also wrote one of antiquity&amp;#8217;s great encyclopedic works. He read and excerpted books of all kinds, and he knew something about Roman monuments. On the form and meaning of the triumphal arch, his explanation was characteristically blunt: &amp;#8220;The point of columns with statues on top is to raise a&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/fornication-in-america-trumps-arch-romes-emperors-and-the-meaning-of-victory/"&gt;Fornication in America: Trump’s Arch, Rome’s Emperors, and the Meaning of Victory&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/fornication-in-america-trumps-arch-romes-emperors-and-the-meaning-of-victory/</guid>
       <pubDate>Fri, 09 Oct 2026 07:30:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)</title>
-      <link>https://isc.sans.edu/diary/rss/33412</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33412</guid>
-      <pubDate>Fri, 09 Oct 2026 07:52:03 +0000</pubDate>
     </item>
     <item>
       <title>Trump Is Gutting America’s Core Geopolitical Advantage</title>
@@ -26033,6 +26011,13 @@ The</description>
       <pubDate>Fri, 09 Oct 2026 19:45:39 +0000</pubDate>
     </item>
     <item>
+      <title>The Pentagon awarded $350M to a firm tied to a senior DOD official</title>
+      <link>https://www.defenseone.com/policy/2026/10/pentagon-350-million-contracts-official/416543/</link>
+      <description>Experts expressed shock at a $281 million contract that was no-bid, enormous for consulting work, and set up as an OTA deal.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/10/pentagon-350-million-contracts-official/416543/</guid>
+      <pubDate>Fri, 09 Oct 2026 20:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>One year in, Army’s FUZE leader eyes ‘bigger’ acquisition challenges</title>
       <link>https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/9945010-e1791406636796-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Army innovation hub&amp;#8217;s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense. &lt;/p&gt;</description>
@@ -26111,6 +26096,27 @@ The</description>
       <description>Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.</description>
       <guid isPermaLink="false">https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/</guid>
       <pubDate>Sat, 10 Oct 2026 00:17:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Sanctions 17 Vessels Linked To Iran's Shadow Fleet</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Sat, 10 Oct 2026 07:09:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is Russia Preparing To Attack The Baltics?</title>
+      <link>https://www.rferl.org/a/nato-eu-attack-response/33873659.html</link>
+      <description>Could Russia attack the Baltic states? There are no signs of an imminent conventional invasion, but concerns are growing that Moscow could test NATO in other ways. We look at the vulnerable spots along NATO’s borders, Russia’s increasingly daring gray-zone tactics, and why ambiguity itself may be part of the strategy.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/nato-eu-attack-response/33873659.html</guid>
+      <pubDate>Sat, 10 Oct 2026 07:13:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russian Strike Kills At Least 8, Including 3 Children, In Ukraine's Zaporizhzhya, Kyiv Says</title>
+      <link>https://www.rferl.org/a/ukraine-russia-drone-attack-zaporizhzhya-kyiv/33874079.html</link>
+      <description>A Russian strike on the southeastern Ukrainian city of Zaporizhzhya killed at least eight people, including three children, and wounded 16 on October 10, local authorities said, as Russia launched a large-scale overnight drone attack across Ukraine.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-drone-attack-zaporizhzhya-kyiv/33874079.html</guid>
+      <pubDate>Sat, 10 Oct 2026 08:21:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
