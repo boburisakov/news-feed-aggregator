@@ -7,1035 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 02:01:45 +0000</lastBuildDate>
-    <item>
-      <title>Savannah lwIP SMTP client</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-279-02.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Savannah lwIP SMTP client are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;lwIP SMTP client 2.2.1 (CVE-2026-15340)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 9.8&lt;/td&gt;
-&lt;td&gt;Savannah&lt;/td&gt;
-&lt;td&gt;lwIP SMTP client&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;1 Vulnerability&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Energy, Water and Wastewater Systems&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Sweden&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-15340&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;lwIP SMTP client does not check the size of inputs, potentially allowing a buffer overflow.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;1 Affected Product&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Savannah lwIP SMTP client: 2.2.1&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;xchglabs reports that the vulnerability was fixed and released in the following patch: patch_125_smtp_txbuf.diff . This is available as available as git commit (614420f82c8729d070e01464c0dddb3c9525c772)&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/120.html"&gt;CWE-120 Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-15340"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;xchglabs reported this vulnerability directly to Savannah and then disclosed once the fix was released&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (&lt;a href="https://www.cisa.gov/notification"&gt;https://www.cisa.gov/notification&lt;/a&gt;) and this Privacy &amp;amp; Use policy (&lt;a href="https://www.cisa.gov/privacy-policy"&gt;https://www.cisa.gov/privacy-policy&lt;/a&gt;).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability.&amp;nbsp;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the internet.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;When remote access is required, use more secure methods, such as virtual private networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-10-06&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-10-06&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hitachi Energy RTU500</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-279-06.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Hitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version 9.x. The reported findings are associated with legacy RTU500 firmware versions that were developed according to the cybersecurity requirements, threat landscape, and industry practices that existed at the time of their release. As cybersecurity threats and security expectations have evolved, these end-of-life versions no longer incorporate many of the security controls and hardening measures that are standard in modern industrial control systems. Over successive RTU500 releases, Hitachi Energy has continuously enhanced the security of the product through the introduction of additional security features, protocol hardening, stronger authentication and access controls, encrypted communications, and other security-by-design improvements. While the findings reported by Dragos do not affect currently supported RTU500 CMU firmware versions, there is a likelihood that the end-of-life versions 11.x and prior are affected by these vulnerabilities. Since the end-of-life versions are no longer maintained with security updates, Hitachi Energy strongly recommends upgrading to a currently supported RTU500 firmware version. Customers should also implement appropriate defense-in-depth measures and cybersecurity best practices to reduce risk and strengthen the security posture of their operational environments. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Hitachi Energy RTU500 are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;RTU500 series CMU Firmware vers:RTU500_series_CMU_Firmware/&amp;lt;=11.x (CVE-2026-8065, CVE-2026-8066, CVE-2026-8067, CVE-2010-2965, CVE-2014-9195, CVE-2023-46143)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 9.8&lt;/td&gt;
-&lt;td&gt;Hitachi Energy&lt;/td&gt;
-&lt;td&gt;RTU500 series CMU Firmware&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;5 Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Missing Authentication for Critical Function, Relative Path Traversal, Missing Authorization, Incorrect Authorization, Download of Code Without Integrity Check&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Switzerland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="icsa-etb-toggle-wrapper"&gt;&lt;a class="icsa-etb-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-8065&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;An authentication bypass vulnerability in the firmware update endpoint of Hitachi Energy RTU500 allows an unauthenticated attacker to upload arbitrary firmware through a crafted POST request. Successful exploitation could allow the attacker to modify device functionality or compromise the integrity or availability of the device.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;1 Affected Product&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.1&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-8065"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-8066&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;A directory traversal vulnerability in the file upload functionality of Hitachi Energy RTU500 allows an unauthenticated attacker to write or overwrite arbitrary files on the device file system. Depending on the files affected, successful exploitation could result in unauthorized modification of device data or disruption of the device’s intended operation.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;2 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/23.html"&gt;CWE-23 Relative Path Traversal&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.1&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-8066"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-8067&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;An improper authorization vulnerability in the RTU500’s web application allows an authenticated user to trigger the RTU500 to reboot through the reset endpoint. Successful exploitation could cause temporary device unavailability and disruption of its intended operation.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;3 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/862.html"&gt;CWE-862 Missing Authorization&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-8067"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2010-2965&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;The WDB target agent debug service in Wind River VxWorks 6.x, 5.x, and earlier, as used on few of the Hitachi Energy RTU500 CMU firmware legacy versions, allows remote attackers to read or modify arbitrary memory locations, perform function calls, or manage tasks via requests to UDP port 17185.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;4 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/863.html"&gt;CWE-863 Incorrect Authorization&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2010-2965"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2014-9195&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;Missing authentication vulnerability in a network service of Hitachi Energy RTU500 allows an unauthenticated remote attacker to execute arbitrary commands using protocol-compliant network traffic. Successful exploitation could result in unauthorized modification of the device or disruption of its intended operation.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;5 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2014-9195"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2023-46143&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;A download of code without integrity check vulnerability in Hitachi Energy RTU500 allows an unauthenticated remote attacker to modify some or all applications running on the device. Successful exploitation could result in unauthorized modification of device functionality or disruption of its intended operation.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;6 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;RTU500 series CMU Firmware versions 11.x and prior (End-of-Life)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Upgrade to version 12.7.8 or 13.9.1 or latest&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/494.html"&gt;CWE-494 Download of Code Without Integrity Check&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2023-46143"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Dragos reported these vulnerabilities to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Notice&lt;/h2&gt;
-&lt;p&gt;The information in this document is subject to change without notice and should not be construed as a commitment by Hitachi Energy. Hitachi Energy provides no warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, for the information contained in this document, and assumes no responsibility for any errors that may appear in this document. In no event shall Hitachi Energy or any of its suppliers be liable for direct, indirect, special, incidental or consequential damages of any nature or kind arising from the use of this document, or from the use of any hardware or software described in this document, even if Hitachi Energy or its suppliers have been advised of the possibility of such damages. This document and parts hereof must not be reproduced or copied without written permission from Hitachi Energy and the contents hereof must not be imparted to a third party nor used for any unauthorized purpose. All rights to registrations and trademarks reside with their respective owners.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Support&lt;/h2&gt;
-&lt;p&gt;For additional information and support please contact your product provider or Hitachi Energy service organization. For contact information, see https://www.hitachienergy.com/contact-us/ for Hitachi Energy contact-centers.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Mitigation Factors&lt;/h2&gt;
-&lt;p&gt;Recommended security practices and firewall configurations can help protect a process control network from attacks that originate from outside the network. Such practices include that process control systems are physically protected from direct access by unauthorized personnel, have no direct connections to the Internet, and are separated from other networks by means of a firewall system that has a minimal number of ports exposed, and others that have to be evaluated case by case. Process control systems should not be used for Internet surfing, instant messaging, or receiving e-mails. Portable computers and removable storage media should be carefully scanned for viruses before they are connected to a control system. Proper password policies and processes should be followed. Additional information on Industrial Control Systems Cybersecurity Best Practices can be found in the Hitachi Energy “Industrial Control Systems Cybersecurity Best Practices” Cybersecurity Notification. [1]&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;SSVC&lt;/h2&gt;
-&lt;p&gt;SSVCv2/E:N/A:N/2026-09-28T14:38:32Z/&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of this vulnerability.&lt;/p&gt;
-&lt;p&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/p&gt;
-&lt;p&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/p&gt;
-&lt;p&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/p&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Hitachi Energy PSIRT 8DBD000251 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Hitachi Energy PSIRT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-29&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-09-29&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial public release&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-10-06&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Hitachi Energy PSIRT 8DBD000251 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hitachi Energy SOI</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-279-04.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Hitachi Energy is aware of RCE (Remote Code Execution) vulnerability in Apache ActiveMQ component of SOI product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks affecting confidentiality, integrity, and availability of the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Hitachi Energy SOI are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SOI vers:SOI/&amp;gt;=2.0.0|&amp;lt;=2.2.0 (CVE-2026-34197)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 8.8&lt;/td&gt;
-&lt;td&gt;Hitachi Energy&lt;/td&gt;
-&lt;td&gt;SOI&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;1 Vulnerability&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Improper Control of Generation of Code ('Code Injection')&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Switzerland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-34197&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;Improper Input Validation, Improper Control of Generation of Code ('Code Injection') vulnerability in Apache ActiveMQ Broker, Apache ActiveMQ used in SOI product. Apache ActiveMQ Classic exposes the Jolokia JMX-HTTP bridge at /api/jolokia/ on the web console. The default Jolokia access policy permits exec operations on all ActiveMQ MBeans (org.apache.activemq:*), including BrokerService.addNetworkConnector(String) and BrokerService.addConnector(String). An authenticated attacker can invoke these operations with a crafted discovery URI that triggers the VM transport's brokerConfig parameter to load a remote Spring XML application context using ResourceXmlApplicationContext. Because Spring's ResourceXmlApplicationContext instantiates all singleton beans before the BrokerService validates the configuration, arbitrary code execution occurs on the broker's JVM through bean factory methods such as Runtime.exec().&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;1 Affected Product&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;SOI Version 2.0.0 to 2.2.0&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Apply the patch SOI EP2, which upgrades the ActiveMQ version (JMS message broker) for the SOI Core to version 5.19.5. EP2 is a cumulative patch that covers previous EP1 patch. EP2 also upgrades the SOI management scripts to the latest version and installs an upgraded OpenJDK version 11 to run ActiveMQ MESSAGE BROKER in the newer JRE. It also upgrades the ActiveMQ client libraries installed in the WildFly module.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Follow General Mitigation Factors/Workarounds and refer to the product deployment guidelines for securing the product environment.&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/94.html"&gt;CWE-94 Improper Control of Generation of Code ('Code Injection')&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-34197"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Hitachi Energy Internal Team reported this vulnerability to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Notice&lt;/h2&gt;
-&lt;p&gt;The information in this document is subject to change without notice and should not be construed as a commitment by Hitachi Energy. Hitachi Energy provides no warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, for the information contained in this document, and assumes no responsibility for any errors that may appear in this document. In no event shall Hitachi Energy or any of its suppliers be liable for direct, indirect, special, incidental or consequential damages of any nature or kind arising from the use of this document, or from the use of any hardware or software described in this document, even if Hitachi Energy or its suppliers have been advised of the possibility of such damages. This document and parts hereof must not be reproduced or copied without written permission from Hitachi Energy and the contents hereof must not be imparted to a third party nor used for any unauthorized purpose. All rights to registrations and trademarks reside with their respective owners.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Support&lt;/h2&gt;
-&lt;p&gt;For additional information and support please contact your product provider or Hitachi Energy service organization. For contact information, see https://www.hitachienergy.com/contact-us/ for Hitachi Energy contact-centers.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Mitigation Factors&lt;/h2&gt;
-&lt;p&gt;Recommended security practices and firewall configurations can help protect a process control network from attacks that originate from outside the network. Such practices include that process control systems are physically protected from direct access by unauthorized personnel, have no direct connections to the Internet, and are separated from other networks by means of a firewall system that has a minimal number of ports exposed, and others that have to be evaluated case by case. Process control systems should not be used for Internet surfing, instant messaging, or receiving e-mails. Portable computers and removable storage media should be carefully scanned for viruses before they are connected to a control system. Proper password policies and processes should be followed. Additional information on Industrial Control Systems Cybersecurity Best Practices can be found in the Hitachi Energy’s “Industrial Control Systems Cybersecurity Best Practices” Cybersecurity Notification. [1]&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;SSVC&lt;/h2&gt;
-&lt;p&gt;SSVCv2/E:N/A:N/2026-09-28T14:31:35Z/&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp;amp; Use policy (https://www.cisa.gov/privacy-policy).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of these vulnerabilities.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/li&gt;
-&lt;li&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/li&gt;
-&lt;li&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Hitachi Energy PSIRT 8DBD000244 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Hitachi Energy PSIRT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-29&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-09-29&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial public release&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-10-06&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Hitachi Energy PSIRT 8DBD000244 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hitachi Energy Asset Suite</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-279-03.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Hitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document. These vulnerabilities can be exploited to potentially cause confidentiality, integrity and availability impact on the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Hitachi Energy Asset Suite are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Asset Suite vers:Asset_Suite/&amp;lt;=9.9.0 (CVE-2026-7395, CVE-2026-11796)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 8.1&lt;/td&gt;
-&lt;td&gt;Hitachi Energy&lt;/td&gt;
-&lt;td&gt;Asset Suite&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;1 Vulnerability&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Missing Authentication for Critical Function&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Energy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Switzerland&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="icsa-etb-toggle-wrapper"&gt;&lt;a class="icsa-etb-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-7395&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;Asset Suite allows unauthenticated users to access HTTPPublishAdapterTestServlet that can be used for configuration file upload, leading to information disclosure and integrity compromise. The HTTPPublishAdapterTestServlet is specifically meant for testing purposes to be used in a non-production environment.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;1 Affected Product&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Asset Suite versions 9.9.0 and prior&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update or upgrade to Asset Suite 9.9.1 when available&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Disable the affected servlet [2] [3] [2] HTTPPublishAdapterTestServlet is meant for testing purposes used in non-production environment [3] Functionality of the servlets, PropertiesReloadServlet, CacheFlushServlet, MetadataCacheFlushServlet and ResourceBundleReloadServlet to be evaluated for its utility in the production environment&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.1&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-7395"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-11796&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;Asset Suite allows unauthenticated users to access PropertiesReloadServlet, CacheFlushServlet, MetadataCacheFlushServlet and ResourceBundleReloadServlet, which could result in denial-of-service conditions affecting application availability. These servlets are designed to perform specific functions within production environment depending on how the Asset Suite application is configured.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;2 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Asset Suite versions 9.9.0 and prior&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update or upgrade to Asset Suite 9.9.1 when available&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Disable the affected servlet [2] [3] [2] HTTPPublishAdapterTestServlet is meant for testing purposes used in non-production environment [3] Functionality of the servlets, PropertiesReloadServlet, CacheFlushServlet, MetadataCacheFlushServlet and ResourceBundleReloadServlet to be evaluated for its utility in the production environment&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Asset Suite versions 9.9.0 and prior&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update or upgrade to Asset Suite 9.9.1 when available&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Disable the affected servlet [2] [3] [2] HTTPPublishAdapterTestServlet is meant for testing purposes used in non-production environment [3] Functionality of the servlets, PropertiesReloadServlet, CacheFlushServlet, MetadataCacheFlushServlet and ResourceBundleReloadServlet to be evaluated for its utility in the production environment&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/306.html"&gt;CWE-306 Missing Authentication for Critical Function&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;4.3&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;5.1&lt;/td&gt;
-&lt;td&gt;MEDIUM&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-11796"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;EDF reported these vulnerabilities to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Notice&lt;/h2&gt;
-&lt;p&gt;The information in this document is subject to change without notice and should not be construed as a commitment by Hitachi Energy. Hitachi Energy provides no warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, for the information contained in this document, and assumes no responsibility for any errors that may appear in this document. In no event shall Hitachi Energy or any of its suppliers be liable for direct, indirect, special, incidental or consequential damages of any nature or kind arising from the use of this document, or from the use of any hardware or software described in this document, even if Hitachi Energy or its suppliers have been advised of the possibility of such damages. This document and parts hereof must not be reproduced or copied without written permission from Hitachi Energy and the contents hereof must not be imparted to a third party nor used for any unauthorized purpose. All rights to registrations and trademarks reside with their respective owners.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Support&lt;/h2&gt;
-&lt;p&gt;For additional information and support please contact your product provider or Hitachi Energy service organization. For contact information, see &lt;a href="https://www.hitachienergy.com/contact-us/"&gt;https://www.hitachienergy.com/contact-us/&lt;/a&gt; for Hitachi Energy contact-centers.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Mitigation Factors&lt;/h2&gt;
-&lt;p&gt;Recommended security practices and firewall configurations can help protect a process control network from attacks that originate from outside the network. Such practices include that process control systems are physically protected from direct access by unauthorized personnel, have no direct connections to the Internet, and are separated from other networks by means of a firewall system that has a minimal number of ports exposed, and others that have to be evaluated case by case. Process control systems should not be used for Internet surfing, instant messaging, or receiving e-mails. Portable computers and removable storage media should be carefully scanned for viruses before they are connected to a control system. Proper password policies and processes should be followed. Additional information on Industrial Control Systems Cybersecurity Best Practices can be found in the Hitachi Energy “Industrial Control Systems Cybersecurity Best Practices” Cybersecurity Notification.&amp;nbsp;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;SSVC&lt;/h2&gt;
-&lt;p&gt;SSVCv2/E:N/A:N/2026-09-28T14:32:19Z/&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;
-&lt;p&gt;This product is provided subject to this Notification (&lt;a href="https://www.cisa.gov/notification"&gt;https://www.cisa.gov/notification&lt;/a&gt;) and this Privacy &amp;amp; Use policy (&lt;a href="https://www.cisa.gov/privacy-policy"&gt;https://www.cisa.gov/privacy-policy&lt;/a&gt;).&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the exploitation risk of this vulnerability.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.&lt;/li&gt;
-&lt;li&gt;Locate control system networks and remote devices behind firewalls and isolate them from business networks.&lt;/li&gt;
-&lt;li&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Hitachi Energy PSIRT 8DBD000254 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Hitachi Energy PSIRT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-09-29&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-09-29&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial public release&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-10-06&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Hitachi Energy PSIRT 8DBD000254 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 12 Oct 2026 09:10:07 +0000</lastBuildDate>
     <item>
       <title>Hitachi Energy REB500</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05</link>
@@ -1671,14 +643,6 @@
       <pubDate>Tue, 06 Oct 2026 20:10:49 +0000</pubDate>
     </item>
     <item>
-      <title>Kindling, Catalyst, and Containment: Will the West Bank Ignite?</title>
-      <link>https://warontherocks.com/kindling-catalyst-and-containment-will-the-west-bank-ignite/</link>
-      <description>&lt;p&gt;As violence by Israeli settlers against Palestinians in the West Bank has escalated, often with the acquiescence or support of Israel&amp;#8217;s military, and the Israeli government has increasingly constricted Palestinian daily life, the potential for a new intifada &amp;#8212; or uprising &amp;#8212; has intensified. The first Palestinian intifada began in late 1987 and continued for several years. Civil society played a major role in organizing the first intifada, which started as mostly nonviolent and included economic measures such as strikes and boycotts. The second intifada broke out in 2000 and lasted into 2005. It was much more violent than the&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/kindling-catalyst-and-containment-will-the-west-bank-ignite/"&gt;Kindling, Catalyst, and Containment: Will the West Bank Ignite?&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/kindling-catalyst-and-containment-will-the-west-bank-ignite/</guid>
-      <pubDate>Tue, 06 Oct 2026 20:25:37 +0000</pubDate>
-    </item>
-    <item>
       <title>GPT-6 and Intelligent UI for everyone</title>
       <link>https://openai.com/index/gpt-6-for-everyone</link>
       <description>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</description>
@@ -1855,14 +819,6 @@
       <pubDate>Wed, 07 Oct 2026 19:44:56 +0000</pubDate>
     </item>
     <item>
-      <title>How The Groundwork For F-47 Flight Testing Is Being Laid</title>
-      <link>https://www.twz.com/air/how-the-groundwork-for-f-47-flight-testing-is-being-laid</link>
-      <description>&lt;p&gt;The Air Force Test Center plans to use an evolving blend of real-world and digital testing once the F-47 starts flying.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/how-the-groundwork-for-f-47-flight-testing-is-being-laid"&gt;How The Groundwork For F-47 Flight Testing Is Being Laid&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/how-the-groundwork-for-f-47-flight-testing-is-being-laid</guid>
-      <pubDate>Wed, 07 Oct 2026 20:22:18 +0000</pubDate>
-    </item>
-    <item>
       <title>Australian Gov't Weighs Mandatory AI Incident Reporting</title>
       <link>https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting</link>
       <description>In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.</description>
@@ -1914,17 +870,17 @@
       <pubDate>Thu, 08 Oct 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The End of Gaza</title>
-      <link>https://www.foreignaffairs.com/palestinian-territories/end-gaza</link>
-      <description>A failing peace process leads to only one outcome.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/palestinian-territories/end-gaza</guid>
-      <pubDate>Thu, 08 Oct 2026 08:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Case for Economic Espionage</title>
       <link>https://www.foreignaffairs.com/united-states/case-economic-espionage-david-cohen</link>
       <description>America should spy on foreign companies to help its own.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/case-economic-espionage-david-cohen</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The End of Gaza</title>
+      <link>https://www.foreignaffairs.com/palestinian-territories/end-gaza</link>
+      <description>A failing peace process leads to only one outcome.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/palestinian-territories/end-gaza</guid>
       <pubDate>Thu, 08 Oct 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
@@ -25196,21 +24152,6 @@
       <pubDate>Thu, 08 Oct 2026 19:08:16 +0000</pubDate>
     </item>
     <item>
-      <title>Sig Sauer develops 25-round mag for Army’s next-gen rifle</title>
-      <link>https://www.defensenews.com/news/your-army/2026/10/08/sig-sauer-develops-25-round-mag-for-armys-next-gen-rifle/</link>
-      <description>Soldier feedback, from the constructive to the blistering, has been instrumental in guiding Sig Sauer in its development of the M8 carbine.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-army/2026/10/08/sig-sauer-develops-25-round-mag-for-armys-next-gen-rifle/</guid>
-      <pubDate>Thu, 08 Oct 2026 19:23:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Israel and Turkey are not natural rivals. It’s time to stop treating them that way.</title>
-      <link>https://www.atlanticcouncil.org/blogs/menasource/israel-and-turkey-are-not-natural-rivals-its-time-to-stop-treating-them-that-way/</link>
-      <description>&lt;p&gt;The West should find ways of managing rather than entrenching both countries further into this competition.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/menasource/israel-and-turkey-are-not-natural-rivals-its-time-to-stop-treating-them-that-way/"&gt;Israel and Turkey are not natural rivals. It’s time to stop treating them that way. &lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/menasource/israel-and-turkey-are-not-natural-rivals-its-time-to-stop-treating-them-that-way/</guid>
-      <pubDate>Thu, 08 Oct 2026 19:35:55 +0000</pubDate>
-    </item>
-    <item>
       <title>Ransomware recovery CEO indicted after allegedly paying hackers and pocketing millions</title>
       <link>https://cyberscoop.com/monstercloud-zohar-pinhasi-ransomware-recovery-scheme/</link>
       <description>&lt;p&gt;Zohar Pinhasi allegedly deceived ransomware recovery clients into a payment scheme disguised as a specialized service that helped victims avoid paying cybercriminals.&lt;/p&gt;
@@ -25450,18 +24391,6 @@
       <pubDate>Fri, 09 Oct 2026 12:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies</title>
-      <link>https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon.
-
-The vulnerabilities in question are listed below -
-
-
-  CVE-2015-3306 (CVSS score: 10.0) - An improper access control vulnerability in ProFTPD that could allow</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html</guid>
-      <pubDate>Fri, 09 Oct 2026 12:21:51 +0000</pubDate>
-    </item>
-    <item>
       <title>Max severity SonicWall SMA1000 flaw now exploited in attacks</title>
       <link>https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/</link>
       <description>Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago. [...]</description>
@@ -25559,20 +24488,6 @@ TP-Link Systems is based in</description>
       <pubDate>Fri, 09 Oct 2026 14:23:34 +0000</pubDate>
     </item>
     <item>
-      <title>Swedish government launches first Patriot mission to Poland</title>
-      <link>https://breakingdefense.com/2026/10/swedish-government-launches-first-patriot-mission-to-poland/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/swedish-government-launches-first-patriot-mission-to-poland/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261008_DVIDS_sweden_patriot_6952221-e1791472397482-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The move, part of a NATO mission, comes as a new government is coming to power in Stockholm, with security policy at the heart of political row.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/10/swedish-government-launches-first-patriot-mission-to-poland/</guid>
-      <pubDate>Fri, 09 Oct 2026 14:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Governor, Old Problem: Koja Confronts US Base-Related Crimes in Okinawa</title>
-      <link>https://thediplomat.com/2026/10/new-governor-old-problem-koja-confronts-us-base-related-crimes-in-okinawa/</link>
-      <description>Whoever is governor, waves of Okinawan anti-base sentiment and protest will continue in the wake of every violent crime.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/new-governor-old-problem-koja-confronts-us-base-related-crimes-in-okinawa/</guid>
-      <pubDate>Fri, 09 Oct 2026 14:50:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How the world fell out of love with French debt</title>
       <link>https://www.atlanticcouncil.org/dispatches/how-the-world-fell-out-of-love-with-french-debt/</link>
       <description>&lt;p&gt;French debt was supposed to be Europe’s “safe asset.” Not anymore.&lt;/p&gt;
@@ -25587,20 +24502,6 @@ TP-Link Systems is based in</description>
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/somalia-claims-to-have-killed-another-senior-shabaab-leader.php"&gt;Somalia claims to have killed another senior Shabaab leader&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/somalia-claims-to-have-killed-another-senior-shabaab-leader.php</guid>
       <pubDate>Fri, 09 Oct 2026 14:55:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>A leap in drone range and payloads come from a battery with different chemistry</title>
-      <link>https://breakingdefense.com/2026/10/a-leap-in-drone-range-and-payloads-come-from-a-battery-with-different-chemistry/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/a-leap-in-drone-range-and-payloads-come-from-a-battery-with-different-chemistry/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="683" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/Scion-lead-image-1024x683.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] Lithium-metal batteries are one way to break the weight and endurance limits of today’s unmanned systems.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/10/a-leap-in-drone-range-and-payloads-come-from-a-battery-with-different-chemistry/</guid>
-      <pubDate>Fri, 09 Oct 2026 15:03:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Kim Jong Un Should Want a 4th Summit With Donald Trump</title>
-      <link>https://thediplomat.com/2026/10/why-kim-jong-un-should-want-a-4th-summit-with-donald-trump/</link>
-      <description>Here’s what Pyongyang’s Foreign Ministry might be telling Kim about a possible summit.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/why-kim-jong-un-should-want-a-4th-summit-with-donald-trump/</guid>
-      <pubDate>Fri, 09 Oct 2026 15:06:00 +0000</pubDate>
     </item>
     <item>
       <title>Video Friday: Robot Decommissioning Takes a Fun Turn</title>
@@ -25657,6 +24558,13 @@ TP-Link Systems is based in</description>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/gdls-exec-new-loitering-munitions-platform-to-be-delivered-to-army-by-end-of-month/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/8605042-scaled-e1777487412386-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The company is on contract to provide four PERCH 2.0 prototypes to the Army&amp;#8217;s 1st Brigade, 1st Cavalry Division by the end of October. &lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/10/gdls-exec-new-loitering-munitions-platform-to-be-delivered-to-army-by-end-of-month/</guid>
       <pubDate>Fri, 09 Oct 2026 16:35:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patria expands Latvian operations with Valmiera vehicle facility</title>
+      <link>https://www.army-technology.com/news/patria-latvia-valmiera-vehicle/</link>
+      <description>Patria is expanding its industrial presence in Latvia with a new military vehicle facility at the Valmiera Industrial and Export Park.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/patria-latvia-valmiera-vehicle/</guid>
+      <pubDate>Fri, 09 Oct 2026 16:54:59 +0000</pubDate>
     </item>
     <item>
       <title>FBI arrests another suspected ShinyHunters hacker after agency breach</title>
@@ -25899,12 +24807,9 @@ The</description>
     <item>
       <title>Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws</title>
       <link>https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html</link>
-      <description>Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.
+      <description>Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.
 
-The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude -
-
-
-  Claude Mythos</description>
+The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html</guid>
       <pubDate>Sat, 10 Oct 2026 09:18:45 +0000</pubDate>
     </item>
@@ -26035,13 +24940,6 @@ The name</description>
       <pubDate>Sun, 11 Oct 2026 04:24:34 +0000</pubDate>
     </item>
     <item>
-      <title>Latest Attack By Iran-Backed Houthi Rebels On Saudi Airport Kills 1, Injures 11</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Sun, 11 Oct 2026 07:09:00 +0000</pubDate>
-    </item>
-    <item>
       <title>As Russian Arms Exports Slide, Central Asia Shops Elsewhere</title>
       <link>https://www.rferl.org/a/russian-arms-exports-central-asia-china/33873550.html</link>
       <description>Central Asian nations are increasingly turning to India, China, Turkey, and Europe for military equipment to reduce their dependence on Russia. Analysts note that this diversification offers greater political flexibility but could create long-term logistical and operational challenges.</description>
@@ -26108,17 +25006,114 @@ The name</description>
       <pubDate>Sun, 11 Oct 2026 21:00:58 +0000</pubDate>
     </item>
     <item>
-      <title>Zelenskyy Says Russian Strikes Continue Amid Trump Cease-Fire Call; Moscow Mum</title>
+      <title>Zelenskyy Says Russian Strikes Continue Amid Trump Cease-Fire Call</title>
       <link>https://www.rferl.org/a/zelenskyy-energy-ceasefire-trump-ukraine-russia/33874639.html</link>
       <description>Ukrainian President Volodymyr Zelenskyy accused Russia of striking an energy plant after US leader Donald Trump's surprise announcement of an “energy cease-fire,” while Moscow remained silent on any suggestion of a truce.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/zelenskyy-energy-ceasefire-trump-ukraine-russia/33874639.html</guid>
       <pubDate>Sun, 11 Oct 2026 22:01:35 +0000</pubDate>
     </item>
     <item>
+      <title>Myanmar’s Min Aung Hlaing to Visit Indonesia and Brunei, Regime Spokesperson Says</title>
+      <link>https://thediplomat.com/2026/10/myanmars-min-aung-hlaing-to-visit-indonesia-and-brunei-regime-spokesperson-says/</link>
+      <description>Since taking office in April, the former general has visited five ASEAN member states as he seeks normalization with the Southeast Asian bloc.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/myanmars-min-aung-hlaing-to-visit-indonesia-and-brunei-regime-spokesperson-says/</guid>
+      <pubDate>Mon, 12 Oct 2026 01:54:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)</title>
       <link>https://isc.sans.edu/diary/rss/33416</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33416</guid>
       <pubDate>Mon, 12 Oct 2026 02:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anduril unveils Steelfin interceptor as cheaper option to PAC-3 missiles</title>
+      <link>https://breakingdefense.com/2026/10/anduril-unveils-steelfin-interceptor-as-cheaper-option-to-pac-3-missiles/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/anduril-unveils-steelfin-interceptor-as-cheaper-option-to-pac-3-missiles/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/2026-SteelFin-GTM-Detail-Angled-Grid-01-3-e1791743007745-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Anduril executives said the system can be “reconfigured” to be tailored toward defeating both low cost and exquisite systems. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/10/anduril-unveils-steelfin-interceptor-as-cheaper-option-to-pac-3-missiles/</guid>
+      <pubDate>Mon, 12 Oct 2026 04:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Drops Sanctions on Daughter of Prominent Myanmar Businessman Thein Win Zaw</title>
+      <link>https://thediplomat.com/2026/10/us-drops-sanctions-on-daughter-of-prominent-myanmar-businessman-thein-win-zaw/</link>
+      <description>Is Theint Win Htet's removal from the Treasury Department's blacklist a sign of a looming rapprochement between Washington and Naypyidaw?</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/us-drops-sanctions-on-daughter-of-prominent-myanmar-businessman-thein-win-zaw/</guid>
+      <pubDate>Mon, 12 Oct 2026 04:07:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Latest Attack By Iran-Backed Houthi Rebels On Saudi Airport Kills 1, Injures 11</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Mon, 12 Oct 2026 04:11:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anduril Unveils Steelfin Family Of Modular Surface-To-Air Missiles</title>
+      <link>https://www.twz.com/land/anduril-unveils-steelfin-family-of-modular-surface-to-air-missiles</link>
+      <description>&lt;p&gt;Anduril aims to produce Steelfin interceptors at scale by leveraging common components that can be configured for different threats.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/land/anduril-unveils-steelfin-family-of-modular-surface-to-air-missiles"&gt;Anduril Unveils Steelfin Family Of Modular Surface-To-Air Missiles&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/land/anduril-unveils-steelfin-family-of-modular-surface-to-air-missiles</guid>
+      <pubDate>Mon, 12 Oct 2026 05:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Live updates from the IMF-World Bank Annual Meetings in Thailand as financial leaders take on AI, debt, and geopolitical upheaval</title>
+      <link>https://www.atlanticcouncil.org/blogs/econographics/live-updates-from-the-imf-world-bank-annual-meetings-in-thailand-as-financial-leaders-take-on-ai-debt-and-geopolitical-upheaval/</link>
+      <description>&lt;p&gt;Our experts are on the ground talking to leaders and getting the behind-the-scenes scoop on how the Bretton Woods institutions are taking on the most urgent challenges in the global economy.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/econographics/live-updates-from-the-imf-world-bank-annual-meetings-in-thailand-as-financial-leaders-take-on-ai-debt-and-geopolitical-upheaval/"&gt;Live updates from the IMF-World Bank Annual Meetings in Thailand as financial leaders take on AI, debt, and geopolitical upheaval&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/econographics/live-updates-from-the-imf-world-bank-annual-meetings-in-thailand-as-financial-leaders-take-on-ai-debt-and-geopolitical-upheaval/</guid>
+      <pubDate>Mon, 12 Oct 2026 05:32:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records</title>
+      <link>https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html</link>
+      <description>Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.
+
+The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html</guid>
+      <pubDate>Mon, 12 Oct 2026 07:26:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>How China and America Can Move from Competition to Stability</title>
+      <link>https://warontherocks.com/how-china-and-america-can-move-from-competition-to-stability/</link>
+      <description>&lt;p&gt;The American team thought it was signaling restraint. The Chinese team saw preparations for combat. In a closed-door Sino-American crisis simulation I helped organize in the 2010s &amp;#8212; which the U.S. military funded as part of a long-term project &amp;#8212; the Americans repositioned an aircraft carrier away from a maritime dispute between China and the Philippines, expecting the move to reassure Beijing. Instead, the Chinese participants became deeply alarmed. They believed the carrier was now ideally positioned to launch combat operations while remaining less vulnerable to attack. The episode revealed how suspicion could turn an intended reassurance into an apparent&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/how-china-and-america-can-move-from-competition-to-stability/"&gt;How China and America Can Move from Competition to Stability&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/how-china-and-america-can-move-from-competition-to-stability/</guid>
+      <pubDate>Mon, 12 Oct 2026 07:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>America Shouldn’t Let Go of the Middle East</title>
+      <link>https://www.foreignaffairs.com/iran/america-shouldnt-let-go-middle-east-phil-gordon</link>
+      <description>Why disengagement is not the answer.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/iran/america-shouldnt-let-go-middle-east-phil-gordon</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chinese Robots Could Decide the AI Race</title>
+      <link>https://www.foreignaffairs.com/china/chinese-robots-could-decide-ai-race</link>
+      <description>Scott Singer and Pavlo Zvenyhorodsky, researchers at Carnegie’s China AI Initiative, argue that China is betting that AI dominance will come from combining hardware and software, or AI-powered robots. By focusing only on software such as AI models, they argue, Washington and Silicon Valley risk falling behind.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/china/chinese-robots-could-decide-ai-race</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Three years of war, 100,000 targets struck: IDF releases new conflict data</title>
+      <link>https://breakingdefense.com/2026/10/three-years-of-war-100000-targets-struck-idf-releases-new-conflict-data/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/three-years-of-war-100000-targets-struck-idf-releases-new-conflict-data/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2024/11/241126_israel_strike_beirut_GettyImages-2186324612-scaled-e1732647429461-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;That figure, which includes strikes in Lebanon, Syria, Yemen and Iran, shows the breadth of conflict Israel has waged since the Hamas terrorist attacks upended the region&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/10/three-years-of-war-100000-targets-struck-idf-releases-new-conflict-data/</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ground Robots Are Arriving on the Front Lines</title>
+      <link>https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/</link>
+      <description>&lt;p&gt;For years, ground autonomy lagged well behind its counterparts in the air. That gap is starting to close. Jonathan is joined by Ryan Hartman (Ondas Sentinel) and Scott Philips (Forterra) to examine what it takes to field autonomous ground vehicles in combat. The conversation ranges across what Ukraine and Gaza have taught them, what operating without GPS and resilient communications really looks like, air-ground teaming, and more. Image: Lance Cpl. Talan Werner via DVIDS.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/"&gt;Ground Robots Are Arriving on the Front Lines&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vector, Nammo expand push to mass-produce armed drones</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/10/12/vector-nammo-expand-push-to-mass-produce-armed-drones/</link>
+      <description>Executives from both companies say they’re scaling up production of systems that reflect “the realities of how warfighters will employ them.”</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/10/12/vector-nammo-expand-push-to-mass-produce-armed-drones/</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
