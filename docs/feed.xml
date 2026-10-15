@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 22:28:03 +0000</lastBuildDate>
-    <item>
-      <title>Army’s new command plans to streamline autonomous warfare acquisition</title>
-      <link>https://www.defenseone.com/technology/2026/10/armys-new-command-plans-streamline-autonomous-warfare-acquisition/416523/</link>
-      <description>Experts weigh in on what it will take to be successful.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/technology/2026/10/armys-new-command-plans-streamline-autonomous-warfare-acquisition/416523/</guid>
-      <pubDate>Fri, 09 Oct 2026 06:44:47 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 15 Oct 2026 00:44:57 +0000</lastBuildDate>
     <item>
       <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
       <link>https://openai.com/index/sophos</link>
@@ -962,13 +955,6 @@
       <pubDate>Tue, 13 Oct 2026 14:16:04 +0000</pubDate>
     </item>
     <item>
-      <title>What the US PERM Freeze Really Costs India’s IT Industry</title>
-      <link>https://thediplomat.com/2026/10/what-the-us-perm-freeze-really-costs-indias-it-industry/</link>
-      <description>The immediate impact of Washington’s decision on green card certification for eight IT employers may be limited, but the freeze adds uncertainty to an immigration system already strained by decades-long queues.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/what-the-us-perm-freeze-really-costs-indias-it-industry/</guid>
-      <pubDate>Tue, 13 Oct 2026 14:19:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Q&amp;A: Mars Perseverance Rover Sets a Distance Record</title>
       <link>https://spectrum.ieee.org/mars-rover-distance-record</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/a-long-trail-of-tire-tracks-left-across-mars-dusty-surface-by-a-space-rover.jpg?id=68423735&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C312%2C0%2C312" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;a href="https://www.jpl.nasa.gov/news/nasas-perseverance-sets-off-world-record-for-total-distance-driven/" target="_blank"&gt;On October 11&lt;/a&gt;, the Perseverance rover completed a drive that brought its &lt;a href="https://science.nasa.gov/mission/mars-2020-perseverance/location-map/" target="_blank"&gt;total distance traveled&lt;/a&gt; on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance’s ability to drive with much more autonomy than its predecessors. Over the last five years, Perseverance’s autonomy software has been steadily upgraded, and to learn more about how the record was broken and what the future holds for the rover, we spoke with &lt;a href="https://www.linkedin.com/in/mark-maimone-490505317/" rel="noopener noreferrer" target="_blank"&gt;Mark Maimone&lt;/a&gt;&lt;span&gt;, the Perseverance Robotic Operations Deputy Team Chief at NASA’s Jet Propulsion Laboratory, who designed and developed the self-driving software for Mars rovers Spirit, Opportunity, Curiosity, and Perseverance.&lt;/span&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;Before we talk about Perseverance, let’s pour one out for the previous record holder &lt;a href="https://science.nasa.gov/mission/mer-opportunity/" target="_blank"&gt;Opportunity&lt;/a&gt;, which landed on Mars in January of 2004 for a 3-month mission and ended its epic journey 15 years later in February of 2019. This NASA video compresses Opportunity’s entire mission into four minutes, and gives a poignant sense of the incredible distance that this little rover traveled over its 15 year life on Mars, doing science as it went:&lt;/p&gt; &lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://www.youtube.com/watch?v=1Ll-VHYxWXU" target="_blank"&gt;NASA Jet Propulsion Laboratory/YouTube&lt;/a&gt;&lt;/small&gt; &lt;/p&gt; &lt;p&gt;&lt;span&gt;Opportunity drove 45.16 kilometers until a planetary-scale dust storm stopped it in its tracks, appropriately enough, in Perseverance Valley.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;On Feb. 18, 2021, Perseverance joined &lt;a href="https://spectrum.ieee.org/curiosity-rover-jpl-mars-science" target="_self"&gt;NASA’s Curiosity rover&lt;/a&gt; on the red planet, carrying the &lt;a href="https://spectrum.ieee.org/nasa-designed-perseverance-helicopter-rover-fly-autonomously-mars" target="_self"&gt;Ingenuity helicopter&lt;/a&gt; tucked under its belly. Curiosity and Perseverance both ditched Opportunity’s solar panels for a &lt;a href="https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/power-radioisotope-thermoelectric-generators/" target="_blank"&gt;radioisotope thermoelectric generator&lt;/a&gt;. &lt;a href="https://spectrum.ieee.org/curiosity-rover-jpl-mars-science" target="_self"&gt;Curiosity has been active on Mars since 2012&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Despite Curiosity’s nearly 10 year head start, Perseverance is the rover to first break Opportunity’s record. There are several reasons for Perseverance overtaking Opportunity—&lt;a href="https://spectrum.ieee.org/if-necessary-mars-rover-curiosity-could-rip-its-own-wheels-off-to-stay-mobile" target="_self"&gt;ruggedized wheels for one&lt;/a&gt;—but the biggest contributor is that &lt;a href="https://spectrum.ieee.org/perseverance-mars-rover-autonomous-driving" target="_self"&gt;Perseverance was built for autonomy&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;&lt;span&gt;To understand how JPL taught a Mars rover to drive itself from 225 million kilometers away without crashing, &lt;em&gt;IEEE Spectrum&lt;/em&gt; spoke with &lt;/span&gt;&lt;a href="https://www.linkedin.com/in/mark-maimone-490505317/" target="_blank"&gt;Mark Maimone&lt;/a&gt;&lt;span&gt;, the Perseverance Robotic Operations Deputy Team Chief at NASA’s Jet Propulsion Laboratory.&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-caption"&gt;This animation shows Perseverance’s point of view during a drive of 807 feet (246 meters) along the rim of Jezero Crater on Dec. 10, 2025, the 1,709th Martian day, or sol, of the mission. Captured over two hours and 35 minutes, 53 Navigation Camera (Navcam) image pairs were combined with rover data on orientation, wheel speed, and steering angle, as well as data from Perseverance’s Inertial Measurement Unit, and placed into a 3D virtual environment. The result is this reconstruction with virtual frames inserted about every 4 inches (0.1 meters) of drive progress.&lt;/small&gt; &lt;small class="image-media media-photo-credit"&gt;JPL-Caltech/NASA&lt;/small&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Let’s talk about rover autonomy on Mars. Even before Perseverance, rovers were driving themselves, right?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Mark Maimone:&lt;/strong&gt; Yes! Sojourner [in 1997] had an early kind of autonomous behavior—for sensing, it used four &lt;a href="https://www.jpl.nasa.gov/images/pia04316-sol-8/" rel="noopener noreferrer" target="_blank"&gt;laser stripes&lt;/a&gt; projected onto the surface, which it used to measure the height of 20 points in the terrain in front of it. It could steer around big obstacles, or even thread the needle between two things. It was a real autonomy system, which is very impressive considering its CPU was less than one megahertz. &lt;/p&gt;&lt;p&gt;With Spirit and Opportunity, I developed the autonomy for those rovers. Every time they drove, they would use 256 x 256 pixel stereo pairs to map the geometry of the terrain and find a safe route forward. Spirit actually ended up driving itself 23% of the time, which I was frankly shocked by, since it drove much more slowly in that mode. But using autonomy helped Spirit travel 50% faster than it otherwise could have&lt;span&gt;. Opportunity and Curiosity both only used autonomous driving about 5% of the time. Perseverance is the first Mars rover that drives itself 90% of the time, with its enhanced autonomy system that includes a second processor with &lt;/span&gt;&lt;a href="https://spectrum.ieee.org/fpga-chip-ieee-milestone" target="_self"&gt;an FPGA&lt;/a&gt;&lt;span&gt; to do speed up extra image processing operations.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;What was it like to let Perseverance drive itself for the first time?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone:&lt;/strong&gt; Perseverance is the culmination of decades of work on Mars rover autonomy, so seeing Perseverance use its AutoNav system to drive itself basically at full speed, up to 120 meters an hour, was incredible.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="View of Mars' rocky surface as-captured by cameras installed on the undercarriage of a space rover." class="rm-shortcode" id="245ba" src="https://spectrum.ieee.org/media-library/view-of-mars-rocky-surface-as-captured-by-cameras-installed-on-the-undercarriage-of-a-space-rover.jpg?id=67675990&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;These two images taken by Perseverance’s hazard avoidance and navigation cameras show (on left) the very first AutoNav drive on Mars where the rover autonomously stopped before running into a rock pile, and (on right) the second AutoNav drive where the rover successfully steered around a rock.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;JPL-Caltech/NASA&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Where are the humans in this process?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone: &lt;/strong&gt;The plan of where to go is specified by the science team, and then on the engineering side, the strategic route planning team develops a path to get us to that goal by guessing, based on lower-resolution maps from orbit, what the terrain is going to look like for the rover. Each day a tactical operations team combines the strategic overall route with that day’s science goals to pick the actual route the rover will follow.&lt;/p&gt;&lt;p&gt;We want humans to keep doing long-range planning because that avoids wasting time. For example, we’ve learned that if we see sandy areas with intersecting waves or crests—not just ripples blown in one direction, but cross-ripples going in multiple directions—the rover tends to sink into terrain like that, so we tell the rover to keep out of those areas. The onboard autonomy only measures terrain shape, not terrain type, so it benefits from those location-based annotations.&lt;/p&gt;&lt;p&gt;We now have years of experience correlating images taken from orbit with images taken by the rover, and understanding how different kinds of terrain affect the drive. With the current orbiters at Mars, we sometimes get 25 cm resolution on orbital images. That’s still not quite enough to see all obstacles; there could be a big rock that doesn’t really show up on a scale of more than one or two pixels, making it very hard to notice. That is why you want to have autonomy on the rover, but the greater help we can give it at a high level, the faster we can reach our goals and the fewer potential delays we’ll encounter.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A map of Mars' surface featuring the Perseverance rover's planned path for autonomous navigation, alongside its final executed route which was diverted due to hazardous terrain. " class="rm-shortcode" id="2f1aa" src="https://spectrum.ieee.org/media-library/a-map-of-mars-surface-featuring-the-perseverance-rover-s-planned-path-for-autonomous-navigation-alongside-its-final-executed-r.jpg?id=67675967&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;This orbital view shows a region of complex Martian terrain that Perseverance could not navigate autonomously. The blue line shows the path that human planners estimated, while the white line shows the path taken by the rover. The inset image, from Perseverance’s hazard avoidance camera, shows the rocky, sandy, and sloped terrain.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Source images: &lt;a href="https://ieeexplore.ieee.org/document/11265757" target="_blank"&gt;Olivier Toupet, Masahiro Ono, et al.&lt;/a&gt;; JPL-Caltech/University of Arizona/NASA &lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;What happens when the autonomy system on Perseverance fails?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone: &lt;/strong&gt;We ended up not using the autonomy at all for about two months in more complex terrain while we tuned things and wrote new software to deal with that new terrain we hadn’t encountered before. Some of those changes were relatively quick, and some required months of study. For example, one parameter is the maximum amount of slope that the robot is allowed to climb, because on steep slopes, there is a risk of the rover slipping sideways. &lt;/p&gt;&lt;p&gt;We landed inside Jezero Crater, which was very flat, and so for the first three years most of our driving was at less than 14 degrees of slope. When we finally decided to leave the crater, we began to encounter other terrain at higher tilts with greater rock density, and the experience we gained allowed us to re-tune the parameters to allow the rover to traverse those more difficult terrains, with slopes of up to 24 degrees.&lt;/p&gt;&lt;h2&gt;Rover autonomy in the age of AI&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Late last year, you let &lt;a href="https://spectrum.ieee.org/perseverance-rover-nasa-anthropic-ai" target="_self"&gt;Anthropic’s Claude AI plan a 400 meter drive for Perseverance&lt;/a&gt;. How did that go?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone: &lt;/strong&gt;We had the AI look at the orbital images and pick out a path for us, which became the starting point of the day’s rover planning operations. Typically, that starting path comes from the human rover planner team, but in this case, it was generated by AI. Humans were still in the loop; the team reviewed it, and made a couple of adjustments. AI gave us a solid starting point that allowed us to make rapid progress, because it’s much easier to validate a path than to pick one from scratch.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Selfie taken by NASA\u2019s Perseverance rover on the planet Mars." class="rm-shortcode" id="c04cd" src="https://spectrum.ieee.org/media-library/selfie-taken-by-nasa-u2019s-perseverance-rover-on-the-planet-mars.jpg?id=67685143&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;NASA’s Perseverance Mars rover took this selfie on July 23, 2024. The selfie is composed of 62 images taken by the WATSON (Wide Angle Topographic Sensor for Operations and eNgineering) camera on the end of the rover’s robotic arm.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;JPL-Caltech/MSSS/NASA&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Do you think humans will remain a necessary part of rover operations, or do you see the next generation of Mars rovers operating for weeks at a time without human assistance?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone:&lt;/strong&gt; One of the things that has held us back from driving very long distances autonomously is that as we drive, the rover accumulates uncertainty in its position. When the uncertainty grows, it means we have to stay farther away from areas that human rover planners have identified as being potentially dangerous, called ‘keep-out zones.’ In some cases, the uncertainty gets high enough that the rover can’t plan a safe path, because the keep-out zones (which grow with the rover’s uncertainty) get too big.&lt;/p&gt;&lt;p&gt;We now have a new capability that we’ve added to Perseverance called &lt;a href="https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/" target="_blank"&gt;Mars Global Localization&lt;/a&gt;. With this new technology  that can shrink our uncertainty, we theoretically have the ability to go as long as we have resources to keep driving safely based on our maps and keep-out zones.&lt;/p&gt;&lt;p&gt;But to truly run a mission for weeks, you need to not only drive long distances, but also execute science operations autonomously. We have people here also looking at automating science operations by doing image processing onboard the rover to get a better understanding of what’s out there and where to focus the instruments’ attention. So I do think we are getting to the point where we can support long-period autonomous operations. It has been a slow evolution, but we have great capabilities now and a good understanding of what’s needed to make it work well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;As someone who has been involved with all of these Mars rovers—&lt;a href="https://www.jpl.nasa.gov/news/nasa-to-begin-attempts-to-free-sand-trapped-mars-rover/" target="_blank"&gt;including one that got stuck&lt;/a&gt;—do you fundamentally trust Perseverance to operate autonomously?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone: &lt;/strong&gt;I do. We built the software, tested it, ran millions of simulations, and did lots of work in the field in many different test environments. It hasn’t steered us wrong yet. We’re looking forward to setting even bigger records.&lt;/p&gt;</description>
@@ -991,13 +977,6 @@
       <pubDate>Tue, 13 Oct 2026 15:18:22 +0000</pubDate>
     </item>
     <item>
-      <title>US Economic Diplomacy With Allies Becomes an Election Showcase for Trump</title>
-      <link>https://thediplomat.com/2026/10/us-economic-diplomacy-with-allies-becomes-an-election-showcase-for-trump/</link>
-      <description>Investment pledges by Japan and South Korea make tempting achievements for Trump to hold up ahead of the voting.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/us-economic-diplomacy-with-allies-becomes-an-election-showcase-for-trump/</guid>
-      <pubDate>Tue, 13 Oct 2026 15:32:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Energy is upending Ukraine peace talks. Our experts explain why.</title>
       <link>https://www.atlanticcouncil.org/dispatches/energy-ukraine-russia-diesel-ceasefire/</link>
       <description>&lt;p&gt;Our experts weighed in on the latest developments, from the "energy ceasefire" announcement to the US-Russia diesel deal.&lt;/p&gt;
@@ -1012,13 +991,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/west-african-scammers-international-scam-crackdown-joint-disruption-week/"&gt;West African scammers targeted in joint international government-industry operation&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/west-african-scammers-international-scam-crackdown-joint-disruption-week/</guid>
       <pubDate>Tue, 13 Oct 2026 16:15:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pakistan Is Treating Every Grievance as Terrorism, and It’s Failing</title>
-      <link>https://thediplomat.com/2026/10/pakistan-is-treating-every-grievance-as-terrorism-and-its-failing/</link>
-      <description>From KP to Balochistan and beyond, instead of addressing the underlying causes of unrest, the country's rulers are hell-bent on targeting the opposition.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/pakistan-is-treating-every-grievance-as-terrorism-and-its-failing/</guid>
-      <pubDate>Tue, 13 Oct 2026 16:26:00 +0000</pubDate>
     </item>
     <item>
       <title>'We'll Keep Waiting': Afghanistan's Dead-End Road To China</title>
@@ -1042,13 +1014,6 @@
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/lebanese-security-forces-seize-explosives-shipment-reportedly-bound-for-hezbollah-in-beirut.php"&gt;Lebanese security forces seize explosives shipment reportedly bound for Hezbollah in Beirut&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/lebanese-security-forces-seize-explosives-shipment-reportedly-bound-for-hezbollah-in-beirut.php</guid>
       <pubDate>Tue, 13 Oct 2026 18:09:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Drones and Missiles Are Rewriting the Military Balance on the Korean Peninsula</title>
-      <link>https://thediplomat.com/2026/10/drones-and-missiles-are-rewriting-the-military-balance-on-the-korean-peninsula/</link>
-      <description>North Korea’s ability to disperse, conceal, and employ its drones, missiles, and nuclear weapons is outpacing South Korea’s capacity to destroy them.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/drones-and-missiles-are-rewriting-the-military-balance-on-the-korean-peninsula/</guid>
-      <pubDate>Tue, 13 Oct 2026 18:35:00 +0000</pubDate>
     </item>
     <item>
       <title>Bradley’s Old TOW Launchers Get New Teeth With Spike Missile Adapter</title>
@@ -1087,13 +1052,6 @@
       <description>Buying more Patriot missiles is a top priority, the Army’s fires acquisition boss said.</description>
       <guid isPermaLink="false">https://www.defenseone.com/defense-systems/2026/10/army-munitions-procurement-iran/416567/</guid>
       <pubDate>Tue, 13 Oct 2026 19:52:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>What the Ukrainian Strikes on Yandex Tell Us About Central Asia’s Digital Infrastructure</title>
-      <link>https://thediplomat.com/2026/10/what-the-ukrainian-strikes-on-yandex-tell-us-about-central-asias-digital-infrastructure/</link>
-      <description>Drone strikes on Yandex data centers near Moscow triggered service outages in Central Asia, too.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/what-the-ukrainian-strikes-on-yandex-tell-us-about-central-asias-digital-infrastructure/</guid>
-      <pubDate>Tue, 13 Oct 2026 20:31:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Finds Ingredients for Future AI Worms</title>
@@ -1179,13 +1137,6 @@
       <pubDate>Tue, 13 Oct 2026 22:29:57 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI engineer arrested for allegedly planting spy device in office</title>
-      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/</link>
-      <description>A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/</guid>
-      <pubDate>Tue, 13 Oct 2026 22:33:02 +0000</pubDate>
-    </item>
-    <item>
       <title>Microsoft Patches More Than 1,400 Security Flaws</title>
       <link>https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/</link>
       <description>Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.</description>
@@ -1260,6 +1211,13 @@
       <description>Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33420</guid>
       <pubDate>Wed, 14 Oct 2026 06:49:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Block is building AI-powered security with OpenAI technology</title>
+      <link>https://openai.com/index/block-ai-powered-security</link>
+      <description>Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.</description>
+      <guid isPermaLink="false">https://openai.com/index/block-ai-powered-security</guid>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Third Moment Research runs 10,000 agents for 36+ hours</title>
@@ -1541,6 +1499,13 @@ The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of au
       <pubDate>Wed, 14 Oct 2026 13:12:52 +0000</pubDate>
     </item>
     <item>
+      <title>In Confronting China, The West Needs Partners in Southeast Asia</title>
+      <link>https://thediplomat.com/2026/10/in-confronting-china-the-west-needs-partners-in-southeast-asia/</link>
+      <description>A plan to confront Beijing without subsequent outreach toward Southeast Asian countries will sacrifice national imperatives for willing partners, and those are hard to come by.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/in-confronting-china-the-west-needs-partners-in-southeast-asia/</guid>
+      <pubDate>Wed, 14 Oct 2026 13:17:00 +0000</pubDate>
+    </item>
+    <item>
       <title>US Army redesignates Futures Command as FASCOM</title>
       <link>https://www.army-technology.com/news/us-army-fascom-redesignate/</link>
       <description>The US Army will redesignate its Futures and Concepts Command as the US Army Futures and Autonomous Systems Command (FASCOM), placing responsibility for integrating autonomous capabilities across its warfighting functions under a new three-star command.</description>
@@ -1612,6 +1577,13 @@ The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of au
       <pubDate>Wed, 14 Oct 2026 14:12:28 +0000</pubDate>
     </item>
     <item>
+      <title>Russia’s Arrest of a Japanese Journalist Deepens the Freeze in Japan-Russia Relations</title>
+      <link>https://thediplomat.com/2026/10/russias-arrest-of-a-japanese-journalist-deepens-the-freeze-in-japan-russia-relations/</link>
+      <description>The case of Hokkaido Shimbun correspondent Imai Yuki could chill reporting from Russia’s Far East and narrow the space for even limited diplomatic engagement.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/russias-arrest-of-a-japanese-journalist-deepens-the-freeze-in-japan-russia-relations/</guid>
+      <pubDate>Wed, 14 Oct 2026 14:15:00 +0000</pubDate>
+    </item>
+    <item>
       <title>When AI agents become economic actors, what happens to money and the financial system?</title>
       <link>https://www.atlanticcouncil.org/blogs/geotech-cues/when-ai-agents-become-economic-actors-what-happens-to-money-and-the-financial-system/</link>
       <description>&lt;p&gt;If AI agents come to rely on US transaction infrastructure and dollar-denominated assets, the dollar will become embedded in the operating system of machine commerce. &lt;/p&gt;
@@ -1677,18 +1649,18 @@ The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of au
       <pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>US Army taps 9 companies to build next-gen command and control software</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/10/14/us-army-taps-9-companies-to-build-next-gen-command-and-control-software/</link>
-      <description>The service announced contract awards worth $93.6 million across nine companies building applications for its Next Generation Command and Control software.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/10/14/us-army-taps-9-companies-to-build-next-gen-command-and-control-software/</guid>
-      <pubDate>Wed, 14 Oct 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Four Drones in a 20-Foot Box: The Work Behind Sikorsky’s Nomad Fast Pack</title>
       <link>https://sofrep.com/news/four-drones-in-a-20-foot-box-the-work-behind-sikorskys-nomad-fast-pack/</link>
       <description>Sikorsky packed four drones into a shipping container and promised two would fly inside 15 minutes, though nobody has bought the box and the crew waiting on the other pair may be loading the truck before they ever leave the ground. #Sikorsky #Nomad100 #Drones #AUSA2026 #USArmy</description>
       <guid isPermaLink="false">https://sofrep.com/news/four-drones-in-a-20-foot-box-the-work-behind-sikorskys-nomad-fast-pack/</guid>
       <pubDate>Wed, 14 Oct 2026 16:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Trump-Xi Summit Exposed the Problems in China-US Crisis Management</title>
+      <link>https://thediplomat.com/2026/10/the-trump-xi-summit-exposed-the-problems-in-china-us-crisis-management/</link>
+      <description>Military communication channels become bargaining chips precisely when a crisis makes them indispensable.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/the-trump-xi-summit-exposed-the-problems-in-china-us-crisis-management/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:06:00 +0000</pubDate>
     </item>
     <item>
       <title>Shipshow: The world’s waterways are at war</title>
@@ -1791,6 +1763,13 @@ The indictment charges a mix of U.S. citizens and Chinese nationals for their ro
       <pubDate>Wed, 14 Oct 2026 17:10:56 +0000</pubDate>
     </item>
     <item>
+      <title>For Uyghurs in Central Asia, US Diplomacy Could Be a Lifeline</title>
+      <link>https://thediplomat.com/2026/10/for-uyghurs-in-central-asia-us-diplomacy-could-be-a-lifeline/</link>
+      <description>By pressing Central Asian governments to protect Uyghurs and resist Beijing’s coercion, Secretary Rubio can demonstrate that America’s moral leadership still matters.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/for-uyghurs-in-central-asia-us-diplomacy-could-be-a-lifeline/</guid>
+      <pubDate>Wed, 14 Oct 2026 17:12:00 +0000</pubDate>
+    </item>
+    <item>
       <title>‘You’re a coward’: Protesters heckle Hegseth during AUSA panel</title>
       <link>https://www.defensenews.com/news/your-military/2026/10/14/youre-a-coward-protesters-heckle-hegseth-during-ausa-panel/</link>
       <description>Protesters derailed a Washington, D.C., panel featuring Defense Secretary Pete Hegseth on Wednesday, calling him a “war criminal” and “Nazi.”</description>
@@ -1886,6 +1865,13 @@ A web shell is a small file that executes any command an attacker sends via a we
       <description>A new dress code in Azerbaijan’s schools has sparked protests by parents and students after reports that girls wearing hijabs, or Islamic head scarves, were turned away from classes. The protests come after a new ban on clothing deemed incompatible with the secular nature of education. Although the policy does not specifically mention the hijab, some parents have voiced concerns that their right to religious expression is being violated.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/azerbaijan-hijab-ban-school-religion-education/33876714.html</guid>
       <pubDate>Wed, 14 Oct 2026 18:22:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Brewing in Japan: Price-Fixing Probes Test Consumer Confidence</title>
+      <link>https://thediplomat.com/2026/10/brewing-in-japan-price-fixing-probes-test-consumer-confidence/</link>
+      <description>The Japan Fair Trade Commission’s secretary general issued an unusual public warning against cartel-like activity amid rising prices.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/brewing-in-japan-price-fixing-probes-test-consumer-confidence/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:29:00 +0000</pubDate>
     </item>
     <item>
       <title>Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability</title>
@@ -2008,16 +1994,16 @@ The attacker sends an email with a crafted attachment through the gateway and, i
     </item>
     <item>
       <title>Pentagon needs $50B for mass drone production, Hegseth says</title>
-      <link>https://www.c4isrnet.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/</link>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/</link>
       <description>Defense Secretary Pete Hegseth wants $50 billion in reconciliation funding to support the Pentagon's push to scale autonomous and robotic systems.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/</guid>
+      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/</guid>
       <pubDate>Wed, 14 Oct 2026 22:06:56 +0000</pubDate>
     </item>
     <item>
       <title>Pentagon needs $50B for mass drone production, Hegseth says</title>
-      <link>https://www.defensenews.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/</link>
+      <link>https://www.c4isrnet.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/</link>
       <description>Defense Secretary Pete Hegseth wants $50 billion in reconciliation funding to support the Pentagon's push to scale autonomous and robotic systems.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/</guid>
       <pubDate>Wed, 14 Oct 2026 22:06:56 +0000</pubDate>
     </item>
     <item>
@@ -2027,6 +2013,20 @@ The attacker sends an email with a crafted attachment through the gateway and, i
 &lt;p&gt;The post &lt;a href="https://www.twz.com/land/the-days-of-army-air-defense-systems-firing-just-one-type-of-interceptor-are-ending"&gt;The Days Of Army Air Defense Systems Firing Just One Type Of Interceptor Are Ending&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/land/the-days-of-army-air-defense-systems-firing-just-one-type-of-interceptor-are-ending</guid>
       <pubDate>Wed, 14 Oct 2026 22:24:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/</link>
+      <description>Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/</guid>
+      <pubDate>Wed, 14 Oct 2026 22:56:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Northrop Grumman breaks out the big guns at AUSA</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/10/14/northrop-grumman-breaks-out-the-big-guns-at-ausa/</link>
+      <description>Amid the cruise missiles and microelectronics, the company also had something a little more familiar: guns. Big guns. Like, really big guns.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/10/14/northrop-grumman-breaks-out-the-big-guns-at-ausa/</guid>
+      <pubDate>Wed, 14 Oct 2026 23:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
