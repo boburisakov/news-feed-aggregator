@@ -7,22 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 18:15:18 +0000</lastBuildDate>
-    <item>
-      <title>Q&amp;A: Mars Perseverance Rover Sets a Distance Record</title>
-      <link>https://spectrum.ieee.org/mars-rover-distance-record</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/a-long-trail-of-tire-tracks-left-across-mars-dusty-surface-by-a-space-rover.jpg?id=68423735&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=0%2C138%2C0%2C139" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;a href="https://www.jpl.nasa.gov/news/nasas-perseverance-sets-off-world-record-for-total-distance-driven/" target="_blank"&gt;&lt;em&gt;&lt;/em&gt;On 11 October&lt;/a&gt;, the &lt;em&gt;Perseverance&lt;/em&gt; rover completed a drive that brought its &lt;a href="https://science.nasa.gov/mission/mars-2020-perseverance/location-map/" target="_blank"&gt;total distance traveled&lt;/a&gt; on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by &lt;em&gt;Perseverance&lt;/em&gt;’s ability to drive with much more autonomy than its predecessors. Over the past five years, &lt;em&gt;Perseverance&lt;/em&gt;’s autonomy software has been steadily upgraded, and to learn more about how the record was broken and what the future holds for the rover, we spoke with &lt;a href="https://www.linkedin.com/in/mark-maimone-490505317/" rel="noopener noreferrer" target="_blank"&gt;Mark Maimone&lt;/a&gt;&lt;span&gt;, the &lt;em&gt;Perseverance&lt;/em&gt; Robotic Operations Deputy Team Chief at NASA’s Jet Propulsion Laboratory, who designed and developed the self-driving software for Mars rovers &lt;em&gt;Spirit, Opportunity, Curiosity,&lt;/em&gt; and &lt;em&gt;Perseverance.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;Before we talk about &lt;em&gt;Perseverance,&lt;/em&gt; let’s pour one out for the previous record holder, &lt;em&gt;&lt;a href="https://science.nasa.gov/mission/mer-opportunity/" target="_blank"&gt;Opportunity&lt;/a&gt;, &lt;/em&gt;which landed on Mars in January 2004 for a three-month mission and ended its epic journey 15 years later in February 2019. This NASA video compresses &lt;em&gt;Opportunity&lt;/em&gt;’s entire mission into four minutes and gives a poignant sense of the incredible distance that this little rover traveled over its 15-year life on Mars, doing science as it went:&lt;/p&gt; &lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-photo-credit"&gt;&lt;a href="https://www.youtube.com/watch?v=1Ll-VHYxWXU" target="_blank"&gt;NASA Jet Propulsion Laboratory/YouTube&lt;/a&gt;&lt;/small&gt; &lt;/p&gt; &lt;p&gt;&lt;span&gt;&lt;em&gt;Opportunity&lt;/em&gt; drove 45.16 kilometers until a planetary-scale dust storm stopped it in its tracks, appropriately enough, in Perseverance Valley.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;On 18 February 2021, &lt;em&gt;Perseverance&lt;/em&gt; joined &lt;a href="https://spectrum.ieee.org/curiosity-rover-jpl-mars-science" target="_self"&gt;NASA’s &lt;em&gt;Curiosity&lt;/em&gt; rover&lt;/a&gt; on the red planet, carrying the &lt;a href="https://spectrum.ieee.org/nasa-designed-perseverance-helicopter-rover-fly-autonomously-mars" target="_self"&gt;Ingenuity helicopter&lt;/a&gt; tucked under its belly. &lt;em&gt;Curiosity&lt;/em&gt; and &lt;em&gt;Perseverance&lt;/em&gt; both ditched &lt;em&gt;Opportunity’&lt;/em&gt;s solar panels for a &lt;a href="https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/power-radioisotope-thermoelectric-generators/" target="_blank"&gt;radioisotope thermoelectric generator&lt;/a&gt;. &lt;a href="https://spectrum.ieee.org/curiosity-rover-jpl-mars-science" target="_self"&gt;&lt;em&gt;Curiosity&lt;/em&gt; has been active on Mars since 2012&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Despite &lt;em&gt;Curiosity’&lt;/em&gt;s nearly 10-year head start, &lt;em&gt;Perseverance&lt;/em&gt; is the rover to first break &lt;em&gt;Opportunity&lt;/em&gt;’s record. There are several reasons for &lt;em&gt;Perseverance&lt;/em&gt; overtaking &lt;em&gt;Opportunity&lt;/em&gt;—&lt;a href="https://spectrum.ieee.org/if-necessary-mars-rover-curiosity-could-rip-its-own-wheels-off-to-stay-mobile" target="_self"&gt;ruggedized wheels for one&lt;/a&gt;—but the biggest contributor is that &lt;a href="https://spectrum.ieee.org/perseverance-mars-rover-autonomous-driving" target="_self"&gt;&lt;em&gt;Perseverance&lt;/em&gt; was built for autonomy&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;&lt;span&gt;Maimone shares how &lt;span&gt;&lt;span&gt;&lt;a href="https://spectrum.ieee.org/tag/jpl" target="_self"&gt;JPL&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; added enough autonomy for its Mars rover to drive itself from 225 million km away without crashing&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-caption"&gt;This animation shows Perseverance’s point of view during a drive of 807 feet (246 meters) along the rim of Jezero Crater on 10 December 2025, the 1,709th Martian day, or sol, of the mission. Captured over 2 hours and 35 minutes, 53 Navigation Camera (Navcam) image pairs were combined with rover data on orientation, wheel speed, and steering angle, as well as data from Perseverance’s Inertial Measurement Unit, and placed into a 3D virtual environment. The result is this reconstruction with virtual frames inserted about every 4 inches (0.1 meters) of drive progress.&lt;/small&gt; &lt;small class="image-media media-photo-credit"&gt;JPL-Caltech/NASA&lt;/small&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Let’s talk about rover autonomy on Mars. Even before &lt;em&gt;Perseverance,&lt;/em&gt; rovers were driving themselves, right?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Mark Maimone:&lt;/strong&gt; Yes! &lt;em&gt;Sojourner&lt;/em&gt; [in 1997] had an early kind of autonomous behavior—for sensing, it used four &lt;a href="https://www.jpl.nasa.gov/images/pia04316-sol-8/" rel="noopener noreferrer" target="_blank"&gt;laser stripes&lt;/a&gt; projected onto the surface, which it used to measure the height of 20 points in the terrain in front of it. It could steer around big obstacles, or even thread the needle between two things. It was a real autonomy system, which is very impressive considering its CPU was less than one megahertz. &lt;/p&gt;&lt;p&gt;With &lt;em&gt;Spirit&lt;/em&gt; and &lt;em&gt;Opportunity,&lt;/em&gt; I developed the autonomy for those rovers. Every time they drove, they would use 256 x 256 pixel stereo pairs to map the geometry of the terrain and find a safe route forward. &lt;em&gt;Spirit&lt;/em&gt; actually ended up driving itself 23 percent of the time, which I was frankly shocked by, since it drove much more slowly in that mode. But using autonomy helped &lt;em&gt;Spirit&lt;/em&gt; travel 50 percent faster than it otherwise could have&lt;span&gt;. &lt;em&gt;Opportunity&lt;/em&gt; and &lt;em&gt;Curiosity&lt;/em&gt; both only used autonomous driving about 5 percent of the time. &lt;em&gt;Perseverance&lt;/em&gt; is the first Mars rover that drives itself 90 percent of the time, with its enhanced autonomy system that includes a second processor with &lt;/span&gt;&lt;a href="https://spectrum.ieee.org/fpga-chip-ieee-milestone" target="_self"&gt;an FPGA&lt;/a&gt;&lt;span&gt; to speed up extra image processing operations.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;What was it like to let &lt;em&gt;Perseverance&lt;/em&gt; drive itself for the first time?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone:&lt;/strong&gt; &lt;em&gt;Perseverance&lt;/em&gt; is the culmination of decades of work on Mars rover autonomy, so seeing &lt;em&gt;Perseverance&lt;/em&gt; use its AutoNav system to drive itself basically at full speed, up to 120 meters an hour, was incredible.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="View of Mars' rocky surface as-captured by cameras installed on the undercarriage of a space rover." class="rm-shortcode" id="245ba" src="https://spectrum.ieee.org/media-library/view-of-mars-rocky-surface-as-captured-by-cameras-installed-on-the-undercarriage-of-a-space-rover.jpg?id=67675990&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;These two images taken by Perseverance’s hazard avoidance and navigation cameras show (at left) the very first AutoNav drive on Mars where the rover autonomously stopped before running into a rock pile, and (at right) the second AutoNav drive where the rover successfully steered around a rock.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;JPL-Caltech/NASA&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Where are the humans in this process?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone: &lt;/strong&gt;The plan of where to go is specified by the science team, and then on the engineering side, the strategic route planning team develops a path to get us to that goal by guessing, based on lower-resolution maps from orbit, what the terrain is going to look like for the rover. Each day, a tactical operations team combines the strategic overall route with that day’s science goals to pick the actual route the rover will follow.&lt;/p&gt;&lt;p&gt;We want humans to keep doing long-range planning because that avoids wasting time. For example, we’ve learned that if we see sandy areas with intersecting waves or crests—not just ripples blown in one direction, but cross-ripples going in multiple directions—the rover tends to sink into terrain like that, so we tell the rover to keep out of those areas. The onboard autonomy only measures terrain shape, not terrain type, so it benefits from those location-based annotations.&lt;/p&gt;&lt;p&gt;We now have years of experience correlating images taken from orbit with images taken by the rover, and understanding how different kinds of terrain affect the drive. With the current orbiters at Mars, we sometimes get 25 centimeters resolution on orbital images. That’s still not quite enough to see all obstacles; there could be a big rock that doesn’t really show up on a scale of more than one or two pixels, making it very hard to notice. That is why you want to have autonomy on the rover, but the greater help we can give it at a high level, the faster we can reach our goals and the fewer potential delays we’ll encounter.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A map of Mars' surface featuring the Perseverance rover's planned path for autonomous navigation, alongside its final executed route which was diverted due to hazardous terrain. " class="rm-shortcode" id="2f1aa" src="https://spectrum.ieee.org/media-library/a-map-of-mars-surface-featuring-the-perseverance-rover-s-planned-path-for-autonomous-navigation-alongside-its-final-executed-r.jpg?id=67675967&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;This orbital view shows a region of complex Martian terrain that Perseverance could not navigate autonomously. The blue line shows the path that human planners estimated, while the white line shows the path taken by the rover. The inset image, from Perseverance’s hazard avoidance camera, shows the rocky, sandy, and sloped terrain.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Source images: &lt;a href="https://ieeexplore.ieee.org/document/11265757" target="_blank"&gt;Olivier Toupet, Masahiro Ono, et al.&lt;/a&gt;; JPL-Caltech/University of Arizona/NASA &lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;What happens when the autonomy system on &lt;em&gt;Perseverance&lt;/em&gt; fails?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone: &lt;/strong&gt;We ended up not using the autonomy at all for about two months in more complex terrain while we tuned things and wrote new software to deal with that new terrain we hadn’t encountered before. Some of those changes were relatively quick, and some required months of study. For example, one parameter is the maximum amount of slope that the robot is allowed to climb, because on steep slopes, there is a risk of the rover slipping sideways. &lt;/p&gt;&lt;p&gt;We landed inside Jezero Crater, which was very flat, and so for the first three years, most of our driving was at less than 14 degrees of slope. When we finally decided to leave the crater, we began to encounter other terrain at higher tilts with greater rock density, and the experience we gained allowed us to re-tune the parameters to allow the rover to traverse those more difficult terrains, with slopes of up to 24 degrees.&lt;/p&gt;&lt;h2&gt;Rover autonomy in the age of AI&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Late last year, you let &lt;a href="https://spectrum.ieee.org/perseverance-rover-nasa-anthropic-ai" target="_self"&gt;Anthropic’s Claude AI plan a 400-meter drive for &lt;em&gt;Perseverance&lt;/em&gt;&lt;/a&gt;. How did that go?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone: &lt;/strong&gt;We had the AI look at the orbital images and pick out a path for us, which became the starting point of the day’s rover planning operations. Typically, that starting path comes from the human rover planner team, but in this case, it was generated by AI. Humans were still in the loop; the team reviewed it and made a couple of adjustments. AI gave us a solid starting point that allowed us to make rapid progress, because it’s much easier to validate a path than to pick one from scratch.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Selfie taken by NASA\u2019s Perseverance rover on the planet Mars." class="rm-shortcode" id="c04cd" src="https://spectrum.ieee.org/media-library/selfie-taken-by-nasa-u2019s-perseverance-rover-on-the-planet-mars.jpg?id=67685143&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;NASA’s Perseverance Mars rover took this selfie on July 23, 2024. The selfie is composed of 62 images taken by the WATSON (Wide Angle Topographic Sensor for Operations and eNgineering) camera on the end of the rover’s robotic arm.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;JPL-Caltech/MSSS/NASA&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Do you think humans will remain a necessary part of rover operations, or do you see the next generation of Mars rovers operating for weeks at a time without human assistance?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone:&lt;/strong&gt; One of the things that has held us back from driving very long distances autonomously is that as we drive, the rover accumulates uncertainty in its position. When the uncertainty grows, it means we have to stay farther away from areas that human rover planners have identified as being potentially dangerous, called “keep-out zones.” In some cases, the uncertainty gets high enough that the rover can’t plan a safe path, because the keep-out zones (which grow with the rover’s uncertainty) get too big.&lt;/p&gt;&lt;p&gt;We now have a new capability that we’ve added to &lt;em&gt;Perseverance&lt;/em&gt; called &lt;a href="https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/" target="_blank"&gt;Mars Global Localization&lt;/a&gt;. With this new technology  that can shrink our uncertainty, we theoretically have the ability to go as long as we have resources to keep driving safely based on our maps and keep-out zones.&lt;/p&gt;&lt;p&gt;But to truly run a mission for weeks, you need to not only drive long distances, but also execute science operations autonomously. We have people here also looking at automating science operations by doing image processing onboard the rover to get a better understanding of what’s out there and where to focus the instruments’ attention. So I do think we are getting to the point where we can support long-period autonomous operations. It has been a slow evolution, but we have great capabilities now and a good understanding of what’s needed to make it work well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;As someone who has been involved with all of these Mars rovers—&lt;a href="https://www.jpl.nasa.gov/news/nasa-to-begin-attempts-to-free-sand-trapped-mars-rover/" target="_blank"&gt;including one that got stuck&lt;/a&gt;—do you fundamentally trust &lt;em&gt;Perseverance&lt;/em&gt; to operate autonomously?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maimone: &lt;/strong&gt;I do. We built the software, tested it, ran millions of simulations, and did lots of work in the field in many different test environments. It hasn’t steered us wrong yet. We’re looking forward to setting even bigger records.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/mars-rover-distance-record</guid>
-      <pubDate>Tue, 13 Oct 2026 15:02:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iran targets Kurdish opposition groups in Iraq with new round of drone attacks</title>
-      <link>https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php</link>
-      <description>&lt;p&gt;Iran launched a new round of drone attacks against Iranian Kurdish opposition groups in northern Iraq, including a strike on a Democratic Party of Iranian Kurdistan camp near Koya on October 12. As Iranian pressure mounts and concerns grow following the US military’s withdrawal from Iraq, Kurdish opposition groups have pledged not to use Iraqi territory to launch attacks on Iran. Kurdistan Region President Nechirvan Barzani criticized their actions, saying they endanger the region.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php"&gt;Iran targets Kurdish opposition groups in Iraq with new round of drone attacks&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/iran-targets-kurdish-opposition-groups-with-new-round-of-drone-attacks.php</guid>
-      <pubDate>Tue, 13 Oct 2026 15:14:23 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 16 Oct 2026 21:28:59 +0000</lastBuildDate>
     <item>
       <title>Doubts Grow Over the Terms of Ukraine’s European Union Accession</title>
       <link>https://warontherocks.com/doubts-grow-over-the-terms-of-ukraines-european-union-accession/</link>
@@ -45,20 +30,6 @@
       <description>Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s patch Tuesday, and one is already exploited.&amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33422</guid>
       <pubDate>Tue, 13 Oct 2026 19:25:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Army re-evaluating munitions procurement goals as Iran war continues</title>
-      <link>https://www.defenseone.com/defense-systems/2026/10/army-munitions-procurement-iran/416567/</link>
-      <description>Buying more Patriot missiles is a top priority, the Army’s fires acquisition boss said.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/defense-systems/2026/10/army-munitions-procurement-iran/416567/</guid>
-      <pubDate>Tue, 13 Oct 2026 19:52:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>FBI disrupts North Korean 'laptop farms' used to fund weapons programs</title>
-      <link>https://www.defenseone.com/threats/2026/10/fbi-north-korea-weapons/416601/</link>
-      <description>Agents seized nearly 190 laptops across Texas in a crackdown on fraudulent remote workers.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/10/fbi-north-korea-weapons/416601/</guid>
-      <pubDate>Tue, 13 Oct 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk</title>
@@ -194,13 +165,6 @@
       <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Download: faking blood and the future of batteries</title>
-      <link>https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopter carrying blood to a field hospital was shot down in Iraq, killing all seven crew members.&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:10:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Microsoft and partners disrupt vast Chinese-language phishing kit ecosystem</title>
       <link>https://cyberscoop.com/microsoft-disrupts-chinese-language-phishing-kit-ecosystem/</link>
       <description>&lt;p&gt;In less than 10 months, cybercriminals used the arsenal of customized, targeted phishing kits to send more than 1 billion malicious messages to more than 75,000 organizations globally.&lt;/p&gt;
@@ -268,14 +232,6 @@
       <pubDate>Wed, 14 Oct 2026 16:08:32 +0000</pubDate>
     </item>
     <item>
-      <title>F-35C Makes First Arrested Landing Aboard A Ford Class Carrier</title>
-      <link>https://www.twz.com/air/f-35c-makes-first-arrested-landing-aboard-a-ford-class-carrier</link>
-      <description>&lt;p&gt;The landing on the future USS John F. Kennedy marks a key step in integrating the F-35C with the Ford class after years of delays and technical challenges.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/f-35c-makes-first-arrested-landing-aboard-a-ford-class-carrier"&gt;F-35C Makes First Arrested Landing Aboard A Ford Class Carrier&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/f-35c-makes-first-arrested-landing-aboard-a-ford-class-carrier</guid>
-      <pubDate>Wed, 14 Oct 2026 17:10:17 +0000</pubDate>
-    </item>
-    <item>
       <title>AUSA 2026: raucous scenes as protesters disrupt keynote panel</title>
       <link>https://www.army-technology.com/news/ausa-2026-raucous-scenes-as-protesters-disrupt-keynote-panel/</link>
       <description>A coordinated series of protests interrupted a keynote panel discussion at AUSA 2026, with Secretary of War Pete Hegseth the target.</description>
@@ -299,14 +255,6 @@
       <pubDate>Wed, 14 Oct 2026 17:42:11 +0000</pubDate>
     </item>
     <item>
-      <title>High Altitude Balloons Are A “Game-Changing” Capability: Army Space Command Boss</title>
-      <link>https://www.twz.com/air/high-altitude-balloons-are-a-game-changing-capability-army-space-command-boss</link>
-      <description>&lt;p&gt;The Army recently disclosed it rushed high-altitude balloons to support operations in the Middle East.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/high-altitude-balloons-are-a-game-changing-capability-army-space-command-boss"&gt;High Altitude Balloons Are A &amp;#8220;Game-Changing&amp;#8221; Capability: Army Space Command Boss&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/high-altitude-balloons-are-a-game-changing-capability-army-space-command-boss</guid>
-      <pubDate>Wed, 14 Oct 2026 17:49:24 +0000</pubDate>
-    </item>
-    <item>
       <title>Trump admin's retreat from foreign-influence fight is weakening US defenses, sources say</title>
       <link>https://www.defenseone.com/threats/2026/10/trump-foreign-influence-retreat/416587/</link>
       <description>States and industry report getting less help from the federal government ahead of the midterms—even as AI gives foreign operatives a boost.</description>
@@ -327,35 +275,6 @@
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/hezbollah-announces-promise-and-commitment-housing-and-reconstruction-program.php"&gt;Hezbollah announces ‘Promise and Commitment’ housing and reconstruction program&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/hezbollah-announces-promise-and-commitment-housing-and-reconstruction-program.php</guid>
       <pubDate>Wed, 14 Oct 2026 19:38:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat</title>
-      <link>https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat</link>
-      <description>A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat</guid>
-      <pubDate>Wed, 14 Oct 2026 20:09:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Yam Store: The Phishing Network Behind a Billion Messages</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages</link>
-      <description>A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages</guid>
-      <pubDate>Wed, 14 Oct 2026 20:57:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Army Explains How Merops Interceptor Drone Became Program Of Record In Just 142 Days</title>
-      <link>https://www.twz.com/news-features/army-explains-how-merops-interceptor-drone-became-program-of-record-in-just-142-days</link>
-      <description>&lt;p&gt;The low-cost interceptor, rushed to NATO partners after drone incursions, is now an example of how the Army hopes to rapidly field emerging capabilities.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/army-explains-how-merops-interceptor-drone-became-program-of-record-in-just-142-days"&gt;Army Explains How Merops Interceptor Drone Became Program Of Record In Just 142 Days&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/army-explains-how-merops-interceptor-drone-became-program-of-record-in-just-142-days</guid>
-      <pubDate>Wed, 14 Oct 2026 21:03:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles</title>
-      <link>https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching</link>
-      <description>CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching</guid>
-      <pubDate>Wed, 14 Oct 2026 21:20:13 +0000</pubDate>
     </item>
     <item>
       <title>Authorities charge alleged OLVX cybercrime marketplace operator in North Macedonia</title>
@@ -381,14 +300,6 @@
       <pubDate>Wed, 14 Oct 2026 22:06:56 +0000</pubDate>
     </item>
     <item>
-      <title>The Days Of Army Air Defense Systems Firing Just One Type Of Interceptor Are Ending</title>
-      <link>https://www.twz.com/land/the-days-of-army-air-defense-systems-firing-just-one-type-of-interceptor-are-ending</link>
-      <description>&lt;p&gt;The Army is pursuing an increasingly diverse array of new anti-air interceptors for use with existing launchers and new architectures. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/land/the-days-of-army-air-defense-systems-firing-just-one-type-of-interceptor-are-ending"&gt;The Days Of Army Air Defense Systems Firing Just One Type Of Interceptor Are Ending&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/land/the-days-of-army-air-defense-systems-firing-just-one-type-of-interceptor-are-ending</guid>
-      <pubDate>Wed, 14 Oct 2026 22:24:33 +0000</pubDate>
-    </item>
-    <item>
       <title>Sullivan &amp; Cromwell brings legal expertise into agreement review</title>
       <link>https://openai.com/index/sullivan-cromwell</link>
       <description>In collaboration with OpenAI, Sullivan &amp; Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.</description>
@@ -400,13 +311,6 @@
       <link>https://isc.sans.edu/diary/rss/33428</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33428</guid>
       <pubDate>Thu, 15 Oct 2026 02:00:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>EU Grocers Pay a Steep Price for Unpatched Fridge Firmware</title>
-      <link>https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware</link>
-      <description>Hundreds of stores lost millions of euros because they hired third parties to manage the outdated OT firmware running their cooling systems.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware</guid>
-      <pubDate>Thu, 15 Oct 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>China’s Military Expansion in Southeast Asia Masks a More Complicated Reality</title>
@@ -2699,25 +2603,11 @@
       <pubDate>Thu, 15 Oct 2026 14:40:24 +0000</pubDate>
     </item>
     <item>
-      <title>The Second Chokepoint: Why the Houthi Push South Matters More Than Another Missile Salvo</title>
-      <link>https://sofrep.com/news/the-second-chokepoint-why-the-houthi-push-south-matters-more-than-another-missile-salvo/</link>
-      <description>Hormuz may command the headlines, but Iran’s Houthi allies are turning Bab al-Mandab into a second choke chain around the world’s energy supply. #BabAlMandab #Houthis #RedSea #MaritimeSecurity #YemenWar</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-second-chokepoint-why-the-houthi-push-south-matters-more-than-another-missile-salvo/</guid>
-      <pubDate>Thu, 15 Oct 2026 15:00:58 +0000</pubDate>
-    </item>
-    <item>
       <title>‘One Day at a Time’: Inside an IDP Camp in Myanmar, Survival Is a Daily Challenge</title>
       <link>https://thediplomat.com/2026/10/one-day-at-a-time-inside-an-idp-camp-in-myanmar-survival-is-a-daily-challenge/</link>
       <description>Some of those living in the Old Kran Khun camp were once well off. Now they forage in the fields and forests around the IDP camp for food and firewood.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/10/one-day-at-a-time-inside-an-idp-camp-in-myanmar-survival-is-a-daily-challenge/</guid>
       <pubDate>Thu, 15 Oct 2026 15:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vulnerability Management Isn't About the Score — It's About How It Applies to You</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/vulnerability-management-isnt-about-the-score-its-about-how-it-applies-to-you</link>
-      <description>Organizations need to move away from vendor-assigned, theoretical scores toward real exploit data specific to their environments.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/vulnerability-management-isnt-about-the-score-its-about-how-it-applies-to-you</guid>
-      <pubDate>Thu, 15 Oct 2026 15:17:18 +0000</pubDate>
     </item>
     <item>
       <title>Petrogold: How Gold Became a Sanctions Shield, and Where It Fails</title>
@@ -2749,25 +2639,6 @@
       <pubDate>Thu, 15 Oct 2026 16:00:09 +0000</pubDate>
     </item>
     <item>
-      <title>Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads</title>
-      <link>https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html</link>
-      <description>Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&amp;nbsp;the Citizen Lab&amp;nbsp;said Thursday.
-
-The hidden attack code ran the moment an ad loaded on the screen, and in some cases the ad loaded out of sight, in the background.
-
-The Citizen</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html</guid>
-      <pubDate>Thu, 15 Oct 2026 16:01:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Toplines: Twenty-five years after anthrax, the US still is not prepared for a biological attack</title>
-      <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/toplines-twenty-five-years-after-anthrax-the-us-still-is-not-prepared-for-a-biological-attack/</link>
-      <description>&lt;p&gt;The anthrax events of 2001 transpired twenty-five years ago. The US still needs better preparation against biological attacks.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/toplines-twenty-five-years-after-anthrax-the-us-still-is-not-prepared-for-a-biological-attack/"&gt;Toplines: Twenty-five years after anthrax, the US still is not prepared for a biological attack&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/toplines-twenty-five-years-after-anthrax-the-us-still-is-not-prepared-for-a-biological-attack/</guid>
-      <pubDate>Thu, 15 Oct 2026 16:40:40 +0000</pubDate>
-    </item>
-    <item>
       <title>US Army to stand up second expeditionary cyber battalion in coming months</title>
       <link>https://www.c4isrnet.com/industry/techwatch/2026/10/14/us-army-to-stand-up-second-expeditionary-cyber-battalion-in-coming-months/</link>
       <description>The head of U.S. Army Cyber Command said this week that the service would be building an exact replica of the 11th Cyber Battalion in the next few months.</description>
@@ -2787,13 +2658,6 @@ The Citizen</description>
       <description>It remains to be seen how willing the new government is to change the institutions that it now controls.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/10/after-8-months-in-power-how-much-has-the-bnp-changed-bangladesh/</guid>
       <pubDate>Thu, 15 Oct 2026 17:01:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fake Arch Linux packages push malware with root privileges</title>
-      <link>https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/</link>
-      <description>A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/</guid>
-      <pubDate>Thu, 15 Oct 2026 17:12:31 +0000</pubDate>
     </item>
     <item>
       <title>China’s Rare Earth Strategy and the Future of the South China Sea</title>
@@ -2839,14 +2703,6 @@ The Citizen</description>
       <description>Twenty-five years after anthrax reached Capitol Hill, white powder is moving through government mail again, and the timing is one deeply unsettling coincidence. #BreakingNews #Anthrax #Bioterrorism #Congress #ElectionSecurity</description>
       <guid isPermaLink="false">https://sofrep.com/news/white-powder-letters-target-congress-25-years-to-the-day-after-anthrax-attack/</guid>
       <pubDate>Thu, 15 Oct 2026 18:07:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Army Wants High-Energy Laser Weapons It Can Put On “Any Vehicle In The Motorpool”</title>
-      <link>https://www.twz.com/news-features/army-wants-high-energy-laser-weapons-it-can-put-on-any-vehicle-in-the-motorpool</link>
-      <description>&lt;p&gt;The Army sees modular laser systems not tied to specific vehicles as key to truly operationalizing and distributing counter-drone laser capabilities. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/army-wants-high-energy-laser-weapons-it-can-put-on-any-vehicle-in-the-motorpool"&gt;Army Wants High-Energy Laser Weapons It Can Put On &amp;#8220;Any Vehicle In The Motorpool&amp;#8221;&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/army-wants-high-energy-laser-weapons-it-can-put-on-any-vehicle-in-the-motorpool</guid>
-      <pubDate>Thu, 15 Oct 2026 18:15:00 +0000</pubDate>
     </item>
     <item>
       <title>Clean Energy Must Avoid the Mistake of Overdependence</title>
@@ -3080,6 +2936,13 @@ The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux
       <pubDate>Thu, 15 Oct 2026 23:35:00 +0000</pubDate>
     </item>
     <item>
+      <title>Stack Overflow for Agents triples signups with ChatGPT plugin</title>
+      <link>https://openai.com/index/stack-overflow-chatgpt-plugin</link>
+      <description>Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.</description>
+      <guid isPermaLink="false">https://openai.com/index/stack-overflow-chatgpt-plugin</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)</title>
       <link>https://isc.sans.edu/diary/rss/33430</link>
       <description>I believe the cybersecurity industry may be approaching AI security the wrong way.&amp;#xd;</description>
@@ -3208,7 +3071,7 @@ The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of im
     <item>
       <title>This implant can restore sight for patients with macular degeneration</title>
       <link>https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/</link>
-      <description>Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients&amp;#8230;</description>
+      <description>More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0000</pubDate>
     </item>
@@ -3225,13 +3088,6 @@ The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of im
       <description>Ukrainian President Volodymyr Zelenskyy said that his Russian counterpart, Vladimir Putin, has no interest in peace talks and criticized a US deal with Moscow on diesel exports, saying it will hand more money to Moscow to fund its war against his country.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/us-senators-probe-starlink-zelenskyy-eu-summit/33877820.html</guid>
       <pubDate>Fri, 16 Oct 2026 09:42:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>What is the US Army doing in Panama? A bit of everything.</title>
-      <link>https://www.defensenews.com/news/your-military/2026/10/14/what-is-the-us-army-doing-in-panama-a-bit-of-everything/</link>
-      <description>As Washington shifts its attention toward the Western Hemisphere, a reinvigorated jungle school is just one part of the evolving U.S. presence in Panama.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/10/14/what-is-the-us-army-doing-in-panama-a-bit-of-everything/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Latvian official warns Russia ‘tempted to test’ European readiness, sounds alarm over border issues</title>
@@ -3322,13 +3178,6 @@ The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of im
 &lt;p&gt;Cyber actors are increasingly using sophisticated phishing and smishing campaigns that closely resemble legitimate communications. These efforts may include convincing emails, text messages, audio, and video content designed to manipulate recipients into disclosing sensitive information or interacting with malicious links and attachments.&lt;/p&gt;
 &lt;p&gt;CISA and the FBI urge election officials, campaign personnel, and the public to review the PSA, follow recommended cybersecurity practices, and remain vigilant for suspicious emails and mobile messages.&amp;nbsp;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials</guid>
-      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Blood supplies, autonomous systems shape US Army’s Indo-Pacific combat care plans</title>
-      <link>https://www.defensenews.com/news/your-military/2026/10/14/blood-supplies-autonomous-systems-shape-us-armys-indo-pacific-combat-care-plans/</link>
-      <description>18th Theater Medical Command leaders are experimenting with ways to prolong care in a theater where the "Golden Hour" standard is difficult to maintain.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/10/14/blood-supplies-autonomous-systems-shape-us-armys-indo-pacific-combat-care-plans/</guid>
       <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3560,7 +3409,7 @@ The activity is being tracked by</description>
     <item>
       <title>Video Friday: When Two Robots Become One</title>
       <link>https://spectrum.ieee.org/video-friday-reconfigurable-robots</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-small-robots-with-long-limbs-and-bodies-linked-by-a-wire-join-connect-to-form-one-four-wheeled-robot-on-a-paved-pathway.gif?id=68443843&amp;amp;width=1200&amp;amp;height=800&amp;amp;coordinates=52%2C0%2C52%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-humanoids.org/"&gt;Humanoids 2026&lt;/a&gt;: 6–9 December 2026, SANTA CLARA, CA&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="45-ypqogpiu"&gt;When one robot loves another robot very much, and they’re connected by a wire, they can get together and make a brand new robot! SFW.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://shin0805.github.io/twinx-bridging/"&gt;JSK Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="zssoymcggpu"&gt;&lt;em&gt;What happens when Microducks meet? They start to sing together. Each Microduck syncs with its neighbors over Bluetooth, then they compose a song on the fly, in harmony and in perfect time. There’s no score and no conductor. Two, three, or four ducks are enough for a choir to break out.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;If Pollen isn’t selling &lt;a href="https://spectrum.ieee.org/video-friday-microduck-robot" target="_blank"&gt;Microducks&lt;/a&gt; in four packs for this exact reason, WHAT ARE THEY EVEN DOING!?&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://pollen-robotics.com/microduck/"&gt;Pollen&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="9picemtfpwu"&gt;&lt;em&gt;In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body control required for Apptronik’s Apollo 2 humanoid to sink seven consecutive shots in the real world. This Video-to-Sim-to-Real pipeline compresses weeks of manual modeling into a few hours, transforming ordinary videos into an infinite training ground for physical AI.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"&gt;Google DeepMind&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="xaxuv6tsib4"&gt;&lt;em&gt;As of Oct. 11, 2026, NASA’s Perseverance rover has driven 28.10 miles (45.22 kilometers), becoming the new off-world record-holder for total distance driven by any vehicle on the surface of another world. The previous record of 28.06 miles (45.16 kilometers) was held by NASA’s Opportunity rover. Perseverance reached that mark on the 2,006th Martian day, or sol, of its mission, covering in five and a half years a distance that took Opportunity almost 15.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.jpl.nasa.gov/missions/mars-2020-perseverance-rover/"&gt;JPL&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="afotkkjjbky"&gt;Let’s not argue about whether these are robots or not and just agree that they’re cool.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://daehwakim.com/oat/"&gt;OATs&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="j9kfpi-hjx4"&gt;If one cute little robot can clean up one block, how many blocks can 40 cute little robots clean up? Science has the answers!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://arxiv.org/abs/2610.05677"&gt;Paper&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Keisuke!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ry5caexgbk0"&gt;&lt;em&gt;Before &lt;a href="https://spectrum.ieee.org/4-missions-will-search-the-martian-atmosphere-and-soil-for-signs-of-life" target="_blank"&gt;Rosalind Franklin&lt;/a&gt; can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain. The test recreates some of the challenges Rosalind Franklin will face on the Red Planet, from reduced gravity and a 20-degree incline to uneven ground and obstacles beneath its ramps.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive"&gt;European Space Agency&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="dp_i7hrvgpe"&gt;&lt;em&gt;From custom part to running robot, the Atlas shop floor is built on precision, rapid assembly, and real-time collaboration. By machining parts in-house and streamlining assembly and repair under one roof, we are driving the manufacturing velocity needed to turn complex designs into walking hardware at scale.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://bostondynamics.com/"&gt;Boston Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="jp79jzwmo4k"&gt;&lt;em&gt;What can a quadruped robot do beyond the lab? Deep in China’s Ailao Mountains, DEEP Robotics M20S joined a team of researchers on a biodiversity field expedition—navigating rugged terrain, scouting routes ahead, carrying research equipment, and capturing wildlife in areas that are difficult to access on foot.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.us/"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="_eyarcc8d9y"&gt;&lt;em&gt;The Kamino simulation software is a GPU-accelerated physics solver designed for accurate simulation of complex mechanical systems with kinematic loops, such as parallel manipulators, planar and spatial linkages, and multi-limbed robots with coupled joints, without requiring simplified approximations.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://disneyresearch.github.io/kamino-site/"&gt;Disney Research&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3h4mk2zcm3w"&gt;The original Kawasaki &lt;a href="https://spectrum.ieee.org/unimation-robot" target="_blank"&gt;UNIMATE&lt;/a&gt; robot as featured in (remember this show?) the MacNeil/Lehrer Report in 1992.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://kawasakirobotics.com/"&gt;Kawasaki Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="95dsrzgzuhy"&gt;&lt;em&gt;WildOS enables autonomous robots to perform long-range, open-vocabulary object search in previously unmapped and unstructured outdoor environments by unifying geometric safety with semantic visual reasoning. Through a vision-scored navigation graph and beyond-horizon target localization, the system demonstrates more efficient and robust exploration than conventional geometric or purely vision-based approaches in extensive field experiments.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://leggedrobotics.github.io/wildos/"&gt;ETH Zurich Robotics Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="a5oyvvkspva"&gt;Who needs an AI-generated person when you can have an actual robot that looks exactly like an AI-generated person instead?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.ubtrobot.com/en/humanoid/products/u1-pro"&gt;UBTECH Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="8lc7x7c_sju"&gt;The recovery behaviors here are impressive, but the robot is far slower than a human would be, suggesting that the value it generates is primarily in novelty. Which is fine, for now, but novelty wears off, and then what?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/pages/sharpa-dq"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="umohqodj_pi"&gt;Here are a couple of good panels from ICRA 2026 in Vienna, including one on “Impact and Return on Investment on Humanoid Robots” and a second on “Advancing Sustainability in Robotics.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://2026.ieee-icra.org/program/panels/"&gt;ICRA 2026&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/two-small-robots-with-long-limbs-and-bodies-linked-by-a-wire-join-connect-to-form-one-four-wheeled-robot-on-a-paved-pathway.gif?id=68443843&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C7%2C0%2C7" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-humanoids.org/"&gt;Humanoids 2026&lt;/a&gt;: 6–9 December 2026, SANTA CLARA, CA&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="45-ypqogpiu"&gt;When one robot loves another robot very much, and they’re connected by a wire, they can get together and make a brand new robot! SFW.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://shin0805.github.io/twinx-bridging/"&gt;JSK Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="zssoymcggpu"&gt;&lt;em&gt;What happens when Microducks meet? They start to sing together. Each Microduck syncs with its neighbors over Bluetooth, then they compose a song on the fly, in harmony and in perfect time. There’s no score and no conductor. Two, three, or four ducks are enough for a choir to break out.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;If Pollen isn’t selling &lt;a href="https://spectrum.ieee.org/video-friday-microduck-robot" target="_blank"&gt;Microducks&lt;/a&gt; in four packs for this exact reason, WHAT ARE THEY EVEN DOING!?&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://pollen-robotics.com/microduck/"&gt;Pollen&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="9picemtfpwu"&gt;&lt;em&gt;In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body control required for Apptronik’s Apollo 2 humanoid to sink seven consecutive shots in the real world. This Video-to-Sim-to-Real pipeline compresses weeks of manual modeling into a few hours, transforming ordinary videos into an infinite training ground for physical AI.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"&gt;Google DeepMind&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="xaxuv6tsib4"&gt;&lt;em&gt;As of Oct. 11, 2026, NASA’s Perseverance rover has driven 28.10 miles (45.22 kilometers), becoming the new off-world record-holder for total distance driven by any vehicle on the surface of another world. The previous record of 28.06 miles (45.16 kilometers) was held by NASA’s Opportunity rover. Perseverance reached that mark on the 2,006th Martian day, or sol, of its mission, covering in five and a half years a distance that took Opportunity almost 15.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.jpl.nasa.gov/missions/mars-2020-perseverance-rover/"&gt;JPL&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="afotkkjjbky"&gt;Let’s not argue about whether these are robots or not and just agree that they’re cool.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://daehwakim.com/oat/"&gt;OATs&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="j9kfpi-hjx4"&gt;If one cute little robot can clean up one block, how many blocks can 40 cute little robots clean up? Science has the answers!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://arxiv.org/abs/2610.05677"&gt;Paper&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Keisuke!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ry5caexgbk0"&gt;&lt;em&gt;Before &lt;a href="https://spectrum.ieee.org/4-missions-will-search-the-martian-atmosphere-and-soil-for-signs-of-life" target="_blank"&gt;Rosalind Franklin&lt;/a&gt; can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain. The test recreates some of the challenges Rosalind Franklin will face on the Red Planet, from reduced gravity and a 20-degree incline to uneven ground and obstacles beneath its ramps.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive"&gt;European Space Agency&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="dp_i7hrvgpe"&gt;&lt;em&gt;From custom part to running robot, the Atlas shop floor is built on precision, rapid assembly, and real-time collaboration. By machining parts in-house and streamlining assembly and repair under one roof, we are driving the manufacturing velocity needed to turn complex designs into walking hardware at scale.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://bostondynamics.com/"&gt;Boston Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="jp79jzwmo4k"&gt;&lt;em&gt;What can a quadruped robot do beyond the lab? Deep in China’s Ailao Mountains, DEEP Robotics M20S joined a team of researchers on a biodiversity field expedition—navigating rugged terrain, scouting routes ahead, carrying research equipment, and capturing wildlife in areas that are difficult to access on foot.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.us/"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="_eyarcc8d9y"&gt;&lt;em&gt;The Kamino simulation software is a GPU-accelerated physics solver designed for accurate simulation of complex mechanical systems with kinematic loops, such as parallel manipulators, planar and spatial linkages, and multi-limbed robots with coupled joints, without requiring simplified approximations.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://disneyresearch.github.io/kamino-site/"&gt;Disney Research&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3h4mk2zcm3w"&gt;The original Kawasaki &lt;a href="https://spectrum.ieee.org/unimation-robot" target="_blank"&gt;UNIMATE&lt;/a&gt; robot as featured in (remember this show?) the MacNeil/Lehrer Report in 1992.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://kawasakirobotics.com/"&gt;Kawasaki Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="95dsrzgzuhy"&gt;&lt;em&gt;WildOS enables autonomous robots to perform long-range, open-vocabulary object search in previously unmapped and unstructured outdoor environments by unifying geometric safety with semantic visual reasoning. Through a vision-scored navigation graph and beyond-horizon target localization, the system demonstrates more efficient and robust exploration than conventional geometric or purely vision-based approaches in extensive field experiments.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://leggedrobotics.github.io/wildos/"&gt;ETH Zurich Robotics Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="a5oyvvkspva"&gt;Who needs an AI-generated person when you can have an actual robot that looks exactly like an AI-generated person instead?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.ubtrobot.com/en/humanoid/products/u1-pro"&gt;UBTECH Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="8lc7x7c_sju"&gt;The recovery behaviors here are impressive, but the robot is far slower than a human would be, suggesting that the value it generates is primarily in novelty. Which is fine, for now, but novelty wears off, and then what?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/pages/sharpa-dq"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="umohqodj_pi"&gt;Here are a couple of good panels from ICRA 2026 in Vienna, including one on “Impact and Return on Investment on Humanoid Robots” and a second on “Advancing Sustainability in Robotics.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://2026.ieee-icra.org/program/panels/"&gt;ICRA 2026&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-reconfigurable-robots</guid>
       <pubDate>Fri, 16 Oct 2026 16:30:02 +0000</pubDate>
     </item>
@@ -3605,7 +3454,7 @@ Google Threat Intelligence Group, Mandiant, and&amp;nbsp;ManageEngine's Threat A
       <pubDate>Fri, 16 Oct 2026 17:12:45 +0000</pubDate>
     </item>
     <item>
-      <title>Zero-click attacks used targeted ads to deliver Candiru spyware</title>
+      <title>Targeted ads installed Candiru spyware in zero-click attacks</title>
       <link>https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/</link>
       <description>Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/</guid>
@@ -3625,6 +3474,153 @@ Google Threat Intelligence Group, Mandiant, and&amp;nbsp;ManageEngine's Threat A
 &lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/"&gt;Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/</guid>
       <pubDate>Fri, 16 Oct 2026 17:47:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug</title>
+      <link>https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html</link>
+      <description>A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html</guid>
+      <pubDate>Fri, 16 Oct 2026 17:48:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Roundtables: A Conversation With the Creator of AI-Designed Viruses</title>
+      <link>https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/</link>
+      <description>Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/</guid>
+      <pubDate>Fri, 16 Oct 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Army’s 8th Psychological Operations Group inactivated</title>
+      <link>https://www.defensenews.com/news/your-military/2026/10/16/us-armys-8th-psychological-operations-group-inactivated/</link>
+      <description>The Army's 8th Psychological Operations Group inactivated as the service reshapes its PSYOP and information warfare forces to counter global adversaries.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/10/16/us-armys-8th-psychological-operations-group-inactivated/</guid>
+      <pubDate>Fri, 16 Oct 2026 18:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canada’s Snowbirds Say Farewell To The CT-114 Tutor Jet</title>
+      <link>https://www.twz.com/air/canadas-snowbirds-say-farewell-to-the-ct-114-tutor-jet</link>
+      <description>&lt;p&gt;After 55 years with the Tutor, the aerobatic team faces an extended hiatus before transitioning to the PC-21 turboprop in the early 2030s.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/canadas-snowbirds-say-farewell-to-the-ct-114-tutor-jet"&gt;Canada’s Snowbirds Say Farewell To The CT-114 Tutor Jet&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/canadas-snowbirds-say-farewell-to-the-ct-114-tutor-jet</guid>
+      <pubDate>Fri, 16 Oct 2026 18:35:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Takes Control of Robotic Arm in 16 Minutes Flat</title>
+      <link>https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes</link>
+      <description>Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes</guid>
+      <pubDate>Fri, 16 Oct 2026 18:37:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>The real job of the Army’s new ‘robotics technicians’ is constant adaptation</title>
+      <link>https://www.defenseone.com/policy/2026/10/army-robotics-technician--adaptation/416651/</link>
+      <description>The age of battlefield autonomy demands more than just drone pilots and mechanics, Special Forces’ training chief says.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/10/army-robotics-technician--adaptation/416651/</guid>
+      <pubDate>Fri, 16 Oct 2026 19:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enterprise AI Enters Risk Management Phase as Security Concerns Rise</title>
+      <link>https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise</link>
+      <description>Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise</guid>
+      <pubDate>Fri, 16 Oct 2026 19:13:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Army’s Plan For Employing LUCAS Kamikaze Drones Against Its Adversaries</title>
+      <link>https://www.twz.com/news-features/the-armys-plan-for-employing-lucas-kamikaze-drones-against-its-adversaries</link>
+      <description>&lt;p&gt;A vision of Army units launching long-range one-way attack drones at enemy warships and ballistic missiles in the Pacific and Europe is taking shape.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/the-armys-plan-for-employing-lucas-kamikaze-drones-against-its-adversaries"&gt;The Army&amp;#8217;s Plan For Employing LUCAS Kamikaze Drones Against Its Adversaries&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/the-armys-plan-for-employing-lucas-kamikaze-drones-against-its-adversaries</guid>
+      <pubDate>Fri, 16 Oct 2026 19:20:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform</title>
+      <link>https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield</link>
+      <description>The launch follows the acquisition of catalog's assets and the appointment of Laurent Guengant as CEO earlier this year.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield</guid>
+      <pubDate>Fri, 16 Oct 2026 19:22:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk</title>
+      <link>https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk</link>
+      <description>Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk</guid>
+      <pubDate>Fri, 16 Oct 2026 19:49:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Marines fielding new tech for prolonged medical care on the battlefield</title>
+      <link>https://www.defenseone.com/threats/2026/10/marines-fielding-new-tech-prolonged-medical-care-battlefield/416656/</link>
+      <description>Mobile blood refrigeration, ultrasounds, and power generation will keep troops alive beyond the “golden hour.”</description>
+      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/10/marines-fielding-new-tech-prolonged-medical-care-battlefield/416656/</guid>
+      <pubDate>Fri, 16 Oct 2026 19:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Critical BlockStrap flaw lets hackers run code on Magento servers</title>
+      <link>https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/</link>
+      <description>Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:00:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hezbollah accuses Lebanese police of violating security coordination procedure after supporters reportedly obstruct raid</title>
+      <link>https://www.longwarjournal.org/archives/2026/10/hezbollah-accuses-lebanese-police-of-violating-security-coordination-procedure-after-supporters-reportedly-obstruct-raid.php</link>
+      <description>&lt;p&gt;Armed men identifying themselves as Hezbollah supporters reportedly surrounded Lebanese security personnel conducting an October 16 raid on a pharmaceutical warehouse near Beirut’s southern suburbs. Hezbollah subsequently claimed the officers had violated an agreed security coordination procedure with the group.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/hezbollah-accuses-lebanese-police-of-violating-security-coordination-procedure-after-supporters-reportedly-obstruct-raid.php"&gt;Hezbollah accuses Lebanese police of violating security coordination procedure after supporters reportedly obstruct raid&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/hezbollah-accuses-lebanese-police-of-violating-security-coordination-procedure-after-supporters-reportedly-obstruct-raid.php</guid>
+      <pubDate>Fri, 16 Oct 2026 20:03:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is Starshield, SpaceX’s military version of Starlink?</title>
+      <link>https://www.defensenews.com/industry/techwatch/2026/10/16/what-is-starshield-spacexs-military-version-of-starlink/</link>
+      <description>Ukraine said on Wednesday that SpaceX had restricted “military-grade” Starlink services, hampering Ukrainian drone strike missions and air defenses.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/10/16/what-is-starshield-spacexs-military-version-of-starlink/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:08:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs</title>
+      <link>https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs</link>
+      <description>Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs</guid>
+      <pubDate>Fri, 16 Oct 2026 20:34:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>What The Army’s Pacific Commanders Are Learning From Ukraine And Iran Conflicts</title>
+      <link>https://www.twz.com/land/what-the-armys-pacific-commanders-are-learning-from-ukraine-and-iran-conflicts</link>
+      <description>&lt;p&gt;Battles far away are informing major changes to how the Army trains, equips and operates in the vast Pacific.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/land/what-the-armys-pacific-commanders-are-learning-from-ukraine-and-iran-conflicts"&gt;What The Army&amp;#8217;s Pacific Commanders Are Learning From Ukraine And Iran Conflicts&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/land/what-the-armys-pacific-commanders-are-learning-from-ukraine-and-iran-conflicts</guid>
+      <pubDate>Fri, 16 Oct 2026 20:35:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week</title>
+      <link>https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-211</link>
+      <description>&lt;p&gt;Where is that drip sound coming from?&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-211"&gt;Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-211</guid>
+      <pubDate>Fri, 16 Oct 2026 21:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Army Diverts Experimental Balloon Swarms to CENTCOM</title>
+      <link>https://sofrep.com/news/army-diverts-experimental-balloon-swarms-to-centcom/</link>
+      <description>The Army canceled its 200-balloon Pacific test and sent the hardware to CENTCOM, where success exposed the oldest Pentagon disease: everybody wants the capability until somebody has to own it. #USArmy #MilitaryTechnology #HighAltitudeBalloons #CENTCOM #DefenseNews</description>
+      <guid isPermaLink="false">https://sofrep.com/news/army-diverts-experimental-balloon-swarms-to-centcom/</guid>
+      <pubDate>Fri, 16 Oct 2026 21:00:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Formula 1 CEO on AI, geopolitics, and leadership</title>
+      <link>https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/formula-1-ceo-on-ai-geopolitics-and-leadership/</link>
+      <description>&lt;p&gt;Formula One President and CEO Stefano Domenicali discusses the forces shaping the future of Formula One (F1), from the growing influence of artificial intelligence to the geopolitical challenges of racing around the world.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/formula-1-ceo-on-ai-geopolitics-and-leadership/"&gt;Formula 1 CEO on AI, geopolitics, and leadership&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/formula-1-ceo-on-ai-geopolitics-and-leadership/</guid>
+      <pubDate>Fri, 16 Oct 2026 21:22:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time</title>
+      <link>https://www.twz.com/air/f-22-pilot-controls-fq-44-fighter-drone-from-the-cockpit-for-the-first-time</link>
+      <description>&lt;p&gt;This is a key milestone as F-22s will be the Air Force's first aerial 'quarterbacks' for Collaborative Combat Aircraft drones.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/f-22-pilot-controls-fq-44-fighter-drone-from-the-cockpit-for-the-first-time"&gt;F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/f-22-pilot-controls-fq-44-fighter-drone-from-the-cockpit-for-the-first-time</guid>
+      <pubDate>Fri, 16 Oct 2026 21:25:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
