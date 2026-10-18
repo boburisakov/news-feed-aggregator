@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 06:20:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 11:31:58 +0000</lastBuildDate>
     <item>
       <title>The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk</title>
       <link>https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/</link>
@@ -2811,15 +2811,6 @@
       <pubDate>Fri, 16 Oct 2026 04:31:32 +0000</pubDate>
     </item>
     <item>
-      <title>PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions</title>
-      <link>https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html</link>
-      <description>A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.
-
-The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html</guid>
-      <pubDate>Fri, 16 Oct 2026 04:59:36 +0000</pubDate>
-    </item>
-    <item>
       <title>BeyondTrust patches zero-day exploited in attacks since August</title>
       <link>https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/</link>
       <description>BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]</description>
@@ -2958,13 +2949,6 @@ The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of im
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/iran-proxy-strategy-direct-deterrence/"&gt;From Proxy War to Direct Deterrence: Is Iran Redefining Its Regional Strategy?&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/iran-proxy-strategy-direct-deterrence/</guid>
       <pubDate>Fri, 16 Oct 2026 11:40:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interview: Russia's Shadow War On NATO Is 'Bound To Intensify'</title>
-      <link>https://www.rferl.org/a/russia-shadow-war-nato-europe-christopher-walker-cepa/33877174.html</link>
-      <description>Russia's shadow campaign of drone incursions, sabotage, and assassination attempts in NATO countries has largely backfired by drawing a resolute response but is approaching a "crucial point," Christopher Walker, vice president of the Center for European Policy Analysis, tells RFE/RL.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-shadow-war-nato-europe-christopher-walker-cepa/33877174.html</guid>
-      <pubDate>Fri, 16 Oct 2026 11:58:20 +0000</pubDate>
     </item>
     <item>
       <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
@@ -3166,13 +3150,6 @@ The incident, the AI company said, involved an internal research model part</des
       <pubDate>Fri, 16 Oct 2026 15:27:51 +0000</pubDate>
     </item>
     <item>
-      <title>Popular Iranian Band Refuses To Play After Authorities Bar Female Member From Stage</title>
-      <link>https://www.rferl.org/a/popular-iranian-band-refuses-to-play-after-authorities-bar-female-member-from-stage/33878009.html</link>
-      <description>The popular Iranian music group Pallett is refusing to play concerts in Iran after authorities barred a female band member from performing on stage. Iranian authorities continue their harsh repression of women, enforcing rules that limit their freedom to sing and perform in public. This comes after other female singers in Iran have been sentenced to 74 lashes after performing without a head covering.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/popular-iranian-band-refuses-to-play-after-authorities-bar-female-member-from-stage/33878009.html</guid>
-      <pubDate>Fri, 16 Oct 2026 15:52:04 +0000</pubDate>
-    </item>
-    <item>
       <title>First C-130J For Navy’s New E-130J Phoenix II Ballistic Submarine Communications Fleet Delivered</title>
       <link>https://www.twz.com/air/first-c-130j-for-navys-new-e-130j-phoenix-ii-ballistic-submarine-communications-fleet-delivered</link>
       <description>&lt;p&gt;The E-130J will be taking over the Take Charge And Move Out mission from the jet-powered E-6B Mercury.&lt;/p&gt;
@@ -3233,13 +3210,6 @@ The activity is being tracked by</description>
 Google Threat Intelligence Group, Mandiant, and&amp;nbsp;ManageEngine's Threat Analysis</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html</guid>
       <pubDate>Fri, 16 Oct 2026 16:43:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russia Still Needs More Soldiers. The Kremlin Is Still Desperate To Avoid Mobilization</title>
-      <link>https://www.rferl.org/a/russia-mobilization-fears-creeping-coercion-war/33878063.html</link>
-      <description>Many Russians feared the Kremlin would order a new mobilization after last month’s elections: to replenish decimated forces fighting in Ukraine. That hasn’t happened. But creative and coercive recruiting tactics – called “quiet” or “creeping” mobilization by some – continue nationwide.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-mobilization-fears-creeping-coercion-war/33878063.html</guid>
-      <pubDate>Fri, 16 Oct 2026 16:48:29 +0000</pubDate>
     </item>
     <item>
       <title>Saudi Arabia has more security partners than ever. So why isn’t it safer?</title>
@@ -3474,16 +3444,9 @@ ConnectWise Cloud Backup is a cloud-based backup and recovery service built for 
       <pubDate>Sat, 17 Oct 2026 06:16:46 +0000</pubDate>
     </item>
     <item>
-      <title>Iran Says Supertanker Hit Mine In Strait of Hormuz</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>US To Make Investment, Counterterrorism Push As Rubio Heads To Central Asia</title>
+      <title>Rubio Heads To Central Asia As US Seeks Deeper Trade And Security Ties In Region</title>
       <link>https://www.rferl.org/a/us-investment-counterterrorism-rubio-central-asia/33878143.html</link>
-      <description>As Secretary of State Marco Rubio heads to Uzbekistan this weekend, Washington is hoping the high-level diplomatic engagement translates into concrete economic and security cooperation.</description>
+      <description>As Secretary of State Marco Rubio heads to Uzbekistan, Washington is hoping the high-level diplomatic engagement translates into concrete economic and security cooperation.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/us-investment-counterterrorism-rubio-central-asia/33878143.html</guid>
       <pubDate>Sat, 17 Oct 2026 07:18:51 +0000</pubDate>
     </item>
@@ -3609,6 +3572,47 @@ The package, named "imgdecode," was uploaded to the package registry on Septembe
       <description>Russia's offensive in eastern Ukraine continues, but Ukrainian counterattacks around Lyman and Kupyansk are disrupting Moscow's plans. Meanwhile, Ukrainian strikes against Russian fighter-bombers and oil infrastructure are extending the battlefield far beyond the front lines. With winter approaching, both armies face a familiar question: which side can sustain the mounting costs of war? #UkraineWar #RussiaUkraineWar #Donetsk #UkrainianArmedForces #RussianMilitary #MilitaryAnalysis #DroneWarfare #ModernWarfare #EasternEurope #SOFREP</description>
       <guid isPermaLink="false">https://sofrep.com/news/from-donetsk-to-russian-airfields-ukraine-expands-the-battlefield-as-winter-closes-in/</guid>
       <pubDate>Sat, 17 Oct 2026 21:00:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran Says Supertanker Hit Mine In Strait of Hormuz</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Sun, 18 Oct 2026 06:59:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exclusive: KGB Complex Rises On Historic Catholic Cemetery Grounds In Minsk</title>
+      <link>https://www.rferl.org/a/belarus-kgb-nationalsecurity-academy-cemetery-church/33877330.html</link>
+      <description>Despite legal protections, the Belarusian state is building a sprawling academy complex for the KGB on the grounds of a historic Catholic cemetery in the heart of Minsk, RFE/RL’s Belarus Service has found. Plans call for a swimming pool, a shooting gallery, and office suites for senior officials.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/belarus-kgb-nationalsecurity-academy-cemetery-church/33877330.html</guid>
+      <pubDate>Sun, 18 Oct 2026 07:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants</title>
+      <link>https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html</link>
+      <description>ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.
+
+The disabled identities are listed below -
+
+
+  ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae
+  ConnectWise</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html</guid>
+      <pubDate>Sun, 18 Oct 2026 08:23:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zelenskyy Says Russia Seeking 'Total Blackout' In Ukraine After Latest Onslaught On Energy Facilities</title>
+      <link>https://www.rferl.org/a/ukraine-russia-drone-attacks-zelenskyy-airports/33878787.html</link>
+      <description>Ukrainian and Russian officials reported civilian deaths and damage to residential buildings and infrastructure following overnight drone attacks on Ukraine and Russia on October 18.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-drone-attacks-zelenskyy-airports/33878787.html</guid>
+      <pubDate>Sun, 18 Oct 2026 10:07:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ukrainian Officials Slam Trump's Waiver Of Russia Sanctions As Rubio Defends Move</title>
+      <link>https://www.rferl.org/a/ukraine-russia-waiver-trump-rubio/33878767.html</link>
+      <description>Ukrainian Foreign Minister Andriy Sybiha said that US President Donald Trump's decision to waive sweeping sanctions against Russia was "indecisiveness," which "sends the wrong message to the aggressor."</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-waiver-trump-rubio/33878767.html</guid>
+      <pubDate>Sun, 18 Oct 2026 10:36:13 +0000</pubDate>
     </item>
     <item>
       <title>Medal of Honor Monday: Leonard Funk Faced 80 Germans With a Gun in His Gut</title>
