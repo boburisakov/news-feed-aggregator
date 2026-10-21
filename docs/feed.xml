@@ -7,37 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 15:56:31 +0000</lastBuildDate>
-    <item>
-      <title>Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials</title>
-      <link>https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials</link>
-      <description>&lt;p&gt;CISA and the Federal Bureau of Investigation (FBI) released a &lt;a href="https://www.ic3.gov/PSA/2026/PSA261016" target="_blank"&gt;Public Service Announcement (PSA)&lt;/a&gt; warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and smishing techniques to steal login credentials and other sensitive information or install malware on targeted devices. Election officials, candidates, and political organizations may be attractive targets because of their access to voter registration data, current government officials, and sensitive campaign information.&lt;/p&gt;
-&lt;p&gt;Cyber actors are increasingly using sophisticated phishing and smishing campaigns that closely resemble legitimate communications. These efforts may include convincing emails, text messages, audio, and video content designed to manipulate recipients into disclosing sensitive information or interacting with malicious links and attachments.&lt;/p&gt;
-&lt;p&gt;CISA and the FBI urge election officials, campaign personnel, and the public to review the PSA, follow recommended cybersecurity practices, and remain vigilant for suspicious emails and mobile messages.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials</guid>
-      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support</link>
-      <description>&lt;p&gt;CISA is aware of critical authentication bypass vulnerability &lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-102764" target="_blank"&gt;CVE-2026-102764&lt;/a&gt;, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade first. Cyber threat actors are actively exploiting the vulnerability to gain initial access, then establishing persistence, escalating privileges, and moving laterally. CISA added CVE-2026-102764 to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) catalog&lt;/a&gt; on Oct. 16, 2026.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;CISA urges organizations with affected self-hosted Remote Support appliances to immediately take the following actions:&amp;nbsp;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Apply the BT26-05-RS patch, as outlined in BeyondTrust’s &lt;a href="https://www.beyondtrust.com/trust-center/security-advisories/bt26-05" target="_blank"&gt;Security Advisory BT26-05&lt;/a&gt;. Organizations on a self-hosted Remote Support version older than 24.3.1 will need to upgrade to a newer version to apply the patch. Organizations using BeyondTrust-hosted (SaaS) Remote Support deployments have already been patched. Review BeyondTrust’s blog &lt;a href="https://www.beyondtrust.com/blog/entry/bt26-05" target="_blank"&gt;ARMORY CASTLE and BT26-05: What Security Teams Need to Know&lt;/a&gt; for detailed information on the vulnerability and recommended response and mitigation actions.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Limit external access to the Remote Support appliance to the services needed to support users and customers. Restrict access to administrative interfaces to trusted networks. Review BeyondTrust’s &lt;a href="https://docs.beyondtrust.com/rs/docs/on-prem-security" target="_blank"&gt;B Series Appliance on-premises security&lt;/a&gt; for additional guidance on securing network connectivity for self-hosted Remote Support appliances.&amp;nbsp;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Organizations with affected self-hosted Remote Support appliances should conduct network and memory forensics to identify evidence of potential compromise. If your organization suspects a compromise, CISA recommends taking the following actions:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Isolate any suspected or confirmed compromised appliances. Collect a snapshot of virtual appliances or forensic image for physical appliances to conduct future forensics, immediately forward appliance syslog and session events to the SIEM, and collect any additional logs, such as web application firewall, reverse-proxy, or perimeter firewall logs for the exposure window. Consult BeyondTrust’s &lt;a href="https://docs.beyondtrust.com/rs/docs/syslog" target="_blank"&gt;Syslog guide&lt;/a&gt; for additional information on forwarding appliance logs and session events.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Conduct network and forensic investigations for evidence of compromise. Additionally, hunt for indicators of threat actor activity, including unrecognized privileged or administrative sessions, unrecognized script files, unexpected gaps in logs or log forwarding, and unauthorized account, permission, or session-policy changes. Consult CISA’s &lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Implementation Guidance for Prioritizing Security Updates Based on Risk&lt;/a&gt; to assist with prioritizing vulnerability remediation.&lt;/li&gt;
-&lt;li&gt;Rebuild from a known-good state and apply the BT26-05-RS patch. Then rotate every credential the appliance stored or injected, revoke all active support sessions, and review new multifactor authentication registrations on privileged accounts.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;CISA urges organizations to review the BeyondTrust security advisory and resources noted above and apply necessary updates. CISA also recommends reviewing Mandiant’s blog, &lt;a href="https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust" target="_blank"&gt;ARMORY CASTLE Exploits BeyondTrust&lt;/a&gt;, for additional hunt and isolation guidance and detections.&amp;nbsp;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The information in this report is being provided “as is” for informational purposes only. CISA does not endorse any commercial entity, product, company, or service, including any entities, products, or services linked within this document. Any reference to specific commercial entities, products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply endorsement, recommendation, or favoring by CISA.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support</guid>
-      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 21 Oct 2026 19:55:49 +0000</lastBuildDate>
     <item>
       <title>Hanwha’s Cheongwang records 100% interception test</title>
       <link>https://www.army-technology.com/news/hanwha-cheongwang-laser-test/</link>
@@ -51,14 +21,6 @@
       <description>&lt;img src="https://spectrum.ieee.org/media-library/two-small-robots-with-long-limbs-and-bodies-linked-by-a-wire-join-connect-to-form-one-four-wheeled-robot-on-a-paved-pathway.gif?id=68443843&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C7%2C0%2C7" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-humanoids.org/"&gt;Humanoids 2026&lt;/a&gt;: 6–9 December 2026, SANTA CLARA, CA&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="45-ypqogpiu"&gt;When one robot loves another robot very much, and they’re connected by a wire, they can get together and make a brand new robot! SFW.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://shin0805.github.io/twinx-bridging/"&gt;JSK Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="zssoymcggpu"&gt;&lt;em&gt;What happens when Microducks meet? They start to sing together. Each Microduck syncs with its neighbors over Bluetooth, then they compose a song on the fly, in harmony and in perfect time. There’s no score and no conductor. Two, three, or four ducks are enough for a choir to break out.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;If Pollen isn’t selling &lt;a href="https://spectrum.ieee.org/video-friday-microduck-robot" target="_blank"&gt;Microducks&lt;/a&gt; in four packs for this exact reason, WHAT ARE THEY EVEN DOING!?&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://pollen-robotics.com/microduck/"&gt;Pollen&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="9picemtfpwu"&gt;&lt;em&gt;In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body control required for Apptronik’s Apollo 2 humanoid to sink seven consecutive shots in the real world. This Video-to-Sim-to-Real pipeline compresses weeks of manual modeling into a few hours, transforming ordinary videos into an infinite training ground for physical AI.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"&gt;Google DeepMind&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="xaxuv6tsib4"&gt;&lt;em&gt;As of 11 October 2026, NASA’s Perseverance rover has driven 28.10 miles (45.22 kilometers), becoming the new off-world record-holder for total distance driven by any vehicle on the surface of another world. The previous record of 28.06 miles (45.16 kilometers) was held by NASA’s Opportunity rover. Perseverance reached that mark on the 2,006th Martian day, or sol, of its mission, covering in five and a half years a distance that took Opportunity almost 15.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.jpl.nasa.gov/missions/mars-2020-perseverance-rover/"&gt;JPL&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="afotkkjjbky"&gt;Let’s not argue about whether these are robots or not and just agree that they’re cool.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://daehwakim.com/oat/"&gt;OATs&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="j9kfpi-hjx4"&gt;If one cute little robot can clean up one block, how many blocks can 40 cute little robots clean up? Science has the answers!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://arxiv.org/abs/2610.05677"&gt;Paper&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Keisuke!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ry5caexgbk0"&gt;&lt;em&gt;Before &lt;a href="https://spectrum.ieee.org/4-missions-will-search-the-martian-atmosphere-and-soil-for-signs-of-life" target="_blank"&gt;Rosalind Franklin&lt;/a&gt; can explore Mars, it has to get off its lander. Engineers are rehearsing that first journey on Earth, using a full-size rover model and Mars-like terrain. The test recreates some of the challenges Rosalind Franklin will face on the Red Planet, from reduced gravity and a 20-degree incline to uneven ground and obstacles beneath its ramps.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_twin_rehearses_first_drive"&gt;European Space Agency&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="dp_i7hrvgpe"&gt;&lt;em&gt;From custom part to running robot, the Atlas shop floor is built on precision, rapid assembly, and real-time collaboration. By machining parts in-house and streamlining assembly and repair under one roof, we are driving the manufacturing velocity needed to turn complex designs into walking hardware at scale.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://bostondynamics.com/"&gt;Boston Dynamics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="jp79jzwmo4k"&gt;&lt;em&gt;What can a quadruped robot do beyond the lab? Deep in China’s Ailao Mountains, DEEP Robotics Lynx M20S joined a team of researchers on a biodiversity field expedition—navigating rugged terrain, scouting routes ahead, carrying research equipment, and capturing wildlife in areas that are difficult to access on foot.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.deeprobotics.us/"&gt;DEEP Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="_eyarcc8d9y"&gt;&lt;em&gt;The Kamino simulation software is a GPU-accelerated physics solver designed for accurate simulation of complex mechanical systems with kinematic loops, such as parallel manipulators, planar and spatial linkages, and multi-limbed robots with coupled joints, without requiring simplified approximations.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://disneyresearch.github.io/kamino-site/"&gt;Disney Research&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="3h4mk2zcm3w"&gt;The original Kawasaki &lt;a href="https://spectrum.ieee.org/unimation-robot" target="_blank"&gt;UNIMATE&lt;/a&gt; robot as featured in (remember this show?) &lt;em&gt;The MacNeil/Lehrer Report&lt;/em&gt; in 1982.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://kawasakirobotics.com/"&gt;Kawasaki Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="95dsrzgzuhy"&gt;&lt;em&gt;WildOS enables autonomous robots to perform long-range, open-vocabulary object search in previously unmapped and unstructured outdoor environments by unifying geometric safety with semantic visual reasoning. Through a vision-scored navigation graph and beyond-horizon target localization, the system demonstrates more efficient and robust exploration than conventional geometric or purely vision-based approaches in extensive field experiments.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://leggedrobotics.github.io/wildos/"&gt;ETH Zurich Robotics Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="a5oyvvkspva"&gt;Who needs an AI-generated person when you can have an actual robot that looks exactly like an AI-generated person instead?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.ubtrobot.com/en/humanoid/products/u1-pro"&gt;UBTECH Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="8lc7x7c_sju"&gt;The recovery behaviors here are impressive, but the robot is far slower than a human would be, suggesting that the value it generates is primarily in novelty. Which is fine for now, but novelty wears off, and then what?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.sharpa.com/pages/sharpa-dq"&gt;Sharpa&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="umohqodj_pi"&gt;Here are a couple of good panels from ICRA 2026 in Vienna, including one on “Impact and Return on Investment on Humanoid Robots” and a second on “Advancing Sustainability in Robotics.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://2026.ieee-icra.org/program/panels/"&gt;ICRA 2026&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-reconfigurable-robots</guid>
       <pubDate>Fri, 16 Oct 2026 16:30:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Saudi Arabia has more security partners than ever. So why isn’t it safer?</title>
-      <link>https://www.atlanticcouncil.org/dispatches/saudi-arabia-has-more-security-partners-than-ever-so-why-isnt-it-safer/</link>
-      <description>&lt;p&gt;Saudi Arabia has succeeded in diversifying its security partnerships. The harder task is turning those wins into security on the ground.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/saudi-arabia-has-more-security-partners-than-ever-so-why-isnt-it-safer/"&gt;Saudi Arabia has more security partners than ever. So why isn’t it safer?&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/saudi-arabia-has-more-security-partners-than-ever-so-why-isnt-it-safer/</guid>
-      <pubDate>Fri, 16 Oct 2026 16:52:02 +0000</pubDate>
     </item>
     <item>
       <title>UK MoD orders 157 tractors and excavators from JCB</title>
@@ -84,20 +46,6 @@
       <pubDate>Fri, 16 Oct 2026 17:47:54 +0000</pubDate>
     </item>
     <item>
-      <title>How Itaú is building generative AI for its entire customer base</title>
-      <link>https://openai.com/index/itau-generative-ai</link>
-      <description>With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.</description>
-      <guid isPermaLink="false">https://openai.com/index/itau-generative-ai</guid>
-      <pubDate>Fri, 16 Oct 2026 19:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The real job of the Army’s new ‘robotics technicians’ is constant adaptation</title>
-      <link>https://www.defenseone.com/policy/2026/10/army-robotics-technician--adaptation/416651/</link>
-      <description>The age of battlefield autonomy demands more than just drone pilots and mechanics, Special Forces’ training chief says.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/10/army-robotics-technician--adaptation/416651/</guid>
-      <pubDate>Fri, 16 Oct 2026 19:10:17 +0000</pubDate>
-    </item>
-    <item>
       <title>Marines fielding new tech for prolonged medical care on the battlefield</title>
       <link>https://www.defenseone.com/threats/2026/10/marines-fielding-new-tech-prolonged-medical-care-battlefield/416656/</link>
       <description>Mobile blood refrigeration, ultrasounds, and power generation will keep troops alive beyond the “golden hour.”</description>
@@ -111,22 +59,6 @@
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/hezbollah-accuses-lebanese-police-of-violating-security-coordination-procedure-after-supporters-reportedly-obstruct-raid.php"&gt;Hezbollah accuses Lebanese police of violating security coordination procedure after supporters reportedly obstruct raid&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/hezbollah-accuses-lebanese-police-of-violating-security-coordination-procedure-after-supporters-reportedly-obstruct-raid.php</guid>
       <pubDate>Fri, 16 Oct 2026 20:03:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Formula 1 CEO on AI, geopolitics, and leadership</title>
-      <link>https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/formula-1-ceo-on-ai-geopolitics-and-leadership/</link>
-      <description>&lt;p&gt;Formula 1 (F1) President and CEO Stefano Domenicali discusses the forces shaping the future of F1, from the growing influence of artificial intelligence to the geopolitical challenges of racing around the world. He also reflects on his journey to the top of F1 the leadership lessons he’s learned along the way, and the power of sports to bring people together.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/formula-1-ceo-on-ai-geopolitics-and-leadership/"&gt;Formula 1 CEO on AI, geopolitics, and leadership&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/inflection-points-with-frederick-kempe/formula-1-ceo-on-ai-geopolitics-and-leadership/</guid>
-      <pubDate>Fri, 16 Oct 2026 21:22:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Ukraine’s Starlink disruptions reveal about the tradeoffs involved in military commercial dependencies</title>
-      <link>https://www.atlanticcouncil.org/dispatches/what-ukraines-starlink-disruptions-reveal-about-the-tradeoffs-involved-in-military-commercial-dependencies/</link>
-      <description>&lt;p&gt;Militaries need to understand the consequences of losing access to capabilities that have become essential to mission execution. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/what-ukraines-starlink-disruptions-reveal-about-the-tradeoffs-involved-in-military-commercial-dependencies/"&gt;What Ukraine’s Starlink disruptions reveal about the tradeoffs involved in military commercial dependencies&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/what-ukraines-starlink-disruptions-reveal-about-the-tradeoffs-involved-in-military-commercial-dependencies/</guid>
-      <pubDate>Fri, 16 Oct 2026 22:17:34 +0000</pubDate>
     </item>
     <item>
       <title>Federal agencies recommend cyber controls, independent testing for frontier AI systems</title>
@@ -204,13 +136,6 @@
       <pubDate>Mon, 19 Oct 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Advancing coding in low‑resource programming languages</title>
-      <link>https://openai.com/index/low-resource-programming-languages</link>
-      <description>Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.</description>
-      <guid isPermaLink="false">https://openai.com/index/low-resource-programming-languages</guid>
-      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>US Army partners with G-TEAD to advance counter-drone tech in Africa</title>
       <link>https://www.army-technology.com/news/us-army-drones-africa-test/</link>
       <description>The US Army’s Southern European Task Force, Africa (SETAF-AF) has partnered with the Global Tactical Edge Acquisition Directorate (G-TEAD) to test drone-defence systems in Africa.</description>
@@ -238,13 +163,6 @@
       <description>U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom.</description>
       <guid isPermaLink="false">https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</guid>
       <pubDate>Mon, 19 Oct 2026 13:48:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>OnlyFans Copyright Takedowns Expose Compromised Websites</title>
-      <link>https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites</link>
-      <description>Copyright takedown requests tied to OnlyFans and other adult content creators are revealing how attackers exploit vulnerable university and government websites to manipulate search results. UpGuard's Greg Pollock explains what universities, government websites, and security teams need to think about next.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites</guid>
-      <pubDate>Mon, 19 Oct 2026 14:28:11 +0000</pubDate>
     </item>
     <item>
       <title>Pakistan-Taliban border clashes continue amid diplomatic efforts</title>
@@ -284,30 +202,6 @@
       <pubDate>Mon, 19 Oct 2026 16:24:47 +0000</pubDate>
     </item>
     <item>
-      <title>Aerial Drones Appear To Be Picking Up Wounded Off The Battlefield In Ukraine</title>
-      <link>https://www.twz.com/air/aerial-drones-appear-to-be-picking-up-wounded-off-the-battlefield-in-ukraine</link>
-      <description>&lt;p&gt;A heavy-lift hexacopter is shown pulling a wounded soldier from what Ukraine describes as a drone-saturated kill zone in what would be a world first.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/aerial-drones-appear-to-be-picking-up-wounded-off-the-battlefield-in-ukraine"&gt;Aerial Drones Appear To Be Picking Up Wounded Off The Battlefield In Ukraine&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/aerial-drones-appear-to-be-picking-up-wounded-off-the-battlefield-in-ukraine</guid>
-      <pubDate>Mon, 19 Oct 2026 16:47:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Four ways the midterms can reshape US energy policy</title>
-      <link>https://www.atlanticcouncil.org/dispatches/four-ways-the-midterms-can-reshape-us-energy-policy/</link>
-      <description>&lt;p&gt;The next Congress has options to act, particularly if one or both chambers shift from a Republican to a Democratic majority.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/four-ways-the-midterms-can-reshape-us-energy-policy/"&gt;Four ways the midterms can reshape US energy policy&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/four-ways-the-midterms-can-reshape-us-energy-policy/</guid>
-      <pubDate>Mon, 19 Oct 2026 17:47:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>We Finally Know The B-21 Raider’s True Wingspan</title>
-      <link>https://www.twz.com/air/we-finally-know-the-b-21-raiders-true-wingspan</link>
-      <description>&lt;p&gt;We don't have to endure bizarrely small size estimates for the B-21 anymore.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/we-finally-know-the-b-21-raiders-true-wingspan"&gt;We Finally Know The B-21 Raider&amp;#8217;s True Wingspan&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/we-finally-know-the-b-21-raiders-true-wingspan</guid>
-      <pubDate>Mon, 19 Oct 2026 17:50:03 +0000</pubDate>
-    </item>
-    <item>
       <title>In Skepticism We Trust: Ukraine Reacts to the Diesel Deal</title>
       <link>https://warontherocks.com/in-skepticism-we-trust-ukraine-reacts-to-the-diesel-deal/</link>
       <description>&lt;p&gt;Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate the issues shaping their country.Western coverage often narrows the view to the battlefield &amp;#8212; these pieces widen it, revealing the texture of daily life, politics, and public argument in a nation at war. The perspectives gathered here are varied, candid, and often surprising, together forming a more complete picture of Ukraine as it really is.Frontline&lt;/p&gt;
@@ -324,34 +218,12 @@
       <pubDate>Mon, 19 Oct 2026 18:27:32 +0000</pubDate>
     </item>
     <item>
-      <title>ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs</title>
-      <link>https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps</link>
-      <description>Researchers say attackers authenticated into Microsoft 365 tenants using ConnectWise credentials; ConnectWise says customer impact remains unconfirmed.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps</guid>
-      <pubDate>Mon, 19 Oct 2026 19:19:33 +0000</pubDate>
-    </item>
-    <item>
       <title>Unpacking Ukraine’s Campaign against Russian Refineries</title>
       <link>https://www.geopoliticalmonitor.com/ukraine-refinery-strikes-russia/</link>
       <description>&lt;p&gt;Ukraine’s refinery strikes have tipped Russia into fuel rationing. Can they buy leverage in Moscow or Washington?&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/ukraine-refinery-strikes-russia/"&gt;Unpacking Ukraine’s Campaign against Russian Refineries&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/ukraine-refinery-strikes-russia/</guid>
       <pubDate>Mon, 19 Oct 2026 19:47:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Army’s Plan To Launch Hundreds Of Balloons Into Enemy Territory If A Future Conflict Breaks Out</title>
-      <link>https://www.twz.com/air/armys-plan-to-launch-hundreds-of-balloons-into-enemy-territory-if-a-future-conflict-breaks-out</link>
-      <description>&lt;p&gt;The balloons would be used to surveil vast areas of enemy territory, decoy defenses, provide networking and launch drone attacks behind enemy lines. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/air/armys-plan-to-launch-hundreds-of-balloons-into-enemy-territory-if-a-future-conflict-breaks-out"&gt;Army&amp;#8217;s Plan To Launch Hundreds Of Balloons Into Enemy Territory If A Future Conflict Breaks Out&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/air/armys-plan-to-launch-hundreds-of-balloons-into-enemy-territory-if-a-future-conflict-breaks-out</guid>
-      <pubDate>Mon, 19 Oct 2026 19:49:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery</title>
-      <link>https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery</link>
-      <description>Spyware vendors are exploiting targeted ad bidding in the digital ecosystem to identify and track individuals and organizations of interest.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery</guid>
-      <pubDate>Mon, 19 Oct 2026 19:55:01 +0000</pubDate>
     </item>
     <item>
       <title>Researchers Infiltrate Microsoft Tech Support Scam Operation</title>
@@ -377,13 +249,6 @@
       <pubDate>Mon, 19 Oct 2026 21:38:00 +0000</pubDate>
     </item>
     <item>
-      <title>Myanmar Coup Administration Releases Photos of Detained Leader Aung San Suu Kyi</title>
-      <link>https://thediplomat.com/2026/10/myanmar-coup-administration-releases-photos-of-detained-leader-aung-san-suu-kyi/</link>
-      <description>The photos reportedly show the 81-year-old receiving two books and a sealed diplomatic package from Britain's King Charles III.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/myanmar-coup-administration-releases-photos-of-detained-leader-aung-san-suu-kyi/</guid>
-      <pubDate>Mon, 19 Oct 2026 22:44:00 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenAI acquires Orchestra Bio</title>
       <link>https://openai.com/index/openai-to-acquire-orchestra-bio</link>
       <description>OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;amp;D, helping biopharma teams accelerate drug development and advance new treatments.</description>
@@ -402,13 +267,6 @@
       <link>https://isc.sans.edu/diary/rss/33436</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33436</guid>
       <pubDate>Tue, 20 Oct 2026 02:00:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Philippine Senator Files Resolution Seeking Chinese Ambassador’s Expulsion</title>
-      <link>https://thediplomat.com/2026/10/philippine-senator-files-resolution-seeking-chinese-ambassadors-expulsion/</link>
-      <description>Jing Quan prompted controversy last week when he told reporters that China could "easily win" a war against the Philippines.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/philippine-senator-files-resolution-seeking-chinese-ambassadors-expulsion/</guid>
-      <pubDate>Tue, 20 Oct 2026 03:23:00 +0000</pubDate>
     </item>
     <item>
       <title>“Earth Satellites and Foreign Policy”</title>
@@ -432,20 +290,6 @@
       <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Fog of Tech</title>
-      <link>https://www.foreignaffairs.com/united-states/fog-tech-artificial-intelligence-mara-karlin-ai</link>
-      <description>Mara Karlin, a defense policy expert, argues that war planners’ obsession with new technologies like AI and drones has the potential to make them blind to the realities of war fighting. Using examples from Gaza, Ukraine, and Iran, Karlin shows how this technology trap leads to false assumptions about the future of war.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/fog-tech-artificial-intelligence-mara-karlin-ai</guid>
-      <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Limits of American Power</title>
-      <link>https://www.foreignaffairs.com/united-states/limits-american-power-william-mcraven</link>
-      <description>William McRaven, a retired four-star admiral and a major figure in American military affairs, uses history and his personal experiences to make an authoritative case that American leaders frequently overestimate the potential of military force to achieve political ends—and that new technologies like AI will exacerbate this problem.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/limits-american-power-william-mcraven</guid>
-      <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>AI Is a Choice</title>
       <link>https://www.foreignaffairs.com/united-states/ai-choice-imas-el-erian-manyika</link>
       <description>Alex Imas, Mohamed El-Erian, and James Manyika, leading voices at the intersection of business and technology, argue that realizing AI’s potential requires giving workers, communities, AI labs, infrastructure developers, and big companies a share of the gains. Using insights from game theory, they argue that increased cooperation can make AI work for all.</description>
@@ -457,6 +301,20 @@
       <link>https://www.foreignaffairs.com/china/empires-artificial-intelligence-niall-ferguson-eric-schmidt</link>
       <description>In this essay, Niall Ferguson, one of the world’s foremost experts on imperial history, teams up the former CEO of Google, Eric Schmidt, and the researcher Lisa Klaassen to make the provocative argument that AI is an inherently “imperial technology”—and to reveal what the fate of past empires might say about the future of U.S.-Chinese competition in a world shaped by AI.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/china/empires-artificial-intelligence-niall-ferguson-eric-schmidt</guid>
+      <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Fog of Tech</title>
+      <link>https://www.foreignaffairs.com/united-states/fog-tech-artificial-intelligence-mara-karlin-ai</link>
+      <description>Mara Karlin, a defense policy expert who served as senior national-security official in multiple American administrations, makes an authoritative case that war planners tend to be overconfident about their ability to predict how new tools will shape the battlefield—blinding them to the unchanging realities of war. Using examples from Gaza, Ukraine, and Iran, Karlin shows how this "technology trap" leads to false assumptions about the future of war.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/fog-tech-artificial-intelligence-mara-karlin-ai</guid>
+      <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Limits of American Power</title>
+      <link>https://www.foreignaffairs.com/united-states/limits-american-power-william-mcraven</link>
+      <description>William McRaven, a retired four-star admiral and a major figure in American military affairs, uses history and his personal experiences to make an authoritative case that American leaders frequently overestimate the potential of military force to achieve political ends—and that new technologies like AI will exacerbate this problem.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/limits-american-power-william-mcraven</guid>
       <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -474,13 +332,6 @@
       <pubDate>Tue, 20 Oct 2026 07:00:45 +0000</pubDate>
     </item>
     <item>
-      <title>The Proliferation of Illicit Drones in Southeast Asia</title>
-      <link>https://thediplomat.com/2026/10/the-proliferation-of-illicit-drones-in-southeast-asia/</link>
-      <description>The past two years have seen the growing use of off-the-shelf commercial drones for criminal and militant activities.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/the-proliferation-of-illicit-drones-in-southeast-asia/</guid>
-      <pubDate>Tue, 20 Oct 2026 07:16:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Guns, Growth, and the German Reinvention of Military Keynesianism</title>
       <link>https://warontherocks.com/guns-growth-and-the-german-reinvention-of-military-keynesianism/</link>
       <description>&lt;p&gt;In March 2025, Germany did more than loosen a fiscal rule. It fused two national emergencies &amp;#8212; a deteriorating European security order and a deteriorating industrial model &amp;#8212; into a single constitutional bargain. The reform de facto exempted German defense expenditure from any domestic budgetary ceiling &amp;#8212; as the German Bundesbank itself has acknowledged &amp;#8212; and enabled a military expansion of extraordinary proportions. E.U. debt rules of 3 percent of GDP for annual government deficits and 60 percent for public debt technically still apply &amp;#8212; though 14 out of the 27 Eurozone countries are not expected to meet these rules&lt;/p&gt;
@@ -494,13 +345,6 @@
       <description>An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.</description>
       <guid isPermaLink="false">https://openai.com/index/ted-taylor-restaurant</guid>
       <pubDate>Tue, 20 Oct 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Japan Has Considered Nuclear-Powered Submarines Since 1958. Why Has It Never Built One?</title>
-      <link>https://thediplomat.com/2026/10/japan-has-considered-nuclear-powered-submarines-since-1958-why-has-it-never-built-one/</link>
-      <description>From a 1958 design study to reported approaches to the U.S. Navy, Japan has repeatedly examined nuclear-powered submarines without making an acquisition decision.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/japan-has-considered-nuclear-powered-submarines-since-1958-why-has-it-never-built-one/</guid>
-      <pubDate>Tue, 20 Oct 2026 11:57:00 +0000</pubDate>
     </item>
     <item>
       <title>CISA Adds Six Known Exploited Vulnerabilities to Catalog</title>
@@ -4374,7 +4218,7 @@
 &lt;th&gt;Executive Summary&lt;/th&gt;
 &lt;td&gt;
 &lt;p&gt;This advisory details recent activity by the SafePay ransomware group. SafePay actors have been highly active since August 2024, targeting businesses and critical infrastructure across North America, South America, Europe, and Australia. SafePay actors typically gain access to networks by stealing or guessing passwords, exploiting vulnerabilities in security systems, and using phishing tactics.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Once inside the network, SafePay actors establish control by creating new accounts or taking over existing ones. They then use legitimate system tools to move through the network, identify valuable files, and disable security protections to avoid detection. Following, they encrypt the victim’s files, making them inaccessible, and leave a ransom note demanding payment in cryptocurrency. This advisory urges organizations to follow recommended security measures to reduce the risk and impact of SafePay ransomware attacks.&lt;/p&gt;
+&lt;p&gt;Once inside the network, SafePay actors establish control by creating new accounts or taking over existing ones. They then use legitimate system tools to move through the network, identify valuable files, and disable security protections to avoid detection. Next, they encrypt the victim’s files, making them inaccessible, and leave a ransom note demanding payment in cryptocurrency. This advisory urges organizations to follow recommended security measures to reduce the risk and impact of SafePay ransomware attacks.&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -4432,8 +4276,8 @@
 
 &lt;div class="c-file"&gt;
     &lt;div class="c-file__download"&gt;
-    &lt;a class="c-file__link" href="https://www.cisa.gov/sites/default/files/2026-10/aa26-293a-stopransomware-safepay-ransomware-508c.pdf" target="_blank"&gt;#StopRansomware: SafePay Ransomware&lt;/a&gt;
-    &lt;span class="c-file__size"&gt;(PDF,       1.02 MB
+    &lt;a class="c-file__link" href="https://www.cisa.gov/sites/default/files/2026-10/aa26-293a-stopransomware-safepay-ransomware-508c_0.pdf" target="_blank"&gt;#StopRansomware: SafePay Ransomware&lt;/a&gt;
+    &lt;span class="c-file__size"&gt;(PDF,       1.06 MB
   )&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -5502,34 +5346,6 @@
       <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Landscape Of Militancy In The Iran-Pakistan Border Region</title>
-      <link>https://www.rferl.org/a/iran-pakistan-balochistan-sistan-baluchistan-militants/33879549.html</link>
-      <description>Increasing militant attacks along Iran's border with Pakistan by multiple armed groups have stoked fears of further instability in the two countries, both of which already face multifaceted threats of sectarian violence in addition to the broader repercussions of the conflict in the Middle East.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-pakistan-balochistan-sistan-baluchistan-militants/33879549.html</guid>
-      <pubDate>Tue, 20 Oct 2026 12:04:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Expanding the Military Footprint: China’s New Air Base in Laos</title>
-      <link>https://thediplomat.com/2026/10/expanding-the-military-footprint-chinas-new-air-base-in-laos/</link>
-      <description>Establishment of the Laotian base follows a pattern in China’s growing external military presence and access.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/expanding-the-military-footprint-chinas-new-air-base-in-laos/</guid>
-      <pubDate>Tue, 20 Oct 2026 12:17:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trial by Social Media? The Boundaries of Feminist Teaching in China</title>
-      <link>https://thediplomat.com/2026/10/trial-by-social-media-the-boundaries-of-feminist-teaching-in-china/</link>
-      <description>A law school professor was dismissed after online controversy over her course on women’s rights.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/trial-by-social-media-the-boundaries-of-feminist-teaching-in-china/</guid>
-      <pubDate>Tue, 20 Oct 2026 12:33:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>North Korea Wants Security Talks With the US, Not Nuclear Talks</title>
-      <link>https://thediplomat.com/2026/10/north-korea-wants-security-talks-with-the-us-not-nuclear-talks/</link>
-      <description>For decades, Washington tried to change Pyongyang’s nuclear policy. Now North Korea is trying to do the reverse: use its nuclear weapons to change U.S. policy.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/north-korea-wants-security-talks-with-the-us-not-nuclear-talks/</guid>
-      <pubDate>Tue, 20 Oct 2026 13:08:00 +0000</pubDate>
-    </item>
-    <item>
       <title>It’s Time to Put AFRICOM in Africa</title>
       <link>https://www.geopoliticalmonitor.com/africom-headquarters-west-africa/</link>
       <description>&lt;p&gt;AFRICOM has run its Africa operations from Germany since 2007. The case for a forward headquarters in coastal West Africa.&lt;/p&gt;
@@ -5538,39 +5354,11 @@
       <pubDate>Tue, 20 Oct 2026 13:22:47 +0000</pubDate>
     </item>
     <item>
-      <title>Taiwan’s Tech Diplomacy Has a Labor Problem</title>
-      <link>https://thediplomat.com/2026/10/taiwans-tech-diplomacy-has-a-labor-problem/</link>
-      <description>Migrant worker recruitment debt threatens the island’s access to Western markets and its ties with Southeast Asia.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/taiwans-tech-diplomacy-has-a-labor-problem/</guid>
-      <pubDate>Tue, 20 Oct 2026 13:38:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Danger close: European reassessments of artillery procurement</title>
       <link>https://www.army-technology.com/analyst-comment/european-reassessments-artillery-procurement/</link>
       <description>Europe’s war preparations are exposing artillery import dependence. US product popularity is shifting, favouring South Korea.</description>
       <guid isPermaLink="false">https://www.army-technology.com/analyst-comment/european-reassessments-artillery-procurement/</guid>
       <pubDate>Tue, 20 Oct 2026 13:39:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Drones take over AUSA, plus the Army’s plan to bring in new vendors</title>
-      <link>https://breakingdefense.com/2026/10/drones-take-over-ausa-plus-the-armys-plan-to-bring-in-new-vendors/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/drones-take-over-ausa-plus-the-armys-plan-to-bring-in-new-vendors/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/BO237-pb-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Drones and counter-drone tech dominated the show as the Army implements new ways to keep industry competing.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/10/drones-take-over-ausa-plus-the-armys-plan-to-bring-in-new-vendors/</guid>
-      <pubDate>Tue, 20 Oct 2026 13:57:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ghost Shark with teeth: Australia unveils underwater drone payloads</title>
-      <link>https://breakingdefense.com/2026/10/ghost-shark-with-teeth-australia-unveils-underwater-drone-payloads/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/ghost-shark-with-teeth-australia-unveils-underwater-drone-payloads/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/09/RAN_Ghost_Shark_XL-AUV_20250910ADF8654564_7428-e1757518856388-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The modular payloads will be integrated onto Anduril&amp;#8217;s Ghost Shark and C2 Robotics&amp;#8217; Speartooth unmanned underwater vehicles as well as Ocius&amp;#8217;s Bluebottle unmanned surface vessel (USV), the Australian DoD said in an announcement.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/10/ghost-shark-with-teeth-australia-unveils-underwater-drone-payloads/</guid>
-      <pubDate>Tue, 20 Oct 2026 14:01:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bougainville Needs a Credible Timetable for PNG’s Independence Vote. Australia Can Help.</title>
-      <link>https://thediplomat.com/2026/10/bougainville-needs-a-credible-timetable-for-pngs-independence-vote-australia-can-help/</link>
-      <description>Canberra should stay out of what Port Moresby decides on Bougainville, but it can push for a concrete timeline for the decision.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/bougainville-needs-a-credible-timetable-for-pngs-independence-vote-australia-can-help/</guid>
-      <pubDate>Tue, 20 Oct 2026 14:06:00 +0000</pubDate>
     </item>
     <item>
       <title>The European Union as a compound power in Cold War 2.0</title>
@@ -5593,13 +5381,6 @@
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/turkish-defense-procurement-spending-proposed-to-rise-229-in-2027/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/M60-T-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Turkey’s proposed budget calls for $44.5 billion in defense spending and a separate $25.2 billion for internal security, pending parliamentary approval.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/10/turkish-defense-procurement-spending-proposed-to-rise-229-in-2027/</guid>
       <pubDate>Tue, 20 Oct 2026 14:46:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>China’s Second Suspected Drone Submarine Mothership Emerges Near Guangzhou</title>
-      <link>https://sofrep.com/news/second-suspected-chinese-uuv-mothership-appears-in-guangzhou/</link>
-      <description>A second suspected Chinese UUV mothership appears in Guangzhou. What the two ships are for remains unconfirmed. #UUV #China #XLUUV #DefenseTechnology</description>
-      <guid isPermaLink="false">https://sofrep.com/news/second-suspected-chinese-uuv-mothership-appears-in-guangzhou/</guid>
-      <pubDate>Tue, 20 Oct 2026 15:00:30 +0000</pubDate>
     </item>
     <item>
       <title>Weapons to Russia, Wigs to China: How North Korea Balances Its Allies</title>
@@ -5636,20 +5417,6 @@
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/russias-naval-posture-in-the-mediterranean-has-significantly-decreased-nato-official/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261019_DVIDS_med_sailor_lookout_7006347-scaled-e1792429783391-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Russia&amp;#8217;s maritime forces may be stretched thin now, but one analyst told Breaking Defense that&amp;#8217;s unlikely to be the case &amp;#8220;longer term.&amp;#8221;&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/10/russias-naval-posture-in-the-mediterranean-has-significantly-decreased-nato-official/</guid>
       <pubDate>Tue, 20 Oct 2026 15:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say</title>
-      <link>https://www.defensenews.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/</link>
-      <description>Netanyahu and Hegseth discussed “the threats in the region” and the U.S.-Israel partnership in dealing both offensively and defensively with those threats.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/</guid>
-      <pubDate>Tue, 20 Oct 2026 15:56:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>101st Combat Aviation Brigade Pilots Helped Shape the Army’s MV-75. Now Bell Is Freezing the Design</title>
-      <link>https://sofrep.com/news/101st-soldiers-shape-mv-75-cockpit-design-ahead-of-expected-2027-arrival/</link>
-      <description>The 101st helped reshape the MV-75 cockpit, but Bell is freezing the design while the Army still has to settle the schedule and find the money to put the aircraft at Fort Campbell in 2027. #MV75 #ArmyAviation #101stAirborne #MilitaryTechnology #FutureVerticalLift</description>
-      <guid isPermaLink="false">https://sofrep.com/news/101st-soldiers-shape-mv-75-cockpit-design-ahead-of-expected-2027-arrival/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:00:54 +0000</pubDate>
     </item>
     <item>
       <title>With War In Limbo, Influential Iranian Officials Openly Call For A Nuclear Bomb</title>
@@ -5705,13 +5472,6 @@ Dnipropetrovsk region, but the villages are largely destroyed and uninhabitable.
       <pubDate>Tue, 20 Oct 2026 16:57:18 +0000</pubDate>
     </item>
     <item>
-      <title>China built more than twice naval tonnage of US in 2024-25: Euronaval</title>
-      <link>https://www.defensenews.com/naval/2026/10/20/china-built-more-than-twice-naval-tonnage-of-us-in-2024-25-euronaval/</link>
-      <description>China built more than twice the naval tonnage of the U.S. in the 2024-25 period, narrowing the gap between the two countries’ navies, a new report says.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/naval/2026/10/20/china-built-more-than-twice-naval-tonnage-of-us-in-2024-25-euronaval/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:57:56 +0000</pubDate>
-    </item>
-    <item>
       <title>US Air Force F-22 pilot controls unmanned FQ-44 in flight</title>
       <link>https://www.defensenews.com/industry/techwatch/2026/10/20/us-air-force-f-22-pilot-controls-unmanned-fq-44-in-flight/</link>
       <description>The fighter jet’s pilot served as an airborne “quarterback” and gave high-level directives to an Anduril-made Collaborative Combat Aircraft.</description>
@@ -5741,6 +5501,13 @@ Dnipropetrovsk region, but the villages are largely destroyed and uninhabitable.
       <pubDate>Tue, 20 Oct 2026 17:36:12 +0000</pubDate>
     </item>
     <item>
+      <title>China Capitalizes on America’s Scientific Brain Drain</title>
+      <link>https://thediplomat.com/2026/10/china-capitalizes-on-americas-scientific-brain-drain/</link>
+      <description>For generations, the flow of global talent was almost entirely one directional. Now China is increasingly attracting top researchers from U.S. institutions.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/china-capitalizes-on-americas-scientific-brain-drain/</guid>
+      <pubDate>Tue, 20 Oct 2026 17:39:00 +0000</pubDate>
+    </item>
+    <item>
       <title>State Department orders staff to call AI ‘super intelligence’</title>
       <link>https://www.defenseone.com/policy/2026/10/state-department-super-intelligence/416705/</link>
       <description>An internal cable from the agency extends Trump’s terminology change to emails, speeches, websites and official titles.</description>
@@ -5763,13 +5530,6 @@ Dnipropetrovsk region, but the villages are largely destroyed and uninhabitable.
       <pubDate>Tue, 20 Oct 2026 18:06:00 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code</title>
-      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/</link>
-      <description>OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/</guid>
-      <pubDate>Tue, 20 Oct 2026 18:11:03 +0000</pubDate>
-    </item>
-    <item>
       <title>Pentagon to start expanding Greenland bases next year: official</title>
       <link>https://www.defenseone.com/policy/2026/10/pentagon-expand-greenland-bases/416706/</link>
       <description>The U.S. is looking at upgrades to support cargo, fighter aircraft, and more troops.</description>
@@ -5783,6 +5543,13 @@ Dnipropetrovsk region, but the villages are largely destroyed and uninhabitable.
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/iran-says-it-has-agreement-with-iraq-to-expel-kurdish-iranian-opposition-groups.php"&gt;Iran says it has agreement with Iraq to expel Kurdish Iranian opposition groups&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/iran-says-it-has-agreement-with-iraq-to-expel-kurdish-iranian-opposition-groups.php</guid>
       <pubDate>Tue, 20 Oct 2026 18:19:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rubio Gets a Medal. Russia Gets Military Drills. Karakalpakstan Gets Silence.</title>
+      <link>https://thediplomat.com/2026/10/rubio-gets-a-medal-russia-gets-military-drills-karakalpakstan-gets-silence/</link>
+      <description>Washington celebrates closer ties as Tashkent strengthens its Russian alliance—and offers no announced relief for Karakalpak political prisoners.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/rubio-gets-a-medal-russia-gets-military-drills-karakalpakstan-gets-silence/</guid>
+      <pubDate>Tue, 20 Oct 2026 18:30:00 +0000</pubDate>
     </item>
     <item>
       <title>Alaska’s HAARP Site Now Being Used To Test New Air Force Over-The-Horizon Radar Tech</title>
@@ -5815,13 +5582,6 @@ Dnipropetrovsk region, but the villages are largely destroyed and uninhabitable.
       <pubDate>Tue, 20 Oct 2026 19:32:18 +0000</pubDate>
     </item>
     <item>
-      <title>Zeabur shutting down after second security breach in two months</title>
-      <link>https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/</link>
-      <description>Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/</guid>
-      <pubDate>Tue, 20 Oct 2026 19:33:02 +0000</pubDate>
-    </item>
-    <item>
       <title>Nigerian sentenced to 8 years for long-running tax business hacking and fraud scheme</title>
       <link>https://cyberscoop.com/nigerian-sentenced-hacking-fraud-tax-investment-scheme/</link>
       <description>&lt;p&gt;Chukwuemeka Victor Amachukwu hacked tax preparation businesses, filed false tax returns and enticed victims to send him money for investment schemes.&lt;/p&gt;
@@ -5835,6 +5595,13 @@ Dnipropetrovsk region, but the villages are largely destroyed and uninhabitable.
       <description>In what Ukraine's military is calling a historic first, a soldier who suffered injuries to both legs on the battlefield was flown to safety by an unmanned aerial drone. His fellow servicemen say the soldier is "a hero" who didn't hesitate to strap himself to the hexacopter drone and fly at low altitude to reach his unit.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-aerial-drone-battlefield-rescue-front-lines/33880389.html</guid>
       <pubDate>Tue, 20 Oct 2026 19:52:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hegseth appoints Medal of Honor recipient Dakota Meyer to Barracks Task Force</title>
+      <link>https://www.c4isrnet.com/video/2026/10/20/hegseth-appoints-medal-of-honor-recipient-dakota-meyer-to-barracks-task-force/</link>
+      <description>Defense Secretary Pete Hegseth taps the Marine reservist to serve as a senior advisor for the Pentagon’s effort to improve troops’ living conditions.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/video/2026/10/20/hegseth-appoints-medal-of-honor-recipient-dakota-meyer-to-barracks-task-force/</guid>
+      <pubDate>Tue, 20 Oct 2026 19:59:55 +0000</pubDate>
     </item>
     <item>
       <title>Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)</title>
@@ -5925,6 +5692,13 @@ Dnipropetrovsk region, but the villages are largely destroyed and uninhabitable.
       <description>America is abandoning the rules, and the allies, it once kept safe.</description>
       <guid isPermaLink="false">https://www.defenseone.com/threats/2026/10/military-power-rising-power-diplomacy-falling-diplomats-crisis-monitors-allies-say/416720/</guid>
       <pubDate>Tue, 20 Oct 2026 23:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democratic governance of frontier AI, part II: Empowering cyber defenders</title>
+      <link>https://openai.com/index/empowering-cyber-defenders</link>
+      <description>OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.</description>
+      <guid isPermaLink="false">https://openai.com/index/empowering-cyber-defenders</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mozilla, Google, Apple block compromised eMudhra CA certificates</title>
@@ -6026,17 +5800,6 @@ Dnipropetrovsk region, but the villages are largely destroyed and uninhabitable.
       <pubDate>Wed, 21 Oct 2026 08:00:11 +0000</pubDate>
     </item>
     <item>
-      <title>U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases</title>
-      <link>https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html</link>
-      <description>U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services "developed using DeepSeek implementations," under a Department of Homeland Security order.
-
-They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates
-
-Homeland Security Secretary</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html</guid>
-      <pubDate>Wed, 21 Oct 2026 08:04:17 +0000</pubDate>
-    </item>
-    <item>
       <title>CISA: SafePay ransomware hit over 600 critical infrastructure orgs</title>
       <link>https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/</link>
       <description>The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]</description>
@@ -6093,26 +5856,6 @@ Homeland Security Secretary</description>
       <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites</title>
-      <link>https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html</link>
-      <description>Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.
-
-TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html</guid>
-      <pubDate>Wed, 21 Oct 2026 09:01:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert</title>
-      <link>https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html</link>
-      <description>This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.
-
-PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.
-
-⚡</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html</guid>
-      <pubDate>Wed, 21 Oct 2026 09:05:17 +0000</pubDate>
-    </item>
-    <item>
       <title>US Citizen Accused By Moscow Of Fighting For Ukraine Released From Russian Prison</title>
       <link>https://www.rferl.org/a/stephen-hubbard-russia-us-prisoner-release-trump/33880760.html</link>
       <description>Stephen Hubbard, a 74-year-old retired teacher from Michigan held by Russia since 2022 on accusations of joining Ukraine's armed forces, has been freed in what is being framed as a goodwill gesture by the Kremlin.</description>
@@ -6160,10 +5903,17 @@ PHP will release the fix at&amp;nbsp;14:00 UTC on October 21&amp;nbsp;for two fl
     </item>
     <item>
       <title>Europe weighs giving utilities, infrastructure companies more powers to bring down drones</title>
-      <link>https://www.c4isrnet.com/global/europe/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones/</link>
+      <link>https://www.c4isrnet.com/unmanned/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones/</link>
       <description>Offials are worried that drone attacks could knock out power to millions of people — as has happened frequently in Ukraine after Russian strikes.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/global/europe/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones/</guid>
+      <guid isPermaLink="false">https://www.c4isrnet.com/unmanned/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones/</guid>
       <pubDate>Wed, 21 Oct 2026 11:07:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Saudi Arabia Executes Two Bangladeshi Nationals</title>
+      <link>https://thediplomat.com/2026/10/saudi-arabia-executes-two-bangladeshi-nationals/</link>
+      <description>Dhaka says it learned of their execution only after it happened.  Its diplomacy is under scrutiny</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/saudi-arabia-executes-two-bangladeshi-nationals/</guid>
+      <pubDate>Wed, 21 Oct 2026 11:42:00 +0000</pubDate>
     </item>
     <item>
       <title>Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports</title>
@@ -6238,6 +5988,20 @@ Proofpoint shared several examples of the shift at its Protect 2026 conference.<
       <pubDate>Wed, 21 Oct 2026 12:20:34 +0000</pubDate>
     </item>
     <item>
+      <title>The US Army Looks to the Pacific – and Space – for Future Relevance</title>
+      <link>https://thediplomat.com/2026/10/the-us-army-looks-to-the-pacific-and-space-for-future-relevance/</link>
+      <description>Army leadership has focused on developing tools to contribute to a potential fight against China, a fight in which space assets will be critical.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/the-us-army-looks-to-the-pacific-and-space-for-future-relevance/</guid>
+      <pubDate>Wed, 21 Oct 2026 12:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Afghanistan’s Wakhan Transit Road Is a Long Shot to Connect with China</title>
+      <link>https://thediplomat.com/2026/10/afghanistans-wakhan-transit-road-is-a-long-shot-to-connect-with-china/</link>
+      <description>The road has been officially inaugurated, but China and the Taliban have very different views of its function.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/afghanistans-wakhan-transit-road-is-a-long-shot-to-connect-with-china/</guid>
+      <pubDate>Wed, 21 Oct 2026 12:40:00 +0000</pubDate>
+    </item>
+    <item>
       <title>US Marine Corps makes Maven available service-wide</title>
       <link>https://www.defensenews.com/industry/techwatch/2026/10/21/marine-corps-makes-maven-available-service-wide/</link>
       <description>The service made the AI-enabled battlefield management system available to all commands and organizations within the service.</description>
@@ -6245,17 +6009,17 @@ Proofpoint shared several examples of the shift at its Protect 2026 conference.<
       <pubDate>Wed, 21 Oct 2026 12:54:31 +0000</pubDate>
     </item>
     <item>
+      <title>Decades-Old Windows Utility Powers Modern ClickFix Attack</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack</link>
+      <description>The attack uses malicious Google search results related to Amazon and leverages the &amp;quot;finger&amp;quot; utility to launch a CAPTCHA that installs malware, including the Lumma stealer.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack</guid>
+      <pubDate>Wed, 21 Oct 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform</title>
       <link>https://openai.com/index/chatgpt-ads-expands-26-new-countries</link>
       <description>From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.</description>
       <guid isPermaLink="false">https://openai.com/index/chatgpt-ads-expands-26-new-countries</guid>
-      <pubDate>Wed, 21 Oct 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Decades-Old Windows Utility Powers Modern ClickFix Attack</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack</link>
-      <description>The attack uses malicious Google search results related to Amazon and leverages the 'finger' utility to launch a CAPTCHA that installs malware, including the Lumma stealer.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack</guid>
       <pubDate>Wed, 21 Oct 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
@@ -6284,6 +6048,13 @@ As part of</description>
       <pubDate>Wed, 21 Oct 2026 13:15:09 +0000</pubDate>
     </item>
     <item>
+      <title>Is China Getting Involved in the Japan-Russia Territorial Dispute?</title>
+      <link>https://thediplomat.com/2026/10/is-china-getting-involved-in-the-japan-russia-territorial-dispute/</link>
+      <description>Amid deepening China-Russia ties, a Chinese delegation visited one of the disputed Southern Kuril Islands.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/is-china-getting-involved-in-the-japan-russia-territorial-dispute/</guid>
+      <pubDate>Wed, 21 Oct 2026 13:20:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Australia marks missile, cyber ‘firsts’ in exercise with Indonesia</title>
       <link>https://breakingdefense.com/2026/10/australia-marks-missile-cyber-firsts-in-exercise-with-indonesia/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/australia-marks-missile-cyber-firsts-in-exercise-with-indonesia/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="575" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/20261017adf8606588_0211-e1792511963154-1024x575.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Keris Woomera exercise comes during a busy month for Australia&amp;#8217;s military, as forces participate in drills from Singapore to Japan.&lt;/p&gt;</description>
@@ -6291,10 +6062,17 @@ As part of</description>
       <pubDate>Wed, 21 Oct 2026 13:22:09 +0000</pubDate>
     </item>
     <item>
-      <title>Prepare yourselves: PHP to release emergency fixes for 2 critical vulnerabilities</title>
+      <title>The Indian Government’s Job Statistics Are Misleading</title>
+      <link>https://thediplomat.com/2026/10/the-indian-governments-job-statistics-are-misleading/</link>
+      <description>Behind the surge in EPFO numbers lies an uncomfortable question: is Delhi measuring new jobs or merely recording existing workers differently?</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/the-indian-governments-job-statistics-are-misleading/</guid>
+      <pubDate>Wed, 21 Oct 2026 13:35:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PHP releases emergency fixes for 2 critical vulnerabilities</title>
       <link>https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/</link>
       <description>&lt;p&gt;The project overseeing the programming language is releasing patches Wednesday, with the internet racing to patch the 9.2 rated flaw. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/"&gt;Prepare yourselves: PHP to release emergency fixes for 2 critical vulnerabilities&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/"&gt;PHP releases emergency fixes for 2 critical vulnerabilities&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/</guid>
       <pubDate>Wed, 21 Oct 2026 13:40:02 +0000</pubDate>
     </item>
@@ -6305,14 +6083,6 @@ As part of</description>
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/russia-war-europe-warsaw-security-forum/"&gt;From Warsaw, Russia’s War Against Europe Is Now Anything but Hybrid&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/russia-war-europe-warsaw-security-forum/</guid>
       <pubDate>Wed, 21 Oct 2026 13:40:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619</title>
-      <link>https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/</link>
-      <description>&lt;p&gt;CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/"&gt;Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/</guid>
-      <pubDate>Wed, 21 Oct 2026 13:40:34 +0000</pubDate>
     </item>
     <item>
       <title>Timing to roll out US Army’s NGC2 depends on funds, commander says</title>
@@ -6382,6 +6152,13 @@ The flaws, together called PHP2Shell, sit in the PHP runtime, not in any applica
       <pubDate>Wed, 21 Oct 2026 14:30:00 +0000</pubDate>
     </item>
     <item>
+      <title>The China-US Quantum Computing Contest</title>
+      <link>https://thediplomat.com/2026/10/the-china-us-quantum-computing-contest/</link>
+      <description>Insights from Matt Kinsella.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/the-china-us-quantum-computing-contest/</guid>
+      <pubDate>Wed, 21 Oct 2026 14:40:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Turkey, Qatar, Indonesia, Pakistan ink defense cooperation MoU</title>
       <link>https://breakingdefense.com/2026/10/turkey-qatar-indonesia-pakistan-ink-defense-cooperation-mou/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/turkey-qatar-indonesia-pakistan-ink-defense-cooperation-mou/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261021_turkish_soldier_GettyImages-2300600438-e1792593958347.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The countries will seek developing “solutions and industries compatible with the development of modern defense systems,” pointing that the capabilities of the four countries are complementary.&lt;/p&gt;</description>
@@ -6409,6 +6186,13 @@ The flaws, together called PHP2Shell, sit in the PHP runtime, not in any applica
       <description>PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits ahead of the patch becoming available. &amp;#xd;</description>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33440</guid>
       <pubDate>Wed, 21 Oct 2026 15:12:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>China’s AI Industry Brings Both Gains and Challenges for Its Fragile Economy</title>
+      <link>https://thediplomat.com/2026/10/chinas-ai-industry-brings-both-gains-and-challenges-for-its-fragile-economy/</link>
+      <description>China’s exports are surging, driven by AI-related technologies. National security-driven export bans could change that.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/chinas-ai-industry-brings-both-gains-and-challenges-for-its-fragile-economy/</guid>
+      <pubDate>Wed, 21 Oct 2026 15:16:00 +0000</pubDate>
     </item>
     <item>
       <title>Critical RCE vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619)</title>
@@ -6454,11 +6238,210 @@ The flaws, together called PHP2Shell, sit in the PHP runtime, not in any applica
       <pubDate>Wed, 21 Oct 2026 15:35:38 +0000</pubDate>
     </item>
     <item>
+      <title>Optiv Launches CyberBOT Cybersecurity Awareness Training Program</title>
+      <link>https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program</link>
+      <description>Hands-on sessions provide educators, nonprofits, and community leaders with an accessible resource to foster year-round cyber awareness and build more resilient communities.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program</guid>
+      <pubDate>Wed, 21 Oct 2026 15:44:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon AI oversight office struggles to keep pace with department’s ambitions, GAO finds</title>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/10/21/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/</link>
+      <description>The Pentagon office tapped in 2022 to oversee the military’s responsible use of AI had filled just three of 10 authorized positions as of February 2026.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/pentagon-congress/2026/10/21/pentagon-ai-oversight-office-struggles-to-keep-pace-with-departments-ambitions-gao-finds/</guid>
+      <pubDate>Wed, 21 Oct 2026 15:55:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Drone Is Cheap Until It Breaks: Field Sustainment for Small Uncrewed Aircraft Systems</title>
+      <link>https://sofrep.com/news/field-sustainment-for-small-uas-drone/</link>
+      <description>The Army says it has drones for every squad. Keeping them flying takes parts, batteries, firmware, and trained hands. #Drones #SmallUAS #DroneWarfare #DefenseTechnology #USArmy</description>
+      <guid isPermaLink="false">https://sofrep.com/news/field-sustainment-for-small-uas-drone/</guid>
+      <pubDate>Wed, 21 Oct 2026 16:00:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rise Of Roghun: 'World's Tallest' Dam Takes Shape In Tajikistan</title>
+      <link>https://www.rferl.org/a/roghun-dam-tajikistan-tallest-in-world-soviet-infrastructure/33880952.html</link>
+      <description>The Soviet-era Roghun Dam project has endured decades of uncertainty and opposition. Now major funding tranches appear to have the project on track to transform Central Asia's energy landscape -- and displace tens of thousands of Tajik villagers.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/roghun-dam-tajikistan-tallest-in-world-soviet-infrastructure/33880952.html</guid>
+      <pubDate>Wed, 21 Oct 2026 16:23:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI agents disabled safety monitoring, one lied about it</title>
+      <link>https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/</link>
+      <description>OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/</guid>
+      <pubDate>Wed, 21 Oct 2026 16:26:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Critical flaws in ubiquitous website software draw urgent warning from NSA, FBI</title>
+      <link>https://www.defenseone.com/threats/2026/10/critical-flaws-php-warning/416727/</link>
+      <description>Organizations should imediately update to the latest version of PHP or take systems offline, agencies say.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/10/critical-flaws-php-warning/416727/</guid>
+      <pubDate>Wed, 21 Oct 2026 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619</title>
+      <link>https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/</link>
+      <description>&lt;p&gt;CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/"&gt;Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/</guid>
+      <pubDate>Wed, 21 Oct 2026 16:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So</title>
+      <link>https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html</link>
+      <description>OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.
+
+The AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment.
+
+"A GPT-6.1 Sol agent repairing an</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html</guid>
+      <pubDate>Wed, 21 Oct 2026 16:33:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors</title>
+      <link>https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors</link>
+      <description>A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors</guid>
+      <pubDate>Wed, 21 Oct 2026 16:50:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AT&amp;T is rethinking in-house legal work with OpenAI</title>
+      <link>https://openai.com/index/att-legal</link>
+      <description>AT&amp;amp;T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.</description>
+      <guid isPermaLink="false">https://openai.com/index/att-legal</guid>
+      <pubDate>Wed, 21 Oct 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time</title>
+      <link>https://www.twz.com/sea/ghost-shark-uncrewed-submarine-shown-launching-aerial-drones-for-the-first-time</link>
+      <description>&lt;p&gt;New video shows a 12-tube drone launcher and two deployable masts in action, offering new insights to what Ghost Shark can do and how it could be used.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/sea/ghost-shark-uncrewed-submarine-shown-launching-aerial-drones-for-the-first-time"&gt;Ghost Shark Uncrewed Submarine Shown Launching Aerial Drones For The First Time&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/sea/ghost-shark-uncrewed-submarine-shown-launching-aerial-drones-for-the-first-time</guid>
+      <pubDate>Wed, 21 Oct 2026 17:10:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Israel’s Elbit acquires Canadian company focused on autonomous underwater systems</title>
+      <link>https://breakingdefense.com/2026/10/israels-elbit-acquires-canadian-company-focused-on-autonomous-underwater-systems/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/israels-elbit-acquires-canadian-company-focused-on-autonomous-underwater-systems/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/ISE-1-e1792603672888-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“ISE’s underwater technologies will further strengthen our position as a global provider of comprehensive, integrated maritime solutions,” Elbit President and CEO Bezhalel Machlis said in a company statement.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/10/israels-elbit-acquires-canadian-company-focused-on-autonomous-underwater-systems/</guid>
+      <pubDate>Wed, 21 Oct 2026 17:29:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fighting in Ethiopia and the Risk of Regional Spillover</title>
+      <link>https://warontherocks.com/fighting-in-ethiopia-and-the-risk-of-regional-spillover/</link>
+      <description>&lt;p&gt;In September, fighting broke out in Ethiopia&amp;#8217;s Tigray region between Ethiopian government forces and the Tigray People&amp;#8217;s Liberation Front (TPLF), effectively collapsing the 2022 peace deal. In October, Ethiopian forces recaptured an airport and towns from the TPLF and started moving closer to the border with Eritrea. The renewed conflict raised concerns about both increased instability within Ethiopia &amp;#8212; particularly as the TPLF joined with several other armed groups under a new Alliance for Survival &amp;#8212; and the potential for a new war between Ethiopia and Eritrea. Ethiopia accused Eritrea of supporting the TPLF and sending its own forces across&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/fighting-in-ethiopia-and-the-risk-of-regional-spillover/"&gt;Fighting in Ethiopia and the Risk of Regional Spillover&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/fighting-in-ethiopia-and-the-risk-of-regional-spillover/</guid>
+      <pubDate>Wed, 21 Oct 2026 17:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Any Decision To Buy New-Build F-16s Not An “Urgent” Priority: USAF</title>
+      <link>https://www.twz.com/air/any-decision-to-buy-new-build-f-16s-not-an-urgent-priority-usaf</link>
+      <description>&lt;p&gt;A top USAF general said new F-16s are "maybe the lazy" route, but are an option as the service strives for 1,509 combat-coded fighters by 2035.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/any-decision-to-buy-new-build-f-16s-not-an-urgent-priority-usaf"&gt;Any Decision To Buy New-Build F-16s Not An &amp;#8220;Urgent&amp;#8221; Priority: USAF&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/any-decision-to-buy-new-build-f-16s-not-an-urgent-priority-usaf</guid>
+      <pubDate>Wed, 21 Oct 2026 17:55:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor</title>
+      <link>https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html</link>
+      <description>The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.
+
+The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html</guid>
+      <pubDate>Wed, 21 Oct 2026 18:01:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Moldova’s fight against Kremlin interference faces Gagauzia election test</title>
+      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/moldovas-fight-against-kremlin-interference-faces-gagauzia-election-test/</link>
+      <description>&lt;p&gt;Moldova’s democratic resilience faces a revealing litmus test on November 15, when autonomous Gagauzia elects a new governor and People’s Assembly amid concerns over Kremlin interference, write Laurențiu Pleșca and Will Kingston-Cox.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/moldovas-fight-against-kremlin-interference-faces-gagauzia-election-test/"&gt;Moldova’s fight against Kremlin interference faces Gagauzia election test&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/moldovas-fight-against-kremlin-interference-faces-gagauzia-election-test/</guid>
+      <pubDate>Wed, 21 Oct 2026 18:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navy F/A-18 Super Hornet Spotted Carrying New AIM-174B And AIM-260 Long-Range Missiles Together</title>
+      <link>https://www.twz.com/air/navy-f-a-18-super-hornet-spotted-carrying-new-aim-174b-and-aim-260-long-range-missiles-together</link>
+      <description>&lt;p&gt;The image of the VX-31 Super Hornet gives us a glimpse of what's soon to appear in the fleet, and the two missiles will also be joined by the AIM-424 Malice. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/air/navy-f-a-18-super-hornet-spotted-carrying-new-aim-174b-and-aim-260-long-range-missiles-together"&gt;Navy F/A-18 Super Hornet Spotted Carrying New AIM-174B And AIM-260 Long-Range Missiles Together&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/air/navy-f-a-18-super-hornet-spotted-carrying-new-aim-174b-and-aim-260-long-range-missiles-together</guid>
+      <pubDate>Wed, 21 Oct 2026 18:14:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Washington should stop expecting the Gulf to speak with one voice</title>
+      <link>https://www.atlanticcouncil.org/dispatches/washington-should-stop-expecting-the-gulf-to-speak-with-one-voice/</link>
+      <description>&lt;p&gt;Gulf states are emerging from the Iran war with different conclusions about how to protect themselves and deal with Tehran.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/washington-should-stop-expecting-the-gulf-to-speak-with-one-voice/"&gt;Washington should stop expecting the Gulf to speak with one voice&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/washington-should-stop-expecting-the-gulf-to-speak-with-one-voice/</guid>
+      <pubDate>Wed, 21 Oct 2026 18:21:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>The withdrawal of the US-led coalition is a loss for Iraq’s sovereignty</title>
+      <link>https://www.atlanticcouncil.org/blogs/menasource/the-withdrawal-of-the-us-led-coalition-is-a-loss-for-iraqs-sovereignty/</link>
+      <description>&lt;p&gt;The government secured the withdrawal of foreign partners before securing obedience from armed factions. That leaves Baghdad with less leverage against Iran’s allies in Iraq.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/menasource/the-withdrawal-of-the-us-led-coalition-is-a-loss-for-iraqs-sovereignty/"&gt;The withdrawal of the US-led coalition is a loss for Iraq&amp;#8217;s sovereignty&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/menasource/the-withdrawal-of-the-us-led-coalition-is-a-loss-for-iraqs-sovereignty/</guid>
+      <pubDate>Wed, 21 Oct 2026 18:24:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/</guid>
+      <pubDate>Wed, 21 Oct 2026 18:34:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Saudi Arabia’s nuclear program could outlive its government, so plan accordingly</title>
+      <link>https://breakingdefense.com/2026/10/saudi-arabias-nuclear-program-could-outlive-its-government-so-plan-accordingly/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/saudi-arabias-nuclear-program-could-outlive-its-government-so-plan-accordingly/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/251106_trump_bin_salman_GettyImages-2214389007-e1762434753778.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Nuclear technology can outlive the strategic assumptions that justified its transfer, two experts caution US lawmakers.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/10/saudi-arabias-nuclear-program-could-outlive-its-government-so-plan-accordingly/</guid>
+      <pubDate>Wed, 21 Oct 2026 18:35:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases</title>
+      <link>https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html</link>
+      <description>GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.
+
+The fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html</guid>
+      <pubDate>Wed, 21 Oct 2026 18:57:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Air Force outlines the fighter fleet it needs by 2035</title>
+      <link>https://www.defensenews.com/news/your-military/2026/10/21/us-air-force-outlines-the-fighter-fleet-it-needs-by-2035/</link>
+      <description>A new Air Force report calls for 1,509 combat-coded fighters by 2035, with F-35s making up 40% of the fleet and F-47s replacing F-22s.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/news/your-military/2026/10/21/us-air-force-outlines-the-fighter-fleet-it-needs-by-2035/</guid>
+      <pubDate>Wed, 21 Oct 2026 19:01:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>'PHP2Shell' Bugs Signal Red Alert for Security Industry</title>
+      <link>https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry</link>
+      <description>Security teams are scrambling to remediate two critical PHP vulnerabilities following leaked details and reports of exploitation attempts.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry</guid>
+      <pubDate>Wed, 21 Oct 2026 19:19:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Braw in The Sun on potential attacks on undersea infrastructure</title>
+      <link>https://www.atlanticcouncil.org/uncategorized/braw-in-the-sun-on-potential-attacks-on-undersea-infrastructure/</link>
+      <description>&lt;p&gt;On October 17, Elisabeth Braw was interviewed in The Sun to discuss the threat of attacks on undersea cables and pipelines.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/uncategorized/braw-in-the-sun-on-potential-attacks-on-undersea-infrastructure/"&gt;Braw in The Sun on potential attacks on undersea infrastructure&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/uncategorized/braw-in-the-sun-on-potential-attacks-on-undersea-infrastructure/</guid>
+      <pubDate>Wed, 21 Oct 2026 19:29:24 +0000</pubDate>
+    </item>
+    <item>
       <title>The Pentagon Wants 25,000 Drone-Killing Rockets a Year. Building Them Is the Hard Part</title>
       <link>https://sofrep.com/?p=231713&amp;preview=true&amp;preview_id=231713</link>
       <description>The Pentagon wants 25,000 drone-killing rockets a year, but guidance kits alone will not save an air base when the fuzes, lasers, and congressional money fail to arrive. #APKWS, #CounterDrone, #DefenseAcquisition, #StrikeEagle, #MunitionsProduction</description>
       <guid isPermaLink="false">https://sofrep.com/?p=231713&amp;preview=true&amp;preview_id=231713</guid>
       <pubDate>Wed, 21 Oct 2026 21:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Australia’s Ghost Shark Can Supply Special Forces. The Team Still Has to Recover It.</title>
+      <link>https://sofrep.com/?p=231740&amp;preview=true&amp;preview_id=231740</link>
+      <description>Australia gave Ghost Shark teeth, but its most revealing payload still ends with a small team groping across a hostile seabed for whatever the machine left behind. #GhostShark #AUKUS #UnderseaWarfare #AutonomousSystems #RoyalAustralianNavy</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=231740&amp;preview=true&amp;preview_id=231740</guid>
+      <pubDate>Thu, 22 Oct 2026 16:00:40 +0000</pubDate>
     </item>
     <item>
       <title>Russia Just Rehearsed How to Hunt a Commercial Spy Satellite</title>
