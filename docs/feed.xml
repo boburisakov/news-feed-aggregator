@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 07:04:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 11:59:00 +0000</lastBuildDate>
     <item>
       <title>The journey of a paper unicorn: adventures inside a modern warehouse</title>
       <link>https://securelist.com/paper-unicorn-warehouse-security/121537/</link>
@@ -7686,13 +7686,6 @@
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Saudi Arabia Postpones UN Forum Until 2027 Amid Regional Tensions</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Fri, 23 Oct 2026 04:17:27 +0000</pubDate>
-    </item>
-    <item>
       <title>FBI arrests alleged Islamic State supporter accused of plotting to assassinate Texas congressman</title>
       <link>https://www.longwarjournal.org/archives/2026/10/fbi-arrests-alleged-islamic-state-supporter-accused-of-plotting-to-assassinate-texas-congressman.php</link>
       <description>&lt;p&gt;A 17-year-old Texas teenager allegedly plotted to assassinate Republican US Representative Keith Self at a veterans’ fundraiser as part of a broader Islamic State-inspired terrorist plot. Federal agents arrested the suspect after he acquired a firearm. &lt;/p&gt;
@@ -7723,33 +7716,6 @@
       <pubDate>Fri, 23 Oct 2026 07:30:37 +0000</pubDate>
     </item>
     <item>
-      <title>PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware</title>
-      <link>https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html</link>
-      <description>Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.
-
-The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html</guid>
-      <pubDate>Fri, 23 Oct 2026 07:40:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances</title>
-      <link>https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html</link>
-      <description>AI agents paying for API calls with the&amp;nbsp;x402 SDKs&amp;nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&amp;nbsp;security firm V12 said&amp;nbsp;on October 22.
-
-The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html</guid>
-      <pubDate>Fri, 23 Oct 2026 08:35:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data</title>
-      <link>https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html</link>
-      <description>Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&amp;nbsp;demonstrated.
-
-Their "Node2Shell" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html</guid>
-      <pubDate>Fri, 23 Oct 2026 08:40:43 +0000</pubDate>
-    </item>
-    <item>
       <title>In the biotech world, you can’t see everything</title>
       <link>https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/</link>
       <description>Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes.&amp;#160; I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given&amp;#8230;</description>
@@ -7764,15 +7730,6 @@ Their "Node2Shell" proof of concept ran code on the official Node.js 24.22.0 ima
       <pubDate>Fri, 23 Oct 2026 09:18:43 +0000</pubDate>
     </item>
     <item>
-      <title>Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image</title>
-      <link>https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html</link>
-      <description>Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.
-
-The flaw,&amp;nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html</guid>
-      <pubDate>Fri, 23 Oct 2026 09:36:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Securing our frontier model training environment</title>
       <link>https://openai.com/index/securing-our-frontier-model-training-environment</link>
       <description>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</description>
@@ -7784,15 +7741,6 @@ The flaw,&amp;nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, whi
       <link>https://isc.sans.edu/diary/rss/33448</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33448</guid>
       <pubDate>Fri, 23 Oct 2026 10:25:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack</title>
-      <link>https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html</link>
-      <description>The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.
-
-According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html</guid>
-      <pubDate>Fri, 23 Oct 2026 11:11:23 +0000</pubDate>
     </item>
     <item>
       <title>PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches</title>
@@ -8350,6 +8298,63 @@ The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, a
 &lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-212"&gt;Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-212</guid>
       <pubDate>Sat, 24 Oct 2026 00:57:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud</title>
+      <link>https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.
+
+The critical-severity vulnerabilities are listed below -
+
+
+  CVE-2026-110447 (CVSS score: 9.2) - An operating</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html</guid>
+      <pubDate>Sat, 24 Oct 2026 06:25:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet</title>
+      <link>https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html</link>
+      <description>Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.
+
+The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.
+
+Popcorn Time was</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html</guid>
+      <pubDate>Sat, 24 Oct 2026 09:04:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads</title>
+      <link>https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html</link>
+      <description>Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.
+
+"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html</guid>
+      <pubDate>Sat, 24 Oct 2026 10:36:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline</title>
+      <link>https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html</link>
+      <description>LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.
+
+"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html</guid>
+      <pubDate>Sat, 24 Oct 2026 11:03:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Starlink Speed Restored, Says Ukrainian Defense Minister</title>
+      <link>https://www.rferl.org/a/kraine-starshield-satellite-speeds-restored-drone-operations/33883512.html</link>
+      <description>The Starshield satellite communications system has regained its operating speed, Ukrainian Defense Minister Yevheniy Khmara told RFE/RL’s Ukrainian Service, following restrictions that had disrupted Ukrainian drone operations against Russian forces.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/kraine-starshield-satellite-speeds-restored-drone-operations/33883512.html</guid>
+      <pubDate>Sat, 24 Oct 2026 11:04:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software</title>
+      <link>https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html</link>
+      <description>A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&amp;nbsp;Brotli&amp;nbsp;and&amp;nbsp;brotlicffi&amp;nbsp;packages, and Envoy proxies set up to decompress Brotli.
+
+Tracked as&amp;nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html</guid>
+      <pubDate>Sat, 24 Oct 2026 11:09:29 +0000</pubDate>
     </item>
   </channel>
 </rss>
