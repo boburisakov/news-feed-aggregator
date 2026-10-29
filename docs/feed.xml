@@ -7,80 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 06:10:15 +0000</lastBuildDate>
-    <item>
-      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0</link>
-      <description>&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;&lt;a class="Hyperlink SCXW162250516 BCX8" href="https://www.cve.org/CVERecord?id=CVE-2026-110447" rel="noreferrer noopener" target="_blank"&gt;&lt;u&gt;CVE-2026-110447&lt;/u&gt;&lt;/a&gt; Collabora Online – Built-in CODE Server OS Command Injection Vulnerability&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s&amp;nbsp;&lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Download: testing six tech promises and biotech’s blind spots</title>
-      <link>https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/</guid>
-      <pubDate>Fri, 23 Oct 2026 12:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The New Energy Stalemate in Ukraine</title>
-      <link>https://www.foreignaffairs.com/ukraine/new-energy-stalemate-ukraine</link>
-      <description>Tatiana Mitrova, a fellow at Columbia University’s Center on Global Energy Policy and former energy scholar at Moscow’s Russian Academy of Sciences, and Sergey Vakulenko, an oil and gas expert at Carnegie’s Russia Eurasia Center, argue that Russia and Ukraine are locked in an energy war that has become an adaptation spiral, despite growing human and economic costs and despite current US pressure on Ukraine. They observe Ukraine’s remarkable ability to withstand Russian strikes, while questioning claims that long-range Ukrainian strikes will be able to achieve game-changing damage on Russia. Ukraine and Russia have transformed the role of energy warfare in modern conflict, drawing on low costs drones but also new forms of technological resilience that are likely to make wars longer and more dangerous.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/ukraine/new-energy-stalemate-ukraine</guid>
-      <pubDate>Fri, 23 Oct 2026 12:33:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rheinmetall restores UK large-calibre gun output with Telford Gun Hall</title>
-      <link>https://www.army-technology.com/news/rheinmetall-telford-gun-hall/</link>
-      <description>Rheinmetall has officially opened its UK Gun Hall in Telford, re-establishing the independent production of large-calibre weapons in Britain for the first time in decades.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/rheinmetall-telford-gun-hall/</guid>
-      <pubDate>Fri, 23 Oct 2026 12:33:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)</title>
-      <link>https://isc.sans.edu/diary/rss/33450</link>
-      <description>This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33450</guid>
-      <pubDate>Fri, 23 Oct 2026 13:43:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Protests break out in Syria against ‘Israeli incursions and attacks’ as tensions rise</title>
-      <link>https://www.longwarjournal.org/archives/2026/10/protests-break-out-in-syria-against-israeli-incursions-and-attacks-as-tensions-rise.php</link>
-      <description>&lt;p&gt;Protests erupted across southern Syria and Damascus on October 23 against Israeli military operations in the buffer zone along the Golan border, following reports that a Syrian man with disabilities was killed during an IDF raid. The protests come amid growing Syrian condemnation of Israeli incursions, as well as diplomatic efforts by Syrian officials to address regional tensions.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/protests-break-out-in-syria-against-israeli-incursions-and-attacks-as-tensions-rise.php"&gt;Protests break out in Syria against ‘Israeli incursions and attacks’ as tensions rise&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/protests-break-out-in-syria-against-israeli-incursions-and-attacks-as-tensions-rise.php</guid>
-      <pubDate>Fri, 23 Oct 2026 15:04:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself</title>
-      <link>https://spectrum.ieee.org/video-friday-rubiks-cube-robot</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/red-quadruped-robot-facing-a-large-rubik-s-cube-on-an-outdoor-tiled-surface.png?id=68512950&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C0%2C0%2C0" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;span&gt;Video Friday is your weekly selection of awesome robotics videos, collected by your friends at &lt;/span&gt;&lt;em&gt;IEEE Spectrum&lt;/em&gt;&lt;span&gt; robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please &lt;/span&gt;&lt;a href="mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday"&gt;send us your events&lt;/a&gt;&lt;span&gt; for inclusion.&lt;/span&gt;&lt;/p&gt;&lt;h5&gt;&lt;a href="https://www.corl.org/"&gt;CoRL 2026&lt;/a&gt;: 9–12 November 2026, AUSTIN&lt;/h5&gt;&lt;h5&gt;&lt;a href="https://2026.ieee-humanoids.org/"&gt;Humanoids 2026&lt;/a&gt;: 6–9 December 2026, SANTA CLARA, CA&lt;/h5&gt;&lt;p&gt;Enjoy today’s videos!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="display: none;"&gt; &lt;/span&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="hfdrsfie68c"&gt;&lt;em&gt;A quadruped robot autonomously solves a giant Rubik’s Cube using only its feet.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://leggedrobotics.github.io/rubik-skills/"&gt;ETH Zurich Robotics Systems Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="eg3pd8lgngo"&gt;&lt;em&gt;Humans effortlessly react to the world; they adeptly return a tennis shot, catch a falling cup, step aside from a passing cart, or pass a box tossed during truck unloading. These everyday actions require anticipating a moving target and reflexively responding with the whole body within about a second. Such visual reactive whole-body control remains challenging for humanoids. We present Reflex, a three-stage framework that learns these capabilities stage by stage while connecting them through a compact representation of object dynamics.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://toberj.github.io/reflex/"&gt;Reflex&lt;/a&gt; ]&lt;/p&gt;&lt;p&gt;Thanks, Weikai!&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="joxrxmlyryo"&gt;I have long advocated for exactly this in the context of &lt;a href="https://spectrum.ieee.org/is-there-a-future-for-laundry-folding-robots" target="_blank"&gt;robotic laundry folding&lt;/a&gt;, or more broadly, other robot recognition and manipulation tasks. Why not make it easy when we can make it easy?&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://programs.sigchi.org/uist/2026/program/content/262871"&gt;ACM SIGCHI&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="zpann8yrli8"&gt;We first wrote about &lt;a href="https://spectrum.ieee.org/parallel-systems-autonomous-trains" target="_blank"&gt;Parallel Systems in 2022&lt;/a&gt;. Nice to see them still rolling.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.moveparallel.com/"&gt;Parallel Systems&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="hbfz2a0dj9s"&gt;I’ll be honest with you: The end of this video is freaking me out a little bit for some reason.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;This video showcases the whole-body loco-manipulation capabilities of KAIST Humanoid v0.9, developed at the DRCD Lab in collaboration with RAILAB, which developed the robot’s arms. Using onboard visual feedback, the humanoid demonstrates pushing objects weighing up to 35 kilograms and lifting objects up to 20 kg to arrange the letters “KAIST.”&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://www.dynamicrobot.kaist.ac.kr/"&gt;KAIST DRCD Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ch0divlg64w"&gt;When you don’t spend any money on sensors for your robots, you can afford much bigger wheels.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://railab.kaist.ac.kr/"&gt;RaiLab Kaist&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="uatutxaksa0"&gt;Those robots with wires have gotten somewhat weirder.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://shin0805.github.io/twinx_multi_floating_link/"&gt;JSK Robotics Laboratory&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="pcjjjsxfrba"&gt;&lt;em&gt;The AthenaZero has two, three-fingered robot hands driven by tendons. This design allows the fingers to interdigitate to hold objects of different sizes, such as an egg or a hammer. Each finger is powered by a motor located in the robot’s torso to keep the hand light, transmitting force through flexible cables. This hand is both fast (closing in about 80 milliseconds) and strong.  With the addition of highly accurate barometric pressure sensors, it can also be gentle.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://rai-inst.com/"&gt;Robotics and AI Institute&lt;/a&gt; ] via [ &lt;a href="https://www.science.org/doi/10.1126/scirobotics.aee1868" target="_blank"&gt;Science Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="uwv-5cdqlgg"&gt;&lt;em&gt;A biohybrid robot combines living tissue with engineered materials—here, lab-grown skeletal muscle paired with a soft, 3D-printed scaffold that turns the muscle’s contraction into movement. What if you designed the living muscle and the soft scaffold together, instead of growing the muscle and then building a skeleton around it? In this work from the Soft Robotics Lab at ETH Zurich, we adapted a soft-body simulation framework to co-optimize both at once—and the resulting centimeter-scale bioactuators achieve up to 11x more range of motion than previous systems of comparable tissue volume. Strong enough to jump, swim, walk, and grasp.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://ethz.ch/en/news-and-events/eth-news/news/2026/10/one-small-leap-for-a-muscle-one-giant-step-for-robotics.html"&gt;ETH Zurich Soft Robotics Lab&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="y3zb4o47yqa"&gt;Oh yes, this is definitely the use case that will scale humanoid robots.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.unitree.com/"&gt;Unitree&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="dx8midegpbs"&gt;Here are a couple more teasers from the upcoming ACM Symposium on User Interface Software and Technology (UIST).&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://programs.sigchi.org/uist/2026/program/all"&gt;ACM Symposium on User Interface Software and Technology&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="ibh_mosnele"&gt;&lt;em&gt;In three hours, on a single GPU, SuperMimic surpasses the return of a state-of-the-art motion tracker baseline trained for seven days on 128 GPUs. It reduces GPU-hours by more than 1,000× and fails on only 25 of 129,514 benchmark motions, versus 179 failures for the baseline. After 9.8 hours on two GPUs, SuperMimic achieves zero failures.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://supermimic.github.io/"&gt;Hybrid Robotics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="abq0_jdzfpk"&gt;This is getting out of hand! Now there are two of them!&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;em&gt;Introducing the Grain Weevil dual robot attachment. Two robots linked into one larger machine, run by a single operator, doing the work of up to three robots.&lt;/em&gt;&lt;/blockquote&gt;&lt;p&gt;[ &lt;a href="https://grainweevil.com/?utm_source=youtube&amp;amp;utm_medium=video&amp;amp;utm_campaign=dual-robot-launch"&gt;Grain Weevil&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="aundvj8lw00"&gt;&lt;em&gt;Today [21 October 2026] &lt;/em&gt;&lt;em&gt;at CES Unveiled Milan, Generative Bionics announced its plan to build Europe’s largest Physical AI Data Factory, with AMD as its AI infrastructure partner.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://news.gbionics.ai/?article=data-factory&amp;amp;lang=en"&gt;Generative Bionics&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="zezt6esg9we"&gt;&lt;em&gt;From robotic rovers exploring the rugged lunar landscape to lunar terrain vehicles carrying Artemis astronauts across the surface, mobility will play a crucial role in establishing an enduring human presence on the moon. During the early phases of Moon Base development, these vehicles will help NASA investigate the lunar South Pole region, conduct scientific research, test new technologies, and gather the information that will inform future missions. In this Moon Base update, get a closer look at some of the lunar terrain vehicles and robotic rovers helping to pave the way for humanity’s first lunar outpost. &lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/"&gt;NASA&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p class="rm-anchors" id="ndftcft6xhu"&gt;I appreciate the designer of this single motor drone crediting previous research, which included some cool &lt;a href="https://spectrum.ieee.org/flying-robots-stay-stable-with-just-one-motor" target="_blank"&gt;drones from UPenn&lt;/a&gt; that we wrote about in 2014.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://www.youtube.com/watch?v=Ndftcft6XhU"&gt;Joshua Bird&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;blockquote class="rm-anchors" id="rsg0vj5agmu"&gt;&lt;em&gt;Why choose a bipedal, human-form robot over specialized wheels, gantry arms, or quadruped platforms? Speaking at the Humanoids Summit Seoul 2026, Michael Perry from Persona AI tackles the single most debated question in the industry and delivers the definitive business and engineering justification for the humanoid form factor.&lt;/em&gt;&lt;/blockquote&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt;&lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[ &lt;a href="https://humanoidssummit.com/"&gt;Humanoids Summit&lt;/a&gt; ]&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/video-friday-rubiks-cube-robot</guid>
-      <pubDate>Fri, 23 Oct 2026 15:30:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>India’s Monopoly in Mauritius: A Satellite State in the Making?</title>
-      <link>https://www.geopoliticalmonitor.com/indias-monopoly-in-mauritius-a-satellite-state-in-the-making/</link>
-      <description>&lt;p&gt;India now equips Mauritius’s coast guard and trains its civil servants. The frozen Chagos deal may test the bond.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/indias-monopoly-in-mauritius-a-satellite-state-in-the-making/"&gt;India&amp;#8217;s Monopoly in Mauritius: A Satellite State in the Making?&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/indias-monopoly-in-mauritius-a-satellite-state-in-the-making/</guid>
-      <pubDate>Fri, 23 Oct 2026 15:49:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukrainian intelligence details new low-cost Russian cruise missile</title>
-      <link>https://www.longwarjournal.org/archives/2026/10/analysis-ukrainian-intelligence-details-new-low-cost-russian-cruise-missile.php</link>
-      <description>&lt;p&gt;A new missile called the Filin adds to Russia’s growing arsenal of low-cost, long-range munitions, placing strain on Ukraine’s overstretched air defenses. Ukraine is expected to scale production of faster interceptor drones, but this addresses only part of the challenge of countering Russia’s evolving missile and drone capabilities.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/10/analysis-ukrainian-intelligence-details-new-low-cost-russian-cruise-missile.php"&gt;Ukrainian intelligence details new low-cost Russian cruise missile&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/10/analysis-ukrainian-intelligence-details-new-low-cost-russian-cruise-missile.php</guid>
-      <pubDate>Fri, 23 Oct 2026 16:08:45 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 29 Oct 2026 12:57:58 +0000</lastBuildDate>
     <item>
       <title>Russia warns of ‘disastrous’ consequences over Denmark’s missile plan</title>
       <link>https://www.army-technology.com/news/denmark-missiles-acquisition-russia/</link>
@@ -139,27 +66,12 @@
       <pubDate>Mon, 26 Oct 2026 03:30:12 +0000</pubDate>
     </item>
     <item>
-      <title>The Importance of the Battle of Bailén</title>
-      <link>https://warontherocks.com/the-importance-of-the-battle-of-bailen/</link>
-      <description>&lt;p&gt;Early on the morning of July 16, 1808, Captain-General Francisco Javier Casta&amp;#241;os of the Army of Andalusia launched a surprise attack against the divided forces of Emperor Napoleon Bonaparte&amp;#8217;s Army of the Gironde. After three grueling days of combat, French Gen. Pierre Dupont requested a truce and opened negotiations outside the village of Bail&amp;#233;n. Beginning on July 22, 17,000 French soldiers &amp;#8212; encircled, exhausted, and out of supplies &amp;#8212; surrendered their arms, their flags, and three imperial eagles to the Spanish &amp;#8212; men who had first shouldered a musket scarcely eight weeks earlier. The capitulation at Bail&amp;#233;n may not express&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/the-importance-of-the-battle-of-bailen/"&gt;The Importance of the Battle of Bailén&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/the-importance-of-the-battle-of-bailen/</guid>
-      <pubDate>Mon, 26 Oct 2026 07:30:22 +0000</pubDate>
-    </item>
-    <item>
       <title>Lessons for Pentagon Procurement from the Special Operations Enterprise</title>
       <link>https://warontherocks.com/cogs-of-war/lessons-for-pentagon-procurement-from-the-special-operations-enterprise/</link>
       <description>&lt;p&gt;As the Pentagon races to buy hundreds of thousands of unmanned systems, acquisition professionals have turned to the special operations community to learn about how to buy commercial technologies fast. Cara Teeter, deputy assistant secretary of war for special operations analysis, resources, and capabilities, and chief technology officer for the Special Operations Forces enterprise, and Bonnie Evangelista, who leads acquisition transformation for the direct reporting portfolio manager for unmanned systems, stop by the studio. They share lessons from the competitions and marketplaces they implemented, including this summer&amp;#8217;s inaugural accelerator event. They also discuss Project Agincourt and the new Autonomous Warfare&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/lessons-for-pentagon-procurement-from-the-special-operations-enterprise/"&gt;Lessons for Pentagon Procurement from the Special Operations Enterprise&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/lessons-for-pentagon-procurement-from-the-special-operations-enterprise/</guid>
       <pubDate>Mon, 26 Oct 2026 08:00:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>The focus on AI safety disasters ignores everyday harms</title>
-      <link>https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/</link>
-      <description>Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/</guid>
-      <pubDate>Mon, 26 Oct 2026 09:01:00 +0000</pubDate>
     </item>
     <item>
       <title>Looking for a Language &amp;#x5b;Guest Diary&amp;#x5d;, (Wed, Oct 21st)</title>
@@ -220,13 +132,6 @@
       <description>L3Harris Technologies has secured a three-year contract worth up to $60m to develop a long-range, manoeuvrable interceptor missile for the US Army's Xtended Range Counter-sUAS (XRC) programme.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/l3harris-drone-interceptor-contract/</guid>
       <pubDate>Mon, 26 Oct 2026 12:16:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Download: everyday AI harms and the race to nuclear spaceflight</title>
-      <link>https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance, and Emma Leiken, executive director of the Responsible Technology Youth Power Fund at&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/</guid>
-      <pubDate>Mon, 26 Oct 2026 12:40:00 +0000</pubDate>
     </item>
     <item>
       <title>Semiautomatic grenade launcher and aim-assist for shooting down drones | Highlights from AUSA 2026</title>
@@ -333,13 +238,6 @@
       <pubDate>Mon, 26 Oct 2026 19:45:41 +0000</pubDate>
     </item>
     <item>
-      <title>Risks &amp;amp; Rewards: How AI Is Redefining the CISO's Role</title>
-      <link>https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role</link>
-      <description>Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role</guid>
-      <pubDate>Mon, 26 Oct 2026 21:44:33 +0000</pubDate>
-    </item>
-    <item>
       <title>At last, Army seeing progress in Pacific network</title>
       <link>https://www.defenseone.com/technology/2026/10/death-swivel-chair-how-army-indopacom-bridge-comms-allies/416826/</link>
       <description>Recent exercises suggest the service and its foreign partners are moving closer to a single-screen data system.</description>
@@ -369,13 +267,6 @@
       <pubDate>Tue, 27 Oct 2026 00:04:14 +0000</pubDate>
     </item>
     <item>
-      <title>So Many AI Security Benchmarks, But None Tell the Whole Story</title>
-      <link>https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges</link>
-      <description>Measuring AI model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges</guid>
-      <pubDate>Tue, 27 Oct 2026 00:26:50 +0000</pubDate>
-    </item>
-    <item>
       <title>Apple Patches for October 2026, (Mon, Oct 26th)</title>
       <link>https://isc.sans.edu/diary/rss/33458</link>
       <description>Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.&amp;#xd;</description>
@@ -389,17 +280,17 @@
       <pubDate>Tue, 27 Oct 2026 02:55:13 +0000</pubDate>
     </item>
     <item>
-      <title>Putin’s Strategy Is Working</title>
-      <link>https://www.foreignaffairs.com/russia/putins-strategy-working-michael-mcfaul</link>
-      <description>Trump could salvage the Kremlin’s objectives in Ukraine.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/russia/putins-strategy-working-michael-mcfaul</guid>
-      <pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Israel Netanyahu Made</title>
       <link>https://www.foreignaffairs.com/israel/israel-netanyahu-made</link>
       <description>Why Bibi’s national security vision will endure.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/israel/israel-netanyahu-made</guid>
+      <pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Putin’s Strategy Is Working</title>
+      <link>https://www.foreignaffairs.com/russia/putins-strategy-working-michael-mcfaul</link>
+      <description>Trump could salvage the Kremlin’s objectives in Ukraine.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/russia/putins-strategy-working-michael-mcfaul</guid>
       <pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
@@ -439,13 +330,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/warlock-ransomware-storm-2603-sharepoint-attacks-op-ed/"&gt;What happens when security tools go dark before the ransomware&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/warlock-ransomware-storm-2603-sharepoint-attacks-op-ed/</guid>
       <pubDate>Tue, 27 Oct 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Amid Legal Uncertainty, US Lawmakers Warn Banks, Ports Over Russian Diesel Imports</title>
-      <link>https://www.rferl.org/a/amid-legal-uncertainty-us-lawmakers-warn-banks-ports-over-russian-diesel-imports/33885120.html</link>
-      <description>A bipartisan group of US lawmakers have warned American banks, port authorities and fuel-industry groups against facilitating imports of Russian diesel, raising the prospect of congressional investigations and legal action over President Donald Trump’s decision to ease restrictions on Russian fuel.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/amid-legal-uncertainty-us-lawmakers-warn-banks-ports-over-russian-diesel-imports/33885120.html</guid>
-      <pubDate>Tue, 27 Oct 2026 11:06:48 +0000</pubDate>
     </item>
     <item>
       <title>Industrial Intelligence: The next growth opportunity for manufacturing</title>
@@ -4314,13 +4198,6 @@
       <pubDate>Tue, 27 Oct 2026 16:47:20 +0000</pubDate>
     </item>
     <item>
-      <title>Air Force’s First Announced Rocket Cargo Test Sends Survival Gear Through Space</title>
-      <link>https://sofrep.com/news/rocket-cargo-reaches-space-but-supplies-still-need-to-reach-troops/</link>
-      <description>The Air Force sent survival gear through space and recovered it from the Pacific, but the road from a 2,200-pound capsule to a C-17-sized delivery remains long. #RocketCargo #SpaceX #Starfall #AirForce #MilitaryLogistics</description>
-      <guid isPermaLink="false">https://sofrep.com/news/rocket-cargo-reaches-space-but-supplies-still-need-to-reach-troops/</guid>
-      <pubDate>Tue, 27 Oct 2026 17:00:28 +0000</pubDate>
-    </item>
-    <item>
       <title>Jordanian Air Force strikes targets in Syria in retaliation for deadly church attack</title>
       <link>https://www.longwarjournal.org/archives/2026/10/jordanian-air-force-strikes-syria-in-retaliation-for-deadly-church-attack.php</link>
       <description>&lt;p&gt;On October 26, the Jordanian Air Force conducted multiple strikes against suspected Islamic State positions in southern Syria, targeting militants Jordan linked to an October 23 attack on a church in Karak that killed nine people and wounded dozens. Jordan said the strikes killed more than 20 militants, while Syrian authorities reported seven civilian deaths.&lt;/p&gt;
@@ -4349,20 +4226,6 @@
       <description>Aleksandar Vucic’s election defeat has ended more than a decade of political dominance and handed victory to Serbia’s student-led opposition movement. RFE/RL's Balkan Service spoke with Ilija Srdanovic, the top candidate for the Student List party on what comes next for the country.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/serbia-srdanovic-student-list-interview-russia-kosovo-vucic-srebrenica/33885299.html</guid>
       <pubDate>Tue, 27 Oct 2026 18:58:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pentagon creates advisory council on human performance, health</title>
-      <link>https://www.defensenews.com/pentagon/2026/10/27/pentagon-creates-advisory-council-on-human-performance-health/</link>
-      <description>After creating a new directorate on warfighter optimization within the Department of Defense, the Pentagon announced it will form a federal advisory committee to weigh in on issues affecting troop performance and health.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/pentagon/2026/10/27/pentagon-creates-advisory-council-on-human-performance-health/</guid>
-      <pubDate>Tue, 27 Oct 2026 19:24:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Air Force awards Lockheed Martin $694M hypersonic missile production contract</title>
-      <link>https://www.defensenews.com/industry/techwatch/2026/10/27/us-air-force-awards-lockheed-martin-694m-hypersonic-missile-production-contract/</link>
-      <description>The Air Force granted Lockheed Martin a $694 million contract in late September for the production and fielding of the AGM-183A Air-Launched Rapid Response Weapon, or ARRW.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/industry/techwatch/2026/10/27/us-air-force-awards-lockheed-martin-694m-hypersonic-missile-production-contract/</guid>
-      <pubDate>Tue, 27 Oct 2026 19:53:42 +0000</pubDate>
     </item>
     <item>
       <title>SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack</title>
@@ -4514,13 +4377,6 @@
       <pubDate>Wed, 28 Oct 2026 07:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Backdoor to American Innovation</title>
-      <link>https://www.foreignaffairs.com/united-states/backdoor-american-innovation</link>
-      <description>How military partnerships make Washington vulnerable to its adversaries.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/backdoor-american-innovation</guid>
-      <pubDate>Wed, 28 Oct 2026 08:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How to Secure the Straits</title>
       <link>https://www.foreignaffairs.com/iran/how-secure-straits</link>
       <description>Why Iran and the Houthis keep winning the waterways.</description>
@@ -4528,27 +4384,11 @@
       <pubDate>Wed, 28 Oct 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits</title>
-      <link>https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html</link>
-      <description>An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.
-
-The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html</guid>
-      <pubDate>Wed, 28 Oct 2026 08:15:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Australia pushes to beef up air defenses</title>
-      <link>https://breakingdefense.com/2026/10/australia-pushes-to-beef-up-air-defenses/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/australia-pushes-to-beef-up-air-defenses/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/20250715adf8638673_0007A-e1793106850526-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Australia expects to select the winning platform for LAND 6504 in late 2027 following a RFP that is expected in the early part of the year. &lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/10/australia-pushes-to-beef-up-air-defenses/</guid>
-      <pubDate>Wed, 28 Oct 2026 08:34:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>If Canada picks the Gripen fighter, these local firms would help Saab deliver the jets</title>
-      <link>https://www.defensenews.com/global/europe/2026/10/28/if-canada-picks-the-gripen-fighter-these-local-firms-would-help-saab-deliver-the-jets/</link>
-      <description>Saab will collaborate with several of Canada’s top aerospace firms to build the Gripen fighter jet in Canada if the aircraft is selected by the Prime Minister Mark Carney’s government.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/28/if-canada-picks-the-gripen-fighter-these-local-firms-would-help-saab-deliver-the-jets/</guid>
-      <pubDate>Wed, 28 Oct 2026 08:43:30 +0000</pubDate>
+      <title>The Backdoor to American Innovation</title>
+      <link>https://www.foreignaffairs.com/united-states/backdoor-american-innovation</link>
+      <description>How military partnerships make Washington vulnerable to its adversaries.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/backdoor-american-innovation</guid>
+      <pubDate>Wed, 28 Oct 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Zelenskyy Hopes For Ukraine, Russia, US Talks By November 10, As Trump Floats Putin Meeting With Ukrainian Leader</title>
@@ -4565,13 +4405,6 @@ The exploits were built in the lab after the model was prompted, not seen in any
       <pubDate>Wed, 28 Oct 2026 09:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Nefilim and Hive ransomware affiliate gets 70 months in prison</title>
-      <link>https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/</link>
-      <description>A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/</guid>
-      <pubDate>Wed, 28 Oct 2026 09:43:15 +0000</pubDate>
-    </item>
-    <item>
       <title>The future of the firm</title>
       <link>https://openai.com/index/the-future-of-the-firm</link>
       <description>How AI might enter the org chart—beneath, beside, and between us.</description>
@@ -4584,50 +4417,6 @@ The exploits were built in the lab after the model was prompted, not seen in any
       <description>During our research, we discovered a denial-of-service vulnerability that could affect millions of Intelbras IP camera systems built on the platform platform of a popular Chinese manufacturer.</description>
       <guid isPermaLink="false">https://securelist.com/intelbras-camera-vulnerability/121131/</guid>
       <pubDate>Wed, 28 Oct 2026 10:00:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed</title>
-      <link>https://thehackernews.com/2026/10/american-organizations-under-attack.html</link>
-      <description>Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.
-
-ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/american-organizations-under-attack.html</guid>
-      <pubDate>Wed, 28 Oct 2026 10:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA warns of hackers now exploiting critical Node2Shell flaw</title>
-      <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/</link>
-      <description>On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/</guid>
-      <pubDate>Wed, 28 Oct 2026 10:46:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass</title>
-      <link>https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html</link>
-      <description>Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.
-
-The list of eight vulnerabilities is as follows -
-
-
-  CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html</guid>
-      <pubDate>Wed, 28 Oct 2026 11:15:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wazuh and AI for Enhanced SOC Workflows</title>
-      <link>https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html</link>
-      <description>Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html</guid>
-      <pubDate>Wed, 28 Oct 2026 11:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers</title>
-      <link>https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html</link>
-      <description>A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network.
-
-UEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html</guid>
-      <pubDate>Wed, 28 Oct 2026 11:50:00 +0000</pubDate>
     </item>
     <item>
       <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
@@ -4691,15 +4480,6 @@ UEFI firmware is the software that runs first when a computer is switched on, be
       <description>"We know that Russia is a threat, but we have to just do our stuff, be prepared to invest heavily, keep our friends close, get new friends globally and do stuff right —that’s the Finnish way to handle a difficult security situation."</description>
       <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/28/finlands-defense-minister-talks-nato-ukraine-and-fishing/</guid>
       <pubDate>Wed, 28 Oct 2026 12:28:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch</title>
-      <link>https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html</link>
-      <description>Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.
-
-The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html</guid>
-      <pubDate>Wed, 28 Oct 2026 12:48:03 +0000</pubDate>
     </item>
     <item>
       <title>Is the Finnish-Norwegian call with Putin a crack in Nordic resolve, or the start of a new path?</title>
@@ -4866,29 +4646,11 @@ The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of i
       <pubDate>Wed, 28 Oct 2026 16:02:00 +0000</pubDate>
     </item>
     <item>
-      <title>PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network</title>
-      <link>https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html</link>
-      <description>Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.
-
-The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html</guid>
-      <pubDate>Wed, 28 Oct 2026 16:02:45 +0000</pubDate>
-    </item>
-    <item>
       <title>Trump’s Russian diesel deal benefits Moscow more than US consumers, experts say</title>
       <link>https://www.defensenews.com/global/europe/2026/10/28/trumps-russian-diesel-deal-benefits-moscow-more-than-us-consumers-experts-say/</link>
       <description>Trump’s diesel deal gives Moscow cash and leverage, while Ukraine is pressed to give up one of its few advantages on the battlefield and in negotiations, experts and U.S. lawmakers said.</description>
       <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/28/trumps-russian-diesel-deal-benefits-moscow-more-than-us-consumers-experts-say/</guid>
       <pubDate>Wed, 28 Oct 2026 16:06:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win</title>
-      <link>https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html</link>
-      <description>A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.
-
-Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&amp;nbsp;Pwn2Own Berlin contest&amp;nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html</guid>
-      <pubDate>Wed, 28 Oct 2026 16:23:34 +0000</pubDate>
     </item>
     <item>
       <title>USMCA on an Annual Clock: Canada’s Autonomy Push Meets Washington’s Leverage</title>
@@ -4935,15 +4697,6 @@ Orange Tsai of DEVCORE published the full method on October 28, five months afte
       <pubDate>Wed, 28 Oct 2026 17:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.</title>
-      <link>https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html</link>
-      <description>Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.
-
-To qualify, a store must pass identity checks and send Google&amp;nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html</guid>
-      <pubDate>Wed, 28 Oct 2026 17:08:09 +0000</pubDate>
-    </item>
-    <item>
       <title>With daily jamming of US forces on Korean Peninsula, industry needs resilient solutions: USFK commander</title>
       <link>https://breakingdefense.com/2026/10/with-daily-jamming-of-us-forces-on-korean-peninsula-industry-needs-resilient-solutions-usfk-commander/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/with-daily-jamming-of-us-forces-on-korean-peninsula-industry-needs-resilient-solutions-usfk-commander/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/10054382-scaled-e1793203400409-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“If your capability requires pristine satellite communications, infinite bandwidth, and uninterrupted fiber optic backbone to function, it will not survive 48 hours on the peninsula,” Gen. Xavier Brunson, commander of US Forces Korea, said. &lt;/p&gt;</description>
@@ -4980,15 +4733,6 @@ To qualify, a store must pass identity checks and send Google&amp;nbsp;its full 
 &lt;p&gt;The post &lt;a href="https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/"&gt;Unwrapping Retail Peak Season Cyber Threats&lt;/a&gt; appeared first on &lt;a href="https://unit42.paloaltonetworks.com"&gt;Unit 42&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/</guid>
       <pubDate>Wed, 28 Oct 2026 18:00:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns</title>
-      <link>https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html</link>
-      <description>The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.
-
-"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure," Lumen Technologies Black Lotus Labs said in a report shared</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html</guid>
-      <pubDate>Wed, 28 Oct 2026 18:08:33 +0000</pubDate>
     </item>
     <item>
       <title>US costs of Iran war rise to over $47 billion, according to Pentagon estimate</title>
@@ -5197,9 +4941,9 @@ To qualify, a store must pass identity checks and send Google&amp;nbsp;its full 
       <pubDate>Thu, 29 Oct 2026 01:04:00 +0000</pubDate>
     </item>
     <item>
-      <title>Oleshky Truce Enters Third Day As Humanitarian Hopes Collide With Russia Deportation Fears</title>
+      <title>Russian Drone Attack Kills 14 In Dnipro As Oleshky Truce Enters Third Day</title>
       <link>https://www.rferl.org/a/oleshky-ukraine-russia-melania-trump-ceasefire/33886379.html</link>
-      <description>A fragile cease-fire around Russian-occupied Oleshky entered its third day on October 29, offering hope to thousands of civilians facing severe shortages and perilous escape routes, amid fears that Russia could use the pause to forcibly transfer residents to Russia or occupied Crimea.</description>
+      <description>A Russian attack on Ukraine's eastern city of Dnipro killed at least 14 people and injured more than 10 others, according to Ukrainian officials, as a fragile cease-fire around Russian-occupied Oleshky entered its third day on October 29.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/oleshky-ukraine-russia-melania-trump-ceasefire/33886379.html</guid>
       <pubDate>Thu, 29 Oct 2026 01:17:39 +0000</pubDate>
     </item>
@@ -5210,18 +4954,270 @@ To qualify, a store must pass identity checks and send Google&amp;nbsp;its full 
       <pubDate>Thu, 29 Oct 2026 03:10:12 +0000</pubDate>
     </item>
     <item>
-      <title>Iran Pushes Rejected 7-Day Peace Plan, Warns Against New Israeli Strikes</title>
+      <title>Saudis Report Intercepting Ballistic Missile Fired by Iran-Backed Houthis</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
       <pubDate>Thu, 29 Oct 2026 05:20:56 +0000</pubDate>
     </item>
     <item>
+      <title>Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces</title>
+      <link>https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html</link>
+      <description>Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.
+
+"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet," the network security company said in an update to its advisory.
+
+The vulnerabilities, tracked as</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html</guid>
+      <pubDate>Thu, 29 Oct 2026 05:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)</title>
+      <link>https://isc.sans.edu/diary/rss/33470</link>
+      <description>Building your malware analysis lab is a key point before playing with malware. Today, thanks to virtualization, it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s convenient to play with snapshots in your lab. Start a new investigation from a clean snapshot and take some more when you reached a critical step. But, if you need to revert to a previous snapshot, all changes applied to the VM are... lost&amp;#x21; Therefore, it&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s important to store important data outside the VM.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33470</guid>
+      <pubDate>Thu, 29 Oct 2026 06:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility</title>
+      <link>https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.
+
+The vulnerability in question is CVE-2026-41709 (CVSS score:</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html</guid>
+      <pubDate>Thu, 29 Oct 2026 06:22:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sitting Ducks or Strategic Shields: What Does the Small Reactor Promise Mean for Future Conflicts?</title>
+      <link>https://warontherocks.com/sitting-ducks-or-strategic-shields-what-does-the-small-reactor-promise-mean-for-future-conflicts/</link>
+      <description>&lt;p&gt;Amid the rapid expansion of AI and data centers alongside growing climate commitments as the demand for clean energy rises, nuclear power is increasingly viewed as a reliable source to fill the gaps and complement the stochastic output of solar and hydropower. This renewed interest is also driven in part by countries&amp;#8217; pursuit of greater energy self-reliance, even as energy and nuclear infrastructure continue to become consequential targets in armed conflict &amp;#8212; to disrupt electricity supplies, undermine military capabilities, and pursue counterproliferation objectives. Small modular reactors have since re-emerged almost as a public relations vehicle for the nuclear industry with&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/sitting-ducks-or-strategic-shields-what-does-the-small-reactor-promise-mean-for-future-conflicts/"&gt;Sitting Ducks or Strategic Shields: What Does the Small Reactor Promise Mean for Future Conflicts?&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/sitting-ducks-or-strategic-shields-what-does-the-small-reactor-promise-mean-for-future-conflicts/</guid>
+      <pubDate>Thu, 29 Oct 2026 07:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cyber Vulnerabilities Besiege Italy, Absent Clear Cause</title>
+      <link>https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy</link>
+      <description>Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Don't Go Backward on China Policy</title>
+      <link>https://www.foreignaffairs.com/united-states/dont-go-backward-china-policy</link>
+      <description>The folly of a hawkish restoration.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/dont-go-backward-china-policy</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only the Gulf Can End the Iran War</title>
+      <link>https://www.foreignaffairs.com/united-states/only-gulf-can-end-iran-war</link>
+      <description>The Arab monarchies must help Washington and Tehran save face.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/only-gulf-can-end-iran-war</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unknown APT uses NetamLoader to attack a Win10 OS customized for governments in Asia</title>
+      <link>https://securelist.com/netamloader/121676/</link>
+      <description>Kaspersky researchers analyze a complex targeted attack employing NetamLoader, a sophisticated malicious framework and targeting a customized government OS.</description>
+      <guid isPermaLink="false">https://securelist.com/netamloader/121676/</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Tale of Two Markets: A Dickensian Take on the Coming Years in Defense Tech</title>
+      <link>https://warontherocks.com/cogs-of-war/a-tale-of-two-markets-a-dickensian-take-on-the-coming-years-in-defense-tech/</link>
+      <description>&lt;p&gt;It&amp;#8217;s a strange time for the defense technology sector. Despite the headlines of record capital, valuations, and defense budgets, there is a growing unease among investors and leadership teams. Production contracts remain as elusive as ever, and a generation of startups is struggling to extend their runways across the valley of death, risking not just those businesses but capital flight from the broader sector. There is little point in trying to decide which one of these diverging narratives is real, or if a defense technology market collapse is imminent. To understand what&amp;#8217;s really happening, we should recognize that things are&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/a-tale-of-two-markets-a-dickensian-take-on-the-coming-years-in-defense-tech/"&gt;A Tale of Two Markets: A Dickensian Take on the Coming Years in Defense Tech&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/a-tale-of-two-markets-a-dickensian-take-on-the-coming-years-in-defense-tech/</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys</title>
+      <link>https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html</link>
+      <description>Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.
+
+The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&amp;nbsp;Cisco Talos said&amp;nbsp;on October 28. Talos calls the attacks historical but does not specify when they</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html</guid>
+      <pubDate>Thu, 29 Oct 2026 08:24:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>After Vucic ouster, Serbia’s weapons-buying habits are under the microscope</title>
+      <link>https://www.defensenews.com/global/europe/2026/10/29/after-vucic-ouster-serbias-weapons-buying-habits-are-under-the-microscope/</link>
+      <description>One of Europe’s key arms purchasers, Serbia, is likely to slow down procurement and investigate the probity of recent buys after a student-led protest movement ousted the country’s long-time strongman leader in a surprise election win on Sunday.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/29/after-vucic-ouster-serbias-weapons-buying-habits-are-under-the-microscope/</guid>
+      <pubDate>Thu, 29 Oct 2026 08:53:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open</title>
+      <link>https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html</link>
+      <description>An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&amp;nbsp;released a fix, Alpine Linux&amp;nbsp;said&amp;nbsp;on 28 October.
+
+The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html</guid>
+      <pubDate>Thu, 29 Oct 2026 09:05:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our climate models have a big, dangerous blind spot</title>
+      <link>https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/</link>
+      <description>Climate change itself is increasingly fueling climate change. Rising concentrations of greenhouse gases are driving up global temperatures, setting off dangerous feedback loops that we have not fully accounted for in our climate models—or our emissions-reduction goals. Scientists have long warned that warming would propel further warming in various ways, but a growing number of&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/</guid>
+      <pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes</title>
+      <link>https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes</link>
+      <description>The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes</guid>
+      <pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>We urgently need to monitor AI agents’ actions in real time</title>
+      <link>https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/</link>
+      <description>This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/</guid>
+      <pubDate>Thu, 29 Oct 2026 10:11:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Launches npm Firewall to Block Malicious Packages Before Installation</title>
+      <link>https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html</link>
+      <description>GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.
+
+"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate," GitHub said.
+
+The feature, which currently supports only npm packages, is available in public preview</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html</guid>
+      <pubDate>Thu, 29 Oct 2026 10:26:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls</title>
+      <link>https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html</link>
+      <description>Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.
+
+The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html</guid>
+      <pubDate>Thu, 29 Oct 2026 10:44:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>NATO’s Black Sea nations decry Ukraine war spillover endangering commercial ship traffic</title>
+      <link>https://www.defensenews.com/global/europe/2026/10/29/natos-black-sea-nations-decry-ukraine-war-spillover-endangering-commercial-ship-traffic/</link>
+      <description>The meeting signals a coordinated approach by the three NATO littoral states to the growing risks to commercial shipping and maritime infrastructure arising from the Russia-Ukraine war.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/29/natos-black-sea-nations-decry-ukraine-war-spillover-endangering-commercial-ship-traffic/</guid>
+      <pubDate>Thu, 29 Oct 2026 10:50:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Defense Business Brief: Tech at the edge; PACFLEET talks cyber; and more</title>
+      <link>https://www.defenseone.com/business/2026/10/defense-business-brief-tech-edge-pacfleet-talks-cyber-and-more/416906/</link>
+      <guid isPermaLink="false">https://www.defenseone.com/business/2026/10/defense-business-brief-tech-edge-pacfleet-talks-cyber-and-more/416906/</guid>
+      <pubDate>Thu, 29 Oct 2026 10:53:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Week In Russia: Tensions, Talks, And 'Terror'</title>
+      <link>https://www.rferl.org/a/week-in-russia-gutterman-serbia-election-ukraine-talks-donbas/33885865.html</link>
+      <description>Serbian voters dealt a blow to Moscow, while a spike in tensions with Kyiv raised questions ahead of the expected resumption of trilateral talks on an end to Russia’s war against Ukraine. Prospects for progress are deeply clouded by doubts about the Kremlin’s intentions and differences on major issues including territory in the Donbas.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/week-in-russia-gutterman-serbia-election-ukraine-talks-donbas/33885865.html</guid>
+      <pubDate>Thu, 29 Oct 2026 10:55:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Cisco firewall zero-day exploited to crash SSL VPN devices</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/</link>
+      <description>Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/</guid>
+      <pubDate>Thu, 29 Oct 2026 11:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Switzerland shortlists SAMP/T, Barak MX for long-range air defense</title>
+      <link>https://www.defensenews.com/global/europe/2026/10/29/switzerland-shortlists-samp-t-barak-mx-for-long-range-air-defense/</link>
+      <description>Switzerland narrowed down the choice of the country’s second future long-range air defense system to either Israel’s Barak MX system or the French-Italian SAMP/T NG.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/29/switzerland-shortlists-samp-t-barak-mx-for-long-range-air-defense/</guid>
+      <pubDate>Thu, 29 Oct 2026 11:17:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories</title>
+      <link>https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html</link>
+      <description>26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.
+
+Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&amp;nbsp;reported the results&amp;nbsp;on October 28. Most were keys for cloud and AI services, led by</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html</guid>
+      <pubDate>Thu, 29 Oct 2026 11:33:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers</title>
+      <link>https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html</link>
+      <description>AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html</guid>
+      <pubDate>Thu, 29 Oct 2026 11:33:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls</title>
+      <link>https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html</link>
+      <description>A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec.
+
+The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&amp;nbsp;disclosed it on October 29.
+
+The flaw can be triggered in every version from</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html</guid>
+      <pubDate>Thu, 29 Oct 2026 11:39:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Webinar: How to Build AI Threat Readiness Into Your Security Operations</title>
+      <link>https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html</link>
+      <description>Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.
+
+Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.
+
+The challenge is no longer just finding another vulnerability or</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html</guid>
+      <pubDate>Thu, 29 Oct 2026 11:39:41 +0000</pubDate>
+    </item>
+    <item>
       <title>Forever War Lessons From a Navy SEAL Sniper Instructor</title>
-      <link>https://sofrep.com/?p=231902&amp;preview=true&amp;preview_id=231902</link>
-      <description>Want to see a Defense contractor&amp;#8217;s heart race? Show him a big juicy contract. This month the Pentagon went on a buying spree that would make a sailor on liberty in Thailand blush. Hypersonic missiles headed into production. A shiny test campus for a sixth generation fighter. Whole new commands stood up for drones and [&amp;#8230;] #NavySEAL #NationalSecurity #Leadership ##foreverwars</description>
-      <guid isPermaLink="false">https://sofrep.com/?p=231902&amp;preview=true&amp;preview_id=231902</guid>
+      <link>https://sofrep.com/news/forever-war-lessons-from-a-navy-seal-sniper-instructor/</link>
+      <description>The Pentagon can buy hypersonic missiles and drone swarms, but winning still demands leaders who know how to use them, what victory looks like and when to bring everyone home. #NavySEAL #NationalSecurity #Leadership ##foreverwars</description>
+      <guid isPermaLink="false">https://sofrep.com/news/forever-war-lessons-from-a-navy-seal-sniper-instructor/</guid>
       <pubDate>Thu, 29 Oct 2026 12:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows 11 KB5127936 update released with 41 changes and fixes</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/</link>
+      <description>Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Download: AI agent tracking and climate feedback loops</title>
+      <link>https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lockheed and US Army redirect in-flight GMLRS rocket for first time</title>
+      <link>https://www.army-technology.com/news/lockheed-martin-army-gmlrs/</link>
+      <description>Lockheed Martin, working with the US Army, has successfully demonstrated the in-flight rerouting of a Guided Multiple Launch Rocket System (GMLRS) rocket.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/lockheed-martin-army-gmlrs/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:21:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>America’s Mexico Strategy Needs an End State</title>
+      <link>https://www.geopoliticalmonitor.com/us-mexico-security-strategy-end-state/</link>
+      <description>&lt;p&gt;Tariff threats got Mexico to send troops. Lasting security cooperation needs a bargain that rewards verified progress.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/us-mexico-security-strategy-end-state/"&gt;America’s Mexico Strategy Needs an End State&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/us-mexico-security-strategy-end-state/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:41:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon will pick new US base location by June 2027, prioritizing 4 requirements</title>
+      <link>https://breakingdefense.com/2026/10/pentagon-will-pick-new-us-base-location-by-june-2027-prioritizing-4-requirements/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/pentagon-will-pick-new-us-base-location-by-june-2027-prioritizing-4-requirements/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/10055178-e1793217680853-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In an interview with Breaking Defense, Dale Marks, the assistant secretary of defense for Energy, Installations, and Environment, laid out new details on the effort.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/10/pentagon-will-pick-new-us-base-location-by-june-2027-prioritizing-4-requirements/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seven Months In, Hormuz Is Stuck in Limbo, and Limbo Has a Cost</title>
+      <link>https://sofrep.com/?p=231937&amp;preview=true&amp;preview_id=231937</link>
+      <description>Seven months into the fight over Hormuz, Washington can afford to wait for a better deal, but the troops holding the line are paying for every extra day.</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=231937&amp;preview=true&amp;preview_id=231937</guid>
+      <pubDate>Thu, 29 Oct 2026 13:00:07 +0000</pubDate>
     </item>
     <item>
       <title>SOF Pic of the Day: Delta Force, SOAR and Airliners</title>
