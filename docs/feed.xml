@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:25:06 +0000</lastBuildDate>
-    <item>
-      <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog</link>
-      <description>&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-114625" target="_blank"&gt;CVE-2026-114625&lt;/a&gt; Arista VeloCloud Orchestrator SQL Injection Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the&amp;nbsp;&lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s&amp;nbsp;&lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 29 Oct 2026 06:10:15 +0000</lastBuildDate>
     <item>
       <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
       <link>https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0</link>
@@ -383,14 +369,6 @@
       <pubDate>Tue, 27 Oct 2026 00:04:14 +0000</pubDate>
     </item>
     <item>
-      <title>Experts temper emergency-level alarms over critical Brotli defect</title>
-      <link>https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/</link>
-      <description>&lt;p&gt;The defect in a widely distributed open-source library provoked an emergency response, yet exploitation hasn’t been observed in the wild.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/"&gt;Experts temper emergency-level alarms over critical Brotli defect&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/</guid>
-      <pubDate>Tue, 27 Oct 2026 00:22:54 +0000</pubDate>
-    </item>
-    <item>
       <title>So Many AI Security Benchmarks, But None Tell the Whole Story</title>
       <link>https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges</link>
       <description>Measuring AI model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.</description>
@@ -461,13 +439,6 @@
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/warlock-ransomware-storm-2603-sharepoint-attacks-op-ed/"&gt;What happens when security tools go dark before the ransomware&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/warlock-ransomware-storm-2603-sharepoint-attacks-op-ed/</guid>
       <pubDate>Tue, 27 Oct 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wider Europe Briefing: Can The EU Put Russia's GRU On Its Terror List?</title>
-      <link>https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html</link>
-      <description>In this week's briefing,  Rikard Jozwiak drills down on two issues: Can the EU add Russia's GRU to its terror list? Plus, more rolling EU sanctions on Moscow.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/wider-europe-briefing-can-the-eu-put-russia-s-gru-on-its-terror-list/33885122.html</guid>
-      <pubDate>Tue, 27 Oct 2026 10:55:02 +0000</pubDate>
     </item>
     <item>
       <title>Amid Legal Uncertainty, US Lawmakers Warn Banks, Ports Over Russian Diesel Imports</title>
@@ -4515,13 +4486,6 @@
       <pubDate>Tue, 27 Oct 2026 23:43:17 +0000</pubDate>
     </item>
     <item>
-      <title>What Type of Country Should India Be? The Debate Over the Sharjeel Imam Interview</title>
-      <link>https://thediplomat.com/2026/10/what-type-of-country-should-india-be-the-debate-over-the-sharjeel-imam-interview/</link>
-      <description>Entrenching more group rights would permanently institutionalize the division of Indian society — already an issue — into a large number of groups with different privileges.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/what-type-of-country-should-india-be-the-debate-over-the-sharjeel-imam-interview/</guid>
-      <pubDate>Wed, 28 Oct 2026 01:37:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)</title>
       <link>https://isc.sans.edu/diary/rss/33464</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33464</guid>
@@ -4533,13 +4497,6 @@
       <description>Diego Garcia is the only safe place for ships fighting Iran, but the remote atoll can’t provide the maintenance they need.</description>
       <guid isPermaLink="false">https://www.defenseone.com/threats/2026/10/port-call-situation-wearing-out-navy-warships/416859/</guid>
       <pubDate>Wed, 28 Oct 2026 03:19:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iran Pushes Rejected 7-Day Peace Plan, Warns Against New Israeli Strikes</title>
-      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
-      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
-      <pubDate>Wed, 28 Oct 2026 05:13:51 +0000</pubDate>
     </item>
     <item>
       <title>Third Serengeti Sweep Tops 1,400 Arrests as Investigations Mature</title>
@@ -4736,13 +4693,6 @@ UEFI firmware is the software that runs first when a computer is switched on, be
       <pubDate>Wed, 28 Oct 2026 12:28:34 +0000</pubDate>
     </item>
     <item>
-      <title>Toward a New ‘Normal’: The Recalibration of the Japan-US Alliance</title>
-      <link>https://thediplomat.com/2026/10/toward-a-new-normal-the-recalibration-of-the-japan-us-alliance/</link>
-      <description>Since the Cold War, Japan and the U.S. have both been seeking normalcy, but they define the term very differently.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/toward-a-new-normal-the-recalibration-of-the-japan-us-alliance/</guid>
-      <pubDate>Wed, 28 Oct 2026 12:36:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch</title>
       <link>https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html</link>
       <description>Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.
@@ -4773,13 +4723,6 @@ The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of i
       <pubDate>Wed, 28 Oct 2026 13:15:00 +0000</pubDate>
     </item>
     <item>
-      <title>China Wants Its AI to Go Global, on Its Own Terms</title>
-      <link>https://thediplomat.com/2026/10/china-wants-its-ai-to-go-global-on-its-own-terms/</link>
-      <description>Beijing also wants tailored control over what technology leaves, who acquires it, and what remains in the hands of the Chinese government.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/china-wants-its-ai-to-go-global-on-its-own-terms/</guid>
-      <pubDate>Wed, 28 Oct 2026 13:17:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Startup Biosphere wins Pentagon contract to scale up production of key chemicals</title>
       <link>https://breakingdefense.com/2026/10/startup-biosphere-wins-pentagon-contract-to-scale-up-production-of-key-chemicals/</link>
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/10/startup-biosphere-wins-pentagon-contract-to-scale-up-production-of-key-chemicals/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/reactors-2-e1793135434929-1024x576.png" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The biomanufacturing facility will boast 20,000 liters of UV-sterilized vats, able to brew anything from “bio-cement&amp;#8221; for helipads to explosives for Hellfire missiles.&lt;/p&gt;</description>
@@ -4792,13 +4735,6 @@ The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of i
       <description>China has decades of experience in “patriotic education.” What it can learn from Russia is how to use education to support a war effort.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/10/why-are-russia-and-china-cooperating-on-patriotic-education/</guid>
       <pubDate>Wed, 28 Oct 2026 13:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kyrgyzstan Temporarily Bans Imports of Apples (and More)</title>
-      <link>https://thediplomat.com/2026/10/kyrgyzstan-temporarily-bans-imports-of-apples-and-more/</link>
-      <description>The EU – which is the top exporter of apples to Kyrgyzstan – urged Bishkek against the ban, noting that WTO rules require “exceptional circumstances” to justify such measures.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/kyrgyzstan-temporarily-bans-imports-of-apples-and-more/</guid>
-      <pubDate>Wed, 28 Oct 2026 13:41:00 +0000</pubDate>
     </item>
     <item>
       <title>Even after PHP2Shell, blast radius matters more than a CVSS score</title>
@@ -4946,13 +4882,6 @@ The activity, which was observed on October 25, 2026, involved an attacker combi
       <pubDate>Wed, 28 Oct 2026 16:06:40 +0000</pubDate>
     </item>
     <item>
-      <title>Yet Another ClickFix Campaign, (Wed, Oct 28th)</title>
-      <link>https://isc.sans.edu/diary/rss/33466</link>
-      <description>Introduction&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33466</guid>
-      <pubDate>Wed, 28 Oct 2026 16:07:03 +0000</pubDate>
-    </item>
-    <item>
       <title>Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win</title>
       <link>https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html</link>
       <description>A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.
@@ -5069,6 +4998,13 @@ To qualify, a store must pass identity checks and send Google&amp;nbsp;its full 
       <pubDate>Wed, 28 Oct 2026 18:10:50 +0000</pubDate>
     </item>
     <item>
+      <title>Pakistan’s Artificial Intelligence Warfare</title>
+      <link>https://thediplomat.com/2026/10/pakistans-artificial-intelligence-warfare/</link>
+      <description>Faced with multipronged challenges, the country has gradually incorporated AI into its security strategy.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/pakistans-artificial-intelligence-warfare/</guid>
+      <pubDate>Wed, 28 Oct 2026 18:19:00 +0000</pubDate>
+    </item>
+    <item>
       <title>China’s CE-25A Electric Commuter Airliner Demonstrator Emerges</title>
       <link>https://www.twz.com/air/chinas-ce-25a-electric-commuter-airliner-demonstrator-emerges-in-photos</link>
       <description>&lt;p&gt;The 19-seat aircraft features an unusual array of ducted fans, and the technology behind it could have implications beyond civilian aviation.&lt;/p&gt;
@@ -5135,6 +5071,13 @@ To qualify, a store must pass identity checks and send Google&amp;nbsp;its full 
 &lt;p&gt;The post &lt;a href="https://www.twz.com/space/u-s-intel-warns-chinas-space-based-directed-energy-weapons-could-soon-threaten-satellites"&gt;U.S. Intel Warns China&amp;#8217;s Space-Based Directed Energy Weapons Could Soon Threaten Satellites&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/space/u-s-intel-warns-chinas-space-based-directed-energy-weapons-could-soon-threaten-satellites</guid>
       <pubDate>Wed, 28 Oct 2026 19:53:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Impact of the Philippine Supreme Court’s Recent Landmark Rulings</title>
+      <link>https://thediplomat.com/2026/10/the-impact-of-the-philippine-supreme-courts-recent-landmark-rulings/</link>
+      <description>Two important rulings on political dynasties and the budget system could have significant implications for the Marcos administration.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/the-impact-of-the-philippine-supreme-courts-recent-landmark-rulings/</guid>
+      <pubDate>Wed, 28 Oct 2026 19:58:00 +0000</pubDate>
     </item>
     <item>
       <title>Counter-UAS solution finds and classifies targets at standoff distance with “autonomous perception”</title>
@@ -5211,6 +5154,13 @@ To qualify, a store must pass identity checks and send Google&amp;nbsp;its full 
       <pubDate>Wed, 28 Oct 2026 22:06:50 +0000</pubDate>
     </item>
     <item>
+      <title>Singapore, Indonesia Ready to Address Bilateral Issues Including Haze, Minister Says</title>
+      <link>https://thediplomat.com/2026/10/singapore-indonesia-ready-to-address-bilateral-issues-including-haze-minister-says/</link>
+      <description>For several weeks tension between the two neighbors has been growing over a range of issues including transboundary haze and energy supplies.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/singapore-indonesia-ready-to-address-bilateral-issues-including-haze-minister-says/</guid>
+      <pubDate>Wed, 28 Oct 2026 23:02:00 +0000</pubDate>
+    </item>
+    <item>
       <title>US Navy reports highest number of Class A aviation, afloat mishaps in 10 years</title>
       <link>https://www.defensenews.com/naval/2026/10/28/us-navy-reports-highest-number-of-class-a-aviation-afloat-mishaps-in-10-years/</link>
       <description>The U.S. Navy reported a decade-high number of unplanned catastrophic events involving aircraft and vessels.</description>
@@ -5223,6 +5173,48 @@ To qualify, a store must pass identity checks and send Google&amp;nbsp;its full 
       <description>A US-brokered cease-fire went into effect on October 27 to let humanitarian aid arrive in the Russian-occupied suburb of Oleshky and allow civilians to leave. On the opposite side of the Dnieper River, in the Ukrainian-held city of Kherson, locals said the pause in fighting produced a rare sense of normalcy as people went shopping and walked the streets without fear of air strikes.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/ukraine-kherson-oleshky-cease-fire/33886202.html</guid>
       <pubDate>Thu, 29 Oct 2026 00:05:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Officials seize domain of top bulletproof hosting provider Virtualine</title>
+      <link>https://cyberscoop.com/virtualine-bulletproof-hosting-provider-seized/</link>
+      <description>&lt;p&gt;The Russian-speaking cybercrime storefront was among the most active bulletproof hosting providers this year to date, receiving almost one-fifth of all illicit-attributed inflow tracked by researchers.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/virtualine-bulletproof-hosting-provider-seized/"&gt;Officials seize domain of top bulletproof hosting provider Virtualine&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/virtualine-bulletproof-hosting-provider-seized/</guid>
+      <pubDate>Thu, 29 Oct 2026 00:38:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yet Another ClickFix Campaign, (Wed, Oct 28th)</title>
+      <link>https://isc.sans.edu/diary/rss/33466</link>
+      <description>Introduction&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33466</guid>
+      <pubDate>Thu, 29 Oct 2026 00:42:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hegseth Seeks to Reassure Southeast Asia of US Security Commitment to the Region</title>
+      <link>https://thediplomat.com/2026/10/hegseth-seeks-to-reassure-southeast-asia-of-us-security-commitment-to-the-region/</link>
+      <description>Speaking at the ASEAN Defense Ministers' Meeting in Cebu, the U.S. secretary of war pledged to "defend our interests and the interests of our allies and partners.”</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/hegseth-seeks-to-reassure-southeast-asia-of-us-security-commitment-to-the-region/</guid>
+      <pubDate>Thu, 29 Oct 2026 01:04:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Oleshky Truce Enters Third Day As Humanitarian Hopes Collide With Russia Deportation Fears</title>
+      <link>https://www.rferl.org/a/oleshky-ukraine-russia-melania-trump-ceasefire/33886379.html</link>
+      <description>A fragile cease-fire around Russian-occupied Oleshky entered its third day on October 29, offering hope to thousands of civilians facing severe shortages and perilous escape routes, amid fears that Russia could use the pause to forcibly transfer residents to Russia or occupied Crimea.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/oleshky-ukraine-russia-melania-trump-ceasefire/33886379.html</guid>
+      <pubDate>Thu, 29 Oct 2026 01:17:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)</title>
+      <link>https://isc.sans.edu/diary/rss/33468</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33468</guid>
+      <pubDate>Thu, 29 Oct 2026 03:10:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iran Pushes Rejected 7-Day Peace Plan, Warns Against New Israeli Strikes</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Thu, 29 Oct 2026 05:20:56 +0000</pubDate>
     </item>
     <item>
       <title>Forever War Lessons From a Navy SEAL Sniper Instructor</title>
