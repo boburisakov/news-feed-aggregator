@@ -7,35 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 02:35:09 +0000</lastBuildDate>
-    <item>
-      <title>L3Harris wins $60m US Army contract for counter-drone interceptor</title>
-      <link>https://www.army-technology.com/news/l3harris-drone-interceptor-contract/</link>
-      <description>L3Harris Technologies has secured a three-year contract worth up to $60m to develop a long-range, manoeuvrable interceptor missile for the US Army's Xtended Range Counter-sUAS (XRC) programme.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/l3harris-drone-interceptor-contract/</guid>
-      <pubDate>Mon, 26 Oct 2026 12:16:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Semiautomatic grenade launcher and aim-assist for shooting down drones | Highlights from AUSA 2026</title>
-      <link>https://www.c4isrnet.com/video/2026/10/26/semiautomatic-grenade-launcher-and-aim-assist-for-shooting-down-drones-highlights-from-ausa-2026/</link>
-      <description>Advances in weapons, new drones and personal drone protection were on display at the Army’s premier annual defense conference in Washington, D.C.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/video/2026/10/26/semiautomatic-grenade-launcher-and-aim-assist-for-shooting-down-drones-highlights-from-ausa-2026/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:22:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Fund College Without Hurting Retirement | Money Minute</title>
-      <link>https://www.c4isrnet.com/video/2026/10/26/how-to-fund-college-without-hurting-retirement-money-minute/</link>
-      <description>Can you save for your child’s college without undermining your retirement planning? These tips can help guide you to success.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/video/2026/10/26/how-to-fund-college-without-hurting-retirement-money-minute/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:25:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Defense industry leaders weigh in: How to increase production and integrate AI</title>
-      <link>https://www.c4isrnet.com/video/2026/10/26/defense-industry-leaders-weigh-in-how-to-increase-production-and-integrate-ai/</link>
-      <description>As military leaders clamor for increased weapons and systems productions, top defense company leaders chart ways they can meet the demand.</description>
-      <guid isPermaLink="false">https://www.c4isrnet.com/video/2026/10/26/defense-industry-leaders-weigh-in-how-to-increase-production-and-integrate-ai/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:26:26 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 30 Oct 2026 08:59:42 +0000</lastBuildDate>
     <item>
       <title>Defense leaders weigh in on expanding production | Defense News Weekly Full Episode 10.27.26</title>
       <link>https://www.c4isrnet.com/video/2026/10/26/defense-leaders-weigh-in-on-expanding-production-defense-news-weekly-full-episode-102726/</link>
@@ -3994,6 +3966,13 @@
       <pubDate>Tue, 27 Oct 2026 15:40:44 +0000</pubDate>
     </item>
     <item>
+      <title>Your Robot’s Safety Functions Already Work. What If the Input Lies?</title>
+      <link>https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone</link>
+      <description>&lt;img src="https://spectrum.ieee.org/media-library/humanoid-robot-and-robot-dog-meet-a-woman-on-a-sunny-terrace-at-sunset.jpg?id=68002098&amp;amp;width=1245&amp;amp;height=700&amp;amp;coordinates=0%2C87%2C0%2C87" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;em&gt;This article is brought to you by &lt;a href="https://vicone.com/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" rel="noopener noreferrer" target="_blank"&gt;VicOne&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;/em&gt;&lt;span&gt;A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;But what happens when one of those inputs is wrong, and the robot still responds exactly as designed? The mobile robot reads the hallway as clear while someone is still there. The arm estimates that the worker is farther away. The humanoid does not receive a stop signal as a person crosses its path.&lt;/p&gt;&lt;p&gt;In each case, a fault could cause that mismatch. So could &lt;a href="https://vicone.com/blog/can-a-robot-do-everything-right-and-still-be-unsafe/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;deliberate manipulation&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;At &lt;a href="https://www.linkedin.com/showcase/vicone-lab-r7/posts/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;VicOne LAB R7&lt;/a&gt;, we examine how manipulated inputs can change robot behavior — and what that means for the systems meant to keep people safe.&lt;/p&gt;&lt;h2&gt;How an untrusted input can change a robot’s behavior&lt;/h2&gt;&lt;p&gt;A robot does more than measure its surroundings. It may interpret what it sees and hears to decide what to do next. Information placed in its environment can therefore influence its actions.&lt;/p&gt;&lt;p&gt;Published research shows how this can happen. In a &lt;a href="https://arxiv.org/abs/2411.13587" target="_blank"&gt;study of vision-language-action (VLA) models&lt;/a&gt;, a patch in a camera’s view reduced task success in simulated robot tests. &lt;a href="https://arxiv.org/abs/2509.19870" target="_blank"&gt;FreezeVLA&lt;/a&gt; found that an adversarial image could cause tested models to ignore later instructions. Although the studies used different methods, both demonstrate how visual input can interfere with a robot’s intended task.&lt;/p&gt;&lt;p class="pull-quote"&gt;In a robot-dog test using Gemma 4 E4B, text on a poster was treated as an instruction and changed the robot’s movement.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.linkedin.com/showcase/vicone-lab-r7/posts/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;VicOne LAB R7&lt;/a&gt; also tested how untrusted inputs could change robot behavior. In a robot-dog test using Gemma 4 E4B, text on a poster was treated as an instruction and changed the robot’s movement. In a separate hospital-service-robot simulation using Nemotron on NVIDIA Jetson AGX Orin, crafted audio that is inaudible to people changed the robot’s simulated behavior. The assigned tasks did not change; the inputs did.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;small class="image-media media-caption"&gt;In a VicOne LAB R7 test, text on a poster changed a robot dog’s movement, illustrating how a crafted input can turn an unlikely outcome into a repeatable attack.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;VicOne&lt;/small&gt;&lt;/p&gt;&lt;h2&gt;Safety-related decisions have inputs too&lt;/h2&gt;&lt;p&gt;An independent protective system may still stop a dangerous action. But that system also depends on information: readings, estimates, and messages that tell it when to intervene. What happens if one of those inputs is manipulated?&lt;/p&gt;&lt;p&gt;At a robotics bug bounty event, VicOne LAB R7 researchers injected a ROS 2/DDS message into a robot that organizers expected to remain still under a safe-control setting. The robot moved.&lt;/p&gt;&lt;p&gt;A humanoid’s balance controller offers another example. If it relies on a vulnerable gyroscope, sound at the sensor’s resonant frequency could distort its reported rotation. The controller might correct for a tilt that never occurred. &lt;a href="https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/son" rel="noopener noreferrer" target="_blank" title="https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/son"&gt;Researchers demonstrated&lt;/a&gt; the underlying acoustic attack against drones with vulnerable gyroscopes. The research did not demonstrate the same attack chain causing a humanoid to fall.&lt;/p&gt;&lt;p&gt;Other protections could interrupt either chain. The question for safety and security teams is whether those protections detect the danger independently or depend on the same manipulated information.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Table comparing AI safety risks (bugs, failures) with security risks (attacks, hijacks)." class="rm-shortcode" id="571fc" src="https://spectrum.ieee.org/media-library/table-comparing-ai-safety-risks-bugs-failures-with-security-risks-attacks-hijacks.jpg?id=68002090&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Figure 1. VicOne maps how accidental faults and deliberate cyber manipulation can lead to similar robot safety outcomes, from loss of control to physical harm.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;VicOne&lt;/small&gt;&lt;/p&gt;&lt;h2&gt;Deliberate attacks challenge safety assumptions&lt;/h2&gt;&lt;p&gt;A safety assessment may treat a combination of accidental faults as unlikely. Deliberate manipulation changes that assumption. An attacker can choose when to introduce a false input and repeat the same trigger. That does not make harm inevitable, but it may change how cyber risks should be assessed.&lt;/p&gt;&lt;p&gt;Redundant sensors also need an adversarial test. If one action can affect both inputs, their agreement may offer less reassurance than expected. In &lt;a href="https://arxiv.org/abs/2106.09249" target="_blank"&gt;autonomous driving research&lt;/a&gt;, a crafted physical object misled a system combining camera and LiDAR perception. The study does not establish a weakness in a particular robot, but it shows why teams should test whether one manipulation can affect several checks at once.&lt;/p&gt;&lt;p class="pull-quote"&gt;Cyber threats add intent to the safety equation, so risk assessments based on accidental faults must be revisited to account for attacks that can be timed and repeated.&lt;/p&gt;&lt;h2&gt;Security testing strengthens robot safety evidence&lt;/h2&gt;&lt;p&gt;Safety teams set limits for speed, protective distances, and permitted operating areas. The evidence behind those limits should also show what happens when the information used to enforce them is deliberately manipulated.&lt;/p&gt;&lt;p&gt;That evidence can also support assessments against applicable requirements. China’s &lt;a href="https://vicone.com/blog/from-perception-to-action-what-gbt-45502-2025-signals-for-service-robot-security/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;GB/T 45502-2025&lt;/a&gt; addresses information security for service robots. &lt;a href="https://webstore.iec.ch/en/publication/69228" target="_blank"&gt;IEC TS 63074&lt;/a&gt; examines security threats that could affect safety-related control systems. The &lt;a href="https://vicone.com/blog/when-ai-moves-why-the-eu-machinery-regulation-matters-for-physical-ai-security/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;EU Machinery Regulation&lt;/a&gt;, which applies from January 20, 2027, includes requirements to protect safety-relevant systems and data against corruption. Each has its own scope, and teams still need evidence for their robot’s design and operating conditions.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image ieee-sidebar-large"&gt; &lt;img alt="Diagram of AI robot security lifecycle from development to operation monitoring" class="rm-shortcode" id="f3777" src="https://spectrum.ieee.org/media-library/diagram-of-ai-robot-security-lifecycle-from-development-to-operation-monitoring.jpg?id=68002095&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Figure 2. Cybersecurity strengthens robot safety evidence throughout the lifecycle. VicOne helps teams test safety limits against manipulation before deployment and monitor the conditions behind safe behavior in operation.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;VicOne&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Before deployment, safety and security engineers can compare normal and adversarial scenarios against the same safety limits. During operation, they can monitor for changes to software, models, sensor signals, or behavior that may call earlier results into question. Any response to suspicious behaviors should follow policies approved by the safety team.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;VicOne supports that work across the robot lifecycle. Through the &lt;a href="https://robotichackingcommunity.com/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;Robotic Hacking Community&lt;/a&gt;, VicOne LAB R7 works with researchers to investigate how cyber threats can change robot behavior. &lt;a href="https://vicone.com/products/radeis/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;VicOne’s Radeis&lt;/a&gt; helps teams validate potential effects before deployment, while &lt;a href="https://vicone.com/products/rthena/?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;Rthena&lt;/a&gt; provides visibility into risks and behavior during operation.&lt;/p&gt;&lt;h2&gt;Five questions safety and security teams should answer together&lt;/h2&gt;&lt;p&gt;The central test is whether a robot’s safeguards still protect people when the information they rely on is manipulated. Safety and security teams can begin by tracing the inputs behind each protective decision, challenging them, and revisiting the evidence as the robot changes. They can start with these five questions:&lt;/p&gt;&lt;p&gt;1. &lt;strong&gt;What does each protective function read?&lt;/strong&gt; Map the readings, estimates, messages, and confirmations. Identify which safeguards operate independently of the robot’s AI decisions.&lt;/p&gt;&lt;p&gt;2. &lt;strong&gt;How does that information arrive?&lt;/strong&gt; Check how inputs are produced, transmitted, authenticated where appropriate, and handled when they are missing or implausible.&lt;/p&gt;&lt;p&gt;3. &lt;strong&gt;What happens if an input is manipulated?&lt;/strong&gt; Test false distances, drifting position estimates, and other relevant scenarios against the robot’s safety limits.&lt;/p&gt;&lt;p&gt;4. &lt;strong&gt;Can one action mislead several inputs?&lt;/strong&gt; Check whether sensor fusion or seemingly independent safeguards share a point of failure.&lt;/p&gt;&lt;p&gt;5. &lt;strong&gt;When should the evidence be revisited?&lt;/strong&gt; Reassess after changes to software, models, sensors, or operating conditions. Agree on bounded responses to suspicious behavior with the safety team in advance.&lt;/p&gt;&lt;p&gt;The goal is not only to show that a protective function works. Teams also need evidence that it remains protective when the information behind its decision is wrong or deliberately manipulated — and that another safeguard can catch the resulting hazard when needed. As robots change, that evidence needs to change with them.&lt;/p&gt;&lt;p&gt;For a deeper look how cybersecurity can affect robot safety, download our white paper “&lt;a href="https://info.vicone.com/why-robot-safety-depends-on-cybersecurity-vicone?utm_source=ieee-spectrum&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-10" target="_blank"&gt;Why Robot Safety Depends on Cybersecurity: Protecting the Information That Safety Decisions Rely On&lt;/a&gt;.”&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone</guid>
+      <pubDate>Tue, 27 Oct 2026 16:14:39 +0000</pubDate>
+    </item>
+    <item>
       <title>Jordanian Air Force strikes targets in Syria in retaliation for deadly church attack</title>
       <link>https://www.longwarjournal.org/archives/2026/10/jordanian-air-force-strikes-syria-in-retaliation-for-deadly-church-attack.php</link>
       <description>&lt;p&gt;On October 26, the Jordanian Air Force conducted multiple strikes against suspected Islamic State positions in southern Syria, targeting militants Jordan linked to an October 23 attack on a church in Karak that killed nine people and wounded dozens. Jordan said the strikes killed more than 20 militants, while Syrian authorities reported seven civilian deaths.&lt;/p&gt;
@@ -4083,13 +4062,6 @@
       <description>Diego Garcia is the only safe place for ships fighting Iran, but the remote atoll can’t provide the maintenance they need.</description>
       <guid isPermaLink="false">https://www.defenseone.com/threats/2026/10/port-call-situation-wearing-out-navy-warships/416859/</guid>
       <pubDate>Wed, 28 Oct 2026 03:19:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Third Serengeti Sweep Tops 1,400 Arrests as Investigations Mature</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature</link>
-      <description>Interpol's annual Operation Serengeti, now in its third iteration, led to 1,462 arrests across 20 African countries and the US, recovering $105 million in stolen funds.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature</guid>
-      <pubDate>Wed, 28 Oct 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Next Congress Needs to Reclaim Its Oversight of the Department of Defense</title>
@@ -4251,13 +4223,6 @@
 &lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/hardened-shelters-critical-to-survival-of-usafs-tanker-fleet-study"&gt;Hardened Shelters Critical To Survival Of USAF&amp;#8217;s Tanker Fleet: Study&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/hardened-shelters-critical-to-survival-of-usafs-tanker-fleet-study</guid>
       <pubDate>Wed, 28 Oct 2026 17:28:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Locals Brace For Rough Winter As Russia Bombards Ukraine's Bilozerske</title>
-      <link>https://www.rferl.org/a/locals-brace-for-rough-winter-as-russia-bombards-ukraine-s-bilozerske/33886143.html</link>
-      <description>Russian bombs and artillery have devastated the city of Bilozerske in Ukraine's Donetsk region. With the city in ruins and colder temperatures approaching, remaining residents are bracing for a rough winter.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/locals-brace-for-rough-winter-as-russia-bombards-ukraine-s-bilozerske/33886143.html</guid>
-      <pubDate>Wed, 28 Oct 2026 17:47:40 +0000</pubDate>
     </item>
     <item>
       <title>Ethiopia Gets 12 Russian Su-35 Fighters, Eyes S-400 Air Defenses</title>
@@ -4483,32 +4448,11 @@
       <pubDate>Thu, 29 Oct 2026 08:00:33 +0000</pubDate>
     </item>
     <item>
-      <title>Delhi’s De-Hyphenation Policy is Taking Shape in the South Caucasus</title>
-      <link>https://thediplomat.com/2026/10/delhis-de-hyphenation-policy-is-taking-shape-in-the-south-caucasus/</link>
-      <description>Azerbaijan backed Pakistan during the May 2025 military clashes. Foreign Minister Jaishankar’s recent visit to Baku is part of an effort at rapprochement.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/delhis-de-hyphenation-policy-is-taking-shape-in-the-south-caucasus/</guid>
-      <pubDate>Thu, 29 Oct 2026 08:52:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How we detect frontier model misalignment</title>
       <link>https://openai.com/index/how-we-detect-frontier-model-misalignment</link>
       <description>OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.</description>
       <guid isPermaLink="false">https://openai.com/index/how-we-detect-frontier-model-misalignment</guid>
       <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Promises and Perils of Nepal’s India Pivot</title>
-      <link>https://thediplomat.com/2026/10/promises-and-perils-of-nepals-india-pivot/</link>
-      <description>Kathmandu should avoid making sweeping claims that constraints in India-Nepal ties have disappeared or that the anti-India nationalism in Nepal has run its course.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/promises-and-perils-of-nepals-india-pivot/</guid>
-      <pubDate>Thu, 29 Oct 2026 09:11:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Our climate models have a big, dangerous blind spot</title>
-      <link>https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/</link>
-      <description>Climate change itself is increasingly fueling climate change. Rising concentrations of greenhouse gases are driving up global temperatures, setting off dangerous feedback loops that we have not fully accounted for in our climate models—or our emissions-reduction goals. Scientists have long warned that warming would propel further warming in various ways, but a growing number of&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/</guid>
-      <pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes</title>
@@ -4518,31 +4462,18 @@
       <pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Our climate models have a big, dangerous blind spot</title>
+      <link>https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/</link>
+      <description>Climate change itself is increasingly fueling climate change. Rising concentrations of greenhouse gases are driving up global temperatures, setting off dangerous feedback loops that we have not fully accounted for in our climate models—or our emissions-reduction goals. Scientists have long warned that warming would propel further warming in various ways, but a growing number of&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/</guid>
+      <pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>We urgently need to monitor AI agents’ actions in real time</title>
       <link>https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/</link>
       <description>This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem&amp;#8230;</description>
       <guid isPermaLink="false">https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/</guid>
       <pubDate>Thu, 29 Oct 2026 10:11:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHub Launches npm Firewall to Block Malicious Packages Before Installation</title>
-      <link>https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html</link>
-      <description>GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.
-
-"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate," GitHub said.
-
-The feature, which currently supports only npm packages, is available in public preview</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html</guid>
-      <pubDate>Thu, 29 Oct 2026 10:26:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls</title>
-      <link>https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html</link>
-      <description>Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.
-
-The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html</guid>
-      <pubDate>Thu, 29 Oct 2026 10:44:46 +0000</pubDate>
     </item>
     <item>
       <title>Defense Business Brief: Tech at the edge; PACFLEET talks cyber; and more</title>
@@ -4556,15 +4487,6 @@ The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring s
       <description>Serbian voters dealt a blow to Moscow, while a spike in tensions with Kyiv raised questions ahead of the expected resumption of trilateral talks on an end to Russia’s war against Ukraine. Prospects for progress are deeply clouded by doubts about the Kremlin’s intentions and differences on major issues including territory in the Donbas.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/week-in-russia-gutterman-serbia-election-ukraine-talks-donbas/33885865.html</guid>
       <pubDate>Thu, 29 Oct 2026 10:55:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories</title>
-      <link>https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html</link>
-      <description>26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.
-
-Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&amp;nbsp;reported the results&amp;nbsp;on October 28. Most were keys for cloud and AI services, led by</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html</guid>
-      <pubDate>Thu, 29 Oct 2026 11:33:15 +0000</pubDate>
     </item>
     <item>
       <title>The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers</title>
@@ -5255,13 +5177,6 @@ The challenge is no longer just finding another vulnerability or</description>
       <pubDate>Thu, 29 Oct 2026 12:21:50 +0000</pubDate>
     </item>
     <item>
-      <title>Asian Cybersecurity in the Age of AI and Quantum Computing</title>
-      <link>https://thediplomat.com/2026/10/asian-cybersecurity-in-the-age-of-ai-and-quantum-computing/</link>
-      <description>AI has changed – perhaps forever – the tone and tenor of discussions at Singapore International Cyber Week, and probably all cyber forums of equal scale.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/asian-cybersecurity-in-the-age-of-ai-and-quantum-computing/</guid>
-      <pubDate>Thu, 29 Oct 2026 12:30:00 +0000</pubDate>
-    </item>
-    <item>
       <title>EDGE completes first firing test of UAE-made 155mm artillery round</title>
       <link>https://www.army-technology.com/news/edge-uae-155mm-artillery/</link>
       <description>LAHAB, the medium- to large-calibre ammunition manufacturer of EDGE Group, has conducted the first dynamic test firing of a 155mm Extended Range Full Bore (ERFB) artillery round.</description>
@@ -5289,13 +5204,6 @@ The challenge is no longer just finding another vulnerability or</description>
       <description>Seven months into the fight over Hormuz, Washington can afford to wait for a better deal, but the troops holding the line are paying for every extra day. #StraitOfHormuz #USNavy #OperationEpicFury #IranWar #MilitaryReadiness</description>
       <guid isPermaLink="false">https://sofrep.com/news/seven-months-in-hormuz-is-stuck-in-limbo-and-limbo-has-a-cost/</guid>
       <pubDate>Thu, 29 Oct 2026 13:00:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russian Help Would Make North Korea’s Missile-test Flurry Worse News</title>
-      <link>https://thediplomat.com/2026/10/russian-help-would-make-north-koreas-missile-test-flurry-worse-news/</link>
-      <description>Many security analysts have attributed North Korean missile progress to the closer relationship between North Korea and Russia.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/russian-help-would-make-north-koreas-missile-test-flurry-worse-news/</guid>
-      <pubDate>Thu, 29 Oct 2026 13:09:00 +0000</pubDate>
     </item>
     <item>
       <title>As North Korea’s Loudspeaker Broadcasts Loom, South Korea Has No Good Options</title>
@@ -5539,7 +5447,7 @@ Anthropic said&amp;nbsp;on October 27 that its AI model wrote an exploit that us
       <pubDate>Thu, 29 Oct 2026 17:30:14 +0000</pubDate>
     </item>
     <item>
-      <title>The US Once Called It 'A Slush Fund For Putin.' Now Washington May Lift Sanctions On It.</title>
+      <title>The US Once Called It 'A Slush Fund For Putin.' Now Washington May Lift Sanctions On It</title>
       <link>https://www.rferl.org/a/russia-rdif-investment-dmitriev-ukraine-negotiations/33886754.html</link>
       <description>Amid the swirl of efforts to end to the Ukraine war and normalize US-Russian ties, one idea under consideration: lifting sanctions on a massive Russian investment fund, whose chief is the Kremlin’s main go-between with White House negotiators. What is the Russian Direct Investment Fund anyway?</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russia-rdif-investment-dmitriev-ukraine-negotiations/33886754.html</guid>
@@ -5589,6 +5497,13 @@ Anthropic said&amp;nbsp;on October 27 that its AI model wrote an exploit that us
       <description>Intermediaries on Iranian Telegram channels are offering newborns for up to $1,100 under the guise of charity, with some promising to falsify birth records and others arranging placements with Iranian families abroad, despite a ban on the sale of babies.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-selling-babies-telegram-illegal/33886696.html</guid>
       <pubDate>Thu, 29 Oct 2026 18:09:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Promise and Pitfalls of Nvidia’s Venture in Kazakhstan</title>
+      <link>https://thediplomat.com/2026/10/the-promise-and-pitfalls-of-nvidias-venture-in-kazakhstan/</link>
+      <description>CEO Jensen Huang received a warm welcome in a country whose aims for AI may exceed its capabilities.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/the-promise-and-pitfalls-of-nvidias-venture-in-kazakhstan/</guid>
+      <pubDate>Thu, 29 Oct 2026 18:15:00 +0000</pubDate>
     </item>
     <item>
       <title>What Israel’s Election Results Mean for the Middle East and Beyond</title>
@@ -5811,11 +5726,100 @@ There's a strange mix of clever tricks and careless mistakes. Hackers are borrow
       <pubDate>Thu, 29 Oct 2026 22:45:23 +0000</pubDate>
     </item>
     <item>
+      <title>ASEAN Special Envoy Concludes Humanitarian Mission to Myanmar</title>
+      <link>https://thediplomat.com/2026/10/asean-special-envoy-concludes-humanitarian-mission-to-myanmar/</link>
+      <description>During the two-day visit, Philippine Foreign Secretary Ma. Theresa Lazaro oversaw the distribution of humanitarian aid and met with Naypyidaw's foreign minister.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/asean-special-envoy-concludes-humanitarian-mission-to-myanmar/</guid>
+      <pubDate>Thu, 29 Oct 2026 23:17:00 +0000</pubDate>
+    </item>
+    <item>
       <title>OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut</title>
       <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/</link>
       <description>OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/</guid>
       <pubDate>Thu, 29 Oct 2026 23:35:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)</title>
+      <link>https://isc.sans.edu/diary/rss/33472</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33472</guid>
+      <pubDate>Fri, 30 Oct 2026 03:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>China’s Military Build-up Has Created ‘Pressure’ in Southeast Asia, Australian Defense Chief Says</title>
+      <link>https://thediplomat.com/2026/10/chinas-military-build-up-has-created-pressure-in-southeast-asia-australian-defense-chief-says/</link>
+      <description>His comments came as Beijing accused Manila of obstructing its attendance at this week's ASEAN Defense Ministers' Meeting in Cebu.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/chinas-military-build-up-has-created-pressure-in-southeast-asia-australian-defense-chief-says/</guid>
+      <pubDate>Fri, 30 Oct 2026 04:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen</title>
+      <link>https://thehackernews.com/2026/10/binance-suffers-security-breach.html</link>
+      <description>Cryptocurrency giant Binance said on Thursday that a "security incident" on its platform has impacted about $6.3 billion worth of assets.
+
+The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&amp;nbsp;
+
+Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/binance-suffers-security-breach.html</guid>
+      <pubDate>Fri, 30 Oct 2026 04:14:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rights Groups Links Cambodian Security Companies to Scam Compounds</title>
+      <link>https://thediplomat.com/2026/10/rights-groups-links-cambodian-security-companies-to-scam-compounds/</link>
+      <description>According to a new report by Amnesty International, many Cambodian enablers of the country's scam industry remain at large.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/10/rights-groups-links-cambodian-security-companies-to-scam-compounds/</guid>
+      <pubDate>Fri, 30 Oct 2026 04:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Humanitarian Mission In Russian-Occupied Oleshky Enters Final Phase, Ukraine Says</title>
+      <link>https://www.rferl.org/a/ukraine-russia-oleshky-evacuation-melania-trump/33887157.html</link>
+      <description>A US-brokered mission, which would allow humanitarian aid to enter the Russian-occupied southern Ukrainian city of Oleshky and residents to leave safely, is in its final phase, Kyiv announced.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-oleshky-evacuation-melania-trump/33887157.html</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV</title>
+      <link>https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.
+
+The vulnerabilities are listed below -
+
+
+  CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html</guid>
+      <pubDate>Fri, 30 Oct 2026 07:27:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw</title>
+      <link>https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html</link>
+      <description>Drupal has warned that threat actors are exploiting a "highly critical" security flaw in its Commerce Core component.
+
+The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.
+
+"This module enables you to sell goods and services to customers through an included shopping cart</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html</guid>
+      <pubDate>Fri, 30 Oct 2026 07:45:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>As Russia's Cyberwar Evolves, Belarus Steps Forward</title>
+      <link>https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward</link>
+      <description>The &amp;quot;FrostyNeighbor&amp;quot; advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward</guid>
+      <pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can the Nordic Model Save NATO?</title>
+      <link>https://www.foreignaffairs.com/northern-europe/can-nordic-model-save-nato</link>
+      <description>A new way to deter Russia.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/northern-europe/can-nordic-model-save-nato</guid>
+      <pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>North Korea’s Enemies Within</title>
+      <link>https://www.foreignaffairs.com/north-korea/north-koreas-enemies-within</link>
+      <description>How long will elites stay loyal to Kim Jong Un?</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/north-korea/north-koreas-enemies-within</guid>
+      <pubDate>Fri, 30 Oct 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Alaska Radar Test Finds Aircraft Beyond the Horizon With a Transmitter Once Slated for Demolition</title>
