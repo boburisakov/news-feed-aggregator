@@ -7,443 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 08:38:30 +0000</lastBuildDate>
-    <item>
-      <title>EPICS Base</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-01.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of EPICS Base are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;EPICS Base release &amp;lt;=7.0.10 (CVE-2026-114595, CVE-2026-114596, CVE-2026-114597, CVE-2026-114598)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 9.8&lt;/td&gt;
-&lt;td&gt;The EPICS Community&lt;/td&gt;
-&lt;td&gt;EPICS Base release&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;3 Vulnerabilities&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Integer Overflow or Wraparound, Improper Handling of Length Parameter Inconsistency, Access of Resource Using Incompatible Type ('Type Confusion')&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Global&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="icsa-etb-toggle-wrapper"&gt;&lt;a class="icsa-etb-toggle-all" href="https://www.cisa.gov/"&gt;Expand All +&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-114595&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;In EPICS Base release 7.0.10 and prior, an integer overflow in network request processing can cause memory to be allocated with an incorrect size. Subsequent handling of attacker supplied data may result in memory corruption, denial of service, or potential remote code execution.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;1 Affected Product&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/190.html"&gt;CWE-190 Integer Overflow or Wraparound&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;9.3&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-114595"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-114596&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;In EPICS Base release 7.0.10 and prior, an improper validation of message length values during protocol parsing can trigger an integer overflow, resulting in an out-of-bounds memory write. Successful exploitation can cause process instability or denial of service.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;2 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/190.html"&gt;CWE-190 Integer Overflow or Wraparound&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;8.2&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-114596"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-114597&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;In EPICS Base release 7.0.10 and prior, an insufficient validation of element or length values in a network message can cause the application to read beyond the bounds of an allocated buffer. This may lead to denial of service and could expose adjacent memory contents.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;3 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/130.html"&gt;CWE-130 Improper Handling of Length Parameter Inconsistency&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-114597"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-114598&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;In EPICS Base release 7.0.10 and prior, an insufficient validation of element or length values in a network message can cause the application to read beyond the bounds of an allocated buffer. This may lead to denial of service and could expose adjacent memory contents.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;4 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;The EPICS Community EPICS Base release: &amp;lt;=7.0.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;The EPICS Community has made available updates to the epics-base GitHub repositories. Affected users should update to the 7.0.11 release. For more information, users should contact the EPICS Controls team https://epics-controls.org/support/.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/934&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/epics-base/pull/937&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;https://github.com/epics-base/pvDataCPP/pull/109&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/843.html"&gt;CWE-843 Access of Resource Using Incompatible Type ('Type Confusion')&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;8.7&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"&gt;CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-114598"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Shubham Raj of Cipher / Causal Security reported these vulnerabilities to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are &lt;a href="https://www.cisa.gov/uscert/ics/alerts/ICS-ALERT-10-301-01"&gt;not accessible from the internet&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/li&gt;
-&lt;li&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for &lt;a href="https://www.cisa.gov/resources-tools/resources/ics-recommended-practices"&gt;control systems security recommended practices&lt;/a&gt; on the ICS webpage on &lt;a href="https://www.cisa.gov/topics/industrial-control-systems"&gt;cisa.gov/ics&lt;/a&gt;. Several CISA products detailing cyber defense best practices are available for reading and download, including &lt;a href="https://www.cisa.gov/sites/default/files/recommended_practices/NCCIC_ICS-CERT_Defense_in_Depth_2016_S508C.pdf"&gt;Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for &lt;a href="https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Best_Practices_for_Industrial_Control_Systems.pdf"&gt;proactive defense of ICS assets&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at &lt;a href="https://www.cisa.gov/topics/industrial-control-systems"&gt;cisa.gov/ics&lt;/a&gt; in the technical information paper, &lt;a href="https://www.cisa.gov/news-events/news/targeted-cyber-intrusion-detection-and-mitigation-strategies-update-b"&gt;ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;p&gt;CISA also recommends users take the following measures to protect themselves from social engineering attacks:&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Do not click web links or open attachments in unsolicited email messages.&lt;/li&gt;
-&lt;li&gt;Refer to &lt;a href="https://www.cisa.gov/secure-our-world/teach-employees-avoid-phishing"&gt;Recognizing and Avoiding Email Scams&lt;/a&gt; for more information on avoiding email scams.&lt;/li&gt;
-&lt;li&gt;Refer to &lt;a href="https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks"&gt;Avoiding Social Engineering and Phishing Attacks&lt;/a&gt; for more information on social engineering attacks.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-10-27&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-10-27&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Initial Publication&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01</guid>
-      <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 01 Nov 2026 15:27:47 +0000</lastBuildDate>
     <item>
       <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
       <link>https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
@@ -1758,25 +1322,11 @@
       <pubDate>Fri, 30 Oct 2026 09:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>'They Killed Us': Muckraking Russian Newspaper Novaya Gazeta Announces Closure</title>
-      <link>https://www.rferl.org/a/russia-newspaper-media-novaya-gazeta-press/33887221.html</link>
-      <description>Novaya Gazeta, the venerable investigative Russian newspaper whose reporting staff included the slain Anna Politkovskaya and at least five others who were killed or died under suspicious circumstances, announced it was shutting down.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-newspaper-media-novaya-gazeta-press/33887221.html</guid>
-      <pubDate>Fri, 30 Oct 2026 09:46:43 +0000</pubDate>
-    </item>
-    <item>
       <title>Filter generation in practice: from algorithms to LLMs</title>
       <link>https://securelist.com/practical-filter-generation/121697/</link>
       <description>We automate filter generation for security alerts using an algorithm, a large language model, and a group of LLM agents.</description>
       <guid isPermaLink="false">https://securelist.com/practical-filter-generation/121697/</guid>
       <pubDate>Fri, 30 Oct 2026 10:00:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>G20 Diplomats Meet In Atlanta Amid Divisions Over Russia, Ukraine</title>
-      <link>https://www.rferl.org/a/g20-meeting-atlanta-us-ukraine-russia/33887200.html</link>
-      <description>Foreign ministers from the Group of 20 leading economies are gathering in Atlanta on October 30-31 for talks expected to expose continuing divisions among Western governments over Russia's war in Ukraine.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/g20-meeting-atlanta-us-ukraine-russia/33887200.html</guid>
-      <pubDate>Fri, 30 Oct 2026 10:16:00 +0000</pubDate>
     </item>
     <item>
       <title>Pentagon tells Europeans to cool their rhetoric on Russia, sources say</title>
@@ -1830,20 +1380,6 @@
       <pubDate>Fri, 30 Oct 2026 12:58:13 +0000</pubDate>
     </item>
     <item>
-      <title>CISA says max severity GitLab flaw now exploited in the wild</title>
-      <link>https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/</link>
-      <description>Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/</guid>
-      <pubDate>Fri, 30 Oct 2026 13:00:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Amid India–China Border Tensions, Mega Hydel Project in Arunachal Pradesh Faces Local Heat</title>
-      <link>https://thediplomat.com/2026/10/amid-india-china-border-tensions-mega-hydel-project-in-arunachal-pradesh-faces-local-heat/</link>
-      <description>Locals are protesting India’s plans to construct a hydropower project on the Siang River. Delhi says the project is important for national security.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/10/amid-india-china-border-tensions-mega-hydel-project-in-arunachal-pradesh-faces-local-heat/</guid>
-      <pubDate>Fri, 30 Oct 2026 13:11:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Who Balances a Rearmed Germany When France Can’t?</title>
       <link>https://www.geopoliticalmonitor.com/germany-rearmament-france-debt/</link>
       <description>&lt;p&gt;Germany is borrowing to rearm while France borrows to stand still. The EU’s central balance is breaking.&lt;/p&gt;
@@ -1860,13 +1396,6 @@
       <pubDate>Fri, 30 Oct 2026 13:34:13 +0000</pubDate>
     </item>
     <item>
-      <title>Evacuations, Humanitarian Mission Begin In Russian-Occupied Ukrainian City Of Oleshky</title>
-      <link>https://www.rferl.org/a/evacuations-humanitarian-mission-begin-in-russian-occupied-ukrainian-city-of-oleshky/33887434.html</link>
-      <description>Ukrainian and Russian delegations have arrived in Russian-occupied Oleshky as a cease-fire allows humanitarian aid deliveries and civilian evacuations. Ukraine has prepared 25 buses and ambulances to evacuate residents, while those who remain will receive humanitarian assistance.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/evacuations-humanitarian-mission-begin-in-russian-occupied-ukrainian-city-of-oleshky/33887434.html</guid>
-      <pubDate>Fri, 30 Oct 2026 13:40:23 +0000</pubDate>
-    </item>
-    <item>
       <title>Pakistan’s Trump Bet Meets the US Midterms</title>
       <link>https://thediplomat.com/2026/10/pakistans-trump-bet-meets-the-us-midterms/</link>
       <description>The weeks after November 3 will test whether Pakistan’s moment in Washington was a strategy or a stroke of luck.</description>
@@ -1880,13 +1409,6 @@
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-american-institute-for-economic-research-report-on-the-volume-of-e-cny-transactions-by-2025/"&gt;Chhangani cited in American Institute for Economic Research report on the volume of e-CNY transactions by 2025&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-american-institute-for-economic-research-report-on-the-volume-of-e-cny-transactions-by-2025/</guid>
       <pubDate>Fri, 30 Oct 2026 14:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone</title>
-      <link>https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/</link>
-      <description>Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its security-focused mobile service helps defend against them. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/</guid>
-      <pubDate>Fri, 30 Oct 2026 14:00:10 +0000</pubDate>
     </item>
     <item>
       <title>CBDC Tracker cited in American Institute for Economic Research report on how countries are exploring the use of digital currencies</title>
@@ -1953,15 +1475,6 @@
       <pubDate>Fri, 30 Oct 2026 14:06:04 +0000</pubDate>
     </item>
     <item>
-      <title>WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours</title>
-      <link>https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html</link>
-      <description>Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.
-
-The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html</guid>
-      <pubDate>Fri, 30 Oct 2026 14:08:14 +0000</pubDate>
-    </item>
-    <item>
       <title>Undead Software Projects Continue to Raise Security Risks</title>
       <link>https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks</link>
       <description>A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers.</description>
@@ -2018,13 +1531,6 @@ The vulnerability, which does not have a CVE identifier, relates to a case of re
       <description>Ukraine has completed its share of Freyja, the multinational antiballistic shield that Europe and Kyiv are racing to bring together.</description>
       <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/10/30/ukraine-completes-work-on-new-missile-defense-system-awaits-european-partner-components/</guid>
       <pubDate>Fri, 30 Oct 2026 14:56:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Army Drone Test Ranges Could Cut Vendor Waits From 18 Months to 30 Days</title>
-      <link>https://sofrep.com/news/army-adds-two-indiana-drone-test-ranges-as-it-works-to-cut-waits-of-up-to-18-months/</link>
-      <description>The Army opened two Indiana ranges to drone vendors Oct. 28. Its announcement does not say how vendor tests reach a buying decision. #USArmy #Drones #MilitaryInnovation #DefenseTechnology</description>
-      <guid isPermaLink="false">https://sofrep.com/news/army-adds-two-indiana-drone-test-ranges-as-it-works-to-cut-waits-of-up-to-18-months/</guid>
-      <pubDate>Fri, 30 Oct 2026 15:00:52 +0000</pubDate>
     </item>
     <item>
       <title>What Tokayev’s Economic Agenda Means for Kazakhstan’s International Partnerships</title>
@@ -2085,13 +1591,6 @@ A malicious or compromised host can exploit the flaw to crash the viewer's TeamV
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/california-election-subpoenas-doj-voter-rolls/"&gt;California officials confirm grand jury subpoenas as states, civil groups brace to protect elections from federal encroachment&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/california-election-subpoenas-doj-voter-rolls/</guid>
       <pubDate>Fri, 30 Oct 2026 15:58:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Nike Missiles to Golden Dome: America Builds a New Homeland Shield</title>
-      <link>https://sofrep.com/news/nike-missiles-once-ringed-american-cities-golden-dome-would-try-again/</link>
-      <description>The Army ringed U.S. cities with Nike missiles until 1974. Golden Dome is priced at $185 billion, but its architecture remains unpublished. #ICBM #MilitaryHistory #ColdWarEra #NikeMissiles</description>
-      <guid isPermaLink="false">https://sofrep.com/news/nike-missiles-once-ringed-american-cities-golden-dome-would-try-again/</guid>
-      <pubDate>Fri, 30 Oct 2026 16:00:07 +0000</pubDate>
     </item>
     <item>
       <title>ASEAN’s evolving defence industries</title>
@@ -2498,15 +1997,6 @@ However, the company noted that the breach did not result in unauthorized access
       <pubDate>Sat, 31 Oct 2026 23:02:01 +0000</pubDate>
     </item>
     <item>
-      <title>FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist</title>
-      <link>https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html</link>
-      <description>The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.
-
-The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html</guid>
-      <pubDate>Sun, 01 Nov 2026 06:44:27 +0000</pubDate>
-    </item>
-    <item>
       <title>NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection</title>
       <link>https://thehackernews.com/2026/11/netamloader-malware-targets-government.html</link>
       <description>Cybersecurity researchers have disclosed details of what has been described as a "highly sophisticated infection chain" targeting government organizations in Asia.
@@ -2514,6 +2004,15 @@ The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Serv
 The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/11/netamloader-malware-targets-government.html</guid>
       <pubDate>Sun, 01 Nov 2026 07:02:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist</title>
+      <link>https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html</link>
+      <description>The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.
+
+The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html</guid>
+      <pubDate>Sun, 01 Nov 2026 07:03:00 +0000</pubDate>
     </item>
     <item>
       <title>Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script</title>
@@ -2525,18 +2024,92 @@ Polymarket says&amp;nbsp;it is refunding about $2.7 million to 726 affected wall
       <pubDate>Sun, 01 Nov 2026 07:25:40 +0000</pubDate>
     </item>
     <item>
-      <title>Trump Renews Iran Threat, Says US Still Needs To 'Take Care' Of 1 Or 2 Targets</title>
+      <title>Pakistan-Bound Cargo Vessel Targeted Near Hormuz Strait</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
       <pubDate>Sun, 01 Nov 2026 08:07:39 +0000</pubDate>
     </item>
     <item>
-      <title>US-China Competition In Arctic Intensifies</title>
+      <title>China, Russia Deepen Arctic Cooperation In Challenge To US</title>
       <link>https://www.rferl.org/a/us-china-competition-in-arctic-intensifies/33888021.html</link>
       <description>The 31st meeting of the Chinese and Russian heads of government held in St. Petersburg on October 21 was notable for its focus on cooperation in the Arctic, where Beijing and Moscow are increasingly challenging the United States and its allies.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/us-china-competition-in-arctic-intensifies/33888021.html</guid>
       <pubDate>Sun, 01 Nov 2026 08:27:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key</title>
+      <link>https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html</link>
+      <description>A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.
+
+Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html</guid>
+      <pubDate>Sun, 01 Nov 2026 08:51:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>OneNote File Extraction, (Sun, Nov 1st)</title>
+      <link>https://isc.sans.edu/diary/rss/33478</link>
+      <description>Recently, I had to extract embedded files from a set of OneNote files (extension .one).&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33478</guid>
+      <pubDate>Sun, 01 Nov 2026 09:12:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Belarus Holding At Least 22 Political Prisoners In Psychiatric Hospitals, Rights Groups Say</title>
+      <link>https://www.rferl.org/a/belarus-political-prisoners-hospitals-human-rights/33887558.html</link>
+      <description>At least 22 people in Belarus recognized as political prisoners by rights defenders face indefinite confinement inside secretive psychiatric hospitals. Cut off from amnesties and pardons, rights defenders warn that these individuals have effectively vanished into a legal "black zone."</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/belarus-political-prisoners-hospitals-human-rights/33887558.html</guid>
+      <pubDate>Sun, 01 Nov 2026 09:32:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Japan’s Economic Diplomacy: A Compass in a Divided World</title>
+      <link>https://thediplomat.com/2026/11/japans-economic-diplomacy-a-compass-in-a-divided-world/</link>
+      <description>Tokyo has the ability to chart a stable path forward.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/11/japans-economic-diplomacy-a-compass-in-a-divided-world/</guid>
+      <pubDate>Sun, 01 Nov 2026 09:52:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Moscow Reports Drone Attack On Nizhny Novgorod As Russian Strikes Cut Power In Ukraine</title>
+      <link>https://www.rferl.org/a/russia-ukraine-war-drone-nizhny-novgorod-power/33888277.html</link>
+      <description>Moscow and Kyiv traded strikes on November 1, with dozens of drones reportedly destroyed over Russia's Nizhny Novgorod region and energy infrastructure hit in four Ukrainian regions, leaving hundreds of thousands without power.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/russia-ukraine-war-drone-nizhny-novgorod-power/33888277.html</guid>
+      <pubDate>Sun, 01 Nov 2026 11:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fidel Castro and His Unique History with US Special Operations Forces</title>
+      <link>https://sofrep.com/news/fidel-castro-and-his-unique-history-with-us-special-operations-forces/</link>
+      <description>After the Bay of Pigs, the Kennedys wanted Castro gone. Operation Mongoose, run by Air Force Brig. Gen. Edward Lansdale, mixed sabotage, psychological warfare and plans for a popular uprising, with Cuban exiles training for an amphibious strike. Then Soviet missiles arrived and ended it. #OperationMongoose, #Cuba, #FidelCastro, #ColdWar, #CIA, #BayOfPigs, #CubanMissileCrisis, #SpecialOperations, #MilitaryHistory, #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/news/fidel-castro-and-his-unique-history-with-us-special-operations-forces/</guid>
+      <pubDate>Sun, 01 Nov 2026 13:00:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI says it's doubling Pro usage limits and bringing Work features to Chat</title>
+      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/</link>
+      <description>OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/</guid>
+      <pubDate>Sun, 01 Nov 2026 13:53:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Every Day Gets Harder': Victim's Family Speaks 2 Years After Serbia's Novi Sad Station Collapse</title>
+      <link>https://www.rferl.org/a/victim-s-family-speaks-two-years-after-serbia-s-novi-sad-station-collapse/33888371.html</link>
+      <description>On November 1, 2024, 20-year-old Andjela Ruman arrived by train in Novi Sad, where her boyfriend, Milos Milosavljevic, was waiting for her. They died together when the station's canopy collapsed.
+
+Two years on, her parents, Zorica and Zlatko Ruman, speak to RFE/RL about how they have been coping with their loss. They said they are still waiting for someone to be held accountable for what happened.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/victim-s-family-speaks-two-years-after-serbia-s-novi-sad-station-collapse/33888371.html</guid>
+      <pubDate>Sun, 01 Nov 2026 14:37:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Operation Just Cause: A feast of Special Operations</title>
+      <link>https://sofrep.com/specialoperations/special-operations-highlighted-early-hours-operation-just-cause/</link>
+      <description>In the first hours of Operation Just Cause, Delta pulled Kurt Muse out of Modelo Prison, SEALs crippled Noriega's jet and gunboat, Rangers jumped onto Rio Hato and Torrijos-Tocumen, and Green Berets stalled his armor. It was the first big test of a new special operations command. #OperationJustCause, #Panama, #Noriega, #ArmyRangers, #DeltaForce, #NavySEALs, #GreenBerets, #SOCOM, #MilitaryHistory, #SOFREP</description>
+      <guid isPermaLink="false">https://sofrep.com/specialoperations/special-operations-highlighted-early-hours-operation-just-cause/</guid>
+      <pubDate>Sun, 01 Nov 2026 15:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alpine Linux rebuilds GitLab after attempted RCE attack</title>
+      <link>https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/</link>
+      <description>Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/</guid>
+      <pubDate>Sun, 01 Nov 2026 15:11:21 +0000</pubDate>
     </item>
     <item>
       <title>SOF Pic of the Day: Delta Force, SOAR and Airliners</title>
