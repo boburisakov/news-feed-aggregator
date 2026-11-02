@@ -7,22 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 23:19:47 +0000</lastBuildDate>
-    <item>
-      <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
-      <description>&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/a&gt;, based on evidence of active exploitation.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-48356" target="_blank"&gt;CVE-2026-48356&lt;/a&gt; Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-111497" target="_blank"&gt;CVE-2026-111497&lt;/a&gt; Google Brotli Unchecked Return Value Vulnerability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk"&gt;Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk&lt;/a&gt; establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability management and prioritize remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;KEV Catalog vulnerabilities&lt;/a&gt;. CISA will continue to add vulnerabilities to the catalog that meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Aware of an exploited vulnerability not currently listed in the KEV Catalog? Submit it for potential addition through CISA’s &lt;a href="https://cisasurvey.gov1.qualtrics.com/jfe/form/SV_1Zwu52kgK2OYf3w" target="_blank"&gt;KEV Nomination Form&lt;/a&gt;. Potential KEV additions must have a CVE ID, evidence of exploitation, and clear mitigation guidance.&amp;nbsp;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
-      <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Nov 2026 02:39:33 +0000</lastBuildDate>
     <item>
       <title>An insecure neighbor: how a vulnerability chain led to an isolation bypass in cloud infrastructure</title>
       <link>https://securelist.com/cloud-infrastructure-isolation-bypass/121609/</link>
@@ -1974,7 +1959,7 @@ Polymarket says&amp;nbsp;it is refunding about $2.7 million to 726 affected wall
       <pubDate>Sun, 01 Nov 2026 07:25:40 +0000</pubDate>
     </item>
     <item>
-      <title>Trump, Netanyahu Discuss Iran, While Mediators Bid To Head Off New Fighting</title>
+      <title>Trump Tells Rally US May Have To Give Iran 'The Hammer'</title>
       <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
       <description>As the conflict in the Persian Gulf continues to impact and shape the region, journalists from RFE/RL's Central Newsroom and Iranian service, Radio Farda, deliver ongoing updates and analysis.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
@@ -2110,6 +2095,12 @@ Two years on, her parents, Zorica and Zlatko Ruman, speak to RFE/RL about how th
       <description>Ukrainian President Volodymyr Zelenskyy said his country would cease strikes on Russian oil refineries – as demanded by US President Donald Trump -- if the US would provide Kyiv with Patriot air-defense missiles.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/zelenskyy-patriot-missile-russia-refinery-trump/33888449.html</guid>
       <pubDate>Sun, 01 Nov 2026 23:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)</title>
+      <link>https://isc.sans.edu/diary/rss/33480</link>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33480</guid>
+      <pubDate>Mon, 02 Nov 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
       <title>SOF Pic of the Day: Delta Force, SOAR and Airliners</title>
