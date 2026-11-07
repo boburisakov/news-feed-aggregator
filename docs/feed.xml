@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 04:27:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:15:18 +0000</lastBuildDate>
     <item>
       <title>America’s AI Ambitions Depend on Taiwan</title>
       <link>https://www.foreignaffairs.com/taiwan/americas-ai-ambitions-depend-taiwan-lin-chia-lung</link>
@@ -852,13 +852,6 @@
       <pubDate>Thu, 05 Nov 2026 14:20:39 +0000</pubDate>
     </item>
     <item>
-      <title>How Russia's War Recruitment Machine Became Big Business</title>
-      <link>https://www.rferl.org/a/russia-war-recruitment-big-business-ukraine-military/33891653.html</link>
-      <description>An increasing number of cases point to the human cost of a recruitment system in Russia that increasingly relies on private companies and intermediaries who often work on the fringes to bolster the ranks of a military depleted by the war against Ukraine.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/russia-war-recruitment-big-business-ukraine-military/33891653.html</guid>
-      <pubDate>Thu, 05 Nov 2026 14:50:37 +0000</pubDate>
-    </item>
-    <item>
       <title>SOF Pic of the Day: Delta Force, SOAR and Airliners</title>
       <link>https://sofrep.com/?p=194028&amp;preview=true&amp;preview_id=194028</link>
       <description>SOAR pilots insert Delta operators gently on top of an airliner.  #SOFREP
@@ -880,29 +873,6 @@
       <description>A new Air Force request seeks a lower-cost 500-pound glide bomb. Range depends on the release point, and accuracy depends on the target data. #GlideBomb #USAirForce #ERAMprogram #Weapons #DefenseTechnology</description>
       <guid isPermaLink="false">https://sofrep.com/news/the-air-force-wants-cheap-reach-but-a-glide-bomb-still-needs-a-clean-kill-chain/</guid>
       <pubDate>Thu, 05 Nov 2026 16:00:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux</title>
-      <link>https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html</link>
-      <description>Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.
-
-OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html</guid>
-      <pubDate>Thu, 05 Nov 2026 16:42:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>War, Deal, Or Stalemate? What The Midterms Mean For Trump's Iran War</title>
-      <link>https://www.rferl.org/a/iran-war-us-midterms-trump-options/33891689.html</link>
-      <description>US President Donald Trump, with roughly two months before a Democratic Congress takes control, faces a set of less-than-ideal options with the Iran war: negotiate, escalate, or sit tight.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-war-us-midterms-trump-options/33891689.html</guid>
-      <pubDate>Thu, 05 Nov 2026 16:43:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine's Quiet Counteroffensive: Inside Operation Vivaldi</title>
-      <link>https://www.rferl.org/a/ukraine-s-quiet-counteroffensive-inside-operation-vivaldi/33891774.html</link>
-      <description>Ukraine's 3rd Army Corps kept its counteroffensive secret for months. Operation Vivaldi liberated 277 square kilometers and disrupted Russian supply lines. Ukrainian commanders reveal details of the operation in an interview with RFE/RL.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-s-quiet-counteroffensive-inside-operation-vivaldi/33891774.html</guid>
-      <pubDate>Thu, 05 Nov 2026 16:44:03 +0000</pubDate>
     </item>
     <item>
       <title>SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era</title>
@@ -1817,6 +1787,38 @@ The update that installs the fix still unpacks its files using the site's old, u
       <description>SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]</description>
       <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub</title>
+      <link>https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html</link>
+      <description>Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.
+
+When a user selects "Yes, and don't ask again," Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file.
+
+Software security company Apiiro said yesterday that 1,122 public</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html</guid>
+      <pubDate>Sat, 07 Nov 2026 06:44:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>IRGC Says Iran Expanding Range Of Missiles</title>
+      <link>https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</link>
+      <description>President Donald Trump repeated his assertion that the United States is winning the war with Iran and said that Tehran wants a deal, adding: “It could happen.”</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html</guid>
+      <pubDate>Sat, 07 Nov 2026 08:03:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Coverup: Russia's Air Bases Transformed Amid Ukrainian Drone Threat</title>
+      <link>https://www.rferl.org/a/russia-air-bases-anti-drone-shelters-ukraine-invasion/33892800.html</link>
+      <description>Recent satellite imagery captures the reshaping of air bases throughout Russia and Crimea as the threat from Ukrainian strikes changes how Moscow houses and protects its military aircraft.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/russia-air-bases-anti-drone-shelters-ukraine-invasion/33892800.html</guid>
+      <pubDate>Sat, 07 Nov 2026 08:15:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russia Strikes Kyiv's Energy Infrastructure, Northern Bridge Ahead Of Abu Dhabi Talks</title>
+      <link>https://www.rferl.org/a/russia-strikes-kyiv-ukraine-trilateral-talks/33892815.html</link>
+      <description>Kyiv faced widespread damage and disruptions to essential services on November 7 after Russia launched 172 attack drones and 36 ballistic missiles at the Ukrainian capital and other regions, striking energy infrastructure, residential housing, and a major bridge over the Dnipro River.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/russia-strikes-kyiv-ukraine-trilateral-talks/33892815.html</guid>
+      <pubDate>Sat, 07 Nov 2026 10:10:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
