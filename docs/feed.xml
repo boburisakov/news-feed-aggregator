@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 23:49:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 04:27:34 +0000</lastBuildDate>
     <item>
       <title>America’s AI Ambitions Depend on Taiwan</title>
       <link>https://www.foreignaffairs.com/taiwan/americas-ai-ambitions-depend-taiwan-lin-chia-lung</link>
@@ -1136,13 +1136,6 @@ OpenSSH, which rates the flaw critical, released version 10.6p2 today to block i
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>FBI, CISA warn of cyberattacks targeting refrigeration systems</title>
-      <link>https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/</link>
-      <description>The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:56:44 +0000</pubDate>
-    </item>
-    <item>
       <title>ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)</title>
       <link>https://isc.sans.edu/diary/rss/33494</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33494</guid>
@@ -1817,6 +1810,13 @@ The update that installs the fix still unpacks its files using the site's old, u
 &lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-214"&gt;Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-214</guid>
       <pubDate>Fri, 06 Nov 2026 23:06:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/</link>
+      <description>SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
