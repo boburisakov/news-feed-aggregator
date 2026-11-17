@@ -7,308 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 03:51:16 +0000</lastBuildDate>
-    <item>
-      <title>The Paradox of Dollar Dominance</title>
-      <link>https://www.foreignaffairs.com/economics/paradox-dollar-dominance</link>
-      <description>How Technology Is—and Isn’t—Changing the Global Economy</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/economics/paradox-dollar-dominance</guid>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>America Can Do Good—and Do Well</title>
-      <link>https://www.foreignaffairs.com/united-states/america-can-do-good-and-do-well</link>
-      <description>The strategic logic of foreign aid.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/america-can-do-good-and-do-well</guid>
-      <pubDate>Thu, 12 Nov 2026 09:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Promise of Biomanufacturing at the Edge</title>
-      <link>https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge/</link>
-      <description>&lt;p&gt;As the old adage goes, &amp;#8220;Amateurs talk strategy. Professionals talk logistics.&amp;#8221; Military operations are utterly dependent on complex supply chains to move food, fuel, and other essential products across long distances and through contested environments to reach the warfighter. These vital supply lines are fragile at every stage: production concentrated in a single facility can be disrupted, key inputs may come from unreliable &amp;#8212; or adversarial &amp;#8212; foreign suppliers, and the ports, airfields, and roads that deliver goods the final mile are often the most vulnerable.The threat of this fragility eroding a modern force&amp;#8217;s capabilities is very real. As the&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge/"&gt;The Promise of Biomanufacturing at the Edge&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge/</guid>
-      <pubDate>Thu, 12 Nov 2026 09:00:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Transcending the trust boundaries: how a cloud pentest works</title>
-      <link>https://securelist.com/how-a-cloud-pentest-works/121921/</link>
-      <description>This is the first article in a series on cloud penetration testing. We'll cover the three cloud layers (External, Overlay, and Underlay), common architectures (OpenStack and Kubernetes), typical attack chains, and real-world incidents.</description>
-      <guid isPermaLink="false">https://securelist.com/how-a-cloud-pentest-works/121921/</guid>
-      <pubDate>Thu, 12 Nov 2026 10:00:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inside an AI Attack Against a US Retailer</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer</link>
-      <description>When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer</guid>
-      <pubDate>Thu, 12 Nov 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>2026 US midterms defence industry impact</title>
-      <link>https://www.army-technology.com/analyst-comment/2026-us-midterms-defence-industry-impact/</link>
-      <description>The effect of a Democratic-controlled legislative process will be immense on the US defence industry, especially in relation to several of President Trump’s landmark defence contracts.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/analyst-comment/2026-us-midterms-defence-industry-impact/</guid>
-      <pubDate>Thu, 12 Nov 2026 11:31:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)</title>
-      <link>https://isc.sans.edu/diary/rss/33514</link>
-      <description>CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th. &amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33514</guid>
-      <pubDate>Thu, 12 Nov 2026 11:56:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Siemens Industrial Edge Management</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-03.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK. - Management Applications installed: Follow the specific mitigations until a fix is available. - Device Applications installed: Follow the specific mitigations until a fix is available. For Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Siemens Industrial Edge Management are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cloud Connector Configurator vers:intdot/&amp;lt;1.24.3 (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;Common Configurator&amp;nbsp;(CC on IEM) vers:all/* (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;Common Configurator on Device&amp;nbsp;(CC on Edge) vers:all/* (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;Data Flow Monitoring vers:intdot/&amp;lt;3.0.18 (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;Databus Configurator vers:intdot/&amp;lt;4.0.1 (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;DataXess Configurator vers:intdot/&amp;lt;1.5.7 (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;Edge OPC UA Server Configurator vers:intdot/&amp;lt;2.3.10 (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;Flow Creator Configurator vers:intdot/&amp;lt;1.15.1 (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;Industrial Edge Hub vers:all/* (CVE-2026-111497)&lt;/li&gt;
-&lt;li&gt;Industrial Edge Management Cloud vers:all/* (CVE-2026-111497)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 9.8&lt;/td&gt;
-&lt;td&gt;Siemens&lt;/td&gt;
-&lt;td&gt;Cloud Connector Configurator&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;1 Vulnerability&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Out-of-bounds Write&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-111497&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;10 Affected Products&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Cloud Connector Configurator &amp;lt; V1.24.3&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V1.24.3 or later version&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Industrial Edge Management Cloud&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Vulnerability fixed on central cloud service starting 2026-10-28; no user actions necessary&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Common Configurator&amp;nbsp;(CC on IEM)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Uninstall all Management Applications and protect your IEM instance with a Firewall/WAF until a fix is available&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;None available&lt;/strong&gt;&lt;br /&gt;Currently no fix is available&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Common Configurator on Device&amp;nbsp;(CC on Edge)&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;br /&gt;Stop Common Configurator on Device (CC on Edge) until a fix is available&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;None available&lt;/strong&gt;&lt;br /&gt;Currently no fix is available&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Data Flow Monitoring &amp;lt; V3.0.18&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V3.0.18 or later version&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Databus Configurator &amp;lt; V4.0.1&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V4.0.1 or later version&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;DataXess Configurator &amp;lt; V1.5.7&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V1.5.7 or later version&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Edge OPC UA Server Configurator &amp;lt; V2.3.10&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V2.3.10 or later version&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Flow Creator Configurator &amp;lt; V1.15.1&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V1.15.1 or later version&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Industrial Edge Hub&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Vulnerability fixed on central cloud service starting 2026-10-29; no user actions necessary&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/787.html"&gt;CWE-787 Out-of-bounds Write&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;9.8&lt;/td&gt;
-&lt;td&gt;CRITICAL&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-111497"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Siemens ProductCERT reported this vulnerability to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Recommendations&lt;/h2&gt;
-&lt;p&gt;As a general security measure, Siemens strongly recommends protecting network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends configuring the environment according to Siemens' operational guidelines for Industrial Security (&lt;a href="https://www.siemens.com/cert/operational-guidelines-industrial-security"&gt;https://www.siemens.com/cert/operational-guidelines-industrial-security&lt;/a&gt;), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: &lt;a href="https://www.siemens.com/industrialsecurity"&gt;https://www.siemens.com/industrialsecurity&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Additional Resources&lt;/h2&gt;
-&lt;p&gt;For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: &lt;a href="https://www.siemens.com/cert/advisories"&gt;https://www.siemens.com/cert/advisories&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Terms of Use&lt;/h2&gt;
-&lt;p&gt;The use of Siemens Security Advisories is subject to the terms and conditions listed on: &lt;a href="https://www.siemens.com/productcert/terms-of-use"&gt;https://www.siemens.com/productcert/terms-of-use&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are &lt;a href="https://www.cisa.gov/uscert/ics/alerts/ICS-ALERT-10-301-01"&gt;not accessible from the internet&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/li&gt;
-&lt;li&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for &lt;a href="https://www.cisa.gov/resources-tools/resources/ics-recommended-practices"&gt;control systems security recommended practices&lt;/a&gt; on the ICS webpage on &lt;a href="https://www.cisa.gov/topics/industrial-control-systems"&gt;cisa.gov/ics&lt;/a&gt;. Several CISA products detailing cyber defense best practices are available for reading and download, including &lt;a href="https://www.cisa.gov/sites/default/files/recommended_practices/NCCIC_ICS-CERT_Defense_in_Depth_2016_S508C.pdf"&gt;Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for &lt;a href="https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Best_Practices_for_Industrial_Control_Systems.pdf"&gt;proactive defense of ICS assets&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at &lt;a href="https://www.cisa.gov/topics/industrial-control-systems"&gt;cisa.gov/ics&lt;/a&gt; in the technical information paper, &lt;a href="https://www.cisa.gov/news-events/news/targeted-cyber-intrusion-detection-and-mitigation-strategies-update-b"&gt;ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Siemens ProductCERT &lt;a href="https://productcert.siemens.com/productcert/html/ssa-443410.html"&gt;SSA-443410&lt;/a&gt; from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-10-30&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-10-30&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Publication Date&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-11-06&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Added fix for Cloud Connector Configurator, Data Flow Monitoring, Databus Configurator, Edge OPC UA Server Configurator and Flow Creator Configurator; Added DataXess Configurator as affected product&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-11-12&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Siemens ProductCERT SSA-443410 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03</guid>
-      <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Nov 2026 12:43:50 +0000</lastBuildDate>
     <item>
       <title>Siemens Building Automation and Energy Products</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01</link>
@@ -1541,13 +1240,6 @@
       <pubDate>Fri, 13 Nov 2026 03:41:41 +0000</pubDate>
     </item>
     <item>
-      <title>The Case for a Trump-Xi-Putin Summit</title>
-      <link>https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit</link>
-      <description>In just a few days’ time, U.S. President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin could be holding a three-way summit on the sidelines of next week’s Asia-Pacific Economic Cooperation meeting in Shenzhen, China. According to The Wall Street Journal, Putin floated the idea of a trialogue last month as an opportunity to discuss ending the war in Ukraine. No firm plan has yet been announced, but even the prospect of this meeting has provoked widespread consternation. Polish Foreign Minister Radoslaw Sikorski warned against a repeat of the Yalta Conference of 1945, when U.S. President Franklin Roosevelt and British Prime Minister Winston Churchill capitulated to Soviet leader Joseph Stalin’s push for the Soviet Union to dominate Eastern Europe. U.S. Senator Chris Coons posted on X that “there can be no talks about Ukraine’s future without Ukraine at the table, and there can be no real negotiations as long as Trump signals weakness and servitude to Xi and Putin at every opportunity.”</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit</guid>
-      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>La última oportunidad para la paz</title>
       <link>https://www.foreignaffairs.com/es/spain/pedro-sanchez-ultima-oportunidad-paz-evitar-guerra-mundial</link>
       <description>Cómo evitar otra guerra mundial.</description>
@@ -1559,6 +1251,13 @@
       <link>https://www.foreignaffairs.com/spain/pedro-sanchez-world-last-chance-peace-avert-world-war</link>
       <description>How to avert a new world war.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/spain/pedro-sanchez-world-last-chance-peace-avert-world-war</guid>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Case for a Trump-Xi-Putin Summit</title>
+      <link>https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit</link>
+      <description>In just a few days’ time, U.S. President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin could be holding a three-way summit on the sidelines of next week’s Asia-Pacific Economic Cooperation meeting in Shenzhen, China. According to The Wall Street Journal, Putin floated the idea of a trialogue last month as an opportunity to discuss ending the war in Ukraine. No firm plan has yet been announced, but even the prospect of this meeting has provoked widespread consternation. Polish Foreign Minister Radoslaw Sikorski warned against a repeat of the Yalta Conference of 1945, when U.S. President Franklin Roosevelt and British Prime Minister Winston Churchill capitulated to Soviet leader Joseph Stalin’s push for the Soviet Union to dominate Eastern Europe. U.S. Senator Chris Coons posted on X that “there can be no talks about Ukraine’s future without Ukraine at the table, and there can be no real negotiations as long as Trump signals weakness and servitude to Xi and Putin at every opportunity.”</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit</guid>
       <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1762,15 +1461,6 @@
       <pubDate>Sat, 14 Nov 2026 01:39:47 +0000</pubDate>
     </item>
     <item>
-      <title>Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection</title>
-      <link>https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html</link>
-      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.
-
-The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html</guid>
-      <pubDate>Sat, 14 Nov 2026 12:38:35 +0000</pubDate>
-    </item>
-    <item>
       <title>Convergent Interests: How America Could Undermine Its Own AI Advantage</title>
       <link>https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/</link>
       <description>&lt;p&gt;A convergence of political, commercial, and ideological pressures can impede America’s AI leadership, and public controversies are powerful enough to catalyze that convergence. Our piece spotlights this issue, urging policymakers to govern AI responsibly without disabling the innovation that makes American leadership possible—even in the wake of scandal.&lt;/p&gt;
@@ -1787,39 +1477,12 @@ The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of im
       <pubDate>Sat, 14 Nov 2026 20:02:31 +0000</pubDate>
     </item>
     <item>
-      <title>Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident</title>
-      <link>https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html</link>
-      <description>The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.
-
-"An attacker obtained an access key we had issued to Fireworks," Cursor said in a Friday update. "The key was exposed by Fireworks, and the attacker used it to copy data from a read-only</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html</guid>
-      <pubDate>Sun, 15 Nov 2026 08:22:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent</title>
-      <link>https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html</link>
-      <description>Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.
-
-The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.
-
-The company has 60 days to</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html</guid>
-      <pubDate>Sun, 15 Nov 2026 11:27:31 +0000</pubDate>
-    </item>
-    <item>
       <title>A new vision for the Vertical Corridor: European energy security through infrastructure optimization</title>
       <link>https://www.atlanticcouncil.org/in-depth-research-reports/report/a-new-vision-for-the-vertical-corridor-european-energy-security-through-infrastructure-optimization/</link>
       <description>&lt;p&gt;Europe's Vertical Corridor region is well positioned to reverse its historical Soviet infrastructure legacy and natural gas dependency, while supporting broader European energy security.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/a-new-vision-for-the-vertical-corridor-european-energy-security-through-infrastructure-optimization/"&gt;A new vision for the Vertical Corridor: European energy security through infrastructure optimization&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/report/a-new-vision-for-the-vertical-corridor-european-energy-security-through-infrastructure-optimization/</guid>
       <pubDate>Sun, 15 Nov 2026 12:20:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Yachtspotting</title>
-      <link>https://www.rferl.org/a/33898209.html</link>
-      <description>The West seized a bunch of big luxury vessels linked to Russian oligarchs. Where are they now?</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/33898209.html</guid>
-      <pubDate>Sun, 15 Nov 2026 12:23:28 +0000</pubDate>
     </item>
     <item>
       <title>The civilian office overseeing special operations forces could get $45 million budget, 100 staffers</title>
@@ -1829,25 +1492,11 @@ The company has 60 days to</description>
       <pubDate>Sun, 15 Nov 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Central Asia's AI Race: Big Ambitions, Even Bigger Risks</title>
-      <link>https://www.rferl.org/a/central-asia-ai-race-data-centers-/33899016.html</link>
-      <description>Across Central Asia, governments are racing to become the next global AI hub. Yet critics are flagging shaky financing, over reliance on dirty power, and a lack of transparency in a region long plagued by corruption.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/central-asia-ai-race-data-centers-/33899016.html</guid>
-      <pubDate>Sun, 15 Nov 2026 13:46:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Why Skydio Built a Lopsided Drone</title>
       <link>https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/an-asymmetrical-drone-flies-above-a-rural-road-and-farmland.jpg?id=68671751&amp;amp;width=1200&amp;amp;height=400&amp;amp;coordinates=0%2C596%2C0%2C596" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Skydio’s drones have always been magical. From &lt;a href="https://www.youtube.com/watch?v=kM3BPixFVq0" rel="noopener noreferrer" target="_blank"&gt;MIT research&lt;/a&gt; and &lt;a href="https://spectrum.ieee.org/skydio-camera-drone-autonomous-flying" target="_self"&gt;early prototypes&lt;/a&gt; to what I would argue is &lt;a href="https://spectrum.ieee.org/skydio-2-review-this-is-the-drone-you-want-to-fly" target="_self"&gt;still the most advanced consumer drone ever made&lt;/a&gt;, this is a company that makes very cool stuff. Sadly, Skydio &lt;a href="https://spectrum.ieee.org/skydio-drone-not-for-consumers" target="_self"&gt;no longer makes cool stuff for consumers&lt;/a&gt;, instead focusing on drone platforms for public safety, inspection, and other things that, on a good day, don’t affect me personally.&lt;/p&gt;&lt;p&gt;Even so, a new drone from Skydio is worth paying attention to, especially when it’s as weird as this one—the &lt;a href="https://www.skydio.com/f10" rel="noopener noreferrer" target="_blank"&gt;F10 Lightrunner&lt;/a&gt; is a fixed-wing camera drone designed for autonomous deployment and high-speed flight, all while looking so lopsided that it’s surprising that it can actually fly.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;/p&gt;&lt;h2&gt;The benefits of asymmetrical aircraft&lt;/h2&gt;&lt;p&gt;There’s a short rabbit hole you can go down if you start looking for other examples of asymmetrical aircraft. In the 1990s, legendary aircraft designer Burt Rutan and his company &lt;a href="https://scaled.com/" rel="noopener noreferrer" target="_blank"&gt;Scaled Composites&lt;/a&gt; built some decidedly odd airplanes, including the &lt;a href="https://aerocrafted.com/blogs/edc-tools/the-rutan-boomerang" rel="noopener noreferrer" target="_blank"&gt;Model 202 Boomerang&lt;/a&gt;. But perhaps the most famous asymmetrical aircraft was the &lt;a href="https://en.wikipedia.org/wiki/Blohm_%26_Voss_BV_141#Design" rel="noopener noreferrer" target="_blank"&gt;Blohm &amp; Voss BV 141&lt;/a&gt;, a World War II-era reconnaissance plane that featured an engine in the middle alongside a crew compartment alarmingly offset out onto the right wing. The unique design was intended to give the crew the best possible view for reconnaissance missions, because in a typical single-engine aircraft, the crew sits right behind the engine, limiting forward visibility.&lt;/p&gt;&lt;p&gt;Nearly 90 years later, the Skydio F10 is applying a similar philosophy to fixed-wing reconnaissance drones, which typically track targets by flying around them in circles. “While turning at low altitudes, it becomes very hard to avoid occluding a camera with a wing or a tail,” explains &lt;a href="https://www.linkedin.com/in/agoessling/" rel="noopener noreferrer" target="_blank"&gt;Andrew Goessling&lt;/a&gt;, director of engineering at Skydio. “So we were analyzing a lot of these use cases, and one of our engineers just blurted out, ‘What if we put the camera on the wingtip?’ And that’s where it all started, because as long as you only turn left, a lot of these problems just go away.”&lt;/p&gt;&lt;p&gt;Of course, putting the camera on the F10’s wingtip creates a bunch of new problems, chief among them that the aircraft is no longer balanced. Not only is the camera payload fairly heavy relative to the total mass of the drone, but its bulk also creates greater drag. This is why the seemingly straightforward solution of putting something else (like a battery) on the other wingtip to rebalance the drone isn’t practical, says Goessling. “The issue there is that the camera represents a substantial portion of the total aircraft drag, so putting something else on the other wing would cut your flight time nearly in half.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Closeup of a drone in the air" class="rm-shortcode" id="4eeef" src="https://spectrum.ieee.org/media-library/closeup-of-a-drone-in-the-air.jpg?id=68671788&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The F10’s wing-mounted camera payload necessitated asymmetrical wings and uneven motor placement.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Skydio&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Goessling points out that there’s nothing inherently &lt;em&gt;&lt;em&gt;bad&lt;/em&gt;&lt;/em&gt; about an asymmetric design like the F10; it just makes the life of engineers either a little more difficult or a little more exciting, depending on your perspective. “There were really two challenges here: What is the optimal design for an aircraft with a wingtip camera, and then once you have the design, how are you going to control it?” &lt;/p&gt;&lt;p&gt;Any fixed-wing aircraft design has to consider three factors: distribution of mass, how thrust is distributed between the motors, and how the shape and location of the wings affect the aircraft’s aerodynamics. Once Skydio decided on their requirements for the F10—including the wingtip camera, two motors to enable controllable hovering for takeoff and landing, and a high top speed and long flight time—the engineers used a modeling-and-optimization approach to explore design options. The resulting aircraft compensates for the wing-mounted camera payload by extending just that wing to provide more lift on that side, and repositioning the motors asymmetrically to balance thrust against the added drag of the camera.&lt;/p&gt;&lt;h2&gt;Maneuvering with MegaDock&lt;/h2&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="Two photos show an asymmetrical drone hovering over, and then inside a large docking station which also charges other drones." class="rm-shortcode" id="47768" src="https://spectrum.ieee.org/media-library/two-photos-show-an-asymmetrical-drone-hovering-over-and-then-inside-a-large-docking-station-which-also-charges-other-drones.jpg?id=68671810&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The MegaDock can autonomously launch, recover, and recharge up to five F10 drones using a robot arm to grab them out of the air.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Skydio&lt;/small&gt;&lt;/p&gt;&lt;p&gt;An added challenge was getting the F10 to launch and recover with a robot arm, using a storage, charging, and deployment system called the MegaDock. That requires the drone to transition from hover to forward flight and then back again—a particularly difficult trick for a flying wing with no tail control surfaces (movable parts of the wing used to steer the aircraft). The F10 uses model predictive control (a control technique based on a detailed physics model of the robot) to accomplish this autonomously, and a single control policy can handle the robot all the way through its entire flight envelope, from a stationary hover to its maximum flight speed of 100 miles per hour. In other words, there’s no “hover mode” or “flight mode,” so the mission planner just tells the drone where it needs to be, and the drone will know how to get itself there.&lt;/p&gt;&lt;p&gt;In operation, Skydio’s MegaDock can handle up to five F10s, allowing for continuous flight operations with three drones while two recharge. The entire system is fully autonomous, with humans only needed for remote supervisory control, communicating with the F10 via dual 5G cellular modems. Maximum flight time is 2 hours, and the aircraft is equipped with the same kind of magical obstacle-dodging camera setup as Skydio’s quadrotor drones. If something goes seriously wrong, an integrated parachute in the F10’s butt will deploy, lowering the drone to the ground gently enough to safely fly over people.&lt;/p&gt;&lt;p&gt;Goessling is the first to acknowledge that the F10 Lightrunner is an unconventional design, but he’s proud of what he and his team have come up with as a commercially viable solution to the occlusion issue with other fixed-wing drones. “It looks weird, and we got some pushback from some of the less technical parts of the company,” Goessling says. “If there were less crazy ways of doing it, we would have pursued them. But we have the data. We have sound reasons for every decision we’ve made. And the outcome at the end was well worth it.”&lt;/p&gt;</description>
       <guid isPermaLink="false">https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone</guid>
       <pubDate>Sun, 15 Nov 2026 14:00:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russia, Ukraine Trade Air Attacks As US-Led Talks Fail To Break Diplomatic Deadlock</title>
-      <link>https://www.rferl.org/a/ukraine-russia-war-drone-strikes-oil-refinery/33899022.html</link>
-      <description>Russia and Ukraine continued to trade air attacks on November 15, days after a flurry of diplomatic activity mediated by the United States yielded no breakthrough in efforts to bring peace closer.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-war-drone-strikes-oil-refinery/33899022.html</guid>
-      <pubDate>Sun, 15 Nov 2026 15:00:27 +0000</pubDate>
     </item>
     <item>
       <title>Army Balloons and Shared Software Could Reduce Soldiers’ Dependence on Fixed Drone Stations</title>
@@ -1893,13 +1542,6 @@ The company has 60 days to</description>
       <pubDate>Sun, 15 Nov 2026 21:44:47 +0000</pubDate>
     </item>
     <item>
-      <title>A step toward defining the Standard Model on a lattice</title>
-      <link>https://openai.com/index/step-toward-defining-the-standard-model</link>
-      <description>Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.</description>
-      <guid isPermaLink="false">https://openai.com/index/step-toward-defining-the-standard-model</guid>
-      <pubDate>Sun, 15 Nov 2026 22:00:01 +0000</pubDate>
-    </item>
-    <item>
       <title>Kabila’s War: Rebels Push West in Congo as Washington Turns on Rwanda</title>
       <link>https://sofrep.com/news/kabilas-war-rebels-push-west-in-congo-as-washington-turns-on-rwanda/</link>
       <description>Former president Joseph Kabila now leads eastern Congo's rebel coalition as it pushes west and Congolese officers defect. Washington has sanctioned Rwanda's defense ministry and a Kigali bank over gold smuggling. A year after Trump's "miracle" peace deal, the war is wider and Moscow is moving in. #Congo, #DRC, #Rwanda, #M23, #Kabila, #EasternCongo, #GreatLakes, #Africa, #Sanctions, #SOFREP</description>
@@ -1915,20 +1557,6 @@ The company has 60 days to</description>
       <pubDate>Sun, 15 Nov 2026 22:24:49 +0000</pubDate>
     </item>
     <item>
-      <title>Russian Attacks Aimed At 'Breaking The Spirit' Of Ukrainians, Prime Minister Tells RFE/RL</title>
-      <link>https://www.rferl.org/a/ukraine-ramstein-coalition-willing-russia-zelenskyy/33899112.html</link>
-      <description>Ukraine is doing everything it can to defend itself against a Russian onslaught aimed at "breaking the spirit" of its people as winter approaches and Moscow steps up its attacks on civilians and critical infrastructure, Prime Minister Serhiy Koretskiy told RFE/RL.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-ramstein-coalition-willing-russia-zelenskyy/33899112.html</guid>
-      <pubDate>Sun, 15 Nov 2026 23:00:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>At Holiday Extras, dots get to work before anyone asks</title>
-      <link>https://openai.com/business/customer-stories/holiday-extras-dots</link>
-      <description>Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.</description>
-      <guid isPermaLink="false">https://openai.com/business/customer-stories/holiday-extras-dots</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The King’s Trust and OpenAI launch £1m partnership</title>
       <link>https://openai.com/index/the-kings-trust-and-openai</link>
       <description>The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.</description>
@@ -1942,25 +1570,10 @@ The company has 60 days to</description>
       <pubDate>Mon, 16 Nov 2026 02:00:05 +0000</pubDate>
     </item>
     <item>
-      <title>Nepali Prime Minister Balen Shah Continues to Test the Limits of Executive Power</title>
-      <link>https://thediplomat.com/2026/11/nepali-prime-minister-balen-shah-continues-to-test-the-limits-of-executive-power/</link>
-      <description>The prime minister and his advisers must understand that urgency does not mean dispensing with consultation or due process.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/11/nepali-prime-minister-balen-shah-continues-to-test-the-limits-of-executive-power/</guid>
-      <pubDate>Mon, 16 Nov 2026 04:13:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sinopec Demands Derail Oil Refinery Plans at Sri Lanka’s Hambantota</title>
-      <link>https://thediplomat.com/2026/11/sinopec-demands-derail-oil-refinery-plans-at-sri-lankas-hambantota/</link>
-      <description>How readily can Sri Lanka replace investments at the SACL hub project and the Hambantota oil refinery?</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/11/sinopec-demands-derail-oil-refinery-plans-at-sri-lankas-hambantota/</guid>
-      <pubDate>Mon, 16 Nov 2026 04:28:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ashok Swain on the Mounting Opposition to Modi’s Authoritarian Rule</title>
-      <link>https://thediplomat.com/2026/11/ashok-swain-on-the-mounting-opposition-to-modis-authoritarian-rule/</link>
-      <description>In India, “fear is gradually being replaced by political confidence. Modi remains in power, but his aura of invincibility has been seriously weakened.”</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/11/ashok-swain-on-the-mounting-opposition-to-modis-authoritarian-rule/</guid>
-      <pubDate>Mon, 16 Nov 2026 05:31:00 +0000</pubDate>
+      <title>Advancing computer-use agents for healthcare teams</title>
+      <link>https://openai.com/index/advancing-computer-use-for-healthcare-teams</link>
+      <guid isPermaLink="false">https://openai.com/index/advancing-computer-use-for-healthcare-teams</guid>
+      <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
       <title>More ways to move care forward with ChatGPT for Healthcare</title>
@@ -1970,37 +1583,11 @@ The company has 60 days to</description>
       <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Advancing computer-use agents for healthcare teams</title>
-      <link>https://openai.com/index/advancing-computer-use-for-healthcare-teams</link>
-      <guid isPermaLink="false">https://openai.com/index/advancing-computer-use-for-healthcare-teams</guid>
-      <pubDate>Mon, 16 Nov 2026 06:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server</title>
-      <link>https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html</link>
-      <description>An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.
-
-The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html</guid>
-      <pubDate>Mon, 16 Nov 2026 06:53:34 +0000</pubDate>
-    </item>
-    <item>
       <title>A USB worm’s second life: Retadup spreading CoffeeLoader</title>
       <link>https://securelist.com/retadup-delivers-coffeeloader/121908/</link>
       <description>A new version of CoffeeLoader is spreading through Retadup, an old USB worm whose infrastructure was seized by law enforcement back in 2019.</description>
       <guid isPermaLink="false">https://securelist.com/retadup-delivers-coffeeloader/121908/</guid>
       <pubDate>Mon, 16 Nov 2026 07:00:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys</title>
-      <link>https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html</link>
-      <description>Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.
-
-The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys.
-
-The team said this</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html</guid>
-      <pubDate>Mon, 16 Nov 2026 07:34:21 +0000</pubDate>
     </item>
     <item>
       <title>Our first phase of embedded assessments</title>
@@ -2047,13 +1634,11 @@ The team said this</description>
       <pubDate>Mon, 16 Nov 2026 09:00:38 +0000</pubDate>
     </item>
     <item>
-      <title>SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity</title>
-      <link>https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html</link>
-      <description>A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.
-
-Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html</guid>
-      <pubDate>Mon, 16 Nov 2026 09:32:57 +0000</pubDate>
+      <title>How Revolut raises ambition without lowering the bar</title>
+      <link>https://openai.com/business/customer-stories/revolut</link>
+      <description>Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.</description>
+      <guid isPermaLink="false">https://openai.com/business/customer-stories/revolut</guid>
+      <pubDate>Mon, 16 Nov 2026 09:30:00 +0000</pubDate>
     </item>
     <item>
       <title>28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?</title>
@@ -2085,17 +1670,6 @@ Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator t
       <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware</title>
-      <link>https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html</link>
-      <description>Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.
-
-"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe," Kaspersky said in an analysis published today.
-
-"The '7z.dll' file was a patched version of the</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html</guid>
-      <pubDate>Mon, 16 Nov 2026 12:33:18 +0000</pubDate>
-    </item>
-    <item>
       <title>Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login</title>
       <link>https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html</link>
       <description>Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.
@@ -2105,13 +1679,6 @@ No patch is available, and the researchers say the newest firmware, version 5.4.
 Government cybersecurity agencies in Belgium, Ireland and Germany told operators this week to</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html</guid>
       <pubDate>Mon, 16 Nov 2026 12:34:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft: Windows Server 2016 reaches end of support in 60 days</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/</link>
-      <description>Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/</guid>
-      <pubDate>Mon, 16 Nov 2026 12:53:18 +0000</pubDate>
     </item>
     <item>
       <title>Building AI that can work across the enterprise</title>
@@ -2189,13 +1756,6 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <pubDate>Mon, 16 Nov 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google warns that fully-automated AI attacks are coming soon</title>
-      <link>https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/</link>
-      <description>Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/</guid>
-      <pubDate>Mon, 16 Nov 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Can Robots Bring Stroke Surgery to Remote Hospitals?</title>
       <link>https://spectrum.ieee.org/telesurgery-stroke</link>
       <description>&lt;img src="https://spectrum.ieee.org/media-library/remedy-robotics-n1-prototype-console-lower-left-sits-ready-to-guide-a-catheter-through-blood-vessels-using-a-ct-scan-overlai.jpg?id=68671534&amp;amp;width=1200&amp;amp;height=400&amp;amp;coordinates=0%2C575%2C0%2C575" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;&lt;strong&gt;I am practicing&lt;/strong&gt; brain surgery on a patient lying 6 meters away, out of my sight and reach. I press a foot pedal, activating the controller in my hand, and carefully steer a thin flexible tube called a catheter up through the patient’s blood vessels. I head for what I believe to be the brain, tracking my progress on the live X-ray feed. As I imagine finding a blood clot, &lt;a href="https://www.linkedin.com/in/david-bell-rr/" rel="noopener noreferrer" target="_blank"&gt;David Bell&lt;/a&gt;, the surgeon seated to my right, helpfully reminds me that every minute a stroke goes untreated, &lt;a href="https://pubmed.ncbi.nlm.nih.gov/16339467/" rel="noopener noreferrer" target="_blank"&gt;millions of brain cells suffocate, swell, and die&lt;/a&gt;.&lt;/p&gt;&lt;div class="rm-embed embed-media"&gt;&lt;/div&gt;&lt;p&gt;&lt;span&gt;The patient under the X-ray in Bell’s office is not flesh and blood, but a plastic container holding long branches of silicone tubing. The controller I hold comes from an Xbox. But the surgical robot is real. The Remedy N1 is designed for emergency operations, including &lt;/span&gt;&lt;a href="https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/surgical-thrombectomy" target="_blank"&gt;thrombectomies&lt;/a&gt;&lt;span&gt;, the standard brain operation for acute ischemic strokes caused by blood clots. Ischemia, a restriction of blood flow, is the most common cause of stroke.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;“We want it to feel a bit like a video game—a bit easy,” Bell says. “But we don’t want to dehumanize it as if there’s just another ‘game over.’ ” Bell, a clinician and former cardiac-surgery trainee from Australia, cofounded &lt;a href="https://www.remedyrobotics.com/" target="_blank"&gt;Remedy Robotics&lt;/a&gt;, based in San Francisco. With a team of engineers, he developed this robotic catheter and its related software to help ischemic stroke patients in remote and rural places, who lose crucial hours while being transferred away from hospitals incapable of providing care. According to 2025 data, at least &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11786524/" target="_blank"&gt;5 million people&lt;/a&gt; around the world suffer ischemic strokes every year. In the United States, stroke is the &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12616817/" rel="noopener noreferrer" target="_blank"&gt;fourth leading&lt;/a&gt; cause of death.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" rel="float: left;" style="float: left;"&gt; &lt;img alt="Remedy Robotics cofounders Jake Sganga [left] and David Bell matched energies immediately. " class="rm-shortcode" id="015d5" src="https://spectrum.ieee.org/media-library/remedy-robotics-cofounders-jake-sganga-left-and-david-bell-matched-energies-immediately.jpg?id=68667054&amp;amp;width=980" /&gt;&lt;small class="image-media media-caption"&gt;When Remedy Robotics cofounders Jake Sganga [left] and David Bell initially met, they matched each other’s energy right away.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Christie Hemm Klok&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The screen shows my catheter at a fork in the narrowing road, and I decide to take a sharp right; I think I can make it. This device feels easier to drive than a typical robotic instrument that I controlled on a hospital tour the summer prior. I say to Bell that here my movements are smoother, more precise—exactly the talking point you’d expect to hear from a surgical robotics company. Never mind that, Bell corrects me: “Smoothness and precision are not clinical outcomes. Neither is a surgeon’s ergonomics.”&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;For Bell, the outcome that matters is whether the robot can get stroke treatment to patients who otherwise wouldn’t receive it in time. &lt;span&gt;Today, only about 1 in 10 patients eligible for thrombectomy receive one. &lt;/span&gt; That’s where the long-unrealized promise of telesurgery is meeting an urgent problem: providing access to thrombectomies before life-threatening damage takes hold.&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;But can putting a robot in one hospital and a surgeon somewhere else actually close that gap? Remedy has already taken a first step, &lt;a href="https://www.remedyrobotics.com/articles/remote-unveil" target="_blank"&gt;remotely testing its system&lt;/a&gt; on a small group of patients. “The remote stroke need is well known,” says &lt;a href="https://www.linkedin.com/in/jakesganga/" target="_blank"&gt;Jake Sganga&lt;/a&gt;, who cofounded Remedy with Bell and leads the technology side. “It’s just a hard problem to take on.” Making telesurgery a practical part of stroke care will require more than a capable robot: It will depend on communications infrastructure, hospital resources and workflows, and ultimately, evidence that patients actually benefit.&lt;/p&gt;&lt;h2&gt;Why Telesurgery Starts With Stroke&lt;br /&gt;&lt;/h2&gt;&lt;p&gt;As recently as the &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8639727/" target="_blank"&gt;early ’90s&lt;/a&gt;, physicians who treated stroke struggled with “&lt;a href="https://www.ahajournals.org/doi/pdf/10.1161/01.str.22.9.1105" target="_blank"&gt;therapeutic nihilism&lt;/a&gt;.” A 1991 editorial by two lamenting neurologists expressed hope that a successful drug therapy for stroke would emerge that would “reverse the trend of nihilism.”&lt;strong&gt; &lt;/strong&gt;Five years later, &lt;a href="https://www.ninds.nih.gov/about-ninds/what-we-do/impact/ninds-contributions-approved-therapies/tissue-plasminogen-activator-acute-ischemic-stroke-alteplase-activaser" target="_blank"&gt;clot-busting drugs&lt;/a&gt; revolutionized stroke treatment, followed about a decade later by mechanical thrombectomy, &lt;span&gt;in which a blood clot is physically removed from an artery&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;In a standard thrombectomy a surgeon snakes a flexible wire through a small opening in the patient’s groin. This guide wire sets the route for a fine hollow tube around it, the catheter, to travel through the blood vessels to the brain, where instruments remove the clot. Suddenly a stroke was no longer a sentence of profound disability or death but a treatable event.&lt;/p&gt;&lt;p&gt;Yet decades later, thrombectomies remain inherently blind expeditions. The surgeon stands beside the patient, physically pushing these lines up, inch by inch. The only view comes from a live X-ray, which can’t see soft tissues like blood vessels. The surgeon shoots &lt;a href="https://www.scai.org/quality-improvement-tools/qi-tips/practical-techniques-reduce-contrast-volumes-cardiac" target="_blank"&gt;brief puffs&lt;/a&gt; of contrast dye through the catheter to illuminate the path ahead. A nimble operator can avoid scraping or piercing artery walls while bending the guide wire’s rounded tip around corners. But even these left or right turns are not intuitive. The guide wire can twist inside the body, and because the surgeon sees only a flat silhouette, steering it left may actually rotate the guidewire to the right.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="The N1 surgical robot: a long, inclined rail on a metal pedestal, with seven white-and-metal modules along it and a thin wire extending from the left end. Clear tubing hangs below, and a tablet is mounted on the base. " class="rm-shortcode" id="c0127" src="https://spectrum.ieee.org/media-library/the-n1-surgical-robot-a-long-inclined-rail-on-a-metal-pedestal-with-seven-white-and-metal-modules-along-it-and-a-thin-wire-ex.jpg?id=68667058&amp;amp;width=980" /&gt;&lt;small class="image-media media-caption"&gt;The N1 robot feeds the catheter along a rail lined with seven modules, using a thin wire that allows precise control through a patient’s vascular system, even from kilometers away.  &lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Christie Hemm Klok&lt;/small&gt;&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="The N1 surgical robot: a long, inclined rail on a metal pedestal, with seven white-and-metal modules along it and a thin wire extending from the left end. Clear tubing hangs below, and a tablet is mounted on the base. Inset: a close-up of five of the modules." class="rm-shortcode" id="285db" src="https://spectrum.ieee.org/media-library/the-n1-surgical-robot-a-long-inclined-rail-on-a-metal-pedestal-with-seven-white-and-metal-modules-along-it-and-a-thin-wire-ex.jpg?id=68667065&amp;amp;width=980" /&gt;&lt;/p&gt;&lt;p&gt;If all goes as planned, the doctor reaches the brain and pushes instruments through the catheter to dislodge the clot, then carefully pulls everything back out. Bell remembers how thrombectomies felt when he performed them. “I’m one and a half meters away from my catheter tip. I’m not in control of it. I can’t see where the blood vessels are. I thought, what is the ideal way to do these procedures? It’s certainly not what I’m doing now.”&lt;/p&gt;&lt;p&gt;Sganga and Bell want their robots to do two things: see what surgeons can’t see and be&lt;em&gt; &lt;/em&gt;where surgeons can’t be. When I visited Remedy’s office in January, the team showed me their robotic arm and instruments that snap onto it. Motorized cartridges live on the robotic arm, one containing several actuators that use small gears to grip the threadlike instruments to move them in and out of a body. The instruments include a stent, an expandable wire-mesh tube used to pierce, grab, and yank a clot back out. It’s all typical stroke operation equipment—except for the catheter.&lt;/p&gt;&lt;p&gt;Remedy’s catheter is steerable, so it doesn’t need a guide wire to pave its path. Outside the body, a robotic arm advances the catheter while tiny wires tug its leading tip in any direction, as if an inquisitive worm is navigating the narrow branches of a bloodstream. As I maneuver the catheter with the Xbox controller, Bell and Sganga tell me they made wayfinding a priority. Sganga toggles on a CT scan to overlay on the X-ray feed. Suddenly I see the bright three-dimensional routes of blood vessels along a path that had been invisible on X-ray.&lt;/p&gt;&lt;p&gt;I noticed a pattern of small markings on the catheter. Sganga tells me they’re not for the surgeon, but for a computer-vision algorithm that tracks the catheter’s rotation inside the body. If an operator wants to steer right, Remedy’s software automatically translates that intention into the correct action. Instead of squinting at a 2D silhouette on an X-ray and mentally compensating for every twist in the catheter, the surgeon simply toggles to the right on the X-ray image, the Remedy system adjusts, and the catheter moves in the correct direction.&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This system grew out of ideas that Bell and Sganga were pursuing when they met at Stanford in 2019. Already a physician, Bell was completing an MBA and enrolled in a robotics class in hopes of meeting an engineer who might share his interest in creating a medical robot. The professor connected him to Sganga, a bioengineering doctoral student who was developing pathfinding algorithms for an FDA-approved robotic bronchoscope to navigate the lungs.&lt;/p&gt;&lt;p class="pull-quote"&gt;&lt;span&gt;Outside the body, a robotic arm advances the catheter while tiny wires tug its leading tip in any direction, as if an inquisitive worm is navigating the narrow branches of a bloodstream.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Sganga’s engineering work had exposed him to surgical robotics companies that failed because they hadn’t chosen a valuable enough problem to solve. He sought a medical problem where a robot could prove its worth well before human trials, and stroke stood out. “It’s an already verified clinical need,” Sganga says, “Time.” When he and Bell met for coffee, they matched each other’s energy right away: “It was like ‘Hey how you doing?’ and then we were looking at medical images of blood vessels together off of his phone,” Sganga says.&lt;/p&gt;&lt;p&gt;About a year after they both left Stanford, Bell and Sganga rented a two-car garage in Southern California and X-ray-proofed it with lead lining. “We called it the bunker because it had exposed lead on all sides, including the ceiling,” Sganga says. “It was just big enough to fit a bed and this rickety old C-arm [X-ray].” There they test-drove a prototype of their steerable catheter through silicone arteries—first controlling the robot on-site from another room, and then from a laptop hundreds of kilometers away. “We were trying to get an initial sign of life,” Sganga says. “And it was that moment that we realized that this could work.”&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;&lt;h2&gt;Telesurgery’s Second Act&lt;br /&gt;&lt;/h2&gt;&lt;p&gt;Dreams of remote surgery predate modern stroke care. In the 1980s and 1990s, the companies &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10445506/" target="_blank"&gt;Computer Motion&lt;/a&gt; and &lt;a href="https://www.intuitive.com/en-us" target="_blank"&gt;Intuitive&lt;/a&gt; developed bedside robots to assist surgeons. Then, in 2001, French surgeon Jacques Marescaux and Canadian surgeon Michel Gagner &lt;a href="https://spectrum.ieee.org/extending-healthcares-reach" target="_self"&gt;removed a patient’s gallbladder&lt;/a&gt; from more than 6,000 km away. In New York City, Marescaux used a computer connected via high-speed fiber optics to control a Computer Motion robot in Strasbourg, France. The milestone, known as the Lindbergh Operation, was completed safely with no complications.&lt;/p&gt;&lt;p&gt;But telesurgery did not take off after Lindbergh. Instead, companies invested in robots operated by surgeons in the same room. Computer Motion and Intuitive &lt;a href="https://isrg.intuitive.com/news-releases/news-release-details/intuitive-surgical-and-computer-motion-announce-merger-agreement" target="_blank"&gt;merged&lt;/a&gt; in 2003, more companies sprang up, and robotic surgery &lt;a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2758472" target="_blank"&gt;steadily entered&lt;/a&gt; the mainstream. Today thousands of surgical robots operate in hospitals around the country, assisting in roughly &lt;a href="https://www.ucsfhealth.org/health-articles/robotic-surgery-improving-precision-patient-outcomes" target="_blank"&gt;22 percent of surgeries&lt;/a&gt;. In 2023 alone, &lt;a href="https://www.aha.org/aha-center-health-innovation-market-scan/2025-03-04-3-ways-robotic-surgery-changing-health-care-year" target="_blank"&gt;more than 2 million&lt;/a&gt; surgeries were performed with da Vinci, Intuitive’s flagship platform.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Two adult men stand working near the medical robot and a laptop surrounded by monitors showing scans of the circulatory system. " class="rm-shortcode" id="cc4d9" src="https://spectrum.ieee.org/media-library/two-adult-men-stand-working-near-the-medical-robot-and-a-laptop-surrounded-by-monitors-showing-scans-of-the-circulatory-system.jpg?id=68669521&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Remedy mechanical engineer Chris Hapstack [left] and software engineer Campbell Crowley adjust the N1 robot. &lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Christie Hemm Klok&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In the summer of 2025, telesurgery appeared to regain momentum when surgeons near Orlando, Fla., removed the prostate from a man &lt;a href="https://www.adventhealth.com/news/historic-telesurgery-connects-central-florida-and-angola-world-first-medical-breakthrough" target="_blank"&gt;11,000 km away&lt;/a&gt; in Luanda, Angola. Around the same time, Intuitive demonstrated what it called “&lt;a href="https://isrg.intuitive.com/news-releases/news-release-details/intuitive-demonstrates-telesurgery-capabilities" target="_blank"&gt;telecollaboration&lt;/a&gt;,” in which two surgeons on different continents operated together on a tissue model. Meanwhile, India-based SS Innovations has been testing &lt;a href="https://www.medtechdive.com/news/ss-innovations-telesurgery-xcath-robot-treats-stroke-remotely/815522/" target="_blank"&gt;cardiac telesurgery&lt;/a&gt;; in Panama, the Texas-based medical robotics company XCath has tested a steerable guide wire for thrombectomies. These companies are building on advances in computer vision and machine learning, yet remote robotics is hardly a sure bet.&lt;/p&gt;&lt;p&gt;“The first procedures are going to be those procedures where time is critical,” says Brad Nelson, who develops &lt;a href="https://spectrum.ieee.org/magnetic-microbots-to-fight-cancer" target="_self"&gt;surgical robots&lt;/a&gt; at ETH Zurich and is not affiliated with Remedy. Last year, Nelson coauthored &lt;a href="https://www.science.org/doi/10.1126/scirobotics.adq0192" target="_blank"&gt;a report&lt;/a&gt; in &lt;em&gt;&lt;em&gt;Science Robotics&lt;/em&gt;&lt;/em&gt; arguing that telesurgery’s future success hinges on finding emergency operations where patients can’t always reach specialists in time, including stroke, heart attack, and fetal operations.&lt;/p&gt;&lt;p&gt;Surgeries that occur within blood vessels seem an attractive proving ground for teleoperation in emergencies. “If you have a hiccup, the nice thing about vascular procedures is nothing bad can happen other than the thing stops moving,” Nelson says. There’s neither a large open cavity to tend to, nor the urgent choreography one might need in organ transplants. If the surgeon loses connection to the robot while the catheter is inside a blood vessel, the operation can pause in place without damage.&lt;/p&gt;&lt;p&gt;Nelson’s lab is also working on a stroke solution. He has partnered with the Mayo Clinic in Arizona to build microscopic robots—the size of a coffee grain—&lt;a href="https://msrl.ethz.ch/" target="_blank"&gt;steered with magnets&lt;/a&gt; to dissolve a clot.&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;&lt;h2&gt;When Surgery Depends on the Network&lt;br /&gt;&lt;/h2&gt;&lt;p&gt;After preliminary success in the garage, Sganga and Bell turned their focus to the environment where the Remedy N1 would live. Doctors and nurses advised them to improve the live audio-video feed, as any surgery is a coordinated team effort requiring constant communication. They were told to improve setup time, maintenance, cleaning, and began a series of conversations about secure communication and cybersecurity.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Adult man lies next to large medical machines in a dimly-lit room with dark walls and unfinished floors. " class="rm-shortcode" id="08bf7" src="https://spectrum.ieee.org/media-library/adult-man-lies-next-to-large-medical-machines-in-a-dimly-lit-room-with-dark-walls-and-unfinished-floors.jpg?id=68669562&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;In 2021, CEO David Bell naps next to Remedy’s first X-ray machine in a lead-lined garage in Venice, Calif. &lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Remedy Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Absent a cyberattack, the elephant in the room for any telesurgery hopeful is latency. Experts speak about latency, or lag, in terms of how many thousandths of a second it takes for a small packet of data to reach a destination then ping back to its original source. In a major city with strong 5G or fiber-optic internet, latency might measure in the&lt;a href="https://www.verizon.com/about/our-company/5g/5g-latency" target="_blank"&gt; tens of milliseconds&lt;/a&gt;. In rural areas, even in the United States, lag can drag above 100.&lt;/p&gt;&lt;p&gt;Noticeable lag may not be a dealbreaker. When researchers in Japan analyzed &lt;a href="https://link.springer.com/article/10.1007/s10147-025-02874-3" target="_blank"&gt;five years of surgical simulations and demonstrations&lt;/a&gt;, they reported surgeons adapting to the connection speed. They paused. They moved more slowly. Remedy has noticed similar behavior in test runs. “We’ve actually found that operators are quite resilient to latency,” Sganga says.&lt;/p&gt;&lt;p&gt;Still, Remedy targets a round-trip latency of no more than 150 milliseconds, below the average human reaction time of 200 milliseconds. Whenever latency sneaks above that threshold, the system pauses all surgical action. Bell and Sganga say they’ve tailored their system to work with the slower internet speeds common in rural areas that would benefit from better access to stroke care, claiming they recently operated their system from across the Pacific using a mobile hotspot.&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;But sorting out the engineering details raises more questions about how telesurgery might change surgical practice. Bell told me he worries about what a telesurgical future could bring. What if surgeons’ skills erode? What if trainees become dependent on specific platforms? What if two patients need care from the same remote surgeon at the same time? “Is the person suffering a stroke in America necessarily more important than the person suffering a stroke in India? No,” Bell says. “So how do you figure that out? That’s something I think about a lot.”&lt;/p&gt;&lt;h2&gt;Where Telesurgery Could Work Best&lt;br /&gt;&lt;/h2&gt;&lt;p&gt;During a stroke, a blockage in the brain triggers symptoms within seconds or minutes. The following hour is the so-called &lt;a href="https://ruralneuropractice.com/acute-ischemic-stroke-and-the-golden-hour-critical-updates/" target="_blank"&gt;golden period&lt;/a&gt; for saving the brain before the risk of permanent damage grows. “Every minute wasted or delayed, 2 million brain cells are going to die,” says neurologist &lt;a href="https://www.providence.org/doctors/neurology/or/portland/archit-bhatt-1750574547" target="_blank"&gt;Archit Bhatt&lt;/a&gt; of Providence Medical Group in Portland, Oregon. “You really need to act fast.” Yet decades after the advent of thrombectomies, &lt;a href="https://www.cdc.gov/pcd/issues/2025/24_0429.htm" target="_blank"&gt;one in five Americans &lt;/a&gt;lives more than an hour from a hospital that offers the procedure.&lt;/p&gt;&lt;p&gt;Medium and small hospitals often lack the 24-hour surgical team, experience, or equipment for thrombectomies, so they must transfer stroke patients to large hospitals. As a result, standard stroke care is &lt;a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11192062/" target="_blank"&gt;concentrated&lt;/a&gt; in urban areas. For example, &lt;a href="https://cdn.amegroups.cn/static/public/asj-24-45-1.pdf" target="_blank"&gt;Alaska’s only two thrombectomy center&lt;/a&gt;s serving the &lt;a href="https://www.census.gov/quickfacts/fact/table/AK" target="_blank"&gt;739,000 people&lt;/a&gt; who live or work in the state are both in Anchorage, leaving &lt;a href="https://radiologybusiness.com/topics/clinical/stroke/revolutionizing-stroke-care-rural-alaska-ai-and-ct-imaging" rel="noopener noreferrer" target="_blank"&gt;more than half&lt;/a&gt; of residents out of range.&lt;/p&gt;&lt;p&gt;But the places most in need of telesurgery may also be the hardest places to deploy it. For starters, they may not have the high-quality network connections that remote surgery requires. Last June, experts from five major robotic corporations coauthored &lt;a href="https://onlinelibrary.wiley.com/doi/10.1002/wjs.12653" rel="noopener noreferrer" target="_blank"&gt;a list of technical standards&lt;/a&gt; for what they called “surgical-grade networks.”&lt;a href="https://ischool.uw.edu/people/faculty/profile/miketeod" rel="noopener noreferrer" target="_blank"&gt; Mike Teodorescu&lt;/a&gt;, an information systems researcher with the University of Washington, says experts usually consider 100 milliseconds a safe threshold, but his team &lt;a href="https://ieeexplore.ieee.org/document/11266771/" rel="noopener noreferrer" target="_blank"&gt;recently reported&lt;/a&gt; that many rural communities—and even most countries—struggle to meet it.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Seen from behind, a man operates a joystick while looking at scans of the human circulatory system. " class="rm-shortcode" id="1efad" src="https://spectrum.ieee.org/media-library/seen-from-behind-a-man-operates-a-joystick-while-looking-at-scans-of-the-human-circulatory-system.jpg?id=68670193&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Neuroradiologist Hal Rice of the Australian Stroke Alliance remotely operates Remedy’s N1 System.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Remedy Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;And connectivity is only part of the problem. The smallest and most remote hospitals may lack other support needed for thrombectomy, including neurologists, catheterization teams, CT scanners, and specialized intensive care units. “It’s an infrastructure problem,” Teodorescu says.&lt;/p&gt;&lt;p&gt;Medium-size regional hospitals may be a better target. Although they rarely offer thrombectomies, many already have the right support, experience, and patient volume. “There is a window for a thrombectomy center in a reasonably sized town where there is a stable economy,” says neurologist Bhatt.&lt;/p&gt;&lt;p class="pull-quote"&gt;&lt;span&gt;“Every minute wasted or delayed, 2 million brain cells are going to die.”&lt;span&gt;–neurologist Archit Bhatt&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;/span&gt;Telesurgery could do more than bring a distant specialist into the operating room. &lt;a href="https://kikoimedical.com/our-team" target="_blank"&gt;Jasdeep Bahra&lt;/a&gt;, an emergency medicine physician and lecturer in Kilifi, Kenya, worries that telerobotics could concentrate expertise in cities—widening the skill gap between rich cities and poor towns. The thrombectomy access problem is real, Bahra says, but lower income communities might benefit more if a system like Remedy’s could both treat patients and&lt;em&gt; &lt;/em&gt;help train clinicians on-site. Sganga says Bahra’s idea fits Remedy’s mission.&lt;/p&gt;&lt;p&gt;“Digital operating rooms where you have surgeons that are over your shoulder as a mentor,” Bahra says. “If that’s what we’re talking about in telesurgery, that is the future for me.”&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;&lt;h2&gt;Measures of Success&lt;br /&gt;&lt;/h2&gt;&lt;p&gt;If smoothness and precision aren’t clinical outcomes, as Bell told me, what would count as success? One target is safety. In more than &lt;a href="https://www.ahajournals.org/doi/10.1161/STROKEAHA.121.034865" target="_blank"&gt;1 percent&lt;/a&gt; of thrombectomy operations, surgeons unintentionally slice open a blood vessel, a feared and sometimes fatal occurrence that Bell believes robots can prevent.&lt;/p&gt;&lt;p&gt;In September 2025, Bell flew to Toronto for Remedy’s first test in human patients. Ten patients had consented to nonemergency procedures with Remedy’s robot. A neurosurgeon with a laptop would operate on six patients in an adjoining room; two elsewhere in the hospital; and two at an entirely different hospital across town. The Remedy team had experimented for years on silicone models, like the one I test-drove. Tests on lab animals suggested that, compared with a human, their robot collided less often with blood vessels and finished procedures faster.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="A team of humans wearing scrubs and masks stands near screens and large medical equipment obscuring a patient undergoing a robotic procedure." class="rm-shortcode" id="6fe71" src="https://spectrum.ieee.org/media-library/a-team-of-humans-wearing-scrubs-and-masks-stands-near-screens-and-large-medical-equipment-obscuring-a-patient-undergoing-a-robot.jpg?id=68670132&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;Neurosurgeon Vitor Mendes Pereira pilots the N1 system in 2024 for its first in-person robotic procedure, in Toronto. &lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Remedy Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In the run-up to the Toronto procedures, the team measured internet latencies meticulously. Now they could only hope that their results would translate to human patients. “You’re never sure of how that leap is going to look, and it’s actually really hard to test,” Bell says. The night before the first operation, Bell barely slept.&lt;/p&gt;&lt;p&gt;The procedures—recording images called angiograms from within patients’ blood vessels—&lt;a href="https://cdn.prod.website-files.com/67d15a9305182f6c898fd88c/68e12080758a8e7928db9381_3a12fbe662756b34ec6c580db2f9c50e_Remedy%20Robotics%20Launch%20Press%20Release.pdf" target="_blank"&gt;were a success&lt;/a&gt;, and were completed nearly twice as quickly as the current standard. “I cannot explain the relief,” Bell says. Remedy considers speed one measure of success because it can allow doctors to treat more people.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Three white men, one in surgical scrubs, confer over screens showing scans of a human head. " class="rm-shortcode" id="4fdb0" src="https://spectrum.ieee.org/media-library/three-white-men-one-in-surgical-scrubs-confer-over-screens-showing-scans-of-a-human-head.jpg?id=68670083&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;In 2025, neurosurgeon Vitor Mendes Pereira and his team at Unity Health Toronto perform the first fully remote robotic neurointerventional procedures. &lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Remedy Robotics&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A few months after my visit, Remedy announced US $62 million in new funding to support upcoming clinical trials. A portion of that investment came from the University of California system, which will host the clinical studies within a year, according to Bell. Remedy’s first trials will be on-site elective procedures, such as treating unruptured aneurysms, before expanding to remote surgeries in Australia or within the University of California system, near the end of 2027.&lt;/p&gt;&lt;p&gt;Sganga emphasizes that the on-site trials are not just a stepping stone. He’s come to believe that Remedy’s success depends on improving operations even when the surgeon is in the room. “The remote solution—it’s very flashy, it’s very obvious what that patient need is—but in order to get there, we believe you have to solve a meaningful problem on-premise,” he says. “Otherwise, doctors simply won’t use the system, and if they don’t use the system, they’re not going to gain the expertise required to operate remotely.”&lt;/p&gt;&lt;p&gt;The steerable catheter and computer-vision algorithm are two features he claims will improve thrombectomies, remote or not. And as trials ramp up, Sganga says they will look at factors beyond safety and surgical speed. “How quickly are doctors picking up on this new technique? How smoothly are the bedside interactions going? How quickly are folks able to set up the draping and interact with the tools?” he says. Bell has wondered whether to add a photo or video of the patient’s face to the surgeon’s display to preserve the emotional stakes of surgery.&lt;/p&gt;&lt;p&gt;These ambitions draw Bell and Sganga’s 25-person company into uncharted waters. Beyond one-time demonstrations, no robotics company has earned full regulatory approval for telesurgery, and no patient has been operated on remotely in the United States. Remedy hopes to change that. Decades after stroke research conquered the “therapeutic nihilism” that once defined the field, Remedy hopes telesurgery can bring thrombectomy to everyone who needs it, no matter where they might be. &lt;span class="ieee-end-mark"&gt;&lt;/span&gt;&lt;/p&gt;</description>
@@ -2245,13 +1805,6 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <pubDate>Mon, 16 Nov 2026 14:17:00 +0000</pubDate>
     </item>
     <item>
-      <title>‘Stop talking about it and start doing something about it’: Medal of Honor recipient on advocating for mental health</title>
-      <link>https://www.defensenews.com/video/2026/11/16/stop-talking-about-it-and-start-doing-something-about-it-medal-of-honor-recipient-on-advocating-for-mental-health/</link>
-      <description>Medal of Honor recipient Maj. (ret.) Nicholas Dockery talks about how everyday people can make a difference in aiding those around them facing mental health struggles.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/video/2026/11/16/stop-talking-about-it-and-start-doing-something-about-it-medal-of-honor-recipient-on-advocating-for-mental-health/</guid>
-      <pubDate>Mon, 16 Nov 2026 14:17:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Countering China’s College Campus Playbook</title>
       <link>https://thediplomat.com/2026/11/countering-chinas-college-campus-playbook/</link>
       <description>China’s efforts to gain a strategic foothold in universities require responses that establish needed safeguards while preserving the innovative spirit of U.S. higher education.</description>
@@ -2263,13 +1816,6 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <link>https://www.c4isrnet.com/videos/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/</link>
       <description>Developers turn to advancing tech to help troops shoot down incoming small drone threats. Or what about a truck-mounted laser to do the job?</description>
       <guid isPermaLink="false">https://www.c4isrnet.com/videos/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/</guid>
-      <pubDate>Mon, 16 Nov 2026 14:18:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Drone, meet bullet — companies develop new counter UAS capability | Business of Defense – Part 3</title>
-      <link>https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/</link>
-      <description>Developers turn to advancing tech to help troops shoot down incoming small drone threats. Or what about a truck-mounted laser to do the job?</description>
-      <guid isPermaLink="false">https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/</guid>
       <pubDate>Mon, 16 Nov 2026 14:18:00 +0000</pubDate>
     </item>
     <item>
@@ -2331,13 +1877,6 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <pubDate>Mon, 16 Nov 2026 15:00:10 +0000</pubDate>
     </item>
     <item>
-      <title>7 Tips For Complying with CJIS Password and MFA Requirements</title>
-      <link>https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/</link>
-      <description>The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to meet these requirements, block compromised passwords, and maintain compliance. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/</guid>
-      <pubDate>Mon, 16 Nov 2026 15:01:11 +0000</pubDate>
-    </item>
-    <item>
       <title>Perpetual Peace, Strategic Power: Why Europe Must Tie Its Own Hands</title>
       <link>https://www.geopoliticalmonitor.com/why-europe-must-tie-its-own-hands/</link>
       <description>&lt;p&gt;In ten days of October, the EU launched an Arctic strategy, a second round of SAFE defence loans, and a closer association with Canada.&lt;/p&gt;
@@ -2346,7 +1885,7 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <pubDate>Mon, 16 Nov 2026 15:12:31 +0000</pubDate>
     </item>
     <item>
-      <title>Serbia's Parliament To Meet For First Time Since Opposition's Landslide Election Victory</title>
+      <title>Serbia's Student List Sworn In As Lawmakers In Parliament</title>
       <link>https://www.rferl.org/a/serbia-parliament-student-list-opposition-vucic/33899684.html</link>
       <description>Three weeks after winning a landslide election victory, Serbia's Student List opposition movement gets to flex its new political muscles as the country's parliament meets for the first time on November 17.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/serbia-parliament-student-list-opposition-vucic/33899684.html</guid>
@@ -2358,13 +1897,6 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <description>“We are dying a slow death… we are being strangled by the dragon, slowly but surely,” Sikyong Penpa Tsering, the head of Tibet's government-in-exile, says.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/11/tibets-top-elected-leader-on-repression-reincarnation-and-the-future-for-tibetans/</guid>
       <pubDate>Mon, 16 Nov 2026 15:33:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fandango says hackers stole payment card details from checkout pages</title>
-      <link>https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/</link>
-      <description>Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/</guid>
-      <pubDate>Mon, 16 Nov 2026 15:44:21 +0000</pubDate>
     </item>
     <item>
       <title>The Navy Needs a New Frigate. Six Foreign Warships Are in the Running</title>
@@ -2739,12 +2271,33 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <pubDate>Mon, 16 Nov 2026 23:33:40 +0000</pubDate>
     </item>
     <item>
+      <title>Strengthening NATO and allied cyber defenses with AI</title>
+      <link>https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</link>
+      <description>How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.</description>
+      <guid isPermaLink="false">https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>First F-15EXs Arrive At Kadena Air Base In Japan, 25 Now Delivered To The USAF</title>
       <link>https://www.twz.com/air/first-f-15exs-arrive-in-okinawa-25-now-delivered-to-the-usaf</link>
       <description>&lt;p&gt;The arrival of combat-coded F-15EXs in Japan is the first permanent deployment of the USAF's newest fighter outside the United States.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/air/first-f-15exs-arrive-in-okinawa-25-now-delivered-to-the-usaf"&gt;First F-15EXs Arrive At Kadena Air Base In Japan, 25 Now Delivered To The USAF&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/air/first-f-15exs-arrive-in-okinawa-25-now-delivered-to-the-usaf</guid>
       <pubDate>Tue, 17 Nov 2026 00:26:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Despite the ‘Donroe Doctrine,’ China Is Still Gaining Ground in Latin America</title>
+      <link>https://thediplomat.com/2026/11/despite-the-donroe-doctrine-china-is-still-gaining-ground-in-latin-america/</link>
+      <description>The Trump administration's threats have not pushed the region to distance itself from China. In fact, they may have had the opposite effect.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/11/despite-the-donroe-doctrine-china-is-still-gaining-ground-in-latin-america/</guid>
+      <pubDate>Tue, 17 Nov 2026 00:32:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>China’s Premier Denounces Protectionism, Hails ‘Extraordinary’ State of Relations With ASEAN</title>
+      <link>https://thediplomat.com/2026/11/chinas-premier-denounces-protectionism-hails-extraordinary-state-of-relations-with-asean/</link>
+      <description>Li Qiang's comments to ASEAN leaders were tailored to the region's main concerns about the trajectory of U.S. foreign policy under President Donald Trump.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/11/chinas-premier-denounces-protectionism-hails-extraordinary-state-of-relations-with-asean/</guid>
+      <pubDate>Tue, 17 Nov 2026 00:45:00 +0000</pubDate>
     </item>
     <item>
       <title>Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught (Updated)</title>
@@ -2762,12 +2315,11 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <pubDate>Tue, 17 Nov 2026 01:17:58 +0000</pubDate>
     </item>
     <item>
-      <title>Kerch Bridge Struck For The Second Time In Less Than 24 Hours: Russia</title>
-      <link>https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia</link>
-      <description>&lt;p&gt;Any new damage to the critical span connecting Russia and Crimea is unclear, but Ukraine rapidly retargeting the damaged area again was all but a given.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia"&gt;Kerch Bridge Struck For The Second Time In Less Than 24 Hours: Russia&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia</guid>
-      <pubDate>Tue, 17 Nov 2026 01:24:43 +0000</pubDate>
+      <title>The Rohingya Genocide Case at the ICJ: International Justice at a Crossroad</title>
+      <link>https://thediplomat.com/2026/11/the-rohingya-genocide-case-at-the-icj-international-justice-at-a-crossroad/</link>
+      <description>Each possible outcome of the case has different legal consequences and implications for survivors. But none would erase what was inflicted on the Rohingya.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/11/the-rohingya-genocide-case-at-the-icj-international-justice-at-a-crossroad/</guid>
+      <pubDate>Tue, 17 Nov 2026 02:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)</title>
@@ -2776,11 +2328,219 @@ In tandem, threat actors are leveraging the power and capabilities of large lang
       <pubDate>Tue, 17 Nov 2026 02:05:15 +0000</pubDate>
     </item>
     <item>
-      <title>Optimizely supply chain attack infects major brands' sites with malware</title>
-      <link>https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/</link>
+      <title>Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware</title>
+      <link>https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/</link>
       <description>A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/</guid>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/</guid>
       <pubDate>Tue, 17 Nov 2026 02:12:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners</title>
+      <link>https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html</link>
+      <description>N-able has released a new security update to address additional critical security flaws impacting N-central.
+
+Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform.
+
+"HF3 builds on the</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html</guid>
+      <pubDate>Tue, 17 Nov 2026 05:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russia’s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine</title>
+      <link>https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia</link>
+      <description>&lt;p&gt;Imagery that has come after sun-up has confirmed that Ukraine has finally succeeded in dropping a major section of the Kerch Strait Bridge.  &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia"&gt;Russia&amp;#8217;s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia</guid>
+      <pubDate>Tue, 17 Nov 2026 06:03:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems</title>
+      <link>https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html</link>
+      <description>ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.
+
+The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html</guid>
+      <pubDate>Tue, 17 Nov 2026 06:29:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors</title>
+      <link>https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html</link>
+      <description>An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.
+
+Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run.
+
+The code was built to</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html</guid>
+      <pubDate>Tue, 17 Nov 2026 07:12:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ransomware affiliate suspect extradited to US, faces 27 years in prison</title>
+      <link>https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/</link>
+      <description>A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/</guid>
+      <pubDate>Tue, 17 Nov 2026 07:25:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1</title>
+      <link>https://securelist.com/operation-shadowcloud-gitdoor/122004/</link>
+      <description>In part 1 of our analysis of the recently uncovered Operation ShadowCloud, we discuss the initial infection stage, the GitDoor backdoor using GitHub as a C2, and the shellcode families it loads.</description>
+      <guid isPermaLink="false">https://securelist.com/operation-shadowcloud-gitdoor/122004/</guid>
+      <pubDate>Tue, 17 Nov 2026 08:00:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 2</title>
+      <link>https://securelist.com/operation-shadowcloud-graphdoor/122005/</link>
+      <description>In part 2 of our analysis of the recently uncovered Operation ShadowCloud, we discuss the GraphDoor backdoor, additional plug-ins, and technical attribution.</description>
+      <guid isPermaLink="false">https://securelist.com/operation-shadowcloud-graphdoor/122005/</guid>
+      <pubDate>Tue, 17 Nov 2026 08:00:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Russia's Infamous Gold-Mining Region, A Ready Supply Of Men For Ukraine War</title>
+      <link>https://www.rferl.org/a/russia-war-casualties-gold-manpower-ukraine/33899795.html</link>
+      <description>Before he signed up to fight in Ukraine, Denis Dmitriyev served time for robbing another gold-mining laborer in Kolyma. He is one of at least 20 men from the legendarily harsh Russian gold-mining region in war who have been killed in the war. Nearly all were convicted criminals or chronic debtors.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/russia-war-casualties-gold-manpower-ukraine/33899795.html</guid>
+      <pubDate>Tue, 17 Nov 2026 08:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>French troops operating in non-combat roles in Ukraine, broadcaster RFI reports</title>
+      <link>https://www.defensenews.com/global/europe/2026/11/17/french-troops-operating-in-non-combat-roles-in-ukraine-broadcaster-rfi-reports/</link>
+      <description>The troops are part of a structure called Volia, after a Ukrainian word that can be translated as “will” or “freedom,” the French state-owned international news radio said on Monday.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/11/17/french-troops-operating-in-non-combat-roles-in-ukraine-broadcaster-rfi-reports/</guid>
+      <pubDate>Tue, 17 Nov 2026 08:07:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Military Strategic Drivers Behind China’s Nuclear Expansion</title>
+      <link>https://warontherocks.com/the-military-strategic-drivers-behind-chinas-nuclear-expansion/</link>
+      <description>&lt;p&gt;In June 1993, a group of Second Artillery Corps senior leaders gathered at the Jiuquan Satellite Launch Center. The organizers brought Li Xuge, recently retired commander of the Second Artillery, as a special guest for the event. Li had watched the Second Artillery develop from its infancy to this day, when China finally tested a ballistic missile capable of striking anywhere within the United States. However, Li had received significant pushback on the program in the years prior to this launch. &amp;#160;In the early 1990s, China&amp;#8217;s military strategy was shifting to focus on war with Taiwan. In that environment, senior&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/the-military-strategic-drivers-behind-chinas-nuclear-expansion/"&gt;The Military Strategic Drivers Behind China’s Nuclear Expansion&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/the-military-strategic-drivers-behind-chinas-nuclear-expansion/</guid>
+      <pubDate>Tue, 17 Nov 2026 08:30:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Uber notifies drivers of data breach affecting nearly 150,000 people</title>
+      <link>https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/</link>
+      <description>Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/</guid>
+      <pubDate>Tue, 17 Nov 2026 08:35:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>A More Turkish Middle East?</title>
+      <link>https://www.foreignaffairs.com/turkey/more-turkish-middle-east</link>
+      <description>Ankara’s risky bid to impose regional order.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/turkey/more-turkish-middle-east</guid>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is China Misreading the Moment?</title>
+      <link>https://www.foreignaffairs.com/united-states/china-misreading-moment</link>
+      <description>When U.S. President Donald Trump lands in Shenzhen later this week for the Asia-Pacific Economic Cooperation summit, he will sit down with Chinese leader Xi Jinping for the fourth time amid an unexpected détente between Washington and Beijing. The trade war of 2025 is in abeyance, the two governments have announced a relationship of “constructive strategic stability,” and, to the alarm of American allies, Trump and Xi are planning to meet with Russian President Vladimir Putin. Beneath the surface, however, the détente is beginning to crack.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/china-misreading-moment</guid>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine</title>
+      <link>https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine/</link>
+      <description>&lt;p&gt;In 2026, Germany is spending a record &amp;#8364;125 billion on defense, second only to the United States among NATO allies, and its core defense budget is set to reach &amp;#8364;170 billion by 2029. Its military strategy promises Europe&amp;#8217;s strongest conventional army by 2039 with a technologically superior and innovative Bundeswehr, Germany&amp;#8217;s armed forces.German startups and &amp;#8220;neo-primes&amp;#8221; &amp;#8212; venture-backed defense companies built to compete with established primes &amp;#8212; demonstrate, most visibly in Ukraine, that money can become capability quickly and cheaply. Much of that proof is paid for by Berlin: Germany is Ukraine&amp;#8217;s second-largest bilateral donor and finances the drones that&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine/"&gt;Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine/</guid>
+      <pubDate>Tue, 17 Nov 2026 09:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Crimea Bridge Critically Damaged As Ukraine, Russia Exchange Strikes</title>
+      <link>https://www.rferl.org/a/russia-ukraine-trade-strikes-on-key-bridges/33900167.html</link>
+      <description>Ukrainian drones struck the key Crimea Bridge used by Russia as a crucial supply route linking the Russian-annexed Crimean Peninsula with mainline Russia on November 17, damaging it substantially.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/russia-ukraine-trade-strikes-on-key-bridges/33900167.html</guid>
+      <pubDate>Tue, 17 Nov 2026 09:34:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Court clears brothers of $25 million Ethereum crypto heist charges</title>
+      <link>https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/</link>
+      <description>US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/</guid>
+      <pubDate>Tue, 17 Nov 2026 09:44:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>A phishing page interested in MX records, (Tue, Nov 17th)</title>
+      <link>https://isc.sans.edu/diary/rss/33526</link>
+      <description>I&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xe2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x80&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x99&amp;#x3b;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xe2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x80&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x9c&amp;#x3b;generic&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xe2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x80&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x9d&amp;#x3b; phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past few weeks, when a message that, at first glance, appeared to be a fairly ordinary attempt at stealing e-mail credentials turned out to lead to a page interested in collecting a little more information than just the victim&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s password.&amp;#xd;</description>
+      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33526</guid>
+      <pubDate>Tue, 17 Nov 2026 10:56:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kosovo's Former President Thaci Found Guilty Of Obstructing Justice In War Crimes Trial</title>
+      <link>https://www.rferl.org/a/kosovo-thaci-sentenced-prison-guilty/33900279.html</link>
+      <description>An international tribunal in The Hague has found former Kosovo Liberation Army (KLA) commander and later Kosovar President Hashim Thaci guilty of obstruction of justice and sentenced him to 17 months in jail.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/kosovo-thaci-sentenced-prison-guilty/33900279.html</guid>
+      <pubDate>Tue, 17 Nov 2026 10:59:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Super Intelligence Task Force should open the door to defenders</title>
+      <link>https://cyberscoop.com/super-intelligence-task-force-cybersecurity-defenders-op-ed/</link>
+      <description>&lt;p&gt;Artificial intelligence models now find software vulnerabilities faster than organizations can fix them. In HackerOne’s platform data, the valid report backlog is up 131% over the last two years, and critical and high-severity findings are rising while remediation falls further behind. Finding flaws is no longer the hard part. The harder question will decide the [&amp;#8230;]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/super-intelligence-task-force-cybersecurity-defenders-op-ed/"&gt;The Super Intelligence Task Force should open the door to defenders&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/super-intelligence-task-force-cybersecurity-defenders-op-ed/</guid>
+      <pubDate>Tue, 17 Nov 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks</title>
+      <link>https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html</link>
+      <description>Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.
+
+The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access.
+
+"Before granting an app such</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html</guid>
+      <pubDate>Tue, 17 Nov 2026 11:07:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft testing Remote Lock for lost or stolen Windows devices</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/</link>
+      <description>Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/</guid>
+      <pubDate>Tue, 17 Nov 2026 11:19:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels</title>
+      <link>https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html</link>
+      <description>Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).
+
+The activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html</guid>
+      <pubDate>Tue, 17 Nov 2026 11:20:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>New pact positions the Philippines as a defense hub for Australian troops</title>
+      <link>https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/</link>
+      <description>Top officials from Australia and the Philippines have inked a defense pact to accelerate military coordination, paving the way for rotational troop deployment and Australian investments in Philippine military infrastructure.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/</guid>
+      <pubDate>Tue, 17 Nov 2026 11:29:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wider Europe Briefing: An EU-Western Balkans Summit And A Tough Year Ahead For EU Hopefuls</title>
+      <link>https://www.rferl.org/a/wider-europe-briefing-jozwiak-western-balkans-enlargement/33899782.html</link>
+      <description>Is the EU sharpening its language on Serbia ahead of the Western Balkan summit?</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/wider-europe-briefing-jozwiak-western-balkans-enlargement/33899782.html</guid>
+      <pubDate>Tue, 17 Nov 2026 11:34:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission</title>
+      <link>https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html</link>
+      <description>A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped "Don't Allow" on the microphone prompt.
+
+The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks.
+
+Nik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html</guid>
+      <pubDate>Tue, 17 Nov 2026 12:14:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap</title>
+      <link>https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html</link>
+      <description>Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.
+
+In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html</guid>
+      <pubDate>Tue, 17 Nov 2026 12:25:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
