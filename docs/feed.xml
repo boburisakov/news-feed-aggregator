@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 03:01:11 +0000</lastBuildDate>
-    <item>
-      <title>The civilian office overseeing special operations forces could get $45 million budget, 100 staffers</title>
-      <link>https://www.defenseone.com/policy/2026/11/civilian-office-overseeing-special-operations-forces-could-get-45-million-budget-100-staffers/417234/</link>
-      <description>Hegseth’s proposed changes hinge on getting support from Congress.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/policy/2026/11/civilian-office-overseeing-special-operations-forces-could-get-45-million-budget-100-staffers/417234/</guid>
-      <pubDate>Sun, 15 Nov 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Skydio Built a Lopsided Drone</title>
-      <link>https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone</link>
-      <description>&lt;img src="https://spectrum.ieee.org/media-library/an-asymmetrical-drone-flies-above-a-rural-road-and-farmland.jpg?id=68671751&amp;amp;width=1200&amp;amp;height=400&amp;amp;coordinates=0%2C596%2C0%2C596" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Skydio’s drones have always been magical. From &lt;a href="https://www.youtube.com/watch?v=kM3BPixFVq0" rel="noopener noreferrer" target="_blank"&gt;MIT research&lt;/a&gt; and &lt;a href="https://spectrum.ieee.org/skydio-camera-drone-autonomous-flying" target="_self"&gt;early prototypes&lt;/a&gt; to what I would argue is &lt;a href="https://spectrum.ieee.org/skydio-2-review-this-is-the-drone-you-want-to-fly" target="_self"&gt;still the most advanced consumer drone ever made&lt;/a&gt;, this is a company that makes very cool stuff. Sadly, Skydio &lt;a href="https://spectrum.ieee.org/skydio-drone-not-for-consumers" target="_self"&gt;no longer makes cool stuff for consumers&lt;/a&gt;, instead focusing on drone platforms for public safety, inspection, and other things that, on a good day, don’t affect me personally.&lt;/p&gt;&lt;p&gt;Even so, a new drone from Skydio is worth paying attention to, especially when it’s as weird as this one—the &lt;a href="https://www.skydio.com/f10" rel="noopener noreferrer" target="_blank"&gt;F10 Lightrunner&lt;/a&gt; is a fixed-wing camera drone designed for autonomous deployment and high-speed flight, all while looking so lopsided that it’s surprising that it can actually fly.&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-youtube"&gt; &lt;span class="rm-shortcode" style="display: block; padding-top: 56.25%;"&gt;&lt;/span&gt; &lt;/p&gt;&lt;h2&gt;The benefits of asymmetrical aircraft&lt;/h2&gt;&lt;p&gt;There’s a short rabbit hole you can go down if you start looking for other examples of asymmetrical aircraft. In the 1990s, legendary aircraft designer Burt Rutan and his company &lt;a href="https://scaled.com/" rel="noopener noreferrer" target="_blank"&gt;Scaled Composites&lt;/a&gt; built some decidedly odd airplanes, including the &lt;a href="https://aerocrafted.com/blogs/edc-tools/the-rutan-boomerang" rel="noopener noreferrer" target="_blank"&gt;Model 202 Boomerang&lt;/a&gt;. But perhaps the most famous asymmetrical aircraft was the &lt;a href="https://en.wikipedia.org/wiki/Blohm_%26_Voss_BV_141#Design" rel="noopener noreferrer" target="_blank"&gt;Blohm &amp; Voss BV 141&lt;/a&gt;, a World War II-era reconnaissance plane that featured an engine in the middle alongside a crew compartment alarmingly offset out onto the right wing. The unique design was intended to give the crew the best possible view for reconnaissance missions, because in a typical single-engine aircraft, the crew sits right behind the engine, limiting forward visibility.&lt;/p&gt;&lt;p&gt;Nearly 90 years later, the Skydio F10 is applying a similar philosophy to fixed-wing reconnaissance drones, which typically track targets by flying around them in circles. “While turning at low altitudes, it becomes very hard to avoid occluding a camera with a wing or a tail,” explains &lt;a href="https://www.linkedin.com/in/agoessling/" rel="noopener noreferrer" target="_blank"&gt;Andrew Goessling&lt;/a&gt;, director of engineering at Skydio. “So we were analyzing a lot of these use cases, and one of our engineers just blurted out, ‘What if we put the camera on the wingtip?’ And that’s where it all started, because as long as you only turn left, a lot of these problems just go away.”&lt;/p&gt;&lt;p&gt;Of course, putting the camera on the F10’s wingtip creates a bunch of new problems, chief among them that the aircraft is no longer balanced. Not only is the camera payload fairly heavy relative to the total mass of the drone, but its bulk also creates greater drag. This is why the seemingly straightforward solution of putting something else (like a battery) on the other wingtip to rebalance the drone isn’t practical, says Goessling. “The issue there is that the camera represents a substantial portion of the total aircraft drag, so putting something else on the other wing would cut your flight time nearly in half.”&lt;/p&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image"&gt; &lt;img alt="Closeup of a drone in the air" class="rm-shortcode" id="4eeef" src="https://spectrum.ieee.org/media-library/closeup-of-a-drone-in-the-air.jpg?id=68671788&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The F10’s wing-mounted camera payload necessitated asymmetrical wings and uneven motor placement.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Skydio&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Goessling points out that there’s nothing inherently &lt;em&gt;&lt;em&gt;bad&lt;/em&gt;&lt;/em&gt; about an asymmetric design like the F10; it just makes the life of engineers either a little more difficult or a little more exciting, depending on your perspective. “There were really two challenges here: What is the optimal design for an aircraft with a wingtip camera, and then once you have the design, how are you going to control it?” &lt;/p&gt;&lt;p&gt;Any fixed-wing aircraft design has to consider three factors: distribution of mass, how thrust is distributed between the motors, and how the shape and location of the wings affect the aircraft’s aerodynamics. Once Skydio decided on their requirements for the F10—including the wingtip camera, two motors to enable controllable hovering for takeoff and landing, and a high top speed and long flight time—the engineers used a modeling-and-optimization approach to explore design options. The resulting aircraft compensates for the wing-mounted camera payload by extending just that wing to provide more lift on that side, and repositioning the motors asymmetrically to balance thrust against the added drag of the camera.&lt;/p&gt;&lt;h2&gt;Maneuvering with MegaDock&lt;/h2&gt;&lt;p class="shortcode-media shortcode-media-rebelmouse-image rm-float-left rm-resized-container rm-resized-container-25" style="float: left;"&gt; &lt;img alt="Two photos show an asymmetrical drone hovering over, and then inside a large docking station which also charges other drones." class="rm-shortcode" id="47768" src="https://spectrum.ieee.org/media-library/two-photos-show-an-asymmetrical-drone-hovering-over-and-then-inside-a-large-docking-station-which-also-charges-other-drones.jpg?id=68671810&amp;amp;width=980" /&gt; &lt;small class="image-media media-caption"&gt;The MegaDock can autonomously launch, recover, and recharge up to five F10 drones using a robot arm to grab them out of the air.&lt;/small&gt;&lt;small class="image-media media-photo-credit"&gt;Skydio&lt;/small&gt;&lt;/p&gt;&lt;p&gt;An added challenge was getting the F10 to launch and recover with a robot arm, using a storage, charging, and deployment system called the MegaDock. That requires the drone to transition from hover to forward flight and then back again—a particularly difficult trick for a flying wing with no tail control surfaces (movable parts of the wing used to steer the aircraft). The F10 uses model predictive control (a control technique based on a detailed physics model of the robot) to accomplish this autonomously, and a single control policy can handle the robot all the way through its entire flight envelope, from a stationary hover to its maximum flight speed of 100 miles per hour. In other words, there’s no “hover mode” or “flight mode,” so the mission planner just tells the drone where it needs to be, and the drone will know how to get itself there.&lt;/p&gt;&lt;p&gt;In operation, Skydio’s MegaDock can handle up to five F10s, allowing for continuous flight operations with three drones while two recharge. The entire system is fully autonomous, with humans only needed for remote supervisory control, communicating with the F10 via dual 5G cellular modems. Maximum flight time is 2 hours, and the aircraft is equipped with the same kind of magical obstacle-dodging camera setup as Skydio’s quadrotor drones. If something goes seriously wrong, an integrated parachute in the F10’s butt will deploy, lowering the drone to the ground gently enough to safely fly over people.&lt;/p&gt;&lt;p&gt;Goessling is the first to acknowledge that the F10 Lightrunner is an unconventional design, but he’s proud of what he and his team have come up with as a commercially viable solution to the occlusion issue with other fixed-wing drones. “It looks weird, and we got some pushback from some of the less technical parts of the company,” Goessling says. “If there were less crazy ways of doing it, we would have pursued them. But we have the data. We have sound reasons for every decision we’ve made. And the outcome at the end was well worth it.”&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone</guid>
-      <pubDate>Sun, 15 Nov 2026 14:00:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>YARA-X 1.23.0 Release, (Sun, Nov 15th)</title>
-      <link>https://isc.sans.edu/diary/rss/33496</link>
-      <description>YARA-X&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.&amp;#xd;</description>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33496</guid>
-      <pubDate>Sun, 15 Nov 2026 18:17:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>The military needs strategic thinkers, not just operators</title>
-      <link>https://www.defenseone.com/ideas/2026/11/military-strategic-thinkers-hegseth-education/417238/</link>
-      <description>Secretary Hegseth's "reforms" miss the purpose of military education: learning to deter conflict and translate military power into enduring political advantage.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/ideas/2026/11/military-strategic-thinkers-hegseth-education/417238/</guid>
-      <pubDate>Sun, 15 Nov 2026 18:41:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iraqi PM’s crackdown on oil smuggling raises tensions with Kataib Hezbollah</title>
-      <link>https://www.longwarjournal.org/archives/2026/11/iraqi-pms-crackdown-on-oil-smuggling-raises-tensions-with-kataib-hezbollah.php</link>
-      <description>&lt;p&gt;Iraqi Prime Minister Ali al Zaidi launched a crackdown on alleged oil smuggling in Jurf al Sakhar, a stronghold of the Kataib Hezbollah militia, dismissing senior officials and preparing for a possible security intervention. The escalating confrontation comes amid broader efforts by the Iraqi government to assert state authority over Iran-backed militias and bring their weapons under government control.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/11/iraqi-pms-crackdown-on-oil-smuggling-raises-tensions-with-kataib-hezbollah.php"&gt;Iraqi PM&amp;#8217;s crackdown on oil smuggling raises tensions with Kataib Hezbollah&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/11/iraqi-pms-crackdown-on-oil-smuggling-raises-tensions-with-kataib-hezbollah.php</guid>
-      <pubDate>Sun, 15 Nov 2026 22:24:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)</title>
-      <link>https://isc.sans.edu/diary/rss/33520</link>
-      <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33520</guid>
-      <pubDate>Mon, 16 Nov 2026 02:00:05 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Nov 2026 11:38:01 +0000</lastBuildDate>
     <item>
       <title>A USB worm’s second life: Retadup spreading CoffeeLoader</title>
       <link>https://securelist.com/retadup-delivers-coffeeloader/121908/</link>
@@ -64,13 +22,6 @@
 &lt;p&gt;The post &lt;a href="https://warontherocks.com/the-limits-of-quiet-resignation-from-the-u-s-military/"&gt;The Limits of Quiet Resignation from the U.S. Military&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://warontherocks.com/the-limits-of-quiet-resignation-from-the-u-s-military/</guid>
       <pubDate>Mon, 16 Nov 2026 08:30:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>LVMH’s Media Division announces strategic partnership with OpenAI</title>
-      <link>https://openai.com/index/lvmh-media-division-partnership</link>
-      <description>LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.</description>
-      <guid isPermaLink="false">https://openai.com/index/lvmh-media-division-partnership</guid>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
       <title>China Doesn’t Want a Nuclear Arms Race</title>
@@ -218,13 +169,6 @@
       <pubDate>Mon, 16 Nov 2026 15:12:31 +0000</pubDate>
     </item>
     <item>
-      <title>Serbia's Student List Sworn In As Lawmakers In Parliament</title>
-      <link>https://www.rferl.org/a/serbia-parliament-student-list-opposition-vucic/33899684.html</link>
-      <description>Three weeks after winning a landslide election victory, Serbia's Student List opposition movement gets to flex its new political muscles as the country's parliament meets for the first time on November 17.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/serbia-parliament-student-list-opposition-vucic/33899684.html</guid>
-      <pubDate>Mon, 16 Nov 2026 15:21:57 +0000</pubDate>
-    </item>
-    <item>
       <title>The Navy Needs a New Frigate. Six Foreign Warships Are in the Running</title>
       <link>https://sofrep.com/news/navy-foreign-frigate-plan/</link>
       <description>The Navy is looking at six frigates designed in Britain, Spain, Italy, Turkey, South Korea and Japan. The plan to buy one missed its White House deadline, Congress has drafted limits on foreign-built warships, and the acting Navy secretary faces senators Nov. 17. #USNavy #Frigate #Shipbuilding #AUKUS #Iran #DefenseTech</description>
@@ -286,13 +230,6 @@
       <description>Russian records show 110,000 Swiss sniper rounds arrived after the invasion of Ukraine, by way of a Slovenian dealer and two Kyrgyz hunting shops. Two weeks later, Swiss voters decide whether to loosen the export rules, and America is part of the reason. #Switzerland #Russia #Ukraine #Sanctions #Sniper #SmallArms</description>
       <guid isPermaLink="false">https://sofrep.com/news/swiss-sniper-ammo-russia/</guid>
       <pubDate>Mon, 16 Nov 2026 17:00:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Iranian Top Cleric Visits Bosnia As Tehran Seeks Opening To Europe</title>
-      <link>https://www.rferl.org/a/33899774.html</link>
-      <description>A senior Iranian cleric who briefly helped exercise the powers of Iran's supreme leader following the death of Ayatollah Ali Khamenei has visited Sarajevo, urging European countries to distance themselves from US and Israeli policies toward Tehran.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/33899774.html</guid>
-      <pubDate>Mon, 16 Nov 2026 17:09:18 +0000</pubDate>
     </item>
     <item>
       <title>Thirty years of progress, lost at sea</title>
@@ -376,14 +313,6 @@
       <description>China, Vietnam, and North Korea offer more than diplomatic support against U.S. pressure – they offer different models for keeping one-party rule intact.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/11/cubas-communist-allies-in-asia/</guid>
       <pubDate>Mon, 16 Nov 2026 20:48:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Commerce moves to place new restrictions on sale of AI chips abroad</title>
-      <link>https://cyberscoop.com/commerce-ai-chip-export-restrictions/</link>
-      <description>&lt;p&gt;An interim final rule would place significantly more scrutiny on AI chip sales to third-party data centers abroad.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://cyberscoop.com/commerce-ai-chip-export-restrictions/"&gt;Commerce moves to place new restrictions on sale of AI chips abroad&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://cyberscoop.com/commerce-ai-chip-export-restrictions/</guid>
-      <pubDate>Mon, 16 Nov 2026 21:13:49 +0000</pubDate>
     </item>
     <item>
       <title>U.S. Army Now Wants Concrete Bunkers For Troops In Israel, Saudi Arabia And Lebanon</title>
@@ -505,17 +434,6 @@
       <pubDate>Tue, 17 Nov 2026 02:05:15 +0000</pubDate>
     </item>
     <item>
-      <title>N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners</title>
-      <link>https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html</link>
-      <description>N-able has released a new security update to address additional critical security flaws impacting N-central.
-
-Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform.
-
-"HF3 builds on the</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html</guid>
-      <pubDate>Tue, 17 Nov 2026 05:00:34 +0000</pubDate>
-    </item>
-    <item>
       <title>Russia’s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine</title>
       <link>https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia</link>
       <description>&lt;p&gt;Imagery that has come after sun-up has confirmed that Ukraine has finally succeeded in dropping a major section of the Kerch Strait Bridge.  &lt;/p&gt;
@@ -531,31 +449,11 @@ Describing N-central 2026.4 Hotfix 3 as a critical security update, the company 
       <pubDate>Tue, 17 Nov 2026 06:21:00 +0000</pubDate>
     </item>
     <item>
-      <title>ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems</title>
-      <link>https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html</link>
-      <description>ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.
-
-The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled and</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html</guid>
-      <pubDate>Tue, 17 Nov 2026 06:29:27 +0000</pubDate>
-    </item>
-    <item>
       <title>Positive Growth, Negative Vibes: The Disconnect in the Indonesian Economy</title>
       <link>https://thediplomat.com/2026/11/positive-growth-negative-vibes-the-disconnect-in-the-indonesian-economy/</link>
       <description>Despite a whirlwind of economic challenges, GDP is up, and big listed firms continue to book large profits.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/11/positive-growth-negative-vibes-the-disconnect-in-the-indonesian-economy/</guid>
       <pubDate>Tue, 17 Nov 2026 06:33:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors</title>
-      <link>https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html</link>
-      <description>An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.
-
-Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run.
-
-The code was built to</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html</guid>
-      <pubDate>Tue, 17 Nov 2026 07:12:13 +0000</pubDate>
     </item>
     <item>
       <title>Introducing ChatGPT for Sales</title>
@@ -637,13 +535,6 @@ The code was built to</description>
       <pubDate>Tue, 17 Nov 2026 09:34:46 +0000</pubDate>
     </item>
     <item>
-      <title>Court clears brothers of $25 million Ethereum crypto heist charges</title>
-      <link>https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/</link>
-      <description>US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/</guid>
-      <pubDate>Tue, 17 Nov 2026 09:44:22 +0000</pubDate>
-    </item>
-    <item>
       <title>A phishing page interested in MX records, (Tue, Nov 17th)</title>
       <link>https://isc.sans.edu/diary/rss/33526</link>
       <description>I&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xe2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x80&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x99&amp;#x3b;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xe2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x80&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x9c&amp;#x3b;generic&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xe2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x80&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;x9d&amp;#x3b; phishing messages in detail from time to time, since some of them might prove not to be as generic as they initially appear. I came across a good example of this while going over phishing messages delivered to our handler inbox over the past few weeks, when a message that, at first glance, appeared to be a fairly ordinary attempt at stealing e-mail credentials turned out to lead to a page interested in collecting a little more information than just the victim&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s password.&amp;#xd;</description>
@@ -664,33 +555,6 @@ The code was built to</description>
 &lt;p&gt;The post &lt;a href="https://cyberscoop.com/super-intelligence-task-force-cybersecurity-defenders-op-ed/"&gt;The Super Intelligence Task Force should open the door to defenders&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://cyberscoop.com/super-intelligence-task-force-cybersecurity-defenders-op-ed/</guid>
       <pubDate>Tue, 17 Nov 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks</title>
-      <link>https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html</link>
-      <description>Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.
-
-The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access.
-
-"Before granting an app such</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html</guid>
-      <pubDate>Tue, 17 Nov 2026 11:07:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft testing Remote Lock for lost or stolen Windows devices</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/</link>
-      <description>Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/</guid>
-      <pubDate>Tue, 17 Nov 2026 11:19:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels</title>
-      <link>https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html</link>
-      <description>Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).
-
-The activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html</guid>
-      <pubDate>Tue, 17 Nov 2026 11:20:18 +0000</pubDate>
     </item>
     <item>
       <title>New pact positions the Philippines as a defense hub for Australian troops</title>
@@ -3456,13 +3320,6 @@ In March 2026, the hackers who hijacked Trivy, a widely used open-source securit
       <pubDate>Tue, 17 Nov 2026 15:00:09 +0000</pubDate>
     </item>
     <item>
-      <title>Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions</title>
-      <link>https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/</link>
-      <description>Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them.  [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/</guid>
-      <pubDate>Tue, 17 Nov 2026 15:01:11 +0000</pubDate>
-    </item>
-    <item>
       <title>Spain votes first: What its snap election could mean for Europe and the United States</title>
       <link>https://www.atlanticcouncil.org/dispatches/spain-votes-first-what-its-snap-election-could-mean-for-europe-and-the-united-states/</link>
       <description>&lt;p&gt;With nationalist parties gaining ground across Europe, Sánchez’s record offers a warning about the limits of mobilizing voters against them.&lt;/p&gt;
@@ -3659,6 +3516,13 @@ The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according
       <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/biodata-ai-and-the-future-of-command-getting-it-right/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2024/10/1355058-scaled-e1727970123356-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Fitness trackers and AI diagnostics are here to stay. They can provide valuable data for operational planning — if security and privacy are handled properly.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://breakingdefense.com/2026/11/biodata-ai-and-the-future-of-command-getting-it-right/</guid>
       <pubDate>Tue, 17 Nov 2026 19:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exclusive: Poland denies record of UK equipment seized in £1m MoD loss</title>
+      <link>https://www.army-technology.com/news/poland-denies-record-uk-equipment-seized/</link>
+      <description>UK parliamentary enquiries continue into a £1m fruitless payment logged in the UK MoD annual accounts, attributed to assets seized in Poland.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/poland-denies-record-uk-equipment-seized/</guid>
+      <pubDate>Tue, 17 Nov 2026 19:06:33 +0000</pubDate>
     </item>
     <item>
       <title>Ukrainian Defense Minister On Crimea Bridge Strike: 'We're Just Getting Started'</title>
@@ -3907,7 +3771,14 @@ Widgets are small interactive blocks that bots send inside chat messages, and th
       <pubDate>Tue, 17 Nov 2026 23:39:58 +0000</pubDate>
     </item>
     <item>
-      <title>Tit-for-Tat US-Iran Attacks Persist As Peace Deal Remains Elusive</title>
+      <title>Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT</title>
+      <link>https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership</link>
+      <description>Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.</description>
+      <guid isPermaLink="false">https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tit-For-Tat US-Iran Attacks Persist As Peace Deal Remains Elusive</title>
       <link>https://www.rferl.org/a/iran-qeshm-oman-bahrain-kuwait-attacks/33900601.html</link>
       <description>US and Iranian forces exchanged tit-for-tat air strikes in the Middle East, while Gulf nations issued fresh warnings to residents amid threats of incoming projectiles as the currently low-level  conflict continued to brew despite the efforts of regional mediators.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/iran-qeshm-oman-bahrain-kuwait-attacks/33900601.html</guid>
@@ -3935,157 +3806,10 @@ Widgets are small interactive blocks that bots send inside chat messages, and th
       <pubDate>Wed, 18 Nov 2026 01:03:52 +0000</pubDate>
     </item>
     <item>
-      <title>Haiti: Haïti - Suivi des Urgences (ETT) 115 - Résumé des déplacements suite aux violences armées dans la commune de Saint-Marc (Département de l’Artibonite) (9 - 5 novembre 2026)</title>
-      <link>https://reliefweb.int/report/haiti/haiti-suivi-des-urgences-ett-115-resume-des-deplacements-suite-aux-violences-armees-dans-la-commune-de-saint-marc-departement-de-lartibonite-9-5-novembre-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Haiti&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: International Organization for Migration&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/52/84/5284a818-e0eb-5d9b-b1ea-24bc8ce5c3a1.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached Infographic.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/haiti/haiti-suivi-des-urgences-ett-115-resume-des-deplacements-suite-aux-violences-armees-dans-la-commune-de-saint-marc-departement-de-lartibonite-9-5-novembre-2026</guid>
-      <pubDate>Wed, 18 Nov 2026 01:33:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>WHO calls for urgent, sustained support to protect essential health services in Sudan</title>
-      <link>https://reliefweb.int/report/sudan/who-calls-urgent-sustained-support-protect-essential-health-services-sudan</link>
-      <description>&lt;div class="tag country"&gt;Country: Sudan&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: World Health Organization&lt;/div&gt;
-                                                                                              &lt;p&gt;&lt;strong&gt;17 November 2026, Khartoum, Sudan&lt;/strong&gt; – The World Health Organization (WHO) is calling for sustained support to keep essential health services functioning in Sudan’s White Nile and North Kordofan states, where conflict, displacement, disease outbreaks and shortages of medicines and power continue to strain the health system.&lt;/p&gt;
-&lt;p&gt;The call follows a WHO mission to Kosti in White Nile State, and to El Obeid, North Kordofan’s capital, from 7 to 12 November, led by WHO Representative in Sudan Dr Abdinasir Abubakar.&lt;/p&gt;
-&lt;p&gt;“The health needs I witnessed in White Nile and North Kordofan are immense. We urgently need to scale up essential health services in peripheral localities and displacement camps,” said Dr Abdinasir. “Despite enormous challenges, health workers and partners remain committed to serving the most vulnerable communities. We must match their commitment with sustained support.”&lt;/p&gt;
-&lt;p&gt;Prolonged conflict, displacement, food insecurity, disease outbreaks and malnutrition have severely disrupted health services. Across Sudan, 21 million people need health assistance, while 37% of health facilities are non-functional.&lt;/p&gt;
-&lt;p&gt;The mission highlighted continuing gaps in electricity supplies, medicines, operational resources and access to care in both states. Power interruptions continue to disrupt critical services, including operating theatres, intensive care, neonatal incubators, oxygen generation, blood banks, dialysis and laboratory services, putting patients at risk. Reliable power, including solarization, is urgently needed to sustain lifesaving services.&lt;/p&gt;
-&lt;p&gt;White Nile State hosts more than 216 000 internally displaced people and nearly 455 000 refugees – approximately half of Sudan’s refugee population – placing considerable pressure on already strained health services.&lt;/p&gt;
-&lt;p&gt;In North Kordofan, prolonged conflict, displacement, food insecurity and economic hardship are exacerbating health and nutrition needs. El Obeid hosts most of the over 141 000 internally displaced people in Sheikan locality, further straining already overstretched health services.&lt;/p&gt;
-&lt;p&gt;WHO support to Kosti Teaching Hospital reached more than 24 000 people between November 2025 and April 2026. WHO also supported oxygen-cylinder refills, provided three oxygen concentrators and installed solar capacity in the Emergency Department. A separate solar system at Kosti Renal Dialysis Centre is helping sustain lifesaving emergency dialysis services during frequent power outages.&lt;/p&gt;
-&lt;p&gt;In El Obeid, WHO support in 2025–2026 has contributed to approximately 344 500 health services, including 90 000 patient consultations. WHO also provided over 9000 litres of fuel to help maintain electricity at El Obeid Teaching Hospital, alongside medicines, supplies, capacity-building and operational support.&lt;/p&gt;
-&lt;p&gt;During the mission, Dr Abdinasir met with state government officials, health authorities, WHO teams and humanitarian partners to review priority needs and ongoing humanitarian response and recovery interventions. In Kosti, he opened a training workshop on Ebola virus disease preparedness, and in El Obeid he joined the monthly Health Cluster meeting with six health partners to strengthen coordination and the collective health response.&lt;/p&gt;
-&lt;p&gt;WHO calls for urgent, sustained flexible funding to maintain and expand essential health services, support frontline health workers, strengthen outbreak preparedness and response and ensure reliable medical supplies, power and emergency referral systems. Safe, sustained and unhindered humanitarian access and the protection of health workers, patients and health facilities are also crucial.&lt;/p&gt;
-&lt;p&gt;WHO continues to work with health authorities, communities, Health Cluster partners and donors to sustain lifesaving services and support the recovery of Sudan’s health system.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/sudan/who-calls-urgent-sustained-support-protect-essential-health-services-sudan</guid>
-      <pubDate>Wed, 18 Nov 2026 01:33:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mauritania: Mauritanie Suivi des Mouvements de Transhumance (TTT-DTM) : Présence et profil des transhumants bloqués — Hodh El Gharbi (avril - mai 2026)</title>
-      <link>https://reliefweb.int/report/mauritania/mauritanie-suivi-des-mouvements-de-transhumance-ttt-dtm-presence-et-profil-des-transhumants-bloques-hodh-el-gharbi-avril-mai-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Mauritania&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: International Organization for Migration&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/a2/47/a24759c7-4d33-5f9b-82c5-b007db1c69ab.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;Ce tableau de bord présente les résultats de 459 entretiens conduits dans 10 communes du Hodh El Gharbi, du 1er avril au 9 mai 2026, au titre de la composante Présence et profil de l'Outil de suivi de la transhumance (TTT) de la DTM. Les informateurs sont pour l'essentiel des membres de la population hôte (239) et des éleveurs retournés (99) ; s'y ajoutent 88 transhumants transfrontaliers, dont 79 Mauritaniens, et 33 éleveurs réfugiés.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/mauritania/mauritanie-suivi-des-mouvements-de-transhumance-ttt-dtm-presence-et-profil-des-transhumants-bloques-hodh-el-gharbi-avril-mai-2026</guid>
-      <pubDate>Wed, 18 Nov 2026 01:33:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mauritania: Mauritanie Suivi des Mouvements de Transhumance (TTT-DTM) : Présence et profil des transhumants bloqués — Hodh El Chargui (avril - mai 2026)</title>
-      <link>https://reliefweb.int/report/mauritania/mauritanie-suivi-des-mouvements-de-transhumance-ttt-dtm-presence-et-profil-des-transhumants-bloques-hodh-el-chargui-avril-mai-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Mauritania&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: International Organization for Migration&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7a/4e/7a4e8010-689e-5a3a-b056-a1165a977aa5.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;Ce tableau de bord présente les résultats de 593 entretiens conduits dans 12 communes du Hodh El Chargui, du 1er avril au 9 mai 2026, au titre de la composante Présence et profil de l'Outil de suivi de la transhumance (TTT) de la DTM. Les informateurs sont pour l'essentiel des membres de la population hôte (299) ; s'y ajoutent 111 éleveurs réfugiés, 101 éleveurs retournés et 82 transhumants transfrontaliers, dont 46 Maliens.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/mauritania/mauritanie-suivi-des-mouvements-de-transhumance-ttt-dtm-presence-et-profil-des-transhumants-bloques-hodh-el-chargui-avril-mai-2026</guid>
-      <pubDate>Wed, 18 Nov 2026 01:33:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mauritania: Mauritanie Suivi des Mouvements de Transhumance (TTT-DTM) : Présence et profil des transhumants bloqués — Guidimakha (avril - mai 2026)</title>
-      <link>https://reliefweb.int/report/mauritania/mauritanie-suivi-des-mouvements-de-transhumance-ttt-dtm-presence-et-profil-des-transhumants-bloques-guidimakha-avril-mai-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Mauritania&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: International Organization for Migration&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/79/0d/790dbff8-b886-5734-b767-abac95c5daa1.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;Ce tableau de bord présente les résultats de 632 entretiens conduits dans 12 communes du Guidimakha, du 1er avril au 9 mai 2026, au titre de la composante Présence et profil de l'Outil de suivi de la transhumance (TTT) de la DTM. Les informateurs sont pour l'essentiel des éleveurs retournés (225) et des éleveurs réfugiés (180) ; s'y ajoutent 134 transhumants transfrontaliers, dont 91 Mauritaniens (68%) et 43 Maliens (32%), et 93 membres de la population hôte.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/mauritania/mauritanie-suivi-des-mouvements-de-transhumance-ttt-dtm-presence-et-profil-des-transhumants-bloques-guidimakha-avril-mai-2026</guid>
-      <pubDate>Wed, 18 Nov 2026 01:33:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Somalia - Emergency Trend Tracking (ETT) - 16 Districts assessed | Week 20 ( 07 - 11 November 2026)</title>
-      <link>https://reliefweb.int/report/somalia/somalia-emergency-trend-tracking-ett-16-districts-assessed-week-20-07-11-november-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Somalia&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: International Organization for Migration&lt;/div&gt;
-                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/30/25/3025433c-e05a-5ee3-ba71-432929d68045.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached Infographic.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/somalia/somalia-emergency-trend-tracking-ett-16-districts-assessed-week-20-07-11-november-2026</guid>
-      <pubDate>Wed, 18 Nov 2026 01:34:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine: Protection of Civilians in Armed Conflict - October 2026</title>
-      <link>https://reliefweb.int/report/ukraine/ukraine-protection-civilians-armed-conflict-october-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Ukraine&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: UN Office of the High Commissioner for Human Rights&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/60/c8/60c8b55d-a6cd-4a4f-ba72-57597134b7ed.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;&lt;strong&gt;In Ukraine Civilians Die at Alarming Rates Amid Intensifying Attacks, UN Human Rights Officials Say&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Kyiv, November 17, 2026 -- Powerful weapons of war kill ever growing numbers of civilians across Ukraine, the UN Human Rights Monitoring Mission in Ukraine (HRMMU) said today. Attacks in October alone left at least 372 civilians dead and 1,981 injured HRMMU reported in its monthly update.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-October-2026?utm_source=pressrelease&amp;amp;utm_medium=website&amp;amp;utm_campaign=POC-Oct2026" rel="noreferrer noopener" target="_blank"&gt;report&lt;/a&gt; notes that the number of killed and injured in October of this year was 95 per cent higher than in October 2025. The latest figures show that this year has seen significantly higher casualties than previous years.&lt;/p&gt;
-&lt;p&gt;The alarming trend continued in November which saw one of the deadliest single attacks for civilians since the start of Russia's full-scale invasion. On 2 November multiple bombs struck the premises of a school, including an underground shelter in Komyshuvakha in south-eastern Ukraine, where civilians had gathered to receive humanitarian assistance. Ukrainian authorities announced on 16 November that 72 people had died in the attack and that four others were still missing. HRMMU continues to verify the identity and status of those killed, but has already confirmed that dozens of them were civilians, including local residents, local administration staff and emergency workers.&lt;/p&gt;
-&lt;p&gt;"The first ten months of this year have seen more civilian deaths than all of 2025, which in turn was worse than the year before," said Danielle Bell who heads HRMMU. "The world should not become numb to the deadly toll the war exacts on Ukraine's civilians," she said.&lt;/p&gt;
-&lt;p&gt;Long-range weapons (missiles and drones) remain the leading cause of civilian casualties, accounting for more than half of those killed and injured.&lt;/p&gt;
-&lt;p&gt;In October, casualties from aerial glide bombs increased, with the number of civilians killed doubling compared with September, reaching 92 killed and 331 injured. Aerial glide bombs and short-range drones accounted for nearly equal shares of civilian casualties, 18 and 19 per cent, respectively. In October, Russian armed forces significantly intensified attacks on energy infrastructure across Ukraine as the country braces for its fifth winter at war. The attacks damaged electricity and heating infrastructure, temporarily disrupting power and, in some cities, also water supply, forcing Ukrainian authorities to introduce rolling power outages across the country. Ukrainian armed forces also attacked electricity infrastructure in Russian-occupied territory of Ukraine.&lt;/p&gt;
-&lt;p&gt;Meanwhile according to public statements by Russian authorities on individual incidents in October, at least 90 people were killed and 306 injured in occupied territory and at least 59 people were killed and 402 injured in the Russian Federation as a result of Ukrainian attacks, but HRMMU is not able to verify the figures because of lack of access and independent sources of information. In territory of Ukraine occupied by Russia HRMMU verified that at least 12 civilians were killed and 18 injured.&lt;/p&gt;
-&lt;p&gt;In all 17,994 civilians have been killed and 57,854 have been injured in Ukraine since Russia launched a full-scale invasion of Ukraine in February of 2022.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Note: HRMMU will publish its findings related to the attack in Komyshuvakha in due course.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;For media inquiries, please contact&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Kris Janowski, Spokesperson&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;+380952300437, krzysztof.janowski@un.org&lt;/strong&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/ukraine/ukraine-protection-civilians-armed-conflict-october-2026</guid>
-      <pubDate>Wed, 18 Nov 2026 01:47:34 +0000</pubDate>
-    </item>
-    <item>
       <title>ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)</title>
       <link>https://isc.sans.edu/diary/rss/33528</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33528</guid>
       <pubDate>Wed, 18 Nov 2026 02:00:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>HeRAMS occupied Palestinian territory: Gaza infographics October 2026 [EN/AR]</title>
-      <link>https://reliefweb.int/report/occupied-palestinian-territory/herams-occupied-palestinian-territory-gaza-infographics-october-2026-enar</link>
-      <description>&lt;div class="tag country"&gt;Country: occupied Palestinian territory&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: World Health Organization&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/62/f1/62f1e0c0-fd7d-4e70-8554-576479e0868f.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached Infographic.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/occupied-palestinian-territory/herams-occupied-palestinian-territory-gaza-infographics-october-2026-enar</guid>
-      <pubDate>Wed, 18 Nov 2026 02:02:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>EU solidarity with Ukraine - Factsheet, November 2026</title>
-      <link>https://reliefweb.int/report/ukraine/eu-solidarity-ukraine-factsheet-november-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Ukraine&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: European Commission&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/00/59/0059b86b-9007-44e3-b618-7a29258b820f.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;&lt;strong&gt;€237.6 billion in overall support to Ukraine and Ukrainians including €3.8 billion from the proceeds of Russian immobilised assets&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The EU stands united in its unwavering support for Ukraine in the face of Russia’s war of aggression and its illegal attempts to annex Ukrainian territory.&lt;/p&gt;
-&lt;p&gt;The EU continues to work relentlessly with international partners to make sure Ukraine receives the material support it needs and to hold Russia accountable for its actions.&lt;/p&gt;
-&lt;p&gt;The EU has also offered temporary protection to over four million people fleeing the war and is committed to continue providing strong political, financial, economic, humanitarian, military and diplomatic &lt;strong&gt;support to Ukraine and its people for as long as it takes&lt;/strong&gt;. The EU opened accession negotiations with Ukraine.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SUPPORT FOR UKRAINE’S ECONOMY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The EU has established the &lt;strong&gt;Ukraine Facility&lt;/strong&gt; of up to &lt;strong&gt;€50 billion&lt;/strong&gt; to provide predictable and flexible support to Ukraine for the period 2024-2027 to support recovery, reconstruction and modernisation, in line with its EU path. So far, a total amount of more than &lt;strong&gt;€31.4 billion&lt;/strong&gt; of direct assistance to Ukraine has been provided (excluding external contributions). The total EU commitments under the Ukraine Investment Framework now reach &lt;strong&gt;€8.5 billion&lt;/strong&gt;, expecting to leverage over &lt;strong&gt;€25.7 billion&lt;/strong&gt; in investments.&lt;/p&gt;
-&lt;p&gt;The EU set up a &lt;strong&gt;€90 billion Ukraine Support Loan&lt;/strong&gt; for &lt;strong&gt;2026 and 2027&lt;/strong&gt;, based on EU borrowing on the capital markets backed by the EU budget headroom. Two thirds are indicatively dedicated to defence procurement support, and one third to overall budgetary assistance. &lt;strong&gt;€25.8 billion&lt;/strong&gt; has been disbursed so far, of which &lt;strong&gt;€6.9 billion&lt;/strong&gt; as macro-financial assistance, &lt;strong&gt;€18.1 billion&lt;/strong&gt; for defence procurement, and &lt;strong&gt;€800 million&lt;/strong&gt; channelled through the Ukraine Facility, following the satisfactorily completion of reforms.&lt;/p&gt;
-&lt;p&gt;In &lt;strong&gt;2025&lt;/strong&gt;, following up on the commitments by G7 leaders and based on a proposal by the Commission, the EU adopted and disbursed a financial assistance package consisting of an exceptional &lt;strong&gt;macro-financial assistance (MFA)&lt;/strong&gt; loan of &lt;strong&gt;€18.1 billion&lt;/strong&gt;. As part of the package, a loan cooperation mechanism is financed by extraordinary revenues stemming from immobilised Russian sovereign assets.&lt;/p&gt;
-&lt;p&gt;On 29 October 2025 the &lt;strong&gt;EU-Ukraine Deep and Comprehensive Free Trade Area&lt;/strong&gt; entered into force.&lt;/p&gt;
-&lt;p&gt;In &lt;strong&gt;2023&lt;/strong&gt;, the EU budget enabled &lt;strong&gt;€19.5 billion&lt;/strong&gt; in assistance to Ukraine, including an unprecedented support package of &lt;strong&gt;€18 billion&lt;/strong&gt; for MFA+. Furthermore, the EU mobilised &lt;strong&gt;€1 billion&lt;/strong&gt; for fast recovery, while guarantee agreements were signed with international financial institutions with potential capacity to unlock over &lt;strong&gt;€800 million&lt;/strong&gt; in investments from the Ukrainian private sector for the recovery and reconstruction of the country’s economy.&lt;/p&gt;
-&lt;p&gt;In &lt;strong&gt;2022&lt;/strong&gt;, a total of &lt;strong&gt;€11.6 billion&lt;/strong&gt; was provided in loans and grants. These helped Ukraine keep paying wages and pensions, restore critical infrastructure that is destroyed by the war, maintain essential public services, such as hospitals, schools, and housing for relocated people, and ensure overall macroeconomic stability.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/ukraine/eu-solidarity-ukraine-factsheet-november-2026</guid>
-      <pubDate>Wed, 18 Nov 2026 02:24:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Afghanistan Development Update: Water for Recovery and Sustainability (November 2026)</title>
-      <link>https://reliefweb.int/report/afghanistan/afghanistan-development-update-water-recovery-and-sustainability-november-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Afghanistan&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: World Bank&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/39/d0/39d0f03e-ba9d-4e4b-9dca-5a4f2988cdd5.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;&lt;strong&gt;Strong Harvest Lifts Afghanistan’s Economy, but Falling Incomes and Water Shortages Strain Families&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;KABUL, November 18, 2026 —&lt;/strong&gt; Afghanistan’s economy is expected to grow by 3 percent in 2026, driven almost entirely by a strong harvest. However, output per person is set to fall by 3.3 percent, its third consecutive annual decline, as the population is projected to grow by 6.6 percent, according to the World Bank’s latest &lt;a href="https://thedocs.worldbank.org/en/doc/f2bc573d321cea645142da37660c6d78-0280012026/original/Fall-ADU-November-2026-Full-Final.pdf" rel="noreferrer noopener" target="_blank"&gt;&lt;strong&gt;Afghanistan Development Update&lt;/strong&gt;&lt;/a&gt;. The Fall 2026 report, which includes a special focus on water security, finds that many families are under pressure, while the country’s water reserves are shrinking.&lt;/p&gt;
-&lt;p&gt;Fewer workdays and higher food prices have reduced what families can afford. In September 2026, casual laborers found 14 percent fewer days of work than a year earlier, while their weekly earnings bought 27 percent less wheat flour. And despite the improved harvest, an estimated 15.9 million people faced acute food insecurity in September and October 2026, according to the Integrated Food Security Phase Classification (IPC).&lt;/p&gt;
-&lt;p&gt;Domestic revenue rose by 10.2 percent in the first half of 2026 as domestic taxes and non-tax revenue offset a fall in customs duties. Public investment remains low, with capital spending projected at about 1.3 percent of GDP for the fiscal year. With the border with Pakistan closed, about 97 percent of Afghanistan’s imports now enter through Central Asia and Iran. Exports fell by 15.1 percent in April–September 2026 compared with the same period a year earlier.&lt;/p&gt;
-&lt;p&gt;The report also finds that Afghanistan has lost an estimated 4.9 billion cubic meters of freshwater reserves a year since 2003. In Kabul, groundwater is being drawn nearly four times as fast as it is naturally replenished. Water shortages are also putting rural livelihoods at risk. Agriculture accounts for 46 percent of employment and 95 percent of water withdrawals.&lt;/p&gt;
-&lt;p&gt;Looking ahead, economic growth is projected to reach 3.3 percent in 2027 and 3.5 percent in 2028. Even under this projected recovery, output per person in 2028 is expected to remain about 7 percent below its 2024 level. A poor harvest, further disruptions to trade routes, additional large-scale returns, or deeper aid cuts could weaken the outlook.&lt;/p&gt;
-&lt;p&gt;The report identifies more reliable trade routes, expanded employment in provinces receiving large numbers of returnees, and restored access to education and work for women and girls as priorities for improving living standards. On water, it calls for restoring essential water and sanitation services, repairing irrigation systems, and protecting watersheds and groundwater reserves.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;About the Afghanistan Development Update:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The Afghanistan Development Update is part of the World Bank’s ongoing research, monitoring, and analytical work on Afghanistan’s economy and society. It aims to support evidence-based policymaking and inform the international community on economic developments in Afghanistan.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Contacts&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;In Kabul&lt;br /&gt;&lt;strong&gt;Payamulhaq Barrai&lt;/strong&gt;&lt;br /&gt;pbarrai@worldbankgroup.org&lt;/p&gt;
-&lt;p&gt;In Washington&lt;br /&gt;&lt;strong&gt;Serene Jweied&lt;/strong&gt;&lt;br /&gt;sjweied@worldbankgroup.org&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/afghanistan/afghanistan-development-update-water-recovery-and-sustainability-november-2026</guid>
-      <pubDate>Wed, 18 Nov 2026 02:38:29 +0000</pubDate>
     </item>
     <item>
       <title>Attackers Used Optimizely to A/B Test Malware on Top Websites</title>
@@ -4093,6 +3817,330 @@ Widgets are small interactive blocks that bots send inside chat messages, and th
       <description>At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw data-stealing malicious software silently injected into sites like the BBC, CNN, Equifax, Ledger and Zoom, was exacerbated by the reality that few popular websites enforce strict rules on the sources of third-party content.</description>
       <guid isPermaLink="false">https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/</guid>
       <pubDate>Wed, 18 Nov 2026 02:52:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More</title>
+      <link>https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html</link>
+      <description>A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.
+
+The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature.
+
+Tracked as</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html</guid>
+      <pubDate>Wed, 18 Nov 2026 04:27:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization</title>
+      <link>https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html</link>
+      <description>The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.
+
+Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html</guid>
+      <pubDate>Wed, 18 Nov 2026 05:58:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optics Over Substance Expected At Trump-Xi-Putin Summit</title>
+      <link>https://www.rferl.org/a/trump-putin-xi-usa-russia-china-meeting-shenzhen-/33899555.html</link>
+      <description>A first-ever trilateral meeting between US President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin to be held on the sidelines of this week's Asia-Pacific Economic Cooperation (APEC) conference in Shenzhen may underwhelm despite its eyebrow-raising symbolism.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/trump-putin-xi-usa-russia-china-meeting-shenzhen-/33899555.html</guid>
+      <pubDate>Wed, 18 Nov 2026 06:15:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials</title>
+      <link>https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html</link>
+      <description>Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.
+
+The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html</guid>
+      <pubDate>Wed, 18 Nov 2026 06:45:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting</title>
+      <link>https://securelist.com/auditteam-opsagent-forced-audit/122031/</link>
+      <description>How does a ransomware gang sell a “forced audit”? We break down AuditTeam’s OpsAgent implant, its Rust rewrite, and the extortion model demanding a consulting fee to delete stolen data.</description>
+      <guid isPermaLink="false">https://securelist.com/auditteam-opsagent-forced-audit/122031/</guid>
+      <pubDate>Wed, 18 Nov 2026 07:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>British Scattered Spider hacker sentenced to 6 years in prison</title>
+      <link>https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/</link>
+      <description>A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/</guid>
+      <pubDate>Wed, 18 Nov 2026 08:24:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution</title>
+      <link>https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.
+
+The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions.
+
+"This critical memory-corruption</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html</guid>
+      <pubDate>Wed, 18 Nov 2026 08:24:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers</title>
+      <link>https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html</link>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation.
+
+The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html</guid>
+      <pubDate>Wed, 18 Nov 2026 08:24:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>The U.S.-Chinese-Russian Summit and the Future of Trilateral Nuclear Talks</title>
+      <link>https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks/</link>
+      <description>&lt;p&gt;U.S. President Donald Trump, who has sought nuclear arms control with Russia and China since his first term, may finally have his chance. The first-ever U.S.-Chinese-Russian leaders&amp;#8217; summit is set to take place in Shenzhen, with nuclear issues potentially on the agenda. Regardless of whether the summit yields substantive progress, it could make the prospect of trilateral nuclear arms control seem somewhat less remote than before.&amp;#160;For Beijing, however, the summit&amp;#8217;s symbolism matters most: Washington is finally treating its geopolitical and ideological adversaries as equals in addressing issues of global governance. Discussions among Chinese experts suggest a widespread belief that China&amp;#8217;s&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks/"&gt;The U.S.-Chinese-Russian Summit and the Future of Trilateral Nuclear Talks&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks/</guid>
+      <pubDate>Wed, 18 Nov 2026 08:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Model Middle Power</title>
+      <link>https://www.foreignaffairs.com/south-korea/model-middle-power</link>
+      <description>What South Korea gets right about geopolitics.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/south-korea/model-middle-power</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>America’s Hidden AI Advantage</title>
+      <link>https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage</link>
+      <description>The United States—not China—dominates diffusion.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft announces Windows Server 2028 with hardened security</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/</link>
+      <description>Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/</guid>
+      <pubDate>Wed, 18 Nov 2026 09:24:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>oPt: Gaza's Education Crisis: A System-Wide Collapse Threatening an Entire Generation</title>
+      <link>https://reliefweb.int/report/occupied-palestinian-territory/gazas-education-crisis-system-wide-collapse-threatening-entire-generation</link>
+      <description>&lt;div class="tag country"&gt;Country: occupied Palestinian territory&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: American Near East Refugee Aid&lt;/div&gt;
+                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d6/e7/d6e7c3b1-e273-40a7-a9b4-8930da054a06.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;AN ENTIRE GENERATION OUT OF SCHOOL&lt;/p&gt;
+&lt;p&gt;The war that began on October 7, 2023 did not just interrupt schooling in Gaza, it dismantled the education system that more than 750,000 learners, from preschool through university, once relied on.1 Nearly all schools have been damaged or destroyed, and for over two years, students of all ages have had little to no access to formal learning.&lt;/p&gt;
+&lt;p&gt;A child who was seven when this began is now nine or ten, and has spent a third of the life that they can remember waiting for school to resume.&lt;/p&gt;
+&lt;p&gt;This report is based on Anera's Gaza Education Sector Needs Assessment, which draws on interviews and focus group discussions with teachers, parents, students, education officials and community members across Gaza, alongside secondary data from UNRWA, UNICEF, the Education Cluster, the Palestine Central Bureau of Statistics and other humanitarian and education partners.&lt;/p&gt;
+&lt;p&gt;What emerges is a story of systemic collapse in education, one that has stripped away not just classrooms, but the routines, relationships and sense of future that schooling once provided. The war's psychological toll is equally profound. Children have endured repeated familial displacement, loss and violence, while teachers are coping with their own trauma even as they try to support students.&lt;/p&gt;
+&lt;p&gt;Yet, despite overwhelming challenges, Gaza's communities continue to demonstrate remarkable tenacity. Parents, volunteers and educators have created informal classrooms and learning activities wherever possible, underscoring the determination to keep young people learning and the urgent need for sustained international support. Children cannot recover academically without first having stability, routine and protection. Restoring education in Gaza should therefore begin with three essentials: safe places to learn, teachers who are supported and able to teach, and basic classroom resources.&lt;/p&gt;
+&lt;p&gt;This report tells the story of what has been lost and lays out what must happen next.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/occupied-palestinian-territory/gazas-education-crisis-system-wide-collapse-threatening-entire-generation</guid>
+      <pubDate>Wed, 18 Nov 2026 09:27:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>DR Congo: Cluster Protection RDC : Aperçu des violations et abus des droits humains dans la province du Sud-Kivu, octobre 2026</title>
+      <link>https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-apercu-des-violations-et-abus-des-droits-humains-dans-la-province-du-sud-kivu-octobre-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: Democratic Republic of the Congo&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: Protection Cluster&lt;/div&gt;
+                                          &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d0/9a/d09a887b-abdb-4621-bf12-b738e1982f40.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;&lt;em&gt;En octobre 2026, la situation de protection au Sud-Kivu s’est considérablement détériorée, marquée par une intensification des affrontements entre groupes armés dans les territoires de Walungu, Kabare, Kalehe, Mwenga et Fizi. Cette dégradation se serait traduite par la présence d’engins explosifs dans des zones d’habitation, des actes de représailles, ainsi que des recrutements forcés, y compris d’enfants.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;●&lt;strong&gt;Forte hausse des violations&lt;/strong&gt; &lt;strong&gt;des droits&lt;/strong&gt; : 2 466 violations ont été identifiées en octobre, soit +62% par rapport à septembre (1 524), le niveau le plus élevé depuis juin.&lt;/p&gt;
+&lt;p&gt;●&lt;strong&gt;Engins explosifs&lt;/strong&gt; : Des engins explosifs auraient été lancés lors des affrontements à Kaziba, dans le territoire de Walungu, causant la mort de plusieurs civils, dont une femme et ses deux enfants, ainsi que la destruction d’une école.&lt;/p&gt;
+&lt;p&gt;●&lt;strong&gt;Recrutement d’enfants&lt;/strong&gt; : 44 allégations de recrutement et d’utilisation d’enfants ont été documentées, notamment à Kalehe, Mwenga, Fizi et dans la plaine de la Ruzizi.&lt;/p&gt;
+&lt;p&gt;●&lt;strong&gt;Représailles&lt;/strong&gt; : Des civils accusés de collaboration auraient été arrêtés, torturés et auraient vu leurs maisons incendiées, notamment à Itombwe (Mwenga) et à Kabare.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-apercu-des-violations-et-abus-des-droits-humains-dans-la-province-du-sud-kivu-octobre-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 09:34:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>DR Congo: Compte rendu de la réunion mensuelle du mois d'octobre 2026</title>
+      <link>https://reliefweb.int/report/democratic-republic-congo/compte-rendu-de-la-reunion-mensuelle-du-mois-doctobre-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: Democratic Republic of the Congo&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Sources: Nutrition Cluster, UN Children's Fund&lt;/div&gt;
+                                          &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3b/48/3b48166d-202c-4e05-a759-36853782ba10.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;La réunion conjointe PRONANUT-Cluster Nutrition du 27 octobre 2026 a réuni environ 60 partenaires. Les échanges ont porté sur la méthodologie de calcul des personnes dans le besoin pour le HNRP 2027, la préparation de la revue annuelle 2026 du PRONANUT, la réponse nutritionnelle à Ebola dans les CTE/CT et les interventions des partenaires.&lt;/p&gt;
+&lt;p&gt;Les discussions ont mis en évidence un faible niveau de rapportage et des besoins nutritionnels encore non couverts. Elles ont souligné la nécessité de renforcer la coordination, d’actualiser les projets dans Activity Info (HPC 2026) et de concentrer les interventions sur les zones prioritaires insuffisamment couvertes.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/democratic-republic-congo/compte-rendu-de-la-reunion-mensuelle-du-mois-doctobre-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 09:37:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Afghanistan: Humanitarian Update, October 2026</title>
+      <link>https://reliefweb.int/report/afghanistan/afghanistan-humanitarian-update-october-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: Afghanistan&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
+                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ed/cb/edcbaa74-4196-486d-9476-6da74de9cf7e.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;&lt;strong&gt;Funding shortfalls threaten winter response in Afghanistan&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As temperatures begin to fall across Afghanistan, humanitarian partners are ramping up winter preparedness amid significant funding constraints. Aid organizations are pre-positioning supplies to enable them to deliver assistance before access to remote communities becomes more challenging. With needs expected to remain high, the humanitarian response enters the winter season facing a substantial funding gap, raising concerns about being able to reach all those in need and forcing difficult choices about how the limited resources are prioritized.&lt;/p&gt;
+&lt;p&gt;The 2026 Humanitarian Needs and Response Plan requires US$1.71 billion to provide life-saving assistance and protection across Afghanistan. However, as of October, only $550 million has been received through the Plan, meaning 68 per cent of funding requirements remain unmet. This shortfall threatens efforts to support vulnerable communities during one of the most challenging seasons of the year.&lt;/p&gt;
+&lt;p&gt;Winter often brings heightened humanitarian risks across Afghanistan. In many provinces, heavy snowfall and freezing temperatures can isolate communities, disrupt transportation routes and limit access to markets, health facilities and other essential services. For households already struggling with poverty, food insecurity, climate-related shocks and limited livelihood opportunities, the cold season brings additional pressure as families seek to secure food, heating fuel, warm clothing and adequate shelter.&lt;/p&gt;
+&lt;p&gt;As winter approaches, many vulnerable families are expected to face increasing pressure as food prices, heating costs and other seasonal expenses rise while livelihood opportunities decline. Yet several critical sectors remain significantly underfunded.&lt;/p&gt;
+&lt;p&gt;Food Security and Agriculture, the largest sector in the humanitarian response, has received only 18.2 per cent of its funding requirements despite continued concerns over food insecurity across the country. As winter conditions reduce income-generating opportunities and increase household expenditure on food, fuel and other essentials, many families are likely to face greater difficulties in meeting their basic needs.&lt;/p&gt;
+&lt;p&gt;Emergency Shelter and Non-Food Items cluster, which provides vulnerable households with shelter support, essential household items and winter assistance, has received only 15.1 per cent of the funding required. Water, Sanitation and Hygiene programmes are similarly underfunded, with just 16.6 per cent of requirements met, while Nutrition activities have received 16.3 per cent. Health is funded at 45.4 per cent, leaving significant gaps in essential services, particularly as winter conditions increase the risk of respiratory infections and other seasonal illnesses.&lt;/p&gt;
+&lt;p&gt;Together, these funding shortfalls risk limiting access to food, shelter, health care, safe water and nutrition support during one of the most challenging periods of the year, potentially leaving vulnerable households with fewer options to cope.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/afghanistan/afghanistan-humanitarian-update-october-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 09:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>This smell startup says its AI nose is as good as a human’s</title>
+      <link>https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/</link>
+      <description>In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/</guid>
+      <pubDate>Wed, 18 Nov 2026 10:20:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apache warns of Roller RCE vulnerability exploited in attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/</link>
+      <description>Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/</guid>
+      <pubDate>Wed, 18 Nov 2026 10:35:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tchad : Présence physique des partenaires à l'Est (Qui a un bureau où?) Novembre 2026</title>
+      <link>https://reliefweb.int/report/chad/tchad-presence-physique-des-partenaires-lest-qui-un-bureau-ou-novembre-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: Chad&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
+                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/43/15/431541e1-7faf-4f22-8a60-e16f90f95422.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached Infographic.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/chad/tchad-presence-physique-des-partenaires-lest-qui-un-bureau-ou-novembre-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 10:59:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Government tech debt is a national security risk</title>
+      <link>https://cyberscoop.com/government-tech-debt-national-security-risk-op-ed/</link>
+      <description>&lt;p&gt;With 80% of federal IT budgets spent maintaining aging legacy systems, fragmented government networks are struggling to defend against AI-accelerated cyberattacks from foreign adversaries.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://cyberscoop.com/government-tech-debt-national-security-risk-op-ed/"&gt;Government tech debt is a national security risk&lt;/a&gt; appeared first on &lt;a href="https://cyberscoop.com"&gt;CyberScoop&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://cyberscoop.com/government-tech-debt-national-security-risk-op-ed/</guid>
+      <pubDate>Wed, 18 Nov 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EU's $50 Billion Funding Push For Ukraine Caught In Budget Crossfire</title>
+      <link>https://www.rferl.org/a/33901020.html</link>
+      <description>The European Commission is putting forward a new 45-billion-euro ($50 billion) loan proposal for Ukraine on November 18, to cover a large part of the financial shortfall the war-torn country is facing for 2027.
+But the plan risks being tangled up in budget politics</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/33901020.html</guid>
+      <pubDate>Wed, 18 Nov 2026 11:03:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tchad : Présence opérationnelle des partenaires à l'Est _ Novembre 2026</title>
+      <link>https://reliefweb.int/report/chad/tchad-presence-operationnelle-des-partenaires-lest-novembre-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: Chad&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
+                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/7b/79/7b797e01-85ef-44df-bdf6-5efef145e397.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached Infographic.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/chad/tchad-presence-operationnelle-des-partenaires-lest-novembre-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 11:07:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>In South Sudan, New Lifelines for Mothers and Babies</title>
+      <link>https://reliefweb.int/report/south-sudan/south-sudan-new-lifelines-mothers-and-babies</link>
+      <description>&lt;div class="tag country"&gt;Country: South Sudan&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: Direct Relief&lt;/div&gt;
+                                                                                              &lt;p&gt;&lt;em&gt;In a region where pregnant women still face dangerous journeys to give birth, emergency transportation and medical supplies are helping transform maternal care.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;On September 21, a pregnant woman collapsed in a remote South Sudanese town, where reaching a hospital can mean hours of travel along roads that become nearly impassable in the rainy season.&lt;/p&gt;
+&lt;p&gt;But for the first time, help came on three wheels.&lt;/p&gt;
+&lt;p&gt;One of four newly launched motorcycle ambulances rushed the woman to Mother Teresa Hospital, marking a lifesaving first-day test of an emergency transport system designed to reach mothers in some of the country’s most isolated communities, including displacement camps.&lt;/p&gt;
+&lt;p&gt;South Sudan has the world’s highest estimated neonatal mortality rate, with roughly one in 25 babies dying within their first 28 days of life, according to United Nations Inter-agency Group for Child Mortality Estimation data &lt;a href="https://data.unicef.org/wp-content/uploads/2026/05/UNIGME-Child-Mortality-Report-2025.pdf" rel="noreferrer noopener" target="_blank"&gt;published last year&lt;/a&gt;. South Sudan also has one of the world’s highest maternal mortality rates, with an estimated 692 deaths per 100,000 live births&lt;a href="https://data.unicef.org/wp-content/uploads/2025/04/Trends-in-maternal-mortality-2020-2023.pdf" rel="noreferrer noopener" target="_blank"&gt; in 2023&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Against that backdrop, local health workers report a striking development.&lt;/p&gt;
+&lt;p&gt;“It has given us the good news up to now. We have no neonatal deaths and no deaths of the mother,” said Joseph Makuach, health coordinator for Transformation of the World in Christ, or &lt;a href="https://www.twicssudan.org/" rel="noreferrer noopener" target="_blank"&gt;TWIC&lt;/a&gt;, a local organization, which shares its acronym with the South Sudanese county of Twic, that coordinates medical services.&lt;/p&gt;
+&lt;p&gt;Working alongside a network of community clinics and Mother Teresa Hospital, the ambulance, which was funded by Direct Relief partner &lt;a href="https://mamaproject.org/" rel="noreferrer noopener" target="_blank"&gt;MAMA Project&lt;/a&gt;, transports women in labor and patients experiencing obstetric emergencies to facilities equipped to provide care. Recent shipments of &lt;a href="https://www.directrelief.org/product/midwife-kit/" rel="noreferrer noopener" target="_blank"&gt;midwife kits&lt;/a&gt; from Direct Relief have added essential supplies needed for safer deliveries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reaching Mothers Before It’s Too Late&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;TWIC, the nonprofit, supports six primary health care clinics serving rural communities and internally displaced people. The clinics are located in Ayak Makot, Biemnhom, Bombil, Akotong, Madou, and Gogrial West.&lt;/p&gt;
+&lt;p&gt;The new fleet of motorcycle ambulances, built in Uganda, helps connect these communities with Mother Teresa Hospital and other local healthcare facilities operated by international NGOs. The vehicles have proved unexpectedly effective in difficult terrain. Unlike heavier ambulances, the motorcycles can navigate narrow, damaged roads and can be pushed free when they become stuck in mud.&lt;/p&gt;
+&lt;p&gt;When a woman needs emergency transport, community members contact TWIC staff, who coordinate with drivers and the receiving hospital. The vehicles have drivers and fuel available to respond.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Supplies Behind Safer Deliveries&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transportation, however, is only part of the challenge.&lt;/p&gt;
+&lt;p&gt;Mother Teresa Hospital, the principal referral hospital in Twic County, has long struggled with shortages of essential medical supplies and adequately compensated health workers.&lt;/p&gt;
+&lt;p&gt;Direct Relief recently provided 15 midwife kits through TWIC’s partner network, with distributions to Mother Teresa Hospital, Lighthouse Hospital in Aweil, and nursing and midwifery partners associated with Juba Teaching Hospital.&lt;/p&gt;
+&lt;p&gt;The donated supplies include sterile gauze, gloves, umbilical cord clamps, disinfectants, and medicines such as magnesium sulfate and misoprostol, used in managing complications of pregnancy and childbirth. Together, the materials help health workers maintain hygienic conditions and respond to emergencies.&lt;/p&gt;
+&lt;p&gt;Dr. Luka Matik, director of Mother Teresa Hospital, said the supplies have improved conditions for mothers and newborns during both vaginal and cesarean deliveries.&lt;/p&gt;
+&lt;p&gt;“Safety and hygiene, they ensure safety for the mothers and babies,” Matik said, explaining that clean delivery practices reduce the risk of infections.&lt;/p&gt;
+&lt;p&gt;Matik said deliveries at the hospital have increased since the kits arrived, an indication, he believes, that women are gaining confidence in the care available.&lt;/p&gt;
+&lt;p&gt;“If a mother comes and delivers and sees she’s well taken care of, she will go ahead and spread the word,” he said.&lt;/p&gt;
+&lt;p&gt;In October, the hospital performed 20 cesarean sections, including procedures for women referred from surrounding health facilities.&lt;/p&gt;
+&lt;p&gt;The impact of the donated supplies extends to Aweil, in neighboring Northern Bahr el Ghazal state. At Lighthouse Hospital and its outreach centers, health workers recorded 180 deliveries resulting in 182 newborns in October, according to a report submitted to Direct Relief. The facilities also provided antenatal care to 480 clients and referred five women to Aweil Civil Hospital for cesarean sections. No maternal deaths were recorded during the month.&lt;/p&gt;
+&lt;p&gt;For Teresa Paul, a midwife at Lighthouse Hospital, the difference is apparent when women arrive in labor, particularly at night.&lt;/p&gt;
+&lt;p&gt;“Before the kits arrived, we often struggled with shortages of gloves, plastic sheets, cord clamps and chlorhexidine,” she said in a statement included in the hospital’s report. “When a mother came into labor at night, and supplies were not available, it was heartbreaking.”&lt;/p&gt;
+&lt;p&gt;“Now we can reassure mothers that essential delivery supplies are ready.”&lt;/p&gt;
+&lt;p&gt;For some patients, the benefits are also financial. Mary Abuk Garang, a 32-year-old mother who received care at Lighthouse Hospital, said she arrived without the supplies needed for childbirth.&lt;/p&gt;
+&lt;p&gt;“I came with nothing, but I received what I needed for my delivery,” she said in a testimonial provided by the hospital.&lt;/p&gt;
+&lt;p&gt;Dr. Repent Khamis George, principal of the Juba College of Nursing and Midwives, said midwife kits were distributed to three primary health care centers around Juba, the nation’s capital, where staff welcomed supplies that are often difficult to obtain.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Progress Amid Persistent Shortages&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Despite the reported improvements, formidable challenges remain.&lt;/p&gt;
+&lt;p&gt;Matik said Mother Teresa Hospital needs additional surgical nurses, disinfectants, cleaning materials, intravenous fluids, catheters, and basic linens. Some health workers have gone months without government-funded incentive payments, placing additional pressure on colleagues supported by TWIC.&lt;/p&gt;
+&lt;p&gt;Even as these personnel challenges and other stark issues remain, Makuach, TWIC’s health coordinator, assessed recent developments in lives saved.&lt;/p&gt;
+&lt;p&gt;“Our situation is not like before,” he said.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Since 2025, Direct Relief has provided $3.2 million in medical aid to support the health work of Transformation of the World in Christ in South Sudan.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/south-sudan/south-sudan-new-lifelines-mothers-and-babies</guid>
+      <pubDate>Wed, 18 Nov 2026 11:09:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>World: MSF calls for stronger AMR response to protect people affected by conflict</title>
+      <link>https://reliefweb.int/report/world/msf-calls-stronger-amr-response-protect-people-affected-conflict</link>
+      <description>&lt;div class="tag country"&gt;Country: World&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: Médecins Sans Frontières&lt;/div&gt;
+                                                                                              &lt;p&gt;&lt;em&gt;Rome, 18 Nov 26&lt;/em&gt; - As the world marks World Antimicrobial Resistance (AMR) Awareness Week, MSF called on governments and funders to recognize the enormous toll that antimicrobial resistance is taking in conflict-affected and humanitarian contexts and act urgently by better equipping communities to prevent, detect, and respond to drug-resistant infections - before, during, and after times of acute crisis. Over two billion people are estimated to live in conflict-affected settings, and, in 2025, forced displacement affected an unprecedented 122 million people.&lt;/p&gt;
+&lt;p&gt;In specific, at the Fourth Plenary Assembly of the AMR Multi-Stakeholder Partnership Platform held in Rome, Italy this week, MSF asked governments and funders to:&lt;/p&gt;
+&lt;p&gt;• Invest before crises to fund national AMR plans that strengthen infection prevention and control (IPC), water, sanitation and hygiene (WASH), stewardship and laboratories&lt;/p&gt;
+&lt;p&gt;• Plan for crises along with affected communities to build AMR into emergency preparedness and adapt national AMR plans in protracted crises, implementing context-specific interventions&lt;/p&gt;
+&lt;p&gt;• Protect health care to uphold international humanitarian law&lt;/p&gt;
+&lt;p&gt;• Count everyone to include conflict settings in surveillance and research, and ensure equitable access to antimicrobials and diagnostics&lt;/p&gt;
+&lt;p&gt;“For the people we treat, antimicrobial resistance is not a 2050 projection. It is a newborn with sepsis, or a person with a war wound, whose infection no longer responds to the antibiotics we have,” said Dr Cecilia Ferreyra, infectious diseases specialist and Deputy to the International Medical Secretary of MSF. “The global fight against antimicrobial resistance will fail if it leaves behind people who are living through conflict and displacement. We are asking governments and donors for dedicated funding and adapted national AMR plans that include people vulnerable to crises from the start. The commitments made here and in the Ministerial Conference in Abuja next month will help decide whether these patients still have medical tools that work.”&lt;/p&gt;
+&lt;p&gt;The risks and consequences of AMR are especially acute in settings affected by conflict and humanitarian crises, where inadequate WASH measures, poor infection prevention and control, and limited access to microbiology, diagnostic capacity, and appropriate antimicrobials contribute to emergence and spread of drug-resistant infections. Destruction of healthcare facilities and infrastructure for water and sanitation, shortages of healthcare workers, disrupted supply chains, and overcrowded living conditions further compound the AMR crisis. ​&lt;/p&gt;
+&lt;p&gt;MSF addresses AMR in more than 20 countries through over 50 projects, focusing on infection prevention and control, antibiotic stewardship, microbiology-based diagnostics, and surveillance. Our teams see the diversity of ways in which crises subject people to risk for and from AMR. From treating patients with severe wounds and drug-resistant infections to caring for malnourished children and newborns with sepsis, and people living with HIV who develop opportunistic infections, MSF works to strengthen healthcare workers’ capacity to counter AMR through provision of quality, people-centered care.&lt;/p&gt;
+&lt;p&gt;“Antimicrobial resistance is increasingly becoming a consequence of conflict, displacement and fragile health systems,” said Dr Rupa Kanapathipillai, Antimicrobial Stewardship Lead, MSF Operational Centre Paris. “In Gaza, facilities designed for 250–300 patients a day received as many as 700, with wound care provided from shared trolleys. In South Sudan, Ethiopia and Nigeria, where displacement, flooding and outbreaks hit already stretched clinics, premature babies with sepsis and severely malnourished children are being treated where our antibiograms show high resistance, even in remote areas. Resistance follows displacement and weak health systems, not just the front line.”&lt;/p&gt;
+&lt;p&gt;Global initiatives, including the updated Global Action Plan on AMR (adopted in May 2026), the planned launch of the Independent Panel for Evidence for Action against AMR, at the 5th Global High-Level Ministerial Conference on AMR in Abuja, Nigeria (6–8 December 2026), offer important opportunities to accelerate action. These initiatives are particularly crucial in light of recent shocks to global health and humanitarian financing that are taking us backwards rather than ahead. ​&lt;/p&gt;
+&lt;p&gt;“At the upcoming Ministerial Conference in Nigeria, governments must make concrete commitments and ensure that the Independent Panel on Evidence for Action against AMR will close critical evidence gaps in conflict-affected and humanitarian settings and translating evidence into action,” said Pauline Londeix, Advocacy Advisor, MSF Access. “Meaningful representation of humanitarian actors, affected communities and low-income countries is also essential to guarantee the Panel’s work responds to the needs of people most at risk.”&lt;/p&gt;
+&lt;p&gt;For interviews, please contact:&lt;/p&gt;
+&lt;p&gt;Mildred Wanyonyi: +254720260618 / mildred.wanyonyi@nairobi.msf.org&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/world/msf-calls-stronger-amr-response-protect-people-affected-conflict</guid>
+      <pubDate>Wed, 18 Nov 2026 11:14:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Drone strikes in Sudan leave children with nowhere to escape as conflict worsens</title>
+      <link>https://reliefweb.int/report/sudan/drone-strikes-sudan-leave-children-nowhere-escape-conflict-worsens</link>
+      <description>&lt;div class="tag country"&gt;Country: Sudan&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: World Vision&lt;/div&gt;
+                                                                                              &lt;ul&gt;&lt;li&gt;More than 800 civilians, including children, have been killed with nearly 100,000 in Blue Nile displaced&lt;/li&gt;
+&lt;li&gt;This month 25 strikes have been recorded in 11 states, with hospitals, power stations, markets and homes all being targeted&lt;/li&gt;
+&lt;li&gt;World Vision calls on all sides to stop killing children and let essential aid flow&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Drone strikes are killing hundreds of people in Sudan every month, leaving children and families facing hunger, a lack of clean water, and increased security risks as the number of drone strikes continues to escalate, says World Vision, which is calling on all sides to stop targeting civilians.&lt;/p&gt;
+&lt;p&gt;At least 880 civilians have been killed between January and May 2026, accounting for approximately 80 per cent of all civilian deaths. Civilians are being killed in markets, hospitals, displacement camps, and transport hubs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TJ Grant, National Director, World Vision New Zealand&lt;/strong&gt;, says, "Children and civilians are not collateral damage. Even if they aren’t targeted directly, they are the ones that suffer the consequences when essential services are targeted."&lt;/p&gt;
+&lt;p&gt;"Without power clean water cannot be pumped, hospitals can’t function, and health centres can’t keep medicines and vaccines safe. Parents risk their lives every time they go to the market to buy food. Aid agencies are also facing tough choices, often forced to cancel aid trips due to drone activity, leaving thousands without the vital support they desperately need."&lt;/p&gt;
+&lt;p&gt;Last month alone, more than 300 people in Sudan were killed, most of them civilians.&lt;/p&gt;
+&lt;p&gt;At least 25 strikes have been recorded across 11 states so far this month, including areas far from active frontlines. In Damazin, the Blue Nile State capital, drone strikes hit the Rosieres Dam Transmission Station and the city’s power plant, cutting electricity.&lt;/p&gt;
+&lt;p&gt;The situation is worsening, according to the latest figures from the Sudan INGO Forum, of which World Vision is a member. Attacks on infrastructure are impacting power supplies, health care provisions, and people’s ability to buy food and fuel. In one day alone, drones struck six power stations, disrupting electricity across south-east Sudan.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simon Mane, National Director for World Vision Sudan&lt;/strong&gt;, says: "This must stop. Children and civilians have already fled fighting. Now the drones are following them, leaving them with no place to run."&lt;/p&gt;
+&lt;p&gt;Mass casualty incidents are also increasing. A 26 October attack on a market in Nyala, South Darfur, killed or injured more than 150 people, while a drone strike near Amiet Market and Todach in the Abyei area on 19 October left dozens more civilians dead or injured.&lt;/p&gt;
+&lt;p&gt;Mane says, "Drones are targeting the power, fuel, and water supplies people depend on to survive. When a power station is hit, the consequences reach far beyond the site itself, affecting a child on oxygen in hospital, a patient needing dialysis, and families are left without access to clean water."&lt;/p&gt;
+&lt;p&gt;Security conditions in Blue Nile continue to deteriorate, with nearly 100,000 people displaced and growing fears of hunger as El Niño threatens the critical harvest season.&lt;/p&gt;
+&lt;p&gt;World Vision Sudan staff are providing life-saving assistance to hundreds of thousands of children and families on both sides of the conflict. However, movement restrictions, fuel shortages, and rising costs are making it difficult to reach those in need.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;World Vision calls for all sides to:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Stop targeting civilians and essential infrastructure (power, fuel and water systems)&lt;/li&gt;
+&lt;li&gt;Protect displacement sites from fighting&lt;/li&gt;
+&lt;li&gt;Permit humanitarian access and support for displaced and host communities affected by ongoing violence&lt;/li&gt;
+&lt;li&gt;Allow civilians to access farms, grazing lands, and agricultural and market infrastructure during this critical harvest period to prevent widespread hunger&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;-ENDS-&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For more information contact:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ashley Miln | Media and PR Advisor, World Vision&lt;/p&gt;
+&lt;p&gt;Email: ashley.miln@worldvision.org.nz&lt;/p&gt;
+&lt;p&gt;+64-204-051-3769&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/sudan/drone-strikes-sudan-leave-children-nowhere-escape-conflict-worsens</guid>
+      <pubDate>Wed, 18 Nov 2026 11:19:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>World: Start Fund Monthly Risk Bulletin (Issued: November 2026)</title>
+      <link>https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026</link>
+      <description>&lt;div class="tag country"&gt;Countries: World, Burundi, Democratic Republic of the Congo, Ethiopia, Lebanon, Mozambique, occupied Palestinian territory, South Sudan, Syrian Arab Republic, Uganda, United Republic of Tanzania, Zambia, Zimbabwe&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: Start Network&lt;/div&gt;
+                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/db/23/db233304-dcea-4141-a116-3070969fa46f.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;The Start Fund monthly Risk Bulletin reports on new, emerging or deteriorating situations. It is collated by the Start Fund Anticipation team using a range of online sources. Key risks are shared and collated each month. Ongoing events that are considered to be unchanged are not featured, and risks that are beyond the scope and scale of the Start Fund are also not featured.&lt;/p&gt;
+&lt;p&gt;Anticipated hazards considered high priority in this month’s edition include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Flooding in Ethiopia, South Sudan, Uganda, northeastern DRC, Burundi and Tanzania- Disease Outbreaks in Zambia, Zimbabwe, and Mozambique&lt;/li&gt;
+&lt;li&gt;Start Network members interested in raising an anticipation alert for any of the risks highlighted in the bulletin can email startfund@startnetwork.org.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026</guid>
+      <pubDate>Wed, 18 Nov 2026 11:28:37 +0000</pubDate>
     </item>
   </channel>
 </rss>
