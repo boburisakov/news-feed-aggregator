@@ -7,209 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 08:01:16 +0000</lastBuildDate>
-    <item>
-      <title>Siemens Simcenter Femap</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10</link>
-      <description>&lt;p&gt;&lt;a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-10.json"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and recommends to update to the latest version.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following versions of Siemens Simcenter Femap are affected:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Simcenter Femap vers:intdot/&amp;lt;2606.0002 (CVE-2026-64629)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="csaf-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS&lt;/th&gt;
-&lt;th&gt;Vendor&lt;/th&gt;
-&lt;th&gt;Equipment&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;v3 7.8&lt;/td&gt;
-&lt;td&gt;Siemens&lt;/td&gt;
-&lt;td&gt;Simcenter Femap&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;1 Vulnerability&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Out-of-bounds Read&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Critical Infrastructure Sectors: &lt;/strong&gt;Critical Manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Countries/Areas Deployed: &lt;/strong&gt;Worldwide&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Company Headquarters Location: &lt;/strong&gt;Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Vulnerabilities&lt;/h2&gt;
-&lt;div class="c-expandable-textbox icsa-etb"&gt;
-&lt;div class="c-expandable-textbox__title"&gt;CVE-2026-64629&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body"&gt;The affected applications contains an out of bounds read vulnerability while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process.&lt;/div&gt;
-&lt;div class="c-expandable-textbox-morebutton-wrapper"&gt;&lt;a class="c-expandable-textbox-morebutton" href="https://www.cisa.gov/"&gt;Read More&lt;/a&gt;&lt;/div&gt;
-&lt;div class="c-expandable-textbox__body2"&gt;
-&lt;h4&gt;1 Affected Product&lt;/h4&gt;
-&lt;hr /&gt;
-&lt;h5&gt;Simcenter Femap &amp;lt; V2606.0002&lt;/h5&gt;
-&lt;div&gt;
-&lt;p&gt;Product Status: known_affected&lt;/p&gt;
-&lt;/div&gt;
-&lt;h6&gt;Remediations&lt;/h6&gt;
-&lt;div&gt;
-&lt;p&gt;&lt;strong&gt;Vendor fix&lt;/strong&gt;&lt;br /&gt;Update to V2606.0002 or later version&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h6&gt;Additional Metrics&lt;/h6&gt;
-&lt;p&gt;&lt;strong&gt;Relevant CWE:&lt;/strong&gt; &lt;a href="https://cwe.mitre.org/data/definitions/125.html"&gt;CWE-125 Out-of-bounds Read&lt;/a&gt;&lt;/p&gt;
-&lt;div class="csaf-table csaf-metrics-table"&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;CVSS Version&lt;/th&gt;
-&lt;th&gt;Base Score&lt;/th&gt;
-&lt;th&gt;Base Severity&lt;/th&gt;
-&lt;th&gt;Vector String&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;3.1&lt;/td&gt;
-&lt;td&gt;7.8&lt;/td&gt;
-&lt;td&gt;HIGH&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.cve.org/CVERecord?id=CVE-2026-64629"&gt;View CVE Details&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Acknowledgments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Siemens ProductCERT reported this vulnerability to CISA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;General Recommendations&lt;/h2&gt;
-&lt;p&gt;As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals. Additional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Additional Resources&lt;/h2&gt;
-&lt;p&gt;For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Terms of Use&lt;/h2&gt;
-&lt;p&gt;The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Recommended Practices&lt;/h2&gt;
-&lt;p&gt;CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.&lt;/p&gt;
-&lt;ul type="disc"&gt;
-&lt;li&gt;Minimize network exposure for all control system devices and/or systems, ensuring they are &lt;a href="https://www.cisa.gov/uscert/ics/alerts/ICS-ALERT-10-301-01"&gt;not accessible from the internet&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Locate control system networks and remote devices behind firewalls and isolating them from business networks.&lt;/li&gt;
-&lt;li&gt;When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.&lt;/p&gt;
-&lt;p&gt;CISA also provides a section for &lt;a href="https://www.cisa.gov/resources-tools/resources/ics-recommended-practices"&gt;control systems security recommended practices&lt;/a&gt; on the ICS webpage on &lt;a href="https://www.cisa.gov/topics/industrial-control-systems"&gt;cisa.gov/ics&lt;/a&gt;. Several CISA products detailing cyber defense best practices are available for reading and download, including &lt;a href="https://www.cisa.gov/sites/default/files/recommended_practices/NCCIC_ICS-CERT_Defense_in_Depth_2016_S508C.pdf"&gt;Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;CISA encourages organizations to implement recommended cybersecurity strategies for &lt;a href="https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Best_Practices_for_Industrial_Control_Systems.pdf"&gt;proactive defense of ICS assets&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at &lt;a href="https://www.cisa.gov/topics/industrial-control-systems"&gt;cisa.gov/ics&lt;/a&gt; in the technical information paper, &lt;a href="https://www.cisa.gov/news-events/news/targeted-cyber-intrusion-detection-and-mitigation-strategies-update-b"&gt;ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Advisory Conversion Disclaimer&lt;/h2&gt;
-&lt;p&gt;This ICSA is a verbatim republication of Siemens ProductCERT SSA-105852 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided "as-is" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Siemens ProductCERT directly for any questions regarding this advisory.&lt;/p&gt;
-&lt;h2&gt;Revision History&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initial Release Date: &lt;/strong&gt;2026-11-10&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table class="tablesaw tablesaw-stack"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Revision&lt;/th&gt;
-&lt;th&gt;Summary&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-11-10&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Publication Date&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2026-11-17&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Initial CISA Republication of Siemens ProductCERT SSA-105852 advisory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Legal Notice and Terms of Use&lt;/h2&gt;</description>
-      <guid isPermaLink="false">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10</guid>
-      <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ankara Ascendant: Mapping the Architecture of Turkish Regional Power</title>
-      <link>https://www.geopoliticalmonitor.com/ankara-ascendant-mapping-the-architecture-of-turkish-regional-power/</link>
-      <description>&lt;p&gt;From Mogadishu to the Bosphorus, Turkey is turning bases, arms sales, and maritime claims into leverage over four regions.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/ankara-ascendant-mapping-the-architecture-of-turkish-regional-power/"&gt;Ankara Ascendant: Mapping the Architecture of Turkish Regional Power&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/ankara-ascendant-mapping-the-architecture-of-turkish-regional-power/</guid>
-      <pubDate>Tue, 17 Nov 2026 12:55:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Download: Jensen Huang’s open-source dilemma and cognitive immortality</title>
-      <link>https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/</link>
-      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk, but comb through the names, and&amp;#8230;</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/</guid>
-      <pubDate>Tue, 17 Nov 2026 13:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TRIPP Moves to Planning, but Caucasus Peace Still Needs Washington</title>
-      <link>https://www.geopoliticalmonitor.com/trump-route-moves-to-planning-but-caucasus-peace-still-needs-washington/</link>
-      <description>&lt;p&gt;Armenia, Azerbaijan, and the US have launched the first TRIPP planning groups, but Washington’s engagement with the Caucasus is still sporadic.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/trump-route-moves-to-planning-but-caucasus-peace-still-needs-washington/"&gt;TRIPP Moves to Planning, but Caucasus Peace Still Needs Washington&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/trump-route-moves-to-planning-but-caucasus-peace-still-needs-washington/</guid>
-      <pubDate>Tue, 17 Nov 2026 13:27:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Mecca Alliance’s Deterrence Paradox: How Collective Defence Could Invite Conflict with Israel</title>
-      <link>https://www.geopoliticalmonitor.com/mecca-alliances-deterrence-paradox-how-collective-defence-could-invite-conflict-with-israel/</link>
-      <description>&lt;p&gt;Israeli strategists are already urging a response to the Saudi–Pakistani–Turkish Mecca alliance while it is still at an early stage.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/mecca-alliances-deterrence-paradox-how-collective-defence-could-invite-conflict-with-israel/"&gt;The Mecca Alliance’s Deterrence Paradox: How Collective Defence Could Invite Conflict with Israel&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/mecca-alliances-deterrence-paradox-how-collective-defence-could-invite-conflict-with-israel/</guid>
-      <pubDate>Tue, 17 Nov 2026 14:02:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Research Reports</title>
-      <link>https://www.technologyreview.com/2026/11/17/1148203/research-reports/</link>
-      <description>To access a report, click on the corresponding image below.</description>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/11/17/1148203/research-reports/</guid>
-      <pubDate>Tue, 17 Nov 2026 14:39:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Northrop Grumman secures $1.6bn PAC-3 MSE propulsion order</title>
-      <link>https://www.army-technology.com/news/northrop-grumman-pac3-missile/</link>
-      <description>Northrop Grumman has secured a $1.6bn contract to increase its production of solid rocket motors and related components for the US Army’s Patriot Advanced Capability-3 (PAC-3) Missile Segment Enhancement (MSE) programme.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/northrop-grumman-pac3-missile/</guid>
-      <pubDate>Tue, 17 Nov 2026 17:12:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine gets $1.9bn from EU to fund drones and air defence</title>
-      <link>https://www.army-technology.com/news/ukraine-eu-military-procurement/</link>
-      <description>The European Commission has transferred €1.71bn ($1.88bn) to Ukraine for military procurement, as part of efforts to enhance Kyiv’s defence capabilities amid ongoing conflict with Russia.</description>
-      <guid isPermaLink="false">https://www.army-technology.com/news/ukraine-eu-military-procurement/</guid>
-      <pubDate>Tue, 17 Nov 2026 17:15:09 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 20 Nov 2026 16:56:34 +0000</lastBuildDate>
     <item>
       <title>Hydropower hit record lows in the US Southwest this summer</title>
       <link>https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/</link>
@@ -319,13 +117,6 @@
       <pubDate>Tue, 17 Nov 2026 22:24:39 +0000</pubDate>
     </item>
     <item>
-      <title>NATO aims to spur space industry, help militaries by joining data marketplace</title>
-      <link>https://www.defenseone.com/threats/2026/11/nato-aims-spur-space-industry-help-militaries-new-data-marketplace/417283/</link>
-      <description>Easing the sale and sharing of information should increase launch tempo and ward off threats, officials said.</description>
-      <guid isPermaLink="false">https://www.defenseone.com/threats/2026/11/nato-aims-spur-space-industry-help-militaries-new-data-marketplace/417283/</guid>
-      <pubDate>Wed, 18 Nov 2026 01:03:52 +0000</pubDate>
-    </item>
-    <item>
       <title>ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)</title>
       <link>https://isc.sans.edu/diary/rss/33528</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33528</guid>
@@ -382,17 +173,17 @@
       <pubDate>Wed, 18 Nov 2026 08:30:27 +0000</pubDate>
     </item>
     <item>
-      <title>America’s Hidden AI Advantage</title>
-      <link>https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage</link>
-      <description>The United States—not China—dominates diffusion.</description>
-      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage</guid>
-      <pubDate>Wed, 18 Nov 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Model Middle Power</title>
       <link>https://www.foreignaffairs.com/south-korea/model-middle-power</link>
       <description>What South Korea gets right about geopolitics.</description>
       <guid isPermaLink="false">https://www.foreignaffairs.com/south-korea/model-middle-power</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>America’s Hidden AI Advantage</title>
+      <link>https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage</link>
+      <description>The United States—not China—dominates diffusion.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage</guid>
       <pubDate>Wed, 18 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
@@ -456,13 +247,6 @@
       <pubDate>Wed, 18 Nov 2026 13:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Deadly Bus Crash Sparks Protests In Iran's Mostly Kurdish Ilam Province</title>
-      <link>https://www.rferl.org/a/iran-protest-bus-crash-abdanan/33901109.html</link>
-      <description>Hundreds of people took to the streets of Abdanan in Iran’s western, predominantly Kurdish Ilam Province on November 17 to protest the deaths of 13 oil and gas workers in a bus crash.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/iran-protest-bus-crash-abdanan/33901109.html</guid>
-      <pubDate>Wed, 18 Nov 2026 13:43:36 +0000</pubDate>
-    </item>
-    <item>
       <title>Gulf militaries rewrite procurement priorities</title>
       <link>https://www.army-technology.com/analyst-comment/gulf-militaries-rewrite-procurement-priorities/</link>
       <description>Gulf Cooperation Council member states are assessing their defence needs in light of the US-Iran war and impact on the region.</description>
@@ -470,25 +254,11 @@
       <pubDate>Wed, 18 Nov 2026 14:05:37 +0000</pubDate>
     </item>
     <item>
-      <title>RFE/RL Visits Ukraine's Newly Liberated Territory After Operation Vivaldi</title>
-      <link>https://www.rferl.org/a/rfe-rl-visits-ukraine-s-newly-liberated-territory-after-operation-vivaldi/33901166.html</link>
-      <description>Ukraine's Third Army Corps liberated 16 settlements and 277 square kilometers in the Donetsk region during Operation Vivaldi. RFE/RL visits the frontline positions and retraces the path of the Ukrainian infantry and assault troops who took part in the military campaign.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/rfe-rl-visits-ukraine-s-newly-liberated-territory-after-operation-vivaldi/33901166.html</guid>
-      <pubDate>Wed, 18 Nov 2026 14:05:44 +0000</pubDate>
-    </item>
-    <item>
       <title>BAE Systems unveils SUV-portable passive radar to track aerial threats</title>
       <link>https://www.army-technology.com/news/bae-systems-passive-radar/</link>
       <description>BAE Systems has developed a passive radar system that can detect and track airborne threats while keeping its location concealed.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/bae-systems-passive-radar/</guid>
       <pubDate>Wed, 18 Nov 2026 14:23:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Army Wants to Give Air Defenders an “Ace” Badge. It’s About Time.</title>
-      <link>https://sofrep.com/news/the-army-wants-to-give-air-defenders-an-ace-badge-its-about-time/</link>
-      <description>The Army wants to recognize air defenders with five confirmed hostile engagements as “aces,” and after watching soldiers knock drones out of the sky, I’d say the badge is overdue. #USArmy #AirDefenseArtillery #DroneWarfare #CounterUAS #MilitaryNews</description>
-      <guid isPermaLink="false">https://sofrep.com/news/the-army-wants-to-give-air-defenders-an-ace-badge-its-about-time/</guid>
-      <pubDate>Wed, 18 Nov 2026 14:33:09 +0000</pubDate>
     </item>
     <item>
       <title>The AI Hype Index: AI is everywhere</title>
@@ -513,17 +283,6 @@
       <pubDate>Wed, 18 Nov 2026 15:21:15 +0000</pubDate>
     </item>
     <item>
-      <title>British Commandos Beat American Green Berets at Europe’s First Special Operations Drone Contest</title>
-      <link>https://sofrep.com/news/british-commandos-beat-american-green-berets-at-europes-first-special-operations-drone-contest/</link>
-      <description>A five-member Royal Marines team from 40 Commando won Drone Crucible, the first U.S. special operations drone competition in Europe, against American, German, Latvian and Ukrainian teams. The American entrants said they came to learn, and a U.S. colonel says the real gap is training people, not buying drones. #DroneWarfare
-#RoyalMarines
-#SpecialOperations
-#FPVDrone
-#MilitaryInnovation</description>
-      <guid isPermaLink="false">https://sofrep.com/news/british-commandos-beat-american-green-berets-at-europes-first-special-operations-drone-contest/</guid>
-      <pubDate>Wed, 18 Nov 2026 16:00:46 +0000</pubDate>
-    </item>
-    <item>
       <title>The Atlantic Brief: After the U.S. Midterms, Trans-Atlantic Defense Cooperation</title>
       <link>https://warontherocks.com/the-atlantic-brief-after-the-u-s-midterms-trans-atlantic-defense-cooperation/</link>
       <description>&lt;p&gt;For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks present a dialogue on the future of trans-Atlantic defense cooperation following the U.S. midterm elections. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-hand experience in the armed forces, diplomacy, and foreign policy.The panel will explore what the midterms mean for U.S. force posture, NATO, and support for Ukraine. It will also cover European investment in defense capabilities, the questions of strained supply chains, and whether NATO or the European Union should lead in countering Russian&lt;/p&gt;
@@ -539,25 +298,11 @@
       <pubDate>Wed, 18 Nov 2026 16:54:52 +0000</pubDate>
     </item>
     <item>
-      <title>Russian Planes Crossed Into Japan’s Sky for 3 Minutes, Then Spotters Tracked Two Bombers to Vietnam</title>
-      <link>https://sofrep.com/news/russian-planes-crossed-into-japans-sky-for-3-minutes-then-spotters-tracked-two-bombers-to-vietnam/</link>
-      <description>Two aircraft Japan believes were Russian crossed into its airspace near Okinoshima for about three minutes each on Nov. 17, the first such breach Tokyo has announced since 2024. Flight trackers say two Russian Tu-95 bombers then landed in Vietnam, two days before Trump, Xi and Putin meet in China. #SOFREP #JapanAirspace #RussianMilitary #Tu95Bear #AirDefense</description>
-      <guid isPermaLink="false">https://sofrep.com/news/russian-planes-crossed-into-japans-sky-for-3-minutes-then-spotters-tracked-two-bombers-to-vietnam/</guid>
-      <pubDate>Wed, 18 Nov 2026 17:00:57 +0000</pubDate>
-    </item>
-    <item>
       <title>Ukraine submits defence list for European funding approval</title>
       <link>https://www.army-technology.com/news/ukraine-submits-defence-list-for-european-funding-approval/</link>
       <description>Ukraine has submitted a list of equipment available on the DOT-Chain procurement network for funding approval by the European Commission.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/ukraine-submits-defence-list-for-european-funding-approval/</guid>
       <pubDate>Wed, 18 Nov 2026 17:01:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ukraine Wrecked Putin's Bridge. Now It Can Choke Russian Supplies To Crimea</title>
-      <link>https://www.rferl.org/a/ukraine-russia-crimea-kerch-bridge-destroyed/33901205.html</link>
-      <description>For eight years, it’s stood as a symbol of the Kremlin’s claim to Crimea: a $4 billion bridge directly linking the Russian mainland with the Ukrainian peninsula. Now Kyiv has inflicted catastrophic damage, cutting road traffic and stretching Moscow’s ability to keep the Black Sea region supplied.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-russia-crimea-kerch-bridge-destroyed/33901205.html</guid>
-      <pubDate>Wed, 18 Nov 2026 17:18:25 +0000</pubDate>
     </item>
     <item>
       <title>This Is What Submarine HMS Vengeance Looks Like After Its Record-Setting Nuclear Deterrence Patrol</title>
@@ -665,26 +410,12 @@
       <pubDate>Wed, 18 Nov 2026 21:00:53 +0000</pubDate>
     </item>
     <item>
-      <title>US Officials Warn Of Growing Threats From Washington's 'Adversaries'</title>
-      <link>https://www.rferl.org/a/us-threats-iran-china-north-korea-russia/33901327.html</link>
-      <description>US officials have warned of increasingly sophisticated activity by Tehran, Beijing, Moscow, and Pyongyang, citing Iranian-backed plots, Chinese efforts to steal sensitive technology, and cyber operations that threaten critical infrastructure.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/us-threats-iran-china-north-korea-russia/33901327.html</guid>
-      <pubDate>Wed, 18 Nov 2026 21:07:49 +0000</pubDate>
-    </item>
-    <item>
       <title>Europe Is Exploring Orbital Deep Strike Weapons</title>
       <link>https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons</link>
       <description>&lt;p&gt;Launching precision strikes from orbital platforms would have huge advantages, but it would also come at a very high cost. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons"&gt;Europe Is Exploring Orbital Deep Strike Weapons&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons</guid>
       <pubDate>Wed, 18 Nov 2026 21:50:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>$350 billion reconciliation bill ‘not going to happen’: HASC chair</title>
-      <link>https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2025/12/251218_mike_rogers_capital_GettyImages-2221625683-e1766088969811.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;“If a reconciliation bill is still possible, it&amp;#8217;s going to have to be skinnied down to deal with … the hole in the defense budget that Venezuela and Iran have created,” said Rep. Mike Rogers.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/</guid>
-      <pubDate>Wed, 18 Nov 2026 21:56:01 +0000</pubDate>
     </item>
     <item>
       <title>Russia's Cold Relic APT Turns One Cloud Breach Into Another</title>
@@ -759,13 +490,6 @@
       <pubDate>Thu, 19 Nov 2026 02:00:03 +0000</pubDate>
     </item>
     <item>
-      <title>4-Point Declaration Issued After Trump, Xi, And Putin Hold First-Ever Trilateral Meeting</title>
-      <link>https://www.rferl.org/a/trump-and-putin-hold-brief-apec-meeting/33901539.html</link>
-      <description>A first-ever trilateral meeting involving US President Donald Trump, Chinese President Xi Jinping, and Russian President Vladimir Putin has concluded on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen, China.</description>
-      <guid isPermaLink="false">https://www.rferl.org/a/trump-and-putin-hold-brief-apec-meeting/33901539.html</guid>
-      <pubDate>Thu, 19 Nov 2026 05:49:31 +0000</pubDate>
-    </item>
-    <item>
       <title>Iranian Doctor Accused Of Spreading 'False Information' About Single Mothers</title>
       <link>https://www.rferl.org/a/iran-families-single-mothers-doctor-prosecution/33901325.html</link>
       <description>An Iranian obstetrician posted a video online in which she said she's observed a growing number of single women having babies. Iranian authorities reacted by opening a case against her for allegedly spreading misinformation. As Parisa Sohbati from RFE/RL's Negah-e-Farda (Iran Tomorrow) program explains, the official backlash suggests Iran's conservative leaders -- who have long sought to restrict women's choices -- fear social change might be slipping out of their control.</description>
@@ -780,17 +504,17 @@
       <pubDate>Thu, 19 Nov 2026 07:36:22 +0000</pubDate>
     </item>
     <item>
-      <title>How OpenAI’s Performance Factory keeps ChatGPT fast</title>
-      <link>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</link>
-      <description>Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.</description>
-      <guid isPermaLink="false">https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</guid>
-      <pubDate>Thu, 19 Nov 2026 08:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge</title>
       <link>https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge</link>
       <description>Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top 5 most-attacked countries globally.</description>
       <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge</guid>
+      <pubDate>Thu, 19 Nov 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How OpenAI’s Performance Factory keeps ChatGPT fast</title>
+      <link>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</link>
+      <description>Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.</description>
+      <guid isPermaLink="false">https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</guid>
       <pubDate>Thu, 19 Nov 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
@@ -823,38 +547,6 @@
       <pubDate>Thu, 19 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions</title>
-      <link>https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html</link>
-      <description>N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.
-
-"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence," N-able said.
-
-"The investigation is ongoing, but at this time we</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html</guid>
-      <pubDate>Thu, 19 Nov 2026 09:31:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Japanese nuclear submarines are a bad idea for East China Sea security — for now</title>
-      <link>https://www.defensenews.com/opinion/2026/11/19/japanese-nuclear-submarines-are-a-bad-idea-for-east-china-sea-security-for-now/</link>
-      <description>Washington must rein in Tokyo’s ambitions for nuclear submarines, even as it encourages Japan to further develop defensive capabilities, writes analyst Lyle Goldstein.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/opinion/2026/11/19/japanese-nuclear-submarines-are-a-bad-idea-for-east-china-sea-security-for-now/</guid>
-      <pubDate>Thu, 19 Nov 2026 09:36:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft confirms app installation, launch issues after hotpatch</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/</link>
-      <description>Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/</guid>
-      <pubDate>Thu, 19 Nov 2026 10:35:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>MBDA and German startup Atmos team up to study space-based strike weapons</title>
-      <link>https://www.defensenews.com/global/europe/2026/11/19/mbda-and-german-startup-atmos-team-up-to-study-space-based-strike-weapons/</link>
-      <description>Pan-European missile maker MBDA and German startup Atmos Space Cargo are teaming up to study deploying deep-strike weapons from Earth orbit using reentry vehicles.</description>
-      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/11/19/mbda-and-german-startup-atmos-team-up-to-study-space-based-strike-weapons/</guid>
-      <pubDate>Thu, 19 Nov 2026 10:36:23 +0000</pubDate>
-    </item>
-    <item>
       <title>What a billion-dollar deal says about the US battery market</title>
       <link>https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/</link>
       <description>After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than&amp;#8230;</description>
@@ -869,26 +561,12 @@
       <pubDate>Thu, 19 Nov 2026 11:18:40 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft tests new Edge Lockdown Mode that disables GPU APIs</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/</link>
-      <description>Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/</guid>
-      <pubDate>Thu, 19 Nov 2026 11:46:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Europe’s Satellite Boom Calls for Better Orbital Surveillance</title>
       <link>https://www.geopoliticalmonitor.com/europes-satellite-boom-calls-for-better-orbital-surveillance/</link>
       <description>&lt;p&gt;Open Cosmos and Aerospacelab show Europe can build satellites fast; the harder part is seeing what happens to them in orbit.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/europes-satellite-boom-calls-for-better-orbital-surveillance/"&gt;Europe’s Satellite Boom Calls for Better Orbital Surveillance&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.geopoliticalmonitor.com/europes-satellite-boom-calls-for-better-orbital-surveillance/</guid>
       <pubDate>Thu, 19 Nov 2026 11:49:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Everything Is a Web Application, Including Your Firewall</title>
-      <link>https://thehackernews.com/2026/11/everything-is-web-application-including.html</link>
-      <description>One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/everything-is-web-application-including.html</guid>
-      <pubDate>Thu, 19 Nov 2026 11:52:23 +0000</pubDate>
     </item>
     <item>
       <title>A human liver has been kept alive outside the body for a record seven weeks</title>
@@ -1588,13 +1266,6 @@
       <pubDate>Thu, 19 Nov 2026 13:00:30 +0000</pubDate>
     </item>
     <item>
-      <title>Drupal patches critical RCE flaw, warns exploits may surface quickly</title>
-      <link>https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/</link>
-      <description>The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/</guid>
-      <pubDate>Thu, 19 Nov 2026 13:08:08 +0000</pubDate>
-    </item>
-    <item>
       <title>The Download: a living liver, a billion-dollar battery deal, and AI hype</title>
       <link>https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/</link>
       <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a human liver alive on life support outside the body&amp;#8230;</description>
@@ -1623,31 +1294,10 @@
       <pubDate>Thu, 19 Nov 2026 13:39:58 +0000</pubDate>
     </item>
     <item>
-      <title>Training for any scenario, anywhere in the world, starting with the Pacific in Guam</title>
-      <link>https://breakingdefense.com/2026/11/training-for-any-scenario-anywhere-in-the-world-starting-with-the-pacific-in-guam/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/training-for-any-scenario-anywhere-in-the-world-starting-with-the-pacific-in-guam/"&gt;&lt;img alt="U.S. Air Force Capt. Daniel Lee, left, and Maj. Matthew Presutti, 13th Fighter Squadron F-35 pilots, use F-35 Emulated Non-Operational Flight Program Interoperability Experience simulators in support of VALIANT SHIELD 2026 at Misawa Air Base, Japan, June 30, 2026. (U.S. Air Force photo by Senior Airman Patrick Boyle.)" class="attachment-large size-large wp-post-image" height="683" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/CAE-1-1024x683.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] AI and new training techniques are turning actual operational networks into training environments for joint forces.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/11/training-for-any-scenario-anywhere-in-the-world-starting-with-the-pacific-in-guam/</guid>
-      <pubDate>Thu, 19 Nov 2026 13:43:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ICJ Delivers Historic Verdict: Myanmar Guilty of Genocide Against the Rohingya</title>
-      <link>https://thediplomat.com/2026/11/icj-delivers-historic-verdict-myanmar-guilty-of-genocide-against-the-rohingya/</link>
-      <description>Myanmar's security forces killed thousands of Rohingya civilians and committed "widespread sexual violence" against women and "extreme violence" against children, the court said.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/11/icj-delivers-historic-verdict-myanmar-guilty-of-genocide-against-the-rohingya/</guid>
-      <pubDate>Thu, 19 Nov 2026 13:50:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Why Holiday Security Can't Wait for Black Friday</title>
       <link>https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday</link>
       <description>Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.</description>
       <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday</guid>
-      <pubDate>Thu, 19 Nov 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CycloKinetics wins $86.3 million Pentagon contract for alternative fuels</title>
-      <link>https://breakingdefense.com/2026/11/cyclokinetics-wins-86-3-million-pentagon-contract-for-alternative-fuels/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/cyclokinetics-wins-86-3-million-pentagon-contract-for-alternative-fuels/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/F-35-refueling-scaled-e1795024599999-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Utah-based startup is pioneering new “drop-in” propellants that can substitute prevailing forms of energy.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/11/cyclokinetics-wins-86-3-million-pentagon-contract-for-alternative-fuels/</guid>
       <pubDate>Thu, 19 Nov 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1664,13 +1314,6 @@
       <pubDate>Thu, 19 Nov 2026 14:00:24 +0000</pubDate>
     </item>
     <item>
-      <title>Are Kazakhs Giving Up on Civic Action?</title>
-      <link>https://thediplomat.com/2026/11/are-kazakhs-giving-up-on-civic-action/</link>
-      <description>With a politically tense year coming to an end, a new national survey suggests that Kazakhs are increasingly disillusioned with the country's political life, feeling that engagement has little impact on government decisions.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/11/are-kazakhs-giving-up-on-civic-action/</guid>
-      <pubDate>Thu, 19 Nov 2026 14:15:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Paradox of Military Power: Why Destruction Doesn’t Deliver Victory</title>
       <link>https://www.geopoliticalmonitor.com/the-paradox-of-military-power-why-destruction-doesnt-deliver-victory/</link>
       <description>&lt;p&gt;Russia can devastate Ukraine and Washington can strike Iran, yet destructive superiority does not guarantee strategic success.&lt;/p&gt;
@@ -1679,47 +1322,11 @@
       <pubDate>Thu, 19 Nov 2026 14:31:26 +0000</pubDate>
     </item>
     <item>
-      <title>Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites</title>
-      <link>https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html</link>
-      <description>Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.
-
-That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday.
-
-The Drupal Security Team disclosed</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html</guid>
-      <pubDate>Thu, 19 Nov 2026 14:33:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers</title>
-      <link>https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/</link>
-      <description>Two critical NGINX vulnerabilities dubbed "nginx2root" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/</guid>
-      <pubDate>Thu, 19 Nov 2026 14:57:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Five warning signs of ransomware breach before encryption or data theft</title>
-      <link>https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/</link>
-      <description>Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/</guid>
-      <pubDate>Thu, 19 Nov 2026 15:00:10 +0000</pubDate>
-    </item>
-    <item>
       <title>Watch: Ranger Isaiah Burkhart on His Most Memorable Shot</title>
       <link>https://sofrep.com/news/watch-ranger-isaiah-burkhart-on-his-most-memorable-shot/</link>
       <description>Former 3/75 Ranger Regiment veteran Isaiah Burkhart talks through the most memorable shot of his time in the Ranger Regiment. It is Episode 4 of SOFREP's Inside the Team Room: Snipers. #IsaiahBurkhart #ArmyRangers #RangerSniper #InsideTheTeamRoom #SOFREP</description>
       <guid isPermaLink="false">https://sofrep.com/news/watch-ranger-isaiah-burkhart-on-his-most-memorable-shot/</guid>
       <pubDate>Thu, 19 Nov 2026 15:00:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication</title>
-      <link>https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html</link>
-      <description>A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.
-
-Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines.
-
-The</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html</guid>
-      <pubDate>Thu, 19 Nov 2026 15:11:06 +0000</pubDate>
     </item>
     <item>
       <title>Biodata Matters for the Genesis Mission</title>
@@ -1737,20 +1344,6 @@ The</description>
 The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific</description>
       <guid isPermaLink="false">https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html</guid>
       <pubDate>Thu, 19 Nov 2026 15:18:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Warsaw shoots for the stars: MoD to buy new sats as part of major space expansion plans</title>
-      <link>https://breakingdefense.com/2026/11/warsaw-shoots-for-the-stars-mod-to-buy-new-sats-as-part-of-major-space-expansion-plans/</link>
-      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/warsaw-shoots-for-the-stars-mod-to-buy-new-sats-as-part-of-major-space-expansion-plans/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="576" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Zobrazowanie_-_Gdansk-e1795097949524-1024x576.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;New military satellites are part of a wider plan for Poland to earn a seat at the table with Europe&amp;#8217;s major space players, senior Polish defense officials exclusively told Breaking Defense.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://breakingdefense.com/2026/11/warsaw-shoots-for-the-stars-mod-to-buy-new-sats-as-part-of-major-space-expansion-plans/</guid>
-      <pubDate>Thu, 19 Nov 2026 15:21:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>China, Russia, US Talk UN Reform, Nuclear Risks, and Ukraine at Trilateral Summit</title>
-      <link>https://thediplomat.com/2026/11/china-russia-us-talk-un-reform-nuclear-risks-and-ukraine-at-trilateral-summit/</link>
-      <description>Xi seems to have been a reluctant host who decided to turn the event to his own advantage.</description>
-      <guid isPermaLink="false">https://thediplomat.com/2026/11/china-russia-us-talk-un-reform-nuclear-risks-and-ukraine-at-trilateral-summit/</guid>
-      <pubDate>Thu, 19 Nov 2026 15:26:00 +0000</pubDate>
     </item>
     <item>
       <title>Uzbek Professor Reportedly Convicted of Espionage in Kazakhstan</title>
@@ -1772,13 +1365,6 @@ The release of the patch follows an advance notice in which the project maintain
       <description>Ukraine and Denmark have signed a letter of intent to expand cooperation on artificial intelligence (AI) and data for defence applications.</description>
       <guid isPermaLink="false">https://www.army-technology.com/news/ukraine-denmark-ai-avengers-lab/</guid>
       <pubDate>Thu, 19 Nov 2026 16:05:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>PHP security updates fix 18 flaws, including critical RCE bugs</title>
-      <link>https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/</link>
-      <description>The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]</description>
-      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/</guid>
-      <pubDate>Thu, 19 Nov 2026 16:28:23 +0000</pubDate>
     </item>
     <item>
       <title>The real-world missile defense lessons from Ukraine and Iran — and how they matter for China</title>
@@ -1835,12 +1421,11 @@ The flaw is tracked as CVE-2026-126714 and rated</description>
       <pubDate>Thu, 19 Nov 2026 17:24:48 +0000</pubDate>
     </item>
     <item>
-      <title>The foresight brief: Chokepoints past, present, and future</title>
-      <link>https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-foresight-brief-chokepoints-past-present-and-future/</link>
-      <description>&lt;p&gt;Maritime straits, canals, ports, rivers, subsea cables, data centers, and cloud infrastructure are concentrated points of connection. Yet their significance is changing as supply chains evolve, geopolitical competition intensifies, and climate change reshapes the physical world.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-foresight-brief-chokepoints-past-present-and-future/"&gt;The foresight brief: Chokepoints past, present, and future&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/the-foresight-brief-chokepoints-past-present-and-future/</guid>
-      <pubDate>Thu, 19 Nov 2026 17:32:47 +0000</pubDate>
+      <title>KNDS presents FENNEK AIR counter-drone prototype</title>
+      <link>https://www.army-technology.com/news/knds-fennek-air-counter-drone/</link>
+      <description>KNDS Deutschland is presenting a prototype of its FENNEK AIR counter-uncrewed aircraft system vehicle at the NIDV Exhibition Defence &amp; Security (NEDS) in Rotterdam, the Netherlands.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/knds-fennek-air-counter-drone/</guid>
+      <pubDate>Thu, 19 Nov 2026 17:25:38 +0000</pubDate>
     </item>
     <item>
       <title>F-35C completes first launch and recovery trials on a Ford-class carrier</title>
@@ -1917,22 +1502,6 @@ There's another shift worth watching. AI is making some attacks easier</descript
       <pubDate>Thu, 19 Nov 2026 19:01:34 +0000</pubDate>
     </item>
     <item>
-      <title>Five European ministers on why they won’t go back to business with Russia</title>
-      <link>https://www.atlanticcouncil.org/commentary/event-recap/five-european-ministers-on-why-they-wont-go-back-to-business-with-russia/</link>
-      <description>&lt;p&gt;Economy and energy ministers from across Central and Eastern Europe warned at the Partnership for Transatlantic Energy Cooperation that Europe can't fall back on cheap energy that will be used as a political tool against them.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/commentary/event-recap/five-european-ministers-on-why-they-wont-go-back-to-business-with-russia/"&gt;Five European ministers on why they won’t go back to business with Russia&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/commentary/event-recap/five-european-ministers-on-why-they-wont-go-back-to-business-with-russia/</guid>
-      <pubDate>Thu, 19 Nov 2026 19:30:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Energy Secretary Chris Wright and Polish Energy Minister Miłosz Motyka on why Europe’s security depends on its energy supply</title>
-      <link>https://www.atlanticcouncil.org/news/transcripts/us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka-on-why-europes-security-depends-on-its-energy-supply/</link>
-      <description>&lt;p&gt;The two energy leaders spoke at the seventh Partnership for Transatlantic Energy Cooperation in Warsaw.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/news/transcripts/us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka-on-why-europes-security-depends-on-its-energy-supply/"&gt;US Energy Secretary Chris Wright and Polish Energy Minister Miłosz Motyka on why Europe’s security depends on its energy supply&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/news/transcripts/us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka-on-why-europes-security-depends-on-its-energy-supply/</guid>
-      <pubDate>Thu, 19 Nov 2026 19:32:37 +0000</pubDate>
-    </item>
-    <item>
       <title>Navigating Vulnerability Hysteria in the AI Era</title>
       <link>https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era</link>
       <description>This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic, operational disruptions, and growing warning fatigue.</description>
@@ -1998,14 +1567,6 @@ There's another shift worth watching. AI is making some attacks easier</descript
       <pubDate>Thu, 19 Nov 2026 20:17:57 +0000</pubDate>
     </item>
     <item>
-      <title>Kyiv’s partners should prioritize Ukraine’s domestic drone production</title>
-      <link>https://www.atlanticcouncil.org/blogs/ukrainealert/kyivs-partners-should-prioritize-ukraines-domestic-drone-production/</link>
-      <description>&lt;p&gt;Ukrainian long-range drone strikes have reduced Russian oil refining output by around 45 percent in the past few weeks, Reuters reports. Kyiv's partners should build on this success and prioritize funding for Ukraine's domestic drone industry, writes Leonid Baratz.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/ukrainealert/kyivs-partners-should-prioritize-ukraines-domestic-drone-production/"&gt;Kyiv’s partners should prioritize Ukraine&amp;#8217;s domestic drone production&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/ukrainealert/kyivs-partners-should-prioritize-ukraines-domestic-drone-production/</guid>
-      <pubDate>Thu, 19 Nov 2026 20:39:47 +0000</pubDate>
-    </item>
-    <item>
       <title>South Korea’s Coal Use Is Surging – and Not Just Because of the Iran War</title>
       <link>https://thediplomat.com/2026/11/south-koreas-coal-use-is-surging-and-not-just-because-of-the-iran-war/</link>
       <description>Data suggests the country's current energy transition pains began before the war in the Gulf.</description>
@@ -2048,14 +1609,6 @@ There's another shift worth watching. AI is making some attacks easier</descript
       <pubDate>Thu, 19 Nov 2026 21:23:13 +0000</pubDate>
     </item>
     <item>
-      <title>Dispatch from Manama: The Iran war is not over for Bahrain</title>
-      <link>https://www.atlanticcouncil.org/dispatches/dispatch-from-manama-the-most-underappreciated-us-ally-in-the-gulf/</link>
-      <description>&lt;p&gt;A recent visit to Bahrain offers a window into the ongoing tensions with Iran and diplomatic maneuvering among Gulf nations.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/dispatches/dispatch-from-manama-the-most-underappreciated-us-ally-in-the-gulf/"&gt;Dispatch from Manama: The Iran war is not over for Bahrain&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/dispatches/dispatch-from-manama-the-most-underappreciated-us-ally-in-the-gulf/</guid>
-      <pubDate>Thu, 19 Nov 2026 21:47:15 +0000</pubDate>
-    </item>
-    <item>
       <title>Hegseth’s Caracas Deal Gives America Leverage. Now We Must Use It.</title>
       <link>https://sofrep.com/news/hegseths-caracas-deal-gives-america-leverage-now-we-must-use-it/</link>
       <description>Pete Hegseth was right to make the deal in Caracas, but Washington must keep one hand on the leverage and the other away from the oil trough. #PeteHegseth #Venezuela #USMilitary #OperationAbsoluteResolve #ForeignPolicy</description>
@@ -2076,14 +1629,6 @@ There's another shift worth watching. AI is making some attacks easier</descript
 &lt;p&gt;The post &lt;a href="https://www.twz.com/news-features/regent-squire-wing-in-ground-effect-drone-to-patrol-middle-east-waters"&gt;Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters&lt;/a&gt; appeared first on &lt;a href="https://www.twz.com"&gt;TWZ&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.twz.com/news-features/regent-squire-wing-in-ground-effect-drone-to-patrol-middle-east-waters</guid>
       <pubDate>Thu, 19 Nov 2026 22:08:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lessons from Brazil and Peru on how to build AI-ready institutions across Latin America</title>
-      <link>https://www.atlanticcouncil.org/blogs/geotech-cues/lessons-from-brazil-and-peru-on-how-to-build-ai-ready-institutions-across-latin-america/</link>
-      <description>&lt;p&gt;Brazil and Peru offer early blueprints for AI regulation in Latin America: one for building regulatory institutions before legislation is in place, and another for turning AI laws into effective governance.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/blogs/geotech-cues/lessons-from-brazil-and-peru-on-how-to-build-ai-ready-institutions-across-latin-america/"&gt;Lessons from Brazil and Peru on how to build AI-ready institutions across Latin America&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://www.atlanticcouncil.org/blogs/geotech-cues/lessons-from-brazil-and-peru-on-how-to-build-ai-ready-institutions-across-latin-america/</guid>
-      <pubDate>Thu, 19 Nov 2026 22:17:49 +0000</pubDate>
     </item>
     <item>
       <title>Charai for The Jerusalem Strategic Tribune: The Hidden Cost of America’s Political Inconsistency</title>
@@ -2125,9 +1670,16 @@ There's another shift worth watching. AI is making some attacks easier</descript
     <item>
       <title>EU Governments Sign Off on Previously-agreed Trade Deal With Indonesia</title>
       <link>https://thediplomat.com/2026/11/eu-governments-sign-off-on-previously-agreed-trade-deal-with-indonesia/</link>
-      <description>The Comprehensive Economic Partnership Agreement (CEPA) marks an important milestone in the relationship between the EU and Southeast Asia’s most populous nation.</description>
+      <description>The Comprehensive Economic Partnership Agreement marks an important milestone in the relationship between the EU and Southeast Asia’s most populous nation.</description>
       <guid isPermaLink="false">https://thediplomat.com/2026/11/eu-governments-sign-off-on-previously-agreed-trade-deal-with-indonesia/</guid>
       <pubDate>Thu, 19 Nov 2026 23:21:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where the Mango Meets the Orchid: Prospects in Pakistan-Singapore Relations</title>
+      <link>https://thediplomat.com/2026/11/where-the-mango-meets-the-orchid-prospects-in-pakistan-singapore-relations/</link>
+      <description>The recent visit to Pakistan by Singapore's foreign minister offers an opportunity to establish a framework of cooperation connecting South Asia with Southeast Asia.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/11/where-the-mango-meets-the-orchid-prospects-in-pakistan-singapore-relations/</guid>
+      <pubDate>Fri, 20 Nov 2026 00:15:00 +0000</pubDate>
     </item>
     <item>
       <title>VMware patches vCenter zero-day exploited in attacks since September</title>
@@ -2160,57 +1712,10 @@ There's another shift worth watching. AI is making some attacks easier</descript
       <pubDate>Fri, 20 Nov 2026 01:07:07 +0000</pubDate>
     </item>
     <item>
-      <title>Guidance Note and Standard Operating Procedure on the South Sudan Collective Accountability to Affected Populations (AAP) Platform (Updated 3 August 2026)</title>
-      <link>https://reliefweb.int/report/south-sudan/guidance-note-and-standard-operating-procedure-south-sudan-collective-accountability-affected-populations-aap-platform-updated-3-august-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: South Sudan&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Sources: Concern Worldwide, International Organization for Migration, UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/dd/48/dd48f1d2-934a-41b8-a771-dfc22a427e62.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;&lt;strong&gt;Purpose of the Collective AAP Platform&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The South Sudan Collective AAP Platform will strengthen how AAP data (what communities are telling us and asking us to act on) is systematically brought into strategic and operational decisionmaking.&lt;/p&gt;
-&lt;p&gt;The Platform will consolidate existing de-identified AAP data from a range of sources into a format that allows us to identify trends, identify emerging issues, and inform programmatic adjustments at the inter-agency level, and ensure that decisions from leadership are influenced by community data. The responsibility for addressing individual complaints remains with individual organisations. The Platform should not duplicate efforts or be a parallel system to existing practices.&lt;/p&gt;
-&lt;p&gt;The intention is for the Platform to be a simple tool that is not an onerous additional stream of reporting for contributing organisations. It seeks to complement existing systems, enabling the trends in what communities are telling us to have a wider and more influential reach.&lt;/p&gt;
-&lt;p&gt;It provides aggregate information on trends, and is not designed, or intended, to single out individual organisations.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/south-sudan/guidance-note-and-standard-operating-procedure-south-sudan-collective-accountability-affected-populations-aap-platform-updated-3-august-2026</guid>
-      <pubDate>Fri, 20 Nov 2026 01:46:16 +0000</pubDate>
-    </item>
-    <item>
       <title>ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)</title>
       <link>https://isc.sans.edu/diary/rss/33538</link>
       <guid isPermaLink="false">https://isc.sans.edu/diary/rss/33538</guid>
       <pubDate>Fri, 20 Nov 2026 02:00:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pakistan: Inter-Agency Winterization Strategy 2026 - 2027</title>
-      <link>https://reliefweb.int/report/pakistan/pakistan-inter-agency-winterization-strategy-2026-2027</link>
-      <description>&lt;div class="tag country"&gt;Country: Pakistan&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Sources: International Organization for Migration, UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
-                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/56/1b/561b4e7b-4783-4892-8a61-edffca7b8499.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;&lt;strong&gt;1. General&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Pakistan experiences winter conditions primarily from November to February, with severe cold and snowfall concentrated in northern and high-altitude regions. Winter-related hazards include cold waves, heavy snowfall, avalanches, landslides, blizzards and fog, with varying impacts across the country. Mountainous areas face extreme temperatures and seasonal isolation, while communities in the plains may experience cold nights and damp conditions.&lt;/p&gt;
-&lt;p&gt;While Pakistan did not experience a major nationwide climate-related disaster in 2026 comparable to the previous year's floods, localized flooding affected parts of Gilgit-Baltistan, Khyber Pakhtunkhwa, Punjab and Balochistan, resulting in localized damage to housing, infrastructure and livelihoods. An earthquake in the Upper Hunza area near the Wakhan Corridor further heightened concerns for affected mountain communities, where prolonged winters, sub-zero temperatures and seasonal access restrictions can significantly increase exposure risks. Households with damaged or inadequate shelters, particularly those in remote high-altitude settlements, may face heightened vulnerabilities during winter 2026–27. These localized impacts, together with residual vulnerabilities from previous disasters, reinforce the need for geographically targeted gender and age-responsive winterization assistance based on verified household needs and current shelter conditions.&lt;/p&gt;
-&lt;p&gt;According to NDMA's Disaster Early Warning–4 (DEW-4), October–December 2026, seasonal snow cover is projected to expand progressively across the Hindu Kush, Karakoram and western Himalayan ranges, beginning in October and becoming more extensive and persistent during November and December. The principal areas of concern include Gilgit-Baltistan, Upper Chitral, high-altitude districts of Khyber Pakhtunkhwa and mountainous areas of Azad Jammu and Kashmir. Western Disturbances are expected to remain the primary drivers of significant snowfall episodes, while broader climate variability, including the El Niño– Southern Oscillation (ENSO), may influence seasonal weather patterns. Successive snowfall events, persistent freezing conditions and localized avalanche risks could disrupt road connectivity, restrict humanitarian access and isolate remote communities, particularly along high-altitude transport corridors.&lt;/p&gt;
-&lt;p&gt;These projections, together with seasonal advisories from PMD and consultations with PDMAs, GBDMA and SDMA, provide the basis for geographically differentiated winter-risk assessments and prioritization for 2026– 27.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/pakistan/pakistan-inter-agency-winterization-strategy-2026-2027</guid>
-      <pubDate>Fri, 20 Nov 2026 02:00:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status &amp; Humanitarian Outlook</title>
-      <link>https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook</link>
-      <description>&lt;div class="tag country"&gt;Countries: World, Afghanistan, Angola, Bangladesh, Burkina Faso, Burundi, Cambodia, Cameroon, Central African Republic, Chad, Colombia, Cuba, Djibouti, Dominica, Ecuador, El Salvador, Ethiopia, Fiji, Guatemala, Haiti, Honduras, India, Indonesia, Kenya, Madagascar, Malawi, Mali, Marshall Islands, Micronesia (Federated States of), Mozambique, Myanmar, Nepal, Nicaragua, Niger, Nigeria, Pakistan, Papua New Guinea, Peru, Philippines, Saint Lucia, Samoa, Solomon Islands, Somalia, South Sudan, Sri Lanka, Sudan, Timor-Leste, Tonga, Uganda, United Republic of Tanzania, Vanuatu, Venezuela (Bolivarian Republic of), Viet Nam, Zambia, Zimbabwe&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Sources: International Federation of Red Cross and Red Crescent Societies, Save the Children, UN Office for the Coordination of Humanitarian Affairs, World Food Programme&lt;/div&gt;
-                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/fe/c5/fec50d45-9b55-4be1-b71c-8482264dbbb8.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;&lt;strong&gt;OVERVIEW: WHAT HAS CHANGED SINCE SEPTEMBER&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;THIS MONTH&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Forecast indicates further strengthening of El Niño. WMO now forecasts about +3.8°C for November–January, up from +3.6°C for September–November, with the positive Indian Ocean Dipole declining.&lt;/li&gt;
-&lt;li&gt;Risks flagged in September are materialising. South Sudan is having its driest year on record and Sudan faces famine risk in Darfur and Kordofan. The Dry Corridor’s IPC 3+ projection has doubled, 20 of 22 provinces in PNG are in extreme or severe drought, and FEWS NET warns that Famine (IPC Phase 5) could become the most likely outcome in southern Somalia if flooding becomes widespread and severe.&lt;/li&gt;
-&lt;li&gt;Anticipatory action has scaled up. OCHA-facilitated coordinated anticipatory action, funded by CERF and countrybased and regional pooled funds, is under way in 12 countries, with frameworks activated in seven and US$52.1 million allocated. CERF has provided a further US$11.5 million for early action in three countries, bringing OCHAmanaged pooled funding for El Niño to US$63.6 million; CERF’s own allocations have risen from US$28.4 million in September to US$52.5 million, supporting an estimated 2 million people. UN agencies, the Red Cross and Red Crescent Movement and NGOs have also acted on their own or national triggers, often in the same countries: WFP alone has reached more than 1.3 million people in 17 countries, and FAO has acted in 15.&lt;/li&gt;
-&lt;li&gt;New appeals have been launched, by WHO (US$35.1 million) and IOM (US$110 million), alongside the FAO–WFP appeal and the Honduras Flash Appeal. In Sudan, the Humanitarian Country Team has set out a dedicated six-month El Niño operational response for 3.86 million people in Darfur and Kordofan (US$359.7 million, to March 2027). UNICEF has issued a global El Niño call to action covering 40 priority countries, which identifies a gap of about US$2.83 billion against its existing 2026 appeals, and an Asia-Pacific investment case of US$121.4 million.&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook</guid>
-      <pubDate>Fri, 20 Nov 2026 02:11:18 +0000</pubDate>
     </item>
     <item>
       <title>Putin didn’t get his Yalta, but he’s happy nonetheless</title>
@@ -2228,52 +1733,18 @@ There's another shift worth watching. AI is making some attacks easier</descript
       <pubDate>Fri, 20 Nov 2026 02:53:00 +0000</pubDate>
     </item>
     <item>
-      <title>UNICEF Zambia Humanitarian Flash Update No.1 (Cholera Outbreak), 16 November 2026</title>
-      <link>https://reliefweb.int/report/zambia/unicef-zambia-humanitarian-flash-update-no1-cholera-outbreak-16-november-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Zambia&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: UN Children's Fund&lt;/div&gt;
-                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/91/09/9109e0a1-a3ee-4f5e-b67d-afe2d227c363.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;&lt;strong&gt;Highlights&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Outbreak Overview&lt;/strong&gt;: As of 16 November 2026, ZNPHI reported 3,099 cases and 68 deaths (CFR 2.2%) across 27 districts in seven provinces since 28 July. Children under 15 make up 24.9% of cases with age data (available for ~78.5% of cases).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lusaka and Chibombo&lt;/strong&gt; are the current hotspots accounting for 75.2% of cases (1,959 and 371 respectively).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community engagement and communication&lt;/strong&gt;: UNICEF-supported household visits reached over 1.2 million people, while dialogues engaged a further 30,000 people and 1,390 gatekeepers and influencers. This was reinforced by 31,600 communication materials (distribution underway) and a media campaign with an estimated potential audience of 7.8 million.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;OCV&lt;/strong&gt;: 701,354 vaccinations supported in Lusaka, Chibombo and Chongwe (23–26 October 2026).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;WASH&lt;/strong&gt;: UNICEF delivered 20 AWD kits to five districts and two tents to Chibombo for cholera treatment centres. It supported three inline chlorinators in Chibombo and WASH/IPC supplies to 20 health facilities in Chibombo and to treatment facilities in four Luapula districts.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Funding&lt;/strong&gt;: UNICEF’s cholera response 2026/27 is only 9% funded, with a US$2.95 million gap (91%); Health has the largest gap (US$1.64 million). Urgent funding is needed to replenish WASH supplies and scale up treatment and community case finding before the rainy season.&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/zambia/unicef-zambia-humanitarian-flash-update-no1-cholera-outbreak-16-november-2026</guid>
-      <pubDate>Fri, 20 Nov 2026 02:54:17 +0000</pubDate>
+      <title>The Inflation of Kim Yo Jong’s Statements</title>
+      <link>https://thediplomat.com/2026/11/the-inflation-of-kim-yo-jongs-statements/</link>
+      <description>The supreme leader’s sister is speaking out more frequently. There is a risk in that.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/11/the-inflation-of-kim-yo-jongs-statements/</guid>
+      <pubDate>Fri, 20 Nov 2026 03:03:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ukraine: SNFI Cluster Kharkiv-Hub Monthly Coordination Meeting (19 November 2026) [Presentation] [UK]</title>
-      <link>https://reliefweb.int/report/ukraine/ukraine-snfi-cluster-kharkiv-hub-monthly-coordination-meeting-19-november-2026-presentation-uk</link>
-      <description>&lt;div class="tag country"&gt;Country: Ukraine&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Sources: Shelter Cluster, UN High Commissioner for Refugees&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0a/d7/0ad70929-a018-41eb-9b41-7a358d8a01e2.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/ukraine/ukraine-snfi-cluster-kharkiv-hub-monthly-coordination-meeting-19-november-2026-presentation-uk</guid>
-      <pubDate>Fri, 20 Nov 2026 03:55:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>World: Shelter, Land &amp; Site Coordination Cluster - Capacity Building Resource Directory (November 2026)</title>
-      <link>https://reliefweb.int/report/world/shelter-land-site-coordination-cluster-capacity-building-resource-directory-november-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: World&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Sources: CCCM Cluster, International Federation of Red Cross and Red Crescent Societies, International Organization for Migration, Protection Cluster, Shelter Cluster, UN High Commissioner for Refugees&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d1/7a/d17a2261-d7d6-4fea-9b23-c071c62a9595.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/world/shelter-land-site-coordination-cluster-capacity-building-resource-directory-november-2026</guid>
-      <pubDate>Fri, 20 Nov 2026 04:09:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>DR Congo: République Démocratique du Congo - Épidémie de maladie à virus Ebola - Aperçu de la situation, semaine 46 - à la date du 15 novembre 2026</title>
-      <link>https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-epidemie-de-maladie-virus-ebola-apercu-de-la-situation-semaine-46-la-date-du-15-novembre-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Democratic Republic of the Congo&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
-                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/d6/f8/d6f861d2-16a0-48f9-96b2-263573eada8d.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached Infographic.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-epidemie-de-maladie-virus-ebola-apercu-de-la-situation-semaine-46-la-date-du-15-novembre-2026</guid>
-      <pubDate>Fri, 20 Nov 2026 05:05:32 +0000</pubDate>
+      <title>The ICJ’s Myanmar Genocide Ruling: What Comes Next?</title>
+      <link>https://thediplomat.com/2026/11/the-icjs-myanmar-genocide-ruling-what-comes-next/</link>
+      <description>The verdict marked broke new legal ground, but enforcing the judgment on Naypyidaw will not be easy.</description>
+      <guid isPermaLink="false">https://thediplomat.com/2026/11/the-icjs-myanmar-genocide-ruling-what-comes-next/</guid>
+      <pubDate>Fri, 20 Nov 2026 05:15:00 +0000</pubDate>
     </item>
     <item>
       <title>New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It</title>
@@ -2285,48 +1756,9 @@ The method was posted yesterday by a researcher who uses the handles MSNightmare
       <pubDate>Fri, 20 Nov 2026 05:30:01 +0000</pubDate>
     </item>
     <item>
-      <title>World: ICRC: Explosive remnants of war continue to kill and maim civilians long after the fighting ends</title>
-      <link>https://reliefweb.int/report/world/icrc-explosive-remnants-war-continue-kill-and-maim-civilians-long-after-fighting-ends</link>
-      <description>&lt;div class="tag country"&gt;Country: World&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Source: International Committee of the Red Cross&lt;/div&gt;
-                                                                                              &lt;p&gt;&lt;strong&gt;Statement on the occasion of 20th Annual Conference of the High-Contracting Parties to Protocol V of the Convention on Certain Conventional Weapons, 12 November 202&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In many parts of the world, explosive remnants of war litter cities, agricultural fields and countrysides that are no longer battlefields. They continue to kill and maim thousands of civilians every year despite active hostilities having ended long ago. According to the Landmine and Cluster Munitions Monitor, in 2025, a large proportion of victims of mines, cluster munitions and explosive remnants of war were children.&lt;/p&gt;
-&lt;p&gt;In our work in armed conflicts around the world, we witness every day how explosive remnants of war impede access to health-care facilities and other essential services. They block transport and escape routes, hinder the delivery of life-saving humanitarian assistance and hamper agriculture and trade. In post-conflict settings, explosive remnants of war delay reconstruction efforts and prevent the return of displaced people to their home areas. In 2024, according to the Landmine Monitor, 52 states and territories remained affected by anti-personnel mines and other explosive remnants of war. This indicates the magnitude of the issue.&lt;/p&gt;
-&lt;p&gt;Mr. President,&lt;/p&gt;
-&lt;p&gt;The use of heavy explosive weapons in populated areas multiplies the human cost of conflict, including by leaving behind explosive remnants of war that continue to endanger civilians long after the fighting has ended. Historic and recent conflicts are clear examples.&lt;/p&gt;
-&lt;p&gt;The ICRC and the wider International Red Cross and Red Crescent Movement call on all states and parties to armed conflict to avoid the use of explosive weapons with a wide impact area in populated areas. This means that these weapons should not be used in populated areas unless sufficient mitigation measures can be taken to reduce the weapons’ wide-area effects and the consequent risk of civilian harm. The landmark Political Declaration on Strengthening the Protection of Civilians from the Humanitarian Consequences Arising from the Use of Explosive Weapons in Populated Areas, which, to date, has been endorsed by 91 states, marks significant progress in this respect. We encourage all states to endorse the Declaration and to implement it effectively. Furthermore, and given the significant presence of civilians in urban areas, we urge states to make particular efforts to ensure full compliance with their obligations under Protocol V when using explosive weapons in cities or other populated areas.&lt;/p&gt;
-&lt;p&gt;Mr. President,&lt;/p&gt;
-&lt;p&gt;Approximately half the world's states are party to Protocol V. The rate of its universalization has slowed down but not stalled completely. We would like to congratulate Serbia, which has consented to be bound by Protocol V and look forward to their becoming the 100th state party to the Protocol in March 2027. We urge all states that are not yet party to Protocol V to adhere to it and we remind all States Parties to remain steadfast in implementing their obligations under it.&lt;/p&gt;
-&lt;p&gt;In the past year, the ICRC has promoted Protocol V to states bilaterally and at regional forums in South Asia, South-East Asia and the Caribbean.&lt;/p&gt;
-&lt;p&gt;Mr. President,&lt;/p&gt;
-&lt;p&gt;Today, the ICRC partners with 20 National Red Cross and Red Crescent Societies, with more than 2,100 staff and volunteers, working alongside communities to help reduce their exposure to the risks posed by mines, cluster munitions and other explosive remnants of war. This work includes technical support in clearance operations, raising awareness of and promoting safe behaviour, physical rehabilitation services, and support for the social and economic inclusion of survivors.&lt;/p&gt;
-&lt;p&gt;Our Advisory Service on IHL and colleagues in New York, Geneva and in ICRC delegations in capital cities around the world stand ready to continue assisting states in joining and implementing the Protocol.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/world/icrc-explosive-remnants-war-continue-kill-and-maim-civilians-long-after-fighting-ends</guid>
-      <pubDate>Fri, 20 Nov 2026 05:30:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pakistan | Joint IOM and UNHCR border monitoring report on inflows from the Islamic Republic of Iran #27 (1 Mar - 19 Nov 2026)</title>
-      <link>https://reliefweb.int/report/pakistan/pakistan-joint-iom-and-unhcr-border-monitoring-report-inflows-islamic-republic-iran-27-1-mar-19-nov-2026</link>
-      <description>&lt;div class="tag country"&gt;Countries: Pakistan, Iran (Islamic Republic of)&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Sources: International Organization for Migration, UN High Commissioner for Refugees&lt;/div&gt;
-                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/4f/3b/4f3bbd6b-9c8a-5a8d-ad1d-7ec23a3edf58.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached Infographic.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/pakistan/pakistan-joint-iom-and-unhcr-border-monitoring-report-inflows-islamic-republic-iran-27-1-mar-19-nov-2026</guid>
-      <pubDate>Fri, 20 Nov 2026 06:03:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data</title>
-      <link>https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html</link>
-      <description>The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.
-
-The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized</description>
-      <guid isPermaLink="false">https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html</guid>
-      <pubDate>Fri, 20 Nov 2026 06:33:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Russian Barrage Kills At Least 3 In Kyiv, Damages Bridges</title>
+      <title>At Least 9 Killed In Russian Attacks On Ukraine, Kyiv Bridges Damaged</title>
       <link>https://www.rferl.org/a/russia-ballistic-missile-attack--ukraine-kyiv/33902371.html</link>
-      <description>Russia launched a combined drone and ballistic missile attack on the Ukrainian capital overnight, killing at least three people and injuring 15 others, Kyiv officials reported.</description>
+      <description>Russia launched a combined drone and ballistic missile attack on Kyiv and other Ukrainian regions overnight, killing at least nine people and injuring dozens more, according to officials.</description>
       <guid isPermaLink="false">https://www.rferl.org/a/russia-ballistic-missile-attack--ukraine-kyiv/33902371.html</guid>
       <pubDate>Fri, 20 Nov 2026 06:45:10 +0000</pubDate>
     </item>
@@ -2347,34 +1779,453 @@ The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of au
       <pubDate>Fri, 20 Nov 2026 07:11:39 +0000</pubDate>
     </item>
     <item>
-      <title>Lebanon: Gender-Based Violence Information Management System (GBVIMS) - Midyear Report 2026</title>
-      <link>https://reliefweb.int/report/lebanon/gender-based-violence-information-management-system-gbvims-midyear-report-2026</link>
-      <description>&lt;div class="tag country"&gt;Country: Lebanon&lt;/div&gt;
-                                      &lt;div class="tag source"&gt;Sources: UN High Commissioner for Refugees, United Nations Population Fund&lt;/div&gt;
-                                          &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ed/eb/edeb21ba-1f10-44ef-bf1c-1edd56fdfd65.png" /&gt;&lt;/p&gt;
-                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
-                        &lt;p&gt;The &lt;strong&gt;Gender-Based Violence Information Management System (GBVIMS) Midyear Report 2026&lt;/strong&gt; presents an analysis of GBV incidents reported to 18 participating service providers across Lebanon between January and June 2026, comparing findings with the same period in 2025. The report examines trends in reported incidents, survivor profiles, displacement-related risks, access to services, and referral gaps against the backdrop of renewed hostilities, widespread displacement, and increasing humanitarian needs.&lt;/p&gt;
-&lt;p&gt;The report identifies a &lt;strong&gt;32% decrease in reported GBV incidents&lt;/strong&gt; compared with the first half of 2025. However, this decline should not be interpreted as a reduction in GBV prevalence. Conflict-related disruptions, reduced availability of services, funding constraints, displacement, and barriers to safe disclosure have affected survivors' ability to access assistance and report incidents.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key findings include:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Women and girls accounted for 99% of reported survivors&lt;/strong&gt;, while adults represented 92% of survivors.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Intimate partner violence (IPV) remained the predominant case context&lt;/strong&gt;, accounting for 90% of reported incidents, with a 9% increase in reported IPV cases compared with midyear 2025.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Psychological/emotional abuse (39%) and physical assault (38%)&lt;/strong&gt; were the most frequently reported forms of GBV.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Internally displaced persons accounted for 20% of reported survivors&lt;/strong&gt;, highlighting the impact of renewed hostilities and displacement on protection risks and access to services.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Nearly one-third of survivors (29%) sought assistance more than one month after the incident&lt;/strong&gt;, reflecting persistent barriers to timely reporting and support.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Significant service gaps remain&lt;/strong&gt;, including limited access to specialized mental health services, with 52% of mental health referrals reported as unavailable, alongside gaps in livelihoods and recovery support.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;The findings highlight how conflict, displacement, economic hardship, and reductions in humanitarian funding continue to affect GBV risks and survivors' access to essential services. The report calls for strengthened GBV risk mitigation in displacement settings, sustained survivor-centred case management and referral services, improved access to specialized mental health and economic recovery support, and greater investment in preventing and responding to intimate partner violence.&lt;/p&gt;
-&lt;p&gt;The report aims to inform evidence-based humanitarian programming, coordination, advocacy, and resource allocation to ensure continued access to safe, confidential, and quality GBV services across Lebanon.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Data limitation:&lt;/strong&gt; GBVIMS findings reflect incidents reported by survivors who accessed participating service providers and consented to the anonymized use of their information. They do not represent the total number of GBV incidents or measure GBV prevalence in Lebanon.&lt;/p&gt;</description>
-      <guid isPermaLink="false">https://reliefweb.int/report/lebanon/gender-based-violence-information-management-system-gbvims-midyear-report-2026</guid>
-      <pubDate>Fri, 20 Nov 2026 07:21:23 +0000</pubDate>
-    </item>
-    <item>
       <title>Georgia man arrested for allegedly sending $26,000 to Islamic State-linked recipients</title>
       <link>https://www.longwarjournal.org/archives/2026/11/georgia-man-arrested-for-allegedly-sending-26000-to-islamic-state-linked-recipients.php</link>
       <description>&lt;p&gt;The FBI arrested a Lavonia, Georgia, resident accused of transferring funds to individuals and groups affiliated with the Islamic State between 2021 and 2026. The arrest followed a years-long investigation involving cryptocurrency transactions, suspected extremist connections, and alleged destruction of evidence.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.longwarjournal.org/archives/2026/11/georgia-man-arrested-for-allegedly-sending-26000-to-islamic-state-linked-recipients.php"&gt;Georgia man arrested for allegedly sending $26,000 to Islamic State-linked recipients&lt;/a&gt; appeared first on &lt;a href="https://www.longwarjournal.org"&gt;FDD&amp;#039;s Long War Journal&lt;/a&gt;.&lt;/p&gt;</description>
       <guid isPermaLink="false">https://www.longwarjournal.org/archives/2026/11/georgia-man-arrested-for-allegedly-sending-26000-to-islamic-state-linked-recipients.php</guid>
       <pubDate>Fri, 20 Nov 2026 07:40:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navy will likely fly CCAs sooner than F/A-XX, White House nom says</title>
+      <link>https://www.defenseone.com/defense-systems/2026/11/navy-will-likely-fly-ccas-sooner-f-xx-white-house-nom-says/417365/</link>
+      <description>William Toti, who’s been doing the job since May, is up for permanent appointment as Navy undersecretary.</description>
+      <guid isPermaLink="false">https://www.defenseone.com/defense-systems/2026/11/navy-will-likely-fly-ccas-sooner-f-xx-white-house-nom-says/417365/</guid>
+      <pubDate>Fri, 20 Nov 2026 08:03:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why the Next Bioterrorists May Not Make the Same Mistakes as Aum Shinrikyo</title>
+      <link>https://warontherocks.com/why-the-next-bioterrorists-may-not-make-the-same-mistakes-as-aum-shinrikyo/</link>
+      <description>&lt;p&gt;In conversations with law enforcement and security professionals, one view has repeatedly emerged: Aum Shinrikyo&amp;#8217;s failed biological weapons program in the early 1990s shows that the risk of bioterrorism is overstated, despite warnings about AI-assisted bioterrorism and calls for enhanced preparedness from experts, philanthropists, and CEOs of AI companies. The Japanese doomsday cult responsible for the 1995 Tokyo sarin attack had money, facilities, scientifically educated members, and a leadership willing to cause mass harm. If any terrorist organization was well positioned to develop a large-scale biological weapon, Aum Shinrikyo was it. Yet its bioweapon program repeatedly failed. If Aum couldn&amp;#8217;t&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://warontherocks.com/why-the-next-bioterrorists-may-not-make-the-same-mistakes-as-aum-shinrikyo/"&gt;Why the Next Bioterrorists May Not Make the Same Mistakes as Aum Shinrikyo&lt;/a&gt; appeared first on &lt;a href="https://warontherocks.com"&gt;War on the Rocks&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://warontherocks.com/why-the-next-bioterrorists-may-not-make-the-same-mistakes-as-aum-shinrikyo/</guid>
+      <pubDate>Fri, 20 Nov 2026 08:30:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>America’s Bad Bargain in Venezuela</title>
+      <link>https://www.foreignaffairs.com/venezuela/americas-bad-bargain-venezuela</link>
+      <description>Washington’s dealmaking is strengthening the Chavista regime.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/venezuela/americas-bad-bargain-venezuela</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Congress and the Coming Crises</title>
+      <link>https://www.foreignaffairs.com/united-states/congress-and-coming-crises</link>
+      <description>How to defuse looming threats to U.S. national security.</description>
+      <guid isPermaLink="false">https://www.foreignaffairs.com/united-states/congress-and-coming-crises</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows 11 KB5132057 update released with 28 changes and fixes</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/</link>
+      <description>Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/</guid>
+      <pubDate>Fri, 20 Nov 2026 09:25:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Envoys See Ukraine Peace Progress As NATO Debate Resurfaces</title>
+      <link>https://www.rferl.org/a/ukraine-peace-talks-us-envoys-nato-security-guarantees-russia/33902431.html</link>
+      <description>US and European officials have edged closer to unity on a Ukraine peace framework, with Washington open to NATO-style security guarantees and US envoy Jared Kushner saying Moscow may be receptive to the idea.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-peace-talks-us-envoys-nato-security-guarantees-russia/33902431.html</guid>
+      <pubDate>Fri, 20 Nov 2026 09:35:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data</title>
+      <link>https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html</link>
+      <description>The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.
+
+The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html</guid>
+      <pubDate>Fri, 20 Nov 2026 09:38:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network</title>
+      <link>https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html</link>
+      <description>Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit.
+
+The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html</guid>
+      <pubDate>Fri, 20 Nov 2026 10:32:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws</title>
+      <link>https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html</link>
+      <description>SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.
+
+"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever," SonicWall said. "We expect internet-facing Gen 6 firewalls to be actively</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html</guid>
+      <pubDate>Fri, 20 Nov 2026 10:38:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>F5 releases emergency patches for critical BIG-IP RCE flaws</title>
+      <link>https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/</link>
+      <description>US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/</guid>
+      <pubDate>Fri, 20 Nov 2026 10:57:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Satellite Images Reveal Reality Of Azerbaijan's 'Great Return' To Nagorno-Karabakh</title>
+      <link>https://www.rferl.org/a/nagorno-karabakh-satellite-images-massive-development-few-people/33901996.html</link>
+      <description>Recent satellite imagery of Azerbaijan’s Nagorno-Karabakh region and surrounding areas shows the massive scale of an ongoing construction blitz, even as displaced locals remain reluctant to return to the war-haunted territory.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/nagorno-karabakh-satellite-images-massive-development-few-people/33901996.html</guid>
+      <pubDate>Fri, 20 Nov 2026 11:48:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030</title>
+      <link>https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/</link>
+      <description>The nation of 18 million punches above its weight in several key defense technology areas.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/</guid>
+      <pubDate>Fri, 20 Nov 2026 11:56:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Path to AI Autonomy in the SOC</title>
+      <link>https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html</link>
+      <description>Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027.
+
+The pressure</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft now automatically installs Windows 11 26H2 on unmanaged devices</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/</link>
+      <description>Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:14:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts</title>
+      <link>https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html</link>
+      <description>A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.
+
+On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.
+
+Fixed kernels shipped</description>
+      <guid isPermaLink="false">https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html</guid>
+      <pubDate>Fri, 20 Nov 2026 12:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tarawa’s Deadly Reef: When the Landing Plan Met Water Too Shallow for the Boats</title>
+      <link>https://sofrep.com/news/tarawas-deadly-reef-when-the-landing-plan-met-water-too-shallow-for-the-boats/</link>
+      <description>At Tarawa, a shallow reef stopped the landing boats and forced Marines to cross the killing ground between the fleet and Betio on foot. #BattleOfTarawa #Tarawa83 #USMarineCorps #PacificWar #WorldWarIIHistory</description>
+      <guid isPermaLink="false">https://sofrep.com/news/tarawas-deadly-reef-when-the-landing-plan-met-water-too-shallow-for-the-boats/</guid>
+      <pubDate>Fri, 20 Nov 2026 13:00:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Download: inside the quest to make our minds immortal</title>
+      <link>https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/</link>
+      <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. What we learned when our Roundtables explored the quest to make minds immortal To preserve our sense of self, some scientists are working on ways to keep our brains going—even beyond&amp;#8230;</description>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/</guid>
+      <pubDate>Fri, 20 Nov 2026 13:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>N-able says recent security breach led to major service outage</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/</link>
+      <description>N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/</guid>
+      <pubDate>Fri, 20 Nov 2026 13:18:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Skylark Labs demonstrates humanoid search for explosive hazards</title>
+      <link>https://breakingdefense.com/2026/11/skylark-labs-demonstrates-humanoid-search-for-explosive-hazards/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/skylark-labs-demonstrates-humanoid-search-for-explosive-hazards/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="512" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Skylark-Lead_Image_High_Resolution-1024x512.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;[Sponsored] CFAM delivered about 30% higher task success than a standard model in a real-world robot test. Skylark is applying that learning approach to explosive-hazard search.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/11/skylark-labs-demonstrates-humanoid-search-for-explosive-hazards/</guid>
+      <pubDate>Fri, 20 Nov 2026 13:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)</title>
+      <link>https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026</link>
+      <description>&lt;div class="tag country"&gt;Countries: Democratic Republic of the Congo, Algeria, Angola, Botswana, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad, Congo, Côte d'Ivoire, Equatorial Guinea, Ghana, Guinea, Guinea-Bissau, Kenya, Madagascar, Mali, Morocco, Mozambique, Niger, Nigeria, Rwanda, Senegal, Sierra Leone, South Africa, South Sudan, Sudan, Togo, Tunisia, Uganda, United Republic of Tanzania&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
+                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/2e/46/2e467867-fcdf-44e1-9f38-9b76f194350a.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached Infographic.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 13:40:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shenzhen Was No Yalta: What Xi, Trump, and Putin Each Wanted</title>
+      <link>https://www.geopoliticalmonitor.com/shenzhen-was-no-yalta-what-xi-trump-and-putin-each-wanted/</link>
+      <description>&lt;p&gt;Xi, Trump, and Putin issued a peace declaration in Shenzhen, but no deal on Ukraine, Iran, or a New START successor.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.geopoliticalmonitor.com/shenzhen-was-no-yalta-what-xi-trump-and-putin-each-wanted/"&gt;Shenzhen Was No Yalta: What Xi, Trump, and Putin Each Wanted&lt;/a&gt; appeared first on &lt;a href="https://www.geopoliticalmonitor.com"&gt;Geopolitical Monitor&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.geopoliticalmonitor.com/shenzhen-was-no-yalta-what-xi-trump-and-putin-each-wanted/</guid>
+      <pubDate>Fri, 20 Nov 2026 13:49:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Russian Missiles and Drone Breach Polish Airspace as NATO Jets Scramble and Hold Fire</title>
+      <link>https://sofrep.com/news/russian-missiles-and-drone-breach-polish-airspace-as-nato-jets-scramble-and-hold-fire/</link>
+      <description>Three Russian weapons crossed into Poland and found the narrow strip of uncertainty where NATO’s jets were airborne, its Patriots were ready and every trigger stayed cold. #BreakingNews #Poland #NATO #RussianMissiles #AirDefense</description>
+      <guid isPermaLink="false">https://sofrep.com/news/russian-missiles-and-drone-breach-polish-airspace-as-nato-jets-scramble-and-hold-fire/</guid>
+      <pubDate>Fri, 20 Nov 2026 14:00:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>UK opens fully automated artillery melt-cast factory</title>
+      <link>https://www.army-technology.com/news/uk-opens-fully-automated-artillery-melt-cast-factory/</link>
+      <description>BAE Systems has open a new automated melt-cast artillery ammunition factory in Wales that will help manufacture 155mm artillery shells.</description>
+      <guid isPermaLink="false">https://www.army-technology.com/news/uk-opens-fully-automated-artillery-melt-cast-factory/</guid>
+      <pubDate>Fri, 20 Nov 2026 14:18:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lipsky featured in War on the Rocks on declining widespread use of the dollar</title>
+      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-featured-in-war-on-the-rocks-on-declining-widespread-use-of-the-dollar/</link>
+      <description>&lt;p&gt;Read the full article here&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-featured-in-war-on-the-rocks-on-declining-widespread-use-of-the-dollar/"&gt;Lipsky featured in War on the Rocks on declining widespread use of the dollar&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/lipsky-featured-in-war-on-the-rocks-on-declining-widespread-use-of-the-dollar/</guid>
+      <pubDate>Fri, 20 Nov 2026 14:24:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tannebaum interviewed on CNBC on the key takeaways from Trump-Xi-Putin meeting</title>
+      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-interviewed-on-cnbc-on-the-key-takeaways-from-trump-xi-putin-meeting/</link>
+      <description>&lt;p&gt;Watch the full interview here&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-interviewed-on-cnbc-on-the-key-takeaways-from-trump-xi-putin-meeting/"&gt;Tannebaum interviewed on CNBC on the key takeaways from Trump-Xi-Putin meeting&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/tannebaum-interviewed-on-cnbc-on-the-key-takeaways-from-trump-xi-putin-meeting/</guid>
+      <pubDate>Fri, 20 Nov 2026 14:25:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nikoladze interviewed by Malaysian Business FM on the Nvidia scandal and implications for export controls</title>
+      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-interviewed-by-malaysian-business-fm-on-the-nvidia-scandal-and-implications-for-export-controls/</link>
+      <description>&lt;p&gt;Listen to the interview here&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-interviewed-by-malaysian-business-fm-on-the-nvidia-scandal-and-implications-for-export-controls/"&gt;Nikoladze interviewed by Malaysian Business FM on the Nvidia scandal and implications for export controls&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-interviewed-by-malaysian-business-fm-on-the-nvidia-scandal-and-implications-for-export-controls/</guid>
+      <pubDate>Fri, 20 Nov 2026 14:27:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nikoladze and de Kruijf cited in Journal of Law &amp; Cyber Warfare on US chips and Nvidia’s influence</title>
+      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-journal-of-law-cyber-warfare-on-us-chips-and-nvidias-influence/</link>
+      <description>&lt;p&gt;Read the full article here&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-journal-of-law-cyber-warfare-on-us-chips-and-nvidias-influence/"&gt;Nikoladze and de Kruijf cited in Journal of Law &amp;amp; Cyber Warfare on US chips and Nvidia&amp;#8217;s influence&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-journal-of-law-cyber-warfare-on-us-chips-and-nvidias-influence/</guid>
+      <pubDate>Fri, 20 Nov 2026 14:29:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nikoladze and De Kruijf cited in Challenges on Nvidia’s pressure on Washington to preserve their access to the Chinese market</title>
+      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-challenges-on-nvidias-pressure-on-washington-to-preserve-their-access-to-the-chinese-market/</link>
+      <description>&lt;p&gt;Read the full article here&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-challenges-on-nvidias-pressure-on-washington-to-preserve-their-access-to-the-chinese-market/"&gt;Nikoladze and De Kruijf cited in Challenges on Nvidia&amp;#8217;s pressure on Washington to preserve their access to the Chinese market&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/nikoladze-and-de-kruijf-cited-in-challenges-on-nvidias-pressure-on-washington-to-preserve-their-access-to-the-chinese-market/</guid>
+      <pubDate>Fri, 20 Nov 2026 14:31:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chhangani cited in IMF Policy Paper on the shift of CBDC projects towards wholesale applications</title>
+      <link>https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-imf-policy-paper-on-the-shift-of-cbdc-projects-towards-wholesale-applications/</link>
+      <description>&lt;p&gt;Read the full paper here&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-imf-policy-paper-on-the-shift-of-cbdc-projects-towards-wholesale-applications/"&gt;Chhangani cited in IMF Policy Paper on the shift of CBDC projects towards wholesale applications&lt;/a&gt; appeared first on &lt;a href="https://www.atlanticcouncil.org"&gt;Atlantic Council&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://www.atlanticcouncil.org/insight-impact/in-the-news/chhangani-cited-in-imf-policy-paper-on-the-shift-of-cbdc-projects-towards-wholesale-applications/</guid>
+      <pubDate>Fri, 20 Nov 2026 14:32:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>With Oil Revenue Running Out, Iran Teases Breaking US Blockade</title>
+      <link>https://www.rferl.org/a/iran-us-blockade-oil-revenue-war/33902633.html</link>
+      <description>With Iran’s oil revenue set to hit zero by mid-December, IRGC-linked media and hard-liners are pushing for a tanker convoy to break through the US naval blockade, threatening Persian Gulf oil sites if fired on.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/iran-us-blockade-oil-revenue-war/33902633.html</guid>
+      <pubDate>Fri, 20 Nov 2026 14:38:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>World: Crop Prospects and Food Situation Triannual Global Report No. 3, November 2026</title>
+      <link>https://reliefweb.int/report/world/crop-prospects-and-food-situation-triannual-global-report-no-3-november-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: World&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: Food and Agriculture Organization of the United Nations&lt;/div&gt;
+                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/54/de/54de98fc-70f5-4bd3-9aa5-5691eb7e1d66.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;&lt;strong&gt;Synopsis (short abstract)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The triannual Crop Prospects and Food Situation report provides a forward-looking global analysis of cereal production, market trends and acute food security conditions, with a particular attention on low-income food-deficit countries.&lt;/p&gt;
+&lt;p&gt;FAO estimates that 41 countries/territories require external assistance for food: 31 in Africa, eight in Asia, one in Latin America and the Caribbean, and one in Europe. Persisting conflicts and insecurity remain the primary drivers of the most severe levels of acute food insecurity, while weather shocks associated with the strong El Niño event are worsening conditions in several subregions. Looking ahead, El Niño-related impacts on production are expected to remain severe into 2027 in several subregions, likely aggravating acute food insecurity further.&lt;/p&gt;
+&lt;p&gt;The report also includes FAO's latest forecast for 2026 cereal production among the Low-Income Food-Deficit Countries (LIFDCs), pegged at 126.5 million tonnes, about 2 percent above both the 2025 level and the five-year average. The increase largely reflects a strong production recovery in Asia, particularly in Near East Asia, while production among African LIFDCs is expected to remain near-average.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/world/crop-prospects-and-food-situation-triannual-global-report-no-3-november-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 14:45:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>World: Food Price Monitoring and Analysis (FPMA) Bulletin #9, 12 November 2026</title>
+      <link>https://reliefweb.int/report/world/food-price-monitoring-and-analysis-fpma-bulletin-9-12-november-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: World&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: Food and Agriculture Organization of the United Nations&lt;/div&gt;
+                                                                                                &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/e2/09/e2093364-dd55-4c94-8f5d-0850fc945167.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;&lt;strong&gt;Synopsis (short abstract)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Global wheat and maize export prices declined in October 2026. Wheat prices fell amid subdued import demand and improving global production prospects, while maize prices declined from their September three‑year high amid seasonal harvest pressure in the United States of America and expectations of ample supplies from South America. Expectations of easing constraints on Black Sea export flows also weighed on wheat prices, although continued logistical disruptions in the region partly offset the downward pressure. By contrast, international rice prices increased, supported by harvest delays in some exporting countries, adverse weather conditions and rising production costs. In most domestic markets monitored by FAO, staple food prices remained relatively elevated in September and October 2026. In parts of East Africa and the Near East, conflict‑related market disruptions, currency depreciation and tight supplies continued to exert upward pressure on prices. In Far East Asia, weather-related production shortfalls and high production costs contributed to the increases in staple food prices, while in Eastern Europe, the Caucasus and Central Asia, high transport and import costs continued to exert upward pressure on domestic food prices. By contrast, the arrival of new harvests improved market supplies and contributed to seasonal price declines in parts of West Africa and Central and South America. However, strong demand, delayed harvests and unfavourable production prospects continued to drive price increases in some markets. In Southern Africa, ample domestic supplies and continued intra-regional trade helped contain seasonal price increases.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/world/food-price-monitoring-and-analysis-fpma-bulletin-9-12-november-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 14:55:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Still tracking company passwords in spreadsheets? You’re flying blind.</title>
+      <link>https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/</link>
+      <description>Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/</guid>
+      <pubDate>Fri, 20 Nov 2026 15:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Watch: How Much Does a Navy SEAL Make?</title>
+      <link>https://sofrep.com/?p=232606&amp;preview=true&amp;preview_id=232606</link>
+      <description>Former Navy SEAL Brandon Webb explains what you can expect to earn as a Navy SEAL. He covers the difference between officer and enlisted pay and the different career paths. #NavySEALs #SpecialOperations #MilitaryPay #NavyCareers #BrandonWebb</description>
+      <guid isPermaLink="false">https://sofrep.com/?p=232606&amp;preview=true&amp;preview_id=232606</guid>
+      <pubDate>Fri, 20 Nov 2026 15:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026</title>
+      <link>https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026</link>
+      <description>&lt;div class="tag country"&gt;Countries: World, Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon, Central African Republic, Chad, Comoros, Congo, Côte d'Ivoire, Democratic Republic of the Congo, Djibouti, Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mozambique, Namibia, Niger, Nigeria, Rwanda, Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Togo, Uganda, United Republic of Tanzania, Zambia, Zimbabwe&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: Food and Agriculture Organization of the United Nations&lt;/div&gt;
+                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/99/c3/99c3e780-2ca4-4946-bad2-1796129fe762.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;&lt;strong&gt;Synopsis (short abstract)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The cereal supply and demand balances included in this report present a subset of data from the FAO/GIEWS Country Cereal Balance System (CCBS) database created and continuously kept up to date by the Global Information and Early Warning System on Food and Agriculture (GIEWS) and Basic Foodstuffs teams of the Markets and Trade Division, with data since 1980. The report contains annual supply and utilization balances for the main cereals produced and consumed for over 220 countries/areas, from which (sub) regional and global aggregates are drawn.&lt;/p&gt;
+&lt;p&gt;This statistical report contains a subset of cereal country balance sheets (CCBS) data and presents updated cereal supply and demand balances for all sub-Saharan African countries. It complements the information of the FAO/GIEWS Crop Prospects and Food Situation report and is published four times a year with the same schedule.&lt;/p&gt;
+&lt;p&gt;This report is based on information available as at October 2026.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 15:01:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>CAR: République centrafricaine : Rapport de situation N° 94 au 17 novembre 2026</title>
+      <link>https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg-94-au-17-novembre-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: Central African Republic&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
+                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3e/bb/3ebb47a0-7d09-429b-b95b-bdc840669bac.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;&lt;strong&gt;FAITS SAILLANTS&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Malgré un contexte toujours volatil, certains mouvements humanitaires ont repris autour de Zémio.&lt;/li&gt;
+&lt;li&gt;Des infrastructures pour prévenir les conflits agro-pastoraux et réduire les tensions entre éleveurs et agriculteurs dans l’Ouham-Pendé.&lt;/li&gt;
+&lt;li&gt;3 900 élèves reçoivent des kits scolaires à Kaga-Bandoro et M’brès.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;CONTEXTE GÉNÉRAL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Préfecture du Haut-Mbomou – Sud-Est&lt;/p&gt;
+&lt;p&gt;La situation sécuritaire demeure volatile dans la région de Zémio, malgré une accalmie relative observée récemment sur certains axes routiers autour de la ville. Dans ce contexte, les acteurs humanitaires ont progressivement repris certains déplacements et activités dans les zones affectées par les restrictions de mouvement en vigueur depuis septembre dernier. Une reprise limitée de la circulation des populations civiles a également été observée sur les principaux axes concernés, tandis que le personnel des formations sanitaires périphériques a pu se rendre à Zémio pour s’approvisionner en médicaments. Aucun incident n’a été rapporté récemment sur ces itinéraires. Une organisation humanitaire a par ailleurs effectué des déplacements sur l’axe Zémio-Dembia afin de conduire des évaluations. Compte tenu de la volatilité persistante du contexte sécuritaire, les partenaires humanitaires continuent de suivre étroitement l’évolution de la situation et maintiennent les mesures de gestion des risques et de sécurité en vigueur.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BESOINS ET RÉPONSE HUMANITAIRE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Santé&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Préfecture de la Haute-Kotto – Centre&lt;/p&gt;
+&lt;p&gt;Le 11 novembre 2026, le Fonds des Nations Unies pour la population (UNFPA) et son partenaire International Medical Corps (IMC) ont clôturé leur campagne de prise en charge holistique des femmes vivant avec une fistule obstétricale. Au total, 33 patientes ont bénéficié de soins spécialisés à Bria, avec un taux de réussite de 88 %. 15 autres patientes ont été confrontées à des difficultés de déplacement pour atteindre Bria depuis Ndele dans la préfecture du Bamingui-Bangoran. Afin d’améliorer l’accès à ces services dans cette préfecture, une seconde campagne de deux semaines a lieu à Ndele du 12 au 26 novembre 2026.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Multisectoriel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Préfecture de la Vakaga – Nord-Est&lt;/p&gt;
+&lt;p&gt;Le 11 novembre 2026, l’ONG COHEB, dans le cadre du projet de Travaux de haute intensité à main d’œuvre (THIMO) mis en œuvre à travers le Programme d’appui d’urgence à la stabilisation et au relèvement des réfugiés et des communautés hôtes dans le bassin du Lac Tchad (PASRRC), a procédé à une distribution monétaire au profit de 400 bénéficiaires, dont 150 réfugiés soudanais et 250 membres des communautés hôtes. A travers l’approche « travail contre rémunération », chaque bénéficiaire a reçu une assistance en espèces de 30 000 FCFA, visant à soutenir les moyens d’existence et à répondre aux besoins prioritaires des ménages vulnérables.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg-94-au-17-novembre-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 15:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accountability to Affected Populations (AAP) Working Group South Sudan Meeting Minutes - 24 June 2026</title>
+      <link>https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-24-june-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: South Sudan&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: International Organization for Migration&lt;/div&gt;
+                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b7/48/b748c0fb-57fe-4030-9591-b3bf3a1f6fd3.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-24-june-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 15:11:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Central African Republic: Situation Report No. 94, as of 17 November 2026</title>
+      <link>https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-94-17-november-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: Central African Republic&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: UN Office for the Coordination of Humanitarian Affairs&lt;/div&gt;
+                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/dd/e0/dde04af6-f932-492f-b877-9b32f64b386e.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;&lt;strong&gt;HIGHLIGHTS&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Despite a still volatile context, some humanitarian movements have resumed around Zémio.&lt;/li&gt;
+&lt;li&gt;Infrastructure has been installed in Ouham-Pendé to help prevent agro-pastoral conflicts and reduce tensions between herders and farmers.&lt;/li&gt;
+&lt;li&gt;3,900 students received school kits in Kaga-Bandoro and M’brès.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;GENERAL CONTEXT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Haut-Mbomou Prefecture – South-East&lt;/p&gt;
+&lt;p&gt;The security situation remains volatile in the Zémio area, despite a relative improvement recently observed along certain roads around the town. In this context, humanitarian actors have gradually resumed some movements and activities in areas affected by movement restrictions that have been in place since September. A limited resumption of civilian movement has also been observed on the main road corridors, while staff from peripheral health facilities have been able to travel to Zémio to replenish medical supplies. No incidents have recently been reported on these routes. A humanitarian organization also conducted movements along the Zémio-Dembia axis to carry out assessments. Given the continuing volatility of the security environment, humanitarian partners are closely monitoring developments and maintaining existing security and risk-management measures.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HUMANITARIAN NEEDS AND RESPONSE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Health&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Haute-Kotto Prefecture – Central&lt;/p&gt;
+&lt;p&gt;On 11 November, the United Nations Population Fund (UNFPA) and its partner International Medical Corps (IMC) concluded their campaign providing comprehensive care for women living with obstetric fistula. A total of 33 patients received specialized treatment in Bria, with an 88 per cent success rate. 15 other patients faced transportation challenges in reaching Bria from Ndele in Bamingui-Bangoran Prefecture. To improve access to services in that area, a second two-week campaign is being conducted in Ndele from 12 to 26 November 2026.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Multi-sector&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Vakaga Prefecture – North-East&lt;/p&gt;
+&lt;p&gt;On 11 November, the NGO COHEB, under a labour-intensive work project implemented through the Emergency Project to Support the Stabilization and Recovery of Refugees and Host Communities in the Lake Chad Basin (PASRRC), distributed cash assistance to 400 beneficiaries, including 150 Sudanese refugees and 250 members of host communities. Through the cash-for-work approach, each beneficiary received 30,000 CFA francs to support livelihoods and meet priority household needs.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-94-17-november-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 15:14:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accountability to Affected Populations (AAP) Working Group South Sudan Meeting Minutes - 25 May 2026</title>
+      <link>https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-25-may-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: South Sudan&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: International Organization for Migration&lt;/div&gt;
+                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/51/91/5191d1de-9d68-4867-8604-599b64b0b6fc.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-25-may-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 15:18:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>At Least 9 Killed In Russian Attacks On Ukraine, Kyiv Bridges Damaged</title>
+      <link>https://www.rferl.org/a/at-least-9-killed-in-russian-attacks-on-ukraine-kyiv-bridges-damaged/33902696.html</link>
+      <description>At least nine people were killed and 28 injured on November 20 in an overnight Russian drone and ballistic missile attack on Ukraine. In Kyiv, damaged bridges have been partially closed to traffic, forcing residents to cross the Dnieper River on foot. Strikes also hit other regions.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/at-least-9-killed-in-russian-attacks-on-ukraine-kyiv-bridges-damaged/33902696.html</guid>
+      <pubDate>Fri, 20 Nov 2026 15:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Haiti: Haïti : Cluster Abris, Terre et Coordination des Sites (SLSC) – Aperçu mensuel, octobre 2026</title>
+      <link>https://reliefweb.int/report/haiti/haiti-cluster-abris-terre-et-coordination-des-sites-slsc-apercu-mensuel-octobre-2026</link>
+      <description>&lt;div class="tag country"&gt;Country: Haiti&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Sources: CCCM Cluster, Housing, Land, and Property Area of Responsibility, Shelter Cluster, Shelter, Land and Site Coordination Cluster&lt;/div&gt;
+                                          &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/43/7c/437c9d4b-1693-4273-9e00-ae8d904a09d1.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached file.&lt;/p&gt;
+                        &lt;p&gt;Cet aperçu mensuel présente la réponse du Cluster Abris, Terre et Coordination des Sites (SLSC) en Haïti : abris et biens non alimentaires (BNA), coordination et gestion des sites (CCCM), et logement, terre et biens (LTB). C'est le premier numéro commun depuis la fusion des clusters Abris/BNA et CCCM.&lt;/p&gt;
+&lt;p&gt;Faits saillants d'octobre 2026 :&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Contexte :&lt;/strong&gt; 1,5 million de personnes déplacées internes (DTM, Round 14), dont 223 821 vivent dans 221 sites actifs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nouveaux déplacements :&lt;/strong&gt; quatre alertes ETT suivies en octobre concernent près de 29 000 personnes en Artibonite et dans l'Ouest. Fin octobre, les inondations ont fait 59 420 sinistrés dans l'Ouest et le Grand Sud.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abris et BNA :&lt;/strong&gt; 54 144 personnes assistées en octobre par 8 partenaires dans 15 communes. Depuis janvier, 345 902 personnes ont été assistées par 20 partenaires dans 44 communes, soit 59 % de la cible du HNRP 2026.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gestion des sites :&lt;/strong&gt; 128 sites sur 221 (58 %) ont un gestionnaire et abritent 84 % des PDI en site. 93 sites, où vivent 35 756 personnes, restent sans gestionnaire, dont 45 en Artibonite.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Redevabilité :&lt;/strong&gt; 299 plaintes et retours reçus en octobre (4 327 depuis janvier) et 1 039 visites dans les centres de ressources communautaires.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lacunes :&lt;/strong&gt; aucune activité Abris/BNA rapportée en 2026 dans les Nippes, le Nord et le Nord-Est. L'insécurité limite l'accès à Petite-Rivière de l'Artibonite, Verrettes et Arcahaie.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Financement :&lt;/strong&gt; 27,0 M$ reçus sur 77,6 M$ requis (35 %). 50,5 M$ restent à mobiliser.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/report/haiti/haiti-cluster-abris-terre-et-coordination-des-sites-slsc-apercu-mensuel-octobre-2026</guid>
+      <pubDate>Fri, 20 Nov 2026 15:38:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pontoon Bridges, Hydrofoils, Tunnels: Barraged By Russia, Kyiv Rushes For Alternative River Crossings</title>
+      <link>https://www.rferl.org/a/ukraine-kyiv-bridges-russia-missile-river-dnieper/33902654.html</link>
+      <description>Russia is deliberately targeting the vital bridges that span the Dnieper River -- and link the two sides of Kyiv. Ukrainian officials are scrambling to come up with alternatives in case the city is completely cut in half.</description>
+      <guid isPermaLink="false">https://www.rferl.org/a/ukraine-kyiv-bridges-russia-missile-river-dnieper/33902654.html</guid>
+      <pubDate>Fri, 20 Nov 2026 15:39:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vendor data breach exposes Chase, Visa, Mastercard customer info</title>
+      <link>https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/</link>
+      <description>J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]</description>
+      <guid isPermaLink="false">https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/</guid>
+      <pubDate>Fri, 20 Nov 2026 15:58:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>India, Bangladesh | Tropical storm AKVAN - DG ECHO Daily Map | 20/11/2026</title>
+      <link>https://reliefweb.int/map/bangladesh/india-bangladesh-tropical-storm-akvan-dg-echo-daily-map-20112026</link>
+      <description>&lt;div class="tag country"&gt;Countries: Bangladesh, India&lt;/div&gt;
+                                      &lt;div class="tag source"&gt;Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations&lt;/div&gt;
+                                                                              &lt;p&gt;&lt;img alt="alt" src="https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/33/a4/33a4016e-56d3-588d-896b-4f501a5ea87b.png" /&gt;&lt;/p&gt;
+                        &lt;p&gt;Please refer to the attached Map.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://reliefweb.int/map/bangladesh/india-bangladesh-tropical-storm-akvan-dg-echo-daily-map-20112026</guid>
+      <pubDate>Fri, 20 Nov 2026 16:17:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pentagon CIO Davies tapped as acting National Cyber Director</title>
+      <link>https://breakingdefense.com/2026/11/pentagon-cio-davies-tapped-as-acting-national-cyber-director/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/pentagon-cio-davies-tapped-as-acting-national-cyber-director/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/9516078-scaled-e1780415125783-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Kirsten Davies is taking over the role for Sean Cairncross at the White House. &lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/11/pentagon-cio-davies-tapped-as-acting-national-cyber-director/</guid>
+      <pubDate>Fri, 20 Nov 2026 16:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One data foundation and many application layers drive the Army’s NGC2 transformation</title>
+      <link>https://breakingdefense.com/2026/11/one-data-foundation-and-many-application-layers-drive-the-armys-ngc2-transformation/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/one-data-foundation-and-many-application-layers-drive-the-armys-ngc2-transformation/"&gt;&lt;img alt="U.S. Army Soldiers with 3rd Battalion, 11th Field Artillery Regiment, 25th Infantry Division Artillery, conduct a fire mission rehearsal on an M777 howitzer during Lightning Surge 2 at Schofield Barracks, Hawaii, Feb. 20, 2026. The soldiers were testing a new workflow where fire missions, received digitally via the Next Generation Command and Control prototype, are executed at the gun line. (U.S. Army photo by Lt. Col. Hayden Howell)" class="attachment-large size-large wp-post-image" height="683" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Lockheed-wrap-1-1024x683.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Across the Indo-Pacific, the Army is testing how shared data and open systems can speed battlefield decisions.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/11/one-data-foundation-and-many-application-layers-drive-the-armys-ngc2-transformation/</guid>
+      <pubDate>Fri, 20 Nov 2026 16:53:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump to keynote Reagan National Defense Forum</title>
+      <link>https://breakingdefense.com/2026/11/trump-to-keynote-reagan-national-defense-forum/</link>
+      <description>&lt;p&gt;&lt;a href="https://breakingdefense.com/2026/11/trump-to-keynote-reagan-national-defense-forum/"&gt;&lt;img alt="" class="attachment-large size-large wp-post-image" height="577" src="https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/GettyImages-2296053046-scaled-e1790098290514-1024x577.jpg" style="height: auto!important;" width="1024" /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Trump will be the first president to attend the RNDF, which has steadily grown in size over the years.&lt;/p&gt;</description>
+      <guid isPermaLink="false">https://breakingdefense.com/2026/11/trump-to-keynote-reagan-national-defense-forum/</guid>
+      <pubDate>Fri, 20 Nov 2026 16:53:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>German attack drones pass live-fire tests, with first deliveries planned this year</title>
+      <link>https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/</link>
+      <description>Two German one-way attack drone variants passed live-fire trials this month, clearing a step toward initial deliveries and troop training before the end of the year, Germany’s military procurement office said.</description>
+      <guid isPermaLink="false">https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/</guid>
+      <pubDate>Fri, 20 Nov 2026 16:55:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>German attack drones pass live-fire tests, with first deliveries planned this year</title>
+      <link>https://www.c4isrnet.com/unmanned/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/</link>
+      <description>Two German one-way attack drone variants passed live-fire trials this month, clearing a step toward initial deliveries and troop training before the end of the year, Germany’s military procurement office said.</description>
+      <guid isPermaLink="false">https://www.c4isrnet.com/unmanned/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/</guid>
+      <pubDate>Fri, 20 Nov 2026 16:55:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
